@@ -1,0 +1,121 @@
+fund_name_raw,standardized_fund_name,fund_family,fund_id,decision_status,seen_in_agents,source_files,a_count,b_count,merge_note
+Fortress Residential Inv. Deutschland,Fortress Residential Inv. Deutschland,Fortress,FUND_0507,decided,02-performance,SRC058,6,0,distinct: separate Fortress vehicle
+Fortress V,Fortress V,Fortress,FUND_0508,decided,02-performance,SRC058,6,0,distinct: separate Fortress vehicle
+"Founders' Co-op III, L.P.","Founders' Co-op III, L.P.",Founders' Co-op,FUND_0019,decided,A+B,SRC035,1,1,distinct: Fund III not Fund IV
+"Founders’ Co-op IV, L.P.","Founders’ Co-op IV, L.P.",Founders' Co-op,FUND_0020,decided,A+B,SRC035,1,1,distinct: Fund IV not Fund III
+"Francisco Partners II, L.P.","Francisco Partners II, L.P.",,FUND_0509,decided,06-statements-and-economics,SRC407,1,0,sole printed spelling; confirmed
+Frontenac XI Private Capital (M) Limited Partnership,Frontenac XI Private Capital (M) Limited Partnership,,FUND_0510,decided,06-statements-and-economics,SRC407,2,0,sole printed spelling; confirmed
+"FS Equity Partners CV1, L.P.","FS Equity Partners CV1, L.P.",,FUND_0511,decided,06-statements-and-economics,SRC407,2,0,sole printed spelling; confirmed
+FSN Capital IV L.P.,FSN Capital IV L.P.,,FUND_0512,decided,06-statements-and-economics,SRC407,2,0,sole printed spelling; confirmed
+FSP - Base,FSP - Base,,FUND_0513,decided,02-performance,SRC063,5,0,distinct: separate FSP sleeve; stem too thin for a family
+FSP - DT 2012 and Beyond,FSP - DT 2012 and Beyond,,FUND_0514,decided,02-performance,SRC063,3,0,distinct: separate FSP sleeve; stem too thin for a family
+"FSV II-B, L.P.","FSV II-B, L.P.",,FUND_0094,decided,A+B,SRC036,1,1,sole printed spelling; confirmed
+Gap Investment Fund,Gap Investment Fund,,FUND_0143,decided,B,SRC040,0,1,sole printed spelling; confirmed
+"General Atlantic Investment Partners 2013, L.P.","General Atlantic Investment Partners 2013, L.P.",,FUND_0515,decided,06-statements-and-economics,SRC407,2,0,sole printed spelling; no sibling in file
+"Genstar Capital Partners VIII BL (EU), L.P.","Genstar Capital Partners VIII BL (EU), L.P.",Genstar,FUND_0516,decided,06-statements-and-economics,SRC407,2,0,distinct: VIII BL (EU) blocker vehicle
+"Genstar Capital Partners XI, L.P.","Genstar Capital Partners XI, L.P.",Genstar,FUND_0517,decided,06-statements-and-economics,SRC407,2,0,distinct: Fund XI series
+"Genstar VIII Opportunities Fund I (EU), L.P.","Genstar VIII Opportunities Fund I (EU), L.P.",Genstar,FUND_0518,decided,06-statements-and-economics,SRC407,2,0,distinct: opportunities fund not the VIII BL vehicle
+GESD Investors II Liquidating Trust,GESD Investors II Liquidating Trust,,FUND_0519,decided,06-statements-and-economics,SRC407,1,0,sole printed spelling; confirmed
+GI Partners Fund II,GI Partners Fund II,GI Partners,FUND_0520,decided,02-performance,SRC058,6,0,distinct: Fund II not Fund III
+GI Partners Fund III,GI Partners Fund III,GI Partners,FUND_0521,decided,02-performance,SRC058,6,0,distinct: Fund III not Fund II
+GID Mainstay Fund,GID Mainstay Fund,,FUND_0522,decided,02-performance,SRC058,6,0,sole printed spelling; confirmed
+GIP Aquarius Fund,"GIP Aquarius Fund, SCSp",Global Infrastructure Partners,FUND_0523,decided,02-performance,SRC060,5,0,merged: same vehicle as the SCSp spelling; fullest printed form kept
+"GIP Aquarius Fund, SCSp","GIP Aquarius Fund, SCSp",Global Infrastructure Partners,FUND_0524,decided,02-performance,SRC063,2,0,merged: fullest printed form of GIP Aquarius Fund
+"GIP IV Gutenberg Co-Invest, SCSP","GIP IV Gutenberg Co-Invest, SCSP",Global Infrastructure Partners,FUND_0525,decided,02-performance,SRC063,1,0,distinct: GIP IV co-invest vehicle
+"GIP IV Seaway Co-Invest 2, L.P.","GIP IV Seaway Co-Invest 2, L.P.",Global Infrastructure Partners,FUND_0526,decided,02-performance,SRC063,1,0,distinct: GIP IV co-invest vehicle
+Glengary LLC,Glengary LLC,,FUND_0095,decided,A+B,SRC036,1,1,sole printed spelling; confirmed
+Global Infrastructure Partners Capital Solutions Fund,Global Infrastructure Partners Capital Solutions Fund,Global Infrastructure Partners,FUND_0527,decided,02-performance,SRC060,6,0,distinct: credit vehicle not a numbered flagship
+Global Infrastructure Partners II,"Global Infrastructure Partners II, L.P. (GIP II)",Global Infrastructure Partners,FUND_0528,decided,02-performance,SRC060,6,0,merged: same vehicle; fullest printed form carries L.P.
+"Global Infrastructure Partners II, L.P. (GIP II)","Global Infrastructure Partners II, L.P. (GIP II)",Global Infrastructure Partners,FUND_0529,decided,02-performance,SRC063,5,0,merged: fullest printed form of Global Infrastructure Partners II
+"Global Infrastructure Partners II-C, L.P.","Global Infrastructure Partners II-C, L.P.",Global Infrastructure Partners,FUND_0156,decided,A+B,SRC462,1,1,distinct: II-C parallel vehicle not GIP II
+Global Infrastructure Partners III,Global Infrastructure Partners III,Global Infrastructure Partners,FUND_0530,decided,02-performance,SRC060,6,0,distinct: Fund III series
+Global Infrastructure Partners IV,Global Infrastructure Partners IV,Global Infrastructure Partners,FUND_0531,decided,02-performance,SRC060,6,0,distinct: Fund IV not the IV-A/B vehicle
+"Global Infrastructure Partners IV-A/B, L.P.","Global Infrastructure Partners IV-A/B, L.P.",Global Infrastructure Partners,FUND_0532,decided,02-performance,SRC063,2,0,distinct: IV-A/B parallel vehicle not GIP IV
+"Golden Gate Capital Opportunity Fund, LP","Golden Gate Capital Opportunity Fund, LP",Golden Gate Capital,FUND_0533,decided,06-statements-and-economics,SRC407,2,0,distinct: main fund not the -A vehicle
+"Golden Gate Capital Opportunity Fund-A, LP","Golden Gate Capital Opportunity Fund-A, LP",Golden Gate Capital,FUND_0534,decided,06-statements-and-economics,SRC407,2,0,distinct: -A parallel vehicle
+Golden Reef Infrastructure Trust,Golden Reef Infrastructure Trust,,FUND_0535,decided,02-performance,SRC063,4,0,sole printed spelling; unrelated to Golden Gate
+"Goode Partners Consumer Fund III, L.P.","Goode Partners Consumer Fund III, L.P.",,FUND_0021,decided,A+B,SRC035,1,1,sole printed spelling; confirmed
+Gotham Office Realty Partnership,Gotham Office Realty Partnership,,FUND_0536,decided,02-performance,SRC063,2,0,sole printed spelling; confirmed
+"Grain Communications Opportunity Fund III, L.P.","Grain Communications Opportunity Fund III, L.P.",,FUND_0022,decided,A+B,SRC035,1,1,sole printed spelling; confirmed
+"Great Hill Equity Partners IV, L.P.","Great Hill Equity Partners IV, L.P.",,FUND_0537,decided,06-statements-and-economics,SRC407,2,0,sole printed spelling; no sibling in file
+"Green Equity Investors CF II, L.P.","Green Equity Investors CF II, L.P.",Green Equity Investors,FUND_0538,decided,06-statements-and-economics,SRC407,2,0,distinct: CF II co-invest vehicle
+"Green Equity Investors CF IV J, L.P.","Green Equity Investors CF IV J, L.P.",Green Equity Investors,FUND_0539,decided,06-statements-and-economics,SRC407,2,0,distinct: CF IV J co-invest vehicle
+"Green Equity Investors CF IV-A, L.P.","Green Equity Investors CF IV-A, L.P.",Green Equity Investors,FUND_0540,decided,06-statements-and-economics,SRC407,2,0,distinct: CF IV-A not CF IV J
+"Green Equity Investors CF, L.P.","Green Equity Investors CF, L.P.",Green Equity Investors,FUND_0541,decided,06-statements-and-economics,SRC407,2,0,distinct: unnumbered CF vehicle
+"Green Equity Investors Side IX, L.P.","Green Equity Investors Side IX, L.P.",Green Equity Investors,FUND_0542,decided,06-statements-and-economics,SRC407,2,0,distinct: Side IX side vehicle
+"Green Equity Investors Side VI, L.P.","Green Equity Investors Side VI, L.P.",Green Equity Investors,FUND_0543,decided,06-statements-and-economics,SRC407,2,0,distinct: Side VI side vehicle
+"Green Equity Investors V, L.P.","Green Equity Investors V, L.P.",Green Equity Investors,FUND_0544,decided,06-statements-and-economics,SRC407,2,0,distinct: Fund V series
+"Green Equity Investors VI, L.P.","Green Equity Investors VI, L.P.",Green Equity Investors,FUND_0545,decided,06-statements-and-economics,SRC407,2,0,distinct: Fund VI not Side VI
+"Green Equity Investors VII, L.P.","Green Equity Investors VII, L.P.",Green Equity Investors,FUND_0546,decided,06-statements-and-economics,SRC407,2,0,distinct: Fund VII series
+"Green Equity Investors VIII, L.P.","Green Equity Investors VIII, L.P.",Green Equity Investors,FUND_0547,decided,06-statements-and-economics,SRC407,2,0,distinct: Fund VIII series
+"Greenfield Acquisition Partners V, L.P.","Greenfield Acquisition Partners V, L.P.",Greenfield,FUND_0548,decided,04-quarterly-report,SRC457,16,0,distinct: acquisition partners series not Greenfield Partners III
+Greenfield Partners III,Greenfield Partners III,Greenfield,FUND_0549,decided,02-performance,SRC058,6,0,distinct: separate Greenfield series
+Greystar Residential,Greystar Residential,,FUND_0550,decided,02-performance,SRC058,4,0,sole printed spelling; confirmed
+GRI - Base,GRI - Base,,FUND_0551,decided,02-performance,SRC063,5,0,distinct: separate GRI sleeve; stem too thin for a family
+GRI - DT 2012 and Beyond,GRI - DT 2012 and Beyond,,FUND_0552,decided,02-performance,SRC063,3,0,distinct: separate GRI sleeve; stem too thin for a family
+"Gridiron Capital Fund II, L.P.","Gridiron Capital Fund II, L.P.",,FUND_0553,decided,06-statements-and-economics,SRC407,2,0,distinct: shared word only; sponsor unconfirmed so family blank
+"Gridiron Energy Feeder I, L.P.","Gridiron Energy Feeder I, L.P.",,FUND_0554,decided,06-statements-and-economics,SRC407,2,0,distinct: shared word only; sponsor unconfirmed so family blank
+Growth Fund,Growth Fund,,FUND_0132,decided,B,SRC039,0,1,sole printed spelling in file; generic name kept as printed
+"Gryphon Co-Invest Fund IV, L.P.","Gryphon Co-Invest Fund IV, L.P.",Gryphon,FUND_0555,decided,06-statements-and-economics,SRC407,2,0,distinct: co-invest vehicle not Gryphon Partners IV
+"Gryphon Heritage Partners, L.P.","Gryphon Heritage Partners, L.P.",Gryphon,FUND_0556,decided,06-statements-and-economics,SRC407,2,0,distinct: heritage vehicle
+"Gryphon Mezzanine Partners II, L.P.","Gryphon Mezzanine Partners II, L.P.",Gryphon,FUND_0557,decided,06-statements-and-economics,SRC407,2,0,distinct: Fund II not the unnumbered mezzanine fund
+"Gryphon Mezzanine Partners, L.P.","Gryphon Mezzanine Partners, L.P.",Gryphon,FUND_0558,decided,06-statements-and-economics,SRC407,2,0,distinct: unnumbered mezzanine fund not Fund II
+"Gryphon Odin CV, L.P.","Gryphon Odin CV, L.P.",Gryphon,FUND_0559,decided,06-statements-and-economics,SRC407,2,0,distinct: continuation vehicle not the -A vehicle
+"Gryphon Odin CV-A, L.P.","Gryphon Odin CV-A, L.P.",Gryphon,FUND_0560,decided,06-statements-and-economics,SRC407,2,0,distinct: -A parallel vehicle
+"Gryphon Partners 3.5, L.P.","Gryphon Partners 3.5, L.P.",Gryphon,FUND_0561,decided,06-statements-and-economics,SRC407,2,0,distinct: 3.5 series
+"Gryphon Partners IV, L.P.","Gryphon Partners IV, L.P.",Gryphon,FUND_0562,decided,06-statements-and-economics,SRC407,4,0,distinct: Fund IV series
+"Gryphon Partners V, L.P.","Gryphon Partners V, L.P.",Gryphon,FUND_0563,decided,06-statements-and-economics,SRC407,2,0,distinct: Fund V not V-A
+"Gryphon Partners V-A, L.P.","Gryphon Partners V-A, L.P.",Gryphon,FUND_0564,decided,06-statements-and-economics,SRC407,2,0,distinct: V-A parallel vehicle
+"Gryphon Partners VI, L.P.","Gryphon Partners VI, L.P.",Gryphon,FUND_0565,decided,06-statements-and-economics,SRC407,2,0,distinct: Fund VI not VI-A
+"Gryphon Partners VI-A, L.P.","Gryphon Partners VI-A, L.P.",Gryphon,FUND_0566,decided,06-statements-and-economics,SRC407,2,0,distinct: VI-A parallel vehicle
+GSO Capital Opportunities Overseas Fund L.P.,GSO Capital Opportunities Overseas Fund L.P.,GSO,FUND_0567,decided,06-statements-and-economics,SRC407,1,0,distinct: capital opportunities vehicle
+"GSO Private Investors Offshore II, L.P.","GSO Private Investors Offshore II, L.P.",GSO,FUND_0568,decided,06-statements-and-economics,SRC407,2,0,distinct: private investors vehicle
+"Guggenheim Structured Real Estate II, L.P.","Guggenheim Structured Real Estate II, L.P.",Guggenheim Structured Real Estate,FUND_0569,decided,02-performance,SRC058,5,0,distinct: Fund II not Fund III
+Guggenheim Structured Real Estate III,"Guggenheim Structured Real Estate III, LP",Guggenheim Structured Real Estate,,decided,02-performance,SRC058,6,0,merged: same vehicle; fullest printed form carries LP
+"Guggenheim Structured Real Estate III, LP","Guggenheim Structured Real Estate III, LP",Guggenheim Structured Real Estate,,decided,04-quarterly-report,SRC457,2,0,merged: fullest printed form of Guggenheim Structured Real Estate III
+"Guggenheim Structured Real Estate, L.P.","Guggenheim Structured Real Estate, L.P.",Guggenheim Structured Real Estate,FUND_0570,decided,02-performance,SRC058,6,0,distinct: unnumbered first fund not II or III
+"H&F Arrow 2, L.P.","H&F Arrow 2, L.P.",H&F,FUND_0571,decided,06-statements-and-economics,SRC407,2,0,distinct: named co-invest vehicle
+"H&F Clyde 2, L.P.","H&F Clyde 2, L.P.",H&F,FUND_0572,decided,06-statements-and-economics,SRC407,2,0,distinct: named co-invest vehicle
+"H&F Executives IX, L.P.","H&F Executives IX, L.P.",H&F,FUND_0573,decided,06-statements-and-economics,SRC407,2,0,distinct: Executives IX not VIII
+"H&F Executives VIII, L.P.","H&F Executives VIII, L.P.",H&F,FUND_0574,decided,06-statements-and-economics,SRC407,2,0,distinct: Executives VIII not IX
+"H.I.G. Advantage Buyout Fund, L.P.","H.I.G. Advantage Buyout Fund, L.P.",H.I.G.,FUND_0575,decided,06-statements-and-economics,SRC407,2,0,distinct: advantage buyout strategy
+"H.I.G. Bayside Debt & LBO Fund II, L.P.","H.I.G. Bayside Debt & LBO Fund II, L.P.",H.I.G.,FUND_0576,decided,06-statements-and-economics,SRC407,2,0,distinct: Bayside debt strategy
+"H.I.G. Capital Partners IV, L.P.","H.I.G. Capital Partners IV, L.P.",H.I.G.,FUND_0577,decided,06-statements-and-economics,SRC407,2,0,distinct: Fund IV not Fund V
+"H.I.G. Capital Partners V, L.P.","H.I.G. Capital Partners V, L.P.",H.I.G.,FUND_0578,decided,06-statements-and-economics,SRC407,2,0,distinct: Fund V not Fund IV
+"H.I.G. Growth Buyouts & Equity Fund II, L.P.","H.I.G. Growth Buyouts & Equity Fund II, L.P.",H.I.G.,FUND_0579,decided,06-statements-and-economics,SRC407,2,0,distinct: growth strategy not Capital Partners
+Halderman Farmland Separate Account,Halderman Farmland Separate Account,,FUND_0580,decided,04-quarterly-report,SRC457,16,0,sole printed spelling; confirmed
+"Halifax Capital Partners IV, L.P.","Halifax Capital Partners IV, L.P.",Halifax Capital Partners,FUND_0581,decided,06-statements-and-economics,SRC407,2,0,distinct: Fund IV not Fund V
+"Halifax Capital Partners V, L.P.","Halifax Capital Partners V, L.P.",Halifax Capital Partners,FUND_0582,decided,06-statements-and-economics,SRC407,2,0,distinct: Fund V not Fund IV
+Hamilton Lane-Carpenters Partnership Fund IV L.P.,Hamilton Lane-Carpenters Partnership Fund IV L.P.,Hamilton Lane,FUND_0583,decided,06-statements-and-economics,SRC407,2,0,distinct: Fund IV not Fund V
+Hamilton Lane-Carpenters Partnership Fund V L.P.,Hamilton Lane-Carpenters Partnership Fund V L.P.,Hamilton Lane,FUND_0584,decided,06-statements-and-economics,SRC407,2,0,distinct: Fund V not Fund IV
+"Hammes Income & Growth Healthcare Fund, L.P.","Hammes Income & Growth Healthcare Fund, L.P.",Hammes,FUND_0585,decided,02-performance,SRC058,5,0,distinct: income and growth vehicle not Hammes Partners
+"Hammes Partners II, L.P.","Hammes Partners II, L.P.",Hammes,FUND_0586,decided,04-quarterly-report,SRC457,16,0,distinct: Fund II not Fund III
+"Hammes Partners III, L.P.","Hammes Partners III, L.P.",Hammes,FUND_0587,decided,04-quarterly-report,SRC457,15,0,distinct: Fund III not Fund II
+Hampstead I,Hampstead I,Hampstead,FUND_0588,decided,02-performance,SRC058,6,0,distinct: Fund I series
+Hampstead II,Hampstead II,Hampstead,FUND_0589,decided,02-performance,SRC058,6,0,distinct: Fund II series
+Hampstead III,Hampstead III,Hampstead,FUND_0590,decided,02-performance,SRC058,6,0,distinct: Fund III series
+"Hancock GLC Farms, LLC","Hancock GLC Farms, LLC",,FUND_0591,decided,04-quarterly-report,SRC457,17,0,sole printed spelling; confirmed
+HANNATHON CIV LP,HANNATHON CIV LP,,FUND_0592,decided,03-institutional-report,SRC356,1,0,sole printed spelling; kept as printed
+"Harbert Gulf Pacific Power, LLC (HGPP)","Harbert Gulf Pacific Power, LLC (HGPP)",Harbert,FUND_0593,decided,02-performance,SRC063,4,0,distinct: named asset vehicle
+"Harbert Infrastructure Fund VI, L.P.","Harbert Infrastructure Fund VI, L.P.",Harbert,FUND_0594,decided,02-performance,SRC063,2,0,distinct: infrastructure series
+"Harbert Power Fund V, L.P. (HPF V)","Harbert Power Fund V, L.P. (HPF V)",Harbert,FUND_0595,decided,02-performance,SRC063,4,0,distinct: power series not infrastructure
+Harrison Street Core Property Fund Co-Investment,Harrison Street Core Property Fund Co-Investment,Harrison Street,FUND_0596,decided,02-performance,SRC058,6,0,distinct: co-investment sleeve not the fund
+"Harrison Street Core Property Fund, LP","Harrison Street Core Property Fund, LP",Harrison Street,FUND_0597,decided,02-performance,SRC058,6,0,distinct: the fund not its co-investment sleeve
+Harrison Street Life Science Core,Harrison Street Life Science Core,Harrison Street,FUND_0598,decided,02-performance,SRC058,4,0,distinct: core life science vehicle
+Harrison Street Life Science Non-Core,Harrison Street Life Science Non-Core,Harrison Street,FUND_0599,decided,02-performance,SRC058,6,0,distinct: non-core life science vehicle
+Harrison Street Life Science SMA Account,Harrison Street Life Science SMA Account,Harrison Street,FUND_0600,decided,02-performance,SRC058,4,0,distinct: separate account not a commingled fund
+Harrison Street Real Estate Partners IX,Harrison Street Real Estate Partners IX,Harrison Street,FUND_0601,decided,02-performance,SRC058,6,0,distinct: Fund IX series
+Harrison Street Real Estate Partners V-A,Harrison Street Real Estate Partners V-A,Harrison Street,FUND_0602,decided,02-performance,SRC058,6,0,distinct: V-A parallel vehicle not the REP V co-investment
+Harrison Street REP V Co-Investment,Harrison Street REP V Co-Investment,Harrison Street,FUND_0603,decided,02-performance,SRC058,6,0,distinct: REP V co-investment sleeve not REP V-A
+Harrison Street REP VIII,Harrison Street REP VIII,Harrison Street,FUND_0604,decided,02-performance,SRC058,6,0,distinct: Fund VIII series
+Harrison Street SIF Co-Investment I,Harrison Street SIF Co-Investment I,Harrison Street,FUND_0605,decided,02-performance,SRC060,5,0,distinct: co-investment sleeve not the social infrastructure fund
+Harrison Street Social Infrastructure Fund,Harrison Street Social Infrastructure Fund,Harrison Street,FUND_0606,decided,02-performance,SRC060,5,0,distinct: the fund not its co-investment sleeve
+Harvest MLP,Harvest MLP,,FUND_0607,decided,04-quarterly-report,SRC457,14,0,distinct: shared word only; not a Harvest Partners vehicle
+"Harvest Partners Structured Capital Fund II, L.P.","Harvest Partners Structured Capital Fund II, L.P.",Harvest Partners,FUND_0608,decided,06-statements-and-economics,SRC407,2,0,distinct: Fund II not Fund III
+"Harvest Partners Structured Capital Fund III, L.P.","Harvest Partners Structured Capital Fund III, L.P.",Harvest Partners,FUND_0609,decided,06-statements-and-economics,SRC407,2,0,distinct: Fund III not Fund II
+"Harvest Partners Structured Capital Fund, L.P.","Harvest Partners Structured Capital Fund, L.P.",Harvest Partners,FUND_0610,decided,06-statements-and-economics,SRC407,2,0,distinct: unnumbered first fund not II or III
+"HC Green Development Fund, L.P.","HC Green Development Fund, L.P.",,FUND_0611,decided,02-performance,SRC063,5,0,sole printed spelling; HC prefix too thin for a family
+HC LTH LLC,HC LTH LLC,,FUND_0612,decided,02-performance,SRC063,3,0,sole printed spelling; HC prefix too thin for a family
+"HCB Interests II, L.P.","HCB Interests II, L.P.",,FUND_0613,decided,02-performance,SRC063,5,0,sole printed spelling; confirmed
+"HCI Equity Partners EV I, L.P.","HCI Equity Partners EV I, L.P.",HCI Equity Partners,FUND_0614,decided,06-statements-and-economics,SRC407,2,0,distinct: EV I co-invest vehicle
+"HCI Equity Partners IV, L.P.","HCI Equity Partners IV, L.P.",HCI Equity Partners,FUND_0615,decided,06-statements-and-economics,SRC407,2,0,distinct: Fund IV series

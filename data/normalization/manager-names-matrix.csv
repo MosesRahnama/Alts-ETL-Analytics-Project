@@ -1,0 +1,37 @@
+manager_name_raw,standardized_manager_name,manager_id,decision_status,seen_in_agents,source_files,a_count,b_count,merge_note
+Advisor,Advisor,MGR_0092,auto,06-statements-and-economics,SRC247,2,0,auto: only printed variant of this name in the corpus
+Antares Capital,Antares Capital,MGR_0093,auto,04-quarterly-report,SRC606,1,0,auto: only printed variant of this name in the corpus
+Bear Stearns,Bear Stearns,MGR_0094,auto,05-fund-legal-docs,SRC107,1,0,auto: only printed variant of this name in the corpus
+Bear Stearns Asset Management Inc.,Bear Stearns Asset Management Inc.,MGR_0095,auto,05-fund-legal-docs,SRC107,2,0,auto: only printed variant of this name in the corpus
+broker dealers,broker dealers,MGR_0096,auto,05-fund-legal-docs,SRC107,1,0,auto: only printed variant of this name in the corpus
+BSAM,BSAM,MGR_0097,auto,05-fund-legal-docs,SRC107,4,0,auto: only printed variant of this name in the corpus
+"Buckeye Venture Partners, LLC","Buckeye Venture Partners, LLC",MGR_0001,decided,A+B,SRC036,1,1,
+Citigroup,Citigroup,MGR_0098,auto,03-institutional-report,SRC192,1,0,auto: only printed variant of this name in the corpus
+Cowen,Cowen,MGR_0099,auto,03-institutional-report,SRC192,1,0,auto: only printed variant of this name in the corpus
+Daiwa,Daiwa,MGR_0100,auto,03-institutional-report,SRC192,1,0,auto: only printed variant of this name in the corpus
+Glass Lewis,Glass Lewis,MGR_0101,auto,07-institutional-mission,SRC151,20,0,auto: only printed variant of this name in the corpus
+Goldman Sachs,Goldman Sachs,MGR_0102,auto,03-institutional-report,SRC192,1,0,auto: only printed variant of this name in the corpus
+Hamilton Lane,Hamilton Lane,MGR_0103,auto,04-quarterly-report,SRC457,1,0,auto: only printed variant of this name in the corpus
+Harvest Fund Advisors LLC,Harvest Fund Advisors LLC,MGR_0104,auto,05-fund-legal-docs,SRC612,1,0,auto: only printed variant of this name in the corpus
+HERITAGE PARTNERS.INC,HERITAGE PARTNERS.INC,MGR_0090,decided,A+B,SRC101,1,1,
+HGSCS team,HGSCS team,MGR_0105,auto,05-fund-legal-docs,SRC107,1,0,auto: only printed variant of this name in the corpus
+HSBC Securities,HSBC Securities,MGR_0106,auto,03-institutional-report,SRC192,1,0,auto: only printed variant of this name in the corpus
+independent valuation advisor,independent valuation advisor,MGR_0107,auto,06-statements-and-economics,SRC247,1,0,auto: only printed variant of this name in the corpus
+Instinet,Instinet,MGR_0108,auto,03-institutional-report,SRC192,1,0,auto: only printed variant of this name in the corpus
+Jefferies,Jefferies,MGR_0109,auto,03-institutional-report,SRC192,1,0,auto: only printed variant of this name in the corpus
+Jefferson Partners Fund IV Management Corp.,Jefferson Partners Fund IV Management Corp.,MGR_0010,decided,B,SRC102,0,1,
+"JPIV G.P., L.P.","JPIV G.P., L.P.",MGR_0091,decided,A,SRC102,1,0,
+"Lubert-Adler Group VII, L.P.","Lubert-Adler Group VII, L.P.",MGR_0110,auto,05-fund-legal-docs,SRC607,7,0,auto: only printed variant of this name in the corpus
+MEKETA INVESTMENT GROUP,MEKETA INVESTMENT GROUP,MGR_0111,auto,02-performance,SRC035,1,0,auto: only printed variant of this name in the corpus
+Morgan Stanley,Morgan Stanley,MGR_0112,auto,03-institutional-report,SRC192,1,0,auto: only printed variant of this name in the corpus
+Office of the Chief Investment Officer of the Regents (UC Investments),Office of the Chief Investment Officer of the Regents (UC Investments),MGR_0113,auto,04-quarterly-report,SRC384,1,0,auto: only printed variant of this name in the corpus
+public markets investment advisors,public markets investment advisors,MGR_0114,auto,05-fund-legal-docs,SRC612,1,0,auto: only printed variant of this name in the corpus
+reo® service,reo® service,MGR_0115,auto,07-institutional-mission,SRC339,8,0,auto: only printed variant of this name in the corpus
+Sanford C Bernstein,Sanford C Bernstein,MGR_0116,auto,03-institutional-report,SRC192,1,0,auto: only printed variant of this name in the corpus
+"Starwood REIT Advisors, L.L.C.","Starwood REIT Advisors, L.L.C.",MGR_0004,decided,A+B,SRC054,1,1,
+UBS Warburg,UBS Warburg,MGR_0117,auto,03-institutional-report,SRC192,1,0,auto: only printed variant of this name in the corpus
+University of South Carolina Foundations,University of South Carolina Foundations,MGR_0118,auto,03-institutional-report,SRC389,1,0,auto: only printed variant of this name in the corpus
+University of Texas/Texas A&M Investment Management Company (UTIMCO),University of Texas/Texas A&M Investment Management Company (UTIMCO),MGR_0119,auto,03-institutional-report,SRC356,1,0,auto: only printed variant of this name in the corpus
+University of Virginia Investment Management Company,University of Virginia Investment Management Company,MGR_0120,auto,03-institutional-report,SRC375,1,0,auto: only printed variant of this name in the corpus
+Utah Capital Investment Corporation,Utah Capital Investment Corporation,MGR_0006,decided,A+B,SRC037,1,1,
+Utah Retirement Systems,Utah Retirement Systems,MGR_0121,auto,03-institutional-report,SRC192,1,0,auto: only printed variant of this name in the corpus

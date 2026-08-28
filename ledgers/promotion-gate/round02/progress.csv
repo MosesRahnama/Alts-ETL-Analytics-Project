@@ -1,0 +1,8 @@
+batch_id,round_id,file_count,status
+01-financials,02,4,ACCEPTED
+02-performance,02,5,ACCEPTED
+03-institutional-report,02,5,ACCEPTED
+04-quarterly-report,02,3,ACCEPTED
+05-fund-legal-docs,02,3,ACCEPTED
+06-statements-and-economics,02,5,ACCEPTED
+07-institutional-mission,02,3,ACCEPTED

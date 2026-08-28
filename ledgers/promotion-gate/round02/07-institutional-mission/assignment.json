@@ -1,0 +1,18 @@
+{
+  "batch_id": "07-institutional-mission",
+  "round_id": "02",
+  "files": [
+    {
+      "file_id": "SRC151",
+      "source_sha256": "5cc8128360b5ed8c4cc0ad7d9f9b52cb19de87d105ed8a745ffd0db6e53373e3"
+    },
+    {
+      "file_id": "SRC329",
+      "source_sha256": "4f064e09a6d0e0b61d9ca94b0bb018d87e3d3c2a9b212c31463dd4f4b33d7150"
+    },
+    {
+      "file_id": "SRC339",
+      "source_sha256": "515888513c1cef84c8e5e67ff2186012c9fb069191591cec8966e568dc4e556e"
+    }
+  ]
+}

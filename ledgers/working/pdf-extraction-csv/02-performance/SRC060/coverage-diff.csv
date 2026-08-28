@@ -1,0 +1,3 @@
+"source_page","a_page_status","b_page_status","a_layout_checked","b_layout_checked","a_expected_observation_count","b_expected_observation_count","a_source_structures","b_source_structures","a_relevant_record_families","b_relevant_record_families","difference_fields"
+"1","ELIGIBLE_DATA_EXTRACTED","ELIGIBLE_DATA_EXTRACTED","YES","YES","298","298","Alternatives Portfolio","Alternatives Portfolio","document_context | fund_economics_observation","document_context | fund_economics_observation","DETERMINISTIC_SAMPLE"
+"2","ELIGIBLE_DATA_EXTRACTED","ELIGIBLE_DATA_EXTRACTED","YES","YES","174","168","Alternatives Portfolio","Alternatives Portfolio","fund_economics_observation","fund_economics_observation","expected_observation_count"

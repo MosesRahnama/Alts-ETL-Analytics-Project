@@ -1,0 +1,5 @@
+"route","agent_role","extractor_model","claimed_at","claimed_by"
+"03-institutional-report","A","claude-sonnet-5","2026-08-23T17:53:16Z",""
+"03-institutional-report","B","gpt-5","2026-08-23T19:35:18Z",""
+"03-institutional-report","J1","claude-opus-5","2026-08-24T00:45:15Z",""
+"03-institutional-report","J2","claude-opus-5","2026-08-24T00:45:36Z",""

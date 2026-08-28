@@ -1,0 +1,4 @@
+﻿sample_order,file_id,filename,page_count,issuer,selection_reason
+1,SRC612,LPA_PA_SERS_Harvest_MLP_Real_Asset_Management_Agreement_Redacted.pdf,48,Pennsylvania State Employees' Retirement System (released via PA General Assembly Act 5 data request),census: population <=5
+2,SRC004,LPA_SCP_Private_Equity_Partners_II_Public_FOIA.pdf,62.0,"SCP Private Equity Partners II, LP",census: population <=5
+3,SRC003,LPA_ILPA_Model_Whole_of_Fund.pdf,75.0,ILPA,census: population <=5

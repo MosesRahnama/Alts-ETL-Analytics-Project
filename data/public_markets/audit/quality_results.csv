@@ -1,0 +1,11 @@
+check_id,scope,status,actual,expected,tolerance,note
+PMQ01,Selected file count,PASS,334,334,,Every declared selection matched its expected count.
+PMQ02,Transferred bytes,PASS,59383381,<= 104857600,,The transfer stays inside the size safety bound.
+PMQ03,Source-copy hash matches,PASS,334,334,,Each retained file passed SHA-256 comparison.
+PMQ04,Positive source rows,PASS,334,334,,Every selected Parquet carries at least one row.
+PMQ05,Benchmark master rows,PASS,58,58,,The wide panel plus three longer-history additions define the adjusted ETF benchmark universe.
+PMQ06,Duplicate benchmark-date keys,PASS,0,0,,Each benchmark has one level per observed trading date.
+PMQ07,Simple returns at or below minus one,PASS,0,0,,Daily simple returns satisfy the economic floor.
+PMQ08,Return-level tie-out,PASS,0.0,0.0,1e-15,Each return matches the two linked levels.
+PMQ09,Long-history source count,PASS,29,29,,Available YF files receive source priority.
+PMQ10,Wide-panel supplement count,PASS,29,29,,The wide panel supplies the remaining ETF candidates.

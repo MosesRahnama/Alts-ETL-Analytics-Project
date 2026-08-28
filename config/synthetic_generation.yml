@@ -1,0 +1,73 @@
+schema_version: "1.0.0"
+updated: "2026-08-26"
+
+purpose: >-
+  Define the standalone regression fixture used to stress-test generation and
+  quality rules. It never completes or feeds the fund-model data.
+
+gates:
+  require_document_inventory_complete: true
+  require_double_extraction: true
+  require_adjudicated_parameters: true
+  require_extracted_parameter_per_strategy: true
+  allow_assumed_parameters: true
+  assumed_parameter_requires_written_basis: true
+  forbid_real_fund_names_on_synthetic_rows: true
+
+generation:
+  seed: 20260802
+  target_fund_count: 800
+  minimum_fund_count: 150
+  base_currency: USD
+  as_of_date: "2026-06-30"
+  output_provenance_type: SYNTHETIC
+  fund_id_prefix: FUND_SYNTH_
+
+required_dimensions:
+  - strategy
+  - sub_strategy
+  - vintage_year
+  - geography
+  - domicile
+  - fund_size
+  - commitment
+  - currency
+  - paid_in_capital
+  - distributions
+  - nav
+  - unfunded_commitment
+  - dpi
+  - rvpi
+  - tvpi
+  - irr
+  - management_fee_rate
+  - carry_rate
+  - hurdle_rate
+
+required_identities:
+  - tvpi_equals_dpi_plus_rvpi
+  - dpi_equals_distributions_divided_by_paid_in
+  - rvpi_equals_nav_divided_by_paid_in
+  - tvpi_equals_distributions_plus_nav_divided_by_paid_in
+  - commitment_equals_paid_in_plus_unfunded_minus_recallable
+  - nav_rollforward
+  - xirr_recomputed_from_dated_cashflows_and_terminal_nav
+
+intentional_defects:
+  enabled: true
+  seed_offset: 101
+  target_row_rate: 0.08
+  allowed_types:
+    - tvpi_component_mismatch
+    - dpi_recompute_mismatch
+    - rvpi_recompute_mismatch
+    - commitment_reconciliation_mismatch
+    - nav_rollforward_mismatch
+    - irr_recompute_mismatch
+    - cashflow_sign_error
+    - impossible_vintage
+    - missing_fund_name
+    - duplicate_cashflow
+    - currency_mismatch
+    - synthetic_real_identity_collision
+  ground_truth_csv: data/csv/defect_injections.csv

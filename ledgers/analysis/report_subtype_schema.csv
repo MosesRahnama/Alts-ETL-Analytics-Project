@@ -1,0 +1,27 @@
+report_subtype,n_files,class,description,typical_grain,extract_contract
+commitment_disclosure,1,live,Monthly LP transaction letter: new commitments or no-activity by sleeve,one asset-class status row plus one named commitment,round-2-reporting-subtypes.md
+pension_reporting_package,1,live,Plan investment package: asset-class vs benchmark plus named alternatives schedule,asset-class return row or named fund row,round-2-reporting-subtypes.md
+plan_financial_report,1,live,By-plan invested-assets rollforward and allocation vs target,one plan-trust row or one asset-class row,round-2-reporting-subtypes.md
+cio_monthly_report,1,live,CIO monthly total-fund dashboard,total-fund snapshot plus allocation rows,round-2-reporting-subtypes.md
+board_meeting_pack,1,live,Investment committee agenda plus attached exhibits,agenda item plus inner table rows,round-2-reporting-subtypes.md
+statutory_specified_data,1,live,"Statute-mandated endowment data covering market value, book value, top holdings, and ETI",fund header plus allocation or holding rows,round-2-reporting-subtypes.md
+economic_opportunity_report,1,live,"In-state manager, property, and portfolio-company tables",one in-state entity row,round-2-reporting-subtypes.md
+diversity_manager_report,1,live,Emerging and diverse manager program by asset class,program or named-manager row,round-2-reporting-subtypes.md
+acfr_investment_extract,1,live,ACFR investment-policy outline plus fair-value rollforward,IPS row or asset-class FV row,round-2-reporting-subtypes.md
+stewardship_report,4,live,"Live LP or SWF responsible-investment, climate, governance, or stewardship yearbook",issuer-year header plus metric rows,round-2-reporting-subtypes.md
+proxy_season_review,1,live,Consultant proxy-season slide deck,one slide-topic row,round-2-reporting-subtypes.md
+foia_request_index,1,live,Cover listing produced files not the exhibits themselves,one request-id row,round-2-reporting-subtypes.md
+fee_template_standard,3,standard,ILPA Reporting Template guidance and blank v2.0 workbook or zip,template tab or line name,round-2-reporting-subtypes.md
+quarterly_pack_standard,1,standard,ILPA quarterly reporting package checklist and samples,package component,round-2-reporting-subtypes.md
+investor_reporting_guideline,1,standard,Invest Europe investor-reporting field catalog by strategy,recommended field by vehicle type,round-2-reporting-subtypes.md
+real_estate_reporting_standard,3,standard,"NCREIF PREA Volume I, INREV guidelines, and INREV SDDS",required-element or SDDS column,round-2-reporting-subtypes.md
+real_estate_valuation_manual,1,standard,NCREIF PREA Volume II fair-value accounting policy,policy rule,round-2-reporting-subtypes.md
+credit_facility_guidance,3,standard,ILPA NAV-facility and subscription-line disclosure guidance,recommended facility disclosure line,round-2-reporting-subtypes.md
+lp_principles,2,standard,ILPA Principles 2011 and 3.0,principle or reporting-obligation row,round-2-reporting-subtypes.md
+hedge_operating_standard,4,standard,SBAI alternative-investment standards and AIMA administrator guide,standard section,round-2-reporting-subtypes.md
+open_protocol,4,standard,Hedge or alts Open Protocol risk template and manuals,risk-template field,round-2-reporting-subtypes.md
+insurance_open_protocol,2,standard,Insurance Open Protocol manuals,insurance risk-template field,round-2-reporting-subtypes.md
+esg_metric_standard,5,standard,EDCI metric catalog and GRESB standard-update changelog,metric or scoring-impact row,round-2-reporting-subtypes.md
+esg_mrf_spec,2,standard,Invest Europe ESG machine-readable format spec and 2025 xlsx template,CSV column or compound id,round-2-reporting-subtypes.md
+fund_annual_return_guide,1,standard,CIMA Fund Annual Return completion guide,FAR form field,round-2-reporting-subtypes.md
+industry_survey_form,1,standard,MAS asset-management industry survey form,survey section or blank field,round-2-reporting-subtypes.md

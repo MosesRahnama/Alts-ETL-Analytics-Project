@@ -1,0 +1,4 @@
+run_id,document,doc_type,pages,rows,turns,cost_usd,dollars_per_turn,basis,note
+RUN_A_SRC247,SRC247,NAV_Statement,4,93,41,0.268043,0.006538,measured,First lane. Reproduced the prior extraction on every printed value.
+RUN_A_SRC058,SRC058,Performance,3,876,71,0.463723,0.006531,measured,First lane. 876 rows; 866 shared cells with the prior extraction all identical.
+RUN_B_SRC058,SRC058,Performance,3,876,92,1.079118,0.011730,halved,Second lane. Billed 183 turns and 2.158236; halved because 48 percent of turns went on scaffolding the brief forbids.

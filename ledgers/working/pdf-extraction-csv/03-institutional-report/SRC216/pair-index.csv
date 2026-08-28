@@ -1,0 +1,4 @@
+"pair_id","pair_status","requires_review","source_page","record_family","source_table","source_row_label","source_column_label","source_occurrence","metric_category","term_category","a_row_number","b_row_number","difference_fields"
+"PAIR_6D6692C143D21ECDB56629BD","VALUE_CONFLICT","YES","1","document_context","","DOCUMENT","","1","","","1","1","source_table|subject_name|text_raw|evidence_quote"
+"PAIR_B082EBB16B0F017E2495A902","CONTEXT_CONFLICT","YES","1","fund_economics_observation","Private Equity","Main Capital IX Feeder (A) C.V.","","1","commitment","","2","2","source_row_label|metric_name"
+"PAIR_9624BD25C46A31E2CD2B5CC3","CONTEXT_CONFLICT","YES","1","fund_economics_observation","Private Equity","Main Foundation III Feeder (A) C.V.","","1","commitment","","3","3","source_row_label|metric_name"

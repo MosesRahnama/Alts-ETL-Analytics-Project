@@ -1,0 +1,5 @@
+"route","agent_role","extractor_model","claimed_at","claimed_by"
+"05-fund-legal-docs","A","claude-sonnet-5","2026-08-23T17:54:11Z",""
+"05-fund-legal-docs","B","gpt-5","2026-08-23T17:55:19Z",""
+"05-fund-legal-docs","J1","claude-opus-5","2026-08-24T01:04:58Z",""
+"05-fund-legal-docs","J2","claude-opus-5","2026-08-24T01:04:52Z",""

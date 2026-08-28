@@ -1,0 +1,2 @@
+run_id,executed_at_utc,source_root,output_root,transfer_mode,source_corpus_file_count,source_corpus_bytes,selected_file_count,selected_bytes,benchmark_count,benchmark_level_count,benchmark_return_count,strategy_map_count,selection_sha256,quality_status
+PMRUN_80216F558FB4D955,2026-08-27T19:42:35+00:00,public_markets/sources,data/public_markets,RETAINED_STORE,334,59383381,334,59383381,58,279269,279211,19,80216f558fb4d9554a2a2569a3dff515cf934fbe9cd86487e73aab92bfeb9ca0,PASS

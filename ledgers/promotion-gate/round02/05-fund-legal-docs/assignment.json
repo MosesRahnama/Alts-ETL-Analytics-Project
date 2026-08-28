@@ -1,0 +1,18 @@
+{
+  "batch_id": "05-fund-legal-docs",
+  "round_id": "02",
+  "files": [
+    {
+      "file_id": "SRC107",
+      "source_sha256": "440fe73f9d712e511d30234a8466716627c6336e7e0990ca47a396b40bc7cd15"
+    },
+    {
+      "file_id": "SRC607",
+      "source_sha256": "89188919c2905e70708febd40bfdf0e406a89a69abccd46310a15a437ac6ec7a"
+    },
+    {
+      "file_id": "SRC612",
+      "source_sha256": "9aaf853a1b3ceefddf659360e76652dacf8b306e7676e9b9b5350737b1c5f921"
+    }
+  ]
+}

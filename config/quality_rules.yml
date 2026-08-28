@@ -1,0 +1,151 @@
+schema_version: "1.1.0"
+updated: "2026-08-10"
+
+purpose: >-
+  Recompute important private-fund identities and record a pass, fail, or skip.
+  A reported ratio earns trust from the recomputation alone, whatever a source
+  or mock row prints.
+
+tolerances:
+  money_absolute: 1.00
+  multiple_absolute: 0.005
+  rate_absolute: 0.0005
+  xirr_absolute: 0.005
+
+printed_precision: >-
+  R02 to R05 widen multiple_absolute by the rounding the printed inputs
+  allow, read from the evidence cell behind each input: half of the last
+  printed digit's place, scaled to base units, so $90.5 million contributes
+  50,000 and 0.47x contributes 0.005. The tolerance a row records is the
+  one applied, and the note states the widening. A period that names no
+  evidence cells keeps the configured tolerance.
+
+cross_provenance: >-
+  R08 compares a printed IRR with printed cash flows alone. Where the flows
+  on the position were generated, the result is SKIP with the reason, since
+  a printed rate and generated flows describe different histories.
+
+rules:
+  - id: R01_NONNEGATIVE_BALANCES
+    severity: error
+    formula: paid_in_capital_itd >= 0 and distributions_itd >= 0 and nav >= 0
+    applies_when: required values are present
+
+  - id: R02_TVPI_COMPONENTS
+    severity: error
+    formula: tvpi = dpi + rvpi
+    tolerance: multiple_absolute
+    applies_when: tvpi, dpi, and rvpi are present
+
+  - id: R03_DPI_RECOMPUTE
+    severity: error
+    formula: dpi = distributions_itd / paid_in_capital_itd
+    tolerance: multiple_absolute
+    applies_when: paid_in_capital_itd > 0 and distributions_itd is present
+
+  - id: R04_RVPI_RECOMPUTE
+    severity: error
+    formula: rvpi = nav / paid_in_capital_itd
+    tolerance: multiple_absolute
+    applies_when: paid_in_capital_itd > 0 and nav is present
+
+  - id: R05_TVPI_RECOMPUTE
+    severity: error
+    formula: tvpi = (distributions_itd + nav) / paid_in_capital_itd
+    tolerance: multiple_absolute
+    applies_when: paid_in_capital_itd > 0, distributions_itd, and nav are present
+
+  - id: R06_COMMITMENT_RECONCILIATION
+    severity: warning
+    formula: commitment = paid_in_capital_itd + unfunded_commitment - recallable_distributions_itd
+    tolerance: money_absolute
+    applies_when: commitment, paid_in_capital_itd, unfunded_commitment, and recallable_distributions_itd are present
+
+  - id: R07_NAV_ROLLFORWARD
+    severity: error
+    formula: ending_nav = beginning_nav + contributions_period - distributions_period + realized_gain_period + unrealized_gain_period + net_income_period - management_fee_period - other_expenses_period
+    tolerance: money_absolute
+    applies_when: every roll-forward component is present
+
+  - id: R08_XIRR_RECOMPUTE
+    severity: error
+    formula: reported_irr or calculated_irr = XIRR(cash flows plus ending NAV on as_of_date)
+    tolerance: xirr_absolute
+    applies_when: at least one negative and one positive economic value are present
+
+  - id: R09_VINTAGE_DATE
+    severity: error
+    formula: vintage_year <= year(as_of_date)
+    applies_when: vintage_year and as_of_date are present
+
+  - id: R10_FUND_SIZE_BOUND
+    severity: warning
+    formula: fund_size >= commitment for lp_position observations
+    tolerance: money_absolute
+    applies_when: perspective is lp_position and both values are present
+
+  - id: R11_PROVENANCE_REQUIREMENTS
+    severity: error
+    formula: provenance-specific evidence fields are complete
+    applies_when: every record
+
+  - id: R12_SYNTHETIC_IDENTITY_SEPARATION
+    severity: error
+    formula: synthetic facts may complete a resolved FUND_ identity; standalone synthetic identities use FUND_SYNTH_ and synthetic master provenance
+    applies_when: provenance_type is SYNTHETIC
+
+  - id: R13_DUPLICATE_CASHFLOW
+    severity: warning
+    formula: each cash-flow row for one fund is unique on LP, date, type, amount, and currency
+    applies_when: at least one dated cash flow is present
+
+  - id: R14_CURRENCY_CONSISTENCY
+    severity: error
+    formula: cash-flow currency equals the period currency, or a valid non-unit FX conversion reconciles amount to amount_base_currency
+    tolerance: money_absolute
+    applies_when: at least one cash flow is present
+
+  - id: R15_CASHFLOW_SIGN_CONVENTION
+    severity: error
+    formula: calls, subscriptions, and fees are negative economic cash flows; distributions are positive
+    applies_when: at least one recognized cash-flow type is present
+
+  - id: R16_MANAGER_IDENTITY
+    severity: error
+    formula: every manager observation uses manager_total perspective and resolves to manager_master
+    applies_when: a manager observation is present
+
+  - id: R17_MANAGER_AUM_NONNEGATIVE
+    severity: error
+    formula: mgr.aum >= 0
+    applies_when: a manager AUM observation is present
+
+  - id: R18_TERM_SCOPE_IDENTITY
+    severity: error
+    formula: base_fund uses fund_total; LP and share-class overrides carry their scoped identity
+    applies_when: a fund term or term clause is present
+
+  - id: R19_TERM_RATE_BOUNDS
+    severity: error
+    formula: populated contractual rates fall between zero and one
+    applies_when: a fund term carries at least one rate
+
+  - id: R20_TERM_EFFECTIVE_RANGE
+    severity: error
+    formula: effective_end_date >= effective_date
+    applies_when: both effective dates are present
+
+  - id: R21_CASHFLOW_DATE_LINEAGE
+    severity: error
+    formula: each cash flow preserves its date role, raw date, precision, and any report or due date
+    applies_when: a fund-model cash flow is present
+
+  - id: R22_HOLDING_INSTRUMENT_GRAIN
+    severity: error
+    formula: holding identity stays unique by fund, source document, company, instrument, and as-of date
+    applies_when: holdings are present
+
+  - id: R23_PERIOD_SOURCE_GRAIN
+    severity: error
+    formula: period identity stays unique by fund, position, as-of date, perspective, and source document
+    applies_when: fund periods are present

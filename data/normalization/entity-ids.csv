@@ -1,0 +1,1214 @@
+kind,entity_id,standardized_name
+fund,FUND_0001,"Incline Equity Partners III (PSERS), L.P."
+fund,FUND_0002,"Milestone Partners II, L.P."
+fund,FUND_0003,"New Mountain Partners IV, L.P."
+fund,FUND_0004,"Adventure Fund I, L.P."
+fund,FUND_0005,Builders VC Fund II
+fund,FUND_0006,"Cascade Angels Fund 2016, L.P."
+fund,FUND_0007,"Cascade Angels Fund V, LLC"
+fund,FUND_0008,"Cascade Seed Fund I, LLC"
+fund,FUND_0009,Cascade Seed Fund II
+fund,FUND_0010,"DFJ Frontier Fund II, L.P."
+fund,FUND_0011,"Ecotrust Forests II, LLC"
+fund,FUND_0012,Elevate Capital Fund II
+fund,FUND_0013,"Endeavour Capital Fund III, L.P."
+fund,FUND_0014,"Enlightened Hospitality Investments, L.P."
+fund,FUND_0015,"Epic Venture Fund IV, L.P."
+fund,FUND_0016,"Epic Venture Fund V, L.P."
+fund,FUND_0017,"Epic Ventures VI, L.P."
+fund,FUND_0018,"Fluke Venture Partners II, L.P."
+fund,FUND_0019,"Founders' Co-op III, L.P."
+fund,FUND_0020,"Founders’ Co-op IV, L.P."
+fund,FUND_0021,"Goode Partners Consumer Fund III, L.P."
+fund,FUND_0022,"Grain Communications Opportunity Fund III, L.P."
+fund,FUND_0023,"Homestead Capital USA Farmland Fund III, L.P."
+fund,FUND_0024,"K1 Special Opportunities Fund, L.P."
+fund,FUND_0025,"K4 Private Investors, L.P."
+fund,FUND_0026,"K5 Private Investors, L.P."
+fund,FUND_0027,"Madrona Venture Fund III, L.P."
+fund,FUND_0028,"Montlake Capital II, L.P."
+fund,FUND_0029,"Northwest Technology Ventures, L.P."
+fund,FUND_0030,Oregon Angel Conferences 2011
+fund,FUND_0031,Oregon Angel Conferences 2012
+fund,FUND_0032,Oregon Angel Conferences 2013
+fund,FUND_0033,Oregon Angel Conferences 2014
+fund,FUND_0034,"Oregon Angel Fund 2008, LLC"
+fund,FUND_0035,"Oregon Angel Fund 2009, LLC"
+fund,FUND_0036,"Oregon Angel Fund 2010, LLC"
+fund,FUND_0037,"Oregon Angel Fund 2011, LLC"
+fund,FUND_0038,"Oregon Angel Fund 2012, LLC"
+fund,FUND_0039,"Oregon Angel Fund 2013, LLC"
+fund,FUND_0040,"Oregon Angel Fund 2014, LLC"
+fund,FUND_0041,"Oregon Angel Fund 2015, LLC"
+fund,FUND_0042,"Oregon Angel Fund 2016, LLC"
+fund,FUND_0043,"Oregon Angel Fund 2017, LLC"
+fund,FUND_0044,"Oregon Venture Fund XII, LLC"
+fund,FUND_0045,"OVP Venture Partners VII, L.P."
+fund,FUND_0046,"Phoenix Venture Partners II, L.P."
+fund,FUND_0047,"Phoenix Venture Partners III, L.P."
+fund,FUND_0048,"Phoenix Venture Partners, L.P."
+fund,FUND_0049,Pioneer Square Ventures Fund II
+fund,FUND_0050,"Pivotal Investments Partners Fund I, L.P."
+fund,FUND_0051,"Portland Seed Fund I, L.P."
+fund,FUND_0052,"Portland Seed Fund II, L.P."
+fund,FUND_0053,"Portland Seed Fund III, L.P."
+fund,FUND_0054,"Portland Seed Fund III - Side Car, L.P."
+fund,FUND_0055,Rethink Impact Fund II
+fund,FUND_0056,"Riverlake Equity Partners I, L.P."
+fund,FUND_0057,"Riverlake Equity Partners II, L.P."
+fund,FUND_0058,"Seven Peaks Ventures Fund II, L.P."
+fund,FUND_0059,"Seven Peaks Ventures Fund, L.P."
+fund,FUND_0060,"SmartForest Ventures I, L.P."
+fund,FUND_0061,Stellex Capital Partners II
+fund,FUND_0062,"Tamarack Mezzanine Partners, L.P."
+fund,FUND_0063,"Timberline Annex Fund, L.P."
+fund,FUND_0064,"Timberline Venture Partners, L.P."
+fund,FUND_0065,"Tiverton AgriFinance II, L.P."
+fund,FUND_0066,"TL Ventures VII, L.P."
+fund,FUND_0067,"Updata Partners V, L.P."
+fund,FUND_0068,"Updata Partners VI, L.P."
+fund,FUND_0069,"VamosVentures Fund I, L.P."
+fund,FUND_0070,"VFC - Burnside Fund, L.P."
+fund,FUND_0071,"Voyager Capital Fund IV, L.P."
+fund,FUND_0072,"Voyager Capital Fund V, L.P."
+fund,FUND_0073,"Women's VC Fund II, L.P."
+fund,FUND_0074,"Women's Venture Capital Fund, L.P."
+fund,FUND_0075,"Yaletown Ventures II (USA), L.P."
+fund,FUND_0076,"Allos Ventures II, L.P."
+fund,FUND_0077,"Arboretum Ventures IIa, L.P."
+fund,FUND_0078,"Arsenal Venture Partners IIa, L.P."
+fund,FUND_0079,Arsenal Ventures IIa
+fund,FUND_0080,"Athenian Venture Partners III, L.P."
+fund,FUND_0081,"Charter Life Sciences (Ohio) II, L.P."
+fund,FUND_0082,"Chrysalis Ventures (Ohio) III, L.P."
+fund,FUND_0083,Draper Triangle III
+fund,FUND_0084,"Draper Triangle Ohio Ventures, L.P."
+fund,FUND_0085,"Draper Triangle Ventures Ohio III, L.P."
+fund,FUND_0086,"Early Stage Partners Fund II, L.P."
+fund,FUND_0087,Early Stage Partners II
+fund,FUND_0088,"Early Stage Partners II, L.P."
+fund,FUND_0089,"Edison Venture Fund VII, L.P."
+fund,FUND_0090,"Edison Venture Fund VIII, L.P."
+fund,FUND_0091,Edison VII AF I
+fund,FUND_0092,"Emerging Market Fund, LLC"
+fund,FUND_0093,FSV II-B
+fund,FUND_0094,"FSV II-B, L.P."
+fund,FUND_0095,Glengary LLC
+fund,FUND_0096,"NCT Ventures Fund I, L.P."
+fund,FUND_0097,"NCT Ventures Fund II, L.P."
+fund,FUND_0098,"Primus Capital Fund VI, L.P."
+fund,FUND_0099,"QCA First Fund III, LLC"
+fund,FUND_0100,"Radius Venture Partners (Ohio) III, QP, L.P."
+fund,FUND_0101,"Reservoir Venture Partners II, L.P."
+fund,FUND_0102,"River Cities Capital Fund IV, L.P."
+fund,FUND_0103,"RiverVest Venture Fund II (Ohio), L.P."
+fund,FUND_0104,"RiverVest Venture Fund III (Ohio), L.P."
+fund,FUND_0105,"SunBridge Partners Technology Fund III, L.P."
+fund,FUND_0106,"SV Life Sciences Fund IV, L.P."
+fund,FUND_0107,The Ohio Capital Fund LLC
+fund,FUND_0108,Commonwealth Fund III
+fund,FUND_0110,Starwood Real Estate Income Trust
+fund,FUND_0111,"Versa Capital Fund II-A, L.P."
+fund,FUND_0112,"Versa Capital Fund II, L.P."
+fund,FUND_0113,Khosla Ventures III
+fund,FUND_0114,Media Technology Ventures V
+fund,FUND_0115,New Enterprise Associates 13
+fund,FUND_0116,Sorenson Capital Partners II Cont. Vehicle
+fund,FUND_0117,SV Fund IV
+fund,FUND_0118,SV Life Sciences IV CF
+fund,FUND_0119,TA XI
+fund,FUND_0119,"TA XI, L.P."
+fund,FUND_0120,"Utah Fund of Funds, LLC"
+fund,FUND_0121,BioScience Facilities Fund
+fund,FUND_0122,CBRA Fund
+fund,FUND_0123,Clean Tech Fund
+fund,FUND_0124,Connecticut Bioscience Innovation Fund
+fund,FUND_0125,Connecticut Capital Access Fund
+fund,FUND_0126,Connecticut Clean Energy Fund
+fund,FUND_0127,Connecticut State Treasurer's Short-Term Investment Fund
+fund,FUND_0128,Connecticut Works Fund
+fund,FUND_0129,Connecticut Works Guarantee Fund
+fund,FUND_0130,Eli Whitney Fund
+fund,FUND_0131,Fund of Fund
+fund,FUND_0132,Growth Fund
+fund,FUND_0134,PreSeed Fund
+fund,FUND_0135,Proof of Concept
+fund,FUND_0136,Regenerative Medicine Research Fund
+fund,FUND_0137,Seed Fund
+fund,FUND_0138,SSBCI
+fund,FUND_0139,Builder Fund
+fund,FUND_0140,Business Assistance Fund
+fund,FUND_0141,Coordinating Emerging Nanobiotechnology Research in Maryland Fund
+fund,FUND_0142,Cybersecurity Investment Fund
+fund,FUND_0143,Gap Investment Fund
+fund,FUND_0144,Incubator Development Fund
+fund,FUND_0145,Life Science Investment Fund
+fund,FUND_0146,Maryland Innovation Initiative
+fund,FUND_0147,Maryland Stem Cell Research Fund
+fund,FUND_0148,Maryland Technology Commercialization Fund
+fund,FUND_0149,Maryland Venture Fund
+fund,FUND_0150,Rural Pre-Seed Investment Fund
+fund,FUND_0151,Seed Investment Funds
+fund,FUND_0152,"Heritage Fund I, L.P."
+fund,FUND_0153,"Jefferson Partners Fund IV, L.P."
+fund,FUND_0154,"Jefferson Partners Fund IV (PA), L.P."
+fund,FUND_0155,"Jefferson Partners Fund IV, (U.S.), L.P."
+fund,FUND_0156,"Global Infrastructure Partners II-C, L.P."
+fund,FUND_0157,ANTIN INFRASTRUCTURE PARTNERS II LP
+fund,FUND_0158,"AG Core Plus Realty Fund III, L.P."
+fund,FUND_0159,"Almanac Realty Securities V, L.P."
+fund,FUND_0160,"Almanac Realty Securities VI, L.P."
+fund,FUND_0161,"Apollo European Real Estate Fund III, L.P."
+fund,FUND_0162,Apollo Real Estate Finance Corp
+fund,FUND_0163,"Apollo Value Enhancement Fund VII, L.P."
+fund,FUND_0164,AREFIN Co-Invest Corporation
+fund,FUND_0165,"AvalonBay Value Added Fund II, L.P."
+fund,FUND_0166,"AvalonBay Value Added Fund, L.P."
+fund,FUND_0167,Avenue Real Estate Fund (Parallel) L.P.
+fund,FUND_0168,"Beacon Capital Strategic Partners V, L.P."
+fund,FUND_0169,"Bell Institutional Fund IV, LLC"
+fund,FUND_0170,"Blackstone Real Estate Debt Strategies II, L.P."
+fund,FUND_0171,"Blackstone Real Estate Partners Europe III, L.P."
+fund,FUND_0172,"Blackstone Real Estate Partners V, L.P."
+fund,FUND_0173,"Blackstone Real Estate Partners VI, L.P."
+fund,FUND_0174,"Blackstone Real Estate Partners VII, L.P."
+fund,FUND_0175,"BPG Investment Partnership IV, L.P."
+fund,FUND_0176,"BPG Investment Partnership V, L.P."
+fund,FUND_0177,"BPG Investment Partnership VI, L.P."
+fund,FUND_0178,BPG/PSERS Co-Investment Fund
+fund,FUND_0179,"Broadway Partners Real Estate Fund II, L.P."
+fund,FUND_0180,"Broadway Partners Real Estate Fund III, L.P."
+fund,FUND_0181,"Brookfield Strategic Real Estate Partners, L.P."
+fund,FUND_0182,"Cabot Industrial Value Fund III, L.P."
+fund,FUND_0183,"Carlyle Europe Real Estate Partners III, L.P."
+fund,FUND_0184,"Carlyle Realty Partners III, L.P."
+fund,FUND_0185,"Carlyle Realty Partners IV, L.P."
+fund,FUND_0186,"Carlyle Realty Partners V, L.P."
+fund,FUND_0187,"Carlyle Realty Partners VI, L.P."
+fund,FUND_0188,"Centerline Diversified Risk CMBS Fund, LLC"
+fund,FUND_0189,Centerline High Yield CMBS III - Loan/Stock
+fund,FUND_0190,"Cornerstone Patriot Fund, L.P."
+fund,FUND_0191,"CS Strategic Partners IV RE, L.P."
+fund,FUND_0192,"CSFB Strategic Partners II RE, L.P."
+fund,FUND_0193,"CSFB Strategic Partners III RE, L.P."
+fund,FUND_0194,"DLJ Real Estate Capital Partners III, L.P."
+fund,FUND_0195,"DLJ Real Estate Capital Partners IV, L.P."
+fund,FUND_0196,"DLJ Real Estate Partners II, L.P."
+fund,FUND_0197,"DRA Growth and Income Fund VI, L.P."
+fund,FUND_0198,"DRA Growth and Income Fund VII, L.P."
+fund,FUND_0199,"Exeter Industrial Value Fund II, L.P."
+fund,FUND_0200,"Fillmore West Fund, L.P."
+fund,FUND_0201,Fortress Investment Fund IV LP
+fund,FUND_0202,Fortress Investment Fund LLC
+fund,FUND_0203,Fortress Investment Fund V (Fund A) L.P.
+fund,FUND_0204,"Hines U.S. Office Value Added Fund, L.P."
+fund,FUND_0205,"JEFFERSON PARTNERS FUND IV (PA), L.P."
+fund,FUND_0206,JPMCB Strategic Property Fund
+fund,FUND_0207,"Latitude Management Real Estate Capital III, Inc."
+fund,FUND_0208,"LCCG Diversified Risk CMBS Fund II, LLC"
+fund,FUND_0209,"LCCG High Yield CMBS Fund III, LLC"
+fund,FUND_0210,LCCG R E Special Situations Mortgage Fund
+fund,FUND_0211,Legg Mason Real Estate Capital
+fund,FUND_0212,Legg Mason Real Estate Capital II
+fund,FUND_0213,"LEM Real Estate Mezzanine Fund II, L.P."
+fund,FUND_0214,"LF Strategic Realty Investors II, L.P."
+fund,FUND_0215,"LF Strategic Realty Investors, L.P."
+fund,FUND_0216,Lubert-Adler Real Estate Fund II
+fund,FUND_0217,Lubert-Adler Real Estate Fund III
+fund,FUND_0218,Lubert-Adler Real Estate Fund IV
+fund,FUND_0219,Lubert-Adler Real Estate Fund V
+fund,FUND_0220,Lubert-Adler Real Estate Fund VI
+fund,FUND_0221,Madison Marquette Retail Enhancement Fund LP
+fund,FUND_0222,"MGPA Asia Fund III, L.P."
+fund,FUND_0223,"MGPA Europe Fund III, L.P."
+fund,FUND_0224,Morgan Stanley Real Estate Fund II
+fund,FUND_0225,Morgan Stanley Real Estate Fund IV Spec Dom
+fund,FUND_0226,Morgan Stanley Real Estate Fund IV Spec Intl
+fund,FUND_0227,Morgan Stanley Real Estate Fund V Spec Intl
+fund,FUND_0228,Morgan Stanley Real Estate Fund V U.S.
+fund,FUND_0229,Morgan Stanley Real Estate Fund VI Spec Intl
+fund,FUND_0230,"Morgan Stanley Real Estate Fund VII Global, L.P."
+fund,FUND_0231,O'Connor North American Property Partners II L.P.
+fund,FUND_0232,"O'Connor North American Property Partners, L.P."
+fund,FUND_0233,"Paladin Realty Latin America Investors III, L.P."
+fund,FUND_0234,Peabody Global Real Estate Partners
+fund,FUND_0235,Prime Property Fund LLC
+fund,FUND_0236,PRISA
+fund,FUND_0237,"ProLogis North American Industrial Fund, L.P."
+fund,FUND_0238,"RCG Longview Debt Fund IV, L.P."
+fund,FUND_0239,"RCG Longview Debt Fund V, L.P."
+fund,FUND_0240,"RCG Longview Equity Fund, L.P."
+fund,FUND_0241,"RREEF America REIT II, Inc."
+fund,FUND_0242,"Senior Housing Partnership Fund IV, L.P."
+fund,FUND_0243,"Silverpeak Legacy Pension Partners II, L.P."
+fund,FUND_0244,"Silverpeak Legacy Pension Partners III, L.P."
+fund,FUND_0245,"Silverpeak Legacy/PSERS, L.P."
+fund,FUND_0246,"Starwood Real Estate Income Trust, Inc."
+fund,FUND_0247,Stockbridge Real Estate Fund II - Senior Note
+fund,FUND_0248,"Stockbridge Real Estate Fund II, LP"
+fund,FUND_0249,"Stockbridge Real Estate Fund III, LP"
+fund,FUND_0250,"Stockbridge Real Estate Fund, L.P."
+fund,FUND_0251,Strategic Partners Value Enhancement Fund LP
+fund,FUND_0252,"UBS (US) Trumbull Property Fund, L.P."
+fund,FUND_0253,"VERSA CAPITAL FUND II-A, L.P."
+fund,FUND_0254,Westbrook Real Estate Fund I
+fund,FUND_0255,Whitehall Street III & IV
+fund,FUND_0256,Whitehall Street V & VI
+fund,FUND_0257,Whitehall Street V-S & VI-S
+fund,FUND_0258,Whitehall Street VII & VIII
+fund,FUND_0259,William E Simon & Sons
+fund,FUND_0260,A10 USD (Feeder) L.P.
+fund,FUND_0261,A9 EUR (Feeder) L.P.
+fund,FUND_0262,A9 USD (Feeder) L.P.
+fund,FUND_0263,Abacus Multi-Family Partners VI LP
+fund,FUND_0264,"ABRY Partners IX, L.P."
+fund,FUND_0265,"ABRY Senior Equity V, L.P."
+fund,FUND_0266,"ABS Capital Partners IX, L.P."
+fund,FUND_0267,"ABS Capital Partners VII Offshore, L.P."
+fund,FUND_0268,"ABS Capital Partners VII, L.P."
+fund,FUND_0269,"Accel-KKR Capital Partners CV III, LP"
+fund,FUND_0270,Accel-KKR Capital Partners VII LP
+fund,FUND_0271,Accel-KKR Growth Capital Partners IV LP
+fund,FUND_0272,Actis Energy 5 LP
+fund,FUND_0273,Advent Global Technology II Limited Partnership
+fund,FUND_0274,Advent International GPE VI-A Limited Partnership
+fund,FUND_0275,Advent International GPE VII-B Limited Partnership
+fund,FUND_0276,Advent International GPE VIII-B-2 Limited Partnership
+fund,FUND_0277,Advent International GPE VIII-C Limited Partnership
+fund,FUND_0278,AEA EXC CF LP
+fund,FUND_0279,"Aerospace, Transportation and Logistics Fund II LP"
+fund,FUND_0280,Aetos Capital Asia TE II
+fund,FUND_0281,Aetos Capital Asia TE III
+fund,FUND_0282,AEW Core Property Trust
+fund,FUND_0283,"AEW Essential Housing Fund, L.P."
+fund,FUND_0284,"AG Asia Realty Fund II, L.P."
+fund,FUND_0285,Alpha Asia Macro Trends Fund
+fund,FUND_0286,Alpha Asia Macro Trends Fund II
+fund,FUND_0287,Alpha Private Equity Fund 7 (SCA) SICAR
+fund,FUND_0288,Alterna Core Capital Assets Fund II
+fund,FUND_0289,"American Industrial Partners Fund IV, L.P."
+fund,FUND_0290,"American Securities Partners VI, L.P."
+fund,FUND_0291,"American Securities Partners VII, L.P."
+fund,FUND_0292,Antares Private Credit Fund (ABDC)
+fund,FUND_0293,"AP VIII Private Investors Offshore (USD), L.P."
+fund,FUND_0294,"AP VIII Private Investors, LLC"
+fund,FUND_0295,"Apax Europe VI - A, L.P."
+fund,FUND_0296,"Apax Europe VII - B, L.P."
+fund,FUND_0297,Apax IX USD L.P.
+fund,FUND_0298,Apax XI USD L.P.
+fund,FUND_0299,"Apollo Investment Fund VI, L.P."
+fund,FUND_0300,Appian Natural Resources Fund
+fund,FUND_0301,Appian Natural Resources Fund II
+fund,FUND_0302,ARA China Long Term Hold
+fund,FUND_0303,Archer Capital Trust 5B
+fund,FUND_0304,"Archmore International Infrastructure Fund II (B), L.P."
+fund,FUND_0305,"Archmore International Infrastructure Fund II (C), L.P."
+fund,FUND_0306,"Artiman Ventures III, L.P."
+fund,FUND_0307,ASB Allegiance Real Estate Fund
+fund,FUND_0308,Ascentris - OR Partners LLC
+fund,FUND_0309,Ascentris Core
+fund,FUND_0310,Astorg Normec Fund
+fund,FUND_0311,Astorg VI SLP
+fund,FUND_0312,Astorg VII SLP
+fund,FUND_0313,Atlas Capital Resources LP
+fund,FUND_0314,"Audax Mezzanine Fund III, L.P."
+fund,FUND_0315,"Audax Private Equity Aspen CF, L.P."
+fund,FUND_0316,"Audax Private Equity Fund III, L.P."
+fund,FUND_0317,"Audax Private Equity Fund, L.P."
+fund,FUND_0318,"Aurora Equity Partners V, L.P."
+fund,FUND_0319,AUSTIN VENTURES IX LP
+fund,FUND_0320,AUSTIN VENTURES X LP
+fund,FUND_0321,"Avista Healthcare Partners (Offshore) I, L.P."
+fund,FUND_0322,"Bain Capital Asia Fund II, L.P."
+fund,FUND_0323,"Bain Capital Asia Fund III, L.P."
+fund,FUND_0324,"Bain Capital Distressed and Special Situations 2013 (E), L.P."
+fund,FUND_0325,"Bain Capital Empire Holdings, L.P."
+fund,FUND_0326,"Bain Capital Europe Fund III, L.P."
+fund,FUND_0327,"Bain Capital Europe Fund V, SCSp"
+fund,FUND_0328,"Bain Capital Fund VII, L.P."
+fund,FUND_0329,"Bain Capital Fund X, L.P."
+fund,FUND_0330,"Bain Capital Fund XI, L.P."
+fund,FUND_0331,"Bain Capital Fund XII, L.P."
+fund,FUND_0332,"Bain Capital VII Coinvestment Fund, L.P."
+fund,FUND_0333,Barley (No.1) Limited Partnership
+fund,FUND_0334,"BC Asia III Private Investors, L.P."
+fund,FUND_0335,"BC Europe IV Private Investors, L.P."
+fund,FUND_0336,BC European Capital IX-8 LP
+fund,FUND_0337,BC European Capital X-10 LP
+fund,FUND_0338,BC European Capital X-2 LP
+fund,FUND_0339,BC European Capital X-7 LP
+fund,FUND_0340,"BC Life Sciences Private Investors, L.P."
+fund,FUND_0341,BC Partners XI GD - 2 LP
+fund,FUND_0342,"BC XI Private Investor, L.P."
+fund,FUND_0343,"BC XII Private Investors, L.P."
+fund,FUND_0344,BCP V-S L.P.
+fund,FUND_0345,"Beacon Capital Strategic Partners VI, LP"
+fund,FUND_0346,Bear Stearns High Grade Structured Credit Strategies Fund
+fund,FUND_0347,"Berkshire Fund VI, Limited Partnership"
+fund,FUND_0348,"Berkshire Fund VII, L.P."
+fund,FUND_0349,"Berkshire Fund VIII (IND), L.P."
+fund,FUND_0350,BIF IV Co-Investment
+fund,FUND_0351,Blackstone Capital Partners V L.P.
+fund,FUND_0352,"Blackstone Capital Partners VII, L.P."
+fund,FUND_0353,"Blackstone Capital Partners VIII (Lux), SCSp"
+fund,FUND_0354,Blackstone Energy Partners III
+fund,FUND_0355,Blackstone Energy Partners IV
+fund,FUND_0356,Blackstone Mileway Logistics L.P.
+fund,FUND_0357,"Blackstone Property Partners Europe, L.P."
+fund,FUND_0358,Blackstone Property Partners Life Sciences L.P.
+fund,FUND_0359,Blackstone RE Partners X LP
+fund,FUND_0360,Blackstone Real Estate Partners IX
+fund,FUND_0361,Blue Owl GP Stakes Nimbus Cayman (B) LP
+fund,FUND_0362,Blue Owl GP Stakes Nimbus U.S. (A) LLC
+fund,FUND_0363,Blue Owl GP Stakes US Investors LP
+fund,FUND_0364,Blue Owl GP Stakes V Offshore Investors LP
+fund,FUND_0365,Blue Owl Real Estate Capital Fund V
+fund,FUND_0366,Blue Owl Real Estate Capital Fund VI
+fund,FUND_0367,"Blue Road Capital, L.P."
+fund,FUND_0368,Bolt Energy LLC
+fund,FUND_0369,"Bowmark Capital Partners V, L.P."
+fund,FUND_0370,"BP ACE EV, L.P."
+fund,FUND_0371,"BP Natural Gas Opportunity Partners II, L.P."
+fund,FUND_0372,"BP Natural Gas Opportunity Partners, L.P."
+fund,FUND_0373,"BPEA EQT Mid-Market Growth Partnership, SCSp"
+fund,FUND_0374,"BPEA Private Equity Fund VI, L.P."
+fund,FUND_0375,Brazil Real Estate Opportunities II
+fund,FUND_0376,"Brentwood Associates Private Equity V, L.P."
+fund,FUND_0377,Bridgepoint Europe IV 'A' L.P.
+fund,FUND_0378,Bridgepoint Europe IV 'E' L.P.
+fund,FUND_0379,Bridgepoint Europe Portfolio IV LP
+fund,FUND_0380,Brookfield Agriculture Fund II
+fund,FUND_0381,Brookfield Infrastructure Fund III
+fund,FUND_0382,Brookfield Infrastructure Fund IV
+fund,FUND_0383,Brookfield Infrastructure Fund V
+fund,FUND_0384,Brookfield Super Core Infrastructure Partners Project Aether
+fund,FUND_0385,Brookfield Super-Core Infrastructure Partners
+fund,FUND_0386,Brookfield Super-Core Infrastructure Partners Project Kepler
+fund,FUND_0387,Brookfield Super-Core Infrastructure Partners Project Volta
+fund,FUND_0388,Brookfield Timberlands Fund V
+fund,FUND_0389,"BSV Opportunities B, FCRE"
+fund,FUND_0390,Buchanan Fund V
+fund,FUND_0391,CalEast Canada Limited Partnership
+fund,FUND_0392,"CalEast Industrial Investors, LLC"
+fund,FUND_0393,"CalEast Solstice, LLC"
+fund,FUND_0394,CalWest CalPERS GIP
+fund,FUND_0395,"Camden Partners Strategic Fund VI, L.P."
+fund,FUND_0396,Cameron Village
+fund,FUND_0397,"Canyon Catalyst Fund II, LLC"
+fund,FUND_0398,Canyon Johnson Urban Fund III
+fund,FUND_0399,Capiton VI GmbH & Co. Beteiligungs KG
+fund,FUND_0400,Capvis Equity IV L.P.
+fund,FUND_0401,Capvis Equity V L.P.
+fund,FUND_0402,"Carlyle Credit Opportunities Fund (Parallel), L.P."
+fund,FUND_0403,"Carlyle Europe Partners IV, L.P."
+fund,FUND_0404,"Carlyle Europe Partners V - EU, S.C.Sp."
+fund,FUND_0405,"Carlyle Infrastructure Partners, L.P."
+fund,FUND_0406,"Carlyle Partners V, L.P."
+fund,FUND_0407,"Carlyle Partners VII, L.P."
+fund,FUND_0408,"Carlyle Partners VIII, L.P."
+fund,FUND_0409,"Carlyle Property Investors, L.P."
+fund,FUND_0410,"Carlyle US Equity Opportunity Fund II, L.P."
+fund,FUND_0411,"CB Offshore CF I, Limited Partnership"
+fund,FUND_0412,CBRE Strategic Partners US Value Fund 5
+fund,FUND_0413,CBRE Strategic Partners US Value Fund 6
+fund,FUND_0414,CCF II Industrial
+fund,FUND_0415,CCF III Industrial
+fund,FUND_0416,"CCF III, LLC"
+fund,FUND_0417,CCP 2020
+fund,FUND_0418,CCP Climb LP
+fund,FUND_0419,CCP Strider LP
+fund,FUND_0420,"CD&R Value Building Partners I, L.P."
+fund,FUND_0421,"CDRF8 Private Investors, LLC"
+fund,FUND_0422,"Centerbridge Seaport Acquisition Fund, L.P."
+fund,FUND_0423,"Cerberus Institutional Partners, L.P. - Series Four"
+fund,FUND_0424,"Charlesbank Equity Fund VIII, Limited Partnership"
+fund,FUND_0425,Charterhouse Capital Partners IX
+fund,FUND_0426,"CHP III, L.P."
+fund,FUND_0427,"CI Capital Investors III, L.P."
+fund,FUND_0428,"CIM Fund III, L.P."
+fund,FUND_0429,"CIM Infrastructure Fund, L.P."
+fund,FUND_0431,Clarion (Non Mandate)
+fund,FUND_0432,Clarion Columbia Office Properties
+fund,FUND_0433,Clarion Holding
+fund,FUND_0434,"Clayton, Dubilier & Rice Fund IX, L.P."
+fund,FUND_0435,"Clayton, Dubilier & Rice Fund X, L.P."
+fund,FUND_0436,"Clearlake Capital Partners III, L.P."
+fund,FUND_0437,"Clearlake Capital Partners IV, L.P."
+fund,FUND_0438,"Clearlake Capital Partners VI, L.P."
+fund,FUND_0439,"Clearlake Capital Partners VII (USTE), L.P."
+fund,FUND_0440,"Clearlake Opportunities Partners (P-Offshore), L.P."
+fund,FUND_0441,Cliffwood
+fund,FUND_0442,Clift
+fund,FUND_0443,Cohen & Steers
+fund,FUND_0444,"Coller International Partners VI, L.P."
+fund,FUND_0445,"Comvest Capital III International (Cayman), L.P."
+fund,FUND_0446,"Concession Investment Holdings, LLC"
+fund,FUND_0447,Core Property Index Trust
+fund,FUND_0448,"Corsair IV Financial Services Capital Partners, L.P."
+fund,FUND_0449,"Corsair V Financial Services Capital Partners, L.P."
+fund,FUND_0450,"Court Square Capital Partners (Offshore) III, L.P."
+fund,FUND_0451,"CP VII Investors, L.P."
+fund,FUND_0452,"Crestview Partners II, L.P."
+fund,FUND_0453,"Crow Holdings Realty Fund VII, LP"
+fund,FUND_0454,"Crow Holdings Realty Partners IX, L.P."
+fund,FUND_0455,"Crow Holdings Realty Partners VII, L.P."
+fund,FUND_0456,"Crow Retail Fund II, L.P."
+fund,FUND_0457,Cube Infrastructure Fund III
+fund,FUND_0458,Cube Salem Co-Investment
+fund,FUND_0459,CVC Capital Partners VI (A) L.P.
+fund,FUND_0460,CVC Capital Partners VI (B) L.P.
+fund,FUND_0461,CVC Capital Partners VII (A) L.P.
+fund,FUND_0462,CVC European Equity Partners V (A) L.P.
+fund,FUND_0463,CVC European Equity Partners V (C) L.P.
+fund,FUND_0464,"DB SAF C Strategic Partners, LP"
+fund,FUND_0465,"DCM V, L.P."
+fund,FUND_0466,"DCM VI, L.P."
+fund,FUND_0467,"DCP C Strategic Partners, LP"
+fund,FUND_0468,Digital Colony Partners
+fund,FUND_0469,"DigitalBridge Partners II, LP"
+fund,FUND_0470,"DigitalBridge Strategic Assets Fund, LP"
+fund,FUND_0471,"DivcoWest Fund IV REIT, L.P."
+fund,FUND_0472,DivcoWest Fund V
+fund,FUND_0473,DivcoWest Real Estate Fund VI
+fund,FUND_0474,"DW Life Sciences Partners, LLC"
+fund,FUND_0475,DW-Columbia Perfco LP
+fund,FUND_0476,"Edgewood Partners, L.P."
+fund,FUND_0477,EMR Capital Resources Fund II
+fund,FUND_0478,EnCap Flatrock Midstream Fund III
+fund,FUND_0479,EnCap Flatrock Midstream Fund IV
+fund,FUND_0480,Endless Fund IV A LP
+fund,FUND_0481,EnerVest Energy Institutional Fund XIV
+fund,FUND_0482,"EnerVest Energy Institutional Fund XIV-A, L.P."
+fund,FUND_0483,"EnerVest Fund XIV, L.P."
+fund,FUND_0484,EQT Infrastructure Fund V
+fund,FUND_0485,EQT Infrastructure Fund V Co-Investment
+fund,FUND_0486,EQT Infrastructure III
+fund,FUND_0487,EQT Infrastructure IV - USD Fund
+fund,FUND_0488,EQT INFRASTRUCTURE IV CO-INVESTMENT A SCSP
+fund,FUND_0489,EQT IX (No.2) EUR SCSp
+fund,FUND_0490,EQT VII (No.1) Limited Partnership
+fund,FUND_0491,EQT VIII (No.1) SCSp
+fund,FUND_0492,EQT VIII (No.2) SCSp
+fund,FUND_0493,"Equistone Partners Europe Fund IV ""E"" L.P."
+fund,FUND_0494,ESCALATE CAPITAL I LP
+fund,FUND_0495,Eurazeo Capital Secondary Fund 2025 SCSp
+fund,FUND_0496,Europe Fund III
+fund,FUND_0497,European Investors Global REIT
+fund,FUND_0498,"Fidelity Government Portfolio, Class I"
+fund,FUND_0499,Fifth Cinven Fund (No.3) Limited Partnership
+fund,FUND_0500,Five Arrows Florence Continuation Fund SCSp
+fund,FUND_0501,"Five Point Energy Fund I, L.P."
+fund,FUND_0502,"Five Point Energy Fund II, L.P."
+fund,FUND_0503,"Five Point Energy Fund III, L.P."
+fund,FUND_0504,Fortress Fund III PIK Notes
+fund,FUND_0505,Fortress II
+fund,FUND_0506,Fortress III
+fund,FUND_0507,Fortress Residential Inv. Deutschland
+fund,FUND_0508,Fortress V
+fund,FUND_0509,"Francisco Partners II, L.P."
+fund,FUND_0510,Frontenac XI Private Capital (M) Limited Partnership
+fund,FUND_0511,"FS Equity Partners CV1, L.P."
+fund,FUND_0512,FSN Capital IV L.P.
+fund,FUND_0513,FSP - Base
+fund,FUND_0514,FSP - DT 2012 and Beyond
+fund,FUND_0515,"General Atlantic Investment Partners 2013, L.P."
+fund,FUND_0516,"Genstar Capital Partners VIII BL (EU), L.P."
+fund,FUND_0517,"Genstar Capital Partners XI, L.P."
+fund,FUND_0518,"Genstar VIII Opportunities Fund I (EU), L.P."
+fund,FUND_0519,GESD Investors II Liquidating Trust
+fund,FUND_0520,GI Partners Fund II
+fund,FUND_0521,GI Partners Fund III
+fund,FUND_0522,GID Mainstay Fund
+fund,FUND_0523,GIP Aquarius Fund
+fund,FUND_0524,"GIP Aquarius Fund, SCSp"
+fund,FUND_0525,"GIP IV Gutenberg Co-Invest, SCSP"
+fund,FUND_0526,"GIP IV Seaway Co-Invest 2, L.P."
+fund,FUND_0527,Global Infrastructure Partners Capital Solutions Fund
+fund,FUND_0528,Global Infrastructure Partners II
+fund,FUND_0529,"Global Infrastructure Partners II, L.P. (GIP II)"
+fund,FUND_0530,Global Infrastructure Partners III
+fund,FUND_0531,Global Infrastructure Partners IV
+fund,FUND_0532,"Global Infrastructure Partners IV-A/B, L.P."
+fund,FUND_0533,"Golden Gate Capital Opportunity Fund, LP"
+fund,FUND_0534,"Golden Gate Capital Opportunity Fund-A, LP"
+fund,FUND_0535,Golden Reef Infrastructure Trust
+fund,FUND_0536,Gotham Office Realty Partnership
+fund,FUND_0537,"Great Hill Equity Partners IV, L.P."
+fund,FUND_0538,"Green Equity Investors CF II, L.P."
+fund,FUND_0539,"Green Equity Investors CF IV J, L.P."
+fund,FUND_0540,"Green Equity Investors CF IV-A, L.P."
+fund,FUND_0541,"Green Equity Investors CF, L.P."
+fund,FUND_0542,"Green Equity Investors Side IX, L.P."
+fund,FUND_0543,"Green Equity Investors Side VI, L.P."
+fund,FUND_0544,"Green Equity Investors V, L.P."
+fund,FUND_0545,"Green Equity Investors VI, L.P."
+fund,FUND_0546,"Green Equity Investors VII, L.P."
+fund,FUND_0547,"Green Equity Investors VIII, L.P."
+fund,FUND_0548,"Greenfield Acquisition Partners V, L.P."
+fund,FUND_0549,Greenfield Partners III
+fund,FUND_0550,Greystar Residential
+fund,FUND_0551,GRI - Base
+fund,FUND_0552,GRI - DT 2012 and Beyond
+fund,FUND_0553,"Gridiron Capital Fund II, L.P."
+fund,FUND_0554,"Gridiron Energy Feeder I, L.P."
+fund,FUND_0555,"Gryphon Co-Invest Fund IV, L.P."
+fund,FUND_0556,"Gryphon Heritage Partners, L.P."
+fund,FUND_0557,"Gryphon Mezzanine Partners II, L.P."
+fund,FUND_0558,"Gryphon Mezzanine Partners, L.P."
+fund,FUND_0559,"Gryphon Odin CV, L.P."
+fund,FUND_0560,"Gryphon Odin CV-A, L.P."
+fund,FUND_0561,"Gryphon Partners 3.5, L.P."
+fund,FUND_0562,"Gryphon Partners IV, L.P."
+fund,FUND_0563,"Gryphon Partners V, L.P."
+fund,FUND_0564,"Gryphon Partners V-A, L.P."
+fund,FUND_0565,"Gryphon Partners VI, L.P."
+fund,FUND_0566,"Gryphon Partners VI-A, L.P."
+fund,FUND_0567,GSO Capital Opportunities Overseas Fund L.P.
+fund,FUND_0568,"GSO Private Investors Offshore II, L.P."
+fund,FUND_0569,"Guggenheim Structured Real Estate II, L.P."
+fund,FUND_0570,"Guggenheim Structured Real Estate, L.P."
+fund,FUND_0571,"H&F Arrow 2, L.P."
+fund,FUND_0572,"H&F Clyde 2, L.P."
+fund,FUND_0573,"H&F Executives IX, L.P."
+fund,FUND_0574,"H&F Executives VIII, L.P."
+fund,FUND_0575,"H.I.G. Advantage Buyout Fund, L.P."
+fund,FUND_0576,"H.I.G. Bayside Debt & LBO Fund II, L.P."
+fund,FUND_0577,"H.I.G. Capital Partners IV, L.P."
+fund,FUND_0578,"H.I.G. Capital Partners V, L.P."
+fund,FUND_0579,"H.I.G. Growth Buyouts & Equity Fund II, L.P."
+fund,FUND_0580,Halderman Farmland Separate Account
+fund,FUND_0581,"Halifax Capital Partners IV, L.P."
+fund,FUND_0582,"Halifax Capital Partners V, L.P."
+fund,FUND_0583,Hamilton Lane-Carpenters Partnership Fund IV L.P.
+fund,FUND_0584,Hamilton Lane-Carpenters Partnership Fund V L.P.
+fund,FUND_0585,"Hammes Income & Growth Healthcare Fund, L.P."
+fund,FUND_0586,"Hammes Partners II, L.P."
+fund,FUND_0587,"Hammes Partners III, L.P."
+fund,FUND_0588,Hampstead I
+fund,FUND_0589,Hampstead II
+fund,FUND_0590,Hampstead III
+fund,FUND_0591,"Hancock GLC Farms, LLC"
+fund,FUND_0592,HANNATHON CIV LP
+fund,FUND_0593,"Harbert Gulf Pacific Power, LLC (HGPP)"
+fund,FUND_0594,"Harbert Infrastructure Fund VI, L.P."
+fund,FUND_0595,"Harbert Power Fund V, L.P. (HPF V)"
+fund,FUND_0596,Harrison Street Core Property Fund Co-Investment
+fund,FUND_0597,"Harrison Street Core Property Fund, LP"
+fund,FUND_0598,Harrison Street Life Science Core
+fund,FUND_0599,Harrison Street Life Science Non-Core
+fund,FUND_0600,Harrison Street Life Science SMA Account
+fund,FUND_0601,Harrison Street Real Estate Partners IX
+fund,FUND_0602,Harrison Street Real Estate Partners V-A
+fund,FUND_0603,Harrison Street REP V Co-Investment
+fund,FUND_0604,Harrison Street REP VIII
+fund,FUND_0605,Harrison Street SIF Co-Investment I
+fund,FUND_0606,Harrison Street Social Infrastructure Fund
+fund,FUND_0607,Harvest MLP
+fund,FUND_0608,"Harvest Partners Structured Capital Fund II, L.P."
+fund,FUND_0609,"Harvest Partners Structured Capital Fund III, L.P."
+fund,FUND_0610,"Harvest Partners Structured Capital Fund, L.P."
+fund,FUND_0611,"HC Green Development Fund, L.P."
+fund,FUND_0612,HC LTH LLC
+fund,FUND_0613,"HCB Interests II, L.P."
+fund,FUND_0614,"HCI Equity Partners EV I, L.P."
+fund,FUND_0615,"HCI Equity Partners IV, L.P."
+fund,FUND_0616,"Hearthstone Housing Partners II, LLC"
+fund,FUND_0617,"Heartwood Partners II, LP"
+fund,FUND_0618,"Heitman America Real Estate Trust, L.P."
+fund,FUND_0619,"Hellman & Friedman Capital Partners IX (Parallel), L.P."
+fund,FUND_0620,"Hellman & Friedman Capital Partners VII (Parallel), L.P."
+fund,FUND_0621,"Hellman & Friedman Capital Partners VII, L.P."
+fund,FUND_0622,"Hellman & Friedman Capital Partners X (Parallel), L.P."
+fund,FUND_0623,"Hellman & Friedman Capital Partners XI (Parallel), L.P."
+fund,FUND_0624,Heritage Fields Capital
+fund,FUND_0625,"HFCP VII (Parallel-A), L.P."
+fund,FUND_0626,Hg Genesis 7 C L.P.
+fund,FUND_0627,Hg Genesis 7 E L.P.
+fund,FUND_0628,Highstar Capital Fund IV
+fund,FUND_0629,"HighVista Private Equity VIII (Offshore), L.P."
+fund,FUND_0630,HighYield Opportunities Fund
+fund,FUND_0631,"Hildred Perennial Partners I, LP"
+fund,FUND_0632,"Hines European Development Fund, L.P."
+fund,FUND_0633,Hines US Office Value Add Fund II
+fund,FUND_0634,Homestead Capital USA Farmland Fund II
+fund,FUND_0635,HPE Continuation Fund I C.V.
+fund,FUND_0636,"Icon Partners II, L.P."
+fund,FUND_0637,"Icon Partners III, L.P."
+fund,FUND_0638,"IFM Global Infrastructure (U.S), L.P."
+fund,FUND_0639,IIF Hedged LP
+fund,FUND_0640,IL & FS India Realty Fund
+fund,FUND_0641,IL & FS India Realty Fund II
+fund,FUND_0642,IMI - Base
+fund,FUND_0643,IMP - Base
+fund,FUND_0644,IMP - DT 2012 and Beyond
+fund,FUND_0645,IMP - ICMI
+fund,FUND_0646,IMP Abaca
+fund,FUND_0647,IMP DT 2020
+fund,FUND_0648,"IMP Fairmont Residential Owner, LLC"
+fund,FUND_0649,Insight Equity I LP
+fund,FUND_0650,Insight Equity II LP
+fund,FUND_0651,"Insight Partners (Cayman) XII Buyout Annex Fund, L.P."
+fund,FUND_0652,"Insight Partners Continuation Fund (Cayman), L.P."
+fund,FUND_0653,"Insight Partners Continuation Fund, L.P."
+fund,FUND_0654,"Insight Venture Partners (Cayman) IX, L.P."
+fund,FUND_0655,"Insight Venture Partners (Cayman) VIII, L.P."
+fund,FUND_0656,"Insight Venture Partners (Cayman) X, L.P."
+fund,FUND_0657,"Insight Venture Partners Coinvestment Fund (Delaware) III, L.P."
+fund,FUND_0658,"Insight Venture Partners Coinvestment Fund II, L.P."
+fund,FUND_0659,"Insight Venture Partners Coinvestment Fund III, L.P."
+fund,FUND_0660,"Insight Venture Partners Growth-Buyout Coinvestment Fund (Cayman), L.P."
+fund,FUND_0661,"Insight Venture Partners Growth-Buyout Coinvestment Fund, L.P."
+fund,FUND_0662,"Insight Venture Partners IX, L.P."
+fund,FUND_0663,"Insight Venture Partners VII, L.P."
+fund,FUND_0664,"Insight Venture Partners VIII (Co-Investors), L.P."
+fund,FUND_0665,"Insight Venture Partners VIII, L.P."
+fund,FUND_0666,"Institutional Logistics Partners, LLC"
+fund,FUND_0667,International Infrastructure Finance Company Fund
+fund,FUND_0668,"Investcorp Aspen Offshore Fund, L.P."
+fund,FUND_0669,Investindustrial VII L.P.
+fund,FUND_0670,"Ironsides Offshore Direct Investment Fund V, L.P."
+fund,FUND_0671,Ivy Investment Vehicle LDC (SWPM)
+fund,FUND_0672,JER Real Estate Partners
+fund,FUND_0673,JER Real Estate Partners II
+fund,FUND_0674,JLL Income Property Trust
+fund,FUND_0675,"JLL Partners Fund VII Secondary (A), L.P."
+fund,FUND_0676,JP Morgan Strategic Property Fund
+fund,FUND_0677,JPMorgan US Government Money Market Fund
+fund,FUND_0678,"Kelso Investment Associates IX, L.P."
+fund,FUND_0679,"Kelso Investment Associates VIII, L.P."
+fund,FUND_0680,"KeyStone Industrial Fund, LP"
+fund,FUND_0681,"Kildare European Partners I, L.P."
+fund,FUND_0682,"Kildare European Partners II, L.P."
+fund,FUND_0683,KKR Americas Fund XII L.P.
+fund,FUND_0684,KKR Asian Fund II TE Blocker L.P.
+fund,FUND_0685,KKR European Fund V (USD) SCSp
+fund,FUND_0686,KKR North America Fund XI L.P.
+fund,FUND_0687,"KTR Industrial Fund II, LP"
+fund,FUND_0688,KTR Industrial Fund III
+fund,FUND_0689,"L Catterton IX, L.P."
+fund,FUND_0690,Land Management Company Resmark
+fund,FUND_0691,"Landmark Real Estate Partners VII, L.P."
+fund,FUND_0692,LaSalle REIT
+fund,FUND_0693,LBA Core Industrial
+fund,FUND_0694,LBA Logistics Value Fund IX
+fund,FUND_0695,"LBA Logistics Value Fund X, LP"
+fund,FUND_0696,"Lee Equity Partners Fund II, L.P."
+fund,FUND_0697,"Lightspeed Venture Partners IX, L.P."
+fund,FUND_0699,Lincoln CIP Industrial Value Add
+fund,FUND_0700,Lincoln Holdings
+fund,FUND_0701,Lincoln Non Mandate
+fund,FUND_0702,Lincoln Timber L.P.
+fund,FUND_0703,Lion Mexico Fund
+fund,FUND_0704,"Lion/Simba Investors, L.P."
+fund,FUND_0705,Lionstone CFO ONE
+fund,FUND_0706,Lionstone CFO One Non Mandate
+fund,FUND_0707,Lionstone Westloop
+fund,FUND_0708,"Littlejohn Fund IV, L.P."
+fund,FUND_0709,"Littlejohn Fund V, L.P."
+fund,FUND_0710,Lone Star Fund I
+fund,FUND_0711,Lone Star Fund II
+fund,FUND_0712,Lone Star Fund III
+fund,FUND_0713,Lone Star Fund IV
+fund,FUND_0714,Lone Star Fund IX
+fund,FUND_0715,Lone Star Fund V
+fund,FUND_0716,Lone Star Fund VI
+fund,FUND_0717,Lone Star Fund VII
+fund,FUND_0718,"Lone Star Fund VII (U.S.), L.P."
+fund,FUND_0719,Lone Star Fund VIII
+fund,FUND_0720,"Lone Star Fund VIII (U.S.), L.P."
+fund,FUND_0721,"Lone Star Fund X (U.S.), L.P."
+fund,FUND_0722,"Lone Star Fund XI (U.S.), L.P."
+fund,FUND_0723,"Lone Star Fund XI, L.P."
+fund,FUND_0724,Lone Star Real Estate Fund
+fund,FUND_0725,Lone Star Real Estate Fund II
+fund,FUND_0726,"Lone Star Real Estate Fund II (U.S.), L.P."
+fund,FUND_0727,Lone Star Real Estate Fund III
+fund,FUND_0728,Lone Star Real Estate Fund IV
+fund,FUND_0729,Lone Star Real Estate Fund V
+fund,FUND_0730,"Lone Star Real Estate Fund V (U.S.), L.P."
+fund,FUND_0731,"Lone Star Real Estate Fund VI, L.P."
+fund,FUND_0732,"LORE One, L.P. (Core)"
+fund,FUND_0733,"LORE One, L.P. (Value Add)"
+fund,FUND_0734,Lovell Minnick Equity Partners III LP
+fund,FUND_0735,LS Power Equity Partners III
+fund,FUND_0736,LS Power Equity Partners IV
+fund,FUND_0737,"Lubert-Adler Real Estate Fund VII, L.P."
+fund,FUND_0738,Madison Dearborn Capital Partners VII
+fund,FUND_0739,"Madison Dearborn Capital Partners VIII-A, L.P."
+fund,FUND_0740,"Madison Realty Capital Debt Fund III, LP"
+fund,FUND_0741,Main Capital IX Feeder (A) C.V.
+fund,FUND_0742,Main Foundation III Feeder (A) C.V.
+fund,FUND_0743,"Marlin Equity III, L.P."
+fund,FUND_0744,"MDCP Insurance SPV, L.P."
+fund,FUND_0745,"Merit Mezzanine Fund VI, L.P."
+fund,FUND_0746,Mid Europa Fund V LP
+fund,FUND_0747,Montagu+ SCSp
+fund,FUND_0748,Morgan Stanley Global REIT
+fund,FUND_0749,Morgan Stanley Prime Property Fund
+fund,FUND_0750,"MPE Partners II, L.P."
+fund,FUND_0751,"National Office Partners, LLC (CWP)"
+fund,FUND_0753,NB Credit Opportunities II Cayman Feeder LP
+fund,FUND_0754,"NB SPV, L.P."
+fund,FUND_0755,NCV SELECT I LP
+fund,FUND_0756,"Neptune Regional Transmission System, LLC"
+fund,FUND_0757,"New Capital Partners Private Equity Fund II, L.P."
+fund,FUND_0758,"New Enterprise Associates 12, Limited Partnership"
+fund,FUND_0759,NEW HORIZONS EL PASO LP
+fund,FUND_0761,"New Mountain Partners III, L.P."
+fund,FUND_0762,"New Mountain Partners V, L.P."
+fund,FUND_0763,"New Mountain SRC Rollover Fund, L.P."
+fund,FUND_0764,"NewView Capital Fund I, L.P."
+fund,FUND_0765,NEXT COAST VENTURES III LP
+fund,FUND_0766,NGP Agribusiness Follow-on Program
+fund,FUND_0767,NGP Natural Resources X
+fund,FUND_0768,NGP Natural Resources XI
+fund,FUND_0769,NGP Natural Resources XII
+fund,FUND_0770,NGP Royalty Partners
+fund,FUND_0771,NGP Royalty Partners Co-Investment Side Car
+fund,FUND_0772,NGP Royalty Partners Fund II
+fund,FUND_0773,NGP Royalty Partners II Co-Investment Side Car
+fund,FUND_0774,Njord SCSp
+fund,FUND_0775,"North Bridge Growth Equity II, L.P."
+fund,FUND_0776,"North Haven Infrastructure Partners II, L.P."
+fund,FUND_0777,Northern Shipping Fund III
+fund,FUND_0778,Northern Shipping Fund IV
+fund,FUND_0779,"Norwest Mezzanine Partners III, LP"
+fund,FUND_0780,Norwest Mezzanine Partners IV
+fund,FUND_0781,"Norwest Mezzanine Partners V-A, LP"
+fund,FUND_0782,Nuveen U.S. Cities Industrial Fund
+fund,FUND_0783,Nuveen U.S. Cities Multifamily Fund
+fund,FUND_0784,"Oak Investment Partners XII, Limited Partnership"
+fund,FUND_0785,"Oaktree Opportunities Fund IX (Cayman), L.P."
+fund,FUND_0786,Oaktree Opportunities Fund VIII (Cayman) Ltd.
+fund,FUND_0787,"Oaktree Private Investment Fund 2010, L.P."
+fund,FUND_0788,"Oaktree RE Oppo Fund A, LP"
+fund,FUND_0789,"OceanSound Partners Fund, LP"
+fund,FUND_0790,"OceanSound SMX Rollover AIV, L.P."
+fund,FUND_0791,Och-Ziff Real Estate Fund III
+fund,FUND_0792,"Odyssey Investment Partners Fund V, LP"
+fund,FUND_0793,"OEP VI Feeder (Cayman), L.P."
+fund,FUND_0794,Offshore Feeder
+fund,FUND_0795,"One Equity Partners VIII, L.P."
+fund,FUND_0796,Onex Partners IV LP
+fund,FUND_0797,Onshore Feeder
+fund,FUND_0798,"ORA Residential Investments I,L.P."
+fund,FUND_0799,Oregon Abacus Multifamily Associates LP
+fund,FUND_0800,Orion Mine Finance (Master) Fund I
+fund,FUND_0801,"PA Middle Market Fund, LP"
+fund,FUND_0802,"Pacific Multifamily Investors, LLC"
+fund,FUND_0803,Pacific Realty
+fund,FUND_0804,Page Mill
+fund,FUND_0805,PAI Mid-Market Fund SCSp
+fund,FUND_0806,PAI Strategic Partnerships SCSp
+fund,FUND_0807,"Paladin III (HR), L.P."
+fund,FUND_0808,"Pamlico Capital III Continuation Fund, L.P."
+fund,FUND_0809,"Parthenon Investors III, L.P."
+fund,FUND_0810,PBC AUSTIN 2021 EQUITY I LP
+fund,FUND_0811,"Pegasus WSJLL Fund, L.P."
+fund,FUND_0812,PENNYBACKER IV LP
+fund,FUND_0813,PEP DEVELOPMENT OPPORTUNITIES FUND LP
+fund,FUND_0814,PEP VIII Antares Co-Investment L.P.
+fund,FUND_0815,Permira IV Feeder L.P.
+fund,FUND_0816,Platinum Equity Capital Partners II
+fund,FUND_0817,PMI Tactical
+fund,FUND_0818,Presima Global REIT
+fund,FUND_0819,"PRIMA Mortgage Investment Trust, LLC"
+fund,FUND_0820,"PRO SPV, LP"
+fund,FUND_0821,Prologis Global Industrial Ventures
+fund,FUND_0822,"Prologis Targeted Europe Logistics Fund, FCP-FIS"
+fund,FUND_0823,Prologis Targeted US Logistic Fund
+fund,FUND_0824,Prologis Targeted US Logistics Fund
+fund,FUND_0825,Providence Equity Partners (Unity) S.C.SP.
+fund,FUND_0826,Providence Equity Partners IX-A S.C.Sp.
+fund,FUND_0827,Providence Equity Partners VI L.P.
+fund,FUND_0828,Providence Equity Partners VII L.P.
+fund,FUND_0829,Providence Equity Partners VII-A L.P.
+fund,FUND_0830,Providence Equity Partners VIII L.P.
+fund,FUND_0831,PSERS Short Term Investment Fund assets
+fund,FUND_0832,PSERS Short-Term Investment Fund
+fund,FUND_0833,"PT2-A, L.P."
+fund,FUND_0834,"PTEV-A, L.P."
+fund,FUND_0835,QL Capital Partners
+fund,FUND_0836,QLCP Co-Investment Fund
+fund,FUND_0837,Quantum Energy Partners VIII
+fund,FUND_0838,Quantum Energy Partners VIII Co-Investment Fund
+fund,FUND_0839,Raith NMERB Core Plus Real Estate Credit SMA
+fund,FUND_0840,"Raith Real Estate Fund II, L.P."
+fund,FUND_0841,RAM Realty Partners III
+fund,FUND_0842,RAPM NM Secondary Opportunity Fund L.P.
+fund,FUND_0843,RAPM-NMERB Co-Investment Fund L.P.
+fund,FUND_0844,RC III CKE LLC
+fund,FUND_0845,RCF V Annex Fund L.P.
+fund,FUND_0847,"Realterm European Logistics Fund, L.P."
+fund,FUND_0848,"Realterm Logistics Fund, L.P."
+fund,FUND_0849,Regency Core
+fund,FUND_0850,Regency II
+fund,FUND_0851,Reservoir Resource Partners
+fund,FUND_0852,Resource Capital Fund V L.P.
+fund,FUND_0853,Roark Capital Partners CF LP
+fund,FUND_0854,Roark Capital Partners CF RI LP
+fund,FUND_0855,Roark Capital Partners II LP
+fund,FUND_0856,Roark Capital Partners II Sidecar LP
+fund,FUND_0857,Roark Capital Partners III LP
+fund,FUND_0858,Roark Capital Partners IV LP
+fund,FUND_0859,Roark Capital Partners V (T) LP
+fund,FUND_0860,Roark Capital Partners V (TE) LP
+fund,FUND_0861,Roark Capital Partners VI (TE) LP
+fund,FUND_0862,"Rockpoint Finance Fund I, LP"
+fund,FUND_0863,"Rockpoint Growth and Income Fund I, L.P."
+fund,FUND_0864,"Rockpoint RE Special Fund, L.P."
+fund,FUND_0865,"Rockpoint Real Estate Fund I, L.P."
+fund,FUND_0866,"Rockpoint Real Estate Fund II, L.P."
+fund,FUND_0867,"Rockpoint Real Estate Fund III, L.P."
+fund,FUND_0868,"Rockpoint Real Estate Fund IV, L.P."
+fund,FUND_0869,"Rockpoint Real Estate Fund V, L.P."
+fund,FUND_0870,Rockwood Capital RE Partners VII
+fund,FUND_0871,Rockwood Capital RE Partners VIII
+fund,FUND_0872,ROX II MED CENTER LP
+fund,FUND_0873,RREEF America Fund II
+fund,FUND_0874,Sacramento Venture Hines Base
+fund,FUND_0875,Sacramento Venture Hines DT
+fund,FUND_0876,SailingStone Global Natural Resources Portfolio
+fund,FUND_0877,"Samson Brunello 1, L.P."
+fund,FUND_0878,"Samson Brunello 2, L.P."
+fund,FUND_0879,"Samson Hockey 2, L.P."
+fund,FUND_0880,"Samson Shield 1, L.P."
+fund,FUND_0881,"Samson Shield 2, L.P."
+fund,FUND_0882,SANTÉ HEALTH VENTURES II LP
+fund,FUND_0883,"Sares-Regis Multifamily Fund, L.P."
+fund,FUND_0884,"Saw Mill Capital Partners, L.P."
+fund,FUND_0885,SCF-IX LP
+fund,FUND_0886,SCF-VII LP
+fund,FUND_0887,SCF-VIII LP
+fund,FUND_0888,Sculptor Diversified RE Income Trust
+fund,FUND_0889,Sculptor Real Estate Fund IV
+fund,FUND_0890,Sculptor Real Estate Fund V
+fund,FUND_0891,SDL Hospitality Co-Invest Fund
+fund,FUND_0892,"Seidler Equity Partners IV, L.P."
+fund,FUND_0893,SERVE OPPORTUNITIES FUND I LP
+fund,FUND_0894,"SH Group I, LP"
+fund,FUND_0895,Sheridan Production Partners I-B
+fund,FUND_0896,Sheridan Production Partners II-B
+fund,FUND_0897,Sheridan Production Partners III-B
+fund,FUND_0898,Sierra Nevada Investment Partners LP
+fund,FUND_0899,Silver Creek Aggregate Reserves Fund I
+fund,FUND_0900,"Silver Lake Partners III, L.P."
+fund,FUND_0901,"Silver Lake Partners V, L.P."
+fund,FUND_0902,Sixth Cinven Fund (No. 2) Limited Partnership
+fund,FUND_0903,Sixth Cinven Fund (No. 4) Limited Partnership
+fund,FUND_0904,"Sixth Street Opportunities Partners III (B), L.P."
+fund,FUND_0905,"SL SPV-2, L.P."
+fund,FUND_0906,"Solamere Capital AF V, LP"
+fund,FUND_0907,"Solamere Series IV Leaders Fund, LP"
+fund,FUND_0908,"Sorenson Capital Partners III, L.P."
+fund,FUND_0909,"Sorenson Capital Partners IV-B, L.P."
+fund,FUND_0910,Sprott Streaming & Royalty Fund
+fund,FUND_0911,Sprott Streaming & Royalty Fund Co-Investment Side Car
+fund,FUND_0912,Starwood Cap Hospitality Fd II Global LP
+fund,FUND_0913,Starwood Capital Hospitality Fund I-2
+fund,FUND_0914,Starwood Energy Infrastructure Fund III
+fund,FUND_0915,"Sterling Capital Partners IV, L.P."
+fund,FUND_0916,Stonepeak Core Fund (A)
+fund,FUND_0917,Stonepeak Global Renewables Fund
+fund,FUND_0918,Stonepeak Infrastructure Fund
+fund,FUND_0919,Stonepeak Infrastructure Fund II
+fund,FUND_0920,Stonepeak Infrastructure Fund II (AIV II Claremont)
+fund,FUND_0921,Stonepeak Infrastructure Fund III
+fund,FUND_0922,Stonepeak Trail Blazer Investment Partners
+fund,FUND_0923,Strategic Property Fund Asia SCSP
+fund,FUND_0924,"Summit Partners Growth Equity Fund VIII-B, L.P."
+fund,FUND_0925,"Summit Partners Private Equity Fund VII-A, L.P."
+fund,FUND_0926,"Sun Capital Partners IV, LP"
+fund,FUND_0927,"Sun Capital Partners V, L.P."
+fund,FUND_0928,"SunTx Capital Partners II, L.P."
+fund,FUND_0929,Sylvanus LLC
+fund,FUND_0930,TA Atlantic and Pacific VI L.P.
+fund,FUND_0931,"TA Select Opportunities Fund II-A, L.P."
+fund,FUND_0932,"TA Select Opportunities Fund-A, L.P."
+fund,FUND_0933,"TA XII-A, L.P."
+fund,FUND_0934,"TA XIV-B, L.P."
+fund,FUND_0935,"TA XV-B, L.P."
+fund,FUND_0936,Talmage Separate Account
+fund,FUND_0937,"Talmage Total Return Partners, LLC"
+fund,FUND_0938,Taurus Mining Finance Annex Fund
+fund,FUND_0939,Taurus Mining Finance Fund
+fund,FUND_0940,Taurus Mining Finance Fund II
+fund,FUND_0941,TEAKWOOD CAPITAL III (CO-INVESTMENT) LP
+fund,FUND_0942,TEAKWOOD CAPITAL III LP
+fund,FUND_0943,Teays River Investments
+fund,FUND_0944,TechCore 2019
+fund,FUND_0945,"Tennenbaum Opportunities Fund V, LLC"
+fund,FUND_0946,The Energy & Minerals Group Fund III
+fund,FUND_0948,"The Resolute III Continuation Fund, L.P."
+fund,FUND_0949,"The Veritas Capital Fund V, L.P."
+fund,FUND_0950,"The Veritas Capital Fund VI, L.P."
+fund,FUND_0951,"The Veritas Capital Fund VII, L.P."
+fund,FUND_0952,"The Veritas Capital Fund VIII, L.P."
+fund,FUND_0953,"Thoma Bravo Explore Fund II-A, L.P."
+fund,FUND_0954,"Thoma Bravo Fund XII, L.P."
+fund,FUND_0955,"Thoma Bravo Fund XV-A, L.P."
+fund,FUND_0956,"Thomas H. Lee Equity Fund VII, L.P."
+fund,FUND_0957,"Thomas H. Lee Equity Fund VIII, L.P."
+fund,FUND_0958,"Thomas H. Lee Parallel (Cayman) Fund VII, L.P."
+fund,FUND_0959,"Thomas H. Lee Parallel Fund VIII, L.P."
+fund,FUND_0960,Tillridge Global Agribusiness Partners II
+fund,FUND_0961,Timber
+fund,FUND_0962,"Tower Bridge Infrastructure Partners, L.P."
+fund,FUND_0963,"TowerBrook Investors III, L.P."
+fund,FUND_0964,"TPF II-A, LP"
+fund,FUND_0965,"TPG Asia VI, L.P."
+fund,FUND_0966,"TPG Growth III (A), L.P."
+fund,FUND_0967,"TPG Partners VI, L.P."
+fund,FUND_0968,"TPG Partners VII, L.P."
+fund,FUND_0969,"TPG Partners VIII, L.P."
+fund,FUND_0970,"TPG Real Estate Partners III, L.P."
+fund,FUND_0971,TransEuropean I
+fund,FUND_0972,"Trident VI, L.P."
+fund,FUND_0973,Trident VIII L.P.
+fund,FUND_0974,"Trinity Ventures 2024, L.P."
+fund,FUND_0975,Triton Fund 6 SCSp
+fund,FUND_0976,Triton Fund IV L.P.
+fund,FUND_0977,Twin Creeks Timber
+fund,FUND_0978,U.S. Value Income REIT Strategy
+fund,FUND_0980,Valeas Capital Partners Fund I-A LP
+fund,FUND_0981,"Vector Capital V, L.P."
+fund,FUND_0982,"Vector Capital VI, L.P."
+fund,FUND_0983,Verdane Capital IX AB
+fund,FUND_0984,VISTA EQUITY ENDEAVOR FUND II LP
+fund,FUND_0985,"Vista Equity Partners Fund V, L.P."
+fund,FUND_0986,"Vista Equity Partners Fund VI, L.P."
+fund,FUND_0987,"Vista Equity Partners Fund VIII-A, L.P."
+fund,FUND_0988,"Vista Equity Partners Hubble, L.P."
+fund,FUND_0989,Vornado Capital Partners L.P.
+fund,FUND_0990,"VSS Structured Capital Parallel III, L.P."
+fund,FUND_0991,Walton Street Real Estate Core-Plus Fund
+fund,FUND_0992,"Warburg Pincus Global Growth, L.P."
+fund,FUND_0993,"Warburg Pincus Private Equity XI, L.P."
+fund,FUND_0994,"Warburg Pincus Private Equity XI-B, L.P."
+fund,FUND_0995,"Warburg Pincus Private Equity XII, L.P."
+fund,FUND_0996,"Warburg Pincus Private Equity XII-B, L.P."
+fund,FUND_0997,Warwick Partners III
+fund,FUND_0998,Warwick Partners IV
+fund,FUND_0999,"Water Property Investor II, L.P."
+fund,FUND_1000,"Water Property Investor, L.P."
+fund,FUND_1001,"Waterton Fund IX PT Chicago, LLC"
+fund,FUND_1002,Waterton Residential Prop Venture XIV
+fund,FUND_1003,Waterton Residential Property Venture XI
+fund,FUND_1004,Waterton Residential Property Venture XII
+fund,FUND_1005,"WCAS XIII, L.P."
+fund,FUND_1006,"WCAS XIV, L.P."
+fund,FUND_1007,"Webster Equity Partners Bristol CF, L.P."
+fund,FUND_1008,Westbourne Infrastructure Debt 6 (A)
+fund,FUND_1009,Westbourne Infrastructure Debt 6 ©
+fund,FUND_1010,Westbrook I
+fund,FUND_1011,Westbrook II
+fund,FUND_1012,Westbrook III
+fund,FUND_1013,Westbrook IV
+fund,FUND_1014,Western National Co-Investment
+fund,FUND_1015,Western National Realty II
+fund,FUND_1016,"Wind Point Partners AAV, L.P."
+fund,FUND_1017,"Wind Point Partners VII-B, L.P."
+fund,FUND_1018,Windsor Columbia Realty Fund
+fund,FUND_1019,Windsor Columbia Realty Fund Non Core
+fund,FUND_1020,Windsor Realty VII
+fund,FUND_1021,Woodbourne
+fund,FUND_1022,"WP AUSA, L.P."
+fund,FUND_1023,"WRPV XI CK Expansion, L.L.C"
+fund,FUND_1024,Yen Feeder
+fund,FUND_1025,"ZMC II, L.P."
+fund,FUND_1026,"Alinda Infrastructure Fund II, L.P."
+fund,FUND_1027,"Bluescape Energy Recapitalization and Restructuring Fund III, L.P."
+fund,FUND_1028,"Bluescape Energy Recapitalization and Restructuring Fund IV, L.P."
+fund,FUND_1029,"Brookfield Brazil Timber Fund II, L.P."
+fund,FUND_1030,"Conservation Forestry Capital Fund II, L.P."
+fund,FUND_1031,"Conservation Forestry Capital Fund IV, L.P."
+fund,FUND_1032,"Crow Holdings Realty Partners VI, L.P."
+fund,FUND_1033,"Eastern Timberland Opportunities II, L.P."
+fund,FUND_1034,"Eastern Timberland Opportunities III, L.P."
+fund,FUND_1035,"Ecosystem Investment Partners II, L.P."
+fund,FUND_1036,"Ecosystem Investment Partners III, L.P."
+fund,FUND_1037,"Ecosystem Investment Partners IV, L.P."
+fund,FUND_1038,"Folium Agriculture Fund I, L.P."
+fund,FUND_1039,"Guggenheim Structured Real Estate III, LP"
+fund,FUND_1040,"Lime Rock Resources III, L.P."
+fund,FUND_1041,"Prudential Senior Housing Partners IV, L.P."
+fund,FUND_1042,"Prudential Senior Housing V, L.P."
+fund,FUND_1043,"Raith Real Estate Fund I-A, L.P."
+fund,FUND_1044,"RAM Realty Partners IV, L.P."
+fund,FUND_1045,"RAM Realty Partners V, L.P."
+fund,FUND_1046,"Realterm Logistics Fund II, L.P."
+fund,FUND_1047,"Realterm Logistics Fund III, L.P."
+fund,FUND_1048,"Sares-Regis Multifamily Value-Add Fund II, L.P."
+fund,FUND_1049,"Sares-Regis Multifamily Value-Add Fund III, L.P."
+fund,FUND_1050,Stonepeak Infrastructure Fund IV LP
+fund,FUND_1051,"Vista Equity Partners Fund VII, L.P."
+manager,MGR_0001,"Buckeye Venture Partners, LLC"
+manager,MGR_0002,MassVentures
+manager,MGR_0003,Starwood Capital Group
+manager,MGR_0004,"Starwood REIT Advisors, L.L.C."
+manager,MGR_0005,"Versa Capital Management, LLC"
+manager,MGR_0006,Utah Capital Investment Corporation
+manager,MGR_0007,"Connecticut Innovations, Incorporated"
+manager,MGR_0008,Maryland Technology Development Corporation
+manager,MGR_0009,"Heritage Partners, Inc."
+manager,MGR_0010,Jefferson Partners Fund IV Management Corp.
+manager,MGR_0090,HERITAGE PARTNERS.INC
+manager,MGR_0091,"JPIV G.P., L.P."
+manager,MGR_0092,Advisor
+manager,MGR_0093,Antares Capital
+manager,MGR_0094,Bear Stearns
+manager,MGR_0095,Bear Stearns Asset Management Inc.
+manager,MGR_0096,broker dealers
+manager,MGR_0097,BSAM
+manager,MGR_0098,Citigroup
+manager,MGR_0099,Cowen
+manager,MGR_0100,Daiwa
+manager,MGR_0101,Glass Lewis
+manager,MGR_0102,Goldman Sachs
+manager,MGR_0103,Hamilton Lane
+manager,MGR_0104,Harvest Fund Advisors LLC
+manager,MGR_0105,HGSCS team
+manager,MGR_0106,HSBC Securities
+manager,MGR_0107,independent valuation advisor
+manager,MGR_0108,Instinet
+manager,MGR_0109,Jefferies
+manager,MGR_0110,"Lubert-Adler Group VII, L.P."
+manager,MGR_0111,MEKETA INVESTMENT GROUP
+manager,MGR_0112,Morgan Stanley
+manager,MGR_0113,Office of the Chief Investment Officer of the Regents (UC Investments)
+manager,MGR_0114,public markets investment advisors
+manager,MGR_0115,reo® service
+manager,MGR_0116,Sanford C Bernstein
+manager,MGR_0117,UBS Warburg
+manager,MGR_0118,University of South Carolina Foundations
+manager,MGR_0119,University of Texas/Texas A&M Investment Management Company (UTIMCO)
+manager,MGR_0120,University of Virginia Investment Management Company
+manager,MGR_0121,Utah Retirement Systems
+lp,LP_0001,Northumberland County Council acting in its capacity as the administering authority for the Northumberland County Council Pension Fund
+lp,LP_0002,Oregon Growth Account Private Equity Program
+lp,LP_0003,Pennsylvania Public School Employees' Retirement System (PSERS)
+lp,LP_0004,The Ohio Capital Fund LLC
+lp,LP_0005,"Utah Fund of Funds, LLC"
+lp,LP_0006,Bear Stearns employees
+lp,LP_0007,BILL & MELINDA GATES FOUNDATION TRUST
+lp,LP_0008,Bill and Melinda Gates
+lp,LP_0009,Bill Gates
+lp,LP_0010,General Partner
+lp,LP_0011,Guardians of New Zealand Superannuation
+lp,LP_0012,James Cayne
+lp,LP_0013,"JPIV G.P., L.P."
+lp,LP_0014,largest investor
+lp,LP_0015,Limited Partners
+lp,LP_0016,New Mexico Educational Retirement Board
+lp,LP_0017,New York State Common Retirement Fund
+lp,LP_0018,Oregon Growth Account
+lp,LP_0019,"Private Capital Management, L.P."
+lp,LP_0020,PSERS
+lp,LP_0021,Public Employees' Retirement Fund (PERF)
+lp,LP_0022,The University of Texas System
+lp,LP_0023,Universities Superannuation Scheme Limited
+lp,LP_0024,University of California
+lp,LP_0025,University of Michigan
+lp,LP_0026,University of South Carolina
+lp,LP_0027,University of Virginia
+lp,LP_0028,University of Virginia Endowment
+lp,LP_0029,University Other Long-Term Assets
+lp,LP_0030,University Strategic Investment Fund
+lp,LP_0031,University-Associated Organizations
+lp,LP_0032,Warren Buffett
+lp,LP_0033,Commonwealth of Pennsylvania State Employees' Retirement System
+lp,LP_0034,Oregon Public Employees' Retirement Fund
+plan,PLAN_0001,Alumni
+plan,PLAN_0002,Beginning of year
+plan,PLAN_0003,BPF
+plan,PLAN_0004,Capital - organization and offering expenses
+plan,PLAN_0005,Capital contributions
+plan,PLAN_0006,Cash paid for interest
+plan,PLAN_0007,"Cash, beginning of year"
+plan,PLAN_0008,"Cash, end of period"
+plan,PLAN_0009,"Cash, end of year"
+plan,PLAN_0010,Change in unrealized gain (loss) in fair value of investments
+plan,PLAN_0011,Change in unrealized loss (gain) in fair value of investments
+plan,PLAN_0012,Client Overview
+plan,PLAN_0013,Contributed services
+plan,PLAN_0014,Contributions
+plan,PLAN_0015,"Deficit, beginning of year"
+plan,PLAN_0016,"Deficit, end of year"
+plan,PLAN_0017,Derivative liabilities
+plan,PLAN_0018,Development Foundation
+plan,PLAN_0019,Distribution
+plan,PLAN_0020,Distributions
+plan,PLAN_0021,Educational Foundation
+plan,PLAN_0022,End of year
+plan,PLAN_0023,Fair value presented in statement of financial position
+plan,PLAN_0024,Interest expense
+plan,PLAN_0025,"Investment income (losses), net"
+plan,PLAN_0026,Investment management expenses
+plan,PLAN_0027,"JEFFERSON PARTNERS FUND IV (PA), L.P."
+plan,PLAN_0028,Legal fees
+plan,PLAN_0029,Loss before the undernoted
+plan,PLAN_0030,Management fees
+plan,PLAN_0031,Net assets – unrestricted
+plan,PLAN_0032,Net change in unrealized gain on investments
+plan,PLAN_0033,Net increase in partners' capital resulting from operations
+plan,PLAN_0034,Net investment income
+plan,PLAN_0035,Net realized gain on investments
+plan,PLAN_0036,Office and administrative
+plan,PLAN_0037,Other
+plan,PLAN_0038,Other expenses
+plan,PLAN_0039,"Partners' capital, January 1, 2018"
+plan,PLAN_0040,"Partners' capital, March 31, 2018"
+plan,PLAN_0041,Professional fees
+plan,PLAN_0042,Realized gain (loss) on investments
+plan,PLAN_0043,Realized loss (gain) on investments
+plan,PLAN_0044,"Starwood Real Estate Income Trust, Inc."
+plan,PLAN_0045,Stock and noncash contributions
+plan,PLAN_0046,Total
+plan,PLAN_0047,Total assets
+plan,PLAN_0048,Total expenses
+plan,PLAN_0049,Total Exposed to Credit Risk
+plan,PLAN_0050,Total Fixed Income and Short-Term Investments
+plan,PLAN_0051,Total investment assets
+plan,PLAN_0052,Total investment derivative instruments
+plan,PLAN_0053,Total investments by fair value level
+plan,PLAN_0054,Total investments measured at fair value
+plan,PLAN_0055,Total investments measured at the NAV
+plan,PLAN_0056,Total liabilities
+plan,PLAN_0057,Total partners' capital
+plan,PLAN_0058,"Unrestricted net assets, beginning of year"
+plan,PLAN_0059,"Unrestricted net assets, end of year"
+company,CO_0001,Alphabet
+company,CO_0002,Amazon
+company,CO_0003,AMAZON.COM INC
+company,CO_0004,Apple
+company,CO_0005,Berkshire Hathaway “B” shares
+company,CO_0006,BROADCOM INC
+company,CO_0007,CRC CF 5/4/2026
+company,CO_0008,DIRECT INVESTMENT #1
+company,CO_0009,DIRECT INVESTMENT #2
+company,CO_0010,DIRECT INVESTMENT #3
+company,CO_0011,Embraer
+company,CO_0012,Equity Forward Contract
+company,CO_0013,FNMA Single Family Mortgage 0% 1/2022
+company,CO_0014,FNMA Single Family Mortgage 0% 2/2022
+company,CO_0015,FNMA Single Family Mortgage 3.0% 1/2022
+company,CO_0016,Foreign Currency Forward Contract
+company,CO_0017,Gate SME Ser 144A 12/15/2025
+company,CO_0018,GNMA 2% 1/15/2051
+company,CO_0019,ISHARES MSCI EMERGING MARKETS EX CHINA ETF
+company,CO_0020,Lloyds Bank plc.
+company,CO_0021,Nomura Global Financial Products Inc.
+company,CO_0022,PHILIP MORRIS INTERNATIONAL INC
+company,CO_0023,SAMSUNG ELECTRONICS CO LTD
+company,CO_0024,SAP AG
+company,CO_0025,Software Borrower Example
+company,CO_0026,TAIWAN SEMICONDUCTOR MANUFACTURING CO
+company,CO_0027,Tesla
+company,CO_0028,United Healthcare Group
+company,CO_0029,United States Treasury Bond 1.75% 8/15/2041
+company,CO_0030,United States Treasury Bond 3.125% 11/15/2041
+company,CO_0031,United States Treasury Bond 3.125% 5/15/2048
+company,CO_0032,United States Treasury Note .625% 11/15/2024
+company,CO_0033,Meta Platforms
+company,CO_0034,Microsoft
+company,CO_0035,Nvidia

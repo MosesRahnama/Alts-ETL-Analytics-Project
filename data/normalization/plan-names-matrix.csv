@@ -1,0 +1,60 @@
+plan_name_raw,standardized_plan_name,plan_id,decision_status,seen_in_agents,source_files,a_count,b_count,merge_note
+Alumni,Alumni,PLAN_0001,auto,03-institutional-report,SRC389,1,0,auto: only printed variant of this name in the corpus
+Beginning of year,Beginning of year,PLAN_0002,auto,01-financials,SRC034,1,0,auto: only printed variant of this name in the corpus
+BPF,BPF,PLAN_0003,auto,03-institutional-report,SRC389,1,0,auto: only printed variant of this name in the corpus
+Capital - organization and offering expenses,Capital - organization and offering expenses,PLAN_0004,auto,01-financials,SRC102,2,0,auto: only printed variant of this name in the corpus
+Capital contributions,Capital contributions,PLAN_0005,auto,01-financials,SRC102,2,0,auto: only printed variant of this name in the corpus
+Cash paid for interest,Cash paid for interest,PLAN_0006,auto,01-financials,SRC034,1,0,auto: only printed variant of this name in the corpus
+"Cash, beginning of year","Cash, beginning of year",PLAN_0007,auto,01-financials,SRC102;SRC377,4,0,auto: only printed variant of this name in the corpus
+"Cash, end of period","Cash, end of period",PLAN_0008,auto,01-financials,SRC102,1,0,auto: only printed variant of this name in the corpus
+"Cash, end of year","Cash, end of year",PLAN_0009,auto,01-financials,SRC377,2,0,auto: only printed variant of this name in the corpus
+Change in unrealized gain (loss) in fair value of investments,Change in unrealized gain (loss) in fair value of investments,PLAN_0010,auto,01-financials,SRC102,2,0,auto: only printed variant of this name in the corpus
+Change in unrealized loss (gain) in fair value of investments,Change in unrealized loss (gain) in fair value of investments,PLAN_0011,auto,01-financials,SRC102,2,0,auto: only printed variant of this name in the corpus
+Client Overview,Client Overview,PLAN_0012,auto,04-quarterly-report,SRC457,1,0,auto: only printed variant of this name in the corpus
+Contributed services,Contributed services,PLAN_0013,auto,01-financials,SRC377,2,0,auto: only printed variant of this name in the corpus
+Contributions,Contributions,PLAN_0014,auto,01-financials,SRC377,2,0,auto: only printed variant of this name in the corpus
+"Deficit, beginning of year","Deficit, beginning of year",PLAN_0015,auto,01-financials,SRC102,2,0,auto: only printed variant of this name in the corpus
+"Deficit, end of year","Deficit, end of year",PLAN_0016,auto,01-financials,SRC102,2,0,auto: only printed variant of this name in the corpus
+Derivative liabilities,Derivative liabilities,PLAN_0017,auto,01-financials,SRC377,10,0,auto: only printed variant of this name in the corpus
+Development Foundation,Development Foundation,PLAN_0018,auto,03-institutional-report,SRC389,1,0,auto: only printed variant of this name in the corpus
+Distribution,Distribution,PLAN_0019,auto,01-financials,SRC102,2,0,auto: only printed variant of this name in the corpus
+Distributions,Distributions,PLAN_0020,auto,01-financials,SRC034,4,0,auto: only printed variant of this name in the corpus
+Educational Foundation,Educational Foundation,PLAN_0021,auto,03-institutional-report,SRC389,14,0,auto: only printed variant of this name in the corpus
+End of year,End of year,PLAN_0022,auto,01-financials,SRC034,1,0,auto: only printed variant of this name in the corpus
+Fair value presented in statement of financial position,Fair value presented in statement of financial position,PLAN_0023,auto,01-financials,SRC377,4,0,auto: only printed variant of this name in the corpus
+Interest expense,Interest expense,PLAN_0024,auto,01-financials,SRC034,4,0,auto: only printed variant of this name in the corpus
+"Investment income (losses), net","Investment income (losses), net",PLAN_0025,auto,01-financials,SRC377,4,0,auto: only printed variant of this name in the corpus
+Investment management expenses,Investment management expenses,PLAN_0026,auto,01-financials,SRC377,2,0,auto: only printed variant of this name in the corpus
+"JEFFERSON PARTNERS FUND IV (PA), L.P.","JEFFERSON PARTNERS FUND IV (PA), L.P.",PLAN_0027,auto,01-financials,SRC102,1,0,auto: only printed variant of this name in the corpus
+Legal fees,Legal fees,PLAN_0028,auto,01-financials,SRC102,2,0,auto: only printed variant of this name in the corpus
+Loss before the undernoted,Loss before the undernoted,PLAN_0029,auto,01-financials,SRC102,2,0,auto: only printed variant of this name in the corpus
+Management fees,Management fees,PLAN_0030,auto,01-financials,SRC034,4,0,auto: only printed variant of this name in the corpus
+Net assets – unrestricted,Net assets – unrestricted,PLAN_0031,auto,01-financials,SRC377,2,0,auto: only printed variant of this name in the corpus
+Net change in unrealized gain on investments,Net change in unrealized gain on investments,PLAN_0032,auto,01-financials,SRC034,8,0,auto: only printed variant of this name in the corpus
+Net increase in partners' capital resulting from operations,Net increase in partners' capital resulting from operations,PLAN_0033,auto,01-financials,SRC034,8,0,auto: only printed variant of this name in the corpus
+Net investment income,Net investment income,PLAN_0034,auto,01-financials,SRC034,7,0,auto: only printed variant of this name in the corpus
+Net realized gain on investments,Net realized gain on investments,PLAN_0035,auto,01-financials,SRC034,8,0,auto: only printed variant of this name in the corpus
+Office and administrative,Office and administrative,PLAN_0036,auto,01-financials,SRC102,2,0,auto: only printed variant of this name in the corpus
+Other,Other,PLAN_0037,auto,01-financials,SRC377,2,0,auto: only printed variant of this name in the corpus
+Other expenses,Other expenses,PLAN_0038,auto,01-financials,SRC034,4,0,auto: only printed variant of this name in the corpus
+"Partners' capital, January 1, 2018","Partners' capital, January 1, 2018",PLAN_0039,auto,01-financials,SRC034,3,0,auto: only printed variant of this name in the corpus
+"Partners' capital, March 31, 2018","Partners' capital, March 31, 2018",PLAN_0040,auto,01-financials,SRC034,3,0,auto: only printed variant of this name in the corpus
+Professional fees,Professional fees,PLAN_0041,auto,01-financials,SRC034;SRC102,6,0,auto: only printed variant of this name in the corpus
+Realized gain (loss) on investments,Realized gain (loss) on investments,PLAN_0042,auto,01-financials,SRC102,2,0,auto: only printed variant of this name in the corpus
+Realized loss (gain) on investments,Realized loss (gain) on investments,PLAN_0043,auto,01-financials,SRC102,2,0,auto: only printed variant of this name in the corpus
+"Starwood Real Estate Income Trust, Inc.","Starwood Real Estate Income Trust, Inc.",PLAN_0044,auto,06-statements-and-economics,SRC247,43,0,auto: only printed variant of this name in the corpus
+Stock and noncash contributions,Stock and noncash contributions,PLAN_0045,auto,01-financials,SRC377,2,0,auto: only printed variant of this name in the corpus
+Total,Total,PLAN_0046,auto,01-financials,SRC377,4,0,auto: only printed variant of this name in the corpus
+Total assets,Total assets,PLAN_0047,auto,01-financials,SRC034;SRC377,7,0,auto: only printed variant of this name in the corpus
+Total expenses,Total expenses,PLAN_0048,auto,01-financials,SRC034,4,0,auto: only printed variant of this name in the corpus
+Total Exposed to Credit Risk,Total Exposed to Credit Risk,PLAN_0049,auto,01-financials,SRC152,2,0,auto: only printed variant of this name in the corpus
+Total Fixed Income and Short-Term Investments,Total Fixed Income and Short-Term Investments,PLAN_0050,auto,01-financials,SRC152,2,0,auto: only printed variant of this name in the corpus
+Total investment assets,Total investment assets,PLAN_0051,auto,01-financials,SRC377,12,0,auto: only printed variant of this name in the corpus
+Total investment derivative instruments,Total investment derivative instruments,PLAN_0052,auto,01-financials,SRC152,4,0,auto: only printed variant of this name in the corpus
+Total investments by fair value level,Total investments by fair value level,PLAN_0053,auto,01-financials,SRC152,8,0,auto: only printed variant of this name in the corpus
+Total investments measured at fair value,Total investments measured at fair value,PLAN_0054,auto,01-financials,SRC152;SRC377,14,0,auto: only printed variant of this name in the corpus
+Total investments measured at the NAV,Total investments measured at the NAV,PLAN_0055,auto,01-financials,SRC152,4,0,auto: only printed variant of this name in the corpus
+Total liabilities,Total liabilities,PLAN_0056,auto,01-financials,SRC034;SRC377,7,0,auto: only printed variant of this name in the corpus
+Total partners' capital,Total partners' capital,PLAN_0057,auto,01-financials,SRC034,4,0,auto: only printed variant of this name in the corpus
+"Unrestricted net assets, beginning of year","Unrestricted net assets, beginning of year",PLAN_0058,auto,01-financials,SRC377,2,0,auto: only printed variant of this name in the corpus
+"Unrestricted net assets, end of year","Unrestricted net assets, end of year",PLAN_0059,auto,01-financials,SRC377,2,0,auto: only printed variant of this name in the corpus

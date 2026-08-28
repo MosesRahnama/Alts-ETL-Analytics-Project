@@ -1,0 +1,120 @@
+manager_id,manager_name,legal_name,domicile,headquarters,website,base_currency,provenance_type,source_document_id,source_page,source_anchor,synthetic_parameter_set_id,record_status,created_at
+MGR_0001,"Buckeye Venture Partners, LLC",,,,,,EXTRACTED,SRC036,3,,,ACTIVE,2026-08-10T23:57:56Z
+MGR_0002,MassVentures,,,,,,EXTRACTED,SRC038,13,,,ACTIVE,2026-08-10T23:57:56Z
+MGR_0003,Starwood Capital Group,,,,,,EXTRACTED,SRC053,1,,,ACTIVE,2026-08-10T23:57:56Z
+MGR_0004,"Starwood REIT Advisors, L.L.C.",,,,,,EXTRACTED,SRC054,1,,,ACTIVE,2026-08-10T23:57:56Z
+MGR_0005,"Versa Capital Management, LLC",,,,,,EXTRACTED,SRC034,9,,,ACTIVE,2026-08-11T10:42:52Z
+MGR_0006,Utah Capital Investment Corporation,,,,,,EXTRACTED,SRC037,17,,,ACTIVE,2026-08-11T10:42:52Z
+MGR_0007,"Connecticut Innovations, Incorporated",,,,,,EXTRACTED,SRC039,18,,,ACTIVE,2026-08-11T10:42:52Z
+MGR_0008,Maryland Technology Development Corporation,,,,,,EXTRACTED,SRC040,10,,,ACTIVE,2026-08-11T10:42:52Z
+MGR_0009,"Heritage Partners, Inc.",,,,,,EXTRACTED,SRC101,3,,,ACTIVE,2026-08-11T23:35:41Z
+MGR_0010,Jefferson Partners Fund IV Management Corp.,,,,,,EXTRACTED,SRC102,6,,,ACTIVE,2026-08-11T23:35:41Z
+MGR_0011,Incline Equity Partners,,,,,,DERIVED,,,,,ACTIVE,2026-08-12T00:41:43Z
+MGR_0012,Milestone Partners,,,,,,DERIVED,,,,,ACTIVE,2026-08-12T00:41:43Z
+MGR_0013,New Mountain Partners,,,,,,DERIVED,,,,,ACTIVE,2026-08-12T00:41:43Z
+MGR_0014,Cascade Angels,,,,,,DERIVED,,,,,ACTIVE,2026-08-12T00:41:43Z
+MGR_0015,Cascade Seed,,,,,,DERIVED,,,,,ACTIVE,2026-08-12T00:41:43Z
+MGR_0016,DFJ Frontier,,,,,,DERIVED,,,,,ACTIVE,2026-08-12T00:41:43Z
+MGR_0017,Ecotrust Forests,,,,,,DERIVED,,,,,ACTIVE,2026-08-12T00:41:43Z
+MGR_0018,Elevate Capita,,,,,,DERIVED,,,,,ACTIVE,2026-08-12T00:41:43Z
+MGR_0019,Endeavour Capita,,,,,,DERIVED,,,,,ACTIVE,2026-08-12T00:41:43Z
+MGR_0020,Enlightened Hospitality Investments,,,,,,DERIVED,,,,,ACTIVE,2026-08-12T00:41:43Z
+MGR_0021,Epic Venture,,,,,,DERIVED,,,,,ACTIVE,2026-08-12T00:41:43Z
+MGR_0022,Epic Ventures,,,,,,DERIVED,,,,,ACTIVE,2026-08-12T00:41:43Z
+MGR_0023,Fluke Venture Partners,,,,,,DERIVED,,,,,ACTIVE,2026-08-12T00:41:43Z
+MGR_0024,Founders' Co-op,,,,,,DERIVED,,,,,ACTIVE,2026-08-12T00:41:43Z
+MGR_0025,Goode Partners Consumer,,,,,,DERIVED,,,,,ACTIVE,2026-08-12T00:41:43Z
+MGR_0026,Grain Communications Opportunity,,,,,,DERIVED,,,,,ACTIVE,2026-08-12T00:41:43Z
+MGR_0027,Homestead Capital USA Farmland,,,,,,DERIVED,,,,,ACTIVE,2026-08-12T00:41:43Z
+MGR_0028,K1 Special Opportunities,,,,,,DERIVED,,,,,ACTIVE,2026-08-12T00:41:43Z
+MGR_0029,K4 Private Investors,,,,,,DERIVED,,,,,ACTIVE,2026-08-12T00:41:43Z
+MGR_0030,K5 Private Investors,,,,,,DERIVED,,,,,ACTIVE,2026-08-12T00:41:43Z
+MGR_0031,Madrona Venture,,,,,,DERIVED,,,,,ACTIVE,2026-08-12T00:41:43Z
+MGR_0032,Montlake Capita,,,,,,DERIVED,,,,,ACTIVE,2026-08-12T00:41:43Z
+MGR_0033,Northwest Technology Ventures,,,,,,DERIVED,,,,,ACTIVE,2026-08-12T00:41:43Z
+MGR_0034,Oregon Angel Conferences,,,,,,DERIVED,,,,,ACTIVE,2026-08-12T00:41:43Z
+MGR_0035,Oregon Ange,,,,,,DERIVED,,,,,ACTIVE,2026-08-12T00:41:43Z
+MGR_0036,Oregon Venture,,,,,,DERIVED,,,,,ACTIVE,2026-08-12T00:41:43Z
+MGR_0037,OVP Venture Partners,,,,,,DERIVED,,,,,ACTIVE,2026-08-12T00:41:43Z
+MGR_0038,Phoenix Venture Partners,,,,,,DERIVED,,,,,ACTIVE,2026-08-12T00:41:43Z
+MGR_0039,Pioneer Square Ventures,,,,,,DERIVED,,,,,ACTIVE,2026-08-12T00:41:43Z
+MGR_0040,Pivotal Investments Partners,,,,,,DERIVED,,,,,ACTIVE,2026-08-12T00:41:43Z
+MGR_0041,Portland Seed,,,,,,DERIVED,,,,,ACTIVE,2026-08-12T00:41:43Z
+MGR_0042,Portland Seed Fund III - Side Car,,,,,,DERIVED,,,,,ACTIVE,2026-08-12T00:41:43Z
+MGR_0043,Rethink Impact,,,,,,DERIVED,,,,,ACTIVE,2026-08-12T00:41:43Z
+MGR_0044,Riverlake Equity Partners,,,,,,DERIVED,,,,,ACTIVE,2026-08-12T00:41:43Z
+MGR_0045,Seven Peaks Ventures,,,,,,DERIVED,,,,,ACTIVE,2026-08-12T00:41:43Z
+MGR_0046,SmartForest Ventures,,,,,,DERIVED,,,,,ACTIVE,2026-08-12T00:41:43Z
+MGR_0047,Stellex Capital Partners,,,,,,DERIVED,,,,,ACTIVE,2026-08-12T00:41:43Z
+MGR_0048,Tamarack Mezzanine Partners,,,,,,DERIVED,,,,,ACTIVE,2026-08-12T00:41:43Z
+MGR_0049,Timberline Anne,,,,,,DERIVED,,,,,ACTIVE,2026-08-12T00:41:43Z
+MGR_0050,Timberline Venture Partners,,,,,,DERIVED,,,,,ACTIVE,2026-08-12T00:41:43Z
+MGR_0051,Tiverton AgriFinance,,,,,,DERIVED,,,,,ACTIVE,2026-08-12T00:41:43Z
+MGR_0052,TL Ventures,,,,,,DERIVED,,,,,ACTIVE,2026-08-12T00:41:43Z
+MGR_0053,Updata Partners,,,,,,DERIVED,,,,,ACTIVE,2026-08-12T00:41:43Z
+MGR_0054,VFC - Burnside,,,,,,DERIVED,,,,,ACTIVE,2026-08-12T00:41:43Z
+MGR_0055,Voyager Capita,,,,,,DERIVED,,,,,ACTIVE,2026-08-12T00:41:43Z
+MGR_0056,Women's Venture Capita,,,,,,DERIVED,,,,,ACTIVE,2026-08-12T00:41:43Z
+MGR_0057,Yaletown Ventures,,,,,,DERIVED,,,,,ACTIVE,2026-08-12T00:41:43Z
+MGR_0058,Allos Ventures,,,,,,DERIVED,,,,,ACTIVE,2026-08-12T00:41:43Z
+MGR_0059,Arboretum Ventures,,,,,,DERIVED,,,,,ACTIVE,2026-08-12T00:41:43Z
+MGR_0060,Arsenal Venture Partners,,,,,,DERIVED,,,,,ACTIVE,2026-08-12T00:41:43Z
+MGR_0061,Arsenal Ventures,,,,,,DERIVED,,,,,ACTIVE,2026-08-12T00:41:43Z
+MGR_0062,Athenian Venture Partners,,,,,,DERIVED,,,,,ACTIVE,2026-08-12T00:41:43Z
+MGR_0063,Charter Life Sciences,,,,,,DERIVED,,,,,ACTIVE,2026-08-12T00:41:43Z
+MGR_0064,Chrysalis Ventures,,,,,,DERIVED,,,,,ACTIVE,2026-08-12T00:41:43Z
+MGR_0065,Draper Triangle,,,,,,DERIVED,,,,,ACTIVE,2026-08-12T00:41:43Z
+MGR_0066,Draper Triangle Ohio Ventures,,,,,,DERIVED,,,,,ACTIVE,2026-08-12T00:41:43Z
+MGR_0067,Draper Triangle Ventures Ohio,,,,,,DERIVED,,,,,ACTIVE,2026-08-12T00:41:43Z
+MGR_0068,Early Stage Partners,,,,,,DERIVED,,,,,ACTIVE,2026-08-12T00:41:43Z
+MGR_0069,Edison Venture,,,,,,DERIVED,,,,,ACTIVE,2026-08-12T00:41:43Z
+MGR_0070,Edison VII AF,,,,,,DERIVED,,,,,ACTIVE,2026-08-12T00:41:43Z
+MGR_0071,Emerging Market,,,,,,DERIVED,,,,,ACTIVE,2026-08-12T00:41:43Z
+MGR_0072,NCT Ventures,,,,,,DERIVED,,,,,ACTIVE,2026-08-12T00:41:43Z
+MGR_0073,Primus Capita,,,,,,DERIVED,,,,,ACTIVE,2026-08-12T00:41:43Z
+MGR_0074,QCA First,,,,,,DERIVED,,,,,ACTIVE,2026-08-12T00:41:43Z
+MGR_0075,"Radius Venture Partners (Ohio) III, QP",,,,,,DERIVED,,,,,ACTIVE,2026-08-12T00:41:43Z
+MGR_0076,Reservoir Venture Partners,,,,,,DERIVED,,,,,ACTIVE,2026-08-12T00:41:43Z
+MGR_0077,River Cities Capita,,,,,,DERIVED,,,,,ACTIVE,2026-08-12T00:41:43Z
+MGR_0078,RiverVest Venture,,,,,,DERIVED,,,,,ACTIVE,2026-08-12T00:41:43Z
+MGR_0079,SunBridge Partners Technology,,,,,,DERIVED,,,,,ACTIVE,2026-08-12T00:41:43Z
+MGR_0080,SV Life Sciences,,,,,,DERIVED,,,,,ACTIVE,2026-08-12T00:41:43Z
+MGR_0081,Khosla Ventures,,,,,,DERIVED,,,,,ACTIVE,2026-08-12T00:41:43Z
+MGR_0082,Media Technology Ventures,,,,,,DERIVED,,,,,ACTIVE,2026-08-12T00:41:43Z
+MGR_0083,New Enterprise Associates,,,,,,DERIVED,,,,,ACTIVE,2026-08-12T00:41:43Z
+MGR_0084,Sorenson Capital Partners II Cont. Vehicle,,,,,,DERIVED,,,,,ACTIVE,2026-08-12T00:41:43Z
+MGR_0085,SV Life Sciences IV CF,,,,,,DERIVED,,,,,ACTIVE,2026-08-12T00:41:43Z
+MGR_0086,Connecticut State Treasurer's Short-Term Investment,,,,,,DERIVED,,,,,ACTIVE,2026-08-12T00:41:43Z
+MGR_0087,Jefferson Partners,,,,,,DERIVED,,,,,ACTIVE,2026-08-12T00:41:43Z
+MGR_0088,Global Infrastructure Partners,,,,,,DERIVED,,,,,ACTIVE,2026-08-12T00:41:43Z
+MGR_0089,ANTIN INFRASTRUCTURE PARTNERS,,,,,,DERIVED,,,,,ACTIVE,2026-08-12T00:41:43Z
+MGR_0092,Advisor,Advisor,,,,USD,EXTRACTED,SRC247,1,"May 31, 2024 NAV Per Share / NAV advisor responsibility",,ACTIVE,
+MGR_0094,Bear Stearns,Bear Stearns,,,,USD,EXTRACTED,SRC107,6,ORGANISATION / How many full-time employees are there? / UNLABELED_COLUMN_1,,ACTIVE,
+MGR_0095,Bear Stearns Asset Management Inc.,Bear Stearns Asset Management Inc.,,,,USD,EXTRACTED,SRC107,4,COMPANY / Please give a brief history of the company / UNLABELED_COLUMN_1,,ACTIVE,
+MGR_0096,broker dealers,broker dealers,,,,USD,EXTRACTED,SRC107,17,RISK MANAGEMENT / Please describe the operational risk management policy / UNLABELED_COLUMN_1,,ACTIVE,
+MGR_0097,BSAM,BSAM,,,,USD,EXTRACTED,SRC107,5,COMPANY / Please list the total assets under management by the company across its different categories of client including the fund / UNLABELED_COLUMN_1,,ACTIVE,
+MGR_0098,Citigroup,Citigroup,,,,USD,EXTRACTED,SRC192,5,Broker Commission Fees / Citigroup / Total Commission Fees,,ACTIVE,
+MGR_0099,Cowen,Cowen,,,,USD,EXTRACTED,SRC192,5,Broker Commission Fees / Cowen / Total Commission Fees,,ACTIVE,
+MGR_0100,Daiwa,Daiwa,,,,USD,EXTRACTED,SRC192,5,Broker Commission Fees / Daiwa / Total Commission Fees,,ACTIVE,
+MGR_0101,Glass Lewis,Glass Lewis,,,,USD,EXTRACTED,SRC151,3,"Glass Lewis clients / 1,200+ clients with US$35 trillion in assets.",,ACTIVE,
+MGR_0102,Goldman Sachs,Goldman Sachs,,,,USD,EXTRACTED,SRC192,5,Broker Commission Fees / Goldman Sachs / Total Commission Fees,,ACTIVE,
+MGR_0105,HGSCS team,HGSCS team,,,,USD,EXTRACTED,SRC107,6,COMPANY / Please list the total assets under management by the company across its different categories of client including the fund / UNLABELED_COLUMN_1,,ACTIVE,
+MGR_0106,HSBC Securities,HSBC Securities,,,,USD,EXTRACTED,SRC192,5,Broker Commission Fees / HSBC Securities / Total Commission Fees,,ACTIVE,
+MGR_0107,independent valuation advisor,independent valuation advisor,,,,USD,EXTRACTED,SRC247,3,UNTITLED_TABLE_1 / Independent valuation advisor review,,ACTIVE,
+MGR_0108,Instinet,Instinet,,,,USD,EXTRACTED,SRC192,5,Broker Commission Fees / Instinet / Total Commission Fees,,ACTIVE,
+MGR_0109,Jefferies,Jefferies,,,,USD,EXTRACTED,SRC192,5,Broker Commission Fees / Jefferies / Total Commission Fees,,ACTIVE,
+MGR_0110,"Lubert-Adler Group VII, L.P.","Lubert-Adler Group VII, L.P.",,,,USD,EXTRACTED,SRC607,3,"Lubert-Adler Group VII, L.P.",,ACTIVE,
+MGR_0112,Morgan Stanley,Morgan Stanley,,,,USD,EXTRACTED,SRC192,5,Broker Commission Fees / Morgan Stanley / Total Commission Fees,,ACTIVE,
+MGR_0114,public markets investment advisors,public markets investment advisors,,,,USD,EXTRACTED,SRC612,25,3.,,ACTIVE,
+MGR_0115,reo® service,reo® service,,,,USD,EXTRACTED,SRC339,14,"Engage / In the year from July 2024 to June 2025, reo® carried out 543 engagement activities on behalf of the CFIs, covering 352 companies in 34 countries. This included 304 engagement activities on climate change, covering 214 companies with 46 milestones achieved.",,ACTIVE,
+MGR_0116,Sanford C Bernstein,Sanford C Bernstein,,,,USD,EXTRACTED,SRC192,5,Broker Commission Fees / Sanford C Bernstein / Total Commission Fees,,ACTIVE,
+MGR_0117,UBS Warburg,UBS Warburg,,,,USD,EXTRACTED,SRC192,5,Broker Commission Fees / UBS Warburg / Total Commission Fees,,ACTIVE,
+MGR_0093,Antares Capital,Antares Capital,,,,USD,EXTRACTED,SRC606,1,DOCUMENT / DOCUMENT,,ACTIVE,
+MGR_0103,Hamilton Lane,Hamilton Lane,,,,USD,EXTRACTED,SRC457,2,DOCUMENT,,ACTIVE,
+MGR_0104,Harvest Fund Advisors LLC,Harvest Fund Advisors LLC,,,,USD,EXTRACTED,SRC612,1,DOCUMENT,,ACTIVE,
+MGR_0111,MEKETA INVESTMENT GROUP,MEKETA INVESTMENT GROUP,,,,USD,EXTRACTED,SRC035,1,DOCUMENT,,ACTIVE,
+MGR_0113,Office of the Chief Investment Officer of the Regents (UC Investments),Office of the Chief Investment Officer of the Regents (UC Investments),,,,USD,EXTRACTED,SRC384,1,DOCUMENT,,ACTIVE,
+MGR_0118,University of South Carolina Foundations,University of South Carolina Foundations,,,,USD,EXTRACTED,SRC389,2,USC Foundations Annual Endowment Report / DOCUMENT,,ACTIVE,
+MGR_0119,University of Texas/Texas A&M Investment Management Company (UTIMCO),University of Texas/Texas A&M Investment Management Company (UTIMCO),,,,USD,EXTRACTED,SRC356,2,DOCUMENT,,ACTIVE,
+MGR_0120,University of Virginia Investment Management Company,University of Virginia Investment Management Company,,,,USD,EXTRACTED,SRC375,1,Annual Report 2025 Highlights / DOCUMENT,,ACTIVE,
+MGR_0121,Utah Retirement Systems,Utah Retirement Systems,,,,USD,EXTRACTED,SRC192,1,DOCUMENT,,ACTIVE,

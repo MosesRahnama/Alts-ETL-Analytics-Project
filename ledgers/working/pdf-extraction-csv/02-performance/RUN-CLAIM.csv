@@ -1,0 +1,5 @@
+"route","agent_role","extractor_model","claimed_at","claimed_by"
+"02-performance","A","claude-sonnet-5","2026-08-23T05:58:39Z",""
+"02-performance","B","gpt-5","2026-08-23T05:57:23Z",""
+"02-performance","J1","claude-opus-5","2026-08-24T00:34:36Z",""
+"02-performance","J2","claude-opus-5","2026-08-24T00:34:46Z",""

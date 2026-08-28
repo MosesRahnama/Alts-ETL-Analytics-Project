@@ -1,0 +1,5 @@
+﻿sample_order,file_id,filename,page_count,issuer,selection_reason
+1,SRC371,Regulatory_Sloan_Foundation_Form_990PF_2024.pdf,149,Alfred P. Sloan Foundation,census: population <=5
+2,SRC373,Regulatory_Packard_Foundation_Form_990PF_2023.pdf,188,The David and Lucile Packard Foundation,census: population <=5
+3,SRC372,Regulatory_Hewlett_Foundation_Form_990PF_2023.pdf,1141,William and Flora Hewlett Foundation,census: population <=5
+4,SRC367,Regulatory_Ford_Foundation_Form_990PF_2024.pdf,1345,Ford Foundation,census: population <=5

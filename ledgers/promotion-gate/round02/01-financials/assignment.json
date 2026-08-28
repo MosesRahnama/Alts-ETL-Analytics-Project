@@ -1,0 +1,22 @@
+{
+  "batch_id": "01-financials",
+  "round_id": "02",
+  "files": [
+    {
+      "file_id": "SRC034",
+      "source_sha256": "c6ea06465f1920417d13440de26a3aefe9611278bbfc337b5e3d6f32647895a8"
+    },
+    {
+      "file_id": "SRC102",
+      "source_sha256": "dec577c036c11f70b30193bbfbdf4d478fabfc36f3ef15ae68249a2810f8ddfe"
+    },
+    {
+      "file_id": "SRC152",
+      "source_sha256": "3c5ea49df11ea7acd103759a4d84ab994abbe40fe6b9770ac1f2a723929dc717"
+    },
+    {
+      "file_id": "SRC377",
+      "source_sha256": "2a3ff4eb15e88df08d12b0ffd4696117b642b6f1ff19ee5fb8bd8d1a3a025988"
+    }
+  ]
+}

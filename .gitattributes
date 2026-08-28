@@ -1,0 +1,33 @@
+# Git LFS routing.
+#
+# GitHub rejects any push carrying a file over 100 MB and warns above 50 MB, and
+# this repository ships 2.85 GB of source documents, generated populations, and
+# databases. Everything large or binary is stored through LFS; every small CSV
+# stays in ordinary Git so it stays diffable and renders on the web.
+
+# Source documents and their derived text: 442 reports, one per extraction. The
+# text rule is scoped to the corpus folder so requirements.txt stays readable.
+*.pdf   filter=lfs diff=lfs merge=lfs -text
+data/documents/txt/*.txt filter=lfs diff=lfs merge=lfs -text
+
+# Local analytical stores, rebuilt by the loaders but shipped so a reviewer can
+# open one without running anything.
+*.duckdb filter=lfs diff=lfs merge=lfs -text
+
+# Public-market inputs, copied with hash receipts.
+*.parquet filter=lfs diff=lfs merge=lfs -text
+
+# Page renders, when a layout review produces them.
+*.png   filter=lfs diff=lfs merge=lfs -text
+
+# The generated population's six large tables and the two daily benchmark
+# staging tables. Every other CSV in the project is small enough to stay in
+# ordinary Git.
+data/synthetic/clean/quality_results.csv      filter=lfs diff=lfs merge=lfs -text
+data/synthetic/defects/quality_results.csv    filter=lfs diff=lfs merge=lfs -text
+data/synthetic/clean/fund_observations.csv    filter=lfs diff=lfs merge=lfs -text
+data/synthetic/defects/fund_observations.csv  filter=lfs diff=lfs merge=lfs -text
+data/synthetic/analytics/pme_results.csv      filter=lfs diff=lfs merge=lfs -text
+data/synthetic/analytics/fund_metrics.csv     filter=lfs diff=lfs merge=lfs -text
+data/public_markets/staging/benchmark_level_candidates.csv   filter=lfs diff=lfs merge=lfs -text
+data/public_markets/staging/benchmark_return_candidates.csv  filter=lfs diff=lfs merge=lfs -text

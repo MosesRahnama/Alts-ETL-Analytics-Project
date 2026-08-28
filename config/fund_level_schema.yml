@@ -1,0 +1,358 @@
+schema_version: "1.4.0"
+updated: "2026-08-26"
+
+purpose: >-
+  Define the fund and manager database that joins document evidence, identity,
+  extracted-first completion, cash flows, periodic performance, terms,
+  holdings, analytics, and quality results. CSV files are what a reviewer opens
+  and DuckDB is the query copy checked against them.
+
+invariants:
+  fund_identity:
+    - fund_name carries a fund's own name; a manager name populates the manager fields and stays out of fund_name.
+    - A document may name zero, one, or many funds, so document-to-fund mapping is one-to-many.
+    - fund_id is required for fund_total, lp_position, and share_class performance facts.
+    - manager_total facts stay outside every fund performance calculation.
+  manager_identity:
+    - manager_id identifies one manager organization and stays separate from fund_id.
+    - manager_total facts carry manager_id and enter manager_observations.
+    - A standalone manager row links file_id and manager_id through document_manager_map.
+    - A fund-linked manager stays on fund_master and document_fund_map at the fund evidence locator.
+  provenance:
+    allowed_fact_types: [EXTRACTED, DERIVED, SYNTHETIC, IMPUTED]
+    allowed_parameter_types: [EXTRACTED, DERIVED, ASSUMED]
+    document_key_by_table: [file_id, source_document_id]
+    document_key_promotion_mapping: >-
+      Working extraction files use file_id. When an authorized fund-model table
+      names the corresponding column source_document_id, copy the same source
+      ledger file_id over unchanged. One document identifier serves both columns.
+    extracted_atomic_requires: [document_key, source_anchor]
+    extracted_pdf_page_rule: Active lean rows store the physical PDF page in source_page and the cited quote in source_anchor.
+    extracted_non_pdf_page_rule: Active lean rows store the worksheet or archive unit in source_page and the cited quote in source_anchor.
+    extracted_summary_requires: [document_key_or_input_observation_ids, source_anchor_or_formula_id]
+    derived_requires: [formula_id]
+    synthetic_requires: [synthetic_parameter_set_id]
+    imputed_requires: [imputation_method]
+  identity_separation:
+    real_fund_id_prefix: "FUND_"
+    synthetic_fund_id_prefix: "FUND_SYNTH_"
+    rule: >-
+      Synthetic facts may fill an explicit gap on a resolved real fund_id when
+      the parameter set and cell lineage are present. A standalone mock fund
+      still uses FUND_SYNTH_ and never borrows a real fund name or source.
+  position_identity:
+    - lp_position facts carry lp_id or lp_name.
+    - share_class facts carry share_class_name.
+    - Position-level quality checks match cash flows on fund_id, LP identity, and share_class_name.
+    - fund_terms uses perspective and term_scope to separate fund terms from LP and share-class overrides.
+  signs:
+    capital_call: negative
+    distribution: positive
+    fee: negative
+    ending_nav: not_a_cashflow
+  landing_quality_boundary:
+    rule: Required fields define accepted records, while the DuckDB landing layer may retain a labelled invalid value so the quality engine can detect and quarantine it.
+    intentional_nullable_exceptions:
+      fund_master: [fund_name]
+
+tables:
+  manager_master:
+    csv: data/csv/manager_master.csv
+    grain: one row per manager organization
+    primary_key: manager_id
+    required: [manager_id, manager_name, provenance_type, record_status]
+    columns: [manager_id, manager_name, legal_name, domicile, headquarters, website, base_currency, provenance_type, source_document_id, source_page, source_anchor, synthetic_parameter_set_id, record_status, created_at]
+
+  document_manager_map:
+    csv: data/csv/document_manager_map.csv
+    grain: one row per manager named or represented in one source document
+    primary_key: document_manager_map_id
+    required: [document_manager_map_id, file_id, manager_id, relationship_role, adjudication_status]
+    columns: [document_manager_map_id, file_id, census_item_id, manager_id, manager_name_raw, manager_name_normalized, relationship_role, source_page, pdf_page_number, source_anchor, source_quote, source_bbox, provenance_type, agent_a_record_id, agent_b_record_id, adjudication_status, confidence, notes]
+
+  fund_master:
+    csv: data/csv/fund_master.csv
+    grain: one row per legal or analytically distinct fund
+    primary_key: fund_id
+    required: [fund_id, fund_name, provenance_type, record_status]
+    landing_nullable_for_quality_detection: [fund_name]
+    columns:
+      - fund_id
+      - fund_name
+      - legal_name
+      - fund_manager_id
+      - fund_manager_name
+      - strategy
+      - sub_strategy
+      - vintage_year
+      - domicile
+      - base_currency
+      - fund_size
+      - fund_size_currency
+      - first_close_date
+      - final_close_date
+      - termination_date
+      - fund_status
+      - provenance_type
+      - source_document_id
+      - source_page
+      - source_anchor
+      - synthetic_parameter_set_id
+      - record_status
+      - created_at
+
+  document_fund_map:
+    csv: data/csv/document_fund_map.csv
+    grain: one row per fund named or represented in one source document
+    primary_key: document_fund_map_id
+    required: [document_fund_map_id, file_id, relationship_role, adjudication_status]
+    columns:
+      - document_fund_map_id
+      - file_id
+      - census_item_id
+      - fund_id
+      - fund_name_raw
+      - fund_name_normalized
+      - fund_manager_raw
+      - manager_source_page
+      - manager_pdf_page_number
+      - manager_source_anchor
+      - manager_source_quote
+      - manager_source_bbox
+      - relationship_role
+      - perspective
+      - share_class_name
+      - lp_name
+      - source_page
+      - pdf_page_number
+      - source_anchor
+      - source_quote
+      - source_bbox
+      - provenance_type
+      - agent_a_record_id
+      - agent_b_record_id
+      - adjudication_status
+      - confidence
+      - notes
+
+  fund_observations:
+    csv: data/csv/fund_observations.csv
+    grain: one metric for one fund or position, date, perspective, and source
+    primary_key: observation_id
+    required:
+      - observation_id
+      - fund_id
+      - metric_id
+      - perspective
+      - measure_basis
+      - provenance_type
+      - record_status
+    columns:
+      - observation_id
+      - fund_id
+      - lp_id
+      - lp_name
+      - share_class_name
+      - file_id
+      - metric_id
+      - date_role
+      - date_raw
+      - date_precision
+      - as_of_date
+      - report_date
+      - period_start_date
+      - period_end_date
+      - cashflow_date
+      - effective_date
+      - due_date
+      - maturity_date
+      - value_raw
+      - value_numeric
+      - value_text
+      - currency
+      - unit
+      - perspective
+      - measure_basis
+      - fee_basis
+      - provenance_type
+      - source_page
+      - source_anchor
+      - extractor_version
+      - formula_id
+      - synthetic_parameter_set_id
+      - imputation_method
+      - confidence
+      - record_status
+
+  manager_observations:
+    csv: data/csv/manager_observations.csv
+    grain: one metric for one manager, date context, and source
+    primary_key: manager_observation_id
+    required: [manager_observation_id, manager_id, file_id, metric_id, date_role, date_precision, perspective, measure_basis, provenance_type, record_status]
+    columns: [manager_observation_id, manager_id, file_id, metric_id, date_role, date_raw, date_precision, as_of_date, report_date, period_start_date, period_end_date, cashflow_date, effective_date, due_date, maturity_date, value_raw, value_numeric, value_text, currency, unit, perspective, measure_basis, provenance_type, source_page, source_anchor, extractor_version, formula_id, synthetic_parameter_set_id, imputation_method, confidence, record_status]
+
+  fund_cashflows:
+    csv: data/csv/fund_cashflows.csv
+    grain: one dated cash flow for one fund, LP position, or share class
+    primary_key: cashflow_id
+    required: [cashflow_id, fund_id, cashflow_date, cashflow_type, amount, currency, provenance_type]
+    columns:
+      - cashflow_id
+      - fund_id
+      - lp_id
+      - lp_name
+      - share_class_name
+      - file_id
+      - cashflow_event_id
+      - date_role
+      - date_raw
+      - date_precision
+      - cashflow_date
+      - report_date
+      - due_date
+      - cashflow_type
+      - amount
+      - currency
+      - amount_base_currency
+      - base_currency
+      - fx_rate
+      - recallable_amount
+      - provenance_type
+      - source_page
+      - source_anchor
+      - synthetic_parameter_set_id
+      - defect_expected
+      - record_status
+
+  fund_periods:
+    csv: data/csv/fund_periods.csv
+    grain: one fund or position performance snapshot per date and perspective
+    primary_key: fund_period_id
+    required: [fund_period_id, fund_id, date_role, date_precision, perspective, provenance_type, record_status]
+    columns:
+      - fund_period_id
+      - fund_id
+      - lp_id
+      - lp_name
+      - share_class_name
+      - date_role
+      - date_raw
+      - date_precision
+      - as_of_date
+      - report_date
+      - period_start_date
+      - period_end_date
+      - effective_date
+      - perspective
+      - currency
+      - commitment
+      - paid_in_capital_itd
+      - distributions_itd
+      - nav
+      - unfunded_commitment
+      - recallable_distributions_itd
+      - dpi
+      - rvpi
+      - tvpi
+      - reported_irr
+      - calculated_irr
+      - beginning_nav
+      - contributions_period
+      - distributions_period
+      - realized_gain_period
+      - unrealized_gain_period
+      - net_income_period
+      - management_fee_period
+      - other_expenses_period
+      - ending_nav
+      - period_return
+      - benchmark_return
+      - fund_size
+      - vintage_year
+      - strategy
+      - sub_strategy
+      - provenance_type
+      - source_document_id
+      - source_page
+      - source_anchor
+      - formula_id
+      - input_observation_ids
+      - synthetic_parameter_set_id
+      - defect_expected
+      - record_status
+
+  fund_terms:
+    csv: data/csv/fund_terms.csv
+    grain: one effective term set per fund, LP position, or share class
+    primary_key: fund_term_id
+    required: [fund_term_id, fund_id, provenance_type, record_status]
+    columns: [fund_term_id, fund_id, lp_id, lp_name, share_class_name, perspective, term_scope, overrides_fund_term_id, effective_date, effective_end_date, management_fee_rate, management_fee_basis, carry_rate, hurdle_rate, catch_up_rate, catch_up_present, waterfall_type, fund_term_years, extension_years, preferred_return_compounding, expense_cap_rate, maximum_offering, currency, provenance_type, source_document_id, source_page, source_anchor, synthetic_parameter_set_id, record_status]
+
+  fund_term_clauses:
+    csv: data/csv/fund_term_clauses.csv
+    grain: one source-reported legal, risk, or negotiated clause for one fund, LP position, or share class
+    primary_key: fund_term_clause_id
+    required: [fund_term_clause_id, fund_id, metric_id, perspective, term_scope, value_raw, provenance_type, record_status]
+    columns: [fund_term_clause_id, fund_id, lp_id, lp_name, share_class_name, perspective, term_scope, overrides_fund_term_id, effective_date, effective_end_date, source_document_id, metric_id, clause_title, value_raw, value_text, currency, provenance_type, source_page, source_anchor, extractor_version, synthetic_parameter_set_id, record_status]
+
+  fund_holdings:
+    csv: data/csv/fund_holdings.csv
+    grain: one holding snapshot per fund, asset, and date
+    primary_key: holding_id
+    required: [holding_id, fund_id, provenance_type, record_status]
+    columns: [holding_id, fund_id, portfolio_company_id, portfolio_company_name, instrument_id, instrument_name, date_role, date_raw, date_precision, as_of_date, report_date, period_start_date, period_end_date, effective_date, security_type, sector, geography, currency, cost, fair_value, principal_amount, interest_rate, spread_bps, maturity_date, ownership_percent, provenance_type, source_document_id, source_page, source_anchor, synthetic_parameter_set_id, record_status]
+
+  synthetic_parameters:
+    csv: data/csv/synthetic_parameters.csv
+    grain: one calibrated or assumed generator parameter
+    primary_key: parameter_id
+    required: [parameter_id, parameter_set_id, parameter_name, provenance_type, adjudication_status, active]
+    columns: [parameter_id, parameter_set_id, strategy, sub_strategy, parameter_name, value_numeric, value_text, unit, provenance_type, source_document_id, source_page, source_anchor, formula_id, input_record_ids, assumption_basis, adjudication_status, active]
+
+  quality_results:
+    csv: data/csv/quality_results.csv
+    grain: one quality rule result per tested record
+    primary_key: quality_result_id
+    required: [quality_result_id, run_id, record_table, record_id, rule_id, severity, status, checked_at]
+    columns: [quality_result_id, run_id, record_table, record_id, fund_id, rule_id, severity, status, actual_value, expected_value, difference, tolerance, source_document_id, synthetic_parameter_set_id, checked_at, notes]
+
+  defect_injections:
+    csv: data/csv/defect_injections.csv
+    grain: one deliberately injected synthetic defect
+    primary_key: defect_id
+    required: [defect_id, parameter_set_id, record_table, record_id, fund_id, defect_type, field_name, expected_rule_id, seed]
+    columns: [defect_id, parameter_set_id, record_table, record_id, fund_id, defect_type, field_name, clean_value, injected_value, expected_rule_id, seed, notes]
+
+  benchmark_returns:
+    csv: data/csv/benchmark_returns.csv
+    grain: one benchmark return per benchmark, date, and periodicity
+    primary_key: benchmark_return_id
+    required: [benchmark_return_id, benchmark_id, return_date, return_value, provenance_type]
+    columns: [benchmark_return_id, benchmark_id, benchmark_name, return_date, periodicity, return_value, currency, provenance_type, source_document_id, source_page, source_anchor, synthetic_parameter_set_id, record_status]
+
+  portfolio_allocations:
+    csv: data/csv/portfolio_allocations.csv
+    grain: one fund or strategy allocation per portfolio and as-of date
+    primary_key: allocation_id
+    required: [allocation_id, portfolio_id, as_of_date, target_weight, provenance_type]
+    columns: [allocation_id, portfolio_id, as_of_date, fund_id, strategy, sub_strategy, target_weight, minimum_weight, maximum_weight, commitment_amount, nav_amount, unfunded_amount, expected_return, expected_volatility, liquidity_score, provenance_type, source_document_id, synthetic_parameter_set_id, optimization_run_id, record_status]
+
+  fund_metrics:
+    csv: data/csv/fund_metrics.csv
+    grain: one calculated fund or cohort metric with input-row lineage
+    primary_key: analysis_result_id
+    required: [analysis_result_id, entity_id, as_of_date, metric_id, value_numeric, formula_id, provenance_type, quality_population]
+    columns: [analysis_result_id, entity_id, as_of_date, metric_id, value_numeric, unit, formula_id, input_record_ids, benchmark_id, provenance_type, quality_population, notes]
+
+  pme_results:
+    csv: data/csv/pme_results.csv
+    grain: one PME-family result per entity, date, method, and benchmark
+    primary_key: analysis_result_id
+    required: [analysis_result_id, entity_id, as_of_date, metric_id, value_numeric, formula_id, benchmark_id, provenance_type, quality_population]
+    columns: [analysis_result_id, entity_id, as_of_date, metric_id, value_numeric, unit, formula_id, input_record_ids, benchmark_id, provenance_type, quality_population, notes]
+
+database:
+  local_engine: DuckDB
+  ddl:
+    - sql/duckdb/02_fund_level_ddl.sql
+  portable_review_layer: data/csv

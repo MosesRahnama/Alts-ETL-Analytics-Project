@@ -1,0 +1,26 @@
+{
+  "batch_id": "02-performance",
+  "round_id": "02",
+  "files": [
+    {
+      "file_id": "SRC035",
+      "source_sha256": "efccda783490f37c841b4335300e864503edab8861c88ea4aff51b0e1ff3a189"
+    },
+    {
+      "file_id": "SRC058",
+      "source_sha256": "504abfe06fcde5e187ef74247e28f97eecec00313f5079c91e05fbdaea023159"
+    },
+    {
+      "file_id": "SRC060",
+      "source_sha256": "716b2b3028d4222c5bd8dbe183698cc7ea61e5f7a4d37e799da36d64c0e2dac3"
+    },
+    {
+      "file_id": "SRC063",
+      "source_sha256": "f27235b5cbd2148f78e6d7d010017b38e2807611735e9229375986a38db2db38"
+    },
+    {
+      "file_id": "SRC363",
+      "source_sha256": "37f3b1a46d11cdb22e38d276fda163e197904df1b0793d02a7af3ad40c050277"
+    }
+  ]
+}

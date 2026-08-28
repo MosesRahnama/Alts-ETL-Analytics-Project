@@ -1,0 +1,10 @@
+table,file,rows
+dim_document,dim_document.csv,29
+dim_entity,dim_entity.csv,1008
+dim_metric,dim_metric.csv,109
+dim_page,dim_page.csv,311
+entity_alias,entity_alias.csv,1454
+fact_holding,fact_holding.csv,469
+fact_observation,fact_observation.csv,7201
+observation_lineage,observation_lineage.csv,7201
+unresolved_names,unresolved_names.csv,0

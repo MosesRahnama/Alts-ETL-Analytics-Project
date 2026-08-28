@@ -1,0 +1,39 @@
+company_name_raw,standardized_company_name,company_id,decision_status,seen_in_agents,source_files,a_count,b_count,merge_note
+Alphabet,Alphabet,CO_0001,auto,03-institutional-report,SRC192,4,0,auto: only printed variant of this name in the corpus
+Amazon,Amazon,CO_0002,auto,03-institutional-report,SRC192,2,0,auto: only printed variant of this name in the corpus
+AMAZON.COM INC,AMAZON.COM INC,CO_0003,auto,03-institutional-report,SRC356,2,0,auto: only printed variant of this name in the corpus
+Apple,Apple,CO_0004,auto,03-institutional-report,SRC192,2,0,auto: only printed variant of this name in the corpus
+Berkshire Hathaway “B” shares,Berkshire Hathaway “B” shares,CO_0005,auto,01-financials,SRC377,13,0,auto: only printed variant of this name in the corpus
+BROADCOM INC,BROADCOM INC,CO_0006,auto,03-institutional-report,SRC356,2,0,auto: only printed variant of this name in the corpus
+CRC CF 5/4/2026,CRC CF 5/4/2026,CO_0007,auto,03-institutional-report,SRC192,2,0,auto: only printed variant of this name in the corpus
+DIRECT INVESTMENT #1,DIRECT INVESTMENT #1,CO_0008,auto,03-institutional-report,SRC356,1,0,auto: only printed variant of this name in the corpus
+DIRECT INVESTMENT #2,DIRECT INVESTMENT #2,CO_0009,auto,03-institutional-report,SRC356,1,0,auto: only printed variant of this name in the corpus
+DIRECT INVESTMENT #3,DIRECT INVESTMENT #3,CO_0010,auto,03-institutional-report,SRC356,1,0,auto: only printed variant of this name in the corpus
+Embraer,Embraer,CO_0011,auto,03-institutional-report,SRC192,2,0,auto: only printed variant of this name in the corpus
+Equity Forward Contract,Equity Forward Contract,CO_0012,auto,06-statements-and-economics,SRC407,2,0,auto: only printed variant of this name in the corpus
+FNMA Single Family Mortgage 0% 1/2022,FNMA Single Family Mortgage 0% 1/2022,CO_0013,auto,03-institutional-report,SRC192,2,0,auto: only printed variant of this name in the corpus
+FNMA Single Family Mortgage 0% 2/2022,FNMA Single Family Mortgage 0% 2/2022,CO_0014,auto,03-institutional-report,SRC192,2,0,auto: only printed variant of this name in the corpus
+FNMA Single Family Mortgage 3.0% 1/2022,FNMA Single Family Mortgage 3.0% 1/2022,CO_0015,auto,03-institutional-report,SRC192,2,0,auto: only printed variant of this name in the corpus
+Foreign Currency Forward Contract,Foreign Currency Forward Contract,CO_0016,auto,06-statements-and-economics,SRC407,2,0,auto: only printed variant of this name in the corpus
+Gate SME Ser 144A 12/15/2025,Gate SME Ser 144A 12/15/2025,CO_0017,auto,03-institutional-report,SRC192,2,0,auto: only printed variant of this name in the corpus
+GNMA 2% 1/15/2051,GNMA 2% 1/15/2051,CO_0018,auto,03-institutional-report,SRC192,2,0,auto: only printed variant of this name in the corpus
+ISHARES MSCI EMERGING MARKETS EX CHINA ETF,ISHARES MSCI EMERGING MARKETS EX CHINA ETF,CO_0019,auto,03-institutional-report,SRC356,2,0,auto: only printed variant of this name in the corpus
+Lloyds Bank plc.,Lloyds Bank plc.,CO_0020,auto,06-statements-and-economics,SRC407,4,0,auto: only printed variant of this name in the corpus
+Meta Platforms,Meta Platforms,CO_0033,decided,03-institutional-report,SRC192,2,0,Same issuer as the uppercase corporate-name spelling in SRC356.
+META PLATFORMS INC,Meta Platforms,CO_0033,decided,03-institutional-report,SRC356,2,0,Corporate-name spelling consolidated with Meta Platforms.
+Microsoft,Microsoft,CO_0034,decided,03-institutional-report,SRC192,2,0,Same issuer as the uppercase corporate-name spelling in SRC356.
+MICROSOFT CORP,Microsoft,CO_0034,decided,03-institutional-report,SRC356,2,0,Corporate-name spelling consolidated with Microsoft.
+Nomura Global Financial Products Inc.,Nomura Global Financial Products Inc.,CO_0021,auto,06-statements-and-economics,SRC407,9,0,auto: only printed variant of this name in the corpus
+Nvidia,Nvidia,CO_0035,decided,03-institutional-report,SRC192,2,0,Same issuer as the uppercase corporate-name spelling in SRC356.
+NVIDIA CORP,Nvidia,CO_0035,decided,03-institutional-report,SRC356,2,0,Corporate-name spelling consolidated with Nvidia.
+PHILIP MORRIS INTERNATIONAL INC,PHILIP MORRIS INTERNATIONAL INC,CO_0022,auto,03-institutional-report,SRC356,2,0,auto: only printed variant of this name in the corpus
+SAMSUNG ELECTRONICS CO LTD,SAMSUNG ELECTRONICS CO LTD,CO_0023,auto,03-institutional-report,SRC356,2,0,auto: only printed variant of this name in the corpus
+SAP AG,SAP AG,CO_0024,auto,03-institutional-report,SRC356,2,0,auto: only printed variant of this name in the corpus
+Software Borrower Example,Software Borrower Example,CO_0025,auto,04-quarterly-report,SRC606,2,0,auto: only printed variant of this name in the corpus
+TAIWAN SEMICONDUCTOR MANUFACTURING CO,TAIWAN SEMICONDUCTOR MANUFACTURING CO,CO_0026,auto,03-institutional-report,SRC356,2,0,auto: only printed variant of this name in the corpus
+Tesla,Tesla,CO_0027,auto,03-institutional-report,SRC192,2,0,auto: only printed variant of this name in the corpus
+United Healthcare Group,United Healthcare Group,CO_0028,auto,03-institutional-report,SRC192,2,0,auto: only printed variant of this name in the corpus
+United States Treasury Bond 1.75% 8/15/2041,United States Treasury Bond 1.75% 8/15/2041,CO_0029,auto,03-institutional-report,SRC192,2,0,auto: only printed variant of this name in the corpus
+United States Treasury Bond 3.125% 11/15/2041,United States Treasury Bond 3.125% 11/15/2041,CO_0030,auto,03-institutional-report,SRC192,2,0,auto: only printed variant of this name in the corpus
+United States Treasury Bond 3.125% 5/15/2048,United States Treasury Bond 3.125% 5/15/2048,CO_0031,auto,03-institutional-report,SRC192,2,0,auto: only printed variant of this name in the corpus
+United States Treasury Note .625% 11/15/2024,United States Treasury Note .625% 11/15/2024,CO_0032,auto,03-institutional-report,SRC192,2,0,auto: only printed variant of this name in the corpus

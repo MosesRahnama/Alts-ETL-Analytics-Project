@@ -1,0 +1,4 @@
+"source_page","a_page_status","b_page_status","a_layout_checked","b_layout_checked","a_expected_observation_count","b_expected_observation_count","a_source_structures","b_source_structures","a_relevant_record_families","b_relevant_record_families","difference_fields"
+"1","ELIGIBLE_DATA_EXTRACTED","ELIGIBLE_DATA_EXTRACTED","YES","YES","431","431","Real Estate Portfolio | UNTITLED_TABLE_1","Real Estate Portfolio","document_context | fund_economics_observation","document_context | fund_economics_observation","source_structures"
+"2","ELIGIBLE_DATA_EXTRACTED","ELIGIBLE_DATA_EXTRACTED","YES","YES","308","308","UNTITLED_TABLE_1","Real Estate Portfolio","fund_economics_observation","fund_economics_observation","source_structures"
+"3","ELIGIBLE_DATA_EXTRACTED","ELIGIBLE_DATA_EXTRACTED","YES","YES","137","137","REITS | Separate Accounts","REITS | Separate Accounts","fund_economics_observation","fund_economics_observation","DETERMINISTIC_SAMPLE"

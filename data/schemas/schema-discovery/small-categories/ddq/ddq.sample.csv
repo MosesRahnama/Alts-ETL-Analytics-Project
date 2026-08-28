@@ -1,0 +1,4 @@
+﻿sample_order,file_id,filename,page_count,issuer,selection_reason
+1,SRC107,DDQ_AIMA_Bear_Stearns_HGSCS_FCIC.pdf,22.0,Bear Stearns Asset Management Inc.,census: population <=5
+2,SRC103,DDQ_AIMA_CTA_Chesapeake_Capital.pdf,27.0,Chesapeake Capital Corporation (AIMA Illustrative DDQ format),census: population <=5
+3,SRC412,DDQ_Hamilton_Lane_Global_Private_Assets_Fund_May2025.pdf,37,Hamilton Lane (document mirrored by Sygnum Bank),census: population <=5

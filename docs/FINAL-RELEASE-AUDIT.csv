@@ -1,0 +1,26 @@
+order,stage,source,input,output,test,status,next_readme
+0,source_catalog,data-gathering/src/fetch_corpus.py,data-gathering/source_ledger.csv,data/documents/pdf/,catalog scope and local file presence agree,PASS,data/documents/README.md
+1,document_reading,instructions/01-pdf-extraction-csv/00-OPERATOR-RUNBOOK.md,PDF plus TXT image and grid aids,blind lane work files,validate-candidate and audit-file,PASS,instructions/01-pdf-extraction-csv/README.md
+2,blind_extraction,src/catalog/simple_pdf_extraction/csv_workflow.py,29 assigned documents,records-a.csv and records-b.csv,29 A/B document pairs pass,PASS,instructions/01-pdf-extraction-csv/README.md
+3,adjudication,src/catalog/simple_pdf_extraction/csv_workflow.py,A/B candidates and page coverage,records-final.csv and coverage-final.csv,29 validate-final commands pass,PASS,instructions/01-pdf-extraction-csv/README.md
+10,source_verification,src/pipeline/combine_extracted_raw.py,29 adjudicated finals,data/extracted/raw/,raw bytes match working finals,PASS,data/extracted/README.md
+15,round_publication,src/pipeline/publish_review_release.py,raw route CSVs,data/extracted/rounds/,core fields match and extractor_model is present,PASS,data/extracted/README.md
+20,normalization_gate,src/catalog/simple_pdf_extraction/name_normalization.py,name and attribute matrices,conflict ledgers,normalization and strict attribute gates pass,PASS,data/normalization/README.md
+30,flatten,src/flatten/flatten_extracted.py,published round CSVs,data/extracted/tables/,7201 observations retain source evidence,PASS,data/extracted/tables/README.md
+40,extraction_review,src/pipeline/build_extraction_review.py,fact observations and working finals,observation_lineage.csv and document-summary.csv,all observations resolve to comparison evidence,PASS,data/extracted/review/README.md
+50,wide_tables,src/flatten/pivot_wide.py,relational observations,data/extracted/wide/,every observation bridges to one wide row,PASS,data/extracted/wide/README.md
+60,extracted_database,src/flatten/load_star.py,extracted tables and wide files,data/warehouse/extracted.duckdb,full-content CSV parity,PASS,data/warehouse/README.md
+70,attribute_audit,src/catalog/simple_pdf_extraction/fund_attributes.py,printed fund attributes,attribute-inherit.csv,330 inherited contexts retain printed evidence,PASS,data/extracted/audit/README.md
+80,fund_model_promotion,src/load/promote_extracted_to_fund_level.py,evidence tables and identity decisions,data/csv source-backed tables,65 unsupported category-value cells remain withheld,PASS,data/extracted/fund-level/README.md
+90,promotion_gate,src/load/validate_round02_promotion.py,promotion worksheets and decision ledgers,accepted fund-model source rows,4284 promoted rows pass lineage gate,PASS,data/extracted/fund-level/README.md
+95,extracted_snapshot,src/pipeline/build_integrated_universe.py,data/csv source-backed tables,data/extracted/fund-level/,frozen snapshot is written before augmentation,PASS,data/extracted/fund-level/README.md
+100,integrated_completion,src/pipeline/build_integrated_universe.py,frozen snapshot and completion parameters,data/csv plus data/integrated/,extracted IDs and rows survive and every addition has lineage,PASS,data/integrated/README.md
+105,benchmark_gate,src/load/validate_round02_promotion.py,334 market sources and staged benchmarks,benchmark_returns.csv,279211 returns reconcile and demo rights are disclosed,PASS,docs/PUBLIC-MARKET-DATA.md
+110,integrated_quality,src/quality/run_fund_checks.py,integrated fund-model tables,quality_results.csv,934 completed periods have zero failures and 934 XIRR passes,PASS,docs/SYNTHETIC-DATA-AND-QUALITY.md
+112,extracted_quality,src/quality/run_fund_checks.py,frozen source tables,extracted quality_results.csv,6206 checks; 2 printed negatives fail and 312 pass inside the printed precision,PASS,docs/SYNTHETIC-DATA-AND-QUALITY.md
+115,extracted_analytics,src/analytics/run_extracted_analytics.py,quality-approved extracted periods,804 extracted metrics,804 extracted metrics; 268 periods support source-only multiples,PASS,instructions/04-analytics/README.md
+120,integrated_analytics,src/analytics/run_integrated_analytics.py,934 completed periods and demo benchmark,3736 metrics 1868 PME rows and 934 allocations,formula input and benchmark IDs are present,PASS,instructions/04-analytics/README.md
+130,reviewer_publication,src/pipeline/build_reviewer_publication.py,observations and fund-model tables with quality and analytics,data/extracted/review/,flat enrichment provenance and 36-row analytics summary pass,PASS,data/extracted/review/README.md
+140,fund_model_database,src/load/load_csv_to_duckdb.py,data/csv/,data/warehouse/alts.duckdb,full-content CSV parity,PASS,data/warehouse/README.md
+150,release_gate,src/pipeline/reviewer_check.py,all governed release artifacts,reviewer PASS report,144 data and process checks pass with zero open items,PASS,docs/FINAL-RELEASE-AUDIT.md
+160,repository_gate,src/repository/check_project_structure.py,repository READMEs manifest and hashes,project verification report,the test suite plus README and manifest hash checks pass,PASS,docs/FINAL-RELEASE-AUDIT.md

@@ -1,0 +1,13 @@
+defect_type,expected_rule_id,injected,detected,missed,detection_rate
+cashflow_sign_error,R15_CASHFLOW_SIGN_CONVENTION,12,12,0,1.000000
+commitment_reconciliation_mismatch,R06_COMMITMENT_RECONCILIATION,12,12,0,1.000000
+currency_mismatch,R14_CURRENCY_CONSISTENCY,12,12,0,1.000000
+dpi_recompute_mismatch,R03_DPI_RECOMPUTE,12,12,0,1.000000
+duplicate_cashflow,R13_DUPLICATE_CASHFLOW,12,12,0,1.000000
+impossible_vintage,R09_VINTAGE_DATE,12,12,0,1.000000
+irr_recompute_mismatch,R08_XIRR_RECOMPUTE,12,12,0,1.000000
+missing_fund_name,R12_SYNTHETIC_IDENTITY_SEPARATION,12,12,0,1.000000
+nav_rollforward_mismatch,R07_NAV_ROLLFORWARD,12,12,0,1.000000
+rvpi_recompute_mismatch,R04_RVPI_RECOMPUTE,12,12,0,1.000000
+synthetic_real_identity_collision,R12_SYNTHETIC_IDENTITY_SEPARATION,12,12,0,1.000000
+tvpi_component_mismatch,R02_TVPI_COMPONENTS,12,12,0,1.000000

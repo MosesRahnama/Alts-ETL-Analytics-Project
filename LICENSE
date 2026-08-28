@@ -1,0 +1,198 @@
+Alternative Data ETL and Investment Analytics
+Copyright (c) 2026 Moses Rahnama. All rights reserved.
+
+SOURCE-AVAILABLE LICENSE WITH PAID COMMERCIAL TERMS
+
+This software and its accompanying materials are made available for inspection
+and evaluation. They are not open-source software. Commercial use requires a
+separate paid licence agreed in writing with the copyright holder.
+
+
+1. DEFINITIONS
+
+1.1  "Work" means everything in this repository authored by the copyright
+     holder, including: source code; the extraction contract and its field,
+     family, category, and routing definitions; the operator runbooks and the
+     copy-ready agent role briefs, whether written by hand or produced by a
+     generator in this repository; the quality rules and their tolerances; the
+     generation configuration; the database schemas; the documentation; and the
+     selection, arrangement, and structure of the whole.
+
+1.2  "Derivative Work" means any work that is based on, adapted from,
+     translated from, reorganised from, or otherwise derived from the Work or
+     any Substantial Portion of it, in any medium and in any programming or
+     natural language. Rewriting the Work into a different language, framework,
+     or prompt format produces a Derivative Work.
+
+1.3  "Substantial Portion" means any part of the Work that reflects the
+     copyright holder's selection, arrangement, or expression rather than an
+     unprotectable idea. Without limiting that meaning, each of the following is
+     a Substantial Portion on its own:
+       (a)  the text of any extractor, adjudicator, normalizer, or research role
+            brief, in whole or in part;
+       (b)  the record and coverage contracts, including the field list, the
+            controlled vocabularies, the record families, and the rules binding
+            a value to its printed location and evidence;
+       (c)  the validator, comparison, adjudication, and publication logic and
+            the conditions under which each refuses work;
+       (d)  the quality rule set, its identifiers, and its tolerances;
+       (e)  the identity, sponsor-family, and manager-research workflow and its
+            file contracts;
+       (f)  the repository structure, folder guides, and manifest scheme.
+
+1.4  "Commercial Use" means any use by or for the benefit of a business,
+     including internal use in the ordinary course of a business, and including
+     use that produces data, analysis, models, reports, or products offered to
+     any third party for consideration. Evaluation of the copyright holder for
+     employment or engagement is not Commercial Use.
+
+1.5  "Third-Party Material" means material in this repository that the copyright
+     holder did not author. See section 7.
+
+
+2. PERMISSION GRANTED WITHOUT PAYMENT
+
+Subject to sections 3 to 6, any person may, at no charge:
+
+2.1  read, download, and retain a copy of the Work;
+
+2.2  run the Work locally to verify the claims made in its documentation;
+
+2.3  use the Work for personal study, academic teaching, and academic research
+     that is published without charge; and
+
+2.4  evaluate the Work, and the copyright holder's capability through it, for
+     the purpose of deciding whether to employ or engage the copyright holder.
+
+The permission in this section is limited to the acts it names. Every other
+right stays with the copyright holder.
+
+
+3. PAID COMMERCIAL LICENCE REQUIRED
+
+3.1  Commercial Use of the Work, of any Derivative Work, or of any Substantial
+     Portion of either requires a separate written licence from the copyright
+     holder, granted on payment of a fee.
+
+3.2  Section 3.1 applies whether the Work is used as delivered, modified,
+     partially copied, merged into other software, reimplemented from the Work
+     in another language or framework, or supplied to an automated system as
+     configuration, instructions, or a prompt.
+
+3.3  Section 3.1 applies to internal business use. Deploying the Work inside one
+     organisation, without distributing it, is Commercial Use.
+
+3.4  Using the Work, a Derivative Work, or a Substantial Portion to perform work
+     that the copyright holder was approached to perform, in place of engaging
+     the copyright holder, is Commercial Use and requires a paid licence.
+
+3.5  To obtain a commercial licence, contact moses.rahnama@gmail.com. Terms are
+     agreed per engagement and may cover a project, a term, or a perpetual
+     grant.
+
+
+4. RESTRICTIONS
+
+Without a written licence from the copyright holder, no person may:
+
+4.1  make the Work or a Derivative Work available to any third party, whether by
+     distribution, hosting, network service, or inclusion in another product;
+
+4.2  remove, obscure, or alter this licence, the copyright notice, or any
+     attribution in the Work or in a Derivative Work;
+
+4.3  use the Work to train, fine-tune, or evaluate a machine-learning model
+     intended for Commercial Use, or supply the Work to a third party for that
+     purpose;
+
+4.4  use the copyright holder's name to endorse or promote any product or
+     service; or
+
+4.5  assert that a Derivative Work is independent of the Work where it is not.
+
+
+5. WHAT THIS LICENCE LEAVES FREE
+
+This licence governs the expression of the Work. It leaves free the general
+ideas, methods, and facts the Work discusses, which copyright law places outside
+its reach. A person may read the documentation, understand the approach it
+describes, and build their own system independently. This licence attaches when
+that person copies, adapts, or reproduces the copyright holder's expression:
+the role briefs, the contract definitions, the rule sets, the code, and the
+structure of the whole.
+
+
+6. ATTRIBUTION
+
+Where the permission in section 2 allows a use, that use retains the copyright
+notice above and identifies the copyright holder as the author. Academic use
+under section 2.3 cites the Work and its author.
+
+
+7. THIRD-PARTY MATERIAL
+
+7.1  The source reports catalogued in this repository are public filings, freely
+     published documents, and records obtained under freedom-of-information law.
+     They stay the property of their publishers. The copyright holder claims no
+     right in them and grants none. A user of those documents is responsible for
+     their own compliance with the terms of each publisher.
+
+7.2  The public-market data files carry a rights status of DEMONSTRATION_ONLY
+     and a use status of DEMO_PROXY_ONLY. The copyright holder grants no right
+     to redistribute them. Benchmark series built from exchange-traded fund
+     prices are demonstration series and are not licensed institutional indices.
+
+7.3  The copyright holder's own compilation, selection, and annotation of
+     Third-Party Material, including the source ledger, the classification
+     verdicts, and the field surveys, is part of the Work.
+
+
+8. TERM AND TERMINATION
+
+8.1  This licence takes effect when a person first exercises a permission in
+     section 2 and continues until terminated.
+
+8.2  It terminates automatically if that person breaches any term. On
+     termination, that person destroys every copy of the Work and of any
+     Derivative Work in their possession.
+
+8.3  A person whose licence terminated may have it reinstated by the copyright
+     holder in writing.
+
+8.4  Sections 3, 4, 7, 9, and 10 survive termination.
+
+
+9. NO WARRANTY
+
+THE WORK IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
+INCLUDING THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE,
+ACCURACY, AND NONINFRINGEMENT. The Work processes financial documents and
+produces analytical output. It is a demonstration of engineering method. It is
+supplied for research and evaluation and carries no investment, accounting,
+legal, or tax advice. Any person acting on its output does so on their own
+judgement and at their own risk.
+
+
+10. LIMITATION OF LIABILITY
+
+TO THE FULLEST EXTENT PERMITTED BY LAW, THE COPYRIGHT HOLDER IS NOT LIABLE FOR
+ANY CLAIM, DAMAGE, OR OTHER LIABILITY, WHETHER IN CONTRACT, TORT, OR OTHERWISE,
+ARISING FROM THE WORK OR FROM ANY USE OF IT.
+
+
+11. GENERAL
+
+11.1 This licence is the entire agreement about the Work between the copyright
+     holder and any person exercising a permission in section 2, and it replaces
+     any earlier understanding about it.
+
+11.2 If a term is held unenforceable, the rest stays in force and the
+     unenforceable term is read as narrowly as needed to make it enforceable.
+
+11.3 A delay in enforcing a term waives nothing.
+
+11.4 A separate written commercial licence prevails over this licence to the
+     extent the two differ.
+
+
+Commercial licensing: moses.rahnama@gmail.com

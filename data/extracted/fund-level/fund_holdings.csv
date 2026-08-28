@@ -1,0 +1,33 @@
+holding_id,fund_id,portfolio_company_id,portfolio_company_name,instrument_id,instrument_name,date_role,date_raw,date_precision,as_of_date,report_date,period_start_date,period_end_date,effective_date,security_type,sector,geography,currency,cost,fair_value,principal_amount,interest_rate,spread_bps,maturity_date,ownership_percent,provenance_type,source_document_id,source_page,source_anchor,synthetic_parameter_set_id,record_status
+1032f5583b7a423765b4,FUND_0319,FUND_0319,AUSTIN VENTURES IX LP,,,as_of,"June 30, 2025",day,2025-06-30,,,,,,,,USD,,16094,,,,,,EXTRACTED,SRC356,5,Economically Targeted Investments,,ACTIVE
+b594437b592c0dcbd525,FUND_0320,FUND_0320,AUSTIN VENTURES X LP,,,as_of,"June 30, 2025",day,2025-06-30,,,,,,,,USD,,152509,,,,,,EXTRACTED,SRC356,5,Economically Targeted Investments,,ACTIVE
+77c7410eb598ef956ecc,FUND_0488,FUND_0488,EQT INFRASTRUCTURE IV CO-INVESTMENT A SCSP,,,as_of,"June 30, 2025",day,2025-06-30,,,,,,,,USD,,26956271,,,,,,EXTRACTED,SRC356,5,Economically Targeted Investments,,ACTIVE
+0d9cf9ef640594807d07,FUND_0494,FUND_0494,ESCALATE CAPITAL I LP,,,as_of,"June 30, 2025",day,2025-06-30,,,,,,,,USD,,59353,,,,,,EXTRACTED,SRC356,5,Economically Targeted Investments,,ACTIVE
+eb0e7335faf7e86898d6,FUND_0592,FUND_0592,HANNATHON CIV LP,,,as_of,"June 30, 2025",day,2025-06-30,,,,,,,,USD,,26895068,,,,,,EXTRACTED,SRC356,5,Economically Targeted Investments,,ACTIVE
+3c03d8b5c0e1f7e363d0,FUND_0755,FUND_0755,NCV SELECT I LP,,,as_of,"June 30, 2025",day,2025-06-30,,,,,,,,USD,,7465530,,,,,,EXTRACTED,SRC356,5,Economically Targeted Investments,,ACTIVE
+81ce8ffd21ce02461848,FUND_0759,FUND_0759,NEW HORIZONS EL PASO LP,,,as_of,"June 30, 2025",day,2025-06-30,,,,,,,,USD,,18135791,,,,,,EXTRACTED,SRC356,5,Economically Targeted Investments,,ACTIVE
+3a36591bec915380bbff,FUND_0765,FUND_0765,NEXT COAST VENTURES III LP,,,as_of,"June 30, 2025",day,2025-06-30,,,,,,,,USD,,9569692,,,,,,EXTRACTED,SRC356,5,Economically Targeted Investments,,ACTIVE
+401743ad95958afb84e6,FUND_0810,FUND_0810,PBC AUSTIN 2021 EQUITY I LP,,,as_of,"June 30, 2025",day,2025-06-30,,,,,,,,USD,,11329393,,,,,,EXTRACTED,SRC356,5,Economically Targeted Investments,,ACTIVE
+fbb0fbe0cc321f7e4a4e,FUND_0812,FUND_0812,PENNYBACKER IV LP,,,as_of,"June 30, 2025",day,2025-06-30,,,,,,,,USD,,11717776,,,,,,EXTRACTED,SRC356,5,Economically Targeted Investments,,ACTIVE
+40a1ddf83171860db734,FUND_0813,FUND_0813,PEP DEVELOPMENT OPPORTUNITIES FUND LP,,,as_of,"June 30, 2025",day,2025-06-30,,,,,,,,USD,,39235748,,,,,,EXTRACTED,SRC356,5,Economically Targeted Investments,,ACTIVE
+7171ef4dd061349142d5,FUND_0872,FUND_0872,ROX II MED CENTER LP,,,as_of,"June 30, 2025",day,2025-06-30,,,,,,,,USD,,4425256,,,,,,EXTRACTED,SRC356,5,Economically Targeted Investments,,ACTIVE
+d12ed224a9a69c122a86,FUND_0882,FUND_0882,SANTÉ HEALTH VENTURES II LP,,,as_of,"June 30, 2025",day,2025-06-30,,,,,,,,USD,,8279253,,,,,,EXTRACTED,SRC356,5,Economically Targeted Investments,,ACTIVE
+384b22141931b49c11b7,FUND_0885,FUND_0885,SCF-IX LP,,,as_of,"June 30, 2025",day,2025-06-30,,,,,,,,USD,,57441706,,,,,,EXTRACTED,SRC356,5,Economically Targeted Investments,,ACTIVE
+b403b804fc136553c335,FUND_0886,FUND_0886,SCF-VII LP,,,as_of,"June 30, 2025",day,2025-06-30,,,,,,,,USD,,3269994,,,,,,EXTRACTED,SRC356,5,Economically Targeted Investments,,ACTIVE
+ddde089164ee212c9f66,FUND_0887,FUND_0887,SCF-VIII LP,,,as_of,"June 30, 2025",day,2025-06-30,,,,,,,,USD,,21939508,,,,,,EXTRACTED,SRC356,5,Economically Targeted Investments,,ACTIVE
+0b8b59b387e6fa83d813,FUND_0893,FUND_0893,SERVE OPPORTUNITIES FUND I LP,,,as_of,"June 30, 2025",day,2025-06-30,,,,,,,,USD,,197439278,,,,,,EXTRACTED,SRC356,5,Economically Targeted Investments,,ACTIVE
+16f80d62689e6ca7b4d1,FUND_0941,FUND_0941,TEAKWOOD CAPITAL III (CO-INVESTMENT) LP,,,as_of,"June 30, 2025",day,2025-06-30,,,,,,,,USD,,6415987,,,,,,EXTRACTED,SRC356,5,Economically Targeted Investments,,ACTIVE
+8789f15bac496c0b2106,FUND_0942,FUND_0942,TEAKWOOD CAPITAL III LP,,,as_of,"June 30, 2025",day,2025-06-30,,,,,,,,USD,,22032758,,,,,,EXTRACTED,SRC356,5,Economically Targeted Investments,,ACTIVE
+36f7c4f8efbf3c6dfbb9,FUND_0984,FUND_0984,VISTA EQUITY ENDEAVOR FUND II LP,,,as_of,"June 30, 2025",day,2025-06-30,,,,,,,,USD,,56986795,,,,,,EXTRACTED,SRC356,5,Economically Targeted Investments,,ACTIVE
+80d12cbeacc19f596f94,FUND_1051,FUND_1051,VISTA EQUITY PARTNERS FUND VII LP,,,as_of,"June 30, 2025",day,2025-06-30,,,,,,,,USD,,126464038,,,,,,EXTRACTED,SRC356,5,Economically Targeted Investments,,ACTIVE
+10d1d6dcc3dc69e0df05,FUND_0623,FUND_0623,"Hellman & Friedman Capital Partners XI (Parallel), L.P.",,,as_of,"December 31, 2025",day,2025-12-31,,,,,,,,USD,,-12774,,,,,,EXTRACTED,SRC407,1,Consolidated Schedule of Investments,,ACTIVE
+019f12a77512761c7e7a,FUND_0334,FUND_0334,"BC Asia III Private Investors, L.P.",,,as_of,"December 31, 2025",day,2025-12-31,,,,,,,,USD,,2089669,,,,,,EXTRACTED,SRC407,2,Consolidated Schedule of Investments,,ACTIVE
+42c22ddd1d80a0ffc742,FUND_0344,FUND_0344,BCP V-S L.P.,,,as_of,"December 31, 2025",day,2025-12-31,,,,,,,,USD,47896,,,,,,,EXTRACTED,SRC407,2,Consolidated Schedule of Investments,,ACTIVE
+dafd2170697fec9eac58,FUND_0324,FUND_0324,"Bain Capital Distressed and Special Situations 2013 (E), L.P.",,,as_of,"December 31, 2025",day,2025-12-31,,,,,,,,USD,,16575,,,,,,EXTRACTED,SRC407,2,Consolidated Schedule of Investments,,ACTIVE
+4ba9c15a8a5019aa9d19,FUND_0425,FUND_0425,Charterhouse Capital Partners IX,,,as_of,"December 31, 2025",day,2025-12-31,,,,,,,,USD,,23282,,,,,,EXTRACTED,SRC407,3,Consolidated Schedule of Investments,,ACTIVE
+8803983ec7ef29a81db3,FUND_0509,FUND_0509,"Francisco Partners II, L.P.",,,as_of,"December 31, 2025",day,2025-12-31,,,,,,,,USD,106495,,,,,,,EXTRACTED,SRC407,3,Consolidated Schedule of Investments,,ACTIVE
+2fd732f14c07cf358df1,FUND_0519,FUND_0519,GESD Investors II Liquidating Trust,,,as_of,"December 31, 2025",day,2025-12-31,,,,,,,,USD,,4516,,,,,,EXTRACTED,SRC407,3,Consolidated Schedule of Investments,,ACTIVE
+7bfd6e8ba6ca65a3ac47,FUND_0567,FUND_0567,GSO Capital Opportunities Overseas Fund L.P.,,,as_of,"December 31, 2025",day,2025-12-31,,,,,,,,USD,234409,,,,,,,EXTRACTED,SRC407,4,Consolidated Schedule of Investments,,ACTIVE
+7e8992981ecfc457bf48,FUND_0750,FUND_0750,"MPE Partners II, L.P.",,,as_of,"December 31, 2025",day,2025-12-31,,,,,,,,USD,,1561209,,,,,,EXTRACTED,SRC407,5,Consolidated Schedule of Investments,,ACTIVE
+1849a4120f6c0b0186af,FUND_0757,FUND_0757,"New Capital Partners Private Equity Fund II, L.P.",,,as_of,"December 31, 2025",day,2025-12-31,,,,,,,,USD,948558,,,,,,,EXTRACTED,SRC407,5,Consolidated Schedule of Investments,,ACTIVE
+f40622bd260cb009c9ad,FUND_0774,FUND_0774,Njord SCSp,,,as_of,"December 31, 2025",day,2025-12-31,,,,,,,,USD,,633463,,,,,,EXTRACTED,SRC407,5,Consolidated Schedule of Investments,,ACTIVE

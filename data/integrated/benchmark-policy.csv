@@ -1,0 +1,2 @@
+benchmark_id,benchmark_name,rights_status,use_status,source_file_id,first_observation_date,last_observation_date,observation_count,note
+BMK_ETF_SPY,SPY adjusted ETF proxy,DEMONSTRATION_ONLY,DEMO_PROXY_ONLY,PMKT_07BB7F4215B1F6A8,1993-02-01,2026-06-05,8394,Public ETF proxy data is restricted to this demonstration and is not approved for production use or redistribution.

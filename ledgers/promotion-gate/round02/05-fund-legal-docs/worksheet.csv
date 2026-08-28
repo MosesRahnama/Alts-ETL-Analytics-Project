@@ -1,0 +1,4 @@
+batch_id,file_id,source_sha256,final_file_sha256,final_row_count,lanes,decision,reason
+05-fund-legal-docs,SRC107,440fe73f9d712e511d30234a8466716627c6336e7e0990ca47a396b40bc7cd15,b0a43eda90dfe6098d31b45306b7dc31437514f0676b8afa5d206afe84db4281,49,A|B|ADJUDICATED,ACCEPT,blind dual extraction adjudicated and published under validate-final
+05-fund-legal-docs,SRC607,89188919c2905e70708febd40bfdf0e406a89a69abccd46310a15a437ac6ec7a,c3bb04e8316cac332d5480d157cd52b51becec3e949eea3158d923e19866eff0,20,A|B|ADJUDICATED,ACCEPT,blind dual extraction adjudicated and published under validate-final
+05-fund-legal-docs,SRC612,9aaf853a1b3ceefddf659360e76652dacf8b306e7676e9b9b5350737b1c5f921,4df1077884522c9408e3037a0f01aac18cf97b8da3f011ab4b8d5738d07c702d,29,A|B|ADJUDICATED,ACCEPT,blind dual extraction adjudicated and published under validate-final

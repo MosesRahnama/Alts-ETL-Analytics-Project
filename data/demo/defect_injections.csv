@@ -1,0 +1,6 @@
+defect_id,parameter_set_id,record_table,record_id,fund_id,defect_type,field_name,clean_value,injected_value,expected_rule_id,seed,notes
+DEFECT_DEMO_001,DEMO_ASSUMED_V1,fund_periods,FP_SYNTH_DEMO_002,FUND_SYNTH_DEMO_002,tvpi_component_mismatch,tvpi,1.2,1.45,R02_TVPI_COMPONENTS,20260802,Intentional demonstration error.
+DEFECT_DEMO_002,DEMO_ASSUMED_V1,fund_periods,FP_SYNTH_DEMO_002,FUND_SYNTH_DEMO_002,tvpi_recompute_mismatch,tvpi,1.2,1.45,R05_TVPI_RECOMPUTE,20260802,Second expected alarm from the same incorrect TVPI field.
+DEFECT_DEMO_003,DEMO_ASSUMED_V1,fund_periods,FP_SYNTH_DEMO_002,FUND_SYNTH_DEMO_002,unfunded_mismatch,unfunded_commitment,20,30,R06_COMMITMENT_RECONCILIATION,20260802,Intentional demonstration error.
+DEFECT_DEMO_004,DEMO_ASSUMED_V1,fund_periods,FP_SYNTH_DEMO_002,FUND_SYNTH_DEMO_002,nav_rollforward_mismatch,ending_nav,70,72,R07_NAV_ROLLFORWARD,20260802,Intentional demonstration error.
+DEFECT_DEMO_005,DEMO_ASSUMED_V1,fund_periods,FP_SYNTH_DEMO_002,FUND_SYNTH_DEMO_002,irr_mismatch,reported_irr,0.0651846755,0.4,R08_XIRR_RECOMPUTE,20260802,Intentional demonstration error.

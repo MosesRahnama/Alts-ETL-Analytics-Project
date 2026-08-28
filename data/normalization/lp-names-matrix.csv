@@ -1,0 +1,42 @@
+lp_name_raw,standardized_lp_name,lp_id,decision_status,seen_in_agents,source_files,a_count,b_count,merge_note
+Bear Stearns employees,Bear Stearns employees,LP_0006,auto,05-fund-legal-docs,SRC107,1,0,auto: only printed variant of this name in the corpus
+BILL & MELINDA GATES FOUNDATION TRUST,BILL & MELINDA GATES FOUNDATION TRUST,LP_0007,auto,01-financials,SRC377,1,0,auto: only printed variant of this name in the corpus
+Bill and Melinda Gates,Bill and Melinda Gates,LP_0008,auto,01-financials,SRC377,1,0,auto: only printed variant of this name in the corpus
+Bill Gates,Bill Gates,LP_0009,auto,01-financials,SRC377,2,0,auto: only printed variant of this name in the corpus
+Commonwealth of Pennsylvania State Employees' Retirement System,Commonwealth of Pennsylvania State Employees' Retirement System,LP_0033,decided,05-fund-legal-docs,SRC607,11,0,Case variants consolidated to the printed title-case institutional name.
+COMMONWEALTH OF PENNSYLVANIA STATE EMPLOYEES' RETIREMENT SYSTEM,Commonwealth of Pennsylvania State Employees' Retirement System,LP_0033,decided,05-fund-legal-docs,SRC612,1,0,Case variants consolidated to the printed title-case institutional name.
+General Partner,General Partner,LP_0010,auto,01-financials,SRC034,4,0,auto: only printed variant of this name in the corpus
+Guardians of New Zealand Superannuation,Guardians of New Zealand Superannuation,LP_0011,auto,07-institutional-mission,SRC339,61,0,auto: only printed variant of this name in the corpus
+James Cayne,James Cayne,LP_0012,auto,05-fund-legal-docs,SRC107,1,0,auto: only printed variant of this name in the corpus
+"JPIV G.P., L.P.","JPIV G.P., L.P.",LP_0013,auto,01-financials,SRC102,14,0,auto: only printed variant of this name in the corpus
+largest investor,largest investor,LP_0014,auto,05-fund-legal-docs,SRC107,1,0,auto: only printed variant of this name in the corpus
+Limited Partners,Limited Partners,LP_0015,auto,01-financials,SRC034,4,0,auto: only printed variant of this name in the corpus
+New Mexico Educational Retirement Board,New Mexico Educational Retirement Board,LP_0016,auto,04-quarterly-report,SRC457,1,0,auto: only printed variant of this name in the corpus
+New York State Common Retirement Fund,New York State Common Retirement Fund,LP_0017,auto,03-institutional-report,SRC216,1,0,auto: only printed variant of this name in the corpus
+Northumberland County Council,Northumberland County Council acting in its capacity as the administering authority for the Northumberland County Council Pension Fund,LP_0001,decided,A+B,SRC462,1,1,same administering authority; fullest observed form
+Northumberland County Council acting in its capacity as the administering authority for the Northumberland County Council Pension Fund,Northumberland County Council acting in its capacity as the administering authority for the Northumberland County Council Pension Fund,LP_0001,decided,B,SRC463,0,1,same administering authority; fullest observed form
+Northumberland County Council Pension Fund,Northumberland County Council acting in its capacity as the administering authority for the Northumberland County Council Pension Fund,LP_0001,decided,A,SRC463,1,0,same administering authority; fullest observed form
+Oregon Growth Account,Oregon Growth Account,LP_0018,auto,02-performance,SRC035,1,0,auto: only printed variant of this name in the corpus
+Oregon Growth Account Private Equity Program,Oregon Growth Account Private Equity Program,LP_0002,decided,A+B,SRC035,72,72,
+Oregon Public Employees Retirement Fund,Oregon Public Employees' Retirement Fund,LP_0034,decided,02-performance,SRC060,1,0,Apostrophe variant consolidated to the printed institutional name.
+Oregon Public Employees' Retirement Fund,Oregon Public Employees' Retirement Fund,LP_0034,decided,02-performance,SRC058,1,0,Apostrophe variant consolidated to the printed institutional name.
+Penn Public School Employees' Ret. System,Pennsylvania Public School Employees' Retirement System (PSERS),LP_0003,decided,A+B,SRC101,1,1,PSERS spelling cluster; fullest observed form
+Pennsylvania Public School Employees' Retirement System,Pennsylvania Public School Employees' Retirement System (PSERS),LP_0003,decided,A+B,SRC029;SRC034;SRC102,4,5,PSERS spelling cluster; fullest observed form
+Pennsylvania Public School Employees' Retirement System (PSERS),Pennsylvania Public School Employees' Retirement System (PSERS),LP_0003,decided,A,SRC034,1,0,PSERS spelling cluster; fullest observed form
+"Private Capital Management, L.P.","Private Capital Management, L.P.",LP_0019,auto,05-fund-legal-docs,SRC107,1,0,auto: only printed variant of this name in the corpus
+PSERS,PSERS,LP_0020,auto,06-statements-and-economics,SRC028,1,0,auto: only printed variant of this name in the corpus
+Public Employees' Retirement Fund (PERF),Public Employees' Retirement Fund (PERF),LP_0021,auto,02-performance,SRC063,1,0,auto: only printed variant of this name in the corpus
+Public School Employees' Retirement System (PSERS),Pennsylvania Public School Employees' Retirement System (PSERS),LP_0003,decided,A+B,SRC137,99,99,PSERS spelling cluster; fullest observed form
+The Ohio Capital Fund LLC,The Ohio Capital Fund LLC,LP_0004,decided,A+B,SRC036,25,25,
+The University of Texas System,The University of Texas System,LP_0022,auto,03-institutional-report,SRC356,1,0,auto: only printed variant of this name in the corpus
+Universities Superannuation Scheme Limited,Universities Superannuation Scheme Limited,LP_0023,auto,07-institutional-mission,SRC329,1,0,auto: only printed variant of this name in the corpus
+University of California,University of California,LP_0024,auto,04-quarterly-report,SRC384,1,0,auto: only printed variant of this name in the corpus
+University of Michigan,University of Michigan,LP_0025,auto,02-performance,SRC363,1,0,auto: only printed variant of this name in the corpus
+University of South Carolina,University of South Carolina,LP_0026,auto,03-institutional-report,SRC389,1,0,auto: only printed variant of this name in the corpus
+University of Virginia,University of Virginia,LP_0027,auto,03-institutional-report,SRC375,1,0,auto: only printed variant of this name in the corpus
+University of Virginia Endowment,University of Virginia Endowment,LP_0028,auto,03-institutional-report,SRC375,2,0,auto: only printed variant of this name in the corpus
+University Other Long-Term Assets,University Other Long-Term Assets,LP_0029,auto,03-institutional-report,SRC375,2,0,auto: only printed variant of this name in the corpus
+University Strategic Investment Fund,University Strategic Investment Fund,LP_0030,auto,03-institutional-report,SRC375,2,0,auto: only printed variant of this name in the corpus
+University-Associated Organizations,University-Associated Organizations,LP_0031,auto,03-institutional-report,SRC375,3,0,auto: only printed variant of this name in the corpus
+"Utah Fund of Funds, LLC","Utah Fund of Funds, LLC",LP_0005,decided,A+B,SRC037,7,7,
+Warren Buffett,Warren Buffett,LP_0032,auto,01-financials,SRC377,2,0,auto: only printed variant of this name in the corpus

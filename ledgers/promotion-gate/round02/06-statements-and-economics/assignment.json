@@ -1,0 +1,26 @@
+{
+  "batch_id": "06-statements-and-economics",
+  "round_id": "02",
+  "files": [
+    {
+      "file_id": "SRC028",
+      "source_sha256": "91068b29d6128f34c2cb9f612208cc934849cc65200842ad7c017de0b59d0eb5"
+    },
+    {
+      "file_id": "SRC132",
+      "source_sha256": "21face6058046d49fc7005fb8a2e7b63f7bf95ffb0e72cf05abbb350733d2e6d"
+    },
+    {
+      "file_id": "SRC247",
+      "source_sha256": "6fd8c243900f1595c3cdb0b4b5e44eacac39db50a5f75d39d13626fd3a8ed5e0"
+    },
+    {
+      "file_id": "SRC407",
+      "source_sha256": "42fd3fd5192cd82559b79a6adfdcdbf321ee96ab2925a30c3f3513e2aabdc3b6"
+    },
+    {
+      "file_id": "SRC462",
+      "source_sha256": "781662bf1c5ba4799d5da223c17c18d29a6a475934548a84c926ba38be788feb"
+    }
+  ]
+}

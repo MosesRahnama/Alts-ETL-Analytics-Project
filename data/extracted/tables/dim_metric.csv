@@ -1,0 +1,110 @@
+metric_id,record_family,metric_category,in_catalogue,value_kind,observation_count,standard_measure,measure_scope,note
+allocation_observation.actual_allocation,allocation_observation,actual_allocation,true,percent,258,actual_allocation_weight,allocation_bucket,"Share of a portfolio in one bucket, as printed."
+allocation_observation.market_value,allocation_observation,market_value,true,currency,19,allocation_bucket_market_value,allocation_bucket,Market value of one allocation bucket. The same heading at holding grain is holding_market_value and at fund grain fund_residual_value.
+allocation_observation.target_allocation,allocation_observation,target_allocation,true,percent,20,target_allocation_weight,allocation_bucket,Target or policy weight of one bucket.
+cash_flow_observation.distribution,cash_flow_observation,distribution,true,currency,1,distribution_cash_flow,cash_flow_event,One dated distribution.
+cash_flow_observation.expense,cash_flow_observation,expense,true,number,13,expense_cash_flow,cash_flow_event,One expense or tax charge in a capital-account or cash-flow statement.
+cash_flow_observation.interest,cash_flow_observation,interest,true,number,3,interest_cash_flow,cash_flow_event,Interest paid or charged in a capital-account statement.
+ddq_quantitative_observation.aum,ddq_quantitative_observation,aum,true,currency,14,reported_assets_under_management,mixed,"Assets under management reported for a manager, fund, feeder, asset class, or related investment vehicle."
+ddq_quantitative_observation.leverage,ddq_quantitative_observation,leverage,true,multiple,6,leverage_ratio,ddq_answer,Leverage ratio or policy limit.
+ddq_quantitative_observation.liquidity,ddq_quantitative_observation,liquidity,true,percent,4,redemption_liquidity_terms,ddq_answer,"Four rows: two print days to receive proceeds, two print a percent of proceeds or of NAV; the unit column separates them."
+ddq_quantitative_observation.lockup,ddq_quantitative_observation,lockup,true,number,1,lockup_period,ddq_answer,Lock-up period.
+ddq_quantitative_observation.management_fee,ddq_quantitative_observation,management_fee,true,percent,1,management_fee_rate,ddq_answer,"One row, a percent. The amount form is management_fee_amount under fee_observation."
+ddq_quantitative_observation.minimum_investment,ddq_quantitative_observation,minimum_investment,true,currency,1,minimum_investment,ddq_answer,Minimum initial investment.
+ddq_quantitative_observation.ownership_percentage,ddq_quantitative_observation,ownership_percentage,true,percent,4,ownership_percentage,ddq_answer,Share of the firm or vehicle held by the subject.
+ddq_quantitative_observation.performance_fee,ddq_quantitative_observation,performance_fee,true,percent,1,performance_fee_rate,ddq_answer,Incentive or performance fee rate.
+ddq_quantitative_observation.position_limit,ddq_quantitative_observation,position_limit,true,percent,3,position_limit,ddq_answer,Position or exposure limit.
+ddq_quantitative_observation.redemption_notice,ddq_quantitative_observation,redemption_notice,true,number,6,redemption_notice_days,ddq_answer,Redemption notice period in days.
+ddq_quantitative_observation.service_provider_count,ddq_quantitative_observation,service_provider_count,true,number,1,service_provider_count,ddq_answer,Number of service providers or counterparties stated.
+ddq_quantitative_observation.staff_count,ddq_quantitative_observation,staff_count,true,number,6,staff_count,ddq_answer,Employees or investment professionals at the firm.
+document_context,document_context,,true,none,28,document_context,document,One context row per document.
+fee_observation.cost_bps,fee_observation,cost_bps,true,number,17,fee_in_basis_points,fee_line,A fee or cost expressed in basis points.
+fee_observation.fee_benchmark,fee_observation,fee_benchmark,true,number,16,fee_benchmark_level,fee_line,A peer or benchmark fee level the report compares against.
+fee_observation.management_fee,fee_observation,management_fee,true,number,33,management_fee_amount,fee_line,Management fee as an amount on a fee report. The rate form is management_fee_rate under ddq_quantitative_observation.
+fee_observation.nav_aum_denominator,fee_observation,nav_aum_denominator,true,number,17,fee_asset_base,fee_line,The asset base a fee is measured on.
+fee_observation.offset,fee_observation,offset,true,number,4,fee_offset_amount,fee_line,"A fee offset, adjustment, or rebate amount."
+financial_statement_observation.beginning_capital,financial_statement_observation,beginning_capital,true,number,9,capital_opening_balance,statement_line,"Opening balance at the grain the statement prints: two investor rows, seven reporting-entity rows."
+financial_statement_observation.cash,financial_statement_observation,cash,true,number,18,cash_and_equivalents,statement_line,Cash and cash equivalents at a date or as an opening or closing balance.
+financial_statement_observation.commitment,financial_statement_observation,commitment,true,currency,5,commitment,statement_line,Commitment printed on a statement or note.
+financial_statement_observation.contribution,financial_statement_observation,contribution,true,currency,18,contribution_amount,statement_line,Contributions for a period as a statement line.
+financial_statement_observation.distribution,financial_statement_observation,distribution,true,number,10,distribution_amount,statement_line,Distributions for a period as a statement line.
+financial_statement_observation.ending_capital,financial_statement_observation,ending_capital,true,currency,7,capital_closing_balance,statement_line,Closing balance at the reporting-entity or partner grain printed by the statement.
+financial_statement_observation.fund_expense,financial_statement_observation,fund_expense,true,number,24,fund_expense,statement_line,An expense line or expense ratio of the fund.
+financial_statement_observation.interest_expense,financial_statement_observation,interest_expense,true,number,5,interest_expense,statement_line,Interest expense for a period.
+financial_statement_observation.investment_cost,financial_statement_observation,investment_cost,true,currency,1,investment_cost_basis,statement_line,Cost basis of investments on a statement.
+financial_statement_observation.investment_fair_value,financial_statement_observation,investment_fair_value,true,number,348,investments_at_fair_value,statement_line,"Investments on a statement or note, including Level 1, 2, and 3 components. Entity NAV also incorporates other assets and liabilities."
+financial_statement_observation.management_fee,financial_statement_observation,management_fee,true,number,12,management_fee_expense,statement_line,Management fees as an expense line of a statement.
+financial_statement_observation.net_assets,financial_statement_observation,net_assets,true,number,2,entity_net_assets,statement_line,Net assets of the reporting entity: total assets less total liabilities.
+financial_statement_observation.net_investment_income,financial_statement_observation,net_investment_income,true,number,17,net_investment_income,statement_line,Net investment income or loss for a period.
+financial_statement_observation.paid_in_capital,financial_statement_observation,paid_in_capital,true,number,6,paid_in_capital,statement_line,Paid-in capital printed on a statement.
+financial_statement_observation.partners_capital,financial_statement_observation,partners_capital,true,number,20,partners_capital,statement_line,Partners' capital by class or in total at entity grain.
+financial_statement_observation.realized_gain_loss,financial_statement_observation,realized_gain_loss,true,number,14,realized_gain_loss,statement_line,Realized gain or loss for a period.
+financial_statement_observation.total_assets,financial_statement_observation,total_assets,true,currency,7,entity_total_assets,statement_line,Total assets of the reporting entity.
+financial_statement_observation.total_liabilities,financial_statement_observation,total_liabilities,true,number,7,entity_total_liabilities,statement_line,Total liabilities of the reporting entity.
+financial_statement_observation.unfunded_commitment,financial_statement_observation,unfunded_commitment,true,number,10,unfunded_commitment,statement_line,Unfunded commitment printed on a statement or note.
+financial_statement_observation.unrealized_gain_loss,financial_statement_observation,unrealized_gain_loss,true,number,14,unrealized_gain_loss,statement_line,Change in unrealized gain or loss for a period.
+financing_observation.outstanding_balance,financing_observation,outstanding_balance,true,currency,2,credit_facility_balance,statement_line,Balance drawn on a credit facility or loan.
+fund_economics_observation.actual_allocation,fund_economics_observation,actual_allocation,true,percent,6,actual_allocation_weight,allocation_bucket,"Share of a portfolio in one bucket, printed inside a capital-account table."
+fund_economics_observation.alpha,fund_economics_observation,alpha,true,percent,48,excess_return_vs_benchmark,mixed,"Difference rows against the stated benchmark at fund, portfolio, or asset-class grain in SRC457."
+fund_economics_observation.beginning_capital,fund_economics_observation,beginning_capital,true,number,9,capital_opening_balance,mixed,"Opening balance at the investor, portfolio, or asset-class grain printed by the source."
+fund_economics_observation.carried_interest,fund_economics_observation,carried_interest,true,number,4,carried_interest_amount,investor_position,Carried interest reported for one investor position.
+fund_economics_observation.commitment,fund_economics_observation,commitment,true,currency,369,commitment,mixed,Capital committed for an investment row or a printed portfolio total; eligible fund rows populate fund_periods.commitment.
+fund_economics_observation.contribution,fund_economics_observation,contribution,true,number,106,contribution_amount,mixed,"One contribution or a period total at the source's investor, portfolio, or asset-class grain."
+fund_economics_observation.distribution,fund_economics_observation,distribution,true,currency,460,reported_distribution_amount,mixed,Distribution amount at the period or inception-to-date basis printed by the source; eligible inception-to-date rows populate fund_periods.distributions_itd.
+fund_economics_observation.dpi,fund_economics_observation,dpi,true,number,126,dpi,mixed,"Distributions to paid-in at fund, portfolio, asset-class, or investor grain."
+fund_economics_observation.ending_capital,fund_economics_observation,ending_capital,true,number,11,capital_closing_balance,mixed,"Closing balance at the investor, portfolio, or asset-class grain printed by the source."
+fund_economics_observation.fee,fund_economics_observation,fee,true,number,225,fee_amount,mixed,"Fee amount at the service-provider, fee-line, fund, portfolio, asset-class, or investor grain printed by the source."
+fund_economics_observation.fund_expense,fund_economics_observation,fund_expense,true,percent,6,fund_expense_ratio,fee_schedule,Six fee-schedule rows printed as percentages by share class.
+fund_economics_observation.income,fund_economics_observation,income,true,number,16,reported_income_or_distribution_rate,mixed,Twelve investor capital-account amounts and four annualized distribution rates. Value kind and unit preserve the distinction.
+fund_economics_observation.irr,fund_economics_observation,irr,true,percent,384,internal_rate_of_return,mixed,"IRR at fund, portfolio, or asset-class grain under the fee basis printed by the source; eligible fund rows populate fund_periods.reported_irr."
+fund_economics_observation.nav,fund_economics_observation,nav,true,currency,453,reported_residual_value,mixed,Residual value reported for a fund row or aggregate portfolio and asset-class total; eligible fund rows populate fund_periods.nav.
+fund_economics_observation.ownership_percentage,fund_economics_observation,ownership_percentage,true,percent,3,ownership_percentage,mixed,Ownership share reported for an investor position or an investment example.
+fund_economics_observation.paid_in_capital,fund_economics_observation,paid_in_capital,true,currency,361,paid_in_capital,mixed,"Paid-in capital at fund, portfolio, asset-class, or investor grain; eligible fund rows populate fund_periods.paid_in_capital_itd."
+fund_economics_observation.preferred_return,fund_economics_observation,preferred_return,true,currency,51,preferred_return_component,cash_flow_event,The preferred-return component of a distribution.
+fund_economics_observation.realized_gain_loss,fund_economics_observation,realized_gain_loss,true,number,1,realized_gain_loss,investor_position,Realized gain or loss for one investor position.
+fund_economics_observation.recallable_distribution,fund_economics_observation,recallable_distribution,true,number,4,recallable_distributions,investor_position,Distributed capital subject to a future call at investor-position grain.
+fund_economics_observation.return,fund_economics_observation,return,true,percent,404,net_modified_dietz_time_weighted_return,mixed,"SRC457 reports net time-weighted returns calculated with Modified Dietz for fund, portfolio, asset-class, and benchmark rows."
+fund_economics_observation.return_of_capital,fund_economics_observation,return_of_capital,true,currency,7,return_of_capital_component,cash_flow_event,The return-of-capital component of a distribution.
+fund_economics_observation.rvpi,fund_economics_observation,rvpi,true,number,125,rvpi,mixed,"Residual value to paid-in at fund, portfolio, or asset-class grain."
+fund_economics_observation.tvpi,fund_economics_observation,tvpi,true,multiple,423,tvpi,mixed,"Total value to paid-in at fund, portfolio, or asset-class grain."
+fund_economics_observation.unfunded_commitment,fund_economics_observation,unfunded_commitment,true,currency,146,unfunded_commitment,mixed,"Uncalled commitment at fund, portfolio, asset-class, or investor grain; eligible fund rows populate fund_periods.unfunded_commitment."
+fund_economics_observation.unrealized_gain_loss,fund_economics_observation,unrealized_gain_loss,true,number,10,unrealized_gain_loss,mixed,"Change in unrealized gain or loss at investor, portfolio, or asset-class grain."
+legal_clause,legal_clause,,true,text,23,legal_clause_text,legal_text,Printed wording of one operative provision.
+legal_term,legal_term,,true,text,5,legal_term_text,legal_text,Printed wording of one economic term.
+nav_observation.nav,nav_observation,nav,true,currency,15,net_asset_value,nav_statement,"The NAV total of a NAV statement, by class or in total."
+nav_observation.nav_component,nav_observation,nav_component,true,number,24,nav_build_up_line,nav_statement,"One line of the NAV build-up: investments, cash, debt, other assets and liabilities."
+nav_observation.nav_per_share,nav_observation,nav_per_share,true,currency,10,nav_per_share,nav_statement,NAV per share or unit by class.
+nav_observation.repurchase_limit,nav_observation,repurchase_limit,true,percent,3,repurchase_limit,nav_statement,A repurchase or redemption limit as a share of NAV or an amount.
+nav_observation.request_satisfaction,nav_observation,request_satisfaction,true,currency,2,repurchase_requests_satisfied,nav_statement,Share or amount of repurchase requests satisfied.
+nav_observation.shares_units,nav_observation,shares_units,true,number,24,shares_outstanding,nav_statement,"Shares or units outstanding, issued, or sold."
+nav_observation.transaction_price,nav_observation,transaction_price,true,currency,4,transaction_price_per_share,nav_statement,Transaction price per share by class.
+nav_observation.valuation_assumption,nav_observation,valuation_assumption,true,percent,8,valuation_input_rate,nav_statement,A model input such as a discount rate or exit capitalization rate.
+nav_observation.valuation_sensitivity,nav_observation,valuation_sensitivity,true,percent,16,valuation_sensitivity,nav_statement,Change in value for a stated change in an assumption.
+performance_observation.alpha,performance_observation,alpha,true,percent,160,excess_return_vs_benchmark,mixed,Value Added rows; the subject is the pool or asset class whose benchmark is printed beside it.
+performance_observation.aum,performance_observation,aum,true,currency,60,portfolio_total_value,portfolio_total,"Market value of a whole pool, plan, endowment, or reported portfolio total."
+performance_observation.fair_value,performance_observation,fair_value,true,currency,108,reported_market_or_fair_value,mixed,"Seventy-three partnership ending market values, ten holding market values, twenty-three asset-class values, and two portfolio values."
+performance_observation.irr,performance_observation,irr,true,percent,5,internal_rate_of_return,portfolio_total,IRR of a whole portfolio as printed.
+performance_observation.return,performance_observation,return,true,percent,713,printed_period_return,mixed,"Method and fee basis differ by document: time-weighted, holding-period, annualized, or money-weighted; net, gross, or unstated. Read RETURN-METHOD-BY-DOCUMENT.csv before comparing across documents."
+performance_observation.yield,performance_observation,yield,true,percent,2,reported_yield_rate,fund,One annualized distribution rate and one weighted-average investment yield for the reported fund.
+position_observation.cost,position_observation,cost,true,number,388,holding_cost,single_holding,Cost of one holding.
+position_observation.fair_value,position_observation,fair_value,true,number,432,holding_fair_value,single_holding,"One holding on a schedule of investments; when the holding is itself a fund the subject is that fund, not the reporting entity."
+position_observation.interest_rate,position_observation,interest_rate,true,percent,2,holding_coupon_or_yield,single_holding,Coupon or yield printed on one holding.
+position_observation.market_value,position_observation,market_value,true,number,25,holding_market_value,single_holding,The same measure as holding_fair_value under a market-value heading; fills fund_holdings.fair_value when fair_value is absent.
+position_observation.maturity_date,position_observation,maturity_date,true,number,4,holding_maturity_date,single_holding,Maturity or settlement date printed on one holding.
+position_observation.notional,position_observation,notional,true,number,31,holding_notional,single_holding,"Notional, par, purchase, or sale amount of one contract or security."
+position_observation.portfolio_weight,position_observation,portfolio_weight,true,percent,15,holding_portfolio_weight,single_holding,One holding's share of the portfolio.
+position_observation.quantity,position_observation,quantity,true,number,10,holding_quantity,single_holding,"Shares, units, or par held."
+stewardship_observation.aum,stewardship_observation,aum,true,currency,7,assets_under_stewardship,stewardship_report,Assets stated in a stewardship report.
+stewardship_observation.coverage,stewardship_observation,coverage,true,percent,64,stewardship_coverage,stewardship_report,"Share or count of a universe covered, held, or voted."
+stewardship_observation.engagement_count,stewardship_observation,engagement_count,true,number,65,engagement_count,stewardship_report,"Engagements, milestones, or companies engaged."
+stewardship_observation.meeting_count,stewardship_observation,meeting_count,true,number,3,meeting_count,stewardship_report,Meetings held or voted at.
+stewardship_observation.score,stewardship_observation,score,true,percent,35,support_or_assessment_score,stewardship_report,Support percentage or assessment score.
+stewardship_observation.target,stewardship_observation,target,true,number,1,target_year_or_level,stewardship_report,A stated target year or level.
+stewardship_observation.vote_count,stewardship_observation,vote_count,true,number,15,vote_count,stewardship_report,"Proposals, directors, or votes counted."
+stewardship_policy,stewardship_policy,,true,text,81,stewardship_policy_text,legal_text,Printed wording of one policy statement.
+subscription_reference,subscription_reference,,true,text,19,subscription_reference_text,legal_text,One whitelisted subscription reference fact.
+valuation_observation.frequency,valuation_observation,frequency,true,text,8,valuation_frequency,valuation_policy,How often NAV or appraisals are produced.
+valuation_observation.independent_review,valuation_observation,independent_review,true,text,3,valuation_independent_review,valuation_policy,Independent review or appraisal of valuations.
+valuation_observation.method,valuation_observation,method,true,text,10,valuation_method,valuation_policy,The valuation method or principle stated.
+valuation_observation.oversight,valuation_observation,oversight,true,text,5,valuation_oversight,valuation_policy,Who approves or oversees valuations.
+valuation_observation.valuer,valuation_observation,valuer,true,text,5,valuer,valuation_policy,Who values or calculates NAV.

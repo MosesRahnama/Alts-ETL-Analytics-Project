@@ -1,0 +1,123 @@
+file_id,filename,doc_type,reason
+SRC001,PPM_Fundsmith_Equity_Fund.pdf,PPM,"page 1 ""Confidential Private Placement Memorandum"" Fundsmith"
+SRC002,PPM_Worcester_Fund_LLC.pdf,PPM,"page 1 ""CONFIDENTIAL PRIVATE PLACEMENT MEMORANDUM"" Worcester Fund"
+SRC003,LPA_ILPA_Model_Whole_of_Fund.pdf,LPA,ILPA Model Limited Partnership Agreement Whole-of-Fund Waterfall
+SRC004,LPA_SCP_Private_Equity_Partners_II_Public_FOIA.pdf,LPA,"masthead ""LIMITED PARTNERSHIP AGREEMENT OF SCP PRIVATE EQUITY PARTNERS II"""
+SRC005,Subscription_ILPA_Model_Subscription_Agreement.pdf,Subscription,"cover ""SUBSCRIPTION AGREEMENT"" relating to named fund"
+SRC006,Subscription_Hedge_Fund_Template.pdf,Subscription,"""Instructions for Subscription Documents"" sign Subscription Agreement"
+SRC007,Side_Letter_MEABF_Sample.pdf,Side_Letter,"""TEMPLATE SIDELETTER"" letter agreement with MEABF Investor"
+SRC008,Side_Letter_Fiducient_Private_Fund_Sample.pdf,Side_Letter,November 2020 letter on subscription and limited partnership interest
+SRC011,PCAP_Invest_Europe_Individual_Capital_Account_Statement.pdf,PCAP,"""Example 5"" Individual Capital Account Statement investor statement"
+SRC013,PPM_RockStep_Hometown_America_Fund_I.pdf,PPM,"""CONFIDENTIAL PRIVATE PLACEMENT MEMORANDUM"" RockStep Hometown America Fund I"
+SRC014,PPM_Blackcommerce_LLC_SEC_EDGAR.pdf,PPM,"page 1 ""PRIVATE PLACEMENT MEMORANDUM"" Blackcommerce LLC"
+SRC017,Quarterly_Report_Hamilton_Lane_PSERS_4Q17_Public_FOIA.pdf,Quarterly_Report,"Hamilton Lane ""PSERS Private Markets Fourth Quarter Report"""
+SRC024,Capital_Call_Morgan_Lewis_Deskbook_Sample_Notice.pdf,Cash_Flow_Notice,POOR FIT: deskbook with sample capital call notices
+SRC026,Financials_KPMG_PE_Illustrative_2025.pdf,Financials,"""Illustrative financial statements Private equity funds December 2025"""
+SRC028,Fee_Report_PSERS_Aon_Base_Management_Fees_FY2017.pdf,Fee_Report,"""PSERS Base Management Fees"" External Management FY2017"
+SRC029,Performance_PSERS_Direct_Alpha_Buyout_Funds_2017.pdf,Performance,"""Direct Alpha"" named-fund cash flows versus public benchmark"
+SRC034,Financials_Versa_Capital_Fund_II_LP_PSERS_FOIA.pdf,Financials,Versa Capital Fund II combined financial statements March 31 2018
+SRC035,Performance_Oregon_Growth_Account_VC_Program_Q4_2021.pdf,Performance,"""Oregon Growth Account Private Equity Program Performance Analysis"" TVPI IRR"
+SRC036,Performance_Ohio_Capital_Fund_Annual_Report_2022.pdf,Institutional_Report,"""2022 ANNUAL REPORT"" Ohio Capital Fund mission and portfolio"
+SRC037,Financials_Utah_Fund_of_Funds_LLC_FY2021.pdf,Financials,"page 2 masthead ""FINANCIAL STATEMENTS"" Independent Auditors Report"
+SRC038,Performance_MassVentures_Annual_Report_FY2015.pdf,Institutional_Report,"""MassVentures FISCAL 2015 ANNUAL REPORT"" OPMO statutory report"
+SRC039,Financials_Connecticut_Innovations_FY2021.pdf,Financials,"""Independent Auditors' Report Financial Statements June 30, 2021"""
+SRC040,Financials_TEDCO_Maryland_Annual_Report_FY2021.pdf,Institutional_Report,"""fiscal 2021 Annual Report of the Corporation's activities"""
+SRC041,Schedule_Inv_FS_KKR_Capital_Corp_ARS_FY2025.pdf,Financials,"""Annual Report FSK 2025"" FS KKR Capital Corp"
+SRC042,Schedule_Inv_Blackstone_Secured_Lending_Fund_ARS_FY2025.pdf,Financials,Form 10-K annual report Blackstone Secured Lending Fund
+SRC043,Schedule_Inv_Blackstone_Private_Credit_Fund_ARS_FY2025.pdf,Financials,"""Annual Report"" Blackstone Private Credit Fund 2025"
+SRC044,Schedule_Inv_Sixth_Street_Specialty_Lending_ARS_FY2025.pdf,Financials,Form 10-K annual report Sixth Street Specialty Lending
+SRC045,Schedule_Inv_MidCap_Financial_Investment_Corp_ARS_FY2025.pdf,Financials,"""2025 ANNUAL REPORT"" MidCap Financial Investment Corporation"
+SRC046,Schedule_Inv_Apollo_Debt_Solutions_BDC_ARS_FY2025.pdf,Financials,Apollo Debt Solutions BDC Annual Report December 31 2025
+SRC047,Schedule_Inv_BlackRock_TCP_Capital_Corp_ARS_FY2025.pdf,Financials,Form 10-K annual report BlackRock TCP Capital Corp
+SRC048,Schedule_Inv_AB_Private_Credit_Investors_Corp_ARS_FY2025.pdf,Financials,Form 10-K annual report AB Private Credit Investors
+SRC049,Schedule_Inv_Franklin_BSP_Capital_Corp_ARS_FY2025.pdf,Financials,Form 10-K annual report Franklin BSP Capital Corporation
+SRC050,Schedule_Inv_Monroe_Capital_Corp_ARS_FY2023.pdf,Financials,Form 10-K annual report Monroe Capital Corporation
+SRC051,NAV_Statement_SREIT_NAV_Supplement_May2025.pdf,NAV_Statement,supplement discloses May 31 2025 NAV per share by class
+SRC052,NAV_Statement_BREIT_Prospectus_With_Supplements.pdf,NAV_Statement,supplement discloses June 30 2026 NAV per share by class
+SRC053,Performance_SREIT_Stockholder_Update_Apr2026.pdf,Institutional_Report,"""Shareholder Update"" April 29 2026 strategic-review letter"
+SRC054,Performance_SREIT_Fact_Sheet_Aug2025.pdf,Performance,"""Fact Sheet"" SREIT Performance Summary as of August 31 2025"
+SRC055,Quarterly_Report_JLLIPT_10Q_3Q2025.pdf,Quarterly_Report,Form 10-Q quarterly period ended September 30 2025
+SRC056,Performance_JLLIPT_Quarterly_Update_3Q23.pdf,Quarterly_Report,JLLIPT Q3 2023 quarterly update total asset value
+SRC058,Quarterly_Report_Oregon_PERS_OPERF_Real_Estate_Q4_2024.pdf,Performance,OPERF Real Estate Portfolio as of Dec 31 2024 IRR multiples
+SRC059,Performance_LACERS_Real_Estate_Portfolio_Q4_2021.pdf,Quarterly_Report,"""Real Estate Portfolio Performance Review FOURTH QUARTER 2021"""
+SRC060,Performance_Oregon_PERS_Alternatives_Portfolio_Q3_2022.pdf,Performance,OPERF Alternatives Portfolio as of September 30 2022 IRR TWR
+SRC061,Reporting_NJ_Division_of_Investment_Reporting_Package_Apr2026.pdf,Institutional_Report,"""INVESTMENT REPORTING PACKAGE Period Ending April 30, 2026"" monthly"
+SRC063,Performance_CalPERS_Real_Assets_Partnership_Report_Jun2023.pdf,Performance,CalPERS PERF Real Assets partnership report returns June 30 2023
+SRC064,Performance_PSERS_Private_Markets_Combined_Portfolio_Report_Q3_2025.pdf,Performance,PSERS Private Markets Combined Portfolio Report NAV TVPI IRR
+SRC065,Performance_MSBI_Private_Markets_Asset_Listing_Q4_2025.pdf,Performance,Private Markets List of Commitments with IRR investment multiple
+SRC066,Performance_HVPE_Annual_Report.pdf,Financials,"""Annual Report and Accounts 2025"" HarbourVest Global Private Equity"
+SRC067,Performance_Pantheon_International_Annual_Report.pdf,Financials,Pantheon International Plc Annual Report and Accounts 2023
+SRC068,Performance_San_Jose_Federated_Private_Markets_Q2_2017.pdf,Institutional_Report,"Meketa ""Interim Report"" San Jose Federated private markets June 30 2017"
+SRC069,Performance_Landmark_Real_Estate_Fund_IX_Secondaries.pdf,Performance,Landmark Real Estate Fund IX confidential materials Net IRR TVPI
+SRC070,Performance_WSIB_Private_Equity_Portfolio_Overview.pdf,Performance,WSIB Private Equity Portfolio Overview by strategy IRRs
+SRC071,Performance_CalPERS_PERF_Partnership_Report.pdf,Performance,CalPERS PERF partnership report total returns by portfolio
+SRC074,Valuation_IPEV_Guidelines_December_2022.pdf,Valuation,"""International Private Equity and Venture Capital Valuation Guidelines"""
+SRC086,Financials_CohnReznick_Hedge_Fund_Illustrative_2025.pdf,Financials,"""Hedge Fund 2025 Illustrative Financial Statements"""
+SRC087,Financials_CohnReznick_Private_Equity_Illustrative_2025.pdf,Financials,"""Private Equity Fund 2025 Illustrative Financial Statements"""
+SRC088,Financials_PwC_Investment_Fund_Illustrative_2025.pdf,Financials,"""Illustrative IFRS financial statements 2025 Investment funds"""
+SRC089,Financials_Withum_Venture_Capital_Fund_Illustrative.pdf,Financials,"""Venture Capital Fund ProForma Financial Statements"""
+SRC090,Financials_EY_Good_Investment_Fund_Illustrative_2018.pdf,Financials,"""Good Investment Fund Limited Illustrative financial statements"""
+SRC091,Financials_KPMG_Private_Equity_Illustrative_2022.pdf,Financials,"""Illustrative financial statements Private equity funds January 2023"""
+SRC092,Financials_KPMG_Alternative_Investment_Fund_Illustrative_2015.pdf,Financials,"""Alternative Investment Fund Illustrative Financial Statements"""
+SRC099,Quarterly_Report_PSERS_Real_Estate_2Q17_FOIA.pdf,Quarterly_Report,"""PSERS Real Estate Second Quarter 2017"" commitments and performance"
+SRC100,Performance_USS_Investment_Builder_Quarterly_Report.pdf,Quarterly_Report,"""QUARTERLY INVESTMENT REPORT Q1 2026"" USS Investment Builder"
+SRC101,PCAP_Heritage_Fund_I_LP_PSERS_FOIA.pdf,Quarterly_Report,"""QuarterlyReport Period Ending June 30, 2009"" Heritage Partners"
+SRC102,PCAP_Jefferson_Partners_Fund_IV_PSERS_FOIA.pdf,Financials,"""Financial Statements"" Jefferson Partners Fund IV unaudited liquidated"
+SRC103,DDQ_AIMA_CTA_Chesapeake_Capital.pdf,DDQ,AIMA illustrative questionnaire for due diligence of CTAs
+SRC105,Financials_Tetragon_Financial_Group_Annual2025.pdf,Financials,Tetragon 2025 Annual Report with consolidated financial statements
+SRC106,Financials_Tetragon_Financial_Group_Annual2022.pdf,Financials,2022 Annual Report Tetragon Financial Group
+SRC107,DDQ_AIMA_Bear_Stearns_HGSCS_FCIC.pdf,DDQ,AIMA illustrative DDQ completed for Bear Stearns HGSCS fund
+SRC108,NAV_Statement_ThirdPoint_Monthly_Aug2025.pdf,Performance,"""Monthly Update: August 2025 NAV Performance"" versus indices"
+SRC109,Financials_PershingSquareHoldings_Annual2025.pdf,Financials,"""2025 Annual Report and Audited Financial Statements"" Pershing Square"
+SRC110,Financials_BlueCrest_AllBlue_Fund_2013.pdf,Financials,"BlueCrest AllBlue ""Annual Report and Accounts 2013"""
+SRC111,Financials_ThirdPoint_Investors_Annual2022.pdf,Financials,"""ANNUAL REPORT & AUDITED FINANCIAL STATEMENTS"" Third Point Investors"
+SRC113,Financials_KPMG_HedgeFund_Illustrative_2025.pdf,Financials,"""Illustrative financial statements Hedge funds December 2025"""
+SRC114,NAV_Statement_BHMacro_Monthly_Apr2024.pdf,Institutional_Report,"""MONTHLY SHAREHOLDER REPORT"" BH Macro Limited April 2024"
+SRC120,Performance_Oregon_OPERF_Private_Equity_Portfolio_2025Q3.pdf,Performance,OPERF Private Equity Portfolio as of September 30 2025 IRR multiples
+SRC121,Performance_LACERA_Private_Equity_Holdings_2020Q3.pdf,Performance,LACERA private equity holdings DPI TVPI IRR as of September 30 2020
+SRC122,Performance_Florida_Growth_Fund_OPPAGA_Review_2025.pdf,Institutional_Report,"""Florida Growth Fund Program Investments: 2025"" statutory review"
+SRC123,Performance_New_Mexico_SIC_Private_Equity_Program_2021.pdf,Institutional_Report,NMSIC October 2021 private equity strategy slides
+SRC124,Performance_SFERS_Private_Equity_Update_2025.pdf,Institutional_Report,"SFERS board calendar ""Private Equity Annual Update"" September 10 2025"
+SRC125,Performance_Texas_ERS_PRB_Annual_Report_2023.pdf,Institutional_Report,"""INVESTMENT PRACTICES AND PERFORMANCE EVALUATION"" May 16 2024"
+SRC126,Performance_NY_OSC_Pension_In_State_Investments.pdf,Institutional_Report,"""Status Report and Review of Investment Activity"" in-state PE"
+SRC127,Quarterly_Report_ASKIA_PSERS_2017Q4_FOIA.pdf,Quarterly_Report,"ASKIA PSERS ""QUARTERLY UPDATE AS OF DECEMBER 31, 2017"""
+SRC129,Financials_EisnerAmper_Illustrative_2022.pdf,Financials,"""Illustrative Financial Statement Alternative Investment Funds"""
+SRC130,Financials_Deloitte_AIFM_Illustrative_2024.pdf,Financials,"Deloitte AIFM ""Illustrative financial statements 2024"""
+SRC132,Valuation_JLLIPT_Institutional_Valuation_Methodology.pdf,Valuation,"""Our Institutional Valuation Methodology"" NAV calculation"
+SRC134,Performance_PSERS_PEVCPD_Partnership_Data_20130331.pdf,Performance,"""THIS PERFORMANCE INFORMATION"" PSERS PE IRR as of 3/31/2013"
+SRC135,Performance_PSERS_PEVCPD_Partnership_Data_20141231.pdf,Performance,PSERS PE VC PD PEIP IRR as of 12/31/2014
+SRC136,Performance_PSERS_PEVCPD_Partnership_Data_20150930.pdf,Performance,PSERS PE VC PD PEIP IRR as of 9/30/2015
+SRC137,Performance_PSERS_Real_Estate_Partnership_Data_1Q2013.pdf,Performance,PSERS real estate partnership IRR as of March 31 2013
+SRC138,Performance_PSERS_PEVCSS_PEIP_Partnership_Data_4Q2016.pdf,Performance,PSERS PE VC SS PEIP IRR as of 12/31/2016
+SRC139,Performance_PSERS_Real_Estate_Partnership_Data_3Q2017.pdf,Performance,PSERS Real Estate IRR as of 9/30/2017
+SRC140,Performance_PSERS_PEVCPD_PEI_Partnership_Data_4Q2015.pdf,Performance,PSERS PE VC PD PEIP IRR as of 12/31/2015
+SRC145,Fee_Report_PSERS_Fees_By_Manager_FY2013.pdf,Fee_Report,"""Investment Managers' Fees Fiscal Year Ended June 30, 2013"""
+SRC146,Fee_Report_PSERS_Fees_By_Manager_FY2016.pdf,Fee_Report,"""Investment Fees by Manager Fiscal Year Ended June 30, 2016"""
+SRC147,Fee_Report_PSERS_Fee_Transparency_Response_Bullet2.pdf,Financials,"""Notes to Financial Statements"" Health Options Program"
+SRC148,Performance_PSERS_Adjusted_Ending_Value_TVPI_DPI_RVPI_Jun2018.pdf,Performance,"""Adjusted Ending Value with TVPI, DPI & RVPI"" 6/30/2018"
+SRC149,Performance_PSERS_Benchmarking_Direct_Alpha_PME_Jun2018.pdf,Performance,"""PERFORMANCE & BENCHMARKING WITH DIRECT ALPHA & PME"""
+SRC151,Reporting_Glass_Lewis_Proxy_Season_Review_2017_PSERS.pdf,Stewardship_Proxy_Report,"""2017 PROXY SEASON REVIEW & 2018 PREVIEW"" Glass Lewis"
+SRC152,Financials_PSERS_Notes_To_Financial_Statements_Response002.pdf,Financials,"""Notes to Financial Statements"" PSERS fair value of investments"
+SRC160,Quarterly_Report_PA_SERS_Investment_Performance_2Q2013.pdf,Quarterly_Report,"PA SERS ""Quarterly Investment Performance Analysis"" June 30 2013"
+SRC161,Quarterly_Report_PA_SERS_Investment_Performance_4Q2015.pdf,Quarterly_Report,"PA SERS ""Quarterly Investment Performance Analysis"" December 31 2015"
+SRC162,Quarterly_Report_PA_SERS_Investment_Performance_2Q2017.pdf,Quarterly_Report,"PA SERS ""Quarterly Investment Performance Analysis"" June 30 2017"
+SRC163,Financials_PA_SERS_Budget_Book_2017.pdf,Institutional_Report,SERS budget infographic Total FY 17/18 Spending Request
+SRC164,Fee_Report_CalSTRS_AB2833_Private_Equity_Fees_2025.pdf,Fee_Report,"CalSTRS AB2833 private equity fees, management fees and carry"
+SRC165,Performance_LACERA_Total_Fund_Performance_3Q2022.pdf,Quarterly_Report,"LACERA ""TOTAL FUND PERFORMANCE REPORT For the quarter ended September 30, 2022"""
+SRC166,Performance_WSIB_Quarterly_Investment_Report_Jun2025.pdf,Quarterly_Report,"""Quarterly Report"" June 30 2025 Washington State Investment Board"
+SRC167,Performance_WSIB_Quarterly_Investment_Report_Dec2024.pdf,Quarterly_Report,"""Quarterly Report"" December 31 2024 Washington State Investment Board"
+SRC168,Performance_OPERF_Private_Equity_Portfolio_Q4_2023.pdf,Performance,OPERF Private Equity Portfolio as of December 31 2023 IRR
+SRC169,Performance_OCERS_Private_Equity_Portfolio_Q2_2025.pdf,Performance,OCERS Private Equity Portfolio Report Net IRR TVPI as of June 2025
+SRC170,Performance_KCERA_Investment_Performance_Review_Q2_2023.pdf,Performance,"""Investment Performance Review Period Ending: June 30, 2023"""
+SRC171,Performance_SFERS_Private_Credit_Annual_Update_Jul2025.pdf,Institutional_Report,"SFERS board ""Annual Private Credit Update"" July 9 2025"
+SRC172,Performance_NMSIC_Private_Equity_Investment_Program_Nov2021.pdf,Institutional_Report,NMSIC November 2021 private equity strategy slides
+SRC173,Performance_NMSIC_Private_Equity_Investment_Program_Dec2020.pdf,Institutional_Report,NMSIC December 2020 private equity strategy slides
+SRC174,Financials_Montana_Board_of_Investments_Annual_Report_FY2025.pdf,Institutional_Report,"""Montana Board of Investments Annual Report 2025"""
+SRC175,Financials_Arizona_PSPRS_ACFR_FY2025.pdf,Financials,"""ANNUAL COMPREHENSIVE FINANCIAL REPORT"" Arizona PSPRS FY2025"
+SRC176,Performance_SDCERA_Quarterly_Investment_Report_Q1_2017.pdf,Quarterly_Report,"SDCERA ""First Quarter 2017 Quarterly Investment Review"""
+SRC177,Performance_Sacramento_SCERS_Real_Estate_Performance_Q3_2025.pdf,Quarterly_Report,"""Real Estate Portfolio Performance Measurement Report Third Quarter 2025"""
+SRC178,Performance_CCCERA_Quarterly_Performance_Measurement_Q1_2006.pdf,Quarterly_Report,"""QUARTERLY REVIEW & PERFORMANCE MEASUREMENT REPORT"" March 31 2006"
+SRC179,Performance_FCERA_Fresno_Investment_Performance_Review_Q4_2023.pdf,Performance,"""Investment Performance Review Period Ending: December 31, 2011"""
+SRC180,Reporting_Colorado_PERA_Investment_Committee_Materials_Nov2025.pdf,Institutional_Report,"""Investment Committee Meeting Materials November 20, 2025"" Colorado PERA"
+SRC181,Performance_Colorado_PERA_Alternatives_Asset_Class_Overview_Nov2025.pdf,Institutional_Report,"""Alternatives Asset Class Overview"" November 20 2025 board slides"
+SRC182,Reporting_Alaska_ARMB_Monthly_Financial_Report_May2025.pdf,Institutional_Report,"""FINANCIAL REPORT As of May 31, 2025"" monthly"

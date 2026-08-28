@@ -1,0 +1,18 @@
+{
+  "batch_id": "04-quarterly-report",
+  "round_id": "02",
+  "files": [
+    {
+      "file_id": "SRC384",
+      "source_sha256": "b2e06d492dceca8b867aac1fe20a93724668dd623d6f3a714882afac32b4c59e"
+    },
+    {
+      "file_id": "SRC457",
+      "source_sha256": "8783ef3e2dc6cf061218360ff1c3db121d172543d661901b2d74131021935dc1"
+    },
+    {
+      "file_id": "SRC606",
+      "source_sha256": "e56a601bd6fc8250db7675fad2cc69f72aa70aa5ff4dd63cc0176ad602482f9f"
+    }
+  ]
+}

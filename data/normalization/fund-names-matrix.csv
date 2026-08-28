@@ -1,0 +1,1056 @@
+fund_name_raw,standardized_fund_name,fund_family,fund_id,decision_status,seen_in_agents,source_files,a_count,b_count,merge_note
+A10 USD (Feeder) L.P.,A10 USD (Feeder) L.P.,,FUND_0260,decided,06-statements-and-economics,SRC407,2,0,distinct; separate feeder vehicle from the A9 feeders
+A9 EUR (Feeder) L.P.,A9 EUR (Feeder) L.P.,,FUND_0261,decided,06-statements-and-economics,SRC407,2,0,distinct; EUR feeder is a separate vehicle from the USD feeder
+A9 USD (Feeder) L.P.,A9 USD (Feeder) L.P.,,FUND_0262,decided,06-statements-and-economics,SRC407,2,0,distinct; USD feeder is a separate vehicle from the EUR feeder
+Abacus Multi-Family Partners VI LP,Abacus Multi-Family Partners VI LP,,FUND_0263,decided,02-performance,SRC058,6,0,confirmed; only printed variant and no sibling vehicle here
+"ABRY Partners IX, L.P.","ABRY Partners IX, L.P.",ABRY,FUND_0264,decided,06-statements-and-economics,SRC407,2,0,confirmed; only printed variant
+"ABRY Senior Equity V, L.P.","ABRY Senior Equity V, L.P.",ABRY,FUND_0265,decided,06-statements-and-economics,SRC407,2,0,distinct; separate ABRY series from Partners IX
+"ABS Capital Partners IX, L.P.","ABS Capital Partners IX, L.P.",ABS Capital Partners,FUND_0266,decided,06-statements-and-economics,SRC407,2,0,distinct; Fund IX is its own series
+"ABS Capital Partners VII Offshore, L.P.","ABS Capital Partners VII Offshore, L.P.",ABS Capital Partners,FUND_0267,decided,06-statements-and-economics,SRC407,2,0,distinct; offshore parallel vehicle of Fund VII
+"ABS Capital Partners VII, L.P.","ABS Capital Partners VII, L.P.",ABS Capital Partners,FUND_0268,decided,06-statements-and-economics,SRC407,2,0,distinct; onshore Fund VII kept apart from the Offshore vehicle
+"Accel-KKR Capital Partners CV III, LP","Accel-KKR Capital Partners CV III, LP",Accel-KKR,FUND_0269,decided,06-statements-and-economics,SRC407,2,0,distinct; continuation vehicle is its own fund
+Accel-KKR Capital Partners VII LP,Accel-KKR Capital Partners VII LP,Accel-KKR,FUND_0270,decided,06-statements-and-economics,SRC407,2,0,distinct; separate series from the CV and Growth vehicles
+Accel-KKR Growth Capital Partners IV LP,Accel-KKR Growth Capital Partners IV LP,Accel-KKR,FUND_0271,decided,06-statements-and-economics,SRC407,2,0,distinct; growth series is separate from Capital Partners
+Actis Energy 5 LP,Actis Energy 5 LP,,FUND_0272,decided,06-statements-and-economics,SRC407,2,0,confirmed; only printed variant and no sibling vehicle here
+Advent Global Technology II Limited Partnership,Advent Global Technology II Limited Partnership,Advent,FUND_0273,decided,06-statements-and-economics,SRC407,2,0,distinct; technology series is separate from the GPE funds
+Advent International GPE VI-A Limited Partnership,Advent International GPE VI-A Limited Partnership,Advent,FUND_0274,decided,06-statements-and-economics,SRC407,2,0,distinct; GPE VI-A is its own series
+Advent International GPE VII-B Limited Partnership,Advent International GPE VII-B Limited Partnership,Advent,FUND_0275,decided,06-statements-and-economics,SRC407,2,0,distinct; GPE VII-B is its own series
+Advent International GPE VIII-B-2 Limited Partnership,Advent International GPE VIII-B-2 Limited Partnership,Advent,FUND_0276,decided,06-statements-and-economics,SRC407,2,0,distinct; GPE VIII-B-2 is a separate parallel vehicle from VIII-C
+Advent International GPE VIII-C Limited Partnership,Advent International GPE VIII-C Limited Partnership,Advent,FUND_0277,decided,06-statements-and-economics,SRC407,2,0,distinct; GPE VIII-C is a separate parallel vehicle from VIII-B-2
+"Adventure Fund I, L.P.","Adventure Fund I, L.P.",,FUND_0004,decided,A+B,SRC035,1,1,confirmed; unrelated to the Advent funds despite the shared stem
+AEA EXC CF LP,AEA EXC CF LP,,FUND_0278,decided,06-statements-and-economics,SRC407,2,0,confirmed; only printed variant and no sibling vehicle here
+"Aerospace, Transportation and Logistics Fund II LP","Aerospace, Transportation and Logistics Fund II LP",,FUND_0279,decided,06-statements-and-economics,SRC407,2,0,confirmed; sector name prints no sponsor stem so family left blank
+Aetos Capital Asia TE II,Aetos Capital Asia TE II,Aetos Capital,FUND_0280,decided,02-performance,SRC058,6,0,distinct; TE II is its own series
+Aetos Capital Asia TE III,Aetos Capital Asia TE III,Aetos Capital,FUND_0281,decided,02-performance,SRC058,6,0,distinct; TE III is its own series
+AEW Core Property Trust,AEW Core Property Trust,AEW,FUND_0282,decided,02-performance,SRC058,6,0,confirmed; only printed variant
+"AEW Essential Housing Fund, L.P.","AEW Essential Housing Fund, L.P.",AEW,FUND_0283,decided,02-performance,SRC058,6,0,distinct; separate AEW vehicle from the Core Property Trust
+"AG Asia Realty Fund II, L.P.","AG Asia Realty Fund II, L.P.",,FUND_0284,decided,02-performance,SRC058,6,0,confirmed; AG stem too generic to use as a family key
+"AG Core Plus Realty Fund III, L.P.","AG Core Plus Realty Fund III, L.P.",,FUND_0158,decided,A+B,SRC137,1,1,confirmed; AG stem too generic to use as a family key
+Alinda Infrastructure Fund II,"Alinda Infrastructure Fund II, L.P.",,FUND_1026,decided,02-performance,SRC060,6,0,merged; same vehicle as the fuller printed form
+"Alinda Infrastructure Fund II, L.P.","Alinda Infrastructure Fund II, L.P.",,FUND_1026,decided,02-performance,SRC063,1,0,merged; fullest printed form is the standard
+"Allos Ventures II, L.P.","Allos Ventures II, L.P.",,FUND_0076,decided,A+B,SRC036,1,1,confirmed; only printed variant and no sibling vehicle here
+"Almanac Realty Securities V, L.P.","Almanac Realty Securities V, L.P.",Almanac Realty Securities,FUND_0159,decided,A+B,SRC137,1,1,distinct; Fund V and Fund VI stay two standards
+"Almanac Realty Securities VI, L.P.","Almanac Realty Securities VI, L.P.",Almanac Realty Securities,FUND_0160,decided,A+B,SRC137,1,1,distinct; Fund VI and Fund V stay two standards
+Alpha Asia Macro Trends Fund,Alpha Asia Macro Trends Fund,Alpha Asia Macro Trends,FUND_0285,decided,02-performance,SRC058,6,0,distinct; first fund of the series is not Fund II
+Alpha Asia Macro Trends Fund II,Alpha Asia Macro Trends Fund II,Alpha Asia Macro Trends,FUND_0286,decided,02-performance,SRC058,6,0,distinct; Fund II is a separate vehicle from the first fund
+Alpha Private Equity Fund 7 (SCA) SICAR,Alpha Private Equity Fund 7 (SCA) SICAR,,FUND_0287,decided,06-statements-and-economics,SRC407,2,0,confirmed; shares only the word Alpha with the Asia Macro Trends funds
+Alterna Core Capital Assets Fund II,Alterna Core Capital Assets Fund II,,FUND_0288,decided,02-performance,SRC060,6,0,confirmed; only printed variant and no sibling vehicle here
+"American Industrial Partners Fund IV, L.P.","American Industrial Partners Fund IV, L.P.",,FUND_0289,decided,06-statements-and-economics,SRC407,2,0,confirmed; different sponsor from American Securities despite the shared word
+"American Securities Partners VI, L.P.","American Securities Partners VI, L.P.",American Securities,FUND_0290,decided,06-statements-and-economics,SRC407,2,0,distinct; Fund VI and Fund VII stay two standards
+"American Securities Partners VII, L.P.","American Securities Partners VII, L.P.",American Securities,FUND_0291,decided,06-statements-and-economics,SRC407,2,0,distinct; Fund VII and Fund VI stay two standards
+Antares Private Credit Fund (ABDC),Antares Private Credit Fund (ABDC),,FUND_0292,decided,04-quarterly-report,SRC606,33,0,confirmed; only printed variant and no sibling vehicle here
+ANTIN INFRASTRUCTURE PARTNERS II LP,ANTIN INFRASTRUCTURE PARTNERS II LP,,FUND_0157,decided,A+B,SRC463,1,1,confirmed; only printed variant and no sibling vehicle here
+"AP VIII Private Investors Offshore (USD), L.P.","AP VIII Private Investors Offshore (USD), L.P.",,FUND_0293,decided,06-statements-and-economics,SRC407,2,0,distinct; offshore USD vehicle is not the LLC
+"AP VIII Private Investors, LLC","AP VIII Private Investors, LLC",,FUND_0294,decided,06-statements-and-economics,SRC407,2,0,distinct; LLC is a separate vehicle from the offshore USD partnership
+"Apax Europe VI - A, L.P.","Apax Europe VI - A, L.P.",Apax,FUND_0295,decided,06-statements-and-economics,SRC407,2,0,distinct; Europe VI-A is its own series
+"Apax Europe VII - B, L.P.","Apax Europe VII - B, L.P.",Apax,FUND_0296,decided,06-statements-and-economics,SRC407,2,0,distinct; Europe VII-B is its own series
+Apax IX USD L.P.,Apax IX USD L.P.,Apax,FUND_0297,decided,06-statements-and-economics,SRC407,2,0,distinct; Fund IX is its own series
+Apax XI USD L.P.,Apax XI USD L.P.,Apax,FUND_0298,decided,06-statements-and-economics,SRC407,2,0,distinct; Fund XI is its own series
+"Apollo European Real Estate Fund III, L.P.","Apollo European Real Estate Fund III, L.P.",Apollo,FUND_0161,decided,A+B,SRC137,1,1,distinct; European real estate series is its own vehicle
+"Apollo Investment Fund VI, L.P.","Apollo Investment Fund VI, L.P.",Apollo,FUND_0299,decided,06-statements-and-economics,SRC407,2,0,distinct; buyout series is separate from the real estate funds
+Apollo Real Estate Finance Corp,Apollo Real Estate Finance Corp,Apollo,FUND_0162,decided,A+B,SRC137,1,1,distinct; corporation is separate from the AREFIN co-invest vehicle
+"Apollo Value Enhancement Fund VII, L.P.","Apollo Value Enhancement Fund VII, L.P.",Apollo,FUND_0163,decided,A+B,SRC137,1,1,distinct; value enhancement series is its own vehicle
+Appian Natural Resources Fund,Appian Natural Resources Fund,Appian,FUND_0300,decided,02-performance,SRC060,6,0,distinct; first fund of the series is not Fund II
+Appian Natural Resources Fund II,Appian Natural Resources Fund II,Appian,FUND_0301,decided,02-performance,SRC060,6,0,distinct; Fund II is a separate vehicle from the first fund
+ARA China Long Term Hold,ARA China Long Term Hold,,FUND_0302,decided,02-performance,SRC063,5,0,confirmed; only printed variant and no sibling vehicle here
+"Arboretum Ventures IIa, L.P.","Arboretum Ventures IIa, L.P.",,FUND_0077,decided,A+B,SRC036,1,1,confirmed; only printed variant and no sibling vehicle here
+Archer Capital Trust 5B,Archer Capital Trust 5B,,FUND_0303,decided,06-statements-and-economics,SRC407,2,0,confirmed; only printed variant and no sibling vehicle here
+"Archmore International Infrastructure Fund II (B), L.P.","Archmore International Infrastructure Fund II (B), L.P.",Archmore,FUND_0304,decided,02-performance,SRC063,4,0,distinct; parallel vehicle B is not vehicle C
+"Archmore International Infrastructure Fund II (C), L.P.","Archmore International Infrastructure Fund II (C), L.P.",Archmore,FUND_0305,decided,02-performance,SRC063,4,0,distinct; parallel vehicle C is not vehicle B
+AREFIN Co-Invest Corporation,AREFIN Co-Invest Corporation,,FUND_0164,decided,A+B,SRC137,1,1,distinct; co-invest vehicle kept apart from Apollo Real Estate Finance Corp
+"Arsenal Venture Partners IIa, L.P.","Arsenal Venture Partners IIa, L.P.",,FUND_0078,decided,A+B,SRC036,1,1,confirmed; only printed variant and no sibling vehicle here
+"Artiman Ventures III, L.P.","Artiman Ventures III, L.P.",,FUND_0306,decided,06-statements-and-economics,SRC407,2,0,confirmed; only printed variant and no sibling vehicle here
+ASB Allegiance Real Estate Fund,ASB Allegiance Real Estate Fund,,FUND_0307,decided,02-performance,SRC058,6,0,confirmed; only printed variant and no sibling vehicle here
+Ascentris - OR Partners LLC,Ascentris - OR Partners LLC,Ascentris,FUND_0308,decided,02-performance,SRC058,4,0,distinct; separate account vehicle is not the core fund
+Ascentris Core,Ascentris Core,Ascentris,FUND_0309,decided,02-performance,SRC058,4,0,distinct; core fund is not the OR Partners vehicle
+Astorg Normec Fund,Astorg Normec Fund,Astorg,FUND_0310,decided,06-statements-and-economics,SRC407,2,0,distinct; single-asset vehicle is not a numbered Astorg fund
+Astorg VI SLP,Astorg VI SLP,Astorg,FUND_0311,decided,06-statements-and-economics,SRC407,2,0,distinct; Fund VI and Fund VII stay two standards
+Astorg VII SLP,Astorg VII SLP,Astorg,FUND_0312,decided,06-statements-and-economics,SRC407,2,0,distinct; Fund VII and Fund VI stay two standards
+"Athenian Venture Partners III, L.P.","Athenian Venture Partners III, L.P.",,FUND_0080,decided,A+B,SRC036,1,1,confirmed; only printed variant and no sibling vehicle here
+Atlas Capital Resources LP,Atlas Capital Resources LP,,FUND_0313,decided,06-statements-and-economics,SRC407,2,0,confirmed; only printed variant and no sibling vehicle here
+"Audax Mezzanine Fund III, L.P.","Audax Mezzanine Fund III, L.P.",Audax,FUND_0314,decided,06-statements-and-economics,SRC407,2,0,distinct; mezzanine series is separate from the private equity funds
+"Audax Private Equity Aspen CF, L.P.","Audax Private Equity Aspen CF, L.P.",Audax,FUND_0315,decided,06-statements-and-economics,SRC407,2,0,distinct; continuation vehicle is its own fund
+"Audax Private Equity Fund III, L.P.","Audax Private Equity Fund III, L.P.",Audax,FUND_0316,decided,06-statements-and-economics,SRC407,2,0,distinct; Fund III is not the unnumbered Audax Private Equity Fund
+"Audax Private Equity Fund, L.P.","Audax Private Equity Fund, L.P.",Audax,FUND_0317,decided,06-statements-and-economics,SRC407,2,0,distinct; printed unnumbered alongside Fund III in the same statement
+"Aurora Equity Partners V, L.P.","Aurora Equity Partners V, L.P.",,FUND_0318,decided,06-statements-and-economics,SRC407,2,0,confirmed; only printed variant and no sibling vehicle here
+AUSTIN VENTURES IX LP,AUSTIN VENTURES IX LP,AUSTIN VENTURES,FUND_0319,decided,03-institutional-report,SRC356,1,0,distinct; Fund IX and Fund X stay two standards
+AUSTIN VENTURES X LP,AUSTIN VENTURES X LP,AUSTIN VENTURES,FUND_0320,decided,03-institutional-report,SRC356,1,0,distinct; Fund X and Fund IX stay two standards
+"AvalonBay Value Added Fund II, L.P.","AvalonBay Value Added Fund II, L.P.",AvalonBay,FUND_0165,decided,A+B,SRC137,1,1,distinct; Fund II is a separate vehicle from the first fund
+"AvalonBay Value Added Fund, L.P.","AvalonBay Value Added Fund, L.P.",AvalonBay,FUND_0166,decided,A+B,SRC137,1,1,distinct; first fund of the series is not Fund II
+Avenue Real Estate Fund (Parallel) L.P.,Avenue Real Estate Fund (Parallel) L.P.,,FUND_0167,decided,A+B,SRC137,1,1,confirmed; only printed variant and no sibling vehicle here
+"Avista Healthcare Partners (Offshore) I, L.P.","Avista Healthcare Partners (Offshore) I, L.P.",,FUND_0321,decided,06-statements-and-economics,SRC407,2,0,confirmed; only printed variant and no sibling vehicle here
+"Bain Capital Asia Fund II, L.P.","Bain Capital Asia Fund II, L.P.",Bain Capital,FUND_0322,decided,06-statements-and-economics,SRC407,2,0,distinct; Asia Fund II and Fund III stay two standards
+"Bain Capital Asia Fund III, L.P.","Bain Capital Asia Fund III, L.P.",Bain Capital,FUND_0323,decided,06-statements-and-economics,SRC407,2,0,distinct; Asia Fund III and Fund II stay two standards
+"Bain Capital Distressed and Special Situations 2013 (E), L.P.","Bain Capital Distressed and Special Situations 2013 (E), L.P.",Bain Capital,FUND_0324,decided,06-statements-and-economics,SRC407,1,0,distinct; credit vehicle is its own series
+"Bain Capital Empire Holdings, L.P.","Bain Capital Empire Holdings, L.P.",Bain Capital,FUND_0325,decided,06-statements-and-economics,SRC407,2,0,distinct; holdings vehicle is not a numbered Bain fund
+"Bain Capital Europe Fund III, L.P.","Bain Capital Europe Fund III, L.P.",Bain Capital,FUND_0326,decided,06-statements-and-economics,SRC407,2,0,distinct; Europe Fund III and Fund V stay two standards
+"Bain Capital Europe Fund V, SCSp","Bain Capital Europe Fund V, SCSp",Bain Capital,FUND_0327,decided,06-statements-and-economics,SRC407,2,0,distinct; Europe Fund V and Fund III stay two standards
+"Bain Capital Fund VII, L.P.","Bain Capital Fund VII, L.P.",Bain Capital,FUND_0328,decided,06-statements-and-economics,SRC407,2,0,distinct; Fund VII is not the VII Coinvestment Fund
+"Bain Capital Fund X, L.P.","Bain Capital Fund X, L.P.",Bain Capital,FUND_0329,decided,06-statements-and-economics,SRC407,2,0,distinct; Fund X is its own series
+"Bain Capital Fund XI, L.P.","Bain Capital Fund XI, L.P.",Bain Capital,FUND_0330,decided,06-statements-and-economics,SRC407,2,0,distinct; Fund XI is its own series
+"Bain Capital Fund XII, L.P.","Bain Capital Fund XII, L.P.",Bain Capital,FUND_0331,decided,06-statements-and-economics,SRC407,2,0,distinct; Fund XII is its own series
+"Bain Capital VII Coinvestment Fund, L.P.","Bain Capital VII Coinvestment Fund, L.P.",Bain Capital,FUND_0332,decided,06-statements-and-economics,SRC407,2,0,distinct; coinvestment vehicle is separate from Bain Capital Fund VII
+Barley (No.1) Limited Partnership,Barley (No.1) Limited Partnership,,FUND_0333,decided,06-statements-and-economics,SRC407,2,0,confirmed; only printed variant and no sibling vehicle here
+"BC Asia III Private Investors, L.P.","BC Asia III Private Investors, L.P.",BC Partners,FUND_0334,decided,06-statements-and-economics,SRC407,1,0,distinct; Asia private investors vehicle is its own fund
+"BC Europe IV Private Investors, L.P.","BC Europe IV Private Investors, L.P.",BC Partners,FUND_0335,decided,06-statements-and-economics,SRC407,2,0,distinct; Europe IV private investors vehicle is its own fund
+BC European Capital IX-8 LP,BC European Capital IX-8 LP,BC Partners,FUND_0336,decided,06-statements-and-economics,SRC407,2,0,distinct; IX-8 is a separate numbered vehicle
+BC European Capital X-10 LP,BC European Capital X-10 LP,BC Partners,FUND_0337,decided,06-statements-and-economics,SRC407,2,0,distinct; X-10 is a separate numbered vehicle from X-2 and X-7
+BC European Capital X-2 LP,BC European Capital X-2 LP,BC Partners,FUND_0338,decided,06-statements-and-economics,SRC407,2,0,distinct; X-2 is a separate numbered vehicle from X-7 and X-10
+BC European Capital X-7 LP,BC European Capital X-7 LP,BC Partners,FUND_0339,decided,06-statements-and-economics,SRC407,2,0,distinct; X-7 is a separate numbered vehicle from X-2 and X-10
+"BC Life Sciences Private Investors, L.P.","BC Life Sciences Private Investors, L.P.",BC Partners,FUND_0340,decided,06-statements-and-economics,SRC407,2,0,distinct; life sciences private investors vehicle is its own fund
+BC Partners XI GD - 2 LP,BC Partners XI GD - 2 LP,BC Partners,FUND_0341,decided,06-statements-and-economics,SRC407,2,0,distinct; XI GD-2 is not the XI Private Investor vehicle
+"BC XI Private Investor, L.P.","BC XI Private Investor, L.P.",BC Partners,FUND_0342,decided,06-statements-and-economics,SRC407,2,0,distinct; XI private investor vehicle is not XI GD-2
+"BC XII Private Investors, L.P.","BC XII Private Investors, L.P.",BC Partners,FUND_0343,decided,06-statements-and-economics,SRC407,2,0,distinct; XII private investors vehicle is its own fund
+BCP V-S L.P.,BCP V-S L.P.,,FUND_0344,decided,06-statements-and-economics,SRC407,1,0,distinct; abbreviated V-S vehicle not merged into Blackstone Capital Partners V L.P.
+"Beacon Capital Strategic Partners V, L.P.","Beacon Capital Strategic Partners V, L.P.",Beacon Capital,FUND_0168,decided,A+B,SRC137,1,1,distinct; Fund V and Fund VI stay two standards
+"Beacon Capital Strategic Partners VI, LP","Beacon Capital Strategic Partners VI, LP",Beacon Capital,FUND_0345,decided,02-performance,SRC058,6,0,distinct; Fund VI and Fund V stay two standards
+Bear Stearns High Grade Structured Credit Strategies Fund,Bear Stearns High Grade Structured Credit Strategies Fund,,FUND_0346,decided,05-fund-legal-docs,SRC107,26,0,confirmed; only printed variant and no sibling vehicle here
+"Bell Institutional Fund IV, LLC","Bell Institutional Fund IV, LLC",,FUND_0169,decided,A+B,SRC137,1,1,confirmed; only printed variant and no sibling vehicle here
+"Berkshire Fund VI, Limited Partnership","Berkshire Fund VI, Limited Partnership",Berkshire Fund,FUND_0347,decided,06-statements-and-economics,SRC407,2,0,distinct; Fund VI is its own series
+"Berkshire Fund VII, L.P.","Berkshire Fund VII, L.P.",Berkshire Fund,FUND_0348,decided,06-statements-and-economics,SRC407,2,0,distinct; Fund VII is its own series
+"Berkshire Fund VIII (IND), L.P.","Berkshire Fund VIII (IND), L.P.",Berkshire Fund,FUND_0349,decided,06-statements-and-economics,SRC407,2,0,distinct; Fund VIII is its own series
+BIF IV Co-Investment,BIF IV Co-Investment,,FUND_0350,decided,02-performance,SRC060,5,0,confirmed; the printed abbreviation does not identify a sponsor; family is blank
+BioScience Facilities Fund,BioScience Facilities Fund,,FUND_0121,decided,B,SRC039,0,1,confirmed; only printed variant and no sibling vehicle here
+Blackstone Capital Partners V L.P.,Blackstone Capital Partners V L.P.,Blackstone,FUND_0351,decided,06-statements-and-economics,SRC407,2,0,distinct; Fund V is its own series
+"Blackstone Capital Partners VII, L.P.","Blackstone Capital Partners VII, L.P.",Blackstone,FUND_0352,decided,06-statements-and-economics,SRC407,2,0,distinct; Fund VII is its own series
+"Blackstone Capital Partners VIII (Lux), SCSp","Blackstone Capital Partners VIII (Lux), SCSp",Blackstone,FUND_0353,decided,06-statements-and-economics,SRC407,2,0,distinct; Fund VIII Lux vehicle is its own series
+Blackstone Energy Partners III,Blackstone Energy Partners III,Blackstone,FUND_0354,decided,02-performance,SRC060,5,0,distinct; Energy III and Energy IV stay two standards
+Blackstone Energy Partners IV,Blackstone Energy Partners IV,Blackstone,FUND_0355,decided,02-performance,SRC060,5,0,distinct; Energy IV and Energy III stay two standards
+Blackstone Mileway Logistics L.P.,Blackstone Mileway Logistics L.P.,Blackstone,FUND_0356,decided,02-performance,SRC063,2,0,distinct; single-platform vehicle is not a numbered Blackstone fund
+"Blackstone Property Partners Europe, L.P.","Blackstone Property Partners Europe, L.P.",Blackstone,FUND_0357,decided,02-performance,SRC063,4,0,distinct; Europe property vehicle is not the Life Sciences vehicle
+Blackstone Property Partners Life Sciences L.P.,Blackstone Property Partners Life Sciences L.P.,Blackstone,FUND_0358,decided,02-performance,SRC063,2,0,distinct; Life Sciences vehicle is not the Europe property vehicle
+Blackstone RE Partners X LP,Blackstone RE Partners X LP,Blackstone,FUND_0359,decided,02-performance,SRC058,6,0,printed abbreviation kept; no fuller Series X spelling here
+"Blackstone Real Estate Debt Strategies II, L.P.","Blackstone Real Estate Debt Strategies II, L.P.",Blackstone,FUND_0170,decided,A+B,SRC137,1,1,sole printed variant
+"Blackstone Real Estate Partners Europe III, L.P.","Blackstone Real Estate Partners Europe III, L.P.",Blackstone,FUND_0171,decided,A+B,SRC137,1,1,distinct Europe series
+Blackstone Real Estate Partners IX,Blackstone Real Estate Partners IX,Blackstone,FUND_0360,decided,02-performance,SRC058,6,0,distinct series; no other IX spelling
+"Blackstone Real Estate Partners V, L.P.","Blackstone Real Estate Partners V, L.P.",Blackstone,FUND_0172,decided,A+B,SRC137,1,1,distinct series from VI and VII
+"Blackstone Real Estate Partners VI, L.P.","Blackstone Real Estate Partners VI, L.P.",Blackstone,FUND_0173,decided,A+B,SRC137,1,1,merged with the VI LP spelling
+"Blackstone Real Estate Partners VI, LP","Blackstone Real Estate Partners VI, L.P.",Blackstone,FUND_0173,decided,02-performance,SRC058,6,0,merged: LP = L.P.
+"Blackstone Real Estate Partners VII, L.P.","Blackstone Real Estate Partners VII, L.P.",Blackstone,FUND_0174,decided,A+B,SRC137,1,1,merged with the VII LP spelling
+"Blackstone Real Estate Partners VII, LP","Blackstone Real Estate Partners VII, L.P.",Blackstone,FUND_0174,decided,02-performance,SRC058,6,0,merged: LP = L.P.
+Blue Owl GP Stakes Nimbus Cayman (B) LP,Blue Owl GP Stakes Nimbus Cayman (B) LP,Blue Owl,FUND_0361,decided,06-statements-and-economics,SRC407,2,0,distinct parallel vehicle from the U.S. (A) entity
+Blue Owl GP Stakes Nimbus U.S. (A) LLC,Blue Owl GP Stakes Nimbus U.S. (A) LLC,Blue Owl,FUND_0362,decided,06-statements-and-economics,SRC407,2,0,distinct parallel vehicle from the Cayman (B) entity
+Blue Owl GP Stakes US Investors LP,Blue Owl GP Stakes US Investors LP,Blue Owl,FUND_0363,decided,06-statements-and-economics,SRC407,2,0,distinct GP Stakes vehicle
+Blue Owl GP Stakes V Offshore Investors LP,Blue Owl GP Stakes V Offshore Investors LP,Blue Owl,FUND_0364,decided,06-statements-and-economics,SRC407,2,0,distinct GP Stakes vehicle
+Blue Owl Real Estate Capital Fund V,Blue Owl Real Estate Capital Fund V,Blue Owl,FUND_0365,decided,02-performance,SRC058,6,0,distinct series from Fund VI
+Blue Owl Real Estate Capital Fund VI,Blue Owl Real Estate Capital Fund VI,Blue Owl,FUND_0366,decided,02-performance,SRC058,6,0,distinct series from Fund V
+"Blue Road Capital, L.P.","Blue Road Capital, L.P.",,FUND_0367,decided,04-quarterly-report,SRC457,16,0,sole printed variant
+Bluescape Energy Recapitalization and Restructuring Fund III,"Bluescape Energy Recapitalization and Restructuring Fund III, L.P.",Bluescape,FUND_1027,decided,04-quarterly-report,SRC457,3,0,merged into the fuller printed L.P. form
+"Bluescape Energy Recapitalization and Restructuring Fund III, L.P.","Bluescape Energy Recapitalization and Restructuring Fund III, L.P.",Bluescape,FUND_1027,decided,04-quarterly-report,SRC457,12,0,fullest printed form of Fund III; distinct from Fund IV
+Bluescape Energy Recapitalization and Restructuring Fund IV,"Bluescape Energy Recapitalization and Restructuring Fund IV, L.P.",Bluescape,FUND_1028,decided,04-quarterly-report,SRC457,3,0,merged into the fuller printed L.P. form
+"Bluescape Energy Recapitalization and Restructuring Fund IV, L.P.","Bluescape Energy Recapitalization and Restructuring Fund IV, L.P.",Bluescape,FUND_1028,decided,04-quarterly-report,SRC457,11,0,fullest printed form of Fund IV; distinct from Fund III
+Bolt Energy LLC,Bolt Energy LLC,,FUND_0368,decided,02-performance,SRC060,6,0,sole printed variant
+"Bowmark Capital Partners V, L.P.","Bowmark Capital Partners V, L.P.",,FUND_0369,decided,06-statements-and-economics,SRC407,2,0,sole printed variant
+"BP ACE EV, L.P.","BP ACE EV, L.P.",,FUND_0370,decided,06-statements-and-economics,SRC407,2,0,distinct from the BP Natural Gas vehicles; BP stem too generic for a family
+"BP Natural Gas Opportunity Partners II, L.P.","BP Natural Gas Opportunity Partners II, L.P.",BP Natural Gas Opportunity Partners,FUND_0371,decided,04-quarterly-report,SRC457,14,0,distinct: Fund II is not the first fund
+"BP Natural Gas Opportunity Partners, L.P.","BP Natural Gas Opportunity Partners, L.P.",BP Natural Gas Opportunity Partners,FUND_0372,decided,04-quarterly-report,SRC457,16,0,distinct: first fund is not Fund II
+"BPEA EQT Mid-Market Growth Partnership, SCSp","BPEA EQT Mid-Market Growth Partnership, SCSp",BPEA,FUND_0373,decided,06-statements-and-economics,SRC407,2,0,distinct BPEA vehicle
+"BPEA Private Equity Fund VI, L.P.","BPEA Private Equity Fund VI, L.P.",BPEA,FUND_0374,decided,06-statements-and-economics,SRC407,2,0,distinct BPEA vehicle
+"BPG Investment Partnership IV, L.P.","BPG Investment Partnership IV, L.P.",BPG,FUND_0175,decided,A+B,SRC137,1,1,distinct series from V and VI
+"BPG Investment Partnership V, L.P.","BPG Investment Partnership V, L.P.",BPG,FUND_0176,decided,A+B,SRC137,1,1,distinct series from IV and VI
+"BPG Investment Partnership VI, L.P.","BPG Investment Partnership VI, L.P.",BPG,FUND_0177,decided,A+B,SRC137,1,1,distinct series from IV and V
+BPG/PSERS Co-Investment Fund,BPG/PSERS Co-Investment Fund,BPG,FUND_0178,decided,A+B,SRC137,1,1,distinct co-investment vehicle
+Brazil Real Estate Opportunities II,Brazil Real Estate Opportunities II,,FUND_0375,decided,02-performance,SRC058,6,0,sole printed variant; generic stem so no family
+"Brentwood Associates Private Equity V, L.P.","Brentwood Associates Private Equity V, L.P.",,FUND_0376,decided,06-statements-and-economics,SRC407,2,0,sole printed variant
+Bridgepoint Europe IV 'A' L.P.,Bridgepoint Europe IV 'A' L.P.,Bridgepoint,FUND_0377,decided,06-statements-and-economics,SRC407,2,0,distinct from the 'E' parallel vehicle
+Bridgepoint Europe IV 'E' L.P.,Bridgepoint Europe IV 'E' L.P.,Bridgepoint,FUND_0378,decided,06-statements-and-economics,SRC407,2,0,distinct from the 'A' parallel vehicle
+Bridgepoint Europe Portfolio IV LP,Bridgepoint Europe Portfolio IV LP,Bridgepoint,FUND_0379,decided,06-statements-and-economics,SRC407,2,0,distinct Portfolio vehicle
+"Broadway Partners Real Estate Fund II, L.P.","Broadway Partners Real Estate Fund II, L.P.",Broadway Partners,FUND_0179,decided,A+B,SRC137,1,1,distinct series from Fund III
+"Broadway Partners Real Estate Fund III, L.P.","Broadway Partners Real Estate Fund III, L.P.",Broadway Partners,FUND_0180,decided,A+B,SRC137,1,1,distinct series from Fund II
+Brookfield Agriculture Fund II,Brookfield Agriculture Fund II,Brookfield,FUND_0380,decided,02-performance,SRC060,6,0,sole printed variant
+"Brookfield Brazil Timber Fund II, L.P.","Brookfield Brazil Timber Fund II, L.P.",Brookfield,FUND_1029,decided,04-quarterly-report,SRC457,14,0,merged with the LP spelling
+"Brookfield Brazil Timber Fund II, LP","Brookfield Brazil Timber Fund II, L.P.",Brookfield,FUND_1029,decided,04-quarterly-report,SRC457,3,0,merged: LP = L.P.
+Brookfield Infrastructure Fund III,Brookfield Infrastructure Fund III,Brookfield,FUND_0381,decided,02-performance,SRC060,6,0,distinct series from IV and V
+Brookfield Infrastructure Fund IV,Brookfield Infrastructure Fund IV,Brookfield,FUND_0382,decided,02-performance,SRC060,6,0,distinct series from III and V
+Brookfield Infrastructure Fund V,Brookfield Infrastructure Fund V,Brookfield,FUND_0383,decided,02-performance,SRC060,5,0,distinct series from III and IV
+"Brookfield Strategic Real Estate Partners, L.P.","Brookfield Strategic Real Estate Partners, L.P.",Brookfield,FUND_0181,decided,A+B,SRC137,1,1,sole printed variant
+Brookfield Super Core Infrastructure Partners Project Aether,Brookfield Super Core Infrastructure Partners Project Aether,Brookfield,FUND_0384,decided,02-performance,SRC060,5,0,distinct project vehicle; printed without the hyphen
+Brookfield Super-Core Infrastructure Partners,Brookfield Super-Core Infrastructure Partners,Brookfield,FUND_0385,decided,02-performance,SRC060,5,0,distinct from the named project vehicles
+Brookfield Super-Core Infrastructure Partners Project Kepler,Brookfield Super-Core Infrastructure Partners Project Kepler,Brookfield,FUND_0386,decided,02-performance,SRC060,5,0,distinct project vehicle
+Brookfield Super-Core Infrastructure Partners Project Volta,Brookfield Super-Core Infrastructure Partners Project Volta,Brookfield,FUND_0387,decided,02-performance,SRC060,5,0,distinct project vehicle
+Brookfield Timberlands Fund V,Brookfield Timberlands Fund V,Brookfield,FUND_0388,decided,02-performance,SRC060,6,0,sole printed variant
+"BSV Opportunities B, FCRE","BSV Opportunities B, FCRE",,FUND_0389,decided,06-statements-and-economics,SRC407,2,0,sole printed variant
+Buchanan Fund V,Buchanan Fund V,,FUND_0390,decided,02-performance,SRC058,6,0,sole printed variant
+Builder Fund,Builder Fund,,FUND_0139,decided,B,SRC040,0,1,distinct from Builders VC Fund II
+Builders VC Fund II,Builders VC Fund II,,FUND_0005,decided,A+B,SRC035,1,1,distinct from Builder Fund
+"Cabot Industrial Value Fund III, L.P.","Cabot Industrial Value Fund III, L.P.",,FUND_0182,decided,A+B,SRC137,1,1,sole printed variant
+CalEast Canada Limited Partnership,CalEast Canada Limited Partnership,CalEast,FUND_0391,decided,02-performance,SRC063,1,0,distinct CalEast vehicle
+"CalEast Industrial Investors, LLC","CalEast Industrial Investors, LLC",CalEast,FUND_0392,decided,02-performance,SRC063,3,0,distinct CalEast vehicle
+"CalEast Solstice, LLC","CalEast Solstice, LLC",CalEast,FUND_0393,decided,02-performance,SRC063,4,0,distinct CalEast vehicle
+CalWest CalPERS GIP,CalWest CalPERS GIP,,FUND_0394,decided,02-performance,SRC063,3,0,distinct from the CalEast vehicles
+"Camden Partners Strategic Fund VI, L.P.","Camden Partners Strategic Fund VI, L.P.",,FUND_0395,decided,06-statements-and-economics,SRC407,2,0,sole printed variant
+Cameron Village,Cameron Village,,FUND_0396,decided,02-performance,SRC058,4,0,sole printed variant
+"Canyon Catalyst Fund II, LLC","Canyon Catalyst Fund II, LLC",,FUND_0397,decided,02-performance,SRC063,4,0,distinct from Canyon Johnson Urban Fund III; stem too thin for a family
+Canyon Johnson Urban Fund III,Canyon Johnson Urban Fund III,,FUND_0398,decided,02-performance,SRC058,6,0,distinct from Canyon Catalyst Fund II; stem too thin for a family
+Capiton VI GmbH & Co. Beteiligungs KG,Capiton VI GmbH & Co. Beteiligungs KG,,FUND_0399,decided,06-statements-and-economics,SRC407,2,0,sole printed variant
+Capvis Equity IV L.P.,Capvis Equity IV L.P.,Capvis,FUND_0400,decided,06-statements-and-economics,SRC407,2,0,distinct series from Equity V
+Capvis Equity V L.P.,Capvis Equity V L.P.,Capvis,FUND_0401,decided,06-statements-and-economics,SRC407,2,0,distinct series from Equity IV
+"Carlyle Credit Opportunities Fund (Parallel), L.P.","Carlyle Credit Opportunities Fund (Parallel), L.P.",Carlyle,FUND_0402,decided,06-statements-and-economics,SRC407,2,0,sole printed variant
+"Carlyle Europe Partners IV, L.P.","Carlyle Europe Partners IV, L.P.",Carlyle,FUND_0403,decided,06-statements-and-economics,SRC407,2,0,distinct series from Europe Partners V
+"Carlyle Europe Partners V - EU, S.C.Sp.","Carlyle Europe Partners V - EU, S.C.Sp.",Carlyle,FUND_0404,decided,06-statements-and-economics,SRC407,2,0,distinct series from Europe Partners IV
+"Carlyle Europe Real Estate Partners III, L.P.","Carlyle Europe Real Estate Partners III, L.P.",Carlyle,FUND_0183,decided,A+B,SRC137,1,1,distinct from the Carlyle Europe Partners line
+"Carlyle Infrastructure Partners, L.P.","Carlyle Infrastructure Partners, L.P.",Carlyle,FUND_0405,decided,02-performance,SRC063,1,0,sole printed variant
+"Carlyle Partners V, L.P.","Carlyle Partners V, L.P.",Carlyle,FUND_0406,decided,06-statements-and-economics,SRC407,2,0,distinct series from VII and VIII
+"Carlyle Partners VII, L.P.","Carlyle Partners VII, L.P.",Carlyle,FUND_0407,decided,06-statements-and-economics,SRC407,2,0,distinct series from V and VIII
+"Carlyle Partners VIII, L.P.","Carlyle Partners VIII, L.P.",Carlyle,FUND_0408,decided,06-statements-and-economics,SRC407,2,0,distinct series from V and VII
+"Carlyle Property Investors, L.P.","Carlyle Property Investors, L.P.",Carlyle,FUND_0409,decided,02-performance,SRC058,6,0,sole printed variant
+"Carlyle Realty Partners III, L.P.","Carlyle Realty Partners III, L.P.",Carlyle,FUND_0184,decided,A+B,SRC137,1,1,distinct series from IV V and VI
+"Carlyle Realty Partners IV, L.P.","Carlyle Realty Partners IV, L.P.",Carlyle,FUND_0185,decided,A+B,SRC137,1,1,distinct series from III V and VI
+"Carlyle Realty Partners V, L.P.","Carlyle Realty Partners V, L.P.",Carlyle,FUND_0186,decided,A+B,SRC137,1,1,distinct series from III IV and VI
+"Carlyle Realty Partners VI, L.P.","Carlyle Realty Partners VI, L.P.",Carlyle,FUND_0187,decided,A+B,SRC137,1,1,distinct series from III IV and V
+"Carlyle US Equity Opportunity Fund II, L.P.","Carlyle US Equity Opportunity Fund II, L.P.",Carlyle,FUND_0410,decided,06-statements-and-economics,SRC407,2,0,sole printed variant
+"Cascade Angels Fund 2016, L.P.","Cascade Angels Fund 2016, L.P.",Cascade Angels Fund,FUND_0006,decided,A+B,SRC035,1,1,distinct vintage vehicle from Cascade Angels Fund V
+"Cascade Angels Fund V, LLC","Cascade Angels Fund V, LLC",Cascade Angels Fund,FUND_0007,decided,A+B,SRC035,1,1,distinct series from Cascade Angels Fund 2016
+"Cascade Seed Fund I, LLC","Cascade Seed Fund I, LLC",Cascade Seed Fund,FUND_0008,decided,A+B,SRC035,1,1,distinct series from Cascade Seed Fund II
+Cascade Seed Fund II,Cascade Seed Fund II,Cascade Seed Fund,FUND_0009,decided,A+B,SRC035,1,1,distinct series from Cascade Seed Fund I
+"CB Offshore CF I, Limited Partnership","CB Offshore CF I, Limited Partnership",,FUND_0411,decided,06-statements-and-economics,SRC407,2,0,sole printed variant
+CBRE Strategic Partners US Value Fund 5,CBRE Strategic Partners US Value Fund 5,CBRE Strategic Partners,FUND_0412,decided,02-performance,SRC058,6,0,distinct series from Fund 6
+CBRE Strategic Partners US Value Fund 6,CBRE Strategic Partners US Value Fund 6,CBRE Strategic Partners,FUND_0413,decided,02-performance,SRC058,6,0,distinct series from Fund 5
+CCF II Industrial,CCF II Industrial,,FUND_0414,decided,02-performance,SRC063,2,0,distinct series from CCF III Industrial; acronym stem so no family
+CCF III Industrial,CCF III Industrial,,FUND_0415,decided,02-performance,SRC063,2,0,distinct from CCF III LLC; acronym stem so no family
+"CCF III, LLC","CCF III, LLC",,FUND_0416,decided,02-performance,SRC063,3,0,distinct from CCF III Industrial; acronym stem so no family
+CCP 2020,CCP 2020,,FUND_0417,decided,02-performance,SRC063,3,0,distinct from CCP Climb and CCP Strider; acronym stem so no family
+CCP Climb LP,CCP Climb LP,,FUND_0418,decided,06-statements-and-economics,SRC407,2,0,distinct from CCP Strider; acronym stem so no family
+CCP Strider LP,CCP Strider LP,,FUND_0419,decided,06-statements-and-economics,SRC407,2,0,distinct from CCP Climb; acronym stem so no family
+"CD&R Value Building Partners I, L.P.","CD&R Value Building Partners I, L.P.",,FUND_0420,decided,06-statements-and-economics,SRC407,2,0,distinct vehicle; printed stem differs from the Clayton Dubilier & Rice funds
+"CDRF8 Private Investors, LLC","CDRF8 Private Investors, LLC",,FUND_0421,decided,06-statements-and-economics,SRC407,2,0,distinct vehicle; printed stem shared with no other row
+"Centerbridge Seaport Acquisition Fund, L.P.","Centerbridge Seaport Acquisition Fund, L.P.",,FUND_0422,decided,06-statements-and-economics,SRC407,2,0,sole printed variant; distinct from the Centerline rows
+"Centerline Diversified Risk CMBS Fund, LLC","Centerline Diversified Risk CMBS Fund, LLC",Centerline,FUND_0188,decided,A+B,SRC137,1,1,distinct from Centerline High Yield CMBS III
+Centerline High Yield CMBS III - Loan/Stock,Centerline High Yield CMBS III - Loan/Stock,Centerline,FUND_0189,decided,A+B,SRC137,1,1,distinct from Centerline Diversified Risk CMBS Fund
+"Cerberus Institutional Partners, L.P. - Series Four","Cerberus Institutional Partners, L.P. - Series Four",,FUND_0423,decided,06-statements-and-economics,SRC407,2,0,sole printed variant
+"Charlesbank Equity Fund VIII, Limited Partnership","Charlesbank Equity Fund VIII, Limited Partnership",,FUND_0424,decided,06-statements-and-economics,SRC407,2,0,sole printed variant
+"Charter Life Sciences (Ohio) II, L.P.","Charter Life Sciences (Ohio) II, L.P.",,FUND_0081,decided,A+B,SRC036,1,1,distinct from Charterhouse Capital Partners IX
+Charterhouse Capital Partners IX,Charterhouse Capital Partners IX,,FUND_0425,decided,06-statements-and-economics,SRC407,1,0,distinct from Charter Life Sciences (Ohio) II
+"CHP III, L.P.","CHP III, L.P.",,FUND_0426,decided,06-statements-and-economics,SRC407,2,0,sole printed variant; acronym stem so no family
+"Chrysalis Ventures (Ohio) III, L.P.","Chrysalis Ventures (Ohio) III, L.P.",,FUND_0082,decided,A+B,SRC036,1,1,sole printed variant
+"CI Capital Investors III, L.P.","CI Capital Investors III, L.P.",,FUND_0427,decided,06-statements-and-economics,SRC407,2,0,sole printed variant
+"CIM Fund III, L.P.","CIM Fund III, L.P.",CIM,FUND_0428,decided,02-performance,SRC063,5,0,distinct from CIM Infrastructure Fund
+"CIM Infrastructure Fund, L.P.","CIM Infrastructure Fund, L.P.",CIM,FUND_0429,decided,02-performance,SRC063,5,0,distinct from CIM Fund III
+Clarion (Non Mandate),Clarion (Non Mandate),Clarion,FUND_0431,decided,02-performance,SRC058,4,0,distinct Clarion vehicle
+Clarion Columbia Office Properties,Clarion Columbia Office Properties,Clarion,FUND_0432,decided,02-performance,SRC058,4,0,distinct Clarion vehicle
+Clarion Holding,Clarion Holding,Clarion,FUND_0433,decided,02-performance,SRC058,4,0,distinct Clarion vehicle
+"Clayton, Dubilier & Rice Fund IX, L.P.","Clayton, Dubilier & Rice Fund IX, L.P.","Clayton, Dubilier & Rice",FUND_0434,decided,06-statements-and-economics,SRC407,2,0,distinct series from Fund X
+"Clayton, Dubilier & Rice Fund X, L.P.","Clayton, Dubilier & Rice Fund X, L.P.","Clayton, Dubilier & Rice",FUND_0435,decided,06-statements-and-economics,SRC407,2,0,distinct series from Fund IX
+Clean Tech Fund,Clean Tech Fund,,FUND_0123,decided,B,SRC039,0,1,sole printed variant; generic stem so no family
+"Clearlake Capital Partners III, L.P.","Clearlake Capital Partners III, L.P.",Clearlake,FUND_0436,decided,06-statements-and-economics,SRC407,2,0,distinct series from IV VI and VII
+"Clearlake Capital Partners IV, L.P.","Clearlake Capital Partners IV, L.P.",Clearlake,FUND_0437,decided,06-statements-and-economics,SRC407,2,0,distinct series from III VI and VII
+"Clearlake Capital Partners VI, L.P.","Clearlake Capital Partners VI, L.P.",Clearlake,FUND_0438,decided,06-statements-and-economics,SRC407,2,0,distinct series from III IV and VII
+"Clearlake Capital Partners VII (USTE), L.P.","Clearlake Capital Partners VII (USTE), L.P.",Clearlake,FUND_0439,decided,06-statements-and-economics,SRC407,2,0,distinct series from III IV and VI
+"Clearlake Opportunities Partners (P-Offshore), L.P.","Clearlake Opportunities Partners (P-Offshore), L.P.",Clearlake,FUND_0440,decided,06-statements-and-economics,SRC407,2,0,distinct from the Clearlake Capital Partners line
+Cliffwood,Cliffwood,,FUND_0441,decided,02-performance,SRC058,3,0,sole printed variant
+Clift,Clift,,FUND_0442,decided,02-performance,SRC058,6,0,sole printed variant
+Cohen & Steers,Cohen & Steers,,FUND_0443,decided,02-performance,SRC058,3,0,sole printed variant
+"Coller International Partners VI, L.P.","Coller International Partners VI, L.P.",,FUND_0444,decided,06-statements-and-economics,SRC407,2,0,sole printed variant
+Commonwealth Fund III,Commonwealth Fund III,,FUND_0108,decided,A+B,SRC038,1,1,sole printed variant
+"Comvest Capital III International (Cayman), L.P.","Comvest Capital III International (Cayman), L.P.",,FUND_0445,decided,06-statements-and-economics,SRC407,2,0,sole printed variant
+"Concession Investment Holdings, LLC","Concession Investment Holdings, LLC",,FUND_0446,decided,02-performance,SRC063,4,0,sole printed variant
+Connecticut Bioscience Innovation Fund,Connecticut Bioscience Innovation Fund,,FUND_0124,decided,B,SRC039,0,1,sole printed variant
+Connecticut Capital Access Fund,Connecticut Capital Access Fund,,FUND_0125,decided,B,SRC039,0,1,sole printed variant
+Connecticut Works Fund,Connecticut Works Fund,,FUND_0128,decided,B,SRC039,0,1,distinct: separate vehicle from Connecticut Works Guarantee Fund
+Connecticut Works Guarantee Fund,Connecticut Works Guarantee Fund,,FUND_0129,decided,B,SRC039,0,1,distinct: separate vehicle from Connecticut Works Fund
+"Conservation Forestry Capital Fund II, L.P.","Conservation Forestry Capital Fund II, L.P.",Conservation Forestry Capital,FUND_1030,decided,04-quarterly-report,SRC457,13,0,merged with the LP spelling of the same vehicle
+"Conservation Forestry Capital Fund II, LP","Conservation Forestry Capital Fund II, L.P.",Conservation Forestry Capital,FUND_1030,decided,04-quarterly-report,SRC457,3,0,merged into the fuller L.P. spelling
+"Conservation Forestry Capital Fund IV, L.P.","Conservation Forestry Capital Fund IV, L.P.",Conservation Forestry Capital,FUND_1031,decided,04-quarterly-report,SRC457,11,0,merged with the LP spelling; Fund IV distinct from Fund II
+"Conservation Forestry Capital Fund IV, LP","Conservation Forestry Capital Fund IV, L.P.",Conservation Forestry Capital,FUND_1031,decided,04-quarterly-report,SRC457,3,0,merged into the fuller L.P. spelling; Fund IV distinct from Fund II
+Core Property Index Trust,Core Property Index Trust,,FUND_0447,decided,02-performance,SRC063,1,0,sole printed variant
+"Cornerstone Patriot Fund, L.P.","Cornerstone Patriot Fund, L.P.",,FUND_0190,decided,A+B,SRC137,1,1,sole printed variant
+"Corsair IV Financial Services Capital Partners, L.P.","Corsair IV Financial Services Capital Partners, L.P.",Corsair,FUND_0448,decided,06-statements-and-economics,SRC407,2,0,distinct series from Corsair V
+"Corsair V Financial Services Capital Partners, L.P.","Corsair V Financial Services Capital Partners, L.P.",Corsair,FUND_0449,decided,06-statements-and-economics,SRC407,2,0,distinct series from Corsair IV
+"Court Square Capital Partners (Offshore) III, L.P.","Court Square Capital Partners (Offshore) III, L.P.",,FUND_0450,decided,06-statements-and-economics,SRC407,2,0,sole printed variant
+"CP VII Investors, L.P.","CP VII Investors, L.P.",,FUND_0451,decided,06-statements-and-economics,SRC407,2,0,sole printed variant
+"Crestview Partners II, L.P.","Crestview Partners II, L.P.",,FUND_0452,decided,06-statements-and-economics,SRC407,2,0,sole printed variant
+"Crow Holdings Realty Fund VII, LP","Crow Holdings Realty Fund VII, LP",Crow Holdings,FUND_0453,decided,04-quarterly-report,SRC457,3,0,distinct: printed as Realty Fund not Realty Partners; not merged into Realty Partners VII
+"Crow Holdings Realty Partners IX, L.P.","Crow Holdings Realty Partners IX, L.P.",Crow Holdings,FUND_0454,decided,04-quarterly-report,SRC457,5,0,sole printed variant
+"Crow Holdings Realty Partners VI, L.P.","Crow Holdings Realty Partners VI, L.P.",Crow Holdings,FUND_1032,decided,04-quarterly-report,SRC457,14,0,merged with the LP spelling of the same vehicle
+"Crow Holdings Realty Partners VI, LP","Crow Holdings Realty Partners VI, L.P.",Crow Holdings,FUND_1032,decided,04-quarterly-report,SRC457,3,0,merged into the fuller L.P. spelling
+"Crow Holdings Realty Partners VII, L.P.","Crow Holdings Realty Partners VII, L.P.",Crow Holdings,FUND_0455,decided,04-quarterly-report,SRC457,12,0,distinct from Crow Holdings Realty Fund VII
+"Crow Retail Fund II, L.P.","Crow Retail Fund II, L.P.",,FUND_0456,decided,04-quarterly-report,SRC457,15,0,sole printed variant; stem differs from Crow Holdings so family left blank
+"CS Strategic Partners IV RE, L.P.","CS Strategic Partners IV RE, L.P.",,FUND_0191,decided,A+B,SRC137,1,1,distinct series from CSFB Strategic Partners II and III; printed stem differs
+"CSFB Strategic Partners II RE, L.P.","CSFB Strategic Partners II RE, L.P.",CSFB Strategic Partners,FUND_0192,decided,A+B,SRC137,1,1,distinct series from III
+"CSFB Strategic Partners III RE, L.P.","CSFB Strategic Partners III RE, L.P.",CSFB Strategic Partners,FUND_0193,decided,A+B,SRC137,1,1,distinct series from II
+Cube Infrastructure Fund III,Cube Infrastructure Fund III,,FUND_0457,decided,02-performance,SRC060,5,0,sole printed variant
+Cube Salem Co-Investment,Cube Salem Co-Investment,,FUND_0458,decided,02-performance,SRC060,5,0,distinct co-investment vehicle
+CVC Capital Partners VI (A) L.P.,CVC Capital Partners VI (A) L.P.,CVC,FUND_0459,decided,06-statements-and-economics,SRC407,2,0,distinct parallel vehicle from VI (B)
+CVC Capital Partners VI (B) L.P.,CVC Capital Partners VI (B) L.P.,CVC,FUND_0460,decided,06-statements-and-economics,SRC407,2,0,distinct parallel vehicle from VI (A)
+CVC Capital Partners VII (A) L.P.,CVC Capital Partners VII (A) L.P.,CVC,FUND_0461,decided,06-statements-and-economics,SRC407,2,0,distinct series from VI
+CVC European Equity Partners V (A) L.P.,CVC European Equity Partners V (A) L.P.,CVC,FUND_0462,decided,06-statements-and-economics,SRC407,2,0,distinct parallel vehicle from V (C)
+CVC European Equity Partners V (C) L.P.,CVC European Equity Partners V (C) L.P.,CVC,FUND_0463,decided,06-statements-and-economics,SRC407,2,0,distinct parallel vehicle from V (A)
+Cybersecurity Investment Fund,Cybersecurity Investment Fund,,FUND_0142,decided,B,SRC040,0,1,sole printed variant
+"DB SAF C Strategic Partners, LP","DB SAF C Strategic Partners, LP",,FUND_0464,decided,02-performance,SRC063,1,0,distinct from DCP C Strategic Partners
+"DCM V, L.P.","DCM V, L.P.",DCM,FUND_0465,decided,06-statements-and-economics,SRC407,2,0,distinct series from DCM VI
+"DCM VI, L.P.","DCM VI, L.P.",DCM,FUND_0466,decided,06-statements-and-economics,SRC407,2,0,distinct series from DCM V
+"DCP C Strategic Partners, LP","DCP C Strategic Partners, LP",,FUND_0467,decided,02-performance,SRC063,2,0,distinct from DB SAF C Strategic Partners
+"DFJ Frontier Fund II, L.P.","DFJ Frontier Fund II, L.P.",,FUND_0010,decided,A+B,SRC035,1,1,sole printed variant
+Digital Colony Partners,Digital Colony Partners,,FUND_0468,decided,02-performance,SRC060,6,0,sole printed variant; stem differs from DigitalBridge so family left blank
+"DigitalBridge Partners II, LP","DigitalBridge Partners II, LP",DigitalBridge,FUND_0469,decided,02-performance,SRC063,2,0,sole printed variant
+"DigitalBridge Strategic Assets Fund, LP","DigitalBridge Strategic Assets Fund, LP",DigitalBridge,FUND_0470,decided,02-performance,SRC063,1,0,distinct vehicle from DigitalBridge Partners II
+"DivcoWest Fund IV REIT, L.P.","DivcoWest Fund IV REIT, L.P.",DivcoWest,FUND_0471,decided,02-performance,SRC058,6,0,distinct series from Fund V
+DivcoWest Fund V,DivcoWest Fund V,DivcoWest,FUND_0472,decided,02-performance,SRC058,6,0,distinct series from Fund IV
+DivcoWest Real Estate Fund VI,DivcoWest Real Estate Fund VI,DivcoWest,FUND_0473,decided,02-performance,SRC058,6,0,distinct series from Fund IV and Fund V
+"DLJ Real Estate Capital Partners III, L.P.","DLJ Real Estate Capital Partners III, L.P.",DLJ Real Estate,FUND_0194,decided,A+B,SRC137,1,1,distinct series from IV
+"DLJ Real Estate Capital Partners IV, L.P.","DLJ Real Estate Capital Partners IV, L.P.",DLJ Real Estate,FUND_0195,decided,A+B,SRC137,1,1,distinct series from III
+"DLJ Real Estate Partners II, L.P.","DLJ Real Estate Partners II, L.P.",DLJ Real Estate,FUND_0196,decided,A+B,SRC137,1,1,distinct vehicle from DLJ Real Estate Capital Partners
+"DRA Growth and Income Fund VI, L.P.","DRA Growth and Income Fund VI, L.P.",DRA Growth and Income Fund,FUND_0197,decided,A+B,SRC137,1,1,distinct series from VII
+"DRA Growth and Income Fund VII, L.P.","DRA Growth and Income Fund VII, L.P.",DRA Growth and Income Fund,FUND_0198,decided,A+B,SRC137,1,1,distinct series from VI
+"Draper Triangle Ohio Ventures, L.P.","Draper Triangle Ohio Ventures, L.P.",Draper Triangle,FUND_0084,decided,A+B,SRC036,1,1,distinct vehicle from Draper Triangle Ventures Ohio III
+"Draper Triangle Ventures Ohio III, L.P.","Draper Triangle Ventures Ohio III, L.P.",Draper Triangle,FUND_0085,decided,A+B,SRC036,1,1,distinct vehicle from Draper Triangle Ohio Ventures
+"DW Life Sciences Partners, LLC","DW Life Sciences Partners, LLC",,FUND_0474,decided,02-performance,SRC063,2,0,sole printed variant
+DW-Columbia Perfco LP,DW-Columbia Perfco LP,,FUND_0475,decided,02-performance,SRC058,4,0,sole printed variant
+"Early Stage Partners Fund II, L.P.","Early Stage Partners Fund II, L.P.",,FUND_0086,decided,A+B,SRC036,1,1,sole printed variant
+Eastern Timberland Opportunities II,"Eastern Timberland Opportunities II, L.P.",Eastern Timberland Opportunities,FUND_1033,decided,04-quarterly-report,SRC457,3,0,merged into the fuller printed form
+"Eastern Timberland Opportunities II, L.P.","Eastern Timberland Opportunities II, L.P.",Eastern Timberland Opportunities,FUND_1033,decided,04-quarterly-report,SRC457,12,0,merged with the short spelling of the same vehicle
+Eastern Timberland Opportunities III,"Eastern Timberland Opportunities III, L.P.",Eastern Timberland Opportunities,FUND_1034,decided,04-quarterly-report,SRC457,3,0,merged into the fuller printed form; III distinct from II
+"Eastern Timberland Opportunities III, L.P.","Eastern Timberland Opportunities III, L.P.",Eastern Timberland Opportunities,FUND_1034,decided,04-quarterly-report,SRC457,10,0,merged with the short spelling; III distinct from II
+"Ecosystem Investment Partners II, L.P.","Ecosystem Investment Partners II, L.P.",Ecosystem Investment Partners,FUND_1035,decided,04-quarterly-report,SRC457,13,0,merged with the LP spelling of the same vehicle
+"Ecosystem Investment Partners II, LP","Ecosystem Investment Partners II, L.P.",Ecosystem Investment Partners,FUND_1035,decided,04-quarterly-report,SRC457,3,0,merged into the fuller L.P. spelling
+"Ecosystem Investment Partners III, L.P.","Ecosystem Investment Partners III, L.P.",Ecosystem Investment Partners,FUND_1036,decided,04-quarterly-report,SRC457,13,0,merged with the LP spelling; III distinct from II
+"Ecosystem Investment Partners III, LP","Ecosystem Investment Partners III, L.P.",Ecosystem Investment Partners,FUND_1036,decided,04-quarterly-report,SRC457,3,0,merged into the fuller L.P. spelling; III distinct from II
+"Ecosystem Investment Partners IV, L.P.","Ecosystem Investment Partners IV, L.P.",Ecosystem Investment Partners,FUND_1037,decided,04-quarterly-report,SRC457,11,0,merged with the LP spelling; IV distinct from II and III
+"Ecosystem Investment Partners IV, LP","Ecosystem Investment Partners IV, L.P.",Ecosystem Investment Partners,FUND_1037,decided,04-quarterly-report,SRC457,3,0,merged into the fuller L.P. spelling; IV distinct from II and III
+"Ecotrust Forests II, LLC","Ecotrust Forests II, LLC",,FUND_0011,decided,A+B,SRC035,1,1,sole printed variant
+"Edgewood Partners, L.P.","Edgewood Partners, L.P.",,FUND_0476,decided,04-quarterly-report,SRC457,15,0,sole printed variant
+"Edison Venture Fund VII, L.P.","Edison Venture Fund VII, L.P.",Edison Venture,FUND_0089,decided,A+B,SRC036,1,1,distinct series from VIII
+"Edison Venture Fund VIII, L.P.","Edison Venture Fund VIII, L.P.",Edison Venture,FUND_0090,decided,A+B,SRC036,1,1,distinct series from VII
+Elevate Capital Fund II,Elevate Capital Fund II,,FUND_0012,decided,A+B,SRC035,1,1,sole printed variant
+Eli Whitney Fund,Eli Whitney Fund,,FUND_0130,decided,B,SRC039,0,1,sole printed variant
+"Emerging Market Fund, LLC","Emerging Market Fund, LLC",,FUND_0092,decided,A+B,SRC036,1,1,sole printed variant
+EMR Capital Resources Fund II,EMR Capital Resources Fund II,,FUND_0477,decided,02-performance,SRC060,6,0,sole printed variant
+EnCap Flatrock Midstream Fund III,EnCap Flatrock Midstream Fund III,EnCap Flatrock,FUND_0478,decided,02-performance,SRC060,6,0,distinct series from IV
+EnCap Flatrock Midstream Fund IV,EnCap Flatrock Midstream Fund IV,EnCap Flatrock,FUND_0479,decided,02-performance,SRC060,6,0,distinct series from III
+"Endeavour Capital Fund III, L.P.","Endeavour Capital Fund III, L.P.",,FUND_0013,decided,A+B,SRC035,1,1,sole printed variant
+Endless Fund IV A LP,Endless Fund IV A LP,,FUND_0480,decided,06-statements-and-economics,SRC407,2,0,sole printed variant
+EnerVest Energy Institutional Fund XIV,EnerVest Energy Institutional Fund XIV,EnerVest,FUND_0481,decided,02-performance,SRC060,6,0,distinct from XIV-A and from EnerVest Fund XIV
+"EnerVest Energy Institutional Fund XIV-A, L.P.","EnerVest Energy Institutional Fund XIV-A, L.P.",EnerVest,FUND_0482,decided,04-quarterly-report,SRC457,3,0,distinct: XIV-A is a separate vehicle from XIV
+"EnerVest Fund XIV, L.P.","EnerVest Fund XIV, L.P.",EnerVest,FUND_0483,decided,04-quarterly-report,SRC457,13,0,distinct: shorter printed name not merged into an XIV vehicle
+"Enlightened Hospitality Investments, L.P.","Enlightened Hospitality Investments, L.P.",,FUND_0014,decided,A+B,SRC035,1,1,sole printed variant
+"Epic Venture Fund IV, L.P.","Epic Venture Fund IV, L.P.",Epic Ventures,FUND_0015,decided,A+B,SRC035,1,1,distinct series from V
+"Epic Venture Fund V, L.P.","Epic Venture Fund V, L.P.",Epic Ventures,FUND_0016,decided,A+B,SRC035,1,1,distinct series from IV
+"Epic Ventures VI, L.P.","Epic Ventures VI, L.P.",Epic Ventures,FUND_0017,decided,A+B,SRC035,1,1,distinct series from IV and V
+EQT Infrastructure Fund V,EQT Infrastructure Fund V,EQT,FUND_0484,decided,02-performance,SRC060,5,0,distinct from the Fund V co-investment vehicle
+EQT Infrastructure Fund V Co-Investment,EQT Infrastructure Fund V Co-Investment,EQT,FUND_0485,decided,02-performance,SRC060,5,0,distinct co-investment vehicle
+EQT Infrastructure III,EQT Infrastructure III,EQT,FUND_0486,decided,02-performance,SRC060,6,0,distinct series
+EQT Infrastructure IV - USD Fund,EQT Infrastructure IV - USD Fund,EQT,FUND_0487,decided,02-performance,SRC060,6,0,distinct series
+EQT INFRASTRUCTURE IV CO-INVESTMENT A SCSP,EQT INFRASTRUCTURE IV CO-INVESTMENT A SCSP,EQT,FUND_0488,decided,03-institutional-report,SRC356,1,0,distinct co-investment vehicle
+EQT IX (No.2) EUR SCSp,EQT IX (No.2) EUR SCSp,EQT,FUND_0489,decided,06-statements-and-economics,SRC407,2,0,sole printed variant
+EQT VII (No.1) Limited Partnership,EQT VII (No.1) Limited Partnership,EQT,FUND_0490,decided,06-statements-and-economics,SRC407,2,0,sole printed variant
+EQT VIII (No.1) SCSp,EQT VIII (No.1) SCSp,EQT,FUND_0491,decided,06-statements-and-economics,SRC407,2,0,distinct parallel vehicle from (No.2)
+EQT VIII (No.2) SCSp,EQT VIII (No.2) SCSp,EQT,FUND_0492,decided,06-statements-and-economics,SRC407,2,0,distinct parallel vehicle from (No.1)
+"Equistone Partners Europe Fund IV ""E"" L.P.","Equistone Partners Europe Fund IV ""E"" L.P.",,FUND_0493,decided,06-statements-and-economics,SRC407,2,0,sole printed variant
+ESCALATE CAPITAL I LP,ESCALATE CAPITAL I LP,,FUND_0494,decided,03-institutional-report,SRC356,1,0,sole printed variant
+Eurazeo Capital Secondary Fund 2025 SCSp,Eurazeo Capital Secondary Fund 2025 SCSp,,FUND_0495,decided,06-statements-and-economics,SRC407,2,0,sole printed variant
+Europe Fund III,Europe Fund III,,FUND_0496,decided,02-performance,SRC058,6,0,The partnership schedule prints Europe Fund III as a distinct vehicle with its own vintage and economics.
+European Investors Global REIT,European Investors Global REIT,,FUND_0497,decided,02-performance,SRC058,3,0,sole printed variant
+"Exeter Industrial Value Fund II, L.P.","Exeter Industrial Value Fund II, L.P.",,FUND_0199,decided,A+B,SRC137,1,1,sole printed variant
+"Fidelity Government Portfolio, Class I","Fidelity Government Portfolio, Class I",,FUND_0498,decided,06-statements-and-economics,SRC407,2,0,sole printed variant
+Fifth Cinven Fund (No.3) Limited Partnership,Fifth Cinven Fund (No.3) Limited Partnership,,FUND_0499,decided,06-statements-and-economics,SRC407,2,0,sole printed variant
+"Fillmore West Fund, L.P.","Fillmore West Fund, L.P.",,FUND_0200,decided,A+B,SRC137,1,1,sole printed variant
+Five Arrows Florence Continuation Fund SCSp,Five Arrows Florence Continuation Fund SCSp,,FUND_0500,decided,06-statements-and-economics,SRC407,2,0,sole printed variant
+"Five Point Energy Fund I, L.P.","Five Point Energy Fund I, L.P.",Five Point Energy,FUND_0501,decided,04-quarterly-report,SRC457,16,0,distinct series from II and III
+"Five Point Energy Fund II, L.P.","Five Point Energy Fund II, L.P.",Five Point Energy,FUND_0502,decided,04-quarterly-report,SRC457,15,0,distinct series from I and III
+"Five Point Energy Fund III, L.P.","Five Point Energy Fund III, L.P.",Five Point Energy,FUND_0503,decided,04-quarterly-report,SRC457,13,0,distinct series from I and II
+"Fluke Venture Partners II, L.P.","Fluke Venture Partners II, L.P.",,FUND_0018,decided,A+B,SRC035,1,1,sole printed variant
+"Folium Agriculture Fund I, L.P.","Folium Agriculture Fund I, L.P.",,FUND_1038,decided,04-quarterly-report,SRC457,12,0,merged with the LP spelling of the same vehicle
+"Folium Agriculture Fund I, LP","Folium Agriculture Fund I, L.P.",,FUND_1038,decided,04-quarterly-report,SRC457,3,0,merged into the fuller L.P. spelling
+Fortress Fund III PIK Notes,Fortress Fund III PIK Notes,Fortress,FUND_0504,decided,02-performance,SRC058,6,0,distinct: PIK note position not the fund vehicle
+Fortress II,Fortress II,Fortress,FUND_0505,decided,02-performance,SRC058,6,0,distinct: short printed name kept as printed
+Fortress III,Fortress III,Fortress,FUND_0506,decided,02-performance,SRC058,6,0,distinct: short printed name kept as printed
+Fortress Investment Fund IV,Fortress Investment Fund IV LP,Fortress,FUND_0201,decided,02-performance,SRC058,6,0,merged into the fuller printed form Fortress Investment Fund IV LP
+Fortress Investment Fund IV LP,Fortress Investment Fund IV LP,Fortress,FUND_0201,decided,A+B,SRC137,1,1,merged with the short spelling of the same vehicle
+Fortress Investment Fund LLC,Fortress Investment Fund LLC,Fortress,FUND_0202,decided,A+B,SRC137,1,1,distinct vehicle from Fund IV and Fund V
+Fortress Investment Fund V (Fund A) L.P.,Fortress Investment Fund V (Fund A) L.P.,Fortress,FUND_0203,decided,A+B,SRC137,1,1,distinct series from Fund IV
+Fortress Residential Inv. Deutschland,Fortress Residential Inv. Deutschland,Fortress,FUND_0507,decided,02-performance,SRC058,6,0,distinct: separate Fortress vehicle
+Fortress V,Fortress V,Fortress,FUND_0508,decided,02-performance,SRC058,6,0,distinct: separate Fortress vehicle
+"Founders' Co-op III, L.P.","Founders' Co-op III, L.P.",Founders' Co-op,FUND_0019,decided,A+B,SRC035,1,1,distinct: Fund III not Fund IV
+"Founders’ Co-op IV, L.P.","Founders’ Co-op IV, L.P.",Founders' Co-op,FUND_0020,decided,A+B,SRC035,1,1,distinct: Fund IV not Fund III
+"Francisco Partners II, L.P.","Francisco Partners II, L.P.",,FUND_0509,decided,06-statements-and-economics,SRC407,1,0,sole printed spelling; confirmed
+Frontenac XI Private Capital (M) Limited Partnership,Frontenac XI Private Capital (M) Limited Partnership,,FUND_0510,decided,06-statements-and-economics,SRC407,2,0,sole printed spelling; confirmed
+"FS Equity Partners CV1, L.P.","FS Equity Partners CV1, L.P.",,FUND_0511,decided,06-statements-and-economics,SRC407,2,0,sole printed spelling; confirmed
+FSN Capital IV L.P.,FSN Capital IV L.P.,,FUND_0512,decided,06-statements-and-economics,SRC407,2,0,sole printed spelling; confirmed
+FSP - Base,FSP - Base,,FUND_0513,decided,02-performance,SRC063,5,0,distinct: separate FSP sleeve; stem too thin for a family
+FSP - DT 2012 and Beyond,FSP - DT 2012 and Beyond,,FUND_0514,decided,02-performance,SRC063,3,0,distinct: separate FSP sleeve; stem too thin for a family
+"FSV II-B, L.P.","FSV II-B, L.P.",,FUND_0094,decided,A+B,SRC036,1,1,sole printed spelling; confirmed
+Gap Investment Fund,Gap Investment Fund,,FUND_0143,decided,B,SRC040,0,1,sole printed spelling; confirmed
+"General Atlantic Investment Partners 2013, L.P.","General Atlantic Investment Partners 2013, L.P.",,FUND_0515,decided,06-statements-and-economics,SRC407,2,0,sole printed spelling; no sibling in file
+"Genstar Capital Partners VIII BL (EU), L.P.","Genstar Capital Partners VIII BL (EU), L.P.",Genstar,FUND_0516,decided,06-statements-and-economics,SRC407,2,0,distinct: VIII BL (EU) blocker vehicle
+"Genstar Capital Partners XI, L.P.","Genstar Capital Partners XI, L.P.",Genstar,FUND_0517,decided,06-statements-and-economics,SRC407,2,0,distinct: Fund XI series
+"Genstar VIII Opportunities Fund I (EU), L.P.","Genstar VIII Opportunities Fund I (EU), L.P.",Genstar,FUND_0518,decided,06-statements-and-economics,SRC407,2,0,distinct: opportunities fund not the VIII BL vehicle
+GESD Investors II Liquidating Trust,GESD Investors II Liquidating Trust,,FUND_0519,decided,06-statements-and-economics,SRC407,1,0,sole printed spelling; confirmed
+GI Partners Fund II,GI Partners Fund II,GI Partners,FUND_0520,decided,02-performance,SRC058,6,0,distinct: Fund II not Fund III
+GI Partners Fund III,GI Partners Fund III,GI Partners,FUND_0521,decided,02-performance,SRC058,6,0,distinct: Fund III not Fund II
+GID Mainstay Fund,GID Mainstay Fund,,FUND_0522,decided,02-performance,SRC058,6,0,sole printed spelling; confirmed
+GIP Aquarius Fund,"GIP Aquarius Fund, SCSp",Global Infrastructure Partners,FUND_0524,decided,02-performance,SRC060,5,0,merged: same vehicle as the SCSp spelling; fullest printed form kept
+"GIP Aquarius Fund, SCSp","GIP Aquarius Fund, SCSp",Global Infrastructure Partners,FUND_0524,decided,02-performance,SRC063,2,0,merged: fullest printed form of GIP Aquarius Fund
+"GIP IV Gutenberg Co-Invest, SCSP","GIP IV Gutenberg Co-Invest, SCSP",Global Infrastructure Partners,FUND_0525,decided,02-performance,SRC063,1,0,distinct: GIP IV co-invest vehicle
+"GIP IV Seaway Co-Invest 2, L.P.","GIP IV Seaway Co-Invest 2, L.P.",Global Infrastructure Partners,FUND_0526,decided,02-performance,SRC063,1,0,distinct: GIP IV co-invest vehicle
+Glengary LLC,Glengary LLC,,FUND_0095,decided,A+B,SRC036,1,1,sole printed spelling; confirmed
+Global Infrastructure Partners Capital Solutions Fund,Global Infrastructure Partners Capital Solutions Fund,Global Infrastructure Partners,FUND_0527,decided,02-performance,SRC060,6,0,distinct: credit vehicle not a numbered flagship
+Global Infrastructure Partners II,"Global Infrastructure Partners II, L.P. (GIP II)",Global Infrastructure Partners,FUND_0529,decided,02-performance,SRC060,6,0,merged: same vehicle; fullest printed form carries L.P.
+"Global Infrastructure Partners II, L.P. (GIP II)","Global Infrastructure Partners II, L.P. (GIP II)",Global Infrastructure Partners,FUND_0529,decided,02-performance,SRC063,5,0,merged: fullest printed form of Global Infrastructure Partners II
+"Global Infrastructure Partners II-C, L.P.","Global Infrastructure Partners II-C, L.P.",Global Infrastructure Partners,FUND_0156,decided,A+B,SRC462,1,1,distinct: II-C parallel vehicle not GIP II
+Global Infrastructure Partners III,Global Infrastructure Partners III,Global Infrastructure Partners,FUND_0530,decided,02-performance,SRC060,6,0,distinct: Fund III series
+Global Infrastructure Partners IV,Global Infrastructure Partners IV,Global Infrastructure Partners,FUND_0531,decided,02-performance,SRC060,6,0,distinct: Fund IV not the IV-A/B vehicle
+"Global Infrastructure Partners IV-A/B, L.P.","Global Infrastructure Partners IV-A/B, L.P.",Global Infrastructure Partners,FUND_0532,decided,02-performance,SRC063,2,0,distinct: IV-A/B parallel vehicle not GIP IV
+"Golden Gate Capital Opportunity Fund, LP","Golden Gate Capital Opportunity Fund, LP",Golden Gate Capital,FUND_0533,decided,06-statements-and-economics,SRC407,2,0,distinct: main fund not the -A vehicle
+"Golden Gate Capital Opportunity Fund-A, LP","Golden Gate Capital Opportunity Fund-A, LP",Golden Gate Capital,FUND_0534,decided,06-statements-and-economics,SRC407,2,0,distinct: -A parallel vehicle
+Golden Reef Infrastructure Trust,Golden Reef Infrastructure Trust,,FUND_0535,decided,02-performance,SRC063,4,0,sole printed spelling; unrelated to Golden Gate
+"Goode Partners Consumer Fund III, L.P.","Goode Partners Consumer Fund III, L.P.",,FUND_0021,decided,A+B,SRC035,1,1,sole printed spelling; confirmed
+Gotham Office Realty Partnership,Gotham Office Realty Partnership,,FUND_0536,decided,02-performance,SRC063,2,0,sole printed spelling; confirmed
+"Grain Communications Opportunity Fund III, L.P.","Grain Communications Opportunity Fund III, L.P.",,FUND_0022,decided,A+B,SRC035,1,1,sole printed spelling; confirmed
+"Great Hill Equity Partners IV, L.P.","Great Hill Equity Partners IV, L.P.",,FUND_0537,decided,06-statements-and-economics,SRC407,2,0,sole printed spelling; no sibling in file
+"Green Equity Investors CF II, L.P.","Green Equity Investors CF II, L.P.",Green Equity Investors,FUND_0538,decided,06-statements-and-economics,SRC407,2,0,distinct: CF II co-invest vehicle
+"Green Equity Investors CF IV J, L.P.","Green Equity Investors CF IV J, L.P.",Green Equity Investors,FUND_0539,decided,06-statements-and-economics,SRC407,2,0,distinct: CF IV J co-invest vehicle
+"Green Equity Investors CF IV-A, L.P.","Green Equity Investors CF IV-A, L.P.",Green Equity Investors,FUND_0540,decided,06-statements-and-economics,SRC407,2,0,distinct: CF IV-A not CF IV J
+"Green Equity Investors CF, L.P.","Green Equity Investors CF, L.P.",Green Equity Investors,FUND_0541,decided,06-statements-and-economics,SRC407,2,0,distinct: unnumbered CF vehicle
+"Green Equity Investors Side IX, L.P.","Green Equity Investors Side IX, L.P.",Green Equity Investors,FUND_0542,decided,06-statements-and-economics,SRC407,2,0,distinct: Side IX side vehicle
+"Green Equity Investors Side VI, L.P.","Green Equity Investors Side VI, L.P.",Green Equity Investors,FUND_0543,decided,06-statements-and-economics,SRC407,2,0,distinct: Side VI side vehicle
+"Green Equity Investors V, L.P.","Green Equity Investors V, L.P.",Green Equity Investors,FUND_0544,decided,06-statements-and-economics,SRC407,2,0,distinct: Fund V series
+"Green Equity Investors VI, L.P.","Green Equity Investors VI, L.P.",Green Equity Investors,FUND_0545,decided,06-statements-and-economics,SRC407,2,0,distinct: Fund VI not Side VI
+"Green Equity Investors VII, L.P.","Green Equity Investors VII, L.P.",Green Equity Investors,FUND_0546,decided,06-statements-and-economics,SRC407,2,0,distinct: Fund VII series
+"Green Equity Investors VIII, L.P.","Green Equity Investors VIII, L.P.",Green Equity Investors,FUND_0547,decided,06-statements-and-economics,SRC407,2,0,distinct: Fund VIII series
+"Greenfield Acquisition Partners V, L.P.","Greenfield Acquisition Partners V, L.P.",Greenfield,FUND_0548,decided,04-quarterly-report,SRC457,16,0,distinct: acquisition partners series not Greenfield Partners III
+Greenfield Partners III,Greenfield Partners III,Greenfield,FUND_0549,decided,02-performance,SRC058,6,0,distinct: separate Greenfield series
+Greystar Residential,Greystar Residential,,FUND_0550,decided,02-performance,SRC058,4,0,sole printed spelling; confirmed
+GRI - Base,GRI - Base,,FUND_0551,decided,02-performance,SRC063,5,0,distinct: separate GRI sleeve; stem too thin for a family
+GRI - DT 2012 and Beyond,GRI - DT 2012 and Beyond,,FUND_0552,decided,02-performance,SRC063,3,0,distinct: separate GRI sleeve; stem too thin for a family
+"Gridiron Capital Fund II, L.P.","Gridiron Capital Fund II, L.P.",,FUND_0553,decided,06-statements-and-economics,SRC407,2,0,distinct: shared word only; sponsor unconfirmed so family blank
+"Gridiron Energy Feeder I, L.P.","Gridiron Energy Feeder I, L.P.",,FUND_0554,decided,06-statements-and-economics,SRC407,2,0,distinct: shared word only; sponsor unconfirmed so family blank
+Growth Fund,Growth Fund,,FUND_0132,decided,B,SRC039,0,1,sole printed spelling in file; generic name kept as printed
+"Gryphon Co-Invest Fund IV, L.P.","Gryphon Co-Invest Fund IV, L.P.",Gryphon,FUND_0555,decided,06-statements-and-economics,SRC407,2,0,distinct: co-invest vehicle not Gryphon Partners IV
+"Gryphon Heritage Partners, L.P.","Gryphon Heritage Partners, L.P.",Gryphon,FUND_0556,decided,06-statements-and-economics,SRC407,2,0,distinct: heritage vehicle
+"Gryphon Mezzanine Partners II, L.P.","Gryphon Mezzanine Partners II, L.P.",Gryphon,FUND_0557,decided,06-statements-and-economics,SRC407,2,0,distinct: Fund II not the unnumbered mezzanine fund
+"Gryphon Mezzanine Partners, L.P.","Gryphon Mezzanine Partners, L.P.",Gryphon,FUND_0558,decided,06-statements-and-economics,SRC407,2,0,distinct: unnumbered mezzanine fund not Fund II
+"Gryphon Odin CV, L.P.","Gryphon Odin CV, L.P.",Gryphon,FUND_0559,decided,06-statements-and-economics,SRC407,2,0,distinct: continuation vehicle not the -A vehicle
+"Gryphon Odin CV-A, L.P.","Gryphon Odin CV-A, L.P.",Gryphon,FUND_0560,decided,06-statements-and-economics,SRC407,2,0,distinct: -A parallel vehicle
+"Gryphon Partners 3.5, L.P.","Gryphon Partners 3.5, L.P.",Gryphon,FUND_0561,decided,06-statements-and-economics,SRC407,2,0,distinct: 3.5 series
+"Gryphon Partners IV, L.P.","Gryphon Partners IV, L.P.",Gryphon,FUND_0562,decided,06-statements-and-economics,SRC407,4,0,distinct: Fund IV series
+"Gryphon Partners V, L.P.","Gryphon Partners V, L.P.",Gryphon,FUND_0563,decided,06-statements-and-economics,SRC407,2,0,distinct: Fund V not V-A
+"Gryphon Partners V-A, L.P.","Gryphon Partners V-A, L.P.",Gryphon,FUND_0564,decided,06-statements-and-economics,SRC407,2,0,distinct: V-A parallel vehicle
+"Gryphon Partners VI, L.P.","Gryphon Partners VI, L.P.",Gryphon,FUND_0565,decided,06-statements-and-economics,SRC407,2,0,distinct: Fund VI not VI-A
+"Gryphon Partners VI-A, L.P.","Gryphon Partners VI-A, L.P.",Gryphon,FUND_0566,decided,06-statements-and-economics,SRC407,2,0,distinct: VI-A parallel vehicle
+GSO Capital Opportunities Overseas Fund L.P.,GSO Capital Opportunities Overseas Fund L.P.,GSO,FUND_0567,decided,06-statements-and-economics,SRC407,1,0,distinct: capital opportunities vehicle
+"GSO Private Investors Offshore II, L.P.","GSO Private Investors Offshore II, L.P.",GSO,FUND_0568,decided,06-statements-and-economics,SRC407,2,0,distinct: private investors vehicle
+"Guggenheim Structured Real Estate II, L.P.","Guggenheim Structured Real Estate II, L.P.",Guggenheim Structured Real Estate,FUND_0569,decided,02-performance,SRC058,5,0,distinct: Fund II not Fund III
+Guggenheim Structured Real Estate III,"Guggenheim Structured Real Estate III, LP",Guggenheim Structured Real Estate,FUND_1039,decided,02-performance,SRC058,6,0,merged: same vehicle; fullest printed form carries LP
+"Guggenheim Structured Real Estate III, LP","Guggenheim Structured Real Estate III, LP",Guggenheim Structured Real Estate,FUND_1039,decided,04-quarterly-report,SRC457,2,0,merged: fullest printed form of Guggenheim Structured Real Estate III
+"Guggenheim Structured Real Estate, L.P.","Guggenheim Structured Real Estate, L.P.",Guggenheim Structured Real Estate,FUND_0570,decided,02-performance,SRC058,6,0,distinct: unnumbered first fund not II or III
+"H&F Arrow 2, L.P.","H&F Arrow 2, L.P.",H&F,FUND_0571,decided,06-statements-and-economics,SRC407,2,0,distinct: named co-invest vehicle
+"H&F Clyde 2, L.P.","H&F Clyde 2, L.P.",H&F,FUND_0572,decided,06-statements-and-economics,SRC407,2,0,distinct: named co-invest vehicle
+"H&F Executives IX, L.P.","H&F Executives IX, L.P.",H&F,FUND_0573,decided,06-statements-and-economics,SRC407,2,0,distinct: Executives IX not VIII
+"H&F Executives VIII, L.P.","H&F Executives VIII, L.P.",H&F,FUND_0574,decided,06-statements-and-economics,SRC407,2,0,distinct: Executives VIII not IX
+"H.I.G. Advantage Buyout Fund, L.P.","H.I.G. Advantage Buyout Fund, L.P.",H.I.G.,FUND_0575,decided,06-statements-and-economics,SRC407,2,0,distinct: advantage buyout strategy
+"H.I.G. Bayside Debt & LBO Fund II, L.P.","H.I.G. Bayside Debt & LBO Fund II, L.P.",H.I.G.,FUND_0576,decided,06-statements-and-economics,SRC407,2,0,distinct: Bayside debt strategy
+"H.I.G. Capital Partners IV, L.P.","H.I.G. Capital Partners IV, L.P.",H.I.G.,FUND_0577,decided,06-statements-and-economics,SRC407,2,0,distinct: Fund IV not Fund V
+"H.I.G. Capital Partners V, L.P.","H.I.G. Capital Partners V, L.P.",H.I.G.,FUND_0578,decided,06-statements-and-economics,SRC407,2,0,distinct: Fund V not Fund IV
+"H.I.G. Growth Buyouts & Equity Fund II, L.P.","H.I.G. Growth Buyouts & Equity Fund II, L.P.",H.I.G.,FUND_0579,decided,06-statements-and-economics,SRC407,2,0,distinct: growth strategy not Capital Partners
+Halderman Farmland Separate Account,Halderman Farmland Separate Account,,FUND_0580,decided,04-quarterly-report,SRC457,16,0,sole printed spelling; confirmed
+"Halifax Capital Partners IV, L.P.","Halifax Capital Partners IV, L.P.",Halifax Capital Partners,FUND_0581,decided,06-statements-and-economics,SRC407,2,0,distinct: Fund IV not Fund V
+"Halifax Capital Partners V, L.P.","Halifax Capital Partners V, L.P.",Halifax Capital Partners,FUND_0582,decided,06-statements-and-economics,SRC407,2,0,distinct: Fund V not Fund IV
+Hamilton Lane-Carpenters Partnership Fund IV L.P.,Hamilton Lane-Carpenters Partnership Fund IV L.P.,Hamilton Lane,FUND_0583,decided,06-statements-and-economics,SRC407,2,0,distinct: Fund IV not Fund V
+Hamilton Lane-Carpenters Partnership Fund V L.P.,Hamilton Lane-Carpenters Partnership Fund V L.P.,Hamilton Lane,FUND_0584,decided,06-statements-and-economics,SRC407,2,0,distinct: Fund V not Fund IV
+"Hammes Income & Growth Healthcare Fund, L.P.","Hammes Income & Growth Healthcare Fund, L.P.",Hammes,FUND_0585,decided,02-performance,SRC058,5,0,distinct: income and growth vehicle not Hammes Partners
+"Hammes Partners II, L.P.","Hammes Partners II, L.P.",Hammes,FUND_0586,decided,04-quarterly-report,SRC457,16,0,distinct: Fund II not Fund III
+"Hammes Partners III, L.P.","Hammes Partners III, L.P.",Hammes,FUND_0587,decided,04-quarterly-report,SRC457,15,0,distinct: Fund III not Fund II
+Hampstead I,Hampstead I,Hampstead,FUND_0588,decided,02-performance,SRC058,6,0,distinct: Fund I series
+Hampstead II,Hampstead II,Hampstead,FUND_0589,decided,02-performance,SRC058,6,0,distinct: Fund II series
+Hampstead III,Hampstead III,Hampstead,FUND_0590,decided,02-performance,SRC058,6,0,distinct: Fund III series
+"Hancock GLC Farms, LLC","Hancock GLC Farms, LLC",,FUND_0591,decided,04-quarterly-report,SRC457,17,0,sole printed spelling; confirmed
+HANNATHON CIV LP,HANNATHON CIV LP,,FUND_0592,decided,03-institutional-report,SRC356,1,0,sole printed spelling; kept as printed
+"Harbert Gulf Pacific Power, LLC (HGPP)","Harbert Gulf Pacific Power, LLC (HGPP)",Harbert,FUND_0593,decided,02-performance,SRC063,4,0,distinct: named asset vehicle
+"Harbert Infrastructure Fund VI, L.P.","Harbert Infrastructure Fund VI, L.P.",Harbert,FUND_0594,decided,02-performance,SRC063,2,0,distinct: infrastructure series
+"Harbert Power Fund V, L.P. (HPF V)","Harbert Power Fund V, L.P. (HPF V)",Harbert,FUND_0595,decided,02-performance,SRC063,4,0,distinct: power series not infrastructure
+Harrison Street Core Property Fund Co-Investment,Harrison Street Core Property Fund Co-Investment,Harrison Street,FUND_0596,decided,02-performance,SRC058,6,0,distinct: co-investment sleeve not the fund
+"Harrison Street Core Property Fund, LP","Harrison Street Core Property Fund, LP",Harrison Street,FUND_0597,decided,02-performance,SRC058,6,0,distinct: the fund not its co-investment sleeve
+Harrison Street Life Science Core,Harrison Street Life Science Core,Harrison Street,FUND_0598,decided,02-performance,SRC058,4,0,distinct: core life science vehicle
+Harrison Street Life Science Non-Core,Harrison Street Life Science Non-Core,Harrison Street,FUND_0599,decided,02-performance,SRC058,6,0,distinct: non-core life science vehicle
+Harrison Street Life Science SMA Account,Harrison Street Life Science SMA Account,Harrison Street,FUND_0600,decided,02-performance,SRC058,4,0,distinct: separate account not a commingled fund
+Harrison Street Real Estate Partners IX,Harrison Street Real Estate Partners IX,Harrison Street,FUND_0601,decided,02-performance,SRC058,6,0,distinct: Fund IX series
+Harrison Street Real Estate Partners V-A,Harrison Street Real Estate Partners V-A,Harrison Street,FUND_0602,decided,02-performance,SRC058,6,0,distinct: V-A parallel vehicle not the REP V co-investment
+Harrison Street REP V Co-Investment,Harrison Street REP V Co-Investment,Harrison Street,FUND_0603,decided,02-performance,SRC058,6,0,distinct: REP V co-investment sleeve not REP V-A
+Harrison Street REP VIII,Harrison Street REP VIII,Harrison Street,FUND_0604,decided,02-performance,SRC058,6,0,distinct: Fund VIII series
+Harrison Street SIF Co-Investment I,Harrison Street SIF Co-Investment I,Harrison Street,FUND_0605,decided,02-performance,SRC060,5,0,distinct: co-investment sleeve not the social infrastructure fund
+Harrison Street Social Infrastructure Fund,Harrison Street Social Infrastructure Fund,Harrison Street,FUND_0606,decided,02-performance,SRC060,5,0,distinct: the fund not its co-investment sleeve
+Harvest MLP,Harvest MLP,,FUND_0607,decided,04-quarterly-report,SRC457,14,0,distinct: shared word only; not a Harvest Partners vehicle
+"Harvest Partners Structured Capital Fund II, L.P.","Harvest Partners Structured Capital Fund II, L.P.",Harvest Partners,FUND_0608,decided,06-statements-and-economics,SRC407,2,0,distinct: Fund II not Fund III
+"Harvest Partners Structured Capital Fund III, L.P.","Harvest Partners Structured Capital Fund III, L.P.",Harvest Partners,FUND_0609,decided,06-statements-and-economics,SRC407,2,0,distinct: Fund III not Fund II
+"Harvest Partners Structured Capital Fund, L.P.","Harvest Partners Structured Capital Fund, L.P.",Harvest Partners,FUND_0610,decided,06-statements-and-economics,SRC407,2,0,distinct: unnumbered first fund not II or III
+"HC Green Development Fund, L.P.","HC Green Development Fund, L.P.",,FUND_0611,decided,02-performance,SRC063,5,0,sole printed spelling; HC prefix too thin for a family
+HC LTH LLC,HC LTH LLC,,FUND_0612,decided,02-performance,SRC063,3,0,sole printed spelling; HC prefix too thin for a family
+"HCB Interests II, L.P.","HCB Interests II, L.P.",,FUND_0613,decided,02-performance,SRC063,5,0,sole printed spelling; confirmed
+"HCI Equity Partners EV I, L.P.","HCI Equity Partners EV I, L.P.",HCI Equity Partners,FUND_0614,decided,06-statements-and-economics,SRC407,2,0,distinct: EV I co-invest vehicle
+"HCI Equity Partners IV, L.P.","HCI Equity Partners IV, L.P.",HCI Equity Partners,FUND_0615,decided,06-statements-and-economics,SRC407,2,0,distinct: Fund IV series
+"Hearthstone Housing Partners II, LLC","Hearthstone Housing Partners II, LLC",,FUND_0616,decided,02-performance,SRC063,1,0,confirmed sole printed variant
+"Heartwood Partners II, LP","Heartwood Partners II, LP",,FUND_0617,decided,06-statements-and-economics,SRC407,2,0,confirmed sole printed variant
+"Heitman America Real Estate Trust, L.P.","Heitman America Real Estate Trust, L.P.",,FUND_0618,decided,02-performance,SRC058,6,0,confirmed sole printed variant
+"Hellman & Friedman Capital Partners IX (Parallel), L.P.","Hellman & Friedman Capital Partners IX (Parallel), L.P.",Hellman & Friedman,FUND_0619,decided,06-statements-and-economics,SRC407,2,0,distinct: Fund IX parallel vehicle
+"Hellman & Friedman Capital Partners VII (Parallel), L.P.","Hellman & Friedman Capital Partners VII (Parallel), L.P.",Hellman & Friedman,FUND_0620,decided,06-statements-and-economics,SRC407,2,0,distinct: Fund VII parallel vehicle not the main fund
+"Hellman & Friedman Capital Partners VII, L.P.","Hellman & Friedman Capital Partners VII, L.P.",Hellman & Friedman,FUND_0621,decided,06-statements-and-economics,SRC407,2,0,distinct: main Fund VII not a parallel vehicle
+"Hellman & Friedman Capital Partners X (Parallel), L.P.","Hellman & Friedman Capital Partners X (Parallel), L.P.",Hellman & Friedman,FUND_0622,decided,06-statements-and-economics,SRC407,2,0,distinct: Fund X parallel vehicle
+"Hellman & Friedman Capital Partners XI (Parallel), L.P.","Hellman & Friedman Capital Partners XI (Parallel), L.P.",Hellman & Friedman,FUND_0623,decided,06-statements-and-economics,SRC407,1,0,distinct: Fund XI parallel vehicle
+Heritage Fields Capital,Heritage Fields Capital,,FUND_0624,decided,02-performance,SRC058,6,0,distinct: unrelated to Heritage Fund I
+"Heritage Fund I, L.P.","Heritage Fund I, L.P.",,FUND_0152,decided,A+B,SRC101,1,1,distinct: unrelated to Heritage Fields Capital
+"HFCP VII (Parallel-A), L.P.","HFCP VII (Parallel-A), L.P.",Hellman & Friedman,FUND_0625,decided,06-statements-and-economics,SRC407,2,0,distinct: Parallel-A is a separate vehicle from the (Parallel) fund
+Hg Genesis 7 C L.P.,Hg Genesis 7 C L.P.,Hg Genesis,FUND_0626,decided,06-statements-and-economics,SRC407,2,0,distinct: C vehicle not the E vehicle
+Hg Genesis 7 E L.P.,Hg Genesis 7 E L.P.,Hg Genesis,FUND_0627,decided,06-statements-and-economics,SRC407,2,0,distinct: E vehicle not the C vehicle
+Highstar Capital Fund IV,Highstar Capital Fund IV,,FUND_0628,decided,02-performance,SRC060,6,0,confirmed sole printed variant
+"HighVista Private Equity VIII (Offshore), L.P.","HighVista Private Equity VIII (Offshore), L.P.",,FUND_0629,decided,06-statements-and-economics,SRC407,2,0,confirmed sole printed variant
+HighYield Opportunities Fund,HighYield Opportunities Fund,,FUND_0630,decided,05-fund-legal-docs,SRC107,1,0,confirmed sole printed variant
+"Hildred Perennial Partners I, LP","Hildred Perennial Partners I, LP",,FUND_0631,decided,06-statements-and-economics,SRC407,2,0,confirmed sole printed variant
+"Hines European Development Fund, L.P.","Hines European Development Fund, L.P.",Hines,FUND_0632,decided,02-performance,SRC063,4,0,distinct: European vehicle not a U.S. office fund
+"Hines U.S. Office Value Added Fund, L.P.","Hines U.S. Office Value Added Fund, L.P.",Hines,FUND_0204,decided,A+B,SRC137,1,1,distinct: first U.S. office fund not Fund II
+Hines US Office Value Add Fund II,Hines US Office Value Add Fund II,Hines,FUND_0633,decided,02-performance,SRC058,6,0,distinct: Fund II is a later series than the Value Added Fund
+Homestead Capital USA Farmland Fund II,Homestead Capital USA Farmland Fund II,Homestead Capital,FUND_0634,decided,02-performance,SRC060,6,0,distinct: Fund II not Fund III
+"Homestead Capital USA Farmland Fund III, L.P.","Homestead Capital USA Farmland Fund III, L.P.",Homestead Capital,FUND_0023,decided,A+B,SRC035,1,1,distinct: Fund III not Fund II
+HPE Continuation Fund I C.V.,HPE Continuation Fund I C.V.,,FUND_0635,decided,06-statements-and-economics,SRC407,2,0,confirmed sole printed variant
+"Icon Partners II, L.P.","Icon Partners II, L.P.",Icon Partners,FUND_0636,decided,06-statements-and-economics,SRC407,2,0,distinct: Fund II not Fund III
+"Icon Partners III, L.P.","Icon Partners III, L.P.",Icon Partners,FUND_0637,decided,06-statements-and-economics,SRC407,2,0,distinct: Fund III not Fund II
+"IFM Global Infrastructure (U.S), L.P.","IFM Global Infrastructure (U.S), L.P.",,FUND_0638,decided,02-performance,SRC063,1,0,confirmed sole printed variant; (U.S) printed without the closing period
+IIF Hedged LP,IIF Hedged LP,,FUND_0639,decided,02-performance,SRC063,2,0,confirmed sole printed variant
+IL & FS India Realty Fund,IL & FS India Realty Fund,IL & FS,FUND_0640,decided,02-performance,SRC058,6,0,distinct: first fund not Fund II
+IL & FS India Realty Fund II,IL & FS India Realty Fund II,IL & FS,FUND_0641,decided,02-performance,SRC058,6,0,distinct: Fund II not the first fund
+IMI - Base,IMI - Base,,FUND_0642,decided,02-performance,SRC063,5,0,distinct: IMI account not the IMP account
+IMP - Base,IMP - Base,,FUND_0643,decided,02-performance,SRC063,5,0,distinct: IMP account not the IMI account
+IMP - DT 2012 and Beyond,IMP - DT 2012 and Beyond,,FUND_0644,decided,02-performance,SRC063,4,0,distinct: 2012 and beyond sleeve not IMP DT 2020
+IMP - ICMI,IMP - ICMI,,FUND_0645,decided,02-performance,SRC063,3,0,distinct: separate IMP sleeve
+IMP Abaca,IMP Abaca,,FUND_0646,decided,02-performance,SRC063,3,0,distinct: separate IMP sleeve
+IMP DT 2020,IMP DT 2020,,FUND_0647,decided,02-performance,SRC063,2,0,distinct: 2020 sleeve not IMP - DT 2012 and Beyond
+"IMP Fairmont Residential Owner, LLC","IMP Fairmont Residential Owner, LLC",,FUND_0648,decided,02-performance,SRC063,2,0,distinct: single property owner entity
+"Incline Equity Partners III (PSERS), L.P.","Incline Equity Partners III (PSERS), L.P.",,FUND_0001,decided,A+B,SRC029,1,1,confirmed sole printed variant
+Incubator Development Fund,Incubator Development Fund,,FUND_0144,decided,B,SRC040,0,1,confirmed sole printed variant
+Insight Equity I LP,Insight Equity I LP,Insight Equity,FUND_0649,decided,06-statements-and-economics,SRC407,2,0,distinct: Insight Equity is not the Insight Partners series
+Insight Equity II LP,Insight Equity II LP,Insight Equity,FUND_0650,decided,06-statements-and-economics,SRC407,2,0,distinct: Fund II not Fund I
+"Insight Partners (Cayman) XII Buyout Annex Fund, L.P.","Insight Partners (Cayman) XII Buyout Annex Fund, L.P.",Insight Partners,FUND_0651,decided,06-statements-and-economics,SRC407,2,0,distinct: Cayman annex vehicle for Fund XII
+"Insight Partners Continuation Fund (Cayman), L.P.","Insight Partners Continuation Fund (Cayman), L.P.",Insight Partners,FUND_0652,decided,06-statements-and-economics,SRC407,2,0,distinct: Cayman parallel of the continuation fund
+"Insight Partners Continuation Fund, L.P.","Insight Partners Continuation Fund, L.P.",Insight Partners,FUND_0653,decided,06-statements-and-economics,SRC407,2,0,distinct: onshore continuation fund not the Cayman vehicle
+"Insight Venture Partners (Cayman) IX, L.P.","Insight Venture Partners (Cayman) IX, L.P.",Insight Partners,FUND_0654,decided,06-statements-and-economics,SRC407,2,0,distinct: Cayman parallel of Fund IX
+"Insight Venture Partners (Cayman) VIII, L.P.","Insight Venture Partners (Cayman) VIII, L.P.",Insight Partners,FUND_0655,decided,06-statements-and-economics,SRC407,2,0,distinct: Cayman parallel of Fund VIII
+"Insight Venture Partners (Cayman) X, L.P.","Insight Venture Partners (Cayman) X, L.P.",Insight Partners,FUND_0656,decided,06-statements-and-economics,SRC407,2,0,distinct: Cayman parallel of Fund X
+"Insight Venture Partners Coinvestment Fund (Delaware) III, L.P.","Insight Venture Partners Coinvestment Fund (Delaware) III, L.P.",Insight Partners,FUND_0657,decided,06-statements-and-economics,SRC407,2,0,distinct: Delaware parallel of Coinvestment Fund III
+"Insight Venture Partners Coinvestment Fund II, L.P.","Insight Venture Partners Coinvestment Fund II, L.P.",Insight Partners,FUND_0658,decided,06-statements-and-economics,SRC407,2,0,distinct: Coinvestment Fund II not Fund III
+"Insight Venture Partners Coinvestment Fund III, L.P.","Insight Venture Partners Coinvestment Fund III, L.P.",Insight Partners,FUND_0659,decided,06-statements-and-economics,SRC407,2,0,distinct: not the Delaware parallel of the same series number
+"Insight Venture Partners Growth-Buyout Coinvestment Fund (Cayman), L.P.","Insight Venture Partners Growth-Buyout Coinvestment Fund (Cayman), L.P.",Insight Partners,FUND_0660,decided,06-statements-and-economics,SRC407,2,0,distinct: Cayman parallel of the growth-buyout coinvestment fund
+"Insight Venture Partners Growth-Buyout Coinvestment Fund, L.P.","Insight Venture Partners Growth-Buyout Coinvestment Fund, L.P.",Insight Partners,FUND_0661,decided,06-statements-and-economics,SRC407,2,0,distinct: onshore vehicle not the Cayman parallel
+"Insight Venture Partners IX, L.P.","Insight Venture Partners IX, L.P.",Insight Partners,FUND_0662,decided,06-statements-and-economics,SRC407,2,0,distinct: main Fund IX not the Cayman parallel
+"Insight Venture Partners VII, L.P.","Insight Venture Partners VII, L.P.",Insight Partners,FUND_0663,decided,06-statements-and-economics,SRC407,2,0,distinct: Fund VII is its own series number
+"Insight Venture Partners VIII (Co-Investors), L.P.","Insight Venture Partners VIII (Co-Investors), L.P.",Insight Partners,FUND_0664,decided,06-statements-and-economics,SRC407,2,0,distinct: co-investor sleeve of Fund VIII
+"Insight Venture Partners VIII, L.P.","Insight Venture Partners VIII, L.P.",Insight Partners,FUND_0665,decided,06-statements-and-economics,SRC407,2,0,distinct: main Fund VIII not the co-investor or Cayman vehicle
+"Institutional Logistics Partners, LLC","Institutional Logistics Partners, LLC",,FUND_0666,decided,02-performance,SRC063,5,0,confirmed sole printed variant
+International Infrastructure Finance Company Fund,International Infrastructure Finance Company Fund,,FUND_0667,decided,02-performance,SRC060,6,0,confirmed sole printed variant
+"Investcorp Aspen Offshore Fund, L.P.","Investcorp Aspen Offshore Fund, L.P.",,FUND_0668,decided,06-statements-and-economics,SRC407,2,0,confirmed sole printed variant
+Investindustrial VII L.P.,Investindustrial VII L.P.,,FUND_0669,decided,06-statements-and-economics,SRC407,2,0,confirmed sole printed variant
+"Ironsides Offshore Direct Investment Fund V, L.P.","Ironsides Offshore Direct Investment Fund V, L.P.",,FUND_0670,decided,06-statements-and-economics,SRC407,2,0,confirmed sole printed variant
+Ivy Investment Vehicle LDC (SWPM),Ivy Investment Vehicle LDC (SWPM),,FUND_0671,decided,02-performance,SRC063,1,0,confirmed sole printed variant
+"JEFFERSON PARTNERS FUND IV (PA), L.P.","JEFFERSON PARTNERS FUND IV (PA), L.P.",Jefferson Partners,FUND_0205,decided,A+B,SRC102,1,1,distinct: PA vehicle; upper case is the only printed spelling of it
+"Jefferson Partners Fund IV, (U.S.), L.P.","Jefferson Partners Fund IV, (U.S.), L.P.",Jefferson Partners,FUND_0155,decided,A+B,SRC102,1,1,distinct: U.S. vehicle not the PA or main fund
+"Jefferson Partners Fund IV, L.P.","Jefferson Partners Fund IV, L.P.",Jefferson Partners,FUND_0153,decided,A+B,SRC102,1,1,distinct: main Fund IV not the U.S. or PA vehicle
+JER Real Estate Partners,JER Real Estate Partners,JER Real Estate Partners,FUND_0672,decided,02-performance,SRC058,6,0,distinct: first fund not Fund II
+JER Real Estate Partners II,JER Real Estate Partners II,JER Real Estate Partners,FUND_0673,decided,02-performance,SRC058,6,0,distinct: Fund II not the first fund
+JLL Income Property Trust,JLL Income Property Trust,,FUND_0674,decided,06-statements-and-economics,SRC132,22,0,distinct: unrelated to JLL Partners; shared initials only
+"JLL Partners Fund VII Secondary (A), L.P.","JLL Partners Fund VII Secondary (A), L.P.",,FUND_0675,decided,06-statements-and-economics,SRC407,2,0,distinct: unrelated to JLL Income Property Trust; shared initials only
+JP Morgan Strategic Property Fund,JP Morgan Strategic Property Fund,,FUND_0676,decided,02-performance,SRC058,6,0,merged with JPMCB Strategic Property Fund: same open-end vehicle
+JPMCB Strategic Property Fund,JP Morgan Strategic Property Fund,,FUND_0676,decided,A+B,SRC137,1,1,merged: JPMCB is the bank abbreviation for the same Strategic Property Fund
+JPMorgan US Government Money Market Fund,JPMorgan US Government Money Market Fund,,FUND_0677,decided,06-statements-and-economics,SRC407,2,0,distinct: money market fund not the Strategic Property Fund
+"K1 Special Opportunities Fund, L.P.","K1 Special Opportunities Fund, L.P.",,FUND_0024,decided,A+B,SRC035,1,1,confirmed sole printed variant
+"K4 Private Investors, L.P.","K4 Private Investors, L.P.",,FUND_0025,decided,A+B,SRC035,1,1,distinct: K4 not K5
+"K5 Private Investors, L.P.","K5 Private Investors, L.P.",,FUND_0026,decided,A+B,SRC035,1,1,distinct: K5 not K4
+"Kelso Investment Associates IX, L.P.","Kelso Investment Associates IX, L.P.",Kelso Investment Associates,FUND_0678,decided,06-statements-and-economics,SRC407,2,0,distinct: Fund IX not Fund VIII
+"Kelso Investment Associates VIII, L.P.","Kelso Investment Associates VIII, L.P.",Kelso Investment Associates,FUND_0679,decided,06-statements-and-economics,SRC407,2,0,distinct: Fund VIII not Fund IX
+"KeyStone Industrial Fund, LP","KeyStone Industrial Fund, LP",,FUND_0680,decided,02-performance,SRC058,6,0,confirmed sole printed variant
+Khosla Ventures III,Khosla Ventures III,,FUND_0113,decided,A+B,SRC037,1,1,confirmed sole printed variant
+"Kildare European Partners I, L.P.","Kildare European Partners I, L.P.",Kildare European Partners,FUND_0681,decided,04-quarterly-report,SRC457,16,0,distinct: Fund I not Fund II
+"Kildare European Partners II, L.P.","Kildare European Partners II, L.P.",Kildare European Partners,FUND_0682,decided,04-quarterly-report,SRC457,15,0,distinct: Fund II not Fund I
+KKR Americas Fund XII L.P.,KKR Americas Fund XII L.P.,KKR,FUND_0683,decided,06-statements-and-economics,SRC407,2,0,distinct: Americas Fund XII not the North America Fund XI
+KKR Asian Fund II TE Blocker L.P.,KKR Asian Fund II TE Blocker L.P.,KKR,FUND_0684,decided,06-statements-and-economics,SRC407,2,0,distinct: tax-exempt blocker of the Asian Fund II
+KKR European Fund V (USD) SCSp,KKR European Fund V (USD) SCSp,KKR,FUND_0685,decided,06-statements-and-economics,SRC407,2,0,distinct: European series vehicle
+KKR North America Fund XI L.P.,KKR North America Fund XI L.P.,KKR,FUND_0686,decided,06-statements-and-economics,SRC407,2,0,distinct: North America Fund XI not the Americas Fund XII
+"KTR Industrial Fund II, LP","KTR Industrial Fund II, LP",KTR Industrial Fund,FUND_0687,decided,02-performance,SRC058,6,0,distinct: Fund II not Fund III
+KTR Industrial Fund III,KTR Industrial Fund III,KTR Industrial Fund,FUND_0688,decided,02-performance,SRC058,6,0,distinct: Fund III not Fund II
+"L Catterton IX, L.P.","L Catterton IX, L.P.",,FUND_0689,decided,06-statements-and-economics,SRC407,2,0,confirmed sole printed variant
+Land Management Company Resmark,Land Management Company Resmark,,FUND_0690,decided,02-performance,SRC063,3,0,confirmed sole printed variant
+"Landmark Real Estate Partners VII, L.P.","Landmark Real Estate Partners VII, L.P.",,FUND_0691,decided,02-performance,SRC058,6,0,confirmed sole printed variant
+LaSalle REIT,LaSalle REIT,,FUND_0692,decided,02-performance,SRC058,3,0,confirmed sole printed variant
+"Latitude Management Real Estate Capital III, Inc.","Latitude Management Real Estate Capital III, Inc.",,FUND_0207,decided,A+B,SRC137,1,1,confirmed sole printed variant
+LBA Core Industrial,LBA Core Industrial,LBA,FUND_0693,decided,02-performance,SRC058,4,0,distinct: core vehicle not a Logistics Value fund
+LBA Logistics Value Fund IX,LBA Logistics Value Fund IX,LBA,FUND_0694,decided,02-performance,SRC058,6,0,distinct: Fund IX not Fund X
+"LBA Logistics Value Fund X, LP","LBA Logistics Value Fund X, LP",LBA,FUND_0695,decided,02-performance,SRC058,3,0,distinct: Fund X not Fund IX
+"LCCG Diversified Risk CMBS Fund II, LLC","LCCG Diversified Risk CMBS Fund II, LLC",LCCG,FUND_0208,decided,A+B,SRC137,1,1,distinct: diversified risk CMBS vehicle
+"LCCG High Yield CMBS Fund III, LLC","LCCG High Yield CMBS Fund III, LLC",LCCG,FUND_0209,decided,A+B,SRC137,1,1,distinct: high yield CMBS vehicle
+LCCG R E Special Situations Mortgage Fund,LCCG R E Special Situations Mortgage Fund,LCCG,FUND_0210,decided,A+B,SRC137,1,1,distinct: mortgage special situations vehicle
+"Lee Equity Partners Fund II, L.P.","Lee Equity Partners Fund II, L.P.",,FUND_0696,decided,06-statements-and-economics,SRC407,2,0,confirmed sole printed variant
+Legg Mason Real Estate Capital,Legg Mason Real Estate Capital,Legg Mason Real Estate Capital,FUND_0211,decided,A+B,SRC137,1,1,distinct: first fund not Fund II
+Legg Mason Real Estate Capital II,Legg Mason Real Estate Capital II,Legg Mason Real Estate Capital,FUND_0212,decided,A+B,SRC137,1,1,distinct: Fund II not the first fund
+"LEM Real Estate Mezzanine Fund II, L.P.","LEM Real Estate Mezzanine Fund II, L.P.",,FUND_0213,decided,A+B,SRC137,1,1,confirmed sole printed variant
+"LF Strategic Realty Investors II, L.P.","LF Strategic Realty Investors II, L.P.",LF Strategic Realty Investors,FUND_0214,decided,A+B,SRC137,1,1,distinct: Fund II not the first fund
+"LF Strategic Realty Investors, L.P.","LF Strategic Realty Investors, L.P.",LF Strategic Realty Investors,FUND_0215,decided,A+B,SRC137,1,1,distinct: first fund not Fund II
+Life Science Investment Fund,Life Science Investment Fund,,FUND_0145,decided,B,SRC040,0,1,confirmed sole printed variant
+"Lightspeed Venture Partners IX, L.P.","Lightspeed Venture Partners IX, L.P.",,FUND_0697,decided,06-statements-and-economics,SRC407,2,0,confirmed sole printed variant
+Lime Rock Resources III,"Lime Rock Resources III, L.P.",,FUND_1040,decided,04-quarterly-report,SRC457,2,0,merged: short print of the same fund in the same source
+"Lime Rock Resources III, L.P.","Lime Rock Resources III, L.P.",,FUND_1040,decided,04-quarterly-report,SRC457,13,0,merged: fullest printed form is the standard
+Lincoln CIP Industrial Value Add,Lincoln CIP Industrial Value Add,,FUND_0699,decided,02-performance,SRC058,5,0,distinct: named Lincoln vehicle
+Lincoln Holdings,Lincoln Holdings,,FUND_0700,decided,02-performance,SRC058,4,0,distinct: named Lincoln vehicle
+Lincoln Non Mandate,Lincoln Non Mandate,,FUND_0701,decided,02-performance,SRC058,4,0,distinct: non mandate bucket reported separately
+Lincoln Timber L.P.,Lincoln Timber L.P.,,FUND_0702,decided,02-performance,SRC063,5,0,distinct: timber vehicle in a different source from the SRC058 Lincoln rows
+Lion Mexico Fund,Lion Mexico Fund,,FUND_0703,decided,02-performance,SRC058,6,0,distinct: unrelated to Lion/Simba Investors
+"Lion/Simba Investors, L.P.","Lion/Simba Investors, L.P.",,FUND_0704,decided,06-statements-and-economics,SRC407,2,0,distinct: unrelated to Lion Mexico Fund
+Lionstone CFO ONE,Lionstone CFO ONE,Lionstone,FUND_0705,decided,02-performance,SRC058,4,0,distinct: mandate row not the non mandate bucket
+Lionstone CFO One Non Mandate,Lionstone CFO One Non Mandate,Lionstone,FUND_0706,decided,02-performance,SRC058,4,0,distinct: non mandate bucket reported separately
+Lionstone Westloop,Lionstone Westloop,Lionstone,FUND_0707,decided,02-performance,SRC058,4,0,distinct: separate Lionstone vehicle
+"Littlejohn Fund IV, L.P.","Littlejohn Fund IV, L.P.",Littlejohn,FUND_0708,decided,06-statements-and-economics,SRC407,2,0,distinct: Fund IV not Fund V
+"Littlejohn Fund V, L.P.","Littlejohn Fund V, L.P.",Littlejohn,FUND_0709,decided,06-statements-and-economics,SRC407,2,0,distinct: Fund V not Fund IV
+Lone Star Fund I,Lone Star Fund I,Lone Star,FUND_0710,decided,02-performance,SRC058,6,0,confirmed sole Lone Star vehicle in this range
+Lone Star Fund II,Lone Star Fund II,Lone Star,FUND_0711,decided,02-performance,SRC058,6,0,distinct series vintage; no fuller printed form
+Lone Star Fund III,Lone Star Fund III,Lone Star,FUND_0712,decided,02-performance,SRC058,6,0,distinct series vintage; no fuller printed form
+Lone Star Fund IV,Lone Star Fund IV,Lone Star,FUND_0713,decided,02-performance,SRC058,6,0,distinct series vintage; no fuller printed form
+Lone Star Fund IX,Lone Star Fund IX,Lone Star,FUND_0714,decided,02-performance,SRC058,6,0,distinct series vintage; no fuller printed form
+Lone Star Fund V,Lone Star Fund V,Lone Star,FUND_0715,decided,02-performance,SRC058,6,0,distinct series vintage; no fuller printed form
+Lone Star Fund VI,Lone Star Fund VI,Lone Star,FUND_0716,decided,02-performance,SRC058,6,0,distinct series vintage; no fuller printed form
+Lone Star Fund VII,"Lone Star Fund VII (U.S.), L.P.",Lone Star,FUND_0718,decided,02-performance,SRC058,6,0,merged into the fuller printed U.S. L.P. form of Fund VII
+"Lone Star Fund VII (U.S.), L.P.","Lone Star Fund VII (U.S.), L.P.",Lone Star,FUND_0718,decided,04-quarterly-report,SRC457,16,0,fullest printed form for Fund VII; absorbs the short variant
+Lone Star Fund VIII,"Lone Star Fund VIII (U.S.), L.P.",Lone Star,FUND_0720,decided,02-performance,SRC058,6,0,merged into the fuller printed U.S. L.P. form of Fund VIII
+"Lone Star Fund VIII (U.S.), L.P.","Lone Star Fund VIII (U.S.), L.P.",Lone Star,FUND_0720,decided,04-quarterly-report,SRC457,17,0,fullest printed form for Fund VIII; absorbs the short variant
+"Lone Star Fund X (U.S.), L.P.","Lone Star Fund X (U.S.), L.P.",Lone Star,FUND_0721,decided,04-quarterly-report,SRC457,15,0,distinct series vintage; sole printed variant of Fund X
+"Lone Star Fund XI (U.S.), L.P.","Lone Star Fund XI (U.S.), L.P.",Lone Star,FUND_0722,decided,04-quarterly-report,SRC457,3,0,fullest printed form for Fund XI; absorbs the shorter L.P. variant
+"Lone Star Fund XI, L.P.","Lone Star Fund XI (U.S.), L.P.",Lone Star,FUND_0722,decided,04-quarterly-report,SRC457,11,0,same Fund XI printed without the U.S. designator in the same report
+Lone Star Real Estate Fund,Lone Star Real Estate Fund,Lone Star,FUND_0724,decided,02-performance,SRC058,6,0,distinct from the numbered real estate funds and from Lone Star Fund II
+Lone Star Real Estate Fund II,"Lone Star Real Estate Fund II (U.S.), L.P.",Lone Star,FUND_0726,decided,02-performance,SRC058,6,0,merged into the fuller printed U.S. L.P. form; not Lone Star Fund II
+"Lone Star Real Estate Fund II (U.S.), L.P.","Lone Star Real Estate Fund II (U.S.), L.P.",Lone Star,FUND_0726,decided,04-quarterly-report,SRC457,17,0,fullest printed form for Real Estate Fund II; absorbs the short variant
+Lone Star Real Estate Fund III,Lone Star Real Estate Fund III,Lone Star,FUND_0727,decided,02-performance,SRC058,6,0,distinct series vintage; no fuller printed form
+Lone Star Real Estate Fund IV,Lone Star Real Estate Fund IV,Lone Star,FUND_0728,decided,02-performance,SRC058,6,0,distinct series vintage; no fuller printed form
+Lone Star Real Estate Fund V,"Lone Star Real Estate Fund V (U.S.), L.P.",Lone Star,FUND_0730,decided,02-performance,SRC058,6,0,merged into the fuller printed U.S. L.P. form of Real Estate Fund V
+"Lone Star Real Estate Fund V (U.S.), L.P.","Lone Star Real Estate Fund V (U.S.), L.P.",Lone Star,FUND_0730,decided,04-quarterly-report,SRC457,15,0,fullest printed form for Real Estate Fund V; absorbs the short variant
+"Lone Star Real Estate Fund VI, L.P.","Lone Star Real Estate Fund VI, L.P.",Lone Star,FUND_0731,decided,04-quarterly-report,SRC457,12,0,distinct series vintage; sole printed variant of Real Estate Fund VI
+"LORE One, L.P. (Core)","LORE One, L.P. (Core)",LORE One,FUND_0732,decided,02-performance,SRC058,4,0,distinct strategy sleeve from the Value Add sleeve
+"LORE One, L.P. (Value Add)","LORE One, L.P. (Value Add)",LORE One,FUND_0733,decided,02-performance,SRC058,4,0,distinct strategy sleeve from the Core sleeve
+Lovell Minnick Equity Partners III LP,Lovell Minnick Equity Partners III LP,,FUND_0734,decided,06-statements-and-economics,SRC407,2,0,sole printed variant; no sibling in range
+LS Power Equity Partners III,LS Power Equity Partners III,LS Power,FUND_0735,decided,02-performance,SRC060,6,0,distinct series vintage
+LS Power Equity Partners IV,LS Power Equity Partners IV,LS Power,FUND_0736,decided,02-performance,SRC060,6,0,distinct series vintage
+Lubert-Adler Real Estate Fund II,Lubert-Adler Real Estate Fund II,Lubert-Adler,FUND_0216,decided,A+B,SRC137,1,1,distinct series vintage
+Lubert-Adler Real Estate Fund III,Lubert-Adler Real Estate Fund III,Lubert-Adler,FUND_0217,decided,A+B,SRC137,1,1,distinct series vintage
+Lubert-Adler Real Estate Fund IV,Lubert-Adler Real Estate Fund IV,Lubert-Adler,FUND_0218,decided,A+B,SRC137,1,1,distinct series vintage
+Lubert-Adler Real Estate Fund V,Lubert-Adler Real Estate Fund V,Lubert-Adler,FUND_0219,decided,A+B,SRC137,1,1,distinct series vintage
+Lubert-Adler Real Estate Fund VI,Lubert-Adler Real Estate Fund VI,Lubert-Adler,FUND_0220,decided,A+B,SRC137,1,1,distinct series vintage
+"Lubert-Adler Real Estate Fund VII, L.P.","Lubert-Adler Real Estate Fund VII, L.P.",Lubert-Adler,FUND_0737,decided,05-fund-legal-docs,SRC607,3,0,distinct series vintage
+Madison Dearborn Capital Partners VII,Madison Dearborn Capital Partners VII,Madison Dearborn,FUND_0738,decided,06-statements-and-economics,SRC407,2,0,distinct series vintage
+"Madison Dearborn Capital Partners VIII-A, L.P.","Madison Dearborn Capital Partners VIII-A, L.P.",Madison Dearborn,FUND_0739,decided,06-statements-and-economics,SRC407,2,0,distinct series vintage; VIII-A is its own vehicle
+Madison Marquette Retail Enhancement Fund LP,Madison Marquette Retail Enhancement Fund LP,,FUND_0221,decided,A+B,SRC137,1,1,distinct sponsor from Madison Dearborn and Madison Realty; shared word is not a family
+"Madison Realty Capital Debt Fund III, LP","Madison Realty Capital Debt Fund III, LP",,FUND_0740,decided,02-performance,SRC058,6,0,distinct sponsor from Madison Dearborn and Madison Marquette; shared word is not a family
+"Madrona Venture Fund III, L.P.","Madrona Venture Fund III, L.P.",,FUND_0027,decided,A+B,SRC035,1,1,sole printed variant; no sibling in range
+Main Capital IX Feeder (A) C.V.,Main Capital IX Feeder (A) C.V.,,FUND_0741,decided,03-institutional-report,SRC216,1,0,distinct vehicle from Main Foundation III; stem too generic for a family
+Main Foundation III Feeder (A) C.V.,Main Foundation III Feeder (A) C.V.,,FUND_0742,decided,03-institutional-report,SRC216,1,0,distinct vehicle from Main Capital IX; stem too generic for a family
+"Marlin Equity III, L.P.","Marlin Equity III, L.P.",,FUND_0743,decided,06-statements-and-economics,SRC407,2,0,sole printed variant; no sibling in range
+Maryland Technology Commercialization Fund,Maryland Technology Commercialization Fund,,FUND_0148,decided,B,SRC040,0,1,distinct vehicle from Maryland Venture Fund; geographic word is not a family
+Maryland Venture Fund,Maryland Venture Fund,,FUND_0149,decided,B,SRC040,0,1,distinct vehicle from Maryland Technology Commercialization Fund; geographic word is not a family
+"MDCP Insurance SPV, L.P.","MDCP Insurance SPV, L.P.",,FUND_0744,decided,06-statements-and-economics,SRC407,2,0,sole printed variant; abbreviation is not a printed family stem
+Media Technology Ventures V,Media Technology Ventures V,,FUND_0114,decided,A+B,SRC037,1,1,sole printed variant; no sibling in range
+"Merit Mezzanine Fund VI, L.P.","Merit Mezzanine Fund VI, L.P.",,FUND_0745,decided,06-statements-and-economics,SRC407,2,0,sole printed variant; distinct from the generic Mezzanine Fund row
+"MGPA Asia Fund III, L.P.","MGPA Asia Fund III, L.P.",MGPA,FUND_0222,decided,A+B,SRC137,1,1,distinct regional fund from MGPA Europe Fund III
+"MGPA Europe Fund III, L.P.","MGPA Europe Fund III, L.P.",MGPA,FUND_0223,decided,A+B,SRC137,1,1,distinct regional fund from MGPA Asia Fund III
+Mid Europa Fund V LP,Mid Europa Fund V LP,,FUND_0746,decided,06-statements-and-economics,SRC407,2,0,sole printed variant; no sibling in range
+"Milestone Partners II, L.P.","Milestone Partners II, L.P.",,FUND_0002,decided,A+B,SRC029,1,1,sole printed variant; no sibling in range
+Montagu+ SCSp,Montagu+ SCSp,,FUND_0747,decided,06-statements-and-economics,SRC407,2,0,sole printed variant; no sibling in range
+"Montlake Capital II, L.P.","Montlake Capital II, L.P.",,FUND_0028,decided,A+B,SRC035,1,1,sole printed variant; no sibling in range
+Morgan Stanley Global REIT,Morgan Stanley Global REIT,Morgan Stanley,FUND_0748,decided,02-performance,SRC058,3,0,distinct vehicle from the real estate fund series
+Morgan Stanley Prime Property Fund,Morgan Stanley Prime Property Fund,Morgan Stanley,FUND_0749,decided,02-performance,SRC058,6,0,distinct open-end vehicle from the real estate fund series
+Morgan Stanley Real Estate Fund II,Morgan Stanley Real Estate Fund II,Morgan Stanley,FUND_0224,decided,A+B,SRC137,1,1,distinct series vintage
+Morgan Stanley Real Estate Fund IV Spec Dom,Morgan Stanley Real Estate Fund IV Spec Dom,Morgan Stanley,FUND_0225,decided,A+B,SRC137,1,1,distinct sleeve of Fund IV from Spec Intl
+Morgan Stanley Real Estate Fund IV Spec Intl,Morgan Stanley Real Estate Fund IV Spec Intl,Morgan Stanley,FUND_0226,decided,A+B,SRC137,1,1,distinct sleeve of Fund IV from Spec Dom
+Morgan Stanley Real Estate Fund V Spec Intl,Morgan Stanley Real Estate Fund V Spec Intl,Morgan Stanley,FUND_0227,decided,A+B,SRC137,1,1,distinct sleeve of Fund V from the U.S. sleeve
+Morgan Stanley Real Estate Fund V U.S.,Morgan Stanley Real Estate Fund V U.S.,Morgan Stanley,FUND_0228,decided,A+B,SRC137,1,1,distinct sleeve of Fund V from Spec Intl
+Morgan Stanley Real Estate Fund VI Spec Intl,Morgan Stanley Real Estate Fund VI Spec Intl,Morgan Stanley,FUND_0229,decided,A+B,SRC137,1,1,distinct series vintage
+"Morgan Stanley Real Estate Fund VII Global, L.P.","Morgan Stanley Real Estate Fund VII Global, L.P.",Morgan Stanley,FUND_0230,decided,A+B,SRC137,1,1,distinct series vintage
+"MPE Partners II, L.P.","MPE Partners II, L.P.",,FUND_0750,decided,06-statements-and-economics,SRC407,1,0,sole printed variant; no sibling in range
+"National Office Partners, LLC (CWP)","National Office Partners, LLC (CWP)",,FUND_0751,decided,02-performance,SRC063,1,0,sole printed variant; joint venture entity with no sibling in range
+NB Credit Opportunities II Cayman Feeder LP,NB Credit Opportunities II Cayman Feeder LP,,FUND_0753,decided,06-statements-and-economics,SRC407,2,0,sole printed variant; abbreviation is not a printed family stem
+"NB SPV, L.P.","NB SPV, L.P.",,FUND_0754,decided,06-statements-and-economics,SRC407,2,0,sole printed variant; abbreviation is not a printed family stem
+"NCT Ventures Fund I, L.P.","NCT Ventures Fund I, L.P.",NCT Ventures,FUND_0096,decided,A+B,SRC036,1,1,distinct series vintage
+"NCT Ventures Fund II, L.P.","NCT Ventures Fund II, L.P.",NCT Ventures,FUND_0097,decided,A+B,SRC036,1,1,distinct series vintage
+NCV SELECT I LP,NCV SELECT I LP,,FUND_0755,decided,03-institutional-report,SRC356,1,0,sole printed variant; no sibling in range
+"Neptune Regional Transmission System, LLC","Neptune Regional Transmission System, LLC",,FUND_0756,decided,02-performance,SRC063,5,0,sole printed variant; asset holding company with no sibling in range
+"New Capital Partners Private Equity Fund II, L.P.","New Capital Partners Private Equity Fund II, L.P.",,FUND_0757,decided,06-statements-and-economics,SRC407,1,0,sole printed variant; no sibling in range
+"New Enterprise Associates 12, Limited Partnership","New Enterprise Associates 12, Limited Partnership",New Enterprise Associates,FUND_0758,decided,06-statements-and-economics,SRC407,2,0,distinct series vintage from fund 13
+New Enterprise Associates 13,New Enterprise Associates 13,New Enterprise Associates,FUND_0115,decided,A+B,SRC037,1,1,distinct series vintage from fund 12
+NEW HORIZONS EL PASO LP,NEW HORIZONS EL PASO LP,,FUND_0759,decided,03-institutional-report,SRC356,1,0,sole printed variant; case preserved as printed
+"New Mountain Partners III, L.P.","New Mountain Partners III, L.P.",New Mountain,FUND_0761,decided,06-statements-and-economics,SRC407,2,0,distinct series vintage
+"New Mountain Partners IV, L.P.","New Mountain Partners IV, L.P.",New Mountain,FUND_0003,decided,A+B,SRC029,1,1,distinct series vintage
+"New Mountain Partners V, L.P.","New Mountain Partners V, L.P.",New Mountain,FUND_0762,decided,06-statements-and-economics,SRC407,2,0,distinct series vintage
+"New Mountain SRC Rollover Fund, L.P.","New Mountain SRC Rollover Fund, L.P.",New Mountain,FUND_0763,decided,06-statements-and-economics,SRC407,2,0,distinct rollover vehicle from the numbered partnerships
+"NewView Capital Fund I, L.P.","NewView Capital Fund I, L.P.",,FUND_0764,decided,06-statements-and-economics,SRC407,2,0,sole printed variant; no sibling in range
+NEXT COAST VENTURES III LP,NEXT COAST VENTURES III LP,,FUND_0765,decided,03-institutional-report,SRC356,1,0,sole printed variant; case preserved as printed
+NGP Agribusiness Follow-on Program,NGP Agribusiness Follow-on Program,NGP,FUND_0766,decided,02-performance,SRC060,6,0,distinct programme from the numbered NGP funds
+NGP Natural Resources X,NGP Natural Resources X,NGP,FUND_0767,decided,02-performance,SRC060,6,0,distinct series vintage
+NGP Natural Resources XI,NGP Natural Resources XI,NGP,FUND_0768,decided,02-performance,SRC060,6,0,distinct series vintage
+NGP Natural Resources XII,NGP Natural Resources XII,NGP,FUND_0769,decided,02-performance,SRC060,6,0,distinct series vintage
+NGP Royalty Partners,NGP Royalty Partners,NGP,FUND_0770,decided,02-performance,SRC060,5,0,distinct first royalty vehicle; not the side car and not Fund II
+NGP Royalty Partners Co-Investment Side Car,NGP Royalty Partners Co-Investment Side Car,NGP,FUND_0771,decided,02-performance,SRC060,5,0,distinct side car vehicle alongside NGP Royalty Partners
+NGP Royalty Partners Fund II,NGP Royalty Partners Fund II,NGP,FUND_0772,decided,02-performance,SRC060,5,0,distinct series vintage; not the Fund II side car
+NGP Royalty Partners II Co-Investment Side Car,NGP Royalty Partners II Co-Investment Side Car,NGP,FUND_0773,decided,02-performance,SRC060,5,0,distinct side car vehicle alongside NGP Royalty Partners Fund II
+Njord SCSp,Njord SCSp,,FUND_0774,decided,06-statements-and-economics,SRC407,1,0,sole printed variant; no sibling in range
+"North Bridge Growth Equity II, L.P.","North Bridge Growth Equity II, L.P.",,FUND_0775,decided,06-statements-and-economics,SRC407,2,0,sole printed variant; no sibling in range
+"North Haven Infrastructure Partners II, L.P.","North Haven Infrastructure Partners II, L.P.",,FUND_0776,decided,02-performance,SRC063,4,0,sole printed variant; distinct printed stem from the Morgan Stanley funds
+Northern Shipping Fund III,Northern Shipping Fund III,Northern Shipping,FUND_0777,decided,02-performance,SRC060,6,0,distinct series vintage
+Northern Shipping Fund IV,Northern Shipping Fund IV,Northern Shipping,FUND_0778,decided,02-performance,SRC060,6,0,distinct series vintage
+"Northwest Technology Ventures, L.P.","Northwest Technology Ventures, L.P.",,FUND_0029,decided,A+B,SRC035,1,1,sole printed variant; no sibling in range
+"Norwest Mezzanine Partners III, LP","Norwest Mezzanine Partners III, LP",Norwest Mezzanine Partners,FUND_0779,decided,06-statements-and-economics,SRC407,2,0,distinct series vintage
+Norwest Mezzanine Partners IV,Norwest Mezzanine Partners IV,Norwest Mezzanine Partners,FUND_0780,decided,06-statements-and-economics,SRC407,2,0,distinct series vintage
+"Norwest Mezzanine Partners V-A, LP","Norwest Mezzanine Partners V-A, LP",Norwest Mezzanine Partners,FUND_0781,decided,06-statements-and-economics,SRC407,2,0,distinct series vintage; V-A is its own vehicle
+Nuveen U.S. Cities Industrial Fund,Nuveen U.S. Cities Industrial Fund,Nuveen,FUND_0782,decided,02-performance,SRC058,6,0,distinct sector fund from the multifamily fund
+Nuveen U.S. Cities Multifamily Fund,Nuveen U.S. Cities Multifamily Fund,Nuveen,FUND_0783,decided,02-performance,SRC058,6,0,distinct sector fund from the industrial fund
+O'Connor North American Property Partners II L.P.,O'Connor North American Property Partners II L.P.,O'Connor,FUND_0231,decided,A+B,SRC137,1,1,distinct successor to the unnumbered partnership
+"O'Connor North American Property Partners, L.P.","O'Connor North American Property Partners, L.P.",O'Connor,FUND_0232,decided,A+B,SRC137,1,1,distinct unnumbered predecessor of Partners II
+"Oak Investment Partners XII, Limited Partnership","Oak Investment Partners XII, Limited Partnership",,FUND_0784,decided,06-statements-and-economics,SRC407,2,0,sole printed variant; no sibling in range
+"Oaktree Opportunities Fund IX (Cayman), L.P.","Oaktree Opportunities Fund IX (Cayman), L.P.",Oaktree,FUND_0785,decided,06-statements-and-economics,SRC407,2,0,distinct series vintage
+Oaktree Opportunities Fund VIII (Cayman) Ltd.,Oaktree Opportunities Fund VIII (Cayman) Ltd.,Oaktree,FUND_0786,decided,06-statements-and-economics,SRC407,2,0,distinct series vintage
+"Oaktree Private Investment Fund 2010, L.P.","Oaktree Private Investment Fund 2010, L.P.",Oaktree,FUND_0787,decided,06-statements-and-economics,SRC407,2,0,distinct vehicle from the opportunities series
+"Oaktree RE Oppo Fund A, LP","Oaktree RE Oppo Fund A, LP",Oaktree,FUND_0788,decided,02-performance,SRC058,6,0,distinct real estate vehicle from the opportunities series
+"OceanSound Partners Fund, LP","OceanSound Partners Fund, LP",OceanSound,FUND_0789,decided,06-statements-and-economics,SRC407,2,0,distinct flagship fund from the SMX rollover vehicle
+"OceanSound SMX Rollover AIV, L.P.","OceanSound SMX Rollover AIV, L.P.",OceanSound,FUND_0790,decided,06-statements-and-economics,SRC407,2,0,distinct rollover AIV from the flagship fund
+Och-Ziff Real Estate Fund III,Och-Ziff Real Estate Fund III,,FUND_0791,decided,02-performance,SRC058,6,0,sole printed variant; no sibling in range
+"Odyssey Investment Partners Fund V, LP","Odyssey Investment Partners Fund V, LP",,FUND_0792,decided,06-statements-and-economics,SRC407,2,0,sole printed variant; no sibling in range
+"OEP VI Feeder (Cayman), L.P.","OEP VI Feeder (Cayman), L.P.",,FUND_0793,decided,06-statements-and-economics,SRC407,2,0,distinct feeder and distinct series from One Equity Partners VIII; abbreviation is not a printed family stem
+Offshore Feeder,Offshore Feeder,Bear Stearns High Grade Structured Credit Strategies Fund,FUND_0794,decided,05-fund-legal-docs,SRC107,1,0,The investment-vehicle table prints Offshore Feeder as a distinct feeder of the named Bear Stearns fund.
+"One Equity Partners VIII, L.P.","One Equity Partners VIII, L.P.",,FUND_0795,decided,06-statements-and-economics,SRC407,2,0,distinct series from the OEP VI feeder; abbreviation is not a printed family stem
+Onex Partners IV LP,Onex Partners IV LP,,FUND_0796,decided,06-statements-and-economics,SRC407,2,0,sole printed variant; no sibling in range
+Onshore Feeder,Onshore Feeder,Bear Stearns High Grade Structured Credit Strategies Fund,FUND_0797,decided,05-fund-legal-docs,SRC107,1,0,The investment-vehicle table prints Onshore Feeder as a distinct feeder of the named Bear Stearns fund.
+"ORA Residential Investments I,L.P.","ORA Residential Investments I,L.P.",,FUND_0798,decided,02-performance,SRC063,5,0,sole printed variant; spacing kept as printed
+Oregon Abacus Multifamily Associates LP,Oregon Abacus Multifamily Associates LP,,FUND_0799,decided,02-performance,SRC058,4,0,distinct vehicle from the Oregon Angel conferences; geographic word is not a family
+Oregon Angel Conferences 2011,Oregon Angel Conferences 2011,Oregon Angel Conferences,FUND_0030,decided,A+B,SRC035,1,1,distinct annual vehicle from the 2012 conference
+Oregon Angel Conferences 2012,Oregon Angel Conferences 2012,Oregon Angel Conferences,FUND_0031,decided,A+B,SRC035,1,1,distinct annual vehicle from the 2011 conference
+Oregon Angel Conferences 2013,Oregon Angel Conferences 2013,,FUND_0032,decided,A+B,SRC035,1,1,distinct vintage
+Oregon Angel Conferences 2014,Oregon Angel Conferences 2014,,FUND_0033,decided,A+B,SRC035,1,1,distinct vintage
+"Oregon Angel Fund 2008, LLC","Oregon Angel Fund 2008, LLC",Oregon Angel Fund,FUND_0034,decided,A+B,SRC035,1,1,distinct annual vintage
+"Oregon Angel Fund 2009, LLC","Oregon Angel Fund 2009, LLC",Oregon Angel Fund,FUND_0035,decided,A+B,SRC035,1,1,distinct annual vintage
+"Oregon Angel Fund 2010, LLC","Oregon Angel Fund 2010, LLC",Oregon Angel Fund,FUND_0036,decided,A+B,SRC035,1,1,distinct annual vintage
+"Oregon Angel Fund 2011, LLC","Oregon Angel Fund 2011, LLC",Oregon Angel Fund,FUND_0037,decided,A+B,SRC035,1,1,distinct annual vintage
+"Oregon Angel Fund 2012, LLC","Oregon Angel Fund 2012, LLC",Oregon Angel Fund,FUND_0038,decided,A+B,SRC035,1,1,distinct annual vintage
+"Oregon Angel Fund 2013, LLC","Oregon Angel Fund 2013, LLC",Oregon Angel Fund,FUND_0039,decided,A+B,SRC035,1,1,distinct annual vintage
+"Oregon Angel Fund 2014, LLC","Oregon Angel Fund 2014, LLC",Oregon Angel Fund,FUND_0040,decided,A+B,SRC035,1,1,distinct annual vintage
+"Oregon Angel Fund 2015, LLC","Oregon Angel Fund 2015, LLC",Oregon Angel Fund,FUND_0041,decided,A+B,SRC035,1,1,distinct annual vintage
+"Oregon Angel Fund 2016, LLC","Oregon Angel Fund 2016, LLC",Oregon Angel Fund,FUND_0042,decided,A+B,SRC035,1,1,distinct annual vintage
+"Oregon Angel Fund 2017, LLC","Oregon Angel Fund 2017, LLC",Oregon Angel Fund,FUND_0043,decided,A+B,SRC035,1,1,distinct annual vintage
+"Oregon Venture Fund XII, LLC","Oregon Venture Fund XII, LLC",,FUND_0044,decided,A+B,SRC035,1,1,sole printed variant
+Orion Mine Finance (Master) Fund I,Orion Mine Finance (Master) Fund I,,FUND_0800,decided,02-performance,SRC060,6,0,sole printed variant
+"OVP Venture Partners VII, L.P.","OVP Venture Partners VII, L.P.",,FUND_0045,decided,A+B,SRC035,1,1,sole printed variant
+"PA Middle Market Fund, LP","PA Middle Market Fund, LP",,FUND_0801,decided,06-statements-and-economics,SRC407,2,0,sole printed variant
+"Pacific Multifamily Investors, LLC","Pacific Multifamily Investors, LLC",,FUND_0802,decided,02-performance,SRC063,4,0,sole printed variant
+Pacific Realty,Pacific Realty,,FUND_0803,decided,02-performance,SRC058,4,0,sole printed variant
+Page Mill,Page Mill,,FUND_0804,decided,02-performance,SRC058,5,0,sole printed variant
+PAI Mid-Market Fund SCSp,PAI Mid-Market Fund SCSp,PAI,FUND_0805,decided,06-statements-and-economics,SRC407,2,0,distinct
+PAI Strategic Partnerships SCSp,PAI Strategic Partnerships SCSp,PAI,FUND_0806,decided,06-statements-and-economics,SRC407,2,0,distinct
+"Paladin III (HR), L.P.","Paladin III (HR), L.P.",,FUND_0807,decided,06-statements-and-economics,SRC407,2,0,distinct
+"Paladin Realty Latin America Investors III, L.P.","Paladin Realty Latin America Investors III, L.P.",,FUND_0233,decided,A+B,SRC137,1,1,distinct
+"Pamlico Capital III Continuation Fund, L.P.","Pamlico Capital III Continuation Fund, L.P.",,FUND_0808,decided,06-statements-and-economics,SRC407,2,0,sole printed variant
+"Parthenon Investors III, L.P.","Parthenon Investors III, L.P.",,FUND_0809,decided,06-statements-and-economics,SRC407,2,0,sole printed variant
+PBC AUSTIN 2021 EQUITY I LP,PBC AUSTIN 2021 EQUITY I LP,,FUND_0810,decided,03-institutional-report,SRC356,1,0,sole printed variant
+Peabody Global Real Estate Partners,Peabody Global Real Estate Partners,,FUND_0234,decided,A+B,SRC137,1,1,sole printed variant
+"Pegasus WSJLL Fund, L.P.","Pegasus WSJLL Fund, L.P.",,FUND_0811,decided,06-statements-and-economics,SRC407,2,0,sole printed variant
+PENNYBACKER IV LP,PENNYBACKER IV LP,,FUND_0812,decided,03-institutional-report,SRC356,1,0,sole printed variant
+PEP DEVELOPMENT OPPORTUNITIES FUND LP,PEP DEVELOPMENT OPPORTUNITIES FUND LP,,FUND_0813,decided,03-institutional-report,SRC356,1,0,distinct
+PEP VIII Antares Co-Investment L.P.,PEP VIII Antares Co-Investment L.P.,,FUND_0814,decided,06-statements-and-economics,SRC407,2,0,distinct
+Permira IV Feeder L.P.,Permira IV Feeder L.P.,,FUND_0815,decided,06-statements-and-economics,SRC407,2,0,sole printed variant
+"Phoenix Venture Partners II, L.P.","Phoenix Venture Partners II, L.P.",Phoenix Venture Partners,FUND_0046,decided,A+B,SRC035,1,1,distinct series number
+"Phoenix Venture Partners III, L.P.","Phoenix Venture Partners III, L.P.",Phoenix Venture Partners,FUND_0047,decided,A+B,SRC035,1,1,distinct series number
+"Phoenix Venture Partners, L.P.","Phoenix Venture Partners, L.P.",Phoenix Venture Partners,FUND_0048,decided,A+B,SRC035,1,1,distinct series number
+Pioneer Square Ventures Fund II,Pioneer Square Ventures Fund II,,FUND_0049,decided,A+B,SRC035,1,1,sole printed variant
+"Pivotal Investments Partners Fund I, L.P.","Pivotal Investments Partners Fund I, L.P.",,FUND_0050,decided,A+B,SRC035,1,1,sole printed variant
+Platinum Equity Capital Partners II,Platinum Equity Capital Partners II,,FUND_0816,decided,06-statements-and-economics,SRC407,2,0,sole printed variant
+PMI Tactical,PMI Tactical,,FUND_0817,decided,02-performance,SRC063,3,0,sole printed variant
+"Portland Seed Fund I, L.P.","Portland Seed Fund I, L.P.",Portland Seed Fund,FUND_0051,decided,A+B,SRC035,1,1,distinct series number
+"Portland Seed Fund II, L.P.","Portland Seed Fund II, L.P.",Portland Seed Fund,FUND_0052,decided,A+B,SRC035,1,1,distinct series number
+"Portland Seed Fund III - Side Car, L.P.","Portland Seed Fund III - Side Car, L.P.",Portland Seed Fund,FUND_0054,decided,A+B,SRC035,1,1,distinct side car vehicle
+"Portland Seed Fund III, L.P.","Portland Seed Fund III, L.P.",Portland Seed Fund,FUND_0053,decided,A+B,SRC035,1,1,distinct from the III side car
+PreSeed Fund,PreSeed Fund,,FUND_0134,decided,B,SRC039,0,1,sole printed variant
+Presima Global REIT,Presima Global REIT,,FUND_0818,decided,02-performance,SRC058,3,0,sole printed variant
+"PRIMA Mortgage Investment Trust, LLC","PRIMA Mortgage Investment Trust, LLC",,FUND_0819,decided,04-quarterly-report,SRC457,16,0,distinct
+Prime Property Fund LLC,Prime Property Fund LLC,,FUND_0235,decided,A+B,SRC137,1,1,distinct
+"Primus Capital Fund VI, L.P.","Primus Capital Fund VI, L.P.",,FUND_0098,decided,A+B,SRC036,1,1,sole printed variant
+PRISA,PRISA,,FUND_0236,decided,A+B,SRC137,1,1,sole printed variant
+"PRO SPV, LP","PRO SPV, LP",,FUND_0820,decided,06-statements-and-economics,SRC407,2,0,sole printed variant
+Prologis Global Industrial Ventures,Prologis Global Industrial Ventures,Prologis,FUND_0821,decided,02-performance,SRC058,6,0,distinct
+"ProLogis North American Industrial Fund, L.P.","ProLogis North American Industrial Fund, L.P.",Prologis,FUND_0237,decided,A+B,SRC137,1,1,distinct
+"Prologis Targeted Europe Logistics Fund, FCP-FIS","Prologis Targeted Europe Logistics Fund, FCP-FIS",Prologis,FUND_0822,decided,04-quarterly-report,SRC457,2,0,distinct from the US fund
+Prologis Targeted US Logistic Fund,Prologis Targeted US Logistics Fund,Prologis,FUND_0824,decided,02-performance,SRC058,6,0,merged: singular misprint of the same fund
+Prologis Targeted US Logistics Fund,Prologis Targeted US Logistics Fund,Prologis,FUND_0824,decided,04-quarterly-report,SRC457,2,0,merged: fuller printed spelling kept as standard
+Providence Equity Partners (Unity) S.C.SP.,Providence Equity Partners (Unity) S.C.SP.,Providence Equity Partners,FUND_0825,decided,06-statements-and-economics,SRC407,2,0,distinct
+Providence Equity Partners IX-A S.C.Sp.,Providence Equity Partners IX-A S.C.Sp.,Providence Equity Partners,FUND_0826,decided,06-statements-and-economics,SRC407,2,0,distinct series number
+Providence Equity Partners VI L.P.,Providence Equity Partners VI L.P.,Providence Equity Partners,FUND_0827,decided,06-statements-and-economics,SRC407,2,0,distinct series number
+Providence Equity Partners VII L.P.,Providence Equity Partners VII L.P.,Providence Equity Partners,FUND_0828,decided,06-statements-and-economics,SRC407,2,0,distinct from VII-A
+Providence Equity Partners VII-A L.P.,Providence Equity Partners VII-A L.P.,Providence Equity Partners,FUND_0829,decided,06-statements-and-economics,SRC407,2,0,distinct parallel vehicle
+Providence Equity Partners VIII L.P.,Providence Equity Partners VIII L.P.,Providence Equity Partners,FUND_0830,decided,06-statements-and-economics,SRC407,2,0,distinct series number
+Prudential Senior Housing Partners IV,"Prudential Senior Housing Partners IV, L.P.",Prudential Senior Housing,FUND_1041,decided,04-quarterly-report,SRC457,2,0,merged: same fund printed without L.P.
+"Prudential Senior Housing Partners IV, L.P.","Prudential Senior Housing Partners IV, L.P.",Prudential Senior Housing,FUND_1041,decided,04-quarterly-report,SRC457,14,0,merged: fullest printed form kept as standard
+Prudential Senior Housing V,"Prudential Senior Housing V, L.P.",Prudential Senior Housing,FUND_1042,decided,04-quarterly-report,SRC457,3,0,merged: same fund printed without L.P.
+"Prudential Senior Housing V, L.P.","Prudential Senior Housing V, L.P.",Prudential Senior Housing,FUND_1042,decided,04-quarterly-report,SRC457,13,0,merged: fullest printed form; distinct from IV
+PSERS Short Term Investment Fund assets,PSERS Short-Term Investment Fund,,FUND_0832,decided,01-financials,SRC152,2,0,merged: trailing prose word on the same fund
+PSERS Short-Term Investment Fund,PSERS Short-Term Investment Fund,,FUND_0832,decided,01-financials,SRC152,8,0,merged: printed legal form kept as standard
+"PT2-A, L.P.","PT2-A, L.P.",,FUND_0833,decided,06-statements-and-economics,SRC407,2,0,distinct
+"PTEV-A, L.P.","PTEV-A, L.P.",,FUND_0834,decided,06-statements-and-economics,SRC407,2,0,distinct
+"QCA First Fund III, LLC","QCA First Fund III, LLC",,FUND_0099,decided,A+B,SRC036,1,1,sole printed variant
+QL Capital Partners,QL Capital Partners,,FUND_0835,decided,02-performance,SRC060,5,0,distinct
+QLCP Co-Investment Fund,QLCP Co-Investment Fund,,FUND_0836,decided,02-performance,SRC060,5,0,distinct co-investment vehicle
+Quantum Energy Partners VIII,Quantum Energy Partners VIII,Quantum Energy Partners,FUND_0837,decided,02-performance,SRC060,5,0,distinct from its co-investment fund
+Quantum Energy Partners VIII Co-Investment Fund,Quantum Energy Partners VIII Co-Investment Fund,Quantum Energy Partners,FUND_0838,decided,02-performance,SRC060,5,0,distinct co-investment vehicle
+"Radius Venture Partners (Ohio) III, QP, L.P.","Radius Venture Partners (Ohio) III, QP, L.P.",,FUND_0100,decided,A+B,SRC036,1,1,sole printed variant
+Raith NMERB Core Plus Real Estate Credit SMA,Raith NMERB Core Plus Real Estate Credit SMA,Raith,FUND_0839,decided,04-quarterly-report,SRC457,9,0,distinct separate account
+Raith Real Estate Fund I-A LP,"Raith Real Estate Fund I-A, L.P.",Raith,FUND_1043,decided,04-quarterly-report,SRC457,3,0,merged: LP punctuation variant
+"Raith Real Estate Fund I-A, L.P.","Raith Real Estate Fund I-A, L.P.",Raith,FUND_1043,decided,04-quarterly-report,SRC457,13,0,merged: fullest printed form kept as standard
+"Raith Real Estate Fund II, L.P.","Raith Real Estate Fund II, L.P.",Raith,FUND_0840,decided,04-quarterly-report,SRC457,14,0,distinct series number
+RAM Realty Partners III,RAM Realty Partners III,RAM Realty Partners,FUND_0841,decided,04-quarterly-report,SRC457,2,0,distinct series number
+RAM Realty Partners IV,"RAM Realty Partners IV, L.P.",RAM Realty Partners,FUND_1044,decided,04-quarterly-report,SRC457,3,0,merged: same fund printed without L.P.
+"RAM Realty Partners IV, L.P.","RAM Realty Partners IV, L.P.",RAM Realty Partners,FUND_1044,decided,04-quarterly-report,SRC457,12,0,merged: fullest printed form kept as standard
+RAM Realty Partners V,"RAM Realty Partners V, L.P.",RAM Realty Partners,FUND_1045,decided,04-quarterly-report,SRC457,3,0,merged: same fund printed without L.P.
+"RAM Realty Partners V, L.P.","RAM Realty Partners V, L.P.",RAM Realty Partners,FUND_1045,decided,04-quarterly-report,SRC457,11,0,merged: fullest printed form; distinct from IV
+RAPM NM Secondary Opportunity Fund L.P.,RAPM NM Secondary Opportunity Fund L.P.,RAPM,FUND_0842,decided,04-quarterly-report,SRC457,17,0,distinct
+RAPM-NMERB Co-Investment Fund L.P.,RAPM-NMERB Co-Investment Fund L.P.,RAPM,FUND_0843,decided,04-quarterly-report,SRC457,16,0,distinct co-investment vehicle
+RC III CKE LLC,RC III CKE LLC,,FUND_0844,decided,06-statements-and-economics,SRC407,2,0,sole printed variant
+RCF V Annex Fund L.P.,RCF V Annex Fund L.P.,,FUND_0845,decided,06-statements-and-economics,SRC407,2,0,distinct annex vehicle
+"RCG Longview Debt Fund IV, L.P.","RCG Longview Debt Fund IV, L.P.",RCG Longview,FUND_0238,decided,A+B,SRC137,1,1,distinct series number
+"RCG Longview Debt Fund V, L.P.","RCG Longview Debt Fund V, L.P.",RCG Longview,FUND_0239,decided,A+B,SRC137,1,1,distinct series number
+"RCG Longview Equity Fund, L.P.","RCG Longview Equity Fund, L.P.",RCG Longview,FUND_0240,decided,A+B,SRC137,1,1,distinct strategy
+"Realterm European Logistics Fund, L.P.","Realterm European Logistics Fund, L.P.",Realterm,FUND_0847,decided,04-quarterly-report,SRC457,10,0,distinct European vehicle
+"Realterm Logistics Fund II, L.P.","Realterm Logistics Fund II, L.P.",Realterm,FUND_1046,decided,04-quarterly-report,SRC457,12,0,merged: fullest printed form kept as standard
+"Realterm Logistics Fund II, LP","Realterm Logistics Fund II, L.P.",Realterm,FUND_1046,decided,04-quarterly-report,SRC457,3,0,merged: LP punctuation variant
+"Realterm Logistics Fund III, L.P.","Realterm Logistics Fund III, L.P.",Realterm,FUND_1047,decided,04-quarterly-report,SRC457,7,0,merged: fullest printed form; distinct from II
+"Realterm Logistics Fund III, LP","Realterm Logistics Fund III, L.P.",Realterm,FUND_1047,decided,04-quarterly-report,SRC457,3,0,merged: LP punctuation variant
+"Realterm Logistics Fund, L.P.","Realterm Logistics Fund, L.P.",Realterm,FUND_0848,decided,04-quarterly-report,SRC457,15,0,distinct first fund with no series number
+Regency Core,Regency Core,,FUND_0849,decided,02-performance,SRC058,4,0,distinct
+Regency II,Regency II,,FUND_0850,decided,02-performance,SRC058,4,0,distinct
+Reservoir Resource Partners,Reservoir Resource Partners,,FUND_0851,decided,02-performance,SRC060,6,0,distinct
+"Reservoir Venture Partners II, L.P.","Reservoir Venture Partners II, L.P.",,FUND_0101,decided,A+B,SRC036,1,1,distinct
+Resource Capital Fund V L.P.,Resource Capital Fund V L.P.,,FUND_0852,decided,06-statements-and-economics,SRC407,2,0,distinct from the RCF V annex fund
+Rethink Impact Fund II,Rethink Impact Fund II,,FUND_0055,decided,A+B,SRC035,1,1,sole printed variant
+"River Cities Capital Fund IV, L.P.","River Cities Capital Fund IV, L.P.",,FUND_0102,decided,A+B,SRC036,1,1,sole printed variant
+"Riverlake Equity Partners I, L.P.","Riverlake Equity Partners I, L.P.",Riverlake Equity Partners,FUND_0056,decided,A+B,SRC035,1,1,distinct series number
+"Riverlake Equity Partners II, L.P.","Riverlake Equity Partners II, L.P.",Riverlake Equity Partners,FUND_0057,decided,A+B,SRC035,1,1,distinct series number
+"RiverVest Venture Fund II (Ohio), L.P.","RiverVest Venture Fund II (Ohio), L.P.",RiverVest Venture Fund,FUND_0103,decided,A+B,SRC036,1,1,distinct series number
+"RiverVest Venture Fund III (Ohio), L.P.","RiverVest Venture Fund III (Ohio), L.P.",RiverVest Venture Fund,FUND_0104,decided,A+B,SRC036,1,1,distinct series number
+Roark Capital Partners CF LP,Roark Capital Partners CF LP,Roark Capital Partners,FUND_0853,decided,06-statements-and-economics,SRC407,2,0,distinct from CF RI
+Roark Capital Partners CF RI LP,Roark Capital Partners CF RI LP,Roark Capital Partners,FUND_0854,decided,06-statements-and-economics,SRC407,2,0,distinct parallel vehicle
+Roark Capital Partners II LP,Roark Capital Partners II LP,Roark Capital Partners,FUND_0855,decided,06-statements-and-economics,SRC407,2,0,distinct from the II sidecar
+Roark Capital Partners II Sidecar LP,Roark Capital Partners II Sidecar LP,Roark Capital Partners,FUND_0856,decided,06-statements-and-economics,SRC407,2,0,distinct sidecar vehicle
+Roark Capital Partners III LP,Roark Capital Partners III LP,Roark Capital Partners,FUND_0857,decided,06-statements-and-economics,SRC407,2,0,distinct series number
+Roark Capital Partners IV LP,Roark Capital Partners IV LP,Roark Capital Partners,FUND_0858,decided,06-statements-and-economics,SRC407,2,0,distinct series number
+Roark Capital Partners V (T) LP,Roark Capital Partners V (T) LP,Roark Capital Partners,FUND_0859,decided,06-statements-and-economics,SRC407,2,0,distinct taxable parallel vehicle
+Roark Capital Partners V (TE) LP,Roark Capital Partners V (TE) LP,Roark Capital Partners,FUND_0860,decided,06-statements-and-economics,SRC407,2,0,distinct tax-exempt parallel vehicle
+Roark Capital Partners VI (TE) LP,Roark Capital Partners VI (TE) LP,Roark Capital Partners,FUND_0861,decided,06-statements-and-economics,SRC407,2,0,distinct series number
+"Rockpoint Finance Fund I, LP","Rockpoint Finance Fund I, LP",Rockpoint,FUND_0862,decided,02-performance,SRC058,6,0,distinct strategy
+"Rockpoint Growth and Income Fund I, L.P.","Rockpoint Growth and Income Fund I, L.P.",Rockpoint,FUND_0863,decided,02-performance,SRC058,6,0,distinct strategy
+"Rockpoint RE Special Fund, L.P.","Rockpoint RE Special Fund, L.P.",Rockpoint,FUND_0864,decided,02-performance,SRC058,6,0,distinct: special fund and not a member of the numbered Real Estate series
+"Rockpoint Real Estate Fund I, L.P.","Rockpoint Real Estate Fund I, L.P.",Rockpoint,FUND_0865,decided,02-performance,SRC058,6,0,distinct: Fund I of the Rockpoint Real Estate series
+"Rockpoint Real Estate Fund II, L.P.","Rockpoint Real Estate Fund II, L.P.",Rockpoint,FUND_0866,decided,02-performance,SRC058,6,0,distinct: Fund II of the Rockpoint Real Estate series
+"Rockpoint Real Estate Fund III, L.P.","Rockpoint Real Estate Fund III, L.P.",Rockpoint,FUND_0867,decided,02-performance,SRC058,6,0,distinct: Fund III of the Rockpoint Real Estate series
+"Rockpoint Real Estate Fund IV, L.P.","Rockpoint Real Estate Fund IV, L.P.",Rockpoint,FUND_0868,decided,02-performance;04-quarterly-report,SRC058;SRC457,22,0,distinct: Fund IV of the Rockpoint Real Estate series
+"Rockpoint Real Estate Fund V, L.P.","Rockpoint Real Estate Fund V, L.P.",Rockpoint,FUND_0869,decided,04-quarterly-report,SRC457,15,0,distinct: Fund V of the Rockpoint Real Estate series
+Rockwood Capital RE Partners VII,Rockwood Capital RE Partners VII,Rockwood Capital,FUND_0870,decided,02-performance,SRC058,6,0,distinct: Rockwood is a different sponsor from Rockpoint
+Rockwood Capital RE Partners VIII,Rockwood Capital RE Partners VIII,Rockwood Capital,FUND_0871,decided,02-performance,SRC058,6,0,distinct: Fund VIII is a later vehicle than Fund VII
+ROX II MED CENTER LP,ROX II MED CENTER LP,,FUND_0872,decided,03-institutional-report,SRC356,1,0,sole printed variant
+RREEF America Fund II,RREEF America Fund II,RREEF America,FUND_0873,decided,02-performance,SRC058,6,0,distinct: printed as a fund and not as the REIT II vehicle
+"RREEF America REIT II, Inc.","RREEF America REIT II, Inc.",RREEF America,FUND_0241,decided,A+B,SRC137,1,1,distinct: REIT vehicle printed separately from RREEF America Fund II
+Rural Pre-Seed Investment Fund,Rural Pre-Seed Investment Fund,,FUND_0150,decided,B,SRC040,0,1,sole printed variant
+Sacramento Venture Hines Base,Sacramento Venture Hines Base,Sacramento Venture Hines,FUND_0874,decided,02-performance,SRC063,3,0,distinct: Base and DT are separate vehicles
+Sacramento Venture Hines DT,Sacramento Venture Hines DT,Sacramento Venture Hines,FUND_0875,decided,02-performance,SRC063,3,0,distinct: DT is a separate vehicle from Base
+SailingStone Global Natural Resources Portfolio,SailingStone Global Natural Resources Portfolio,,FUND_0876,decided,02-performance,SRC060,6,0,sole printed variant
+"Samson Brunello 1, L.P.","Samson Brunello 1, L.P.",Samson,FUND_0877,decided,06-statements-and-economics,SRC407,2,0,distinct: Brunello 1 is its own vehicle
+"Samson Brunello 2, L.P.","Samson Brunello 2, L.P.",Samson,FUND_0878,decided,06-statements-and-economics,SRC407,2,0,distinct: Brunello 2 is its own vehicle
+"Samson Hockey 2, L.P.","Samson Hockey 2, L.P.",Samson,FUND_0879,decided,06-statements-and-economics,SRC407,2,0,distinct: Hockey 2 is its own vehicle
+"Samson Shield 1, L.P.","Samson Shield 1, L.P.",Samson,FUND_0880,decided,06-statements-and-economics,SRC407,2,0,distinct: Shield 1 is its own vehicle
+"Samson Shield 2, L.P.","Samson Shield 2, L.P.",Samson,FUND_0881,decided,06-statements-and-economics,SRC407,2,0,distinct: Shield 2 is its own vehicle
+SANTÉ HEALTH VENTURES II LP,SANTÉ HEALTH VENTURES II LP,,FUND_0882,decided,03-institutional-report,SRC356,1,0,sole printed variant
+"Sares Regis Multifamily Value-Add Fund II, L.P.","Sares-Regis Multifamily Value-Add Fund II, L.P.",Sares-Regis,FUND_1048,decided,04-quarterly-report,SRC457,13,0,merged: unhyphenated spelling of Value-Add Fund II
+"Sares Regis Multifamily Value-Add Fund III, L.P.","Sares-Regis Multifamily Value-Add Fund III, L.P.",Sares-Regis,FUND_1049,decided,04-quarterly-report,SRC457,11,0,merged: unhyphenated spelling of Value-Add Fund III
+"Sares-Regis Multifamily Fund, L.P.","Sares-Regis Multifamily Fund, L.P.",Sares-Regis,FUND_0883,decided,04-quarterly-report,SRC457,2,0,distinct: no Value-Add series number
+"Sares-Regis Multifamily Value-Add Fund II, L.P.","Sares-Regis Multifamily Value-Add Fund II, L.P.",Sares-Regis,FUND_1048,decided,04-quarterly-report,SRC457,3,0,merged: hyphenated form is the standard for Value-Add Fund II
+"Sares-Regis Multifamily Value-Add Fund III, L.P.","Sares-Regis Multifamily Value-Add Fund III, L.P.",Sares-Regis,FUND_1049,decided,04-quarterly-report,SRC457,3,0,merged: hyphenated form is the standard for Value-Add Fund III
+"Saw Mill Capital Partners, L.P.","Saw Mill Capital Partners, L.P.",,FUND_0884,decided,06-statements-and-economics,SRC407,2,0,sole printed variant
+SCF-IX LP,SCF-IX LP,SCF,FUND_0885,decided,03-institutional-report,SRC356,1,0,distinct: ninth fund of the SCF series
+SCF-VII LP,SCF-VII LP,SCF,FUND_0886,decided,03-institutional-report,SRC356,1,0,distinct: seventh fund of the SCF series
+SCF-VIII LP,SCF-VIII LP,SCF,FUND_0887,decided,03-institutional-report,SRC356,1,0,distinct: eighth fund of the SCF series
+Sculptor Diversified RE Income Trust,Sculptor Diversified RE Income Trust,Sculptor,FUND_0888,decided,02-performance,SRC058,6,0,distinct: income trust and not a numbered Real Estate fund
+Sculptor Real Estate Fund IV,Sculptor Real Estate Fund IV,Sculptor,FUND_0889,decided,02-performance,SRC058,6,0,distinct: Fund IV of the Sculptor Real Estate series
+Sculptor Real Estate Fund V,Sculptor Real Estate Fund V,Sculptor,FUND_0890,decided,02-performance,SRC058,5,0,distinct: Fund V of the Sculptor Real Estate series
+SDL Hospitality Co-Invest Fund,SDL Hospitality Co-Invest Fund,,FUND_0891,decided,02-performance,SRC058,6,0,sole printed variant
+Seed Fund,Seed Fund,,FUND_0137,decided,B,SRC039,0,1,generic printed name kept exactly as printed
+"Seidler Equity Partners IV, L.P.","Seidler Equity Partners IV, L.P.",,FUND_0892,decided,06-statements-and-economics,SRC407,2,0,sole printed variant
+"Senior Housing Partnership Fund IV, L.P.","Senior Housing Partnership Fund IV, L.P.",,FUND_0242,decided,A+B,SRC137,1,1,sole printed variant
+SERVE OPPORTUNITIES FUND I LP,SERVE OPPORTUNITIES FUND I LP,,FUND_0893,decided,03-institutional-report,SRC356,1,0,sole printed variant
+"Seven Peaks Ventures Fund II, L.P.","Seven Peaks Ventures Fund II, L.P.",Seven Peaks Ventures,FUND_0058,decided,A+B,SRC035,1,1,distinct: Fund II is a later vehicle than the first fund
+"Seven Peaks Ventures Fund, L.P.","Seven Peaks Ventures Fund, L.P.",Seven Peaks Ventures,FUND_0059,decided,A+B,SRC035,1,1,distinct: first fund with no series number
+"SH Group I, LP","SH Group I, LP",,FUND_0894,decided,02-performance,SRC058,6,0,sole printed variant
+Sheridan Production Partners I-B,Sheridan Production Partners I-B,Sheridan Production Partners,FUND_0895,decided,02-performance,SRC060,5,0,distinct: I-B is its own vehicle
+Sheridan Production Partners II-B,Sheridan Production Partners II-B,Sheridan Production Partners,FUND_0896,decided,02-performance,SRC060,5,0,distinct: II-B is its own vehicle
+Sheridan Production Partners III-B,Sheridan Production Partners III-B,Sheridan Production Partners,FUND_0897,decided,02-performance,SRC060,6,0,distinct: III-B is its own vehicle
+Sierra Nevada Investment Partners LP,Sierra Nevada Investment Partners LP,,FUND_0898,decided,02-performance,SRC063,1,0,sole printed variant
+Silver Creek Aggregate Reserves Fund I,Silver Creek Aggregate Reserves Fund I,,FUND_0899,decided,02-performance,SRC060,6,0,distinct: unrelated to the Silver Lake vehicles
+"Silver Lake Partners III, L.P.","Silver Lake Partners III, L.P.",Silver Lake Partners,FUND_0900,decided,06-statements-and-economics,SRC407,2,0,distinct: Fund III of the Silver Lake Partners series
+"Silver Lake Partners V, L.P.","Silver Lake Partners V, L.P.",Silver Lake Partners,FUND_0901,decided,06-statements-and-economics,SRC407,2,0,distinct: Fund V of the Silver Lake Partners series
+"Silverpeak Legacy Pension Partners II, L.P.","Silverpeak Legacy Pension Partners II, L.P.",Silverpeak,FUND_0243,decided,A+B,SRC137,1,1,distinct: Fund II of the Silverpeak Legacy Pension series
+"Silverpeak Legacy Pension Partners III, L.P.","Silverpeak Legacy Pension Partners III, L.P.",Silverpeak,FUND_0244,decided,A+B,SRC137,1,1,distinct: Fund III of the Silverpeak Legacy Pension series
+"Silverpeak Legacy/PSERS, L.P.","Silverpeak Legacy/PSERS, L.P.",Silverpeak,FUND_0245,decided,A+B,SRC137,1,1,distinct: separate account vehicle and not a numbered pension fund
+Sixth Cinven Fund (No. 2) Limited Partnership,Sixth Cinven Fund (No. 2) Limited Partnership,Cinven,FUND_0902,decided,06-statements-and-economics,SRC407,2,0,distinct: No. 2 partnership of the Sixth Cinven Fund
+Sixth Cinven Fund (No. 4) Limited Partnership,Sixth Cinven Fund (No. 4) Limited Partnership,Cinven,FUND_0903,decided,06-statements-and-economics,SRC407,2,0,distinct: No. 4 partnership of the Sixth Cinven Fund
+"Sixth Street Opportunities Partners III (B), L.P.","Sixth Street Opportunities Partners III (B), L.P.",,FUND_0904,decided,06-statements-and-economics,SRC407,2,0,distinct: Sixth Street is unrelated to the Sixth Cinven vehicles
+"SL SPV-2, L.P.","SL SPV-2, L.P.",,FUND_0905,decided,06-statements-and-economics,SRC407,2,0,sole printed variant
+"SmartForest Ventures I, L.P.","SmartForest Ventures I, L.P.",,FUND_0060,decided,A+B,SRC035,1,1,sole printed variant
+"Solamere Capital AF V, LP","Solamere Capital AF V, LP",Solamere,FUND_0906,decided,06-statements-and-economics,SRC407,2,0,distinct: Capital AF V is its own vehicle
+"Solamere Series IV Leaders Fund, LP","Solamere Series IV Leaders Fund, LP",Solamere,FUND_0907,decided,06-statements-and-economics,SRC407,2,0,distinct: Series IV Leaders Fund is its own vehicle
+Sorenson Capital Partners II Cont. Vehicle,Sorenson Capital Partners II Cont. Vehicle,Sorenson Capital,FUND_0116,decided,A+B,SRC037,1,1,distinct: continuation vehicle for Fund II
+"Sorenson Capital Partners III, L.P.","Sorenson Capital Partners III, L.P.",Sorenson Capital,FUND_0908,decided,06-statements-and-economics,SRC407,2,0,distinct: Fund III of the Sorenson Capital Partners series
+"Sorenson Capital Partners IV-B, L.P.","Sorenson Capital Partners IV-B, L.P.",Sorenson Capital,FUND_0909,decided,06-statements-and-economics,SRC407,2,0,distinct: IV-B is its own vehicle
+Sprott Streaming & Royalty Fund,Sprott Streaming & Royalty Fund,Sprott,FUND_0910,decided,02-performance,SRC060,5,0,distinct: main fund and not the side car
+Sprott Streaming & Royalty Fund Co-Investment Side Car,Sprott Streaming & Royalty Fund Co-Investment Side Car,Sprott,FUND_0911,decided,02-performance,SRC060,5,0,distinct: co-investment side car is a separate vehicle
+Starwood Cap Hospitality Fd II Global LP,Starwood Cap Hospitality Fd II Global LP,Starwood,FUND_0912,decided,02-performance,SRC058,6,0,distinct: Hospitality Fund II is not Hospitality Fund I-2
+Starwood Capital Hospitality Fund I-2,Starwood Capital Hospitality Fund I-2,Starwood,FUND_0913,decided,02-performance,SRC058,6,0,distinct: Hospitality Fund I-2 is not Hospitality Fund II
+Starwood Energy Infrastructure Fund III,Starwood Energy Infrastructure Fund III,Starwood,FUND_0914,decided,02-performance,SRC060,6,0,distinct: energy vehicle and not a hospitality fund
+Starwood Real Estate Income Trust,"Starwood Real Estate Income Trust, Inc.",Starwood,FUND_0246,decided,A+B,SRC053;SRC054,1,1,SREIT cluster: nickname / Inc. / all-caps
+"Starwood Real Estate Income Trust (""SREIT"")","Starwood Real Estate Income Trust, Inc.",Starwood,FUND_0246,decided,A,SRC053,1,0,SREIT cluster: nickname / Inc. / all-caps
+"STARWOOD REAL ESTATE INCOME TRUST, INC.","Starwood Real Estate Income Trust, Inc.",Starwood,FUND_0246,decided,A+B,SRC247,1,1,SREIT cluster: nickname / Inc. / all-caps
+"Starwood Real Estate Income Trust, Inc.","Starwood Real Estate Income Trust, Inc.",Starwood,FUND_0246,decided,B,SRC054,0,1,SREIT cluster: nickname / Inc. / all-caps
+Stellex Capital Partners II,Stellex Capital Partners II,,FUND_0061,decided,A+B,SRC035,1,1,sole printed variant
+"Sterling Capital Partners IV, L.P.","Sterling Capital Partners IV, L.P.",,FUND_0915,decided,06-statements-and-economics,SRC407,2,0,sole printed variant
+Stockbridge Real Estate Fund II - Senior Note,Stockbridge Real Estate Fund II - Senior Note,Stockbridge,FUND_0247,decided,A+B,SRC137,1,1,distinct: senior note position held apart from the Fund II equity
+"Stockbridge Real Estate Fund II, LP","Stockbridge Real Estate Fund II, LP",Stockbridge,FUND_0248,decided,A+B,SRC137,1,1,distinct: Fund II of the Stockbridge Real Estate series
+"Stockbridge Real Estate Fund III, LP","Stockbridge Real Estate Fund III, LP",Stockbridge,FUND_0249,decided,A+B,SRC137,1,1,distinct: Fund III of the Stockbridge Real Estate series
+"Stockbridge Real Estate Fund, L.P.","Stockbridge Real Estate Fund, L.P.",Stockbridge,FUND_0250,decided,A+B,SRC137,1,1,distinct: first fund with no series number
+Stonepeak Core Fund (A),Stonepeak Core Fund (A),Stonepeak,FUND_0916,decided,02-performance,SRC060,5,0,distinct: core fund and not part of the Infrastructure series
+Stonepeak Global Renewables Fund,Stonepeak Global Renewables Fund,Stonepeak,FUND_0917,decided,02-performance,SRC060,5,0,distinct: renewables fund and not part of the Infrastructure series
+Stonepeak Infrastructure Fund,Stonepeak Infrastructure Fund,Stonepeak,FUND_0918,decided,02-performance,SRC060,6,0,distinct: first infrastructure fund with no series number
+Stonepeak Infrastructure Fund II,Stonepeak Infrastructure Fund II,Stonepeak,FUND_0919,decided,02-performance,SRC060,6,0,distinct: Fund II of the Stonepeak Infrastructure series
+Stonepeak Infrastructure Fund II (AIV II Claremont),Stonepeak Infrastructure Fund II (AIV II Claremont),Stonepeak,FUND_0920,decided,02-performance,SRC060,5,0,distinct: AIV II Claremont is a separate vehicle from Fund II
+Stonepeak Infrastructure Fund III,Stonepeak Infrastructure Fund III,Stonepeak,FUND_0921,decided,02-performance,SRC060,6,0,distinct: Fund III of the Stonepeak Infrastructure series
+Stonepeak Infrastructure Fund IV,Stonepeak Infrastructure Fund IV LP,Stonepeak,FUND_1050,decided,02-performance,SRC060,5,0,merged: same Fund IV printed without the LP suffix
+Stonepeak Infrastructure Fund IV LP,Stonepeak Infrastructure Fund IV LP,Stonepeak,FUND_1050,decided,02-performance,SRC063,2,0,merged: fullest printed form of Fund IV
+Stonepeak Trail Blazer Investment Partners,Stonepeak Trail Blazer Investment Partners,Stonepeak,FUND_0922,decided,02-performance,SRC060,5,0,distinct: co-investment partnership and not part of the Infrastructure series
+Strategic Partners Value Enhancement Fund LP,Strategic Partners Value Enhancement Fund LP,,FUND_0251,decided,A+B,SRC137,1,1,sole printed variant
+Strategic Property Fund Asia SCSP,Strategic Property Fund Asia SCSP,,FUND_0923,decided,02-performance,SRC063,4,0,distinct: shares only the word Strategic with the Strategic Partners fund
+"Summit Partners Growth Equity Fund VIII-B, L.P.","Summit Partners Growth Equity Fund VIII-B, L.P.",Summit Partners,FUND_0924,decided,06-statements-and-economics,SRC407,2,0,distinct: growth equity series and not the private equity series
+"Summit Partners Private Equity Fund VII-A, L.P.","Summit Partners Private Equity Fund VII-A, L.P.",Summit Partners,FUND_0925,decided,06-statements-and-economics,SRC407,2,0,distinct: private equity series and not the growth equity series
+"Sun Capital Partners IV, LP","Sun Capital Partners IV, LP",Sun Capital Partners,FUND_0926,decided,06-statements-and-economics,SRC407,2,0,distinct: Fund IV of the Sun Capital Partners series
+"Sun Capital Partners V, L.P.","Sun Capital Partners V, L.P.",Sun Capital Partners,FUND_0927,decided,06-statements-and-economics,SRC407,2,0,distinct: Fund V of the Sun Capital Partners series
+"SunBridge Partners Technology Fund III, L.P.","SunBridge Partners Technology Fund III, L.P.",,FUND_0105,decided,A+B,SRC036,1,1,distinct: SunBridge is unrelated to Sun Capital
+"SunTx Capital Partners II, L.P.","SunTx Capital Partners II, L.P.",,FUND_0928,decided,06-statements-and-economics,SRC407,2,0,distinct: SunTx is unrelated to Sun Capital
+SV Fund IV,SV Fund IV,,FUND_0117,decided,A+B,SRC037,1,1,distinct: shorthand printed on its own and not matched to a fuller name
+"SV Life Sciences Fund IV, L.P.","SV Life Sciences Fund IV, L.P.",SV Life Sciences,FUND_0106,decided,A+B,SRC036,1,1,distinct: the fund itself and not the CF vehicle
+SV Life Sciences IV CF,SV Life Sciences IV CF,SV Life Sciences,FUND_0118,decided,A+B,SRC037,1,1,distinct: CF is a separate vehicle from Fund IV
+Sylvanus LLC,Sylvanus LLC,,FUND_0929,decided,02-performance,SRC063,5,0,sole printed variant
+TA Atlantic and Pacific VI L.P.,TA Atlantic and Pacific VI L.P.,TA,FUND_0930,decided,06-statements-and-economics,SRC407,2,0,distinct: Atlantic and Pacific series and not a numbered TA fund
+"TA Select Opportunities Fund II-A, L.P.","TA Select Opportunities Fund II-A, L.P.",TA,FUND_0931,decided,06-statements-and-economics,SRC407,2,0,distinct: second Select Opportunities fund
+"TA Select Opportunities Fund-A, L.P.","TA Select Opportunities Fund-A, L.P.",TA,FUND_0932,decided,06-statements-and-economics,SRC407,2,0,distinct: first Select Opportunities fund with no series number
+TA XI,"TA XI, L.P.",TA,FUND_0119,decided,A+B,SRC037,1,1,merged: same fund printed without the L.P. suffix
+"TA XI, L.P.","TA XI, L.P.",TA,FUND_0119,decided,06-statements-and-economics,SRC407,2,0,merged: fullest printed form of TA XI
+"TA XII-A, L.P.","TA XII-A, L.P.",TA,FUND_0933,decided,06-statements-and-economics,SRC407,2,0,distinct: XII-A is its own vehicle
+"TA XIV-B, L.P.","TA XIV-B, L.P.",TA,FUND_0934,decided,06-statements-and-economics,SRC407,2,0,distinct: XIV-B is its own vehicle
+"TA XV-B, L.P.","TA XV-B, L.P.",TA,FUND_0935,decided,06-statements-and-economics,SRC407,2,0,distinct: XV-B is its own vehicle
+Talmage Separate Account,Talmage Separate Account,Talmage,FUND_0936,decided,02-performance,SRC058,4,0,distinct: separate account and not the commingled partnership
+"Talmage Total Return Partners, LLC","Talmage Total Return Partners, LLC",Talmage,FUND_0937,decided,02-performance,SRC058,6,0,distinct: commingled partnership and not the separate account
+"Tamarack Mezzanine Partners, L.P.","Tamarack Mezzanine Partners, L.P.",,FUND_0062,decided,A+B,SRC035,1,1,sole printed variant
+Taurus Mining Finance Annex Fund,Taurus Mining Finance Annex Fund,Taurus Mining Finance,FUND_0938,decided,02-performance,SRC060,6,0,distinct: annex fund is a separate vehicle from the main fund
+Taurus Mining Finance Fund,Taurus Mining Finance Fund,Taurus Mining Finance,FUND_0939,decided,02-performance,SRC060,6,0,distinct: first fund with no series number
+Taurus Mining Finance Fund II,Taurus Mining Finance Fund II,Taurus Mining Finance,FUND_0940,decided,02-performance,SRC060,6,0,distinct: Fund II of the Taurus Mining Finance series
+TEAKWOOD CAPITAL III (CO-INVESTMENT) LP,TEAKWOOD CAPITAL III (CO-INVESTMENT) LP,TEAKWOOD CAPITAL,FUND_0941,decided,03-institutional-report,SRC356,1,0,distinct: co-investment vehicle alongside Teakwood Capital III
+TEAKWOOD CAPITAL III LP,TEAKWOOD CAPITAL III LP,TEAKWOOD CAPITAL,FUND_0942,decided,03-institutional-report,SRC356,1,0,distinct: main Fund III and not the co-investment vehicle
+Teays River Investments,Teays River Investments,,FUND_0943,decided,02-performance,SRC060,6,0,sole printed variant
+TechCore 2019,TechCore 2019,,FUND_0944,decided,02-performance,SRC063,3,0,sole printed variant
+"Tennenbaum Opportunities Fund V, LLC","Tennenbaum Opportunities Fund V, LLC",,FUND_0945,decided,06-statements-and-economics,SRC407,2,0,sole printed variant
+The Energy & Minerals Group Fund III,The Energy & Minerals Group Fund III,,FUND_0946,decided,02-performance,SRC060,6,0,sole printed variant
+The Ohio Capital Fund LLC,The Ohio Capital Fund LLC,,FUND_0107,decided,A+B,SRC036,1,1,sole printed variant
+"The Resolute III Continuation Fund, L.P.","The Resolute III Continuation Fund, L.P.",,FUND_0948,decided,06-statements-and-economics,SRC407,2,0,sole printed variant
+"The Veritas Capital Fund V, L.P.","The Veritas Capital Fund V, L.P.",Veritas Capital,FUND_0949,decided,06-statements-and-economics,SRC407,2,0,distinct series vehicle
+"The Veritas Capital Fund VI, L.P.","The Veritas Capital Fund VI, L.P.",Veritas Capital,FUND_0950,decided,06-statements-and-economics,SRC407,2,0,distinct series vehicle
+"The Veritas Capital Fund VII, L.P.","The Veritas Capital Fund VII, L.P.",Veritas Capital,FUND_0951,decided,06-statements-and-economics,SRC407,2,0,distinct series vehicle
+"The Veritas Capital Fund VIII, L.P.","The Veritas Capital Fund VIII, L.P.",Veritas Capital,FUND_0952,decided,06-statements-and-economics,SRC407,2,0,distinct series vehicle
+"Thoma Bravo Explore Fund II-A, L.P.","Thoma Bravo Explore Fund II-A, L.P.",Thoma Bravo,FUND_0953,decided,06-statements-and-economics,SRC407,2,0,distinct series vehicle
+"Thoma Bravo Fund XII, L.P.","Thoma Bravo Fund XII, L.P.",Thoma Bravo,FUND_0954,decided,06-statements-and-economics,SRC407,2,0,distinct series vehicle
+"Thoma Bravo Fund XV-A, L.P.","Thoma Bravo Fund XV-A, L.P.",Thoma Bravo,FUND_0955,decided,06-statements-and-economics,SRC407,2,0,distinct series vehicle
+"Thomas H. Lee Equity Fund VII, L.P.","Thomas H. Lee Equity Fund VII, L.P.",Thomas H. Lee,FUND_0956,decided,06-statements-and-economics,SRC407,2,0,distinct series vehicle
+"Thomas H. Lee Equity Fund VIII, L.P.","Thomas H. Lee Equity Fund VIII, L.P.",Thomas H. Lee,FUND_0957,decided,06-statements-and-economics,SRC407,2,0,distinct series vehicle
+"Thomas H. Lee Parallel (Cayman) Fund VII, L.P.","Thomas H. Lee Parallel (Cayman) Fund VII, L.P.",Thomas H. Lee,FUND_0958,decided,06-statements-and-economics,SRC407,2,0,distinct parallel vehicle of Fund VII
+"Thomas H. Lee Parallel Fund VIII, L.P.","Thomas H. Lee Parallel Fund VIII, L.P.",Thomas H. Lee,FUND_0959,decided,06-statements-and-economics,SRC407,2,0,distinct parallel vehicle of Fund VIII
+Tillridge Global Agribusiness Partners II,Tillridge Global Agribusiness Partners II,,FUND_0960,decided,02-performance,SRC060,6,0,sole printed variant
+Timber,Timber,,FUND_0961,decided,02-performance,SRC058,6,0,The partnership schedule prints Timber as a distinct vehicle with its own vintage and economics.
+"Timberline Annex Fund, L.P.","Timberline Annex Fund, L.P.",Timberline,FUND_0063,decided,A+B,SRC035,1,1,distinct from Timberline Venture Partners
+"Timberline Venture Partners, L.P.","Timberline Venture Partners, L.P.",Timberline,FUND_0064,decided,A+B,SRC035,1,1,distinct from Timberline Annex Fund
+"Tiverton AgriFinance II, L.P.","Tiverton AgriFinance II, L.P.",,FUND_0065,decided,A+B,SRC035,1,1,sole printed variant
+"TL Ventures VII, L.P.","TL Ventures VII, L.P.",,FUND_0066,decided,A+B,SRC035,1,1,sole printed variant
+"Tower Bridge Infrastructure Partners, L.P.","Tower Bridge Infrastructure Partners, L.P.",,FUND_0962,decided,02-performance,SRC063,3,0,distinct from TowerBrook Investors III
+"TowerBrook Investors III, L.P.","TowerBrook Investors III, L.P.",,FUND_0963,decided,06-statements-and-economics,SRC407,2,0,distinct from Tower Bridge Infrastructure Partners
+"TPF II-A, LP","TPF II-A, LP",,FUND_0964,decided,06-statements-and-economics,SRC407,2,0,sole printed variant
+"TPG Asia VI, L.P.","TPG Asia VI, L.P.",TPG,FUND_0965,decided,06-statements-and-economics,SRC407,2,0,distinct TPG vehicle
+"TPG Growth III (A), L.P.","TPG Growth III (A), L.P.",TPG,FUND_0966,decided,06-statements-and-economics,SRC407,2,0,distinct TPG vehicle
+"TPG Partners VI, L.P.","TPG Partners VI, L.P.",TPG,FUND_0967,decided,06-statements-and-economics,SRC407,2,0,distinct series vehicle
+"TPG Partners VII, L.P.","TPG Partners VII, L.P.",TPG,FUND_0968,decided,06-statements-and-economics,SRC407,2,0,distinct series vehicle
+"TPG Partners VIII, L.P.","TPG Partners VIII, L.P.",TPG,FUND_0969,decided,06-statements-and-economics,SRC407,2,0,distinct series vehicle
+"TPG Real Estate Partners III, L.P.","TPG Real Estate Partners III, L.P.",TPG,FUND_0970,decided,04-quarterly-report,SRC457,14,0,distinct TPG real estate vehicle
+TransEuropean I,TransEuropean I,,FUND_0971,decided,02-performance,SRC058,6,0,sole printed variant
+"Trident VI, L.P.","Trident VI, L.P.",Trident,FUND_0972,decided,06-statements-and-economics,SRC407,2,0,distinct series vehicle
+Trident VIII L.P.,Trident VIII L.P.,Trident,FUND_0973,decided,06-statements-and-economics,SRC407,2,0,distinct series vehicle
+"Trinity Ventures 2024, L.P.","Trinity Ventures 2024, L.P.",,FUND_0974,decided,06-statements-and-economics,SRC407,2,0,sole printed variant
+Triton Fund 6 SCSp,Triton Fund 6 SCSp,Triton,FUND_0975,decided,06-statements-and-economics,SRC407,2,0,distinct series vehicle
+Triton Fund IV L.P.,Triton Fund IV L.P.,Triton,FUND_0976,decided,06-statements-and-economics,SRC407,2,0,distinct series vehicle
+Twin Creeks Timber,Twin Creeks Timber,,FUND_0977,decided,02-performance,SRC060,6,0,distinct from the generic Timber row
+U.S. Value Income REIT Strategy,U.S. Value Income REIT Strategy,,FUND_0978,decided,04-quarterly-report,SRC457,15,0,strategy label kept as printed
+"UBS (US) Trumbull Property Fund, L.P.","UBS (US) Trumbull Property Fund, L.P.",,FUND_0252,decided,A+B,SRC137,1,1,sole printed variant
+"Updata Partners V, L.P.","Updata Partners V, L.P.",Updata Partners,FUND_0067,decided,A+B,SRC035,1,1,distinct series vehicle
+"Updata Partners VI, L.P.","Updata Partners VI, L.P.",Updata Partners,FUND_0068,decided,A+B,SRC035,1,1,distinct series vehicle
+"Utah Fund of Funds, LLC","Utah Fund of Funds, LLC",,FUND_0120,decided,A+B,SRC037,1,1,sole printed variant
+Valeas Capital Partners Fund I-A LP,Valeas Capital Partners Fund I-A LP,,FUND_0980,decided,06-statements-and-economics,SRC407,2,0,sole printed variant
+"VamosVentures Fund I, L.P.","VamosVentures Fund I, L.P.",,FUND_0069,decided,A+B,SRC035,1,1,sole printed variant
+"Vector Capital V, L.P.","Vector Capital V, L.P.",Vector Capital,FUND_0981,decided,06-statements-and-economics,SRC407,2,0,distinct series vehicle
+"Vector Capital VI, L.P.","Vector Capital VI, L.P.",Vector Capital,FUND_0982,decided,06-statements-and-economics,SRC407,2,0,distinct series vehicle
+Verdane Capital IX AB,Verdane Capital IX AB,,FUND_0983,decided,06-statements-and-economics,SRC407,2,0,sole printed variant
+"VERSA CAPITAL FUND II, L.P.","Versa Capital Fund II, L.P.",Versa Capital,FUND_0112,decided,A,SRC034,1,0,merged case-only variant
+"Versa Capital Fund II, L.P.","Versa Capital Fund II, L.P.",Versa Capital,FUND_0112,decided,B,SRC034,0,1,merged case-only variant
+"VERSA CAPITAL FUND II-A, L.P.","VERSA CAPITAL FUND II-A, L.P.",Versa Capital,FUND_0253,decided,A+B,SRC034,1,1,distinct from Versa Capital Fund II
+"VFC - Burnside Fund, L.P.","VFC - Burnside Fund, L.P.",,FUND_0070,decided,A+B,SRC035,1,1,sole printed variant
+VISTA EQUITY ENDEAVOR FUND II LP,VISTA EQUITY ENDEAVOR FUND II LP,Vista Equity,FUND_0984,decided,03-institutional-report,SRC356,1,0,distinct Vista vehicle
+"Vista Equity Partners Fund V, L.P.","Vista Equity Partners Fund V, L.P.",Vista Equity,FUND_0985,decided,06-statements-and-economics,SRC407,2,0,distinct series vehicle
+"Vista Equity Partners Fund VI, L.P.","Vista Equity Partners Fund VI, L.P.",Vista Equity,FUND_0986,decided,06-statements-and-economics,SRC407,2,0,distinct series vehicle
+VISTA EQUITY PARTNERS FUND VII LP,"Vista Equity Partners Fund VII, L.P.",Vista Equity,FUND_1051,decided,03-institutional-report,SRC356,1,0,merged case and punctuation variant
+"Vista Equity Partners Fund VII, L.P.","Vista Equity Partners Fund VII, L.P.",Vista Equity,FUND_1051,decided,06-statements-and-economics,SRC407,2,0,merged case and punctuation variant
+"Vista Equity Partners Fund VIII-A, L.P.","Vista Equity Partners Fund VIII-A, L.P.",Vista Equity,FUND_0987,decided,06-statements-and-economics,SRC407,2,0,distinct series vehicle
+"Vista Equity Partners Hubble, L.P.","Vista Equity Partners Hubble, L.P.",Vista Equity,FUND_0988,decided,06-statements-and-economics,SRC407,2,0,distinct Vista vehicle
+Vornado Capital Partners L.P.,Vornado Capital Partners L.P.,,FUND_0989,decided,02-performance,SRC058,6,0,sole printed variant
+"Voyager Capital Fund IV, L.P.","Voyager Capital Fund IV, L.P.",Voyager Capital,FUND_0071,decided,A+B,SRC035,1,1,distinct series vehicle
+"Voyager Capital Fund V, L.P.","Voyager Capital Fund V, L.P.",Voyager Capital,FUND_0072,decided,A+B,SRC035,1,1,distinct series vehicle
+"VSS Structured Capital Parallel III, L.P.","VSS Structured Capital Parallel III, L.P.",,FUND_0990,decided,06-statements-and-economics,SRC407,2,0,sole printed variant
+Walton Street Real Estate Core-Plus Fund,Walton Street Real Estate Core-Plus Fund,,FUND_0991,decided,02-performance,SRC058,6,0,sole printed variant
+"Warburg Pincus Global Growth, L.P.","Warburg Pincus Global Growth, L.P.",Warburg Pincus,FUND_0992,decided,06-statements-and-economics,SRC407,2,0,distinct Warburg Pincus vehicle
+"Warburg Pincus Private Equity XI, L.P.","Warburg Pincus Private Equity XI, L.P.",Warburg Pincus,FUND_0993,decided,06-statements-and-economics,SRC407,2,0,distinct series vehicle
+"Warburg Pincus Private Equity XI-B, L.P.","Warburg Pincus Private Equity XI-B, L.P.",Warburg Pincus,FUND_0994,decided,06-statements-and-economics,SRC407,2,0,distinct class of Fund XI
+"Warburg Pincus Private Equity XII, L.P.","Warburg Pincus Private Equity XII, L.P.",Warburg Pincus,FUND_0995,decided,06-statements-and-economics,SRC407,2,0,distinct series vehicle
+"Warburg Pincus Private Equity XII-B, L.P.","Warburg Pincus Private Equity XII-B, L.P.",Warburg Pincus,FUND_0996,decided,06-statements-and-economics,SRC407,2,0,distinct class of Fund XII
+Warwick Partners III,Warwick Partners III,Warwick Partners,FUND_0997,decided,02-performance,SRC060,6,0,distinct series vehicle
+Warwick Partners IV,Warwick Partners IV,Warwick Partners,FUND_0998,decided,02-performance,SRC060,6,0,distinct series vehicle
+"Water Property Investor II, L.P.","Water Property Investor II, L.P.",Water Property Investor,FUND_0999,decided,04-quarterly-report,SRC457,15,0,distinct from Water Property Investor L.P.
+"Water Property Investor, L.P.","Water Property Investor, L.P.",Water Property Investor,FUND_1000,decided,04-quarterly-report,SRC457,16,0,distinct from Water Property Investor II
+"Waterton Fund IX PT Chicago, LLC","Waterton Fund IX PT Chicago, LLC",Waterton,FUND_1001,decided,02-performance,SRC058,4,0,distinct Waterton vehicle
+Waterton Residential Prop Venture XIV,Waterton Residential Prop Venture XIV,Waterton,FUND_1002,decided,02-performance,SRC058,6,0,abbreviated spelling kept as printed
+Waterton Residential Property Venture XI,Waterton Residential Property Venture XI,Waterton,FUND_1003,decided,02-performance,SRC058,6,0,distinct series vehicle
+Waterton Residential Property Venture XII,Waterton Residential Property Venture XII,Waterton,FUND_1004,decided,02-performance,SRC058,6,0,distinct series vehicle
+"WCAS XIII, L.P.","WCAS XIII, L.P.",WCAS,FUND_1005,decided,06-statements-and-economics,SRC407,2,0,distinct series vehicle
+"WCAS XIV, L.P.","WCAS XIV, L.P.",WCAS,FUND_1006,decided,06-statements-and-economics,SRC407,2,0,distinct series vehicle
+"Webster Equity Partners Bristol CF, L.P.","Webster Equity Partners Bristol CF, L.P.",,FUND_1007,decided,06-statements-and-economics,SRC407,2,0,sole printed variant
+Westbourne Infrastructure Debt 6 (A),Westbourne Infrastructure Debt 6 (A),Westbourne,FUND_1008,decided,02-performance,SRC060,6,0,distinct class A vehicle
+Westbourne Infrastructure Debt 6 ©,Westbourne Infrastructure Debt 6 ©,Westbourne,FUND_1009,decided,02-performance,SRC060,5,0,distinct class C vehicle - OCR spelling kept as printed
+Westbrook I,Westbrook I,Westbrook,FUND_1010,decided,02-performance,SRC058,6,0,distinct - short label not merged with Westbrook Real Estate Fund I
+Westbrook II,Westbrook II,Westbrook,FUND_1011,decided,02-performance,SRC058,6,0,distinct series vehicle
+Westbrook III,Westbrook III,Westbrook,FUND_1012,decided,02-performance,SRC058,6,0,distinct series vehicle
+Westbrook IV,Westbrook IV,Westbrook,FUND_1013,decided,02-performance,SRC058,6,0,distinct series vehicle
+Westbrook Real Estate Fund I,Westbrook Real Estate Fund I,Westbrook,FUND_0254,decided,A+B,SRC137,1,1,distinct - full printed name from a separate source
+Western National Co-Investment,Western National Co-Investment,Western National,FUND_1014,decided,02-performance,SRC058,6,0,distinct Western National vehicle
+Western National Realty II,Western National Realty II,Western National,FUND_1015,decided,02-performance,SRC058,6,0,distinct Western National vehicle
+Whitehall Street III & IV,Whitehall Street III & IV,Whitehall Street,FUND_0255,decided,A+B,SRC137,1,1,distinct combined reporting line
+Whitehall Street V & VI,Whitehall Street V & VI,Whitehall Street,FUND_0256,decided,A+B,SRC137,1,1,distinct combined reporting line
+Whitehall Street V-S & VI-S,Whitehall Street V-S & VI-S,Whitehall Street,FUND_0257,decided,A+B,SRC137,1,1,distinct combined reporting line
+Whitehall Street VII & VIII,Whitehall Street VII & VIII,Whitehall Street,FUND_0258,decided,A+B,SRC137,1,1,distinct combined reporting line
+William E Simon & Sons,William E Simon & Sons,,FUND_0259,decided,A+B,SRC137,1,1,sole printed variant
+"Wind Point Partners AAV, L.P.","Wind Point Partners AAV, L.P.",Wind Point Partners,FUND_1016,decided,06-statements-and-economics,SRC407,2,0,distinct Wind Point vehicle
+"Wind Point Partners VII-B, L.P.","Wind Point Partners VII-B, L.P.",Wind Point Partners,FUND_1017,decided,06-statements-and-economics,SRC407,2,0,distinct series vehicle
+Windsor Columbia Realty Fund,Windsor Columbia Realty Fund,Windsor Columbia,FUND_1018,decided,02-performance,SRC058,4,0,distinct from the Non Core sleeve
+Windsor Columbia Realty Fund Non Core,Windsor Columbia Realty Fund Non Core,Windsor Columbia,FUND_1019,decided,02-performance,SRC058,6,0,distinct non-core sleeve
+Windsor Realty VII,Windsor Realty VII,,FUND_1020,decided,02-performance,SRC058,6,0,sole printed variant - generic Windsor stem left unfamilied
+"Women's VC Fund II, L.P.","Women's VC Fund II, L.P.",,FUND_0073,decided,A+B,SRC035,1,1,distinct from Women's Venture Capital Fund L.P.
+"Women's Venture Capital Fund, L.P.","Women's Venture Capital Fund, L.P.",,FUND_0074,decided,A+B,SRC035,1,1,distinct from Women's VC Fund II L.P.
+Woodbourne,Woodbourne,,FUND_1021,decided,02-performance,SRC058,3,0,sole printed variant
+"WP AUSA, L.P.","WP AUSA, L.P.",,FUND_1022,decided,06-statements-and-economics,SRC407,2,0,sole printed variant - acronym not expanded
+"WRPV XI CK Expansion, L.L.C","WRPV XI CK Expansion, L.L.C",,FUND_1023,decided,02-performance,SRC058,6,0,distinct co-investment vehicle
+"Yaletown Ventures II (USA), L.P.","Yaletown Ventures II (USA), L.P.",,FUND_0075,decided,A+B,SRC035,1,1,sole printed variant
+Yen Feeder,Yen Feeder,Bear Stearns High Grade Structured Credit Strategies Fund,FUND_1024,decided,05-fund-legal-docs,SRC107,1,0,The investment-vehicle table prints Yen Feeder as a distinct feeder of the named Bear Stearns fund.
+"ZMC II, L.P.","ZMC II, L.P.",,FUND_1025,decided,06-statements-and-economics,SRC407,2,0,sole printed variant

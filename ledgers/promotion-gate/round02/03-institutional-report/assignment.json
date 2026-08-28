@@ -1,0 +1,26 @@
+{
+  "batch_id": "03-institutional-report",
+  "round_id": "02",
+  "files": [
+    {
+      "file_id": "SRC192",
+      "source_sha256": "b3af59d56f279544cb25facf64f5998fc8108300a745dd3fa7a91a63ab855230"
+    },
+    {
+      "file_id": "SRC216",
+      "source_sha256": "5c03d8f73453f799cd0bff82f0d4a880e783247918a72dd35e8cdd352a6d2a50"
+    },
+    {
+      "file_id": "SRC356",
+      "source_sha256": "bce1cc0f3cc4e5824307fdad05b63b448110f6218011c115af879665eca07ba5"
+    },
+    {
+      "file_id": "SRC375",
+      "source_sha256": "f61eeefaffa1b3e41935961142f563d3887f3c3e621e726449d5826821bce017"
+    },
+    {
+      "file_id": "SRC389",
+      "source_sha256": "9feb74eb228530f7459be60b41936bff0ac6688d0c051cfa56b339d238282017"
+    }
+  ]
+}

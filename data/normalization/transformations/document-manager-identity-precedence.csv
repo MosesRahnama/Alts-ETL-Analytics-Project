@@ -1,0 +1,3 @@
+input_value,output_value,decided_by,evidence,note,context
+id_source_1,manager_entity_id,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:757,,document_manager_map
+id_source_2,subject_entity_id_when_manager,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:757,,document_manager_map

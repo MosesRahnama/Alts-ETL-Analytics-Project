@@ -1,0 +1,6 @@
+input_value,output_value,decided_by,evidence,note
+infrastructure,0.045,"pipeline literal, synthetic fixture",src/generate/generate_synthetic_funds.py:153,
+private_credit,0.085,"pipeline literal, synthetic fixture",src/generate/generate_synthetic_funds.py:153,
+real_estate,0.035,"pipeline literal, synthetic fixture",src/generate/generate_synthetic_funds.py:153,
+secondaries,0.01,"pipeline literal, synthetic fixture",src/generate/generate_synthetic_funds.py:153,
+*,0.0,"pipeline literal, synthetic fixture",src/generate/generate_synthetic_funds.py:153,Strategies outside the map earn almost none.

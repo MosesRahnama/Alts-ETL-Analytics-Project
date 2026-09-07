@@ -1,0 +1,7 @@
+input_value,output_value,decided_by,evidence,note,normalized
+1,file_id,"pipeline literal, extraction contract",src/catalog/simple_pdf_extraction/csv_wide_contract.py:533,,raw
+2,source_page,"pipeline literal, extraction contract",src/catalog/simple_pdf_extraction/csv_wide_contract.py:533,,raw
+3,source_row_label,"pipeline literal, extraction contract",src/catalog/simple_pdf_extraction/csv_wide_contract.py:533,,key_text
+4,source_column_label,"pipeline literal, extraction contract",src/catalog/simple_pdf_extraction/csv_wide_contract.py:533,,key_text
+5,source_occurrence,"pipeline literal, extraction contract",src/catalog/simple_pdf_extraction/csv_wide_contract.py:533,,raw
+pair_id_format,PAIR_{digest24},"pipeline literal, extraction contract",src/catalog/simple_pdf_extraction/csv_wide_contract.py:560,"SHA-256 of the unit-separator-joined key, first twenty-four hex digits, upper case.",

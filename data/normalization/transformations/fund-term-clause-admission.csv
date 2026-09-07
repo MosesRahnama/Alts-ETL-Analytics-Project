@@ -1,0 +1,5 @@
+input_value,output_value,decided_by,evidence,note,context
+subject_prefix,fund,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:535,,
+record_family,legal_clause|legal_term,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:535,Both families; the pipe separates the members.,
+risk_factor,terms.risk_factor,source-publication review,sql/duckdb/02_fund_level_ddl.sql:412,The fund-model clause category identifies a risk disclosure; the original category remains in fact_observation.,canonical_metric
+*,terms.special_term,source-publication review,sql/duckdb/02_fund_level_ddl.sql:412,Other admitted legal clauses use the general terms category; the original category and full text remain in the evidence tables.,canonical_metric

@@ -1,0 +1,3 @@
+input_value,output_value,decided_by,evidence,note
+map_source,data/csv/document_fund_map.csv,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:439,"A capital-account statement prints its cash flows against the investor, so the fund comes from the document map."
+distinct_funds_required,1,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:439,Only a document that names one fund attributes anything; a multi-fund document attributes nothing.

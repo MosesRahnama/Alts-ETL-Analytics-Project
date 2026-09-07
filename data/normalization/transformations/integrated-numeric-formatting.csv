@@ -1,0 +1,3 @@
+input_value,output_value,decided_by,evidence,note
+default_places,6,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:208,
+rounding,half_even,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:208,

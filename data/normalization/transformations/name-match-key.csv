@@ -1,0 +1,3 @@
+input_value,output_value,decided_by,evidence,note
+unique_match_key,auto_settled,"pipeline literal, extraction support",src/catalog/simple_pdf_extraction/name_normalization.py:235,A raw name with no sibling variant settles as itself and is marked auto.
+shared_match_key,queued,"pipeline literal, extraction support",src/catalog/simple_pdf_extraction/name_normalization.py:235,

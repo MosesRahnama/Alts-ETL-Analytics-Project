@@ -1,0 +1,4 @@
+input_value,output_value,decided_by,evidence,note,context
+text_source_1,contract.TEXT_METRICS,"pipeline literal, wide pivot",src/flatten/pivot_wide.py:63,Metric names whose unit hint is text or date.,
+text_source_2,contract.TERM_CATEGORIES,"pipeline literal, wide pivot",src/flatten/pivot_wide.py:63,Every term is a printed phrase.,
+text_unit_hints,text|date,"pipeline literal, extraction contract",src/catalog/simple_pdf_extraction/csv_wide_contract.py:423,"A metric whose unit hint is text or date holds wording, not a number.",contract

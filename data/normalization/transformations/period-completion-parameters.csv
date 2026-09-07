@@ -1,0 +1,27 @@
+input_value,output_value,decided_by,evidence,note,context
+commitment_floor,100000,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:759,,anchors
+paid_over_commitment_cap,0.95,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:759,A paid-in above commitment raises the commitment.,anchors
+ratio_anchor_cap,10,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:759,,anchors
+paid_ratio_clamp,0.35..0.98,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:759,,paid_ratio
+paid_ratio_age_slope,0.015,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:759,Per year of age beyond eight.,paid_ratio
+paid_ratio_age_center,8,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:759,,paid_ratio
+paid_ratio_jitter,0.05,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:759,,paid_ratio
+maturity_share,age/15 clamped 0.15..0.9,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:759,Splits a TVPI-only anchor into DPI and RVPI.,ratios
+dpi_age_slope,0.045,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:759,,ratios
+dpi_jitter,0.12,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:759,,ratios
+dpi_floor,0.01,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:759,,ratios
+rvpi_age_slope,-0.04,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:759,,ratios
+rvpi_jitter,-0.08,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:759,,ratios
+rvpi_floor,0.05,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:759,,ratios
+ratio_cap,4.0,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:759,,ratios
+beginning_nav_share,0.92,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:759,,period_flows
+contributions_share,0.03,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:759,Of paid-in.,period_flows
+distributions_share,0.04,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:759,Of distributions to date.,period_flows
+unrealized_gain_share,0.025,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:759,Of NAV.,period_flows
+net_income_share,0.012,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:759,Of beginning NAV.,period_flows
+management_fee_share,0.003,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:759,Of commitment.,period_flows
+other_expenses_share,0.0005,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:759,Of commitment.,period_flows
+realized_gain,balancing_residual,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:759,The roll-forward identity closes exactly.,period_flows
+period_start,january_first_of_target_year,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:759,,dates
+completion_formula,INTEGRATED_PERIOD_COMPLETION_V1,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:759,,
+monetary_anchor_currency,match_target_currency,Codex,tests/test_pipeline_corrections.py,Unconverted amounts in another currency remain source evidence and do not determine generated amounts.,anchors

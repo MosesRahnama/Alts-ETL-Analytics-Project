@@ -1,0 +1,4 @@
+input_value,output_value,decided_by,evidence,note,context
+float_format,shortest_round_trip,"numeric fidelity, 2026-09-03",src/flatten/flatten_extracted.py:292,"The shortest text that reads back as the same float, trailing zeros and the bare point removed; a value that repr writes in scientific notation is written at ten decimals instead. Fixed at ten decimals, 35 printed values such as $17,996,547.30 wrote as 17996547.3000000007 and the database rounded them.",
+stripped_to_empty,0,"pipeline literal, flatten",src/flatten/flatten_extracted.py:200,A float that strips to nothing writes as zero.,
+plain_number_format,.10f stripped,"pipeline literal, calibration",src/pipeline/build_calibration_candidates.py:66,Trailing zeros and the bare point removed.,calibration

@@ -1,0 +1,11 @@
+input_value,output_value,decided_by,evidence,note,context
+1,file_id,"pipeline literal, extraction workflow",src/catalog/simple_pdf_extraction/csv_workflow.py:1436,,cited_line_key
+2,source_page,"pipeline literal, extraction workflow",src/catalog/simple_pdf_extraction/csv_workflow.py:1436,,cited_line_key
+3,evidence_quote,"pipeline literal, extraction workflow",src/catalog/simple_pdf_extraction/csv_workflow.py:1436,,cited_line_key
+4,source_column_label,"pipeline literal, extraction workflow",src/catalog/simple_pdf_extraction/csv_workflow.py:1436,,cited_line_key
+unmatched_rows,rekeyed_on_cited_line,"pipeline literal, extraction workflow",src/catalog/simple_pdf_extraction/csv_workflow.py:1456,"Two lanes reading the same physical row quote the same printed text, whatever they numbered it.",
+%,stripped_for_matching,"pipeline literal, extraction workflow",src/catalog/simple_pdf_extraction/csv_workflow.py:1494,,bare_value
+$,stripped_for_matching,"pipeline literal, extraction workflow",src/catalog/simple_pdf_extraction/csv_workflow.py:1494,,bare_value
+",",stripped_for_matching,"pipeline literal, extraction workflow",src/catalog/simple_pdf_extraction/csv_workflow.py:1494,,bare_value
+<space>,stripped_for_matching,"pipeline literal, extraction workflow",src/catalog/simple_pdf_extraction/csv_workflow.py:1494,,bare_value
+renamed_column,rekeyed_when_only_name_differs,"pipeline literal, extraction workflow",src/catalog/simple_pdf_extraction/csv_workflow.py:1500,,

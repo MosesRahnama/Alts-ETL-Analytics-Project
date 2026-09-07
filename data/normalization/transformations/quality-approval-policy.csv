@@ -1,0 +1,4 @@
+input_value,output_value,decided_by,evidence,note
+blocking_severity,error,"pipeline literal, analytics",src/analytics/run_round04_analytics.py:735,Only error-severity rules block a record.
+blocking_status,FAIL,"pipeline literal, analytics",src/analytics/run_round04_analytics.py:735,
+unknown_rule,refused,"pipeline literal, analytics",src/analytics/run_round04_analytics.py:735,A result citing a rule outside the expected set invalidates its run.

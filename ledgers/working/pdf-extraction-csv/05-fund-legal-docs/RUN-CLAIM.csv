@@ -1,0 +1,5 @@
+"route","agent_role","extractor_model","claimed_at","claimed_by"
+"05-fund-legal-docs","A","GPT-5 (Codex)","2026-09-06T19:53:45Z",""
+"05-fund-legal-docs","B","gpt-5","2026-09-01T05:58:25Z",""
+"05-fund-legal-docs","J1","claude-opus-5[1m]","2026-09-06T21:46:20Z",""
+"05-fund-legal-docs","J2","Codex","2026-09-05T20:16:21Z","source-review checker; exact model identifier not exposed by this session"

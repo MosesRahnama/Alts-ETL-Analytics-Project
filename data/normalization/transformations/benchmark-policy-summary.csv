@@ -1,0 +1,4 @@
+input_value,output_value,decided_by,evidence,note
+first_observation,earliest_return_date,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:598,
+last_observation,latest_return_date,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:598,
+observation_count,row_count,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:598,

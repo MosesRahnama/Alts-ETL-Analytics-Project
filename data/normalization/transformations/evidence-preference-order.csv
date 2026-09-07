@@ -1,0 +1,5 @@
+input_value,output_value,decided_by,evidence,note,context
+1,document_id,"pipeline literal, extraction support",src/catalog/simple_pdf_extraction/fund_attributes.py:477,The evidence rows for a settled attribute list in this order.,
+2,source_page,"pipeline literal, extraction support",src/catalog/simple_pdf_extraction/fund_attributes.py:477,,
+3,observation_id,"pipeline literal, extraction support",src/catalog/simple_pdf_extraction/fund_attributes.py:477,,
+latest_first,reversed_period_order,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:300|src/pipeline/build_integrated_universe.py:339,The most recent period carrying a value supplies it.,integrated

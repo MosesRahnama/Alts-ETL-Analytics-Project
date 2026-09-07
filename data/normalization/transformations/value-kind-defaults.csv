@@ -1,0 +1,4 @@
+input_value,output_value,decided_by,evidence,note
+negative_parentheses,negative,"pipeline literal, flatten",src/flatten/flatten_extracted.py:338,A fully parenthesized value is negative.
+negative_leading_minus,negative,"pipeline literal, flatten",src/flatten/flatten_extracted.py:338,
+unicode_minus,-,"pipeline literal, flatten",src/flatten/flatten_extracted.py:338,The typographic minus reads as the ASCII minus.

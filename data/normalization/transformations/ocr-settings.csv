@@ -1,0 +1,6 @@
+input_value,output_value,decided_by,evidence,note
+text_score,0.5,"pipeline literal, release tooling",src/catalog/build_txt_corpus.py:89,
+use_angle_cls,true,"pipeline literal, release tooling",src/catalog/build_txt_corpus.py:89,
+use_text_det,true,"pipeline literal, release tooling",src/catalog/build_txt_corpus.py:89,
+min_height,30,"pipeline literal, release tooling",src/catalog/build_txt_corpus.py:89,
+width_height_ratio,8,"pipeline literal, release tooling",src/catalog/build_txt_corpus.py:89,

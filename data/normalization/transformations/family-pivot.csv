@@ -1,0 +1,4 @@
+input_value,output_value,decided_by,evidence,note
+context_family,document_context,"pipeline literal, wide pivot",src/flatten/pivot_wide.py:55,This family takes the one-row-per-document builder instead of the measure pivot.
+holding_table,fact_holding,"pipeline literal, wide pivot",src/flatten/pivot_wide.py:55,The bridge names holdings under this table name.
+definition_family,definition_context,"metric vocabulary review, 2026-09-01",record-families.csv definition_context,This family takes the one-row-per-note builder: a printed note carries a key and its wording rather than a measure.

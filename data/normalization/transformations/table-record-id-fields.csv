@@ -1,0 +1,9 @@
+input_value,output_value,decided_by,evidence,note
+fund_master,fund_id,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:282,
+document_fund_map,document_fund_map_id,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:282,
+fund_observations,observation_id,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:282,
+fund_cashflows,cashflow_id,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:282,
+fund_periods,fund_period_id,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:282,
+fund_terms,fund_term_id,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:282,
+fund_term_clauses,fund_term_clause_id,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:282,
+fund_holdings,holding_id,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:282,

@@ -1,0 +1,12 @@
+input_value,output_value,decided_by,evidence,note
+<blank>,null_like,"pipeline literal, extraction contract",src/catalog/simple_pdf_extraction/csv_wide_contract.py:733,
+$ -,null_like,"pipeline literal, extraction contract",src/catalog/simple_pdf_extraction/csv_wide_contract.py:733,
+$-,null_like,"pipeline literal, extraction contract",src/catalog/simple_pdf_extraction/csv_wide_contract.py:733,
+-,null_like,"pipeline literal, extraction contract",src/catalog/simple_pdf_extraction/csv_wide_contract.py:733,
+n/a,null_like,"pipeline literal, extraction contract",src/catalog/simple_pdf_extraction/csv_wide_contract.py:733,
+na,null_like,"pipeline literal, extraction contract",src/catalog/simple_pdf_extraction/csv_wide_contract.py:733,
+nil,null_like,"pipeline literal, extraction contract",src/catalog/simple_pdf_extraction/csv_wide_contract.py:733,
+none,null_like,"pipeline literal, extraction contract",src/catalog/simple_pdf_extraction/csv_wide_contract.py:733,
+not applicable,null_like,"pipeline literal, extraction contract",src/catalog/simple_pdf_extraction/csv_wide_contract.py:733,
+–,null_like,"pipeline literal, extraction contract",src/catalog/simple_pdf_extraction/csv_wide_contract.py:733,
+—,null_like,"pipeline literal, extraction contract",src/catalog/simple_pdf_extraction/csv_wide_contract.py:733,

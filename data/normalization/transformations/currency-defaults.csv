@@ -1,0 +1,4 @@
+input_value,output_value,decided_by,evidence,note,context
+<blank>,USD,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:486,"A cash flow with no printed currency is published as USD; recorded as a merits concern, unchanged here.",fund_cashflows
+<blank>,USD,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:601,,fund_holdings
+<blank>,USD,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:672,A manager master row appended with no printed currency.,manager_master

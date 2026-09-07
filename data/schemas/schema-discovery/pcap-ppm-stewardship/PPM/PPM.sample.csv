@@ -1,0 +1,6 @@
+"sample_order","file_id","filename","page_count","stratum","selection_reason"
+"1","SRC001","PPM_Fundsmith_Equity_Fund.pdf","47.0","1","sorted by page_count,file_id; five contiguous strata; lower-median/file_id tie-break"
+"2","SRC002","PPM_Worcester_Fund_LLC.pdf","85.0","2","sorted by page_count,file_id; five contiguous strata; lower-median/file_id tie-break"
+"3","SRC421","PPM_Apollo_S3_Private_Markets_Fund_Prospectus.pdf","135","3","sorted by page_count,file_id; five contiguous strata; lower-median/file_id tie-break"
+"4","SRC252","NAV_Statement_HGIT_Prospectus_With_Supplements_Jul2026.pdf","278","4","sorted by page_count,file_id; five contiguous strata; lower-median/file_id tie-break"
+"5","SRC052","NAV_Statement_BREIT_Prospectus_With_Supplements.pdf","501.0","5","sorted by page_count,file_id; five contiguous strata; lower-median/file_id tie-break"

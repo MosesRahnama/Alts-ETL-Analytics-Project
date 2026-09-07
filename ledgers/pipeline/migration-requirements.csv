@@ -1,0 +1,13 @@
+id,requirement,check,scope,batch_from
+R01,Every published output exists at its path,git ls-tree of the previous batch tag against the disk,data docs ledgers sql,0
+R02,Every published CSV keeps its header,header of the working file against git show <previous tag>:<path> for every changed tracked CSV outside the allowed set,data docs ledgers sql,0
+R03,Every published CSV keeps its row count,row count of both versions for every changed tracked CSV outside the allowed set,data docs ledgers sql,0
+R04,Every published file is byte-identical,git status --porcelain minus the allowed set; DuckDB files deferred to the parity checks in R12,data docs ledgers sql,0
+R05,No file appeared outside the batch's allowed write set,git status --porcelain --untracked-files=all against the allowed set plus the matrix root and the release records,whole tree,0
+R06,No folder was created per run,parent folders of untracked files under data docs ledgers instructions against HEAD; only the matrix root may be new,data docs ledgers instructions,0
+R07,Every matrix parses with the shared columns and every row carries decided_by and evidence with no duplicate input_value,python -m src.common.matrices --check,data/normalization/transformations,0
+R08,Every _LEGACY_ symbol in src has an assert_legacy call and the assert passes,python -m pytest -q tests/test_transformation_matrices.py,src tests,0
+R09,Every prior-batch legacy symbol is gone and every surviving shadow literal belongs to the current batch,scan all src files for batch-prefixed _LEGACY_BN_ symbols; --retire-current permits none at final close,src,1
+R10,Every master site assigned to the batches done so far has every source line covered or a structure disposition,tracked migration-batch-scope.csv and migration-sites.csv; all evidence locations must appear in valid matrix rows,data/normalization/transformations,1
+R11,The matrix check record carries a current receipt,transformation_lineage.missing_current_receipts on ledgers/pipeline/matrix-check.csv,ledgers/pipeline,0
+R12,The existing gates hold,reviewer_check at or above 144; release_audit PASS; check_project_structure --verify-hashes PASS; pytest with zero failures and at least the floor passed,whole tree,0

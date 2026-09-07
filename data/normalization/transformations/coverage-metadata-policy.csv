@@ -1,0 +1,4 @@
+input_value,output_value,decided_by,evidence,note
+family_field,record_family,"pipeline literal, extraction workflow",src/catalog/simple_pdf_extraction/csv_workflow.py:600,The record family supplies the page coverage family.
+structure_field_order,source_table|source_section,"pipeline literal, extraction workflow",src/catalog/simple_pdf_extraction/csv_workflow.py:600,The table label takes precedence over the section label.
+collection_rule,sorted_unique_nonblank,"pipeline literal, extraction workflow",src/catalog/simple_pdf_extraction/csv_workflow.py:600,Repeated labels collapse to one sorted nonblank coverage label.

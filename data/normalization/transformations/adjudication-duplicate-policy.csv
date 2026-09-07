@@ -1,0 +1,2 @@
+input_value,output_value,decided_by,evidence,note
+repeated_pair_id,last_row_wins,"pipeline literal, review builder",src/pipeline/build_extraction_review.py:352,"A later resolution for the same pair replaces the earlier one; recorded as a merits concern, unchanged here."

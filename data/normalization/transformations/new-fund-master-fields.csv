@@ -1,0 +1,4 @@
+input_value,output_value,decided_by,evidence,note
+provenance_type,EXTRACTED,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:639,A new master row exists because printed evidence names the fund.
+record_status,ACTIVE,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:639,
+legal_name_source,fund_name,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:639,

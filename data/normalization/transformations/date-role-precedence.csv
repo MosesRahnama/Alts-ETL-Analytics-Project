@@ -1,0 +1,5 @@
+input_value,output_value,decided_by,evidence,note,context
+dated_role,as_of,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:597,,holding
+undated_role,static_no_date,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:597,,holding
+dated_precision,day,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:597,,holding
+undated_precision,unknown,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:597,,holding

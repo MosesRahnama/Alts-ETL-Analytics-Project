@@ -1,0 +1,5 @@
+input_value,output_value,decided_by,evidence,note
+1,existing_master,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:687,
+2,attributes_matrix,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:687,
+3,latest_period,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:687,
+4,deterministic_2000_plus_25,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:687,A reproducible year in 2000 to 2024 from the seed and the fund id.

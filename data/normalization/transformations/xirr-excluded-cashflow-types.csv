@@ -1,0 +1,4 @@
+input_value,output_value,decided_by,evidence,note
+ENDING_NAV,excluded_from_xirr,"pipeline literal, quality rules",src/quality/run_fund_checks.py:868,"The ending value enters the XIRR once, as the terminal amount, never as a flow."
+NAV,excluded_from_xirr,"pipeline literal, quality rules",src/quality/run_fund_checks.py:868,
+TERMINAL_NAV,excluded_from_xirr,"pipeline literal, quality rules",src/quality/run_fund_checks.py:868,

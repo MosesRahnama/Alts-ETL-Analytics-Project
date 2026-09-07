@@ -1,0 +1,3 @@
+input_value,output_value,decided_by,evidence,note,context
+source_1,subject_when_fund,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:462,A fund-scoped subject is the fund.,fund_cashflows
+source_2,document_reporting_fund,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:462,Else the document's single reporting fund.,fund_cashflows

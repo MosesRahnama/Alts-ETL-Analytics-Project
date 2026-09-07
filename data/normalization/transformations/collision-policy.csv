@@ -1,0 +1,3 @@
+input_value,output_value,decided_by,evidence,note,context
+repeat_within_document,first_value_kept,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:410,"Choosing between two printed values is an adjudication and this module performs none; the collision is counted, never published.",fund_periods
+collision_record,count_only,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:410,,fund_periods

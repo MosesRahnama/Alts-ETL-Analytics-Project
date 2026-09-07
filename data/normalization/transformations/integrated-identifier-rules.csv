@@ -1,0 +1,4 @@
+input_value,output_value,decided_by,evidence,note
+id_format,{prefix}_{digest},"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:191,
+digest,sha256_first20_upper,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:191,
+part_join,|,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:191,

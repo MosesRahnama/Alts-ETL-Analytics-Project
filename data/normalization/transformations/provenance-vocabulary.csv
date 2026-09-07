@@ -1,0 +1,5 @@
+input_value,output_value,decided_by,evidence,note
+EXTRACTED,source_document_id,"pipeline literal, quality rules",src/quality/run_fund_checks.py:890|src/analytics/run_round04_analytics.py:1011,The field a row of this provenance must populate.
+DERIVED,formula_id,"pipeline literal, quality rules",src/quality/run_fund_checks.py:890|src/analytics/run_round04_analytics.py:1011,
+SYNTHETIC,synthetic_parameter_set_id,"pipeline literal, quality rules",src/quality/run_fund_checks.py:890|src/analytics/run_round04_analytics.py:1011,
+IMPUTED,imputation_method,"pipeline literal, quality rules",src/quality/run_fund_checks.py:890|src/analytics/run_round04_analytics.py:1011,

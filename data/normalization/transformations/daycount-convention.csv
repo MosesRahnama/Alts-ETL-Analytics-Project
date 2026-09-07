@@ -1,0 +1,4 @@
+input_value,output_value,decided_by,evidence,note
+year_days,365.0,"pipeline literal, analytics",src/common/finance.py:37,Actual day spacing over a 365-day year.
+origin,first_cash_flow,"pipeline literal, analytics",src/common/finance.py:37,
+minimum_rate,-1.0,"pipeline literal, analytics",src/common/finance.py:37,A rate at or below minus one is outside the discounting domain.

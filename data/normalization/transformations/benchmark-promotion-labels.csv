@@ -1,0 +1,7 @@
+input_value,output_value,decided_by,evidence,note
+provenance_type,DERIVED,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:567,
+parameter_set_id,PUBLIC_PROXY_DEMONSTRATION_ONLY_V1,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:567,
+record_status,ACTIVE,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:567,
+promotion_formula,PUBLIC_MARKET_CANDIDATE_PROMOTION_V1,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:567,
+precedence,PUBLIC_DEMO_PROXY,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:567,
+lineage_note,Candidate return is unchanged; policy restricts it to demonstration use.,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:567,

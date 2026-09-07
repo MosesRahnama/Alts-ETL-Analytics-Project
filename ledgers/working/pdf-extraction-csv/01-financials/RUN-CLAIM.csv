@@ -1,0 +1,5 @@
+"route","agent_role","extractor_model","claimed_at","claimed_by"
+"01-financials","A","gpt-5 (model identifier not exposed)","2026-09-03T21:40:05Z",""
+"01-financials","B","claude-sonnet-5","2026-09-03T21:39:48Z",""
+"01-financials","J1","Codex","2026-09-05T20:16:21Z","source-review checker; exact model identifier not exposed by this session"
+"01-financials","J2","Codex","2026-09-05T20:16:21Z","source-review checker; exact model identifier not exposed by this session"

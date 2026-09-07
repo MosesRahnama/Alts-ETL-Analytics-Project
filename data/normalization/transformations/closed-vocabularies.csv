@@ -1,0 +1,25 @@
+input_value,output_value,decided_by,evidence,note,context
+actual,member,"pipeline literal, extraction contract",src/catalog/simple_pdf_extraction/csv_wide_contract.py:206,,evidence_class
+illustrative,member,"pipeline literal, extraction contract",src/catalog/simple_pdf_extraction/csv_wide_contract.py:206,,evidence_class
+template,member,"pipeline literal, extraction contract",src/catalog/simple_pdf_extraction/csv_wide_contract.py:206,,evidence_class
+requirement,member,"pipeline literal, extraction contract",src/catalog/simple_pdf_extraction/csv_wide_contract.py:206,,evidence_class
+definition,member,"pipeline literal, extraction contract",src/catalog/simple_pdf_extraction/csv_wide_contract.py:206,,evidence_class
+redacted,member,"pipeline literal, extraction contract",src/catalog/simple_pdf_extraction/csv_wide_contract.py:206,,evidence_class
+unknown,member,"pipeline literal, extraction contract",src/catalog/simple_pdf_extraction/csv_wide_contract.py:206,,evidence_class
+actual,core,"pipeline literal, extraction contract",src/catalog/simple_pdf_extraction/csv_wide_contract.py:206,The classes a published fact may carry.,core_evidence_class
+redacted,core,"pipeline literal, extraction contract",src/catalog/simple_pdf_extraction/csv_wide_contract.py:206,The classes a published fact may carry.,core_evidence_class
+number,member,"SQL literal, star schema",sql/duckdb/03_extracted_star_ddl.sql:208,"The form a printed cell took, written by the flatten through value-kind-parse.csv and value-kind-classification.csv. Rows are in the order the CHECK list states them.",value_kind
+currency,member,"SQL literal, star schema",sql/duckdb/03_extracted_star_ddl.sql:208,,value_kind
+percent,member,"SQL literal, star schema",sql/duckdb/03_extracted_star_ddl.sql:208,,value_kind
+multiple,member,"SQL literal, star schema",sql/duckdb/03_extracted_star_ddl.sql:208,,value_kind
+text,member,"SQL literal, star schema",sql/duckdb/03_extracted_star_ddl.sql:208,,value_kind
+none,member,"SQL literal, star schema",sql/duckdb/03_extracted_star_ddl.sql:208,,value_kind
+absolute,member,"SQL literal, star schema",sql/duckdb/03_extracted_star_ddl.sql:209,"The scale heading the flatten read beside the number, written through unit-scale-defaults.csv and scale-words.csv. A scale word added there needs its output name here.",unit_scale
+thousands,member,"SQL literal, star schema",sql/duckdb/03_extracted_star_ddl.sql:209,,unit_scale
+millions,member,"SQL literal, star schema",sql/duckdb/03_extracted_star_ddl.sql:209,,unit_scale
+billions,member,"SQL literal, star schema",sql/duckdb/03_extracted_star_ddl.sql:209,,unit_scale
+trillions,member,"SQL literal, star schema",sql/duckdb/03_extracted_star_ddl.sql:209,,unit_scale
+RESOLVED,member,"SQL literal, star schema",sql/duckdb/03_extracted_star_ddl.sql:216,How the adjudicator settled the row the fact was built from.,adjudication_status
+ADDED,member,"SQL literal, star schema",sql/duckdb/03_extracted_star_ddl.sql:216,,adjudication_status
+VERIFIED_ONE_SIDED,member,"SQL literal, star schema",sql/duckdb/03_extracted_star_ddl.sql:216,,adjudication_status
+AGREED,member,"pipeline literal, extraction workflow",src/catalog/simple_pdf_extraction/csv_workflow.py:126,"FINAL_STATUSES: a CONFIRM decision and an unreviewed EXACT pair publish as AGREED. Absent from the star vocabulary until 2026-09-02, when six adjudicated definition rows (SRC356, SRC606) carried it and the database rebuild refused them.",adjudication_status

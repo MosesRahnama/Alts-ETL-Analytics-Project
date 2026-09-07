@@ -1,0 +1,3 @@
+input_value,output_value,decided_by,evidence,note
+document_attributes,first_row_wins,"pipeline literal, flatten",src/flatten/flatten_extracted.py:760,"The first record or coverage row supplies the document's type, route, and tier."
+ledger_fields,source_ledger,"pipeline literal, flatten",src/flatten/flatten_extracted.py:760,"Filename, issuer, and retrieval fields come from the source ledger."

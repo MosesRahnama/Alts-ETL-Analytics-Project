@@ -1,0 +1,9 @@
+input_value,output_value,decided_by,evidence,note
+fund_observations,file_id,"pipeline literal, promotion gate",src/load/validate_round02_promotion.py:38,
+manager_observations,file_id,"pipeline literal, promotion gate",src/load/validate_round02_promotion.py:38,
+fund_cashflows,file_id,"pipeline literal, promotion gate",src/load/validate_round02_promotion.py:38,
+fund_periods,source_document_id,"pipeline literal, promotion gate",src/load/validate_round02_promotion.py:38,
+fund_terms,source_document_id,"pipeline literal, promotion gate",src/load/validate_round02_promotion.py:38,
+fund_term_clauses,source_document_id,"pipeline literal, promotion gate",src/load/validate_round02_promotion.py:38,
+fund_holdings,source_document_id,"pipeline literal, promotion gate",src/load/validate_round02_promotion.py:38,
+benchmark_returns,source_document_id,"pipeline literal, promotion gate",src/load/validate_round02_promotion.py:38,

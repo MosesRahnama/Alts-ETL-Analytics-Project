@@ -1,0 +1,4 @@
+input_value,output_value,decided_by,evidence,note,context
+id_source_1,subject_entity_id,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:660,A row names its manager as its subject or through the identity beside a fund or plan subject; both routes must land in the master.,manager_master
+id_source_2,manager_entity_id,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:660,,manager_master
+reference_kept,first_observation,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:660,The first observation naming a missing manager supplies its row.,manager_master

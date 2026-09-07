@@ -1,0 +1,2 @@
+input_value,output_value,decided_by,evidence,note
+weight_quantum,0.0000000001,"pipeline literal, analytics",src/analytics/run_round04_analytics.py:64,Portfolio weights are decimals on this grid.

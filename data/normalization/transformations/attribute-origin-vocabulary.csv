@@ -1,0 +1,3 @@
+input_value,output_value,decided_by,evidence,note
+PRINTED_ON_ROW,printed,"pipeline literal, reviewer publication",src/pipeline/build_reviewer_publication.py:279|src/pipeline/build_reviewer_publication.py:383,The observation's own row prints the value.
+SETTLED_ATTRIBUTE,settled,"pipeline literal, reviewer publication",src/pipeline/build_reviewer_publication.py:279|src/pipeline/build_reviewer_publication.py:383,The fund's settled attribute supplies it.

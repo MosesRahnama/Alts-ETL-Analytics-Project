@@ -1,0 +1,2 @@
+input_value,output_value,decided_by,evidence,note
+parent_subject_name,retired,"pipeline literal, extraction contract",src/catalog/simple_pdf_extraction/csv_wide_contract.py:65,Generated prose naming this field tells an agent to fill a column that does not exist.

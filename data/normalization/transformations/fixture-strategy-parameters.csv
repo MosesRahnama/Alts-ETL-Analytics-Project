@@ -1,0 +1,9 @@
+input_value,output_value,decided_by,evidence,note,sub_strategy,weight,size_mean,tvpi_terminal,tvpi_spread_a,tvpi_spread_b,tvpi_spread_c
+buyout,middle_market,"pipeline literal, synthetic fixture",src/generate/generate_synthetic_funds.py:72|src/generate/generate_synthetic_funds.py:402,,middle_market,0.22,650.0,1.68,0.17,0.34,0.11
+growth,growth_equity,"pipeline literal, synthetic fixture",src/generate/generate_synthetic_funds.py:72|src/generate/generate_synthetic_funds.py:402,,growth_equity,0.12,425.0,1.68,0.22,0.46,0.14
+venture,early_stage,"pipeline literal, synthetic fixture",src/generate/generate_synthetic_funds.py:72|src/generate/generate_synthetic_funds.py:402,,early_stage,0.13,250.0,1.95,0.35,0.95,0.35
+private_credit,direct_lending,"pipeline literal, synthetic fixture",src/generate/generate_synthetic_funds.py:72|src/generate/generate_synthetic_funds.py:402,,direct_lending,0.16,500.0,1.34,0.11,0.16,0.05
+real_estate,value_add,"pipeline literal, synthetic fixture",src/generate/generate_synthetic_funds.py:72|src/generate/generate_synthetic_funds.py:402,,value_add,0.13,575.0,1.44,0.16,0.3,0.1
+infrastructure,core_plus,"pipeline literal, synthetic fixture",src/generate/generate_synthetic_funds.py:72|src/generate/generate_synthetic_funds.py:402,,core_plus,0.1,900.0,1.38,0.17,0.23,0.08
+secondaries,lp_led,"pipeline literal, synthetic fixture",src/generate/generate_synthetic_funds.py:72|src/generate/generate_synthetic_funds.py:402,,lp_led,0.08,800.0,1.4,0.15,0.21,0.07
+fund_of_funds,diversified,"pipeline literal, synthetic fixture",src/generate/generate_synthetic_funds.py:72|src/generate/generate_synthetic_funds.py:402,,diversified,0.06,700.0,1.44,0.16,0.24,0.08

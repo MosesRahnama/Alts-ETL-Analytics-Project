@@ -1,0 +1,4 @@
+input_value,output_value,decided_by,evidence,note
+same_day_flows,summed,"pipeline literal, analytics",src/common/finance.py:22,Same-day values aggregate before discounting.
+non_finite_amount,refused,"pipeline literal, analytics",src/common/finance.py:22,
+ordering,chronological,"pipeline literal, analytics",src/common/finance.py:22,

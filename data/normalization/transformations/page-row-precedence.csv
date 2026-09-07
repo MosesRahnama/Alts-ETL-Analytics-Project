@@ -1,0 +1,2 @@
+input_value,output_value,decided_by,evidence,note
+repeated_page,last_row_wins,"pipeline literal, flatten",src/flatten/flatten_extracted.py:727,"A later coverage row for the same page replaces the earlier one; recorded as a merits concern, unchanged here."

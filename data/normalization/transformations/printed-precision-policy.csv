@@ -1,0 +1,4 @@
+input_value,output_value,decided_by,evidence,note,context
+last_digit_fraction,0.5,"pipeline literal, quality rules",src/quality/run_fund_checks.py:90,"Half of the last printed digit's place, scaled by the table's multiplier.",
+blank_multiplier,1.0,"pipeline literal, quality rules",src/quality/run_fund_checks.py:90,,
+mixed_provenance_comparison,skipped,"pipeline literal, quality rules",src/quality/run_fund_checks.py:509,"A printed rate and generated flows describe different histories, so they are not compared.",irr_comparison

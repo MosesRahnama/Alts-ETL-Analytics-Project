@@ -1,0 +1,11 @@
+sample_order,file_id,filename,page_count,issuer,selection_reason,replaced_candidate_if_any
+1,SRC389,Performance_University_of_South_Carolina_Foundations_Endowment_Report_FY2025.pdf,6,University of South Carolina Foundations,page-count stratum 1/10; median representative,
+2,SRC038,Performance_MassVentures_Annual_Report_FY2015.pdf,17,MassVentures (Massachusetts Technology Development Corporation) / Commonwealth of Massachusetts Executive Office of Housing and Economic Development,page-count stratum 2/10; median representative,
+3,SRC061,Reporting_NJ_Division_of_Investment_Reporting_Package_Apr2026.pdf,24,New Jersey Division of Investment,page-count stratum 3/10; median representative,
+4,SRC212,Performance_INPRS_Indiana_ACFR_Investment_Section_FY2023.pdf,33,Indiana Public Retirement System (INPRS),page-count stratum 4/10; median representative,
+5,SRC342,Financials_Keva_Annual_Report_2024.pdf,62,Keva,page-count stratum 5/10; median representative,
+6,SRC352,Financials_AP7_Sjunde_AP_Fonden_Annual_Report_2024.pdf,77,Sjunde AP-fonden (AP7),page-count stratum 6/10; median representative,
+7,SRC180,Reporting_Colorado_PERA_Investment_Committee_Materials_Nov2025.pdf,96,Colorado Public Employees' Retirement Association (Colorado PERA),page-count stratum 7/10; median representative,
+8,SRC316,Financials_NBIM_GPFG_Annual_Report_2025.pdf,139,Norges Bank Investment Management (Government Pension Fund Global),page-count stratum 8/10; median representative,
+9,SRC333,Financials_Pension_Protection_Fund_Annual_Report_FY2025.pdf,180,Pension Protection Fund,page-count stratum 9/10; median representative,
+10,SRC338,Financials_NZ_Super_Fund_Annual_Report_FY2025.pdf,230,Guardians of New Zealand Superannuation (NZ Super Fund),page-count stratum 10/10; median representative,

@@ -1,0 +1,4 @@
+input_value,output_value,decided_by,evidence,note,context
+families_source,contract.FAMILY_CONTRACTS,"pipeline literal, wide pivot",src/flatten/pivot_wide.py:335,"Every family the contract allows gets a wide table, printed or not.",
+unknown_family,refused,"pipeline literal, wide pivot",src/flatten/pivot_wide.py:335,A published fact outside the contract stops the pivot.,
+holding_family,position_observation,"pipeline literal, flatten",src/flatten/flatten_extracted.py:62,The schedule-of-investments family pivots into one row per printed holding.,flatten

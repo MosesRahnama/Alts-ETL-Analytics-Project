@@ -1,0 +1,3 @@
+input_value,output_value,decided_by,evidence,note
+legacy_adjusted_etfs,DIA|EFA|GLD|IEF|IWM|QQQ|RSP|SHY|SPY|TLT|USO,"pipeline literal, public-market curation",src/market_data/curate_public_markets.py:35|src/market_data/curate_public_markets.py:49,The eleven tickers with an independent adj_close reference file.
+long_history_etfs,AGG|DBC|DIA|EEM|EFA|GLD|HYG|IEF|IWM|LQD|QQQ|SHY|SLV|SPY|TLT|UNG|USO|VTI|XLB|XLC|XLE|XLF|XLI|XLK|XLP|XLRE|XLU|XLV|XLY,"pipeline literal, public-market curation",src/market_data/curate_public_markets.py:49|src/market_data/curate_public_markets.py:597,"The twenty-nine tickers with a full-history YF file, which outranks the wide panel."

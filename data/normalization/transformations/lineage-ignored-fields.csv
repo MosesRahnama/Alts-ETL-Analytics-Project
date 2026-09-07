@@ -1,0 +1,6 @@
+input_value,output_value,decided_by,evidence,note
+adjudication_status,ignored_in_signature,"pipeline literal, review builder",src/pipeline/build_extraction_review.py:122|src/pipeline/build_extraction_review.py:212,
+agent_role,ignored_in_signature,"pipeline literal, review builder",src/pipeline/build_extraction_review.py:122|src/pipeline/build_extraction_review.py:212,
+extractor_model,ignored_in_signature,"pipeline literal, review builder",src/pipeline/build_extraction_review.py:122|src/pipeline/build_extraction_review.py:212,
+notes,ignored_in_signature,"pipeline literal, review builder",src/pipeline/build_extraction_review.py:122|src/pipeline/build_extraction_review.py:212,
+source_agents,ignored_in_signature,"pipeline literal, review builder",src/pipeline/build_extraction_review.py:122|src/pipeline/build_extraction_review.py:212,

@@ -1,0 +1,4 @@
+input_value,output_value,decided_by,evidence,note,context
+1,EXTRACTED,"pipeline literal, reviewer publication",src/pipeline/build_reviewer_publication.py:579|src/pipeline/build_reviewer_publication.py:666,An extracted term outranks a generated one for the reviewer panel.,terms
+2,other_provenance,"pipeline literal, reviewer publication",src/pipeline/build_reviewer_publication.py:579|src/pipeline/build_reviewer_publication.py:666,,terms
+holding_date,latest_on_or_before_period,"pipeline literal, reviewer publication",src/pipeline/build_reviewer_publication.py:666,,holdings

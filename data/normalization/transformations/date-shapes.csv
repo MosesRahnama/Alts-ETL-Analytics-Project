@@ -1,0 +1,7 @@
+input_value,output_value,decided_by,evidence,note
+mdy_slash,day,"pipeline literal, flatten",src/flatten/flatten_extracted.py:236,M/D/YYYY.
+month_day_year,day,"pipeline literal, flatten",src/flatten/flatten_extracted.py:236,"January 5, 2024."
+day_month_year,day,"pipeline literal, flatten",src/flatten/flatten_extracted.py:236,5 January 2024.
+month_year,month,"pipeline literal, flatten",src/flatten/flatten_extracted.py:236,January 2024; the date lands on the month end.
+bare_year,year,"pipeline literal, flatten",src/flatten/flatten_extracted.py:236,2024 or FY2024; the date lands on December 31.
+fy_two_digit,year,"pipeline literal, flatten",src/flatten/flatten_extracted.py:236,FY24 reads as 2024.

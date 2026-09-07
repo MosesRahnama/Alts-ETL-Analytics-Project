@@ -1,0 +1,4 @@
+input_value,output_value,decided_by,evidence,note
+observation_id,observation_id,"pipeline literal, review builder",src/pipeline/build_extraction_review.py:165,
+file_id,document_id,"pipeline literal, review builder",src/pipeline/build_extraction_review.py:165,The one renamed field.
+passthrough_fields,source_page|pair_id|pair_status|a_row_number|b_row_number|difference_fields|resolution_decision|resolution_reason|adjudication_status|source_agents|source_sha256,"pipeline literal, review builder",src/pipeline/build_extraction_review.py:165,

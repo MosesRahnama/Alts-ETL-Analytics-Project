@@ -1,0 +1,5 @@
+input_value,output_value,decided_by,evidence,note
+1,fund_id,"pipeline literal, quality rules",src/quality/run_fund_checks.py:487,
+2,lp_id,"pipeline literal, quality rules",src/quality/run_fund_checks.py:487,
+3,<lp_name_when_no_lp_id>,"pipeline literal, quality rules",src/quality/run_fund_checks.py:487,The printed LP name stands in only while no LP id exists.
+4,share_class_name,"pipeline literal, quality rules",src/quality/run_fund_checks.py:487,

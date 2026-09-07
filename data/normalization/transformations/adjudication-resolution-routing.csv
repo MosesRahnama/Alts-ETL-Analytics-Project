@@ -1,0 +1,3 @@
+input_value,output_value,decided_by,evidence,note
+ADD,addition_list,"pipeline literal, review builder",src/pipeline/build_extraction_review.py:348,
+with_pair_id,resolution_map,"pipeline literal, review builder",src/pipeline/build_extraction_review.py:348,

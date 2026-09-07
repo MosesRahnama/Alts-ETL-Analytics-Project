@@ -1,0 +1,19 @@
+schema_version: "1.0.0"
+parameter_set_id: INTEGRATED_COMPLETION_V1
+seed: 20260825
+# The last date the benchmark series covers. A later as-of date would price
+# every PME against a stale terminal index level, because the benchmark join
+# is backward-only; benchmark-join-policy.csv bounds that gap at seven days.
+as_of_date: 2026-06-05
+benchmark_id: BMK_ETF_SPY
+benchmark_periodicity: DAILY
+portfolio_id: PORTFOLIO_INTEGRATED_DEMO
+strategy_fallback: Diversified Alternatives
+currency_fallback: USD
+fund_size_fallback: 250000000
+minimum_weight: 0.0
+maximum_weight: 0.05
+benchmark_policy:
+  rights_status: DEMONSTRATION_ONLY
+  use_status: DEMO_PROXY_ONLY
+  note: Public ETF proxy data is restricted to this demonstration and is not approved for production use or redistribution.

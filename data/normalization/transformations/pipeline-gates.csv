@@ -1,0 +1,3 @@
+input_value,output_value,decided_by,evidence,note
+hand_written_guides,listed_in_HAND_WRITTEN,"pipeline literal, release tooling",src/repository/build_readmes.py:17,Folders whose README the generator never overwrites.
+names_settled_gate,opt_in_flag,"pipeline literal, release tooling",src/pipeline/build_extracted_database.py:125,The extracted database refuses undecided names only when the flag asks it to.

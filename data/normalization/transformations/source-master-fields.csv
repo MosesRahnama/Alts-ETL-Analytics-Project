@@ -1,0 +1,5 @@
+input_value,output_value,decided_by,evidence,note
+fund_size,unique_fund_size_observation,source-boundary audit,src/load/promote_extracted_to_fund_level.py,Rebuild from a unique source-backed fund-size value; never retain a completed size.
+fund_size_currency,currency_of_fund_size_observation,source-boundary audit,src/load/promote_extracted_to_fund_level.py,Use the currency printed for that fund-size observation.
+base_currency,blank_without_explicit_source_field,source-boundary audit,src/load/promote_extracted_to_fund_level.py,An investment report currency does not establish the fund's base currency.
+fund_status,blank_without_explicit_source_field,source-boundary audit,src/load/promote_extracted_to_fund_level.py,The generated ACTIVE_OR_UNKNOWN label is not a printed fund status.

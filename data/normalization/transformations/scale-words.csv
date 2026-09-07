@@ -1,0 +1,6 @@
+input_value,output_value,decided_by,evidence,note,multiplier
+trillion,trillions,"pipeline literal, flatten",src/flatten/flatten_extracted.py:90,,1000000000000
+billion,billions,"pipeline literal, flatten",src/flatten/flatten_extracted.py:90,,1000000000
+million,millions,"pipeline literal, flatten",src/flatten/flatten_extracted.py:90,,1000000
+mm,millions,"pipeline literal, flatten",src/flatten/flatten_extracted.py:90,,1000000
+thousand,thousands,"pipeline literal, flatten",src/flatten/flatten_extracted.py:90,,1000

@@ -1,0 +1,2 @@
+input_value,output_value,decided_by,evidence,note
+manager_source,first_nonblank_document_fund_map,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:674,The first mapped document naming a manager supplies it.

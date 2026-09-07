@@ -1,0 +1,4 @@
+input_value,output_value,decided_by,evidence,note
+base_level,1.0,"pipeline literal, analytics",src/analytics/run_round04_analytics.py:955,
+compounding,multiplicative,"pipeline literal, analytics",src/analytics/run_round04_analytics.py:955,Each simple return multiplies the level by one plus the return.
+duplicate_return_dates,refused,"pipeline literal, analytics",src/analytics/run_round04_analytics.py:955,

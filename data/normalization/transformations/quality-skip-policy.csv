@@ -1,0 +1,2 @@
+input_value,output_value,decided_by,evidence,note
+rounding_slack_source,printed_half_unit,"pipeline literal, quality rules",src/quality/run_fund_checks.py:853,"The slack a ratio check grants is derived from the printed inputs, never configured."

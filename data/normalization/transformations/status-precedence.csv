@@ -1,0 +1,4 @@
+input_value,output_value,decided_by,evidence,note
+1,FAIL,"pipeline literal, reviewer publication",src/pipeline/build_reviewer_publication.py:247,One failing check fails the group.
+2,PASS,"pipeline literal, reviewer publication",src/pipeline/build_reviewer_publication.py:247,
+3,NOT_TESTABLE,"pipeline literal, reviewer publication",src/pipeline/build_reviewer_publication.py:247,Only skips.

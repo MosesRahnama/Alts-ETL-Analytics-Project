@@ -1,0 +1,3 @@
+input_value,output_value,decided_by,evidence,note
+excluded_suffix,.md,"pipeline literal, public-market curation",src/market_data/curate_public_markets.py:450,Folder guides describe the store; they supply no data.
+flat_name_decoding,unflattened,"pipeline literal, public-market curation",src/market_data/curate_public_markets.py:450,A flat name with no slash is decoded through the separator rule.

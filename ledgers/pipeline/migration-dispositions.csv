@@ -1,0 +1,5 @@
+id,disposition,reason
+M056,structure,The function fixes output row order and does not change a value label or published row membership.
+M415,structure,The tuple fixes file order in generated folder guides and does not change a data value label or published row membership.
+M416,structure,The dictionary supplies folder-guide prose and does not transform a source or analytical data cell.
+M420,structure,The rule chain supplies file-role prose and does not transform a source or analytical data cell.

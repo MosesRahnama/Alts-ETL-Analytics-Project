@@ -1,0 +1,2 @@
+input_value,output_value,decided_by,evidence,note
+included_folders,route_slash_document,"pipeline literal, review builder",src/pipeline/build_extraction_review.py:250,"Every route/document working folder, in sorted order."

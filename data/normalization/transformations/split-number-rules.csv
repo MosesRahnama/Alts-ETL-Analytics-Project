@@ -1,0 +1,4 @@
+input_value,output_value,decided_by,evidence,note
+gap_epsilon_points,0.6,"pipeline literal, release tooling",src/catalog/repair_split_numbers.py:41,Touching or overlapping boxes.
+row_bucket_points,3.0,"pipeline literal, release tooling",src/catalog/repair_split_numbers.py:41,Word boxes group into visual lines.
+split_pattern,"(?<![\d,.])\d{1,3}\s,?\d{1,3},\d{3}(?:,\d{3})*(?:\.\d+)?(?![\d,])","pipeline literal, release tooling",src/catalog/repair_split_numbers.py:41,

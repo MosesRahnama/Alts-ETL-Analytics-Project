@@ -1,0 +1,4 @@
+input_value,output_value,decided_by,evidence,note
+divisor,100,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:236,"A rate column stores decimals, so a printed 9.00 percent lands as 0.09; the printed string stays in fund_observations."
+rounding_decimals,10,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:236,"Ten decimals, trailing zeros trimmed."
+number_kind,as_printed,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:236,A rate printed as a bare number is taken as already decimal.

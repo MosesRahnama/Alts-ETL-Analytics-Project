@@ -1,0 +1,4 @@
+input_value,output_value,decided_by,evidence,note
+records_present,YES,"pipeline literal, extraction workflow",src/catalog/simple_pdf_extraction/csv_workflow.py:1979,A page with accepted observations has completed layout review.
+empty_agents_agree,SOURCE,"pipeline literal, extraction workflow",src/catalog/simple_pdf_extraction/csv_workflow.py:1979,Matching empty-page coverage keeps the agreed source value.
+empty_agents_disagree,YES,"pipeline literal, extraction workflow",src/catalog/simple_pdf_extraction/csv_workflow.py:1979,Adjudication of conflicting empty-page coverage records a completed layout review.

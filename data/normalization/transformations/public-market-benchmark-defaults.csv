@@ -1,0 +1,11 @@
+input_value,output_value,decided_by,evidence,note
+instrument_type,EXCHANGE_TRADED_FUND,"pipeline literal, public-market curation",src/market_data/curate_public_markets.py:661,
+currency,USD,"pipeline literal, public-market curation",src/market_data/curate_public_markets.py:661,
+source_provider,YAHOO_FINANCE_VIA_YFINANCE,"pipeline literal, public-market curation",src/market_data/curate_public_markets.py:661,
+return_basis,ADJUSTED_ETF_PRICE_PROXY,"pipeline literal, public-market curation",src/market_data/curate_public_markets.py:661,
+adjusted_flag,TRUE,"pipeline literal, public-market curation",src/market_data/curate_public_markets.py:661,
+calendar,US_EXCHANGE_TRADING_DATES,"pipeline literal, public-market curation",src/market_data/curate_public_markets.py:661,
+timezone,DATE_ONLY_US_MARKET,"pipeline literal, public-market curation",src/market_data/curate_public_markets.py:661,
+record_status,CANDIDATE,"pipeline literal, public-market curation",src/market_data/curate_public_markets.py:661,Every curated row awaits the rights and promotion path.
+master_note,ETF expenses and tracking effects differ from institutional total-return indices.,"pipeline literal, public-market curation",src/market_data/curate_public_markets.py:661,
+benchmark_name_format,{ticker} adjusted ETF proxy,"pipeline literal, public-market curation",src/market_data/curate_public_markets.py:661,

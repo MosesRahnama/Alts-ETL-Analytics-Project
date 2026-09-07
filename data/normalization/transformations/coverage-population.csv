@@ -1,0 +1,2 @@
+input_value,output_value,decided_by,evidence,note
+integrated_completion_set,INTEGRATED_COMPLETION_V1,"pipeline literal, reviewer publication",src/pipeline/build_reviewer_publication.py:476|src/pipeline/reviewer_check.py:505,The completed real-fund periods enter the coverage panel under this parameter set.

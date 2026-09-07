@@ -1,0 +1,3 @@
+input_value,output_value,decided_by,evidence,note
+percentile_method,linear_interpolation,"pipeline literal, reviewer publication",src/pipeline/build_reviewer_publication.py:202,The percentile interpolates between the two nearest ordered values.
+empty_population,refused,"pipeline literal, reviewer publication",src/pipeline/build_reviewer_publication.py:202,

@@ -1,0 +1,8 @@
+input_value,output_value,decided_by,evidence,note
+quality_inputs,fund_periods|fund_cashflows|fund_master|manager_master|manager_observations|fund_terms|fund_term_clauses|fund_holdings,"pipeline literal, mock universe",src/pipeline/build_mock_universe.py:49,The tables the mock quality pass reads.
+default_fund_count,800,"pipeline literal, mock universe",src/pipeline/build_mock_universe.py:219|src/pipeline/build_mock_universe.py:221,
+default_benchmark,BM_SYNTH_PUBLIC_EQUITY,"pipeline literal, mock universe",src/pipeline/build_mock_universe.py:219|src/pipeline/build_mock_universe.py:221,
+default_portfolio,PORTFOLIO_SYNTH_EQUAL_WEIGHT,"pipeline literal, mock universe",src/pipeline/build_mock_universe.py:219|src/pipeline/build_mock_universe.py:221,
+default_periodicity,quarterly,"pipeline literal, mock universe",src/pipeline/build_mock_universe.py:219|src/pipeline/build_mock_universe.py:221,
+default_checked_at,2026-06-30T00:00:00Z,"pipeline literal, mock universe",src/pipeline/build_mock_universe.py:219|src/pipeline/build_mock_universe.py:221,
+scorecard_source,defect_injections_vs_quality_results,"pipeline literal, mock universe",src/pipeline/build_mock_universe.py:132,Each deliberate defect is scored against the failure it should raise; zero injections refuse the scoring.

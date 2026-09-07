@@ -1,0 +1,5 @@
+input_value,output_value,decided_by,evidence,note
+derived_formula,MEDIAN_OF_POSITIVE_EXTRACTED_VALUES_V1,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:448|src/pipeline/build_integrated_universe.py:459,
+derived_anchor,data/extracted/fund-level/fund_periods.csv,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:448,
+assumed_anchor,config/integrated_completion.yml,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:448,
+statistic,median,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:459,

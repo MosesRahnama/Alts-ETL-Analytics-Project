@@ -1,0 +1,47 @@
+input_value,output_value,decided_by,evidence,note,context
+commitment,eligibility_keyword,"pipeline literal, extraction workflow",src/catalog/simple_pdf_extraction/csv_workflow.py:122,,keyword
+contributed capital,eligibility_keyword,"pipeline literal, extraction workflow",src/catalog/simple_pdf_extraction/csv_workflow.py:122,,keyword
+paid-in,eligibility_keyword,"pipeline literal, extraction workflow",src/catalog/simple_pdf_extraction/csv_workflow.py:122,,keyword
+paid in,eligibility_keyword,"pipeline literal, extraction workflow",src/catalog/simple_pdf_extraction/csv_workflow.py:122,,keyword
+distribution,eligibility_keyword,"pipeline literal, extraction workflow",src/catalog/simple_pdf_extraction/csv_workflow.py:122,,keyword
+unfunded,eligibility_keyword,"pipeline literal, extraction workflow",src/catalog/simple_pdf_extraction/csv_workflow.py:122,,keyword
+nav,eligibility_keyword,"pipeline literal, extraction workflow",src/catalog/simple_pdf_extraction/csv_workflow.py:122,,keyword
+fair value,eligibility_keyword,"pipeline literal, extraction workflow",src/catalog/simple_pdf_extraction/csv_workflow.py:122,,keyword
+market value,eligibility_keyword,"pipeline literal, extraction workflow",src/catalog/simple_pdf_extraction/csv_workflow.py:122,,keyword
+irr,eligibility_keyword,"pipeline literal, extraction workflow",src/catalog/simple_pdf_extraction/csv_workflow.py:122,,keyword
+tvpi,eligibility_keyword,"pipeline literal, extraction workflow",src/catalog/simple_pdf_extraction/csv_workflow.py:122,,keyword
+dpi,eligibility_keyword,"pipeline literal, extraction workflow",src/catalog/simple_pdf_extraction/csv_workflow.py:122,,keyword
+rvpi,eligibility_keyword,"pipeline literal, extraction workflow",src/catalog/simple_pdf_extraction/csv_workflow.py:122,,keyword
+moic,eligibility_keyword,"pipeline literal, extraction workflow",src/catalog/simple_pdf_extraction/csv_workflow.py:122,,keyword
+return,eligibility_keyword,"pipeline literal, extraction workflow",src/catalog/simple_pdf_extraction/csv_workflow.py:122,,keyword
+benchmark,eligibility_keyword,"pipeline literal, extraction workflow",src/catalog/simple_pdf_extraction/csv_workflow.py:122,,keyword
+allocation,eligibility_keyword,"pipeline literal, extraction workflow",src/catalog/simple_pdf_extraction/csv_workflow.py:122,,keyword
+management fee,eligibility_keyword,"pipeline literal, extraction workflow",src/catalog/simple_pdf_extraction/csv_workflow.py:122,,keyword
+carried interest,eligibility_keyword,"pipeline literal, extraction workflow",src/catalog/simple_pdf_extraction/csv_workflow.py:122,,keyword
+net assets,eligibility_keyword,"pipeline literal, extraction workflow",src/catalog/simple_pdf_extraction/csv_workflow.py:122,,keyword
+assets under management,eligibility_keyword,"pipeline literal, extraction workflow",src/catalog/simple_pdf_extraction/csv_workflow.py:122,,keyword
+capital call,eligibility_keyword,"pipeline literal, extraction workflow",src/catalog/simple_pdf_extraction/csv_workflow.py:122,,keyword
+valuation,eligibility_keyword,"pipeline literal, extraction workflow",src/catalog/simple_pdf_extraction/csv_workflow.py:122,,keyword
+numeric_signal_pattern,"(?:[$£€]|%|\b\d[\d,]*(?:\.\d+)?\b)","pipeline literal, extraction workflow",src/catalog/simple_pdf_extraction/csv_workflow.py:147,"A currency symbol, a percent sign, or a printed number.",
+column assignment,refused_excuse,"pipeline literal, extraction workflow",src/catalog/simple_pdf_extraction/csv_workflow.py:919,,excuse
+cannot be assigned,refused_excuse,"pipeline literal, extraction workflow",src/catalog/simple_pdf_extraction/csv_workflow.py:919,,excuse
+not assignable,refused_excuse,"pipeline literal, extraction workflow",src/catalog/simple_pdf_extraction/csv_workflow.py:919,,excuse
+no assignable,refused_excuse,"pipeline literal, extraction workflow",src/catalog/simple_pdf_extraction/csv_workflow.py:919,,excuse
+do not preserve,refused_excuse,"pipeline literal, extraction workflow",src/catalog/simple_pdf_extraction/csv_workflow.py:919,,excuse
+does not preserve,refused_excuse,"pipeline literal, extraction workflow",src/catalog/simple_pdf_extraction/csv_workflow.py:919,,excuse
+not preserved,refused_excuse,"pipeline literal, extraction workflow",src/catalog/simple_pdf_extraction/csv_workflow.py:919,,excuse
+not reliably,refused_excuse,"pipeline literal, extraction workflow",src/catalog/simple_pdf_extraction/csv_workflow.py:919,,excuse
+not recoverable,refused_excuse,"pipeline literal, extraction workflow",src/catalog/simple_pdf_extraction/csv_workflow.py:919,,excuse
+no recoverable,refused_excuse,"pipeline literal, extraction workflow",src/catalog/simple_pdf_extraction/csv_workflow.py:919,,excuse
+unreliable,refused_excuse,"pipeline literal, extraction workflow",src/catalog/simple_pdf_extraction/csv_workflow.py:919,,excuse
+grid merges,refused_excuse,"pipeline literal, extraction workflow",src/catalog/simple_pdf_extraction/csv_workflow.py:919,,excuse
+grid does not,refused_excuse,"pipeline literal, extraction workflow",src/catalog/simple_pdf_extraction/csv_workflow.py:919,,excuse
+grid and txt,refused_excuse,"pipeline literal, extraction workflow",src/catalog/simple_pdf_extraction/csv_workflow.py:919,,excuse
+labels are merged,refused_excuse,"pipeline literal, extraction workflow",src/catalog/simple_pdf_extraction/csv_workflow.py:919,,excuse
+merged in txt,refused_excuse,"pipeline literal, extraction workflow",src/catalog/simple_pdf_extraction/csv_workflow.py:919,,excuse
+too dense,refused_excuse,"pipeline literal, extraction workflow",src/catalog/simple_pdf_extraction/csv_workflow.py:919,,excuse
+hard to read,refused_excuse,"pipeline literal, extraction workflow",src/catalog/simple_pdf_extraction/csv_workflow.py:919,,excuse
+illegible,refused_excuse,"pipeline literal, extraction workflow",src/catalog/simple_pdf_extraction/csv_workflow.py:919,,excuse
+ambiguous column,refused_excuse,"pipeline literal, extraction workflow",src/catalog/simple_pdf_extraction/csv_workflow.py:919,,excuse
+could not determine,refused_excuse,"pipeline literal, extraction workflow",src/catalog/simple_pdf_extraction/csv_workflow.py:919,,excuse
+unable to determine,refused_excuse,"pipeline literal, extraction workflow",src/catalog/simple_pdf_extraction/csv_workflow.py:919,,excuse

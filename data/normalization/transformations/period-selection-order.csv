@@ -1,0 +1,3 @@
+input_value,output_value,decided_by,evidence,note
+1,as_of_date,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:327,"A fund's periods sort by date, then id; reads walk from the latest."
+2,fund_period_id,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:327,

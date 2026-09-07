@@ -1,0 +1,5 @@
+﻿sample_order,file_id,filename,page_count,issuer,selection_reason
+1,SRC460,Capital_Call_ABC_Fund_LP_TrustAlta_Sample_Notice.pdf,1,Trust Alta,census: population <=5
+2,SRC053,Performance_SREIT_Stockholder_Update_Apr2026.pdf,5.0,"Starwood Real Estate Income Trust, Inc. (SREIT)",census: population <=5
+3,SRC024,Capital_Call_Morgan_Lewis_Deskbook_Sample_Notice.pdf,6.0,Morgan Lewis,census: population <=5
+4,SRC473,Distribution_CalPERS_Private_Equity_Cash_Flow_Examples_2015.pdf,13,California Public Employees' Retirement System,census: population <=5

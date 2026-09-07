@@ -1,0 +1,7 @@
+input_value,output_value,decided_by,evidence,note
+inherited_source_format,FAMILY {key}: {source},"pipeline literal, extraction support",src/catalog/simple_pdf_extraction/name_normalization.py:723,A manager carried across a family names the family in its source.
+existing_manager,kept,"pipeline literal, extraction support",src/catalog/simple_pdf_extraction/name_normalization.py:723,Only the source line refreshes when the same manager's citation changed.
+identical_strings,auto_settled,"pipeline literal, extraction support",src/catalog/simple_pdf_extraction/name_normalization.py:885,Nothing to weigh.
+spelling_variants,auto_settled,"pipeline literal, extraction support",src/catalog/simple_pdf_extraction/name_normalization.py:885,
+one_sided_finding,auto_settled,"pipeline literal, extraction support",src/catalog/simple_pdf_extraction/name_normalization.py:885,The searching agent already screened out non-managers.
+genuine_disagreement,queued_for_adjudication,"pipeline literal, extraction support",src/catalog/simple_pdf_extraction/name_normalization.py:885,

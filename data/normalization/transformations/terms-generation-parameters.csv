@@ -1,0 +1,20 @@
+input_value,output_value,decided_by,evidence,note,context
+management_fee,0.015 + 0.01*u,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:987,,terms
+carry_rate,0.20 (u<0.85) else 0.25,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:987,,terms
+hurdle_rate,"0.08 with 0.20 carry, 0.06 with 0.25","pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:987,,terms
+catch_up,1.0 present,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:987,,terms
+waterfall_type,whole_fund,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:987,,terms
+fee_basis,committed_capital,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:987,,terms
+term_years,10 + 2 extension,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:987,,terms
+compounding,annual,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:987,,terms
+expense_cap_rate,0.003,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:987,,terms
+term_scope,base_fund,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:987,,terms
+effective_window,vintage to vintage+12,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:987,,terms
+clause,key_person,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:1074,"One illustrative clause per fund, plainly labeled synthetic.",clauses
+sectors,Technology|Healthcare|Industrials,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:1074,,holdings
+fair_value_split,0.45|0.35|remainder,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:1074,,holdings
+cost_divisor,1.05 + 0.10*index,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:1074,,holdings
+ownership,0.10 + 0.05*index,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:1074,,holdings
+security_type,"Debt for Private Credit, else Equity","pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:1074,,holdings
+holding_geography,United States,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:1074,,holdings
+row_lineage,one_lineage_and_gap_per_generated_row,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:1276,,

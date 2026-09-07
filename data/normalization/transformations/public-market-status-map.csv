@@ -1,0 +1,4 @@
+input_value,output_value,decided_by,evidence,note
+pass_status,PASS,"pipeline literal, public-market curation",src/market_data/curate_public_markets.py:810,
+fail_status,FAIL,"pipeline literal, public-market curation",src/market_data/curate_public_markets.py:810,
+any_failure,refused,"pipeline literal, public-market curation",src/market_data/curate_public_markets.py:810,One failing check stops the curation before anything is written.

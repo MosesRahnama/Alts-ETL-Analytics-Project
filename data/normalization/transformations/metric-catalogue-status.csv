@@ -1,0 +1,3 @@
+input_value,output_value,decided_by,evidence,note
+with_category,catalogue_membership,"pipeline literal, flatten",src/flatten/flatten_extracted.py:841,in_catalogue is whether the category is in the metric catalogue.
+without_category,true,"pipeline literal, flatten",src/flatten/flatten_extracted.py:841,A family-only metric is its own catalogue entry.

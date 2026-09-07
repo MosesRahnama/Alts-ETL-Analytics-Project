@@ -1,0 +1,34 @@
+input_value,output_value,decided_by,evidence,note,context
+C:\\Users\\Moses,private machine path,"pipeline literal, release tooling",src/repository/release_audit.py:526,,presentation
+Alts-Sample-Project,source repository path,"pipeline literal, release tooling",src/repository/release_audit.py:526,,presentation
+source-to-analysis path proven end to end,false extracted-analytics completion claim,"pipeline literal, release tooling",src/repository/release_audit.py:526,,presentation
+eight-part physical key,superseded comparison-key claim,"pipeline literal, release tooling",src/repository/release_audit.py:526,,presentation
+No Git repository has been created,superseded repository-state claim,"pipeline literal, release tooling",src/repository/release_audit.py:526,,presentation
+\b43[- ](?:column|field)s?\b,superseded extraction width,"pipeline literal, release tooling",src/repository/release_audit.py:526,,presentation
+\b2026-08-22\.1\b,superseded extraction contract,"pipeline literal, release tooling",src/repository/release_audit.py:526,,presentation
+\bweeks went\b,work-history statement,"pipeline literal, release tooling",src/repository/release_audit.py:526,,presentation
+\bcareless agent\b,internal agent note,"pipeline literal, release tooling",src/repository/release_audit.py:526,,presentation
+\bI am lost\b,internal author note,"pipeline literal, release tooling",src/repository/release_audit.py:526,,presentation
+\bmust be recovered\b,internal repair note,"pipeline literal, release tooling",src/repository/release_audit.py:526,,presentation
+\bthis was done twice\b,work-history statement,"pipeline literal, release tooling",src/repository/release_audit.py:526,,presentation
+\bTODO\b,unfinished marker,"pipeline literal, release tooling",src/repository/release_audit.py:526,,presentation
+\bFIXME\b,unfinished marker,"pipeline literal, release tooling",src/repository/release_audit.py:526,,presentation
+\bTBD\b,unfinished marker,"pipeline literal, release tooling",src/repository/release_audit.py:526,,presentation
+\bnow\b,timeline word now,"pipeline literal, release tooling",src/repository/release_audit.py:556,,timeline
+\btoday\b,timeline word today,"pipeline literal, release tooling",src/repository/release_audit.py:556,,timeline
+\bcurrently\b,timeline word currently,"pipeline literal, release tooling",src/repository/release_audit.py:556,,timeline
+\bearlier\b,work-history word earlier,"pipeline literal, release tooling",src/repository/release_audit.py:556,,timeline
+\bprevious(?:ly)?\b,work-history word previous,"pipeline literal, release tooling",src/repository/release_audit.py:556,,timeline
+\bretired\b,work-history word retired,"pipeline literal, release tooling",src/repository/release_audit.py:556,,timeline
+\bhistorical\b,work-history word historical,"pipeline literal, release tooling",src/repository/release_audit.py:556,,timeline
+README.md,reviewer document,"pipeline literal, release tooling",src/repository/release_audit.py:519,"A glob under the project root; every file it names is read against the presentation patterns.",presentation_target
+PROCESS.md,reviewer document,"pipeline literal, release tooling",src/repository/release_audit.py:519,,presentation_target
+instructions/REVIEWER-GUIDE.md,reviewer document,"pipeline literal, release tooling",src/repository/release_audit.py:519,,presentation_target
+docs/*.md,reviewer document,"pipeline literal, release tooling",src/repository/release_audit.py:519,,presentation_target
+**/README.md,folder guide,"pipeline literal, release tooling",src/repository/release_audit.py:519,,presentation_target
+README.md,landing document,"pipeline literal, release tooling",src/repository/release_audit.py:548,"A glob under the project root; every file it names is read against the timeline patterns as well.",timeline_target
+PROCESS.md,landing document,"pipeline literal, release tooling",src/repository/release_audit.py:548,,timeline_target
+instructions/REVIEWER-GUIDE.md,landing document,"pipeline literal, release tooling",src/repository/release_audit.py:548,,timeline_target
+docs/STATUS.md,landing document,"pipeline literal, release tooling",src/repository/release_audit.py:548,,timeline_target
+docs/ARCHITECTURE.md,landing document,"pipeline literal, release tooling",src/repository/release_audit.py:548,,timeline_target
+docs/REPOSITORY-BOUNDARY.md,landing document,"pipeline literal, release tooling",src/repository/release_audit.py:548,,timeline_target

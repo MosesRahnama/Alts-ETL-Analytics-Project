@@ -1,0 +1,5 @@
+input_value,output_value,decided_by,evidence,note
+fund_manager_id,manager_entity_id,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:725,
+fund_manager_name,subject_manager_name,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:725,
+strategy,strategy,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:725,
+vintage_year,vintage_year,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:725,

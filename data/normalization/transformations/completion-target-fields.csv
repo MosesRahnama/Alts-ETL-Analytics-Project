@@ -1,0 +1,31 @@
+input_value,output_value,decided_by,evidence,note
+1,commitment,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:133,The fields the generated analytical period carries lineage for.
+2,paid_in_capital_itd,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:133,The fields the generated analytical period carries lineage for.
+3,distributions_itd,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:133,The fields the generated analytical period carries lineage for.
+4,nav,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:133,The fields the generated analytical period carries lineage for.
+5,unfunded_commitment,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:133,The fields the generated analytical period carries lineage for.
+6,recallable_distributions_itd,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:133,The fields the generated analytical period carries lineage for.
+7,dpi,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:133,The fields the generated analytical period carries lineage for.
+8,rvpi,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:133,The fields the generated analytical period carries lineage for.
+9,tvpi,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:133,The fields the generated analytical period carries lineage for.
+10,calculated_irr,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:133,The fields the generated analytical period carries lineage for.
+11,beginning_nav,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:133,The fields the generated analytical period carries lineage for.
+12,contributions_period,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:133,The fields the generated analytical period carries lineage for.
+13,distributions_period,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:133,The fields the generated analytical period carries lineage for.
+14,realized_gain_period,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:133,The fields the generated analytical period carries lineage for.
+15,unrealized_gain_period,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:133,The fields the generated analytical period carries lineage for.
+16,net_income_period,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:133,The fields the generated analytical period carries lineage for.
+17,management_fee_period,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:133,The fields the generated analytical period carries lineage for.
+18,other_expenses_period,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:133,The fields the generated analytical period carries lineage for.
+19,ending_nav,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:133,The fields the generated analytical period carries lineage for.
+20,period_return,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:133,The fields the generated analytical period carries lineage for.
+21,benchmark_return,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:133,The fields the generated analytical period carries lineage for.
+22,fund_size,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:133,The fields the generated analytical period carries lineage for.
+23,vintage_year,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:133,The fields the generated analytical period carries lineage for.
+24,strategy,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:133,The fields the generated analytical period carries lineage for.
+25,sub_strategy,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:133,The fields the generated analytical period carries lineage for.
+26,sector,"stage audit A5-01, 2026-09-02",audit/pipeline-audit/findings/a5-completion.csv A5-01,The printed industry the fund's master row carries; blank where no page prints one.
+27,canonical_asset_class,"stage audit A5-01, 2026-09-02",audit/pipeline-audit/findings/a5-completion.csv A5-01,What the printed grouping reads as under context-grouping-map.csv; blank where the matrix carries no row for the printed word.
+28,canonical_strategy,"stage audit A5-01, 2026-09-02",audit/pipeline-audit/findings/a5-completion.csv A5-01,What the printed grouping reads as under context-grouping-map.csv; blank where the printed word names a class and no strategy inside it.
+29,canonical_sub_strategy,"stage audit A5-01, 2026-09-02",audit/pipeline-audit/findings/a5-completion.csv A5-01,What the printed grouping reads as under context-grouping-map.csv; blank where the corpus states no finer split.
+30,canonical_sector,"stage audit A5-01, 2026-09-02",audit/pipeline-audit/findings/a5-completion.csv A5-01,What the printed industry reads as under context-grouping-map.csv.

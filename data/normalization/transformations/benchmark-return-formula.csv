@@ -1,0 +1,2 @@
+input_value,output_value,decided_by,evidence,note
+trailing_growth,product_of_one_plus_return,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:578,Returns inside the window compound multiplicatively; the trailing return is the product minus one.

@@ -1,0 +1,4 @@
+input_value,output_value,decided_by,evidence,note
+none_value,<blank>,"pipeline literal, flatten",src/flatten/flatten_extracted.py:195,A Python None writes as the empty cell.
+true,true,"pipeline literal, flatten",src/flatten/flatten_extracted.py:198,
+false,false,"pipeline literal, flatten",src/flatten/flatten_extracted.py:198,

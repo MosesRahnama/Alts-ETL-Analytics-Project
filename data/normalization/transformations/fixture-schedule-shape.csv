@@ -1,0 +1,5 @@
+input_value,output_value,decided_by,evidence,note
+call_weight_decay,exp(-2.1*i/span),"pipeline literal, synthetic fixture",src/generate/generate_synthetic_funds.py:774,Front-loaded drawdowns; the first quarter always carries a call.
+fee_base,commitment_then_beginning_nav,"pipeline literal, synthetic fixture",src/generate/generate_synthetic_funds.py:1084,"Commitment during the investment period, beginning NAV after."
+other_expenses_range,0.0004..0.0022,"pipeline literal, synthetic fixture",src/generate/generate_synthetic_funds.py:1084,Uniform share of the larger of beginning NAV and contributions.
+income_accrual,annual_yield_over_four,"pipeline literal, synthetic fixture",src/generate/generate_synthetic_funds.py:1084,

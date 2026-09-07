@@ -1,0 +1,2 @@
+input_value,output_value,decided_by,evidence,note
+accepted_shape,iso_date,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:215,Anything else reads as missing.

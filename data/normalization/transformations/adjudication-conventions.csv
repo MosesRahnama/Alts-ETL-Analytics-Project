@@ -1,0 +1,6 @@
+input_value,output_value,decided_by,evidence,note
+different_numbers_same_cell,printed_page_value,"pipeline literal, dispatch builder",src/catalog/simple_pdf_extraction/build_csv_pipeline.py:1377,"The grid locates it, the PNG confirms it."
+same_number_different_column,grid_column_index,"pipeline literal, dispatch builder",src/catalog/simple_pdf_extraction/build_csv_pipeline.py:1377,The commonest wrong-value defect is a shifted column.
+stripped_symbol,printed_form_kept,"pipeline literal, dispatch builder",src/catalog/simple_pdf_extraction/build_csv_pipeline.py:1377,The value column is raw; stripping is a normalization and is wrong.
+spacing_difference,closed_whitespace,"pipeline literal, dispatch builder",src/catalog/simple_pdf_extraction/build_csv_pipeline.py:1377,No gap between symbol and digits.
+short_quote,full_line_lane_accepted,"pipeline literal, dispatch builder",src/catalog/simple_pdf_extraction/build_csv_pipeline.py:1377,The full printed line proves the value; the digits alone prove nothing.

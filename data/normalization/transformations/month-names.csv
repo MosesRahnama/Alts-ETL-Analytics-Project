@@ -1,0 +1,13 @@
+input_value,output_value,decided_by,evidence,note
+january,1,"pipeline literal, flatten",src/flatten/flatten_extracted.py:77,The three-letter prefix maps to the same number.
+february,2,"pipeline literal, flatten",src/flatten/flatten_extracted.py:77,
+march,3,"pipeline literal, flatten",src/flatten/flatten_extracted.py:77,
+april,4,"pipeline literal, flatten",src/flatten/flatten_extracted.py:77,
+may,5,"pipeline literal, flatten",src/flatten/flatten_extracted.py:77,
+june,6,"pipeline literal, flatten",src/flatten/flatten_extracted.py:77,
+july,7,"pipeline literal, flatten",src/flatten/flatten_extracted.py:77,
+august,8,"pipeline literal, flatten",src/flatten/flatten_extracted.py:77,
+september,9,"pipeline literal, flatten",src/flatten/flatten_extracted.py:77,
+october,10,"pipeline literal, flatten",src/flatten/flatten_extracted.py:77,
+november,11,"pipeline literal, flatten",src/flatten/flatten_extracted.py:77,
+december,12,"pipeline literal, flatten",src/flatten/flatten_extracted.py:77,

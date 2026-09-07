@@ -1,0 +1,20 @@
+input_value,output_value,decided_by,evidence,note,field,expected_rule,context
+WRONG_TVPI,value_plus_quarter_or_100,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:1316,,tvpi,R02_TVPI_COMPONENTS,
+NEGATIVE_NAV,negated_minus_one,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:1316,,nav,R01_NONNEGATIVE_BALANCES,
+FUTURE_VINTAGE,target_year_plus_one,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:1316,,vintage_year,R09_VINTAGE_DATE,
+COMMITMENT_BREAK,value_plus_quarter_or_100,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:1316,,commitment,R06_COMMITMENT_RECONCILIATION,
+NAV_ROLLFORWARD_BREAK,value_plus_quarter_or_100,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:1316,,ending_nav,R07_NAV_ROLLFORWARD,
+WRONG_DPI,value_plus_quarter_or_100,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:1316,,dpi,R03_DPI_RECOMPUTE,
+selection,first_twelve_sorted_funds,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:1316,Two rounds of the six defect types.,,,
+cashflow_sign_error,R15_CASHFLOW_SIGN_CONVENTION,"pipeline literal, synthetic fixture",src/generate/generate_synthetic_funds.py:100|src/generate/generate_synthetic_funds.py:1987,,,R15_CASHFLOW_SIGN_CONVENTION,fixture
+commitment_reconciliation_mismatch,R06_COMMITMENT_RECONCILIATION,"pipeline literal, synthetic fixture",src/generate/generate_synthetic_funds.py:100|src/generate/generate_synthetic_funds.py:1987,,,R06_COMMITMENT_RECONCILIATION,fixture
+currency_mismatch,R14_CURRENCY_CONSISTENCY,"pipeline literal, synthetic fixture",src/generate/generate_synthetic_funds.py:100|src/generate/generate_synthetic_funds.py:1987,,,R14_CURRENCY_CONSISTENCY,fixture
+dpi_recompute_mismatch,R03_DPI_RECOMPUTE,"pipeline literal, synthetic fixture",src/generate/generate_synthetic_funds.py:100|src/generate/generate_synthetic_funds.py:1987,,,R03_DPI_RECOMPUTE,fixture
+duplicate_cashflow,R13_DUPLICATE_CASHFLOW,"pipeline literal, synthetic fixture",src/generate/generate_synthetic_funds.py:100|src/generate/generate_synthetic_funds.py:1987,,,R13_DUPLICATE_CASHFLOW,fixture
+impossible_vintage,R09_VINTAGE_DATE,"pipeline literal, synthetic fixture",src/generate/generate_synthetic_funds.py:100|src/generate/generate_synthetic_funds.py:1987,,,R09_VINTAGE_DATE,fixture
+irr_recompute_mismatch,R08_XIRR_RECOMPUTE,"pipeline literal, synthetic fixture",src/generate/generate_synthetic_funds.py:100|src/generate/generate_synthetic_funds.py:1987,,,R08_XIRR_RECOMPUTE,fixture
+missing_fund_name,R12_SYNTHETIC_IDENTITY_SEPARATION,"pipeline literal, synthetic fixture",src/generate/generate_synthetic_funds.py:100|src/generate/generate_synthetic_funds.py:1987,,,R12_SYNTHETIC_IDENTITY_SEPARATION,fixture
+nav_rollforward_mismatch,R07_NAV_ROLLFORWARD,"pipeline literal, synthetic fixture",src/generate/generate_synthetic_funds.py:100|src/generate/generate_synthetic_funds.py:1987,,,R07_NAV_ROLLFORWARD,fixture
+rvpi_recompute_mismatch,R04_RVPI_RECOMPUTE,"pipeline literal, synthetic fixture",src/generate/generate_synthetic_funds.py:100|src/generate/generate_synthetic_funds.py:1987,,,R04_RVPI_RECOMPUTE,fixture
+synthetic_real_identity_collision,R12_SYNTHETIC_IDENTITY_SEPARATION,"pipeline literal, synthetic fixture",src/generate/generate_synthetic_funds.py:100|src/generate/generate_synthetic_funds.py:1987,,,R12_SYNTHETIC_IDENTITY_SEPARATION,fixture
+tvpi_component_mismatch,R02_TVPI_COMPONENTS,"pipeline literal, synthetic fixture",src/generate/generate_synthetic_funds.py:100|src/generate/generate_synthetic_funds.py:1987,,,R02_TVPI_COMPONENTS,fixture

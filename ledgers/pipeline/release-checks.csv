@@ -1,0 +1,39 @@
+check_id,stage_id,command,status,checked_at_utc,detail
+b4143ef57e1a4e0cb584df643a86c39b,source-catalog,python -m src.repository.build_release_audit --verify-inputs,PASS,2026-09-07T17:10:40+00:00,442 catalogued PDFs matched their source entries and physical page counts
+efa8d321b54d4d6e94c120e26cc73f14,document-preparation,python -m src.repository.build_release_audit --verify-inputs,PASS,2026-09-07T17:10:40+00:00,"36 assigned documents; 693 pages; text, images, and grids present"
+959d7d3958eb4dbb936dc0daedb2a4e5,blind-extraction,python -m src.repository.build_release_audit --verify-inputs,PASS,2026-09-07T17:10:41+00:00,72 retained proposal sets; 15760 rows; complete page and row-count records. Original proposals remain unchanged; current field semantics are checked on adjudicated finals.
+8b620a85f7fc47debfc3b8d51f6ed05e,adjudication,python -m src.repository.build_release_audit --verify-inputs,PASS,2026-09-07T17:10:45+00:00,"36 adjudicated documents; 8613 final records; source, field, and page-completeness checks passed"
+e0c6f09ce17e41148cb777c366a87789,corpus-publication,python instructions/01-pdf-extraction-csv/workflow.py publish --scope active,PASS,2026-09-07T17:14:07+00:00,Stage completed; output receipts record data changes
+6b3e5105d4534129a8ec09139950f409,extraction-scope,"read the active worklists and their finals; record assigned, finished, unfinished, and backlog rows against the published backlog ledger",PASS,2026-09-07T17:14:07+00:00,Stage completed; output receipts record data changes
+666137fd998d43848af7eb4a24f111fe,raw-combination,python -m src.pipeline.combine_extracted_raw,PASS,2026-09-07T17:14:08+00:00,Stage completed; output receipts record data changes
+b6710ad3645641ff8972309e677b24f6,round-publication-verification,verify raw core fields; hold extractor_model attribution across publications,PASS,2026-09-07T17:14:09+00:00,Stage completed; output receipts record data changes
+360fa5ffa807423b89473fc841805fb4,normalization-gates,source_review; name_normalization check; fund_attributes conflicts --strict; matrices --check,PASS,2026-09-07T17:14:13+00:00,Stage completed; output receipts record data changes
+f3d0000e88f54a8a9029254a93e9c053,flatten,python -m src.flatten.flatten_extracted,PASS,2026-09-07T17:14:15+00:00,Stage completed; output receipts record data changes
+30692e1082704963a6e59113d1584bfb,extraction-review,python -m src.pipeline.build_extraction_review; render_image_corpus.py --manifest-only,PASS,2026-09-07T17:14:26+00:00,Stage completed; output receipts record data changes
+5c13a2b13beb46ef8c4641311d724342,wide,python -m src.flatten.pivot_wide,PASS,2026-09-07T17:14:28+00:00,Stage completed; output receipts record data changes
+ae2e1b2c7eb74c089bb31cef55f1d27b,extracted-database,python -m src.flatten.load_star,PASS,2026-09-07T17:14:51+00:00,Stage completed; output receipts record data changes
+c6c24b2818ca48d78e323a07cbc44912,attribute-audit,python -m src.catalog.simple_pdf_extraction.fund_attributes apply,PASS,2026-09-07T17:14:52+00:00,Stage completed; output receipts record data changes
+a93bf6bdc0344c40ba28e85897175607,fund-model-promotion,python -m src.load.promote_extracted_to_fund_level,PASS,2026-09-07T17:14:54+00:00,Stage completed; output receipts record data changes
+dfd162df52a54e4ea8c135ff0a92bb61,promotion-gate,python -m src.load.validate_round02_promotion,PASS,2026-09-07T17:14:55+00:00,Stage completed; output receipts record data changes
+11b055f8abc1409b91cd5905e8fe5030,extracted-fund-level-snapshot,python -m src.pipeline.build_integrated_universe --snapshot-only,PASS,2026-09-07T17:14:56+00:00,Stage completed; output receipts record data changes
+61bed1198eb04636b4f5a2c2c509d3ef,integrated-completion,python -m src.pipeline.build_integrated_universe,PASS,2026-09-07T17:15:07+00:00,Stage completed; output receipts record data changes
+721b208a4b4e4f05b65fa42a1f38d151,benchmark-rights-gate,python -m src.load.validate_round02_promotion,PASS,2026-09-07T17:15:09+00:00,Stage completed; output receipts record data changes
+0b428968905a499e9d8a734318882529,quality,python -m src.quality.run_fund_checks --run-id INTEGRATED_QC_V1,PASS,2026-09-07T17:15:11+00:00,Stage completed; output receipts record data changes
+39599e622d4a41e0b2238a96556a703f,extracted-only-quality,python -m src.quality.run_fund_checks --run-id EXTRACTED_QC_V1,PASS,2026-09-07T17:15:12+00:00,Stage completed; output receipts record data changes
+9407be5431764880b6873fa0d6f694af,extracted-only-analytics,python -m src.analytics.run_extracted_analytics,PASS,2026-09-07T17:15:13+00:00,Stage completed; output receipts record data changes
+95ae974087b04205a1fbb423f40a31fd,analytics,python -m src.analytics.run_integrated_analytics,PASS,2026-09-07T17:15:19+00:00,Stage completed; output receipts record data changes
+70ca1eb7f31548ebb9fccb083412c9d5,reviewer-publication,python -m src.pipeline.build_reviewer_publication,PASS,2026-09-07T17:15:26+00:00,Stage completed; output receipts record data changes
+823dde54551b40cfbe5805a281b798b9,fund-model-database,python -m src.load.load_csv_to_duckdb --rebuild,PASS,2026-09-07T17:15:40+00:00,Stage completed; output receipts record data changes
+8c686153d4e14e0182b38951e06c524b,reviewer-check,python -m src.pipeline.reviewer_check,PASS,2026-09-07T17:16:23+00:00,Closing data checks passed; 2 documented observation(s)
+205fd7f720404bb78b8c8205dd093df7,repository-and-tests,python -m src.repository.build_release_audit --verify-repository,PASS,2026-09-07T17:24:37+00:00,"PASS: 3126 files, 200 directories, folder guides, manifest and SHA-256; PASS: every project path passed its file, manifest, README, Git-policy, and source-ledger checks; 611 passed in 298.64s (0:04:58)"
+b128f2ad45aa400aa19d72b55e951e88,repository-and-tests,python -m src.repository.build_release_audit --verify-repository,PASS,2026-09-07T19:07:40+00:00,"PASS: 3130 files, 200 directories, folder guides, manifest and SHA-256; PASS: every project path passed its file, manifest, README, Git-policy, and source-ledger checks; 615 passed in 352.53s (0:05:52)"
+f8e97f7239b6402a86667c924adf5720,repository-and-tests,python -m src.repository.build_release_audit --verify-repository,FAIL,2026-09-07T20:28:28+00:00,"ValueError: -m src.repository.release_audit failed (1): ERROR: FILE_CHECK: README.md: broken links: archive/README.md, output/README.md, tmp/README.md
+ERROR: FILE_CHECK: tests/test_project_structure.py: unexpected indent (test_project_structure.py, line 55)
+ERROR: TRACKED_MANIFEST: dashboard-field-guide.html: tracked file is absent from manifest
+ERROR: TRACKED_MANIFEST: src/dashboard/build_field_guide.py: tracked file is absent from manifest
+ERROR: TRACKED_MANIFEST: src/dashboard/field_guide_template.html: tracked file is absent from manifest
+ERROR: TRACKED_MANIFEST: tests/test_dashboard_field_guide.py: tracked file is absent from manifest
+CHECKED: bytes=3594429908; csv=1463; directories=195; duckdb=3; files=3099; json=7; markdown=284; md=1; parquet=334; pdf=442; py=1; python=106; text=454; yaml=4
+FAIL: release audit found 6 issue(s)
+ "
+d52b543229e04d5ea2d8293b61b3328d,repository-and-tests,python -m src.repository.build_release_audit --verify-repository,PASS,2026-09-07T20:36:08+00:00,"PASS: 3099 files, 195 directories, folder guides, manifest and SHA-256; PASS: every project path passed its file, manifest, README, Git-policy, and source-ledger checks; 611 passed in 334.80s (0:05:34)"

@@ -1,0 +1,16 @@
+input_value,output_value,decided_by,evidence,note,context
+1,unit,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:345,,fund_observations.unit
+2,value_kind,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:345,"A blank printed unit is stood in by the inferred value kind; recorded as a merits concern, unchanged here.",fund_observations.unit
+1,metric_name,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:547|src/load/promote_extracted_to_fund_level.py:548,,fund_term_clauses.clause_title
+2,source_row_label,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:547|src/load/promote_extracted_to_fund_level.py:548,,fund_term_clauses.clause_title
+1,value_text,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:547|src/load/promote_extracted_to_fund_level.py:548,,fund_term_clauses.value_text
+2,evidence_quote,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:547|src/load/promote_extracted_to_fund_level.py:548,,fund_term_clauses.value_text
+1,value_raw,source-publication review,src/load/promote_extracted_to_fund_level.py:1285,Retain a populated printed value without replacing a visible zero.,fund_term_clauses.value_raw
+2,value_text,source-publication review,src/load/promote_extracted_to_fund_level.py:1285,Narrative clauses store their printed text when no separate numeric value was reported.,fund_term_clauses.value_raw
+1,as_of_precision,"pipeline literal, flatten",src/flatten/flatten_extracted.py:591,,fact_observation.date_precision
+2,end_precision,"pipeline literal, flatten",src/flatten/flatten_extracted.py:591,,fact_observation.date_precision
+1,calculated_irr,"pipeline literal, analytics",src/analytics/run_round04_analytics.py:528,,portfolio_positions.expected_return
+2,reported_irr,"pipeline literal, analytics",src/analytics/run_round04_analytics.py:528,,portfolio_positions.expected_return
+3,period_return,"pipeline literal, analytics",src/analytics/run_round04_analytics.py:528,,portfolio_positions.expected_return
+1,amount_base_currency,"pipeline literal, analytics",src/analytics/run_round04_analytics.py:893,The base-currency amount outranks the raw amount; a base currency naming another currency stops the run.,analytics.cashflow_amount
+2,amount,"pipeline literal, analytics",src/analytics/run_round04_analytics.py:893,,analytics.cashflow_amount

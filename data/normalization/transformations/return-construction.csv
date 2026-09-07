@@ -1,0 +1,10 @@
+input_value,output_value,decided_by,evidence,note
+return_type,SIMPLE,"pipeline literal, public-market curation",src/market_data/curate_public_markets.py:702,
+periodicity,DAILY,"pipeline literal, public-market curation",src/market_data/curate_public_markets.py:702,
+formula_id,FORMULA_SIMPLE_RETURN_V1,"pipeline literal, public-market curation",src/market_data/curate_public_markets.py:702,
+return_provenance,DERIVED_MARKET_DATA,"pipeline literal, public-market curation",src/market_data/curate_public_markets.py:702,
+return_date_policy,OBSERVED_TRADING_DATES,"pipeline literal, public-market curation",src/market_data/curate_public_markets.py:702,
+level_provenance,VENDOR_SOURCE,"pipeline literal, public-market curation",src/market_data/curate_public_markets.py:702,
+level_date_policy,OBSERVED_TRADING_DATE,"pipeline literal, public-market curation",src/market_data/curate_public_markets.py:702,
+value_format,.12g,"pipeline literal, public-market curation",src/market_data/curate_public_markets.py:702,
+selection_timing_rule,PRECOMMIT_BEFORE_FUND_RESULT_REVIEW,"pipeline literal, public-market curation",src/market_data/curate_public_markets.py:702,The strategy map is fixed before any fund result is reviewed.

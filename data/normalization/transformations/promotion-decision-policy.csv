@@ -1,0 +1,6 @@
+input_value,output_value,decided_by,evidence,note,context
+lanes,A|B|ADJUDICATED,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:296,Every admitted document went through both blind lanes and the third reader.,gate
+decision,ACCEPT,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:296,,gate
+reason,blind dual extraction adjudicated and published under validate-final,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:296,,gate
+round_id,02,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:296,,gate
+status,ACCEPTED,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:296,,gate

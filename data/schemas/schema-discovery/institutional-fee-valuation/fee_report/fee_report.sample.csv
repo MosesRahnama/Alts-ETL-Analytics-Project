@@ -1,0 +1,9 @@
+sample_order,file_id,filename,page_count,issuer,selection_reason,replaced_candidate_if_any
+1,SRC187,Fee_Report_CalPERS_AB2833_Alternative_Investments_Nov2023.pdf,3,California Public Employees' Retirement System (CalPERS),page-count stratum 1/8; median representative,
+2,SRC164,Fee_Report_CalSTRS_AB2833_Private_Equity_Fees_2025.pdf,8,California State Teachers' Retirement System (CalSTRS),page-count stratum 2/8; median representative,
+3,SRC469,Fee_Report_CalPERS_AIV_Fee_Expense_Disclosure_2019.pdf,9,California Public Employees' Retirement System,page-count stratum 3/8; median representative,
+4,SRC195,Fee_Report_CalSTRS_Annual_Cost_And_Collaborative_Model_Savings_2023.pdf,11,California State Teachers' Retirement System (CalSTRS),page-count stratum 4/8; median representative,
+5,SRC145,Fee_Report_PSERS_Fees_By_Manager_FY2013.pdf,10,Pennsylvania Public School Employees Retirement System (PSERS),local substitution: avoided duplicate INREV study edition; selected nearest unselected non-INREV fee report (SRC145),SRC564
+6,SRC468,Fee_Report_LACERA_Total_Fund_Investment_Cost_FY2023.pdf,40,Los Angeles County Employees Retirement Association,page-count stratum 6/8; median representative,
+7,SRC563,Fee_Report_INREV_Management_Fees_And_Terms_Study_2016.pdf,51,INREV,page-count stratum 7/8; median representative,
+8,SRC186,Fee_Report_FCERA_Fresno_AB2833_Alternative_Investment_Fees_2021.pdf,142,Fresno County Employees' Retirement Association (FCERA),page-count stratum 8/8; median representative,

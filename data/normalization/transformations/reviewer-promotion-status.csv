@@ -1,0 +1,5 @@
+input_value,output_value,decided_by,evidence,note
+promoted,PROMOTED_OBSERVATION,"pipeline literal, reviewer publication",src/pipeline/build_reviewer_publication.py:347|src/pipeline/build_reviewer_publication.py:348,
+withheld,WITHHELD_CATEGORY_MISMATCH,"pipeline literal, reviewer publication",src/pipeline/build_reviewer_publication.py:347|src/pipeline/build_reviewer_publication.py:348,
+fund_context,FUND_CONTEXT_NOT_PROMOTED,"pipeline literal, reviewer publication",src/pipeline/build_reviewer_publication.py:347|src/pipeline/build_reviewer_publication.py:348,A fund-grain observation outside the promoted set.
+other,NON_FUND_GRAIN,"pipeline literal, reviewer publication",src/pipeline/build_reviewer_publication.py:347|src/pipeline/build_reviewer_publication.py:348,

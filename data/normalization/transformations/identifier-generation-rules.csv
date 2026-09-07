@@ -1,0 +1,9 @@
+input_value,output_value,decided_by,evidence,note,context,algorithm,hash_length,separator
+fund_period,FP,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:167,"One id per fund, date, and document.",,sha256,16,|
+cashflow,CF,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:167,One id per source observation.,,sha256,16,|
+fund_term,FT,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:167,One id per fund.,,sha256,16,|
+fund_term_clause,FTC,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:167,One id per source observation.,,sha256,16,|
+manager_observation,MO,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:167,One id per source observation.,,sha256,16,|
+document_manager_map,DMM,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:167,One id per document and manager.,,sha256,16,|
+algorithm,sha256 first 16 hex of the pipe-joined parts,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:167,"Deterministic, so a rerun rewrites the same rows instead of renumbering downstream references.",rule,sha256,16,|
+flatten_key,sha256_20,"pipeline literal, flatten",src/flatten/flatten_extracted.py:206,"Every flatten id is the first twenty hex digits of the SHA-256 of its parts, joined by the ASCII unit separator (0x1F).",flatten,sha256,20,unit_separator

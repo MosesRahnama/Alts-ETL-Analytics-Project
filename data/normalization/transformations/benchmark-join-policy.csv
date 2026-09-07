@@ -1,0 +1,4 @@
+input_value,output_value,decided_by,evidence,note
+date_join,latest_on_or_before,"pipeline literal, analytics",src/analytics/run_round04_analytics.py:104,
+before_first_observation,refused,"pipeline literal, analytics",src/analytics/run_round04_analytics.py:104,A date before the first observation stops the run.
+maximum_terminal_lag_days,7,"pipeline literal, analytics",src/analytics/run_round04_analytics.py:322,"The terminal index level must come from within a week of the as-of date. A daily series prints an observation within a week of any date it covers, so a larger gap means the series stops before the as-of date and the comparison is against a stale market level."

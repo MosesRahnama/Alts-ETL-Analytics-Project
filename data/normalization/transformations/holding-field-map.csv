@@ -1,0 +1,8 @@
+input_value,output_value,decided_by,evidence,note
+portfolio_company_id,holding_entity_id,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:606,
+portfolio_company_name,holding_label,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:606,
+cost,cost,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:606,
+interest_rate,interest_rate,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:606,
+maturity_date,maturity_date_raw,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:606,"The raw printed date, never a parsed one."
+ownership_percent,portfolio_weight,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:606,"A printed weight published under an ownership name; recorded as a merits concern, unchanged here."
+sector,sector,"promotion qualifier audit, 2026-09-02",audit/pipeline-audit/findings/a4-promotion.csv A4-04,"The printed company industry, read off fact_holding.sector by name; blank until the flatten writes that column."

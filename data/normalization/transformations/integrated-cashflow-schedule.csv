@@ -1,0 +1,9 @@
+input_value,output_value,decided_by,evidence,note
+date_fractions,0.05|0.18|0.31|0.44|0.60|0.76|0.90,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:884,Seven events across the fund's span.
+start_floor,1993-02-01,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:884,
+start_month_day,01-15,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:884,The schedule starts January fifteenth of the vintage year.
+minimum_span_days,730,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:884,
+call_fractions,0.30|0.30|0.25|0.15,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:884,The last call is the exact remainder.
+distribution_fractions,0.25|0.35|0.40,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:884,The last distribution is the exact remainder.
+schedule_formula,INTEGRATED_CASHFLOW_SCHEDULE_V1,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:884,
+schedule_method,DETERMINISTIC_SEVEN_EVENT_SCHEDULE_V1,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:884,

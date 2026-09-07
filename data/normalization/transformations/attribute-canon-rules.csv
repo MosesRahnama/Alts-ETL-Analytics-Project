@@ -1,0 +1,7 @@
+input_value,output_value,decided_by,evidence,note
+1,casefold,"pipeline literal, extraction support",src/catalog/simple_pdf_extraction/fund_attributes.py:133,
+2,dash_to_space,"pipeline literal, extraction support",src/catalog/simple_pdf_extraction/fund_attributes.py:133,
+3,non_alphanumeric_to_space,"pipeline literal, extraction support",src/catalog/simple_pdf_extraction/fund_attributes.py:133,
+4,collapse_whitespace,"pipeline literal, extraction support",src/catalog/simple_pdf_extraction/fund_attributes.py:133,
+5,drop_investments,"pipeline literal, extraction support",src/catalog/simple_pdf_extraction/fund_attributes.py:133,investment and investments fall away.
+6,added_to_add,"pipeline literal, extraction support",src/catalog/simple_pdf_extraction/fund_attributes.py:133,value added and value add read as one label.

@@ -1,0 +1,4 @@
+input_value,output_value,decided_by,evidence,note,context
+source_1,linked_observation_funds,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:585,The funds named by the observations the holding was built from.,fund_holdings
+source_2,document_single_fund,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:585,"Else the document's funds, only when they number one.",fund_holdings
+ambiguous_result,refused,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:585,A holding whose candidates number zero or several stays in the extraction layer.,fund_holdings

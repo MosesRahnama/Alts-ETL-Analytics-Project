@@ -1,0 +1,8 @@
+input_value,output_value,decided_by,evidence,note,context
+date_source_1,as_of_date,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:468,A cash flow takes the as-of date first.,cashflow
+date_source_2,period_end,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:468,Else the period end.,cashflow
+role,cashflow,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:468,,cashflow
+raw_source_1,as_of_date_raw,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:468,,cashflow
+raw_source_2,period_end_raw,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:468,,cashflow
+raw_source_3,<resolved_date>,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:468,"Where the cell carried no date string of its own, the resolved date stands in so the lineage rule still has a raw value to check.",cashflow
+precision_default,day,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:468,,cashflow

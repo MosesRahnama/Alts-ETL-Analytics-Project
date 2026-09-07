@@ -1,0 +1,60 @@
+input_value,output_value,decided_by,evidence,note
+data/extracted/tables/fact_observation.csv,governed,"pipeline literal, release tooling",src/pipeline/publish_review_release.py:82,
+data/extracted/tables/observation_lineage.csv,governed,"pipeline literal, release tooling",src/pipeline/publish_review_release.py:82,
+data/warehouse/extracted.duckdb,governed,"pipeline literal, release tooling",src/pipeline/publish_review_release.py:82,
+data/csv/manager_master.csv,governed,"pipeline literal, release tooling",src/pipeline/publish_review_release.py:82,
+data/csv/document_manager_map.csv,governed,"pipeline literal, release tooling",src/pipeline/publish_review_release.py:82,
+data/csv/fund_master.csv,governed,"pipeline literal, release tooling",src/pipeline/publish_review_release.py:82,
+data/csv/fund_observations.csv,governed,"pipeline literal, release tooling",src/pipeline/publish_review_release.py:82,
+data/csv/manager_observations.csv,governed,"pipeline literal, release tooling",src/pipeline/publish_review_release.py:82,
+data/csv/fund_cashflows.csv,governed,"pipeline literal, release tooling",src/pipeline/publish_review_release.py:82,
+data/csv/fund_periods.csv,governed,"pipeline literal, release tooling",src/pipeline/publish_review_release.py:82,
+data/csv/fund_terms.csv,governed,"pipeline literal, release tooling",src/pipeline/publish_review_release.py:82,
+data/csv/fund_term_clauses.csv,governed,"pipeline literal, release tooling",src/pipeline/publish_review_release.py:82,
+data/csv/fund_holdings.csv,governed,"pipeline literal, release tooling",src/pipeline/publish_review_release.py:82,
+data/extracted/fund-level/manager_master.csv,governed,"pipeline literal, release tooling",src/pipeline/publish_review_release.py:82,
+data/extracted/fund-level/document_manager_map.csv,governed,"pipeline literal, release tooling",src/pipeline/publish_review_release.py:82,
+data/extracted/fund-level/fund_master.csv,governed,"pipeline literal, release tooling",src/pipeline/publish_review_release.py:82,
+data/extracted/fund-level/document_fund_map.csv,governed,"pipeline literal, release tooling",src/pipeline/publish_review_release.py:82,
+data/extracted/fund-level/fund_observations.csv,governed,"pipeline literal, release tooling",src/pipeline/publish_review_release.py:82,
+data/extracted/fund-level/manager_observations.csv,governed,"pipeline literal, release tooling",src/pipeline/publish_review_release.py:82,
+data/extracted/fund-level/fund_cashflows.csv,governed,"pipeline literal, release tooling",src/pipeline/publish_review_release.py:82,
+data/extracted/fund-level/fund_periods.csv,governed,"pipeline literal, release tooling",src/pipeline/publish_review_release.py:82,
+data/extracted/fund-level/fund_terms.csv,governed,"pipeline literal, release tooling",src/pipeline/publish_review_release.py:82,
+data/extracted/fund-level/fund_term_clauses.csv,governed,"pipeline literal, release tooling",src/pipeline/publish_review_release.py:82,
+data/extracted/fund-level/fund_holdings.csv,governed,"pipeline literal, release tooling",src/pipeline/publish_review_release.py:82,
+data/extracted/fund-level/quality_results.csv,governed,"pipeline literal, release tooling",src/pipeline/publish_review_release.py:82,
+data/extracted/fund-level/fund_metrics.csv,governed,"pipeline literal, release tooling",src/pipeline/publish_review_release.py:82,
+data/csv/benchmark_returns.csv,governed,"pipeline literal, release tooling",src/pipeline/publish_review_release.py:82,
+data/csv/synthetic_parameters.csv,governed,"pipeline literal, release tooling",src/pipeline/publish_review_release.py:82,
+data/csv/defect_injections.csv,governed,"pipeline literal, release tooling",src/pipeline/publish_review_release.py:82,
+data/integrated/gap-ledger.csv,governed,"pipeline literal, release tooling",src/pipeline/publish_review_release.py:82,
+data/integrated/cell-lineage.csv,governed,"pipeline literal, release tooling",src/pipeline/publish_review_release.py:82,
+data/integrated/reconciliation-results.csv,governed,"pipeline literal, release tooling",src/pipeline/publish_review_release.py:82,
+data/integrated/benchmark-policy.csv,governed,"pipeline literal, release tooling",src/pipeline/publish_review_release.py:82,
+data/integrated/defect-periods.csv,governed,"pipeline literal, release tooling",src/pipeline/publish_review_release.py:82,
+data/integrated/defect-quality-results.csv,governed,"pipeline literal, release tooling",src/pipeline/publish_review_release.py:82,
+data/integrated/detection-scorecard.csv,governed,"pipeline literal, release tooling",src/pipeline/publish_review_release.py:82,
+data/extracted/audit/attribute-inherit.csv,governed,"pipeline literal, release tooling",src/pipeline/publish_review_release.py:82,
+data/extracted/audit/attribute-changes.csv,governed,"pipeline literal, release tooling",src/pipeline/publish_review_release.py:82,
+data/csv/quality_results.csv,governed,"pipeline literal, release tooling",src/pipeline/publish_review_release.py:82,
+data/csv/fund_metrics.csv,governed,"pipeline literal, release tooling",src/pipeline/publish_review_release.py:82,
+data/csv/pme_results.csv,governed,"pipeline literal, release tooling",src/pipeline/publish_review_release.py:82,
+data/csv/portfolio_allocations.csv,governed,"pipeline literal, release tooling",src/pipeline/publish_review_release.py:82,
+data/extracted/review/reviewer-observations.csv,governed,"pipeline literal, release tooling",src/pipeline/publish_review_release.py:82,
+data/extracted/review/reviewer-fund-periods.csv,governed,"pipeline literal, release tooling",src/pipeline/publish_review_release.py:82,
+data/extracted/review/reviewer-cell-lineage.csv,governed,"pipeline literal, release tooling",src/pipeline/publish_review_release.py:82,
+data/extracted/review/reviewer-gap-ledger.csv,governed,"pipeline literal, release tooling",src/pipeline/publish_review_release.py:82,
+data/extracted/review/reviewer-analytics-summary.csv,governed,"pipeline literal, release tooling",src/pipeline/publish_review_release.py:82,
+data/warehouse/alts.duckdb,governed,"pipeline literal, release tooling",src/pipeline/publish_review_release.py:82,
+ledgers/pipeline/matrix-check.csv,governed,"pipeline literal, release tooling",src/pipeline/publish_review_release.py:82,
+ledgers/pipeline/extraction-scope.csv,governed,"release scope audit A1-05, 2026-09-02",src/pipeline/publish_review_release.py:118,"The assigned, finished, and unfinished document counts the active worklists state."
+data/extracted/raw/01-financials.csv,governed,"release receipt audit A2-03, 2026-09-02",src/pipeline/publish_review_release.py:118,Written by stage 10 from the adjudicated finals in scope.
+data/extracted/raw/02-performance.csv,governed,"release receipt audit A2-03, 2026-09-02",src/pipeline/publish_review_release.py:118,Written by stage 10 from the adjudicated finals in scope.
+data/extracted/raw/03-institutional-report.csv,governed,"release receipt audit A2-03, 2026-09-02",src/pipeline/publish_review_release.py:118,Written by stage 10 from the adjudicated finals in scope.
+data/extracted/raw/04-quarterly-report.csv,governed,"release receipt audit A2-03, 2026-09-02",src/pipeline/publish_review_release.py:118,Written by stage 10 from the adjudicated finals in scope.
+data/extracted/raw/05-fund-legal-docs.csv,governed,"release receipt audit A2-03, 2026-09-02",src/pipeline/publish_review_release.py:118,Written by stage 10 from the adjudicated finals in scope.
+data/extracted/raw/06-statements-and-economics.csv,governed,"release receipt audit A2-03, 2026-09-02",src/pipeline/publish_review_release.py:118,Written by stage 10 from the adjudicated finals in scope.
+data/extracted/raw/07-institutional-mission.csv,governed,"release receipt audit A2-03, 2026-09-02",src/pipeline/publish_review_release.py:118,Written by stage 10 from the adjudicated finals in scope.
+data/extracted/pdf-wide-records.csv,governed,"stage audit F12 A6-03, 2026-09-03",src/pipeline/publish_review_release.py:137,Written by stage 003 from the published rounds; the corpus the closing check judges.
+data/extracted/pdf-wide-coverage.csv,governed,"stage audit F12 A6-03, 2026-09-03",src/pipeline/publish_review_release.py:137,Written by stage 003 from the published rounds beside the records file.

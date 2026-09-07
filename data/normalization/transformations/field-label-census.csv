@@ -1,0 +1,53 @@
+input_value,output_value,decided_by,evidence,note,group,channel
+fund_legal_name,"\b[A-Z][A-Za-z&.,'\- ]{3,60}(?:Fund|Partners|Partnership|Trust)[A-Za-z0-9 ,.\-]{0,20}(?:L\.?P\.?|LLC|L\.?L\.?C\.?|Ltd|Limited|Inc\.?)\b","pipeline literal, release tooling",src/catalog/census_field_labels.py:31,,identity,txt
+manager_general_partner,\bGeneral Partner\b,"pipeline literal, release tooling",src/catalog/census_field_labels.py:31,,identity,txt
+manager_investment_manager,\bInvestment (?:Manager|Adviser|Advisor)\b,"pipeline literal, release tooling",src/catalog/census_field_labels.py:31,,identity,txt
+manager_managed_by,\bmanaged by\b,"pipeline literal, release tooling",src/catalog/census_field_labels.py:31,,identity,txt
+lp_name_limited_partner,\bLimited Partner\b,"pipeline literal, release tooling",src/catalog/census_field_labels.py:31,,identity,txt
+share_class_name,\bClass\s+[A-Z](?:-\d)?\b,"pipeline literal, release tooling",src/catalog/census_field_labels.py:31,,identity,txt
+portfolio_company_name,\bPortfolio Compan(?:y|ies)\b,"pipeline literal, release tooling",src/catalog/census_field_labels.py:31,,identity,pdf_table
+fund_domicile,\b(?:organized|formed|incorporated|domiciled)\s+(?:under|in|pursuant)\b,"pipeline literal, release tooling",src/catalog/census_field_labels.py:31,,identity,txt
+vintage_year,\bVintage\s*(?:Year)?\b,"pipeline literal, release tooling",src/catalog/census_field_labels.py:31,,identity,both
+strategy,\b(?:Strategy|Asset Class|Sub-?Strategy)\b,"pipeline literal, release tooling",src/catalog/census_field_labels.py:31,,identity,both
+geography,\b(?:Geograph|Region|Country of|North America|Western Europe|Asia[- ]Pacific)\w*\b,"pipeline literal, release tooling",src/catalog/census_field_labels.py:31,,identity,both
+as_of_date,"\bas of\s+(?:the\s+)?[A-Z][a-z]+\s+\d{1,2},\s*\d{4}","pipeline literal, release tooling",src/catalog/census_field_labels.py:31,,date,txt
+period_end_date,"\b(?:quarter|period|year)\s+ended?\s+[A-Z][a-z]+\s+\d{1,2},\s*\d{4}","pipeline literal, release tooling",src/catalog/census_field_labels.py:31,,date,txt
+fiscal_year,\bfiscal\s+year\s+(?:ended?|ending)\b,"pipeline literal, release tooling",src/catalog/census_field_labels.py:31,,date,txt
+report_date,\b(?:dated|Report Date|Statement Date|As At)\b,"pipeline literal, release tooling",src/catalog/census_field_labels.py:31,,date,txt
+cashflow_due_date,"\b(?:due (?:on|by|date)|payment date|wire.{0,12}by)\b","pipeline literal, release tooling",src/catalog/census_field_labels.py:31,,date,txt
+commitment,\b(?:Total )?Commitment\b,"pipeline literal, release tooling",src/catalog/census_field_labels.py:31,,capital,pdf_table
+unfunded_commitment,\b(?:Unfunded|Remaining|Uncalled)\s+Commitment\b,"pipeline literal, release tooling",src/catalog/census_field_labels.py:31,,capital,pdf_table
+contributions,\b(?:Contributions?|Paid[- ]in Capital|Capital Called|Drawdowns?)\b,"pipeline literal, release tooling",src/catalog/census_field_labels.py:31,,capital,pdf_table
+distributions,\bDistributions?\b,"pipeline literal, release tooling",src/catalog/census_field_labels.py:31,,capital,pdf_table
+recallable_distributions,\bRecallable\b,"pipeline literal, release tooling",src/catalog/census_field_labels.py:31,,capital,pdf_table
+capital_call_amount,\b(?:Capital Call|Drawdown Notice|Amount Called|Call Amount)\b,"pipeline literal, release tooling",src/catalog/census_field_labels.py:31,,capital,pdf_table
+nav,\b(?:Net Asset Value|NAV)\b,"pipeline literal, release tooling",src/catalog/census_field_labels.py:31,,value,pdf_table
+nav_per_share,\bNAV per (?:share|unit)\b,"pipeline literal, release tooling",src/catalog/census_field_labels.py:31,,value,pdf_table
+net_assets,\bNet Assets\b,"pipeline literal, release tooling",src/catalog/census_field_labels.py:31,,value,pdf_table
+beginning_balance,\b(?:Beginning|Opening)\s+(?:Balance|Capital|NAV)\b,"pipeline literal, release tooling",src/catalog/census_field_labels.py:31,,value,pdf_table
+ending_balance,\b(?:Ending|Closing)\s+(?:Balance|Capital|NAV)\b,"pipeline literal, release tooling",src/catalog/census_field_labels.py:31,,value,pdf_table
+fair_value,\bFair Value\b,"pipeline literal, release tooling",src/catalog/census_field_labels.py:31,,value,pdf_table
+cost_basis,\bCost\b,"pipeline literal, release tooling",src/catalog/census_field_labels.py:31,,value,pdf_table
+realized_gain,\bRealized\s+(?:Gain|Loss)\b,"pipeline literal, release tooling",src/catalog/census_field_labels.py:31,,value,pdf_table
+unrealized_gain,\bUnrealized\s+(?:Gain|Loss|Appreciation|Depreciation)\b,"pipeline literal, release tooling",src/catalog/census_field_labels.py:31,,value,pdf_table
+net_income,\bNet (?:Income|Investment Income)\b,"pipeline literal, release tooling",src/catalog/census_field_labels.py:31,,value,pdf_table
+management_fee,\bManagement Fee\b,"pipeline literal, release tooling",src/catalog/census_field_labels.py:31,,fee,pdf_table
+carried_interest,\bCarried Interest\b,"pipeline literal, release tooling",src/catalog/census_field_labels.py:31,,fee,both
+partnership_expenses,\b(?:Partnership|Fund|Operating)\s+Expenses\b,"pipeline literal, release tooling",src/catalog/census_field_labels.py:31,,fee,pdf_table
+carry_rate,\b(?:carried interest of|carry of|20%\s+of\s+profits|Carry Rate)\b,"pipeline literal, release tooling",src/catalog/census_field_labels.py:31,,term,txt
+hurdle_rate,\b(?:Hurdle|Preferred Return)\b,"pipeline literal, release tooling",src/catalog/census_field_labels.py:31,,term,txt
+fund_term_years,\b(?:term of the (?:Fund|Partnership)|Fund Term)\b,"pipeline literal, release tooling",src/catalog/census_field_labels.py:31,,term,txt
+extension_years,\b(?:extension|extend the term)\b,"pipeline literal, release tooling",src/catalog/census_field_labels.py:31,,term,txt
+expense_ratio,\bExpense Ratio\b,"pipeline literal, release tooling",src/catalog/census_field_labels.py:31,,fee,pdf_table
+irr,\b(?:IRR|Internal Rate of Return)\b,"pipeline literal, release tooling",src/catalog/census_field_labels.py:31,,performance,pdf_table
+tvpi,\bTVPI\b|\bTotal Value to Paid[- ]?In\b,"pipeline literal, release tooling",src/catalog/census_field_labels.py:31,,performance,pdf_table
+dpi,\bDPI\b|\bDistributions? to Paid[- ]?In\b,"pipeline literal, release tooling",src/catalog/census_field_labels.py:31,,performance,pdf_table
+rvpi,\bRVPI\b,"pipeline literal, release tooling",src/catalog/census_field_labels.py:31,,performance,pdf_table
+moic,\bMOIC\b|\bMultiple of Invested Capital\b|\bMultiple\b,"pipeline literal, release tooling",src/catalog/census_field_labels.py:31,,performance,pdf_table
+period_return,\b(?:Total Return|Period Return|Return \(),"pipeline literal, release tooling",src/catalog/census_field_labels.py:31,,performance,pdf_table
+benchmark_return,\b(?:Benchmark|Index)\s+Return\b,"pipeline literal, release tooling",src/catalog/census_field_labels.py:31,,performance,pdf_table
+table_scale_qualifier,\((?:in|amounts in|dollars in)\s+(?:thousands|millions|billions)\),"pipeline literal, release tooling",src/catalog/census_field_labels.py:31,,hazard,pdf_table
+parenthesised_negative,"\(\s?[\d,]{3,}(?:\.\d+)?\s?\)","pipeline literal, release tooling",src/catalog/census_field_labels.py:31,,hazard,pdf_table
+split_number_artifact,"(?<![\d,.])\d{1,3}\s,?\d{1,3},\d{3}(?:,\d{3})*(?:\.\d+)?(?![\d,])","pipeline literal, release tooling",src/catalog/census_field_labels.py:31,,hazard,pdf_table
+not_disclosed_marker,\b(?:Not Disclosed|N/?A|Confidential|Redacted)\b,"pipeline literal, release tooling",src/catalog/census_field_labels.py:31,,hazard,pdf_table
+continued_table_marker,\((?:continued|cont\.?)\),"pipeline literal, release tooling",src/catalog/census_field_labels.py:31,,hazard,pdf_table

@@ -1,0 +1,5 @@
+input_value,output_value,decided_by,evidence,note
+banner_headers,leaf_header_taken,"pipeline literal, dispatch builder",src/catalog/simple_pdf_extraction/build_csv_pipeline.py:639,"The leaf header under a banner, never the banner."
+trailing_colons,dropped,"pipeline literal, dispatch builder",src/catalog/simple_pdf_extraction/build_csv_pipeline.py:639,
+footnote_markers,dropped,"pipeline literal, dispatch builder",src/catalog/simple_pdf_extraction/build_csv_pipeline.py:639,
+spaced_name_parts,kept,"pipeline literal, dispatch builder",src/catalog/simple_pdf_extraction/build_csv_pipeline.py:639,Fund II stays Fund II.

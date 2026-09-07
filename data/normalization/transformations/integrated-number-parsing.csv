@@ -1,0 +1,4 @@
+input_value,output_value,decided_by,evidence,note
+thousands_separator,removed,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:197,
+blank_value,none,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:197,
+non_finite,none,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:197,NaN and infinities read as missing.

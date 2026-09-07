@@ -1,0 +1,2 @@
+input_value,output_value,decided_by,evidence,note
+repeated_fund_id,last_row_wins,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:627,"The existing-master index keys by fund id; recorded as a merits concern, unchanged here."

@@ -1,0 +1,4 @@
+input_value,output_value,decided_by,evidence,note
+SRC034,MDY,source review,SRC034 pages 3-11 financial statements,US statement dates include 12/31/2017 and March 31 2018.
+SRC457,MDY,source review,SRC457 page 12 Summary of Portfolio Cash Flows,US statement year-end dates use 12/31.
+SRC463,DMY,source review,SRC463 pages 1-2 valuation and dated contribution schedule,31/03/2017 and 28/04/2014 establish day-first order for this statement.

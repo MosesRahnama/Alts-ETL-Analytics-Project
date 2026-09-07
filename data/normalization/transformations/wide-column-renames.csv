@@ -1,0 +1,4 @@
+input_value,output_value,decided_by,evidence,note,context
+collision_suffix,_category,"pipeline literal, wide pivot",src/flatten/pivot_wide.py:162,strategy is both a context column and a legal-term category; the category takes the suffix and the context column stays intact.,
+reserved_names,wide_row_id|context_columns|lineage_columns,"pipeline literal, wide pivot",src/flatten/pivot_wide.py:162,The names a category may not occupy.,
+method,method_qualifier,"grouping and qualifier carry, 2026-09-02",src/flatten/pivot_wide.py:111,"The valuation family owns a printed measure named method, so the return qualifier takes this column name and the measure column keeps its own.",context_column

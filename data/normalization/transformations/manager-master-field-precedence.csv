@@ -1,0 +1,6 @@
+input_value,output_value,decided_by,evidence,note,context
+1,<registry_name>,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:672,The settled standardized name wins.,manager_master.manager_name
+2,<subject_standardized_name_if_subject_is_manager>,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:672,,manager_master.manager_name
+3,<printed_manager_name>,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:672,"The subject name when the subject is the manager, else the manager name carried beside the subject.",manager_master.manager_name
+1,<printed_manager_name>,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:672,,manager_master.legal_name
+2,<registry_name>,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:672,,manager_master.legal_name

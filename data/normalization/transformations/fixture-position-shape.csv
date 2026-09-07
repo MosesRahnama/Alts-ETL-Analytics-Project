@@ -1,0 +1,4 @@
+input_value,output_value,decided_by,evidence,note
+lp_position_every,8,"pipeline literal, synthetic fixture",src/generate/generate_synthetic_funds.py:1178,Every eighth fund also reports LP positions.
+lp_position_shares,0.14|0.09,"pipeline literal, synthetic fixture",src/generate/generate_synthetic_funds.py:1178,
+lp_id_format,LP_SYNTH_{index:06d}_{order:02d},"pipeline literal, synthetic fixture",src/generate/generate_synthetic_funds.py:1178,

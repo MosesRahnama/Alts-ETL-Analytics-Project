@@ -1,0 +1,6 @@
+parameter_id,parameter_set_id,strategy,sub_strategy,parameter_name,value_numeric,value_text,unit,provenance_type,source_document_id,source_page,source_anchor,formula_id,input_record_ids,assumption_basis,adjudication_status,active
+PARAM_DEMO_001,DEMO_ASSUMED_V1,buyout,middle_market,fund_size_mean,500,,USD_millions,ASSUMED,,,,,,Round-number demonstration input; hand-set instead of estimated from the corpus,DEMO_ONLY,TRUE
+PARAM_DEMO_002,DEMO_ASSUMED_V1,buyout,middle_market,paid_in_ratio,0.9,,ratio,ASSUMED,,,,,,Round-number demonstration input; hand-set instead of estimated from the corpus,DEMO_ONLY,TRUE
+PARAM_DEMO_003,DEMO_ASSUMED_V1,growth,software,fund_size_mean,400,,USD_millions,ASSUMED,,,,,,Round-number demonstration input; hand-set instead of estimated from the corpus,DEMO_ONLY,TRUE
+PARAM_DEMO_004,DEMO_ASSUMED_V1,growth,software,paid_in_ratio,0.8,,ratio,ASSUMED,,,,,,Round-number demonstration input; hand-set instead of estimated from the corpus,DEMO_ONLY,TRUE
+PARAM_DEMO_005,DEMO_ASSUMED_V1,all,all,defect_rate,0.5,,ratio,ASSUMED,,,,,,One of two demonstration rows is intentionally wrong,DEMO_ONLY,TRUE

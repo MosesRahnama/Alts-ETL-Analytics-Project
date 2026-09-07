@@ -1,0 +1,3 @@
+input_value,output_value,decided_by,evidence,note
+scale_kinds,currency|number,"pipeline literal, wide pivot",src/flatten/pivot_wide.py:252,Only money-like cells contribute their scale heading to the check.
+scale_note_prefix,cells in this row print different scale headings: ,"pipeline literal, wide pivot",src/flatten/pivot_wide.py:252,Written when a row's cells carry more than one distinct heading.

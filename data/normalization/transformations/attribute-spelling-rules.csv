@@ -1,0 +1,4 @@
+input_value,output_value,decided_by,evidence,note
+1,most_often_printed,"pipeline literal, extraction support",src/catalog/simple_pdf_extraction/fund_attributes.py:151,
+2,longest,"pipeline literal, extraction support",src/catalog/simple_pdf_extraction/fund_attributes.py:151,
+3,alphabetical,"pipeline literal, extraction support",src/catalog/simple_pdf_extraction/fund_attributes.py:151,

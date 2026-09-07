@@ -1,0 +1,3 @@
+input_value,output_value,decided_by,evidence,note
+csv_suffix,excluded_from_type_table,"pipeline literal, release tooling",src/repository/build_readmes.py:265|src/repository/build_readmes.py:770,"CSVs are listed row by row, never as a type count."
+promotion_route_guides,per_route,"pipeline literal, release tooling",src/repository/build_readmes.py:344,One acceptance-evidence guide per promotion route.

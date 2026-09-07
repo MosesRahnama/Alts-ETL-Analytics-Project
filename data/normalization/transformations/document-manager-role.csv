@@ -1,0 +1,4 @@
+input_value,output_value,decided_by,evidence,note,context
+relationship_role,general_partner,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:774,The manager a document names is read as its general partner.,document_manager_map
+provenance_type,EXTRACTED,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:774,,document_manager_map
+adjudication_status_default,RESOLVED,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:774,Used only when the extracted row carries no status.,document_manager_map

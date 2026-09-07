@@ -1,0 +1,9 @@
+input_value,output_value,decided_by,evidence,note
+paid_in_capital,paid_in_capital_itd,"pipeline literal, quality rules",src/quality/run_fund_checks.py:74,The precision of the printed cell bounds how far a recomputation may drift.
+distribution,distributions_itd,"pipeline literal, quality rules",src/quality/run_fund_checks.py:74,
+nav,nav,"pipeline literal, quality rules",src/quality/run_fund_checks.py:74,
+dpi,dpi,"pipeline literal, quality rules",src/quality/run_fund_checks.py:74,
+rvpi,rvpi,"pipeline literal, quality rules",src/quality/run_fund_checks.py:74,
+tvpi,tvpi,"pipeline literal, quality rules",src/quality/run_fund_checks.py:74,
+commitment,commitment,"pipeline literal, quality rules",src/quality/run_fund_checks.py:74,
+unfunded_commitment,unfunded_commitment,"pipeline literal, quality rules",src/quality/run_fund_checks.py:74,

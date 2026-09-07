@@ -1,0 +1,18 @@
+input_value,output_value,decided_by,evidence,note
+Financials,document_context|financial_statement_observation|fund_economics_observation|position_observation|fee_observation|financing_observation|definition_context,"pipeline literal, extraction contract",src/catalog/simple_pdf_extraction/csv_wide_contract.py:676,
+Performance,document_context|performance_observation|fund_economics_observation|cash_flow_observation|definition_context,"pipeline literal, extraction contract",src/catalog/simple_pdf_extraction/csv_wide_contract.py:676,
+Institutional_Report,document_context|performance_observation|fund_economics_observation|position_observation|allocation_observation|definition_context,"pipeline literal, extraction contract",src/catalog/simple_pdf_extraction/csv_wide_contract.py:676,
+Quarterly_Report,document_context|performance_observation|fund_economics_observation|allocation_observation|cash_flow_observation|position_observation|definition_context,"pipeline literal, extraction contract",src/catalog/simple_pdf_extraction/csv_wide_contract.py:676,
+PPM,document_context|legal_term|definition_context,"pipeline literal, extraction contract",src/catalog/simple_pdf_extraction/csv_wide_contract.py:676,
+LPA,document_context|legal_term|legal_clause|definition_context,"pipeline literal, extraction contract",src/catalog/simple_pdf_extraction/csv_wide_contract.py:676,
+Subscription,document_context|subscription_reference|definition_context,"pipeline literal, extraction contract",src/catalog/simple_pdf_extraction/csv_wide_contract.py:676,
+Side_Letter,document_context|legal_term|legal_clause|definition_context,"pipeline literal, extraction contract",src/catalog/simple_pdf_extraction/csv_wide_contract.py:676,
+DDQ,document_context|ddq_quantitative_observation|definition_context,"pipeline literal, extraction contract",src/catalog/simple_pdf_extraction/csv_wide_contract.py:676,
+Schedule_Inv,document_context|position_observation|definition_context,"pipeline literal, extraction contract",src/catalog/simple_pdf_extraction/csv_wide_contract.py:676,
+Fee_Report,document_context|fee_observation|fund_economics_observation|definition_context,"pipeline literal, extraction contract",src/catalog/simple_pdf_extraction/csv_wide_contract.py:676,
+Valuation,document_context|valuation_observation|definition_context,"pipeline literal, extraction contract",src/catalog/simple_pdf_extraction/csv_wide_contract.py:676,
+NAV_Statement,document_context|nav_observation|valuation_observation|definition_context,"pipeline literal, extraction contract",src/catalog/simple_pdf_extraction/csv_wide_contract.py:676,
+Cash_Flow_Notice,document_context|cash_flow_observation|fund_economics_observation|definition_context,"pipeline literal, extraction contract",src/catalog/simple_pdf_extraction/csv_wide_contract.py:676,
+PCAP,document_context|fund_economics_observation|cash_flow_observation|definition_context,"pipeline literal, extraction contract",src/catalog/simple_pdf_extraction/csv_wide_contract.py:676,
+Foundations_Annual,document_context|financial_statement_observation|position_observation|allocation_observation|definition_context,source review,data/documents/pdf/Regulatory_Packard_Foundation_Form_990PF_2023.pdf:2|data/documents/pdf/Regulatory_Packard_Foundation_Form_990PF_2023.pdf:27|data/documents/pdf/Regulatory_Packard_Foundation_Form_990PF_2023.pdf:29|data/documents/pdf/Regulatory_Packard_Foundation_Form_990PF_2023.pdf:31,Investment statements and schedules retain their printed owner and date basis; grants and personal identifiers remain excluded.
+Stewardship_Proxy_Report,document_context|stewardship_observation|stewardship_policy|definition_context,"pipeline literal, extraction contract",src/catalog/simple_pdf_extraction/csv_wide_contract.py:676,

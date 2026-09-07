@@ -1,0 +1,3 @@
+input_value,output_value,decided_by,evidence,note
+allocation_bucket,exclude,source review,SRC594 physical page 3; strategy rows under fund columns,Component labels do not describe the whole fund.
+*,include,source review,Fund context without a narrower allocation scope,Other source contexts remain candidates for the existing attribute review.

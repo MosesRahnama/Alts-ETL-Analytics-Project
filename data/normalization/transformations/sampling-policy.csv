@@ -1,0 +1,4 @@
+input_value,output_value,decided_by,evidence,note
+sample_modulus,10,"pipeline literal, extraction contract",src/catalog/simple_pdf_extraction/csv_wide_contract.py:825,A stable ten-percent sample of matching A/B pairs.
+sample_residue,0,"pipeline literal, extraction contract",src/catalog/simple_pdf_extraction/csv_wide_contract.py:825,
+sample_digest,sha256_first8_hex,"pipeline literal, extraction contract",src/catalog/simple_pdf_extraction/csv_wide_contract.py:825,

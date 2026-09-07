@@ -1,0 +1,3 @@
+input_value,output_value,decided_by,evidence,note
+manager_name_source,alias_raw_name,"pipeline literal, wide pivot",src/flatten/pivot_wide.py:283,The printed name behind the manager alias id; an absent alias leaves the name blank.
+investor_name_source,alias_raw_name,"pipeline literal, wide pivot",src/flatten/pivot_wide.py:283,

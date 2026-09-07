@@ -1,0 +1,4 @@
+input_value,output_value,decided_by,evidence,note
+blank_observation_id,refused,"pipeline literal, calibration",src/pipeline/build_calibration_candidates.py:86,
+duplicate_observation_id,refused,"pipeline literal, calibration",src/pipeline/build_calibration_candidates.py:86,
+panel_mismatch,refused,"pipeline literal, calibration",src/pipeline/build_calibration_candidates.py:86,

@@ -1,0 +1,2 @@
+input_value,output_value,decided_by,evidence,note
+repeat_split_field,source_column_label,"pipeline literal, wide pivot",src/flatten/pivot_wide.py:195,A group where a category repeats splits by the printed column label; a group where each category occurs once stays whole.

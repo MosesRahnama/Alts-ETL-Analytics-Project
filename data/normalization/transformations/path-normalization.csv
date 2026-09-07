@@ -1,0 +1,3 @@
+input_value,output_value,decided_by,evidence,note
+flattened_separator,__,"pipeline literal, public-market curation",src/market_data/curate_public_markets.py:421|src/market_data/curate_public_markets.py:425,A source path stored flat carries its folders in its name; the double underscore stands for the slash.
+portable_path_priority,repository_relative|output_relative,"pipeline literal, public-market curation",src/market_data/curate_public_markets.py:534,"A receipt names the repository path when the file is inside the repository, otherwise the output-root path."

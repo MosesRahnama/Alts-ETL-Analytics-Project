@@ -1,0 +1,5 @@
+input_value,output_value,decided_by,evidence,note,context
+dated_role,as_of,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:242|src/load/promote_extracted_to_fund_level.py:245,An observation with an as-of date.,observation
+undated_role,static_no_date,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:242|src/load/promote_extracted_to_fund_level.py:245,,observation
+dated_precision_default,day,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:242|src/load/promote_extracted_to_fund_level.py:245,Used when extraction recorded no precision.,observation
+undated_precision,unknown,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:242|src/load/promote_extracted_to_fund_level.py:245,,observation

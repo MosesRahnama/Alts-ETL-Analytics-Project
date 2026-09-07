@@ -1,0 +1,6 @@
+input_value,output_value,decided_by,evidence,note
+1,existing_master,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:678,
+2,attributes_matrix,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:678,
+3,latest_period,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:678,
+4,name_hint_recorded_not_promoted,"metric vocabulary review, 2026-09-01",name-hint-policy.csv promotion=never_promoted,Rank kept so the chain stays five long; the hint is recorded on fund_master.name_hint and never fills strategy.
+5,configured_fallback,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:678,

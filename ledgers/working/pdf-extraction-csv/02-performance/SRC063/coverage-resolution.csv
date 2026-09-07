@@ -1,0 +1,3 @@
+"source_page","final_page_status","final_expected_observation_count","reason"
+"1","ELIGIBLE_DATA_EXTRACTED","114","Three definition_context rows per page were added by the definition backfill; both lanes counted them the same way."
+"2","ELIGIBLE_DATA_EXTRACTED","113","Three definition_context rows per page were added by the definition backfill; both lanes counted them the same way."

@@ -1,0 +1,6 @@
+input_value,output_value,decided_by,evidence,note,context
+source_files,442,"pipeline literal, release tooling",src/pipeline/reviewer_check.py:182,,reviewer
+source_document_types,17,"pipeline literal, release tooling",src/pipeline/reviewer_check.py:182,,reviewer
+qualifier_backlog_rows,0,source review,data/normalization/source-review-corrections.csv,"Publication requires complete source-reviewed qualifiers, including historical records.",reviewer
+skip_names,.git|.pytest_cache|__pycache__|.mypy_cache|.ruff_cache|.venv|venv|node_modules|dist|build,"tool-cache gate audit, 2026-09-01",src/repository/build_project_manifest.py,"Directories no gate reads: version control and the caches a tool writes. The manifest excluded all ten while the structure gate and the folder-guide generator skipped three, so running the project's own ruff command created .ruff_cache and the gate then demanded a folder guide inside it. One row now governs all three walkers.",structure
+forbidden_parts_source,check_project_structure.FORBIDDEN_PARTS,"pipeline literal, release tooling",src/repository/check_project_structure.py:26,Names that must never appear in a released tree; the module carries the list and this row pins where it lives.,structure

@@ -1,0 +1,10 @@
+input_value,output_value,decided_by,evidence,note,sub_strategy
+venture|seed|angel,Venture Capital,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:347,,Venture Capital
+real estate|realty|property,Real Estate,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:347,,Diversified Real Estate
+infrastructure,Infrastructure,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:347,,Infrastructure
+credit|debt|mezzanine|lending,Private Credit,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:347,,Direct Lending
+secondary,Secondary Investments,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:347,,Secondaries
+energy|resource|timber|agriculture|water,Natural Resources,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:347,,Natural Resources
+growth,Growth Equity,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:347,,Growth Equity
+buyout|equity partners,Buyout,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:347,,Buyout
+*,strategy_fallback,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:347,No keyword matched: the configured fallback with Multi-Strategy.,Multi-Strategy

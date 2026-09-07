@@ -1,0 +1,4 @@
+input_value,output_value,decided_by,evidence,note
+Core,eligible,"pipeline literal, calibration",src/pipeline/build_calibration_candidates.py:31,
+Opportunistic,eligible,"pipeline literal, calibration",src/pipeline/build_calibration_candidates.py:31,
+Value Add,eligible,"pipeline literal, calibration",src/pipeline/build_calibration_candidates.py:31,

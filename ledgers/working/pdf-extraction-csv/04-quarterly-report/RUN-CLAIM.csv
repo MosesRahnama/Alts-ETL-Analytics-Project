@@ -1,0 +1,5 @@
+"route","agent_role","extractor_model","claimed_at","claimed_by"
+"04-quarterly-report","A","gpt-5","2026-09-03T21:44:51Z",""
+"04-quarterly-report","B","claude-sonnet-5","2026-09-03T21:43:45Z",""
+"04-quarterly-report","J1","Codex","2026-09-05T20:16:21Z","source-review checker; exact model identifier not exposed by this session"
+"04-quarterly-report","J2","Codex","2026-09-05T20:16:21Z","source-review checker; exact model identifier not exposed by this session"

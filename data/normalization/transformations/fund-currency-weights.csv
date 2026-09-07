@@ -1,0 +1,5 @@
+input_value,output_value,decided_by,evidence,note
+USD,0.78,"pipeline literal, synthetic fixture",src/generate/generate_synthetic_funds.py:161|src/generate/generate_synthetic_funds.py:168,A fund reports every fact in its own currency.
+EUR,0.12,"pipeline literal, synthetic fixture",src/generate/generate_synthetic_funds.py:161|src/generate/generate_synthetic_funds.py:168,A fund reports every fact in its own currency.
+GBP,0.07,"pipeline literal, synthetic fixture",src/generate/generate_synthetic_funds.py:161|src/generate/generate_synthetic_funds.py:168,A fund reports every fact in its own currency.
+CAD,0.03,"pipeline literal, synthetic fixture",src/generate/generate_synthetic_funds.py:161|src/generate/generate_synthetic_funds.py:168,A fund reports every fact in its own currency.

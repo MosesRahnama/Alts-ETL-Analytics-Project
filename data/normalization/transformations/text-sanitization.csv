@@ -1,0 +1,6 @@
+input_value,output_value,decided_by,evidence,note
+control_ranges,0x00-0x1F|0x7F|0x80-0x9F,"pipeline literal, release tooling",src/catalog/build_txt_corpus.py:61|src/catalog/build_txt_corpus.py:127,A page holding one refuses its own evidence at the quote gate.
+kept_characters,tab|newline|return,"pipeline literal, release tooling",src/catalog/build_txt_corpus.py:61,
+native_page,kept,"pipeline literal, release tooling",src/catalog/build_txt_corpus.py:127,A page with printable native text keeps it.
+blank_page,empty_status,"pipeline literal, release tooling",src/catalog/build_txt_corpus.py:127,
+failed_page,error_status,"pipeline literal, release tooling",src/catalog/build_txt_corpus.py:127,The failure message is written into the page slot.

@@ -1,0 +1,8 @@
+input_value,output_value,decided_by,evidence,note
+-,no_identity,"pipeline literal, extraction support",src/catalog/simple_pdf_extraction/name_normalization.py:124,A printed stand-in for a withheld value.
+--,no_identity,"pipeline literal, extraction support",src/catalog/simple_pdf_extraction/name_normalization.py:124,A printed stand-in for a withheld value.
+N/A,no_identity,"pipeline literal, extraction support",src/catalog/simple_pdf_extraction/name_normalization.py:124,A printed stand-in for a withheld value.
+NA,no_identity,"pipeline literal, extraction support",src/catalog/simple_pdf_extraction/name_normalization.py:124,A printed stand-in for a withheld value.
+NOT_DISCLOSED,no_identity,"pipeline literal, extraction support",src/catalog/simple_pdf_extraction/name_normalization.py:124,A printed stand-in for a withheld value.
+NOT_PRINTED,no_identity,"pipeline literal, extraction support",src/catalog/simple_pdf_extraction/name_normalization.py:124,A printed stand-in for a withheld value.
+REDACTED,no_identity,"pipeline literal, extraction support",src/catalog/simple_pdf_extraction/name_normalization.py:124,A printed stand-in for a withheld value.

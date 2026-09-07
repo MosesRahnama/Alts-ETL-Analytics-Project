@@ -1,0 +1,5 @@
+input_value,output_value,decided_by,evidence,note
+utc_marker,tz=UTC,"pipeline literal, public-market curation",src/market_data/curate_public_markets.py:519,A date field carrying this in its Arrow type is UTC-aware.
+aware_status,UTC_AWARE,"pipeline literal, public-market curation",src/market_data/curate_public_markets.py:519,
+naive_status,DATE_NAIVE,"pipeline literal, public-market curation",src/market_data/curate_public_markets.py:519,
+missing_status,DATE_FIELD_UNRESOLVED,"pipeline literal, public-market curation",src/market_data/curate_public_markets.py:519,No known date column in the schema.

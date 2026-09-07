@@ -1,0 +1,3 @@
+input_value,output_value,decided_by,evidence,note,reason
+header_matches,MATCH,"pipeline literal, dispatch builder",src/catalog/simple_pdf_extraction/build_csv_pipeline.py:238,,SOURCE_LEDGER_MATCHES_TXT_HEADER
+header_differs,RATIFIED_HEADER_OVERRIDE,"pipeline literal, dispatch builder",src/catalog/simple_pdf_extraction/build_csv_pipeline.py:238,The ratified adjudication supersedes a stale txt header.,SOURCE_LEDGER_ADJUDICATION_SUPERSEDES_STALE_TXT_HEADER

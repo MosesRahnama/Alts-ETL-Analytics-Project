@@ -1,0 +1,8 @@
+input_value,output_value,decided_by,evidence,note
+numeric_pattern,"(?i)^\(?-?[$€£]?\s?(?:(?=[\d,]*\d)[\d,]+(?:\.\d*)?|\.\d+)\s?(?:%|x|bps)?\)?$","grid-quality review 2026-09-01",tests/test_page_grid.py:17,"A numeric cell may carry a currency symbol, source-grouped or split digits, decimals, parentheses, percent, multiple, or basis-point suffix; punctuation-only strings do not qualify."
+unit_suffix_pattern,"(?i)^(?:%|x|bps)$","grid-quality review 2026-09-01",tests/test_page_grid.py:24,"A detached printed unit joins the numeric word immediately to its left when the coordinate gap also qualifies."
+year_pattern,"^(?:19|20)\d{2}$","pipeline literal, extraction support",src/catalog/simple_pdf_extraction/page_grid.py:39,A four-digit calendar year can name a column or complete a printed period label.
+header_footnote_pattern,"^\(?\d{1,2}\)?$","grid-quality review 2026-09-01",tests/test_page_grid.py:56,A small parenthesized number beside a header is a footnote marker rather than a data value.
+header_number_pattern,"^\d{1,2}$","grid-quality review 2026-09-01",src/catalog/simple_pdf_extraction/page_grid.py:41,A one- or two-digit token may complete a period header such as 9 Months or 10 Year.
+period_label_pattern,"(?i)^(?:q[1-4]|[1-4]q|quarter\s*[1-4]|[1-4](?:st|nd|rd|th)\s+quarter|h[12])$","grid-quality review 2026-09-01",tests/test_page_grid.py:79,Only a printed period label permits an all-year first value column to fold into that label.
+data_decoration_pattern,"[%$€£.,()]","pipeline literal, extraction support",src/catalog/simple_pdf_extraction/page_grid.py:379,Currency decimal percentage and parenthesis marks distinguish a printed data value from a bare year header.

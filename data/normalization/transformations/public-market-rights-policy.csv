@@ -1,0 +1,2 @@
+input_value,output_value,decided_by,evidence,note
+rights_status,DEMONSTRATION_ONLY,"pipeline literal, public-market curation",src/market_data/curate_public_markets.py:578,Every retained file and every candidate row carries this status until rights clearance.

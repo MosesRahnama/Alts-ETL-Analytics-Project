@@ -1,0 +1,2 @@
+input_value,output_value,decided_by,evidence,note
+pages_with_data_status,ELIGIBLE_DATA_EXTRACTED,"pipeline literal, review builder",src/pipeline/build_extraction_review.py:482,

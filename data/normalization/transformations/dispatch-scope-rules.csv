@@ -1,0 +1,5 @@
+input_value,output_value,decided_by,evidence,note,reason
+not_selected,UNSCHEDULED,"pipeline literal, dispatch builder",src/catalog/simple_pdf_extraction/build_csv_pipeline.py:270|src/catalog/simple_pdf_extraction/build_csv_pipeline.py:292,,NOT_IN_ACTIVE_SCOPE
+CORE,ACTIVE,"pipeline literal, dispatch builder",src/catalog/simple_pdf_extraction/build_csv_pipeline.py:270|src/catalog/simple_pdf_extraction/build_csv_pipeline.py:292,,RETAINED_CORE_ACTIVE_SCOPE
+SECONDARY,DEFERRED,"pipeline literal, dispatch builder",src/catalog/simple_pdf_extraction/build_csv_pipeline.py:270|src/catalog/simple_pdf_extraction/build_csv_pipeline.py:292,,DEFERRED_SECONDARY_PRODUCT_FROM_ACTIVE_SCOPE
+*,REFERENCE,"pipeline literal, dispatch builder",src/catalog/simple_pdf_extraction/build_csv_pipeline.py:270|src/catalog/simple_pdf_extraction/build_csv_pipeline.py:292,,ROUTED_TEMPLATE_OR_MODEL_TO_REFERENCE_PRODUCT

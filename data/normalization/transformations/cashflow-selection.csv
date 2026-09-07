@@ -1,0 +1,4 @@
+input_value,output_value,decided_by,evidence,note
+schedule_key,document_id|source_page|source_table|subject_entity_id|currency,source review,SRC463 physical page 2,Separate schedules and investor positions.
+summary_row_pattern,(?i)^(?:TOTAL|SUBTOTAL)$,source review,SRC463 physical page 2 TOTAL row,Exclude cumulative rows when dated events exist in the same schedule.
+total_column_pattern,(?i)^TOTAL$,source review,SRC463 physical page 2 TOTAL column,Use the event total instead of adding its components again.

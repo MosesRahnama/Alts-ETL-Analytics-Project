@@ -1,0 +1,1 @@
+defect_id,parameter_set_id,record_table,record_id,fund_id,defect_type,field_name,clean_value,injected_value,expected_rule_id,seed,notes

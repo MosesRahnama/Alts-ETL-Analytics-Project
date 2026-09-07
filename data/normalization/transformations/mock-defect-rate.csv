@@ -1,0 +1,2 @@
+input_value,output_value,decided_by,evidence,note
+default_defect_rate,0.18,"pipeline literal, mock universe",src/pipeline/build_mock_universe.py:219|src/pipeline/build_mock_universe.py:221,

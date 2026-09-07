@@ -1,0 +1,22 @@
+input_value,output_value,decided_by,evidence,note
+zero,0,source convention,src/flatten/flatten_extracted.py,The complete printed word remains in the raw field.
+one,1,source convention,src/flatten/flatten_extracted.py,The complete printed word remains in the raw field.
+two,2,source convention,src/flatten/flatten_extracted.py,The complete printed word remains in the raw field.
+three,3,source review,SRC384 page 4,The printed three percent is a numeric return with a separate percent unit.
+four,4,source convention,src/flatten/flatten_extracted.py,The complete printed word remains in the raw field.
+five,5,source convention,src/flatten/flatten_extracted.py,The complete printed word remains in the raw field.
+six,6,source review,SRC384 page 3,The printed six percent is a numeric return with a separate percent unit.
+seven,7,source convention,src/flatten/flatten_extracted.py,The complete printed word remains in the raw field.
+eight,8,source convention,src/flatten/flatten_extracted.py,The complete printed word remains in the raw field.
+nine,9,source convention,src/flatten/flatten_extracted.py,The complete printed word remains in the raw field.
+ten,10,source convention,src/flatten/flatten_extracted.py,The complete printed word remains in the raw field.
+eleven,11,source convention,src/flatten/flatten_extracted.py,The complete printed word remains in the raw field.
+twelve,12,source convention,src/flatten/flatten_extracted.py,The complete printed word remains in the raw field.
+thirteen,13,source convention,src/flatten/flatten_extracted.py,The complete printed word remains in the raw field.
+fourteen,14,source convention,src/flatten/flatten_extracted.py,The complete printed word remains in the raw field.
+fifteen,15,source convention,src/flatten/flatten_extracted.py,The complete printed word remains in the raw field.
+sixteen,16,source convention,src/flatten/flatten_extracted.py,The complete printed word remains in the raw field.
+seventeen,17,source convention,src/flatten/flatten_extracted.py,The complete printed word remains in the raw field.
+eighteen,18,source convention,src/flatten/flatten_extracted.py,The complete printed word remains in the raw field.
+nineteen,19,source convention,src/flatten/flatten_extracted.py,The complete printed word remains in the raw field.
+twenty,20,source convention,src/flatten/flatten_extracted.py,The complete printed word remains in the raw field.

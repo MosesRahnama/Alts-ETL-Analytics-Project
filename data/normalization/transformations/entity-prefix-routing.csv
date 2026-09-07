@@ -1,0 +1,4 @@
+input_value,output_value,decided_by,evidence,note
+fund,FUND_,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:330|src/load/promote_extracted_to_fund_level.py:331,An entity id opening with this prefix is a fund; fund_observations and fund_periods admit rows by it.
+investor,LP_,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:466,"A cash-flow subject opening with this prefix is the limited partner, kept beside the fund."
+manager,MGR_,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:619,Manager scope for manager_observations and the master extension.

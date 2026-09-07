@@ -1,0 +1,4 @@
+input_value,output_value,decided_by,evidence,note
+same_path,RETAINED_IN_PLACE,"pipeline literal, public-market curation",src/market_data/curate_public_markets.py:553|src/market_data/curate_public_markets.py:554,
+matching_existing_copy,REUSED_MATCHING_COPY,"pipeline literal, public-market curation",src/market_data/curate_public_markets.py:553|src/market_data/curate_public_markets.py:554,The destination already holds the same bytes.
+otherwise,COPIED,"pipeline literal, public-market curation",src/market_data/curate_public_markets.py:553|src/market_data/curate_public_markets.py:554,

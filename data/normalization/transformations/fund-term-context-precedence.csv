@@ -1,0 +1,2 @@
+input_value,output_value,decided_by,evidence,note,context
+shared_context_source,first_admitted_row,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:516,"The first legal-term row per fund supplies the document, page, anchor, and currency context; later rows fill values only.",fund_terms

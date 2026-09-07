@@ -1,0 +1,7 @@
+input_value,output_value,decided_by,evidence,note,context
+zero_epsilon,5e-13,"pipeline literal, quality rules",src/quality/run_fund_checks.py:1039,A magnitude below this prints as zero.,
+number_format,.12g,"pipeline literal, quality rules",src/quality/run_fund_checks.py:1039,,
+residual_assignment,sorted_fund_order_within_bounds,"pipeline literal, analytics",src/analytics/run_round04_analytics.py:414,"The weight residual lands on the first fund, in sorted order, whose bounds accept it.",
+float_format,.10f,"pipeline literal, analytics",src/analytics/run_round04_analytics.py:1102,"Fixed at ten decimals, trailing zeros and the bare point removed; empty prints as zero.",
+money_format,.2f with 1e-12 nudge,"pipeline literal, synthetic fixture",src/generate/generate_synthetic_funds.py:702,Two decimals; the nudge keeps exact halves stable.,fixture
+ratio_format,.6f,"pipeline literal, synthetic fixture",src/generate/generate_synthetic_funds.py:702,,fixture

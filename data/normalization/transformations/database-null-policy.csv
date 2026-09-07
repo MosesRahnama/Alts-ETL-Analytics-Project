@@ -1,0 +1,2 @@
+input_value,output_value,decided_by,evidence,note
+nullstr,<blank>,"pipeline literal, fund-model loader",src/load/load_csv_to_duckdb.py:193|src/flatten/load_star.py:108,The load treats the empty string as SQL NULL; every column enters as VARCHAR before the DDL types apply.

@@ -1,0 +1,2 @@
+input_value,output_value,decided_by,evidence,note
+header_only_csv,explained,"pipeline literal, release tooling",src/repository/build_readmes.py:576,A CSV with a header and no rows is a claim about the pipeline; the guide states the reason it is empty.

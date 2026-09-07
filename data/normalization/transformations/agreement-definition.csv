@@ -1,0 +1,2 @@
+input_value,output_value,decided_by,evidence,note
+raw_value_agreement,same_printed_value_both_lanes,"pipeline literal, review builder",src/pipeline/build_extraction_review.py:475,A pair counts as agreeing unless it is a value conflict; classification and context conflicts still agree on the number.

@@ -1,0 +1,3 @@
+input_value,output_value,decided_by,evidence,note
+legal_name_formula,LEGAL_NAME_FROM_CANONICAL_FUND_NAME_V1,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:645,
+identity_precedence,SOURCE_IDENTITY,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:645,

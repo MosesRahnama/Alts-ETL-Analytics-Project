@@ -1,0 +1,7 @@
+input_value,output_value,decided_by,evidence,note
+parameter_set_id,SOURCE_CALIBRATION_REAL_ESTATE_V1,"pipeline literal, calibration",src/pipeline/build_calibration_candidates.py:27|src/pipeline/build_calibration_candidates.py:31|src/pipeline/build_calibration_candidates.py:152,
+source_document,SRC457,"pipeline literal, calibration",src/pipeline/build_calibration_candidates.py:27,
+source_page,9,"pipeline literal, calibration",src/pipeline/build_calibration_candidates.py:27,
+source_table,Investment Detail,"pipeline literal, calibration",src/pipeline/build_calibration_candidates.py:27,
+expected_fund_count,33,"pipeline literal, calibration",src/pipeline/build_calibration_candidates.py:31,
+subject_type,fund,"pipeline literal, calibration",src/pipeline/build_calibration_candidates.py:31,Portfolio totals and Public Real Estate rows are excluded.

@@ -1,0 +1,2 @@
+input_value,output_value,decided_by,evidence,note,context
+repeat_within_fund,first_value_kept,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:528,A term column already filled keeps its first printed value.,fund_terms

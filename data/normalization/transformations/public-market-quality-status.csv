@@ -1,0 +1,3 @@
+input_value,output_value,decided_by,evidence,note
+passing_status,PASS,"pipeline literal, promotion gate",src/load/validate_round02_promotion.py:391,Compared uppercase; a non-PASS check blocks the market gate.
+zero_checks,refused,"pipeline literal, promotion gate",src/load/validate_round02_promotion.py:391,An empty quality audit blocks the gate.

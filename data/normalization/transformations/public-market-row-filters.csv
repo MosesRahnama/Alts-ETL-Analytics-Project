@@ -1,0 +1,4 @@
+input_value,output_value,decided_by,evidence,note
+missing_date_or_level,dropped,"pipeline literal, public-market curation",src/market_data/curate_public_markets.py:622,
+duplicate_dates,refused,"pipeline literal, public-market curation",src/market_data/curate_public_markets.py:622,A benchmark with two levels for one date stops the build.
+nonpositive_level,refused,"pipeline literal, public-market curation",src/market_data/curate_public_markets.py:622,

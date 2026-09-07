@@ -1,0 +1,3 @@
+input_value,output_value,decided_by,evidence,note,context
+requires_name_or_registry,true,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:765,A manager with neither a printed name nor a registry name is left out.,document_manager_map
+row_kept,first_per_document_and_manager,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:765,,document_manager_map

@@ -1,0 +1,5 @@
+input_value,output_value,decided_by,evidence,note
+match_mode,word_boundary,"metric vocabulary review, 2026-09-01",DERIVED-STRATEGY-INVESTIGATION.md: adVENTURE matched venture and WATERton matched water under substring matching,A keyword matches only as a whole word.
+promotion,never_promoted,"metric vocabulary review, 2026-09-01","DERIVED-STRATEGY-INVESTIGATION.md: 934 of 934 sub_strategy values were name guesses, 641 of them the catch-all",A name is not evidence of a strategy; the hint is recorded and never becomes a published value.
+contradiction,drop_when_print_disagrees,"metric vocabulary review, 2026-09-01","Adventure Fund I vs SRC035 Growth Equity; Waterton Fund IX vs SRC058 Real Estate; Timberline Annex vs SRC035 Venture Capital; Atlas Capital Resources vs SRC407 Secondary Investments",A hint whose canonical class contradicts printed evidence for the same fund is dropped.
+imputation_method,NAME_KEYWORD_V1,"metric vocabulary review, 2026-09-01",cell-lineage.csv labelled the guess FUND_CONSTANT_PROPAGATION_V1 with a source page that does not state it,One label per mechanism: name inference is imputation and cites no page.

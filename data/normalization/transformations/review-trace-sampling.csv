@@ -1,0 +1,4 @@
+input_value,output_value,decided_by,evidence,note
+SRC035,1,"pipeline literal, review builder",src/pipeline/build_extraction_review.py:524,"The exemplar documents lead the lineage trace, in this order."
+SRC384,2,"pipeline literal, review builder",src/pipeline/build_extraction_review.py:524,
+SRC457,3,"pipeline literal, review builder",src/pipeline/build_extraction_review.py:524,

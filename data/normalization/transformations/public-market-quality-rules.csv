@@ -1,0 +1,9 @@
+input_value,output_value,decided_by,evidence,note
+transfer_bound_bytes,104857600,"pipeline literal, public-market curation",src/market_data/curate_public_markets.py:33,The copy step refuses a selection larger than this.
+selected_file_count,334,"pipeline literal, public-market curation",src/market_data/curate_public_markets.py:794|src/market_data/curate_public_markets.py:795,PMQ01.
+benchmark_count,58,"pipeline literal, public-market curation",src/market_data/curate_public_markets.py:794|src/market_data/curate_public_markets.py:795,PMQ05: the wide panel plus the longer-history additions.
+duplicate_level_keys,0,"pipeline literal, public-market curation",src/market_data/curate_public_markets.py:794|src/market_data/curate_public_markets.py:795,PMQ06.
+returns_at_or_below_minus_one,0,"pipeline literal, public-market curation",src/market_data/curate_public_markets.py:794|src/market_data/curate_public_markets.py:795,PMQ07: the economic floor.
+return_tieout_tolerance,1e-15,"pipeline literal, public-market curation",src/market_data/curate_public_markets.py:794|src/market_data/curate_public_markets.py:795,PMQ08.
+long_history_count,29,"pipeline literal, public-market curation",src/market_data/curate_public_markets.py:794|src/market_data/curate_public_markets.py:795,PMQ09.
+wide_panel_count,29,"pipeline literal, public-market curation",src/market_data/curate_public_markets.py:794|src/market_data/curate_public_markets.py:795,PMQ10.

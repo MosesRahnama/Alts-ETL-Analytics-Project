@@ -1,0 +1,2 @@
+input_value,output_value,decided_by,evidence,note
+observation_ids_separator, | ,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:580,"The split token, space-pipe-space. fact_holding joins its ids with semicolons, so multi-id holdings fall through to the document rule; recorded as a merits defect, unchanged here."

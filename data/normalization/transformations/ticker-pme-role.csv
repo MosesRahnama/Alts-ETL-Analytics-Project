@@ -1,0 +1,13 @@
+input_value,output_value,decided_by,evidence,note
+AGG,PRIMARY_PROXY,"pipeline literal, public-market curation",src/market_data/curate_public_markets.py:380|src/market_data/curate_public_markets.py:655,
+DBC,PRIMARY_PROXY,"pipeline literal, public-market curation",src/market_data/curate_public_markets.py:380|src/market_data/curate_public_markets.py:655,
+EEM,PRIMARY_PROXY,"pipeline literal, public-market curation",src/market_data/curate_public_markets.py:380|src/market_data/curate_public_markets.py:655,
+EFA,PRIMARY_PROXY,"pipeline literal, public-market curation",src/market_data/curate_public_markets.py:380|src/market_data/curate_public_markets.py:655,
+HYG,PRIMARY_PROXY,"pipeline literal, public-market curation",src/market_data/curate_public_markets.py:380|src/market_data/curate_public_markets.py:655,
+IWM,PRIMARY_PROXY,"pipeline literal, public-market curation",src/market_data/curate_public_markets.py:380|src/market_data/curate_public_markets.py:655,
+LQD,PRIMARY_PROXY,"pipeline literal, public-market curation",src/market_data/curate_public_markets.py:380|src/market_data/curate_public_markets.py:655,
+QQQ,PRIMARY_PROXY,"pipeline literal, public-market curation",src/market_data/curate_public_markets.py:380|src/market_data/curate_public_markets.py:655,
+SPY,PRIMARY_PROXY,"pipeline literal, public-market curation",src/market_data/curate_public_markets.py:380|src/market_data/curate_public_markets.py:655,
+VNQ,PRIMARY_PROXY,"pipeline literal, public-market curation",src/market_data/curate_public_markets.py:380|src/market_data/curate_public_markets.py:655,
+VTI,PRIMARY_PROXY,"pipeline literal, public-market curation",src/market_data/curate_public_markets.py:380|src/market_data/curate_public_markets.py:655,
+*,SENSITIVITY_PROXY,"pipeline literal, public-market curation",src/market_data/curate_public_markets.py:380|src/market_data/curate_public_markets.py:655,Every other mapped ticker.

@@ -1,0 +1,2 @@
+input_value,output_value,decided_by,evidence,note
+missing_input,skipped_without_clearing,"pipeline literal, fund-model loader",src/load/load_csv_to_duckdb.py:181,"A missing canonical CSV leaves the existing table in place with a zero count; recorded as a merits defect, unchanged here."

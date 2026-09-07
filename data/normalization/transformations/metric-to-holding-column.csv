@@ -1,0 +1,10 @@
+input_value,output_value,decided_by,evidence,note
+fair_value,fair_value,"pipeline literal, flatten",src/flatten/flatten_extracted.py:65,
+market_value,market_value,"pipeline literal, flatten",src/flatten/flatten_extracted.py:65,
+cost,cost,"pipeline literal, flatten",src/flatten/flatten_extracted.py:65,
+notional,notional_amount,"pipeline literal, flatten",src/flatten/flatten_extracted.py:65,
+quantity,quantity,"pipeline literal, flatten",src/flatten/flatten_extracted.py:65,
+portfolio_weight,portfolio_weight,"pipeline literal, flatten",src/flatten/flatten_extracted.py:65,
+interest_rate,interest_rate,"pipeline literal, flatten",src/flatten/flatten_extracted.py:65,
+maturity_date,maturity_date_raw,"pipeline literal, flatten",src/flatten/flatten_extracted.py:65,The one text-valued holding column.
+shares_units,quantity,"pipeline literal, flatten",src/flatten/flatten_extracted.py:65,Two printed vocabularies land in one quantity column.

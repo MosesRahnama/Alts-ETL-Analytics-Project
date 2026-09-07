@@ -1,0 +1,2 @@
+input_value,output_value,decided_by,evidence,note
+gated_provenance,EXTRACTED,"pipeline literal, promotion gate",src/load/validate_round02_promotion.py:500,Only extracted rows need Round 02 lineage; compared uppercase.

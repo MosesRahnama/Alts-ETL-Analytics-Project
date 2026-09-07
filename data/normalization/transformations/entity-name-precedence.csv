@@ -1,0 +1,11 @@
+input_value,output_value,decided_by,evidence,note,context
+1,subject_standardized_name,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:475,,fund_cashflows.lp_name
+2,subject_name,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:475,,fund_cashflows.lp_name
+1,subject_manager_name,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:773,,document_manager_map.manager_name_raw
+2,<subject_name_if_subject_is_manager>,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:773,A document title never stands in for a manager name.,document_manager_map.manager_name_raw
+3,<registry_name>,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:773,,document_manager_map.manager_name_raw
+1,<registry_name>,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:773,,document_manager_map.manager_name_normalized
+2,<subject_standardized_name_if_subject_is_manager>,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:773,,document_manager_map.manager_name_normalized
+3,<manager_name_raw>,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:773,,document_manager_map.manager_name_normalized
+1,registry_standardized_name,"pipeline literal, flatten",src/flatten/flatten_extracted.py:815,,dim_entity.canonical_name
+2,alias_standardized_name,"pipeline literal, flatten",src/flatten/flatten_extracted.py:815,,dim_entity.canonical_name

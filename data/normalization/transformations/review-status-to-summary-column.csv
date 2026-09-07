@@ -1,0 +1,5 @@
+input_value,output_value,decided_by,evidence,note
+VALUE_CONFLICT,value_conflicts,"pipeline literal, review builder",src/pipeline/build_extraction_review.py:489,
+CLASSIFICATION_CONFLICT,classification_conflicts,"pipeline literal, review builder",src/pipeline/build_extraction_review.py:489,
+CONTEXT_CONFLICT,context_conflicts,"pipeline literal, review builder",src/pipeline/build_extraction_review.py:489,
+EXACT,exact_all_field_pairs,"pipeline literal, review builder",src/pipeline/build_extraction_review.py:489,

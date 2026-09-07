@@ -1,0 +1,2 @@
+input_value,output_value,decided_by,evidence,note
+legal_noise_pattern,\b(l\.?\s?p|llc|llp|inc|ltd|limited|corp|corporation|company|co|trust|the|of)\b,"pipeline literal, extraction support",src/catalog/simple_pdf_extraction/name_normalization.py:119,Single letters are deliberately not noise: Fund II-A and Fund II are different vehicles.

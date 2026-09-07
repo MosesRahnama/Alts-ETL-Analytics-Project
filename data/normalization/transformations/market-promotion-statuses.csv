@@ -1,0 +1,3 @@
+input_value,output_value,decided_by,evidence,note
+PROMOTED,promotable,"pipeline literal, promotion gate",src/load/validate_round02_promotion.py:57,A production market row must carry one of these statuses on its source and its decision.
+CANONICAL,promotable,"pipeline literal, promotion gate",src/load/validate_round02_promotion.py:57,

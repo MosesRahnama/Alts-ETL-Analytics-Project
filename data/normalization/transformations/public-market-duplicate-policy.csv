@@ -1,0 +1,4 @@
+input_value,output_value,decided_by,evidence,note
+inventory_key,file_id,"pipeline literal, promotion gate",src/load/validate_round02_promotion.py:380,
+decision_key,benchmark_id,"pipeline literal, promotion gate",src/load/validate_round02_promotion.py:380,
+repeated_key,last_row_wins,"pipeline literal, promotion gate",src/load/validate_round02_promotion.py:380,"A repeated key keeps the last row; recorded as a merits concern, unchanged here."

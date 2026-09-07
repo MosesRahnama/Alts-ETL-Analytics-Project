@@ -1,0 +1,4 @@
+input_value,output_value,decided_by,evidence,note
+requires_review,non_exact_or_sample,"pipeline literal, extraction workflow",src/catalog/simple_pdf_extraction/csv_workflow.py:1600,"Every non-exact pair, plus the stable sample of exact ones."
+coverage_sample,first_last_or_sample,"pipeline literal, extraction workflow",src/catalog/simple_pdf_extraction/csv_workflow.py:1645,The first and last pages always; other agreeing pages by the stable sample.
+coverage_sample_id,COVERAGE_{file_id}_{page},"pipeline literal, extraction workflow",src/catalog/simple_pdf_extraction/csv_workflow.py:1645,

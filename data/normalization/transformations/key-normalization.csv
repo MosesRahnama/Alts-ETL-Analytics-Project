@@ -1,0 +1,5 @@
+input_value,output_value,decided_by,evidence,note
+unicode_form,NFKC,"pipeline literal, extraction contract",src/catalog/simple_pdf_extraction/csv_wide_contract.py:750,
+nonbreaking_space,space,"pipeline literal, extraction contract",src/catalog/simple_pdf_extraction/csv_wide_contract.py:750,
+whitespace_pattern,\s+,"pipeline literal, extraction contract",src/catalog/simple_pdf_extraction/csv_wide_contract.py:750,Runs of whitespace collapse to one space.
+case,casefold,"pipeline literal, extraction contract",src/catalog/simple_pdf_extraction/csv_wide_contract.py:750,

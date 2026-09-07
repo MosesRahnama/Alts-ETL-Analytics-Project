@@ -1,0 +1,2 @@
+input_value,output_value,decided_by,evidence,note
+portfolio_perspective,fund_total,"pipeline literal, analytics",src/analytics/run_integrated_analytics.py:31,"The integrated run analyzes whole funds, not investor slices."

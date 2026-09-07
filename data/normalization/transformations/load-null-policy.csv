@@ -1,0 +1,2 @@
+input_value,output_value,decided_by,evidence,note
+empty_cell_means,null,"pipeline literal, fund-model loader",src/load/load_csv_to_duckdb.py:54|src/flatten/load_star.py:108,"The parity reader treats an empty CSV cell as SQL NULL, matching the database side."

@@ -1,0 +1,9 @@
+input_value,output_value,decided_by,evidence,note
+fund,fund,"pipeline literal, extraction support",src/catalog/simple_pdf_extraction/name_normalization.py:70,
+manager,manager,"pipeline literal, extraction support",src/catalog/simple_pdf_extraction/name_normalization.py:70,
+service_provider,manager,"pipeline literal, extraction support",src/catalog/simple_pdf_extraction/name_normalization.py:70,
+investor,lp,"pipeline literal, extraction support",src/catalog/simple_pdf_extraction/name_normalization.py:70,
+foundation,plan,"pipeline literal, extraction support",src/catalog/simple_pdf_extraction/name_normalization.py:70,
+reporting_entity,plan,"pipeline literal, extraction support",src/catalog/simple_pdf_extraction/name_normalization.py:70,
+investment,company,"pipeline literal, extraction support",src/catalog/simple_pdf_extraction/name_normalization.py:70,
+*,scope,"pipeline literal, extraction support",src/catalog/simple_pdf_extraction/name_normalization.py:70,"A subject type outside the map prints the scope of a fact, keeps its printed name as an alias, and never enters a matrix."

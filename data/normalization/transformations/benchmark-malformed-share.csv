@@ -1,0 +1,4 @@
+input_value,output_value,decided_by,evidence,note
+percent_multiplier,100,"pipeline literal, extraction workflow",src/catalog/simple_pdf_extraction/csv_workflow.py:2448,The malformed-row fraction is displayed as a percentage.
+denominator_floor,1,"pipeline literal, extraction workflow",src/catalog/simple_pdf_extraction/csv_workflow.py:2448,An empty lane reports zero instead of dividing by zero.
+decimal_places,1,"pipeline literal, extraction workflow",src/catalog/simple_pdf_extraction/csv_workflow.py:2448,The benchmark table prints one decimal place.

@@ -1,0 +1,2 @@
+input_value,output_value,decided_by,evidence,note
+median_suffix,_median,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:471,A derived parameter's input list is keyed by its name without the suffix.

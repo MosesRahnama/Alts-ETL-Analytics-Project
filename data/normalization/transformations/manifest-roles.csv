@@ -1,0 +1,3 @@
+input_value,output_value,decided_by,evidence,note
+python_role_source,module_docstring_first_line,"pipeline literal, release tooling",src/repository/build_project_manifest.py:160|src/repository/build_project_manifest.py:190,
+prior_role_retention,kept_unless_rejected_or_stale,"pipeline literal, release tooling",src/repository/build_project_manifest.py:281,A hand-written role survives regeneration unless it matches a rejection or staleness pattern.

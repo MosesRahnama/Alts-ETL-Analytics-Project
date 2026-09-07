@@ -1,0 +1,3 @@
+input_value,output_value,decided_by,evidence,note
+first_seen_document,first_record,"pipeline literal, flatten",src/flatten/flatten_extracted.py:431,The first record carrying the name supplies first_seen_document.
+document_join,;,"pipeline literal, flatten",src/flatten/flatten_extracted.py:431,The document list joins sorted ids with a semicolon.

@@ -1,0 +1,2 @@
+input_value,output_value,decided_by,evidence,note
+fair_value,fair_value|market_value,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:602|src/load/promote_extracted_to_fund_level.py:603,The first populated of the two printed headings; they stop being distinguishable on fund_holdings.

@@ -1,0 +1,11 @@
+input_value,output_value,decided_by,evidence,note
+Financials,Generic statement transcription; non-investment operating lines; null cells; hypothetical values.,"pipeline literal, dispatch builder",src/catalog/simple_pdf_extraction/build_csv_pipeline.py:405,
+Quarterly_Report,Unapproved exposure charts and generic breakdowns; use position or allocation only when the printed structure matches.,"pipeline literal, dispatch builder",src/catalog/simple_pdf_extraction/build_csv_pipeline.py:405,
+DDQ,Exhaustive question-and-answer transcription; personal names; broker lists; narrative answers without a selected quantitative fact.,"pipeline literal, dispatch builder",src/catalog/simple_pdf_extraction/build_csv_pipeline.py:405,
+Subscription,Qualification questionnaires; representations; personal identifiers; bank/wire data; signatures.,"pipeline literal, dispatch builder",src/catalog/simple_pdf_extraction/build_csv_pipeline.py:405,
+PPM,Risk-factor transcription and clauses outside the term whitelist.,"pipeline literal, dispatch builder",src/catalog/simple_pdf_extraction/build_csv_pipeline.py:405,
+LPA,Clauses outside the term whitelist and generic document transcription.,"pipeline literal, dispatch builder",src/catalog/simple_pdf_extraction/build_csv_pipeline.py:405,
+Side_Letter,Clauses outside the term whitelist and generic document transcription.,"pipeline literal, dispatch builder",src/catalog/simple_pdf_extraction/build_csv_pipeline.py:405,
+Stewardship_Proxy_Report,Case-study narration without a policy or bounded metric.,"pipeline literal, dispatch builder",src/catalog/simple_pdf_extraction/build_csv_pipeline.py:405,
+Foundations_Annual,"Grants, officers, compensation, personal identifiers, and non-investment schedules.","pipeline literal, dispatch builder",src/catalog/simple_pdf_extraction/build_csv_pipeline.py:405,
+*,"Blank, dash, N/A, calculated, inferred, template, and out-of-scope facts.","pipeline literal, dispatch builder",src/catalog/simple_pdf_extraction/build_csv_pipeline.py:405,Every other document type.

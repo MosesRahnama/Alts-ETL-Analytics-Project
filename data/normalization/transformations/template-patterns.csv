@@ -1,0 +1,2 @@
+input_value,output_value,decided_by,evidence,note
+template_pattern,"(?:[$£€]\s*)?(?:x{2,}(?:[,\.]?x{2,})*|_{2,}|\[[^\]]*(?:name|amount|date|fund|manager|investor|__)[^\]]*\])","pipeline literal, extraction contract",src/catalog/simple_pdf_extraction/csv_wide_contract.py:736,"Case-insensitive; crossed-out amounts, blanks, and bracketed placeholders."

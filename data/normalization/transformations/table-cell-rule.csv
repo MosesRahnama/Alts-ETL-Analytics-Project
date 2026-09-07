@@ -1,0 +1,3 @@
+input_value,output_value,decided_by,evidence,note
+tabular,ONE_POPULATED_ELIGIBLE_VALUE_CELL_ONE_ROW,"pipeline literal, extraction schema builder",src/catalog/simple_pdf_extraction/build_csv_pipeline.py:369,Each populated eligible table cell becomes one extraction row.
+non_tabular,NOT_APPLICABLE,"pipeline literal, extraction schema builder",src/catalog/simple_pdf_extraction/build_csv_pipeline.py:369,The cell rule does not apply to narrative record families.

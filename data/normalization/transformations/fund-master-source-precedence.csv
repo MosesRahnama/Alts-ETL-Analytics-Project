@@ -1,0 +1,3 @@
+input_value,output_value,decided_by,evidence,note
+new_row_source,first_observation_per_fund,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:710,A fund the master lacks takes its row from the first observation naming it.
+fund_name_source,registry_standardized_name,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:710,"The name always comes from the registry, never from a printed cell."

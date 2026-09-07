@@ -1,0 +1,3 @@
+input_value,output_value,decided_by,evidence,note
+manager_name,manager,"pipeline literal, extraction support",src/catalog/simple_pdf_extraction/name_normalization.py:81,
+investor_name,lp,"pipeline literal, extraction support",src/catalog/simple_pdf_extraction/name_normalization.py:81,

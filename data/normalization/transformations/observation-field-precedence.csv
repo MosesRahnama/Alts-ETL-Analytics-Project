@@ -1,0 +1,7 @@
+input_value,output_value,decided_by,evidence,note,context
+1,metric_category,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:622,,manager_observations.category
+2,term_category,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:622,,manager_observations.category
+1,metric_id,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:622,,manager_observations.metric_id
+2,<record_family_dot_category>,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:622,,manager_observations.metric_id
+1,unit,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:622,,manager_observations.unit
+2,value_kind,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:622,,manager_observations.unit

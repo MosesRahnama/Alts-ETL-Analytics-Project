@@ -1,0 +1,15 @@
+input_value,output_value,decided_by,evidence,note,context
+metric_value_raw,value_conflict,"pipeline literal, extraction workflow",src/catalog/simple_pdf_extraction/csv_workflow.py:102,A wrong number is a transcription error.,field_class
+text_raw,value_conflict,"pipeline literal, extraction workflow",src/catalog/simple_pdf_extraction/csv_workflow.py:102,A wrong number is a transcription error.,field_class
+metric_category,classification_conflict,"pipeline literal, extraction workflow",src/catalog/simple_pdf_extraction/csv_workflow.py:102,A wrong category is a mapping decision.,field_class
+record_family,classification_conflict,"pipeline literal, extraction workflow",src/catalog/simple_pdf_extraction/csv_workflow.py:102,A wrong category is a mapping decision.,field_class
+subject_name,classification_conflict,"pipeline literal, extraction workflow",src/catalog/simple_pdf_extraction/csv_workflow.py:102,A wrong category is a mapping decision.,field_class
+subject_type,classification_conflict,"pipeline literal, extraction workflow",src/catalog/simple_pdf_extraction/csv_workflow.py:102,A wrong category is a mapping decision.,field_class
+term_category,classification_conflict,"pipeline literal, extraction workflow",src/catalog/simple_pdf_extraction/csv_workflow.py:102,A wrong category is a mapping decision.,field_class
+*,context_conflict,"pipeline literal, extraction workflow",src/catalog/simple_pdf_extraction/csv_workflow.py:121,A missing date or unit is context.,field_class
+1,page_status,"pipeline literal, extraction workflow",src/catalog/simple_pdf_extraction/csv_workflow.py:1628,,coverage_compared
+2,layout_checked,"pipeline literal, extraction workflow",src/catalog/simple_pdf_extraction/csv_workflow.py:1628,,coverage_compared
+3,expected_observation_count,"pipeline literal, extraction workflow",src/catalog/simple_pdf_extraction/csv_workflow.py:1628,,coverage_compared
+4,source_structures,"pipeline literal, extraction workflow",src/catalog/simple_pdf_extraction/csv_workflow.py:1628,,coverage_compared
+5,relevant_record_families,"pipeline literal, extraction workflow",src/catalog/simple_pdf_extraction/csv_workflow.py:1628,,coverage_compared
+count_mismatch,reported,"pipeline literal, extraction workflow",src/catalog/simple_pdf_extraction/csv_workflow.py:2285,A published round whose documents yield a different row count is drift.,round_drift

@@ -1,0 +1,21 @@
+input_value,output_value,decided_by,evidence,note
+legal_term,EVIDENCE_ONLY,source-publication review,SRC421; data/extracted/tables/fact_observation.csv; data/extracted/fund-level/fund_term_clauses.csv,Legal wording is retained in the clause table; narrative clauses do not become dated financial measures.
+position_observation.cost,LATER_MODEL,"unmapped disposition review, 2026-09-01","374 rows, all SRC407 Consolidated Schedule of Investments; fund_holdings carries 11 rows from that document","Position cost at holding grain. The holdings table takes schedule-of-investments rows only in part today, so the rest stays evidence until the holdings promotion covers that layout."
+position_observation.market_value,LATER_MODEL,"unmapped disposition review, 2026-09-01","21 rows; fund_holdings.market_value is empty across all 2,834 rows",Holding market value. The holdings table declares the column and no promotion writes it yet.
+position_observation.interest_rate,LATER_MODEL,"unmapped disposition review, 2026-09-01","2 rows; fund_holdings.interest_rate is empty across all 2,834 rows","Instrument coupon at holding grain, on the same path as holding market value."
+allocation_observation.market_value,LATER_MODEL,"unmapped disposition review, 2026-09-01",1 row; portfolio_allocations carries nav_amount at fund grain,Market value of one allocation bucket. The allocation table holds fund-grain amounts and no bucket-grain column.
+financial_statement_observation.investment_fair_value,EVIDENCE_ONLY,"unmapped disposition review, 2026-09-01",10 rows,"A statement line total, not a measure of one fund's position."
+ddq_quantitative_observation.aum,EVIDENCE_ONLY,"unmapped disposition review, 2026-09-01",7 rows,Assets a manager reports on a due-diligence questionnaire; the fund model measures funds and periods.
+ddq_quantitative_observation.leverage,EVIDENCE_ONLY,"unmapped disposition review, 2026-09-01",6 rows,A product term from a due-diligence questionnaire.
+ddq_quantitative_observation.redemption_notice,EVIDENCE_ONLY,"unmapped disposition review, 2026-09-01",6 rows,A product term from a due-diligence questionnaire.
+ddq_quantitative_observation.position_limit,EVIDENCE_ONLY,"unmapped disposition review, 2026-09-01",3 rows,A product term from a due-diligence questionnaire.
+ddq_quantitative_observation.lockup,EVIDENCE_ONLY,"unmapped disposition review, 2026-09-01",1 row,A product term from a due-diligence questionnaire.
+ddq_quantitative_observation.minimum_investment,EVIDENCE_ONLY,"unmapped disposition review, 2026-09-01",1 row,A product term from a due-diligence questionnaire.
+ddq_quantitative_observation.performance_fee,EVIDENCE_ONLY,"unmapped disposition review, 2026-09-01",1 row,A fee term from a due-diligence questionnaire; fund_terms carries the fee rates the fund model uses.
+valuation_observation.method,EVIDENCE_ONLY,"unmapped disposition review, 2026-09-01","7 rows, unit text",Valuation-policy wording. It states how a manager values holdings and carries no number.
+valuation_observation.frequency,EVIDENCE_ONLY,"unmapped disposition review, 2026-09-01","6 rows, unit text",Valuation-policy wording.
+valuation_observation.oversight,EVIDENCE_ONLY,"unmapped disposition review, 2026-09-01","4 rows, unit text",Valuation-policy wording.
+valuation_observation.valuer,EVIDENCE_ONLY,"unmapped disposition review, 2026-09-01","3 rows, unit text",Valuation-policy wording naming who performs the valuation.
+valuation_observation.independent_review,EVIDENCE_ONLY,"unmapped disposition review, 2026-09-01",2 rows,"The share of holdings an outside party reviewed, stated in a valuation policy."
+subscription_reference,EVIDENCE_ONLY,"unmapped disposition review, 2026-09-01","3 rows, unit text",Reference material from a subscription form; the route publishes it as a sample and measures nothing.
+fund_economics_observation.paid_in_capital_multiple,LATER_MODEL,"unmapped disposition review, 2026-09-02","61 rows, all SRC457; fund_periods carries dpi, rvpi, and tvpi and no paid-in multiple column","Paid-in capital as a multiple of commitment. The period grain carries the other three multiples; this one waits for its column, and fund_periods.paid_in_capital_itd against commitment recomputes it meanwhile."

@@ -1,0 +1,3 @@
+input_value,output_value,decided_by,evidence,note
+family_manager,first_settled_in_family,"pipeline literal, flatten",src/flatten/flatten_extracted.py:483,A fund with no settled manager inherits the first one settled for its sponsor family.
+inherited_source_format,FAMILY {family} (from {origin}): {source},"pipeline literal, flatten",src/flatten/flatten_extracted.py:488,The inherited source names the family and the vehicle it came from.

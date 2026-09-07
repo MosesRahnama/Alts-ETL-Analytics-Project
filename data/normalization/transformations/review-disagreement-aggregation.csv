@@ -1,0 +1,2 @@
+input_value,output_value,decided_by,evidence,note
+grouping,status_and_field,"pipeline literal, review builder",src/pipeline/build_extraction_review.py:512,"Counts and distinct documents per (pair status, field)."

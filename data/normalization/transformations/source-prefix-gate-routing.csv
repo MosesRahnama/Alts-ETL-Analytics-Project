@@ -1,0 +1,2 @@
+input_value,output_value,decided_by,evidence,note,applies_to
+public_market_prefix,PMKT_,"pipeline literal, promotion gate",src/load/validate_round02_promotion.py:495,A benchmark return whose source id opens with this prefix follows the public-market path.,benchmark_returns.source_document_id

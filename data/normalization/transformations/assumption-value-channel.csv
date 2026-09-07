@@ -1,0 +1,4 @@
+input_value,output_value,decided_by,evidence,note
+seed,numeric,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:508,
+fund_size_fallback,numeric,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:508,
+*,text,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:508,

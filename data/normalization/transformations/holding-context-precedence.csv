@@ -1,0 +1,8 @@
+input_value,output_value,decided_by,evidence,note,context
+1,document_id,"pipeline literal, flatten",src/flatten/flatten_extracted.py:684,,grain
+2,source_page,"pipeline literal, flatten",src/flatten/flatten_extracted.py:684,,grain
+3,source_table,"pipeline literal, flatten",src/flatten/flatten_extracted.py:684,,grain
+4,source_row_label,"pipeline literal, flatten",src/flatten/flatten_extracted.py:684,,grain
+5,source_occurrence,"pipeline literal, flatten",src/flatten/flatten_extracted.py:684,,grain
+6,as_of_date_raw,"pipeline literal, flatten",src/flatten/flatten_extracted.py:684,,grain
+context_source,first_cell_in_group,"pipeline literal, flatten",src/flatten/flatten_extracted.py:684,The first cell supplies the shared holding context.,

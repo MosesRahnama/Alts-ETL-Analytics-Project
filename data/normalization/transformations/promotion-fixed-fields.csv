@@ -1,0 +1,28 @@
+input_value,output_value,decided_by,evidence,note,context
+perspective,fund_total,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:346,,fund_observations
+provenance_type,EXTRACTED,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:346,Every promoted row is source-backed.,fund_observations
+record_status,ACTIVE,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:346,,fund_observations
+date_role,as_of,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:422,"Admission requires a normalized as-of date, so the role and precision are fixed.",fund_periods
+date_precision,day,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:422,,fund_periods
+perspective,fund_total,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:422,,fund_periods
+provenance_type,EXTRACTED,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:422,,fund_periods
+record_status,ACTIVE,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:422,,fund_periods
+provenance_type,EXTRACTED,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:477,,fund_cashflows
+record_status,ACTIVE,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:477,,fund_cashflows
+perspective,fund_total,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:516,,fund_terms
+term_scope,base_fund,source-publication review,src/load/promote_extracted_to_fund_level.py:516|sql/duckdb/02_fund_level_ddl.sql:375,Whole-fund terms use the database base_fund scope.,fund_terms
+provenance_type,EXTRACTED,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:516,,fund_terms
+record_status,ACTIVE,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:516,,fund_terms
+perspective,fund_total,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:544,,fund_term_clauses
+term_scope,base_fund,source-publication review,src/load/promote_extracted_to_fund_level.py:544|sql/duckdb/02_fund_level_ddl.sql:414,Whole-fund clauses use the database base_fund scope.,fund_term_clauses
+provenance_type,EXTRACTED,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:544,,fund_term_clauses
+record_status,ACTIVE,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:544,,fund_term_clauses
+provenance_type,EXTRACTED,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:607,,fund_holdings
+record_status,ACTIVE,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:607,,fund_holdings
+perspective,manager_total,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:635,,manager_observations
+provenance_type,EXTRACTED,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:635,,manager_observations
+record_status,ACTIVE,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:635,,manager_observations
+provenance_type,EXTRACTED,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:679,,manager_master
+record_status,ACTIVE,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:679,,manager_master
+provenance_type,EXTRACTED,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:732,,fund_master
+record_status,ACTIVE,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:732,,fund_master

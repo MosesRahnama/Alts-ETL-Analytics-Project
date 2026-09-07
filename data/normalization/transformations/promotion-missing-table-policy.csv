@@ -1,0 +1,2 @@
+input_value,output_value,decided_by,evidence,note
+missing_input,skipped,"pipeline literal, promotion gate",src/load/validate_round02_promotion.py:489,"A gated table whose CSV is absent is skipped rather than failed; recorded as a merits concern, unchanged here."

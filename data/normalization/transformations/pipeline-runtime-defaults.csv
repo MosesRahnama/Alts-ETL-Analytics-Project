@@ -1,0 +1,5 @@
+input_value,output_value,decided_by,evidence,note
+run_at_source,utc_now_seconds,"pipeline literal, public-market curation",src/market_data/curate_public_markets.py:859,The receipt timestamp is UTC now at second precision unless the caller passes one.
+source_root_display,last_two_parts,"pipeline literal, public-market curation",src/market_data/curate_public_markets.py:859,"The receipt names folders, never a machine path."
+in_place_mode,RETAINED_STORE,"pipeline literal, public-market curation",src/market_data/curate_public_markets.py:859,
+copy_mode,COPY_PRESERVE_SOURCE,"pipeline literal, public-market curation",src/market_data/curate_public_markets.py:859,

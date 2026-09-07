@@ -1,0 +1,119 @@
+input_value,output_value,decided_by,evidence,note,context
+value_scope:fund_total,allowed,source review,SRC107 page 11; SRC247 page 2,The whole named fund rather than one investor account.,qualifier
+value_scope:share_class_total,allowed,source review,SRC247 pages 2-3,All shares or units in one printed class.,qualifier
+value_scope:manager_total,allowed,source review,SRC107 pages 4-6 and 13,Assets managed by the management company or named management team.,qualifier
+value_scope:client_population,allowed,source review,SRC151 page 3,Combined assets of a service provider's clients.,qualifier
+value_scope:member_population,allowed,source review,SRC339 pages 19 and 27-28,Combined assets represented by members or signatories.,qualifier
+value_scope:engagement_population,allowed,source review,SRC339 page 14,Assets covered by an engagement service rather than assets managed by it.,qualifier
+method:time_weighted,allowed,"metric vocabulary review, 2026-09-01",SRC063 footnote 1,Return computed from period sub-returns so cash-flow timing does not affect it.,qualifier
+method:money_weighted,allowed,"metric vocabulary review, 2026-09-01",SRC192 footnote 4,Return equal to the internal rate of return on dated cash flows.,qualifier
+method:modified_dietz,allowed,"metric vocabulary review, 2026-09-01",SRC457 footnote 1,Period return weighting each cash flow by the fraction of the period it was invested.,qualifier
+method:simple_period,allowed,"metric vocabulary review, 2026-09-01",SRC356 column header,Ending over beginning value for one stated period with no compounding treatment stated.,qualifier
+method:annualized,allowed,"metric vocabulary review, 2026-09-01",SRC363 table header; SRC375 footnote 2; SRC606 header,Multi-period return restated as a constant yearly rate.,qualifier
+method:actuarial,allowed,"metric vocabulary review, 2026-09-01",SRC192 footnote 1,Smoothed expected rate used for actuarial valuation rather than a measured market return.,qualifier
+method:unstated,allowed,"metric vocabulary review, 2026-09-01",SRC389 chart; SRC192 Comparative Investment Results,The page states no computation method for the value.,qualifier
+fee_basis:net,allowed,"metric vocabulary review, 2026-09-01",SRC457 row labels (Net); SRC606 Total Net Return Summary,After the fees and expenses the page names.,qualifier
+fee_basis:gross,allowed,"metric vocabulary review, 2026-09-01",SRC192 footnote 2,Before fees.,qualifier
+fee_basis:partial,allowed,"metric vocabulary review, 2026-09-01",SRC375 footnote 2,Net of some named fees and gross of others; the definition_context row carries the printed split.,qualifier
+fee_basis:unstated,allowed,"metric vocabulary review, 2026-09-01",SRC356; SRC389,The page states no fee treatment for the value.,qualifier
+value_scope:fund_position,allowed,"metric vocabulary review, 2026-09-01",METRIC-STANDARD-MEASURES.csv fund_economics rows,The investor's position in one fund or share class.,qualifier
+value_scope:single_holding,allowed,"metric vocabulary review, 2026-09-01",METRIC-STANDARD-MEASURES.csv position rows,One named security or holding on a schedule of investments.,qualifier
+value_scope:portfolio_total,allowed,"metric vocabulary review, 2026-09-01",SRC063 Total Real Assets row,The aggregate of a named portfolio or sleeve.,qualifier
+value_scope:plan_total,allowed,"metric vocabulary review, 2026-09-01",SRC192 plan-level rates,The whole plan or endowment.,qualifier
+value_scope:statement_line,allowed,"metric vocabulary review, 2026-09-01",METRIC-STANDARD-MEASURES.csv financial_statement rows,One line of a financial statement or note aggregating holdings.,qualifier
+value_scope:allocation_bucket,allowed,"metric vocabulary review, 2026-09-01",METRIC-STANDARD-MEASURES.csv allocation rows,One asset-class or strategy bucket of an allocation table.,qualifier
+value_scope:unstated,allowed,"metric vocabulary review, 2026-09-01",corpus default,The page does not state the grain of the value.,qualifier
+DOCUMENT,allowed,"extraction contract vocabulary move, 2026-09-02",src/catalog/simple_pdf_extraction/csv_wide_contract.py:213,The shape of the page region a row was read from.,source_structure_type
+TABLE,allowed,"extraction contract vocabulary move, 2026-09-02",src/catalog/simple_pdf_extraction/csv_wide_contract.py:213,The shape of the page region a row was read from.,source_structure_type
+FIGURE,allowed,"extraction contract vocabulary move, 2026-09-02",src/catalog/simple_pdf_extraction/csv_wide_contract.py:213,The shape of the page region a row was read from.,source_structure_type
+NARRATIVE,allowed,"extraction contract vocabulary move, 2026-09-02",src/catalog/simple_pdf_extraction/csv_wide_contract.py:213,The shape of the page region a row was read from.,source_structure_type
+FORM,allowed,"extraction contract vocabulary move, 2026-09-02",src/catalog/simple_pdf_extraction/csv_wide_contract.py:213,The shape of the page region a row was read from.,source_structure_type
+FOOTNOTE,allowed,"extraction contract vocabulary move, 2026-09-02",src/catalog/simple_pdf_extraction/csv_wide_contract.py:213,The shape of the page region a row was read from.,source_structure_type
+SCHEDULE,allowed,"extraction contract vocabulary move, 2026-09-02",src/catalog/simple_pdf_extraction/csv_wide_contract.py:213,The shape of the page region a row was read from.,source_structure_type
+NO_ELIGIBLE_DATA,allowed,"extraction contract vocabulary move, 2026-09-02",src/catalog/simple_pdf_extraction/csv_wide_contract.py:215,What a coverage row says happened on one physical page.,page_status
+ELIGIBLE_DATA_EXTRACTED,allowed,"extraction contract vocabulary move, 2026-09-02",src/catalog/simple_pdf_extraction/csv_wide_contract.py:215,What a coverage row says happened on one physical page.,page_status
+DEFERRED_BY_SCOPE,allowed,"extraction contract vocabulary move, 2026-09-02",src/catalog/simple_pdf_extraction/csv_wide_contract.py:215,What a coverage row says happened on one physical page.,page_status
+REFERENCE_ONLY,allowed,"extraction contract vocabulary move, 2026-09-02",src/catalog/simple_pdf_extraction/csv_wide_contract.py:215,What a coverage row says happened on one physical page.,page_status
+UNREADABLE,allowed,"extraction contract vocabulary move, 2026-09-02",src/catalog/simple_pdf_extraction/csv_wide_contract.py:215,What a coverage row says happened on one physical page.,page_status
+document,allowed,"extraction contract vocabulary move, 2026-09-02",src/catalog/simple_pdf_extraction/csv_wide_contract.py:217,What subject_name names on the page.,subject_type
+reporting_entity,allowed,"extraction contract vocabulary move, 2026-09-02",src/catalog/simple_pdf_extraction/csv_wide_contract.py:217,What subject_name names on the page.,subject_type
+fund,allowed,"extraction contract vocabulary move, 2026-09-02",src/catalog/simple_pdf_extraction/csv_wide_contract.py:217,What subject_name names on the page.,subject_type
+portfolio,allowed,"extraction contract vocabulary move, 2026-09-02",src/catalog/simple_pdf_extraction/csv_wide_contract.py:217,What subject_name names on the page.,subject_type
+investment,allowed,"extraction contract vocabulary move, 2026-09-02",src/catalog/simple_pdf_extraction/csv_wide_contract.py:217,What subject_name names on the page.,subject_type
+manager,allowed,"extraction contract vocabulary move, 2026-09-02",src/catalog/simple_pdf_extraction/csv_wide_contract.py:217,What subject_name names on the page.,subject_type
+investor,allowed,"extraction contract vocabulary move, 2026-09-02",src/catalog/simple_pdf_extraction/csv_wide_contract.py:217,What subject_name names on the page.,subject_type
+asset_class,allowed,"extraction contract vocabulary move, 2026-09-02",src/catalog/simple_pdf_extraction/csv_wide_contract.py:217,What subject_name names on the page.,subject_type
+benchmark,allowed,"extraction contract vocabulary move, 2026-09-02",src/catalog/simple_pdf_extraction/csv_wide_contract.py:217,What subject_name names on the page.,subject_type
+peer_group,allowed,"extraction contract vocabulary move, 2026-09-02",src/catalog/simple_pdf_extraction/csv_wide_contract.py:217,What subject_name names on the page.,subject_type
+market_series,allowed,"extraction contract vocabulary move, 2026-09-02",src/catalog/simple_pdf_extraction/csv_wide_contract.py:217,What subject_name names on the page.,subject_type
+fee_scope,allowed,"extraction contract vocabulary move, 2026-09-02",src/catalog/simple_pdf_extraction/csv_wide_contract.py:217,What subject_name names on the page.,subject_type
+cash_flow,allowed,"extraction contract vocabulary move, 2026-09-02",src/catalog/simple_pdf_extraction/csv_wide_contract.py:217,What subject_name names on the page.,subject_type
+valuation_subject,allowed,"extraction contract vocabulary move, 2026-09-02",src/catalog/simple_pdf_extraction/csv_wide_contract.py:217,What subject_name names on the page.,subject_type
+foundation,allowed,"extraction contract vocabulary move, 2026-09-02",src/catalog/simple_pdf_extraction/csv_wide_contract.py:217,What subject_name names on the page.,subject_type
+program_related_investment,allowed,"extraction contract vocabulary move, 2026-09-02",src/catalog/simple_pdf_extraction/csv_wide_contract.py:217,What subject_name names on the page.,subject_type
+service_provider,allowed,"extraction contract vocabulary move, 2026-09-02",src/catalog/simple_pdf_extraction/csv_wide_contract.py:217,What subject_name names on the page.,subject_type
+clause_party,allowed,"extraction contract vocabulary move, 2026-09-02",src/catalog/simple_pdf_extraction/csv_wide_contract.py:217,What subject_name names on the page.,subject_type
+subscription,allowed,"extraction contract vocabulary move, 2026-09-02",src/catalog/simple_pdf_extraction/csv_wide_contract.py:217,What subject_name names on the page.,subject_type
+other_printed_scope,allowed,"extraction contract vocabulary move, 2026-09-02",src/catalog/simple_pdf_extraction/csv_wide_contract.py:217,What subject_name names on the page.,subject_type
+illustrative,allowed,"extraction contract vocabulary move, 2026-09-02",src/catalog/simple_pdf_extraction/csv_wide_contract.py:211,An evidence class a REFERENCE-tier document may carry beyond the core pair.,reference_evidence_class
+template,allowed,"extraction contract vocabulary move, 2026-09-02",src/catalog/simple_pdf_extraction/csv_wide_contract.py:211,An evidence class a REFERENCE-tier document may carry beyond the core pair.,reference_evidence_class
+requirement,allowed,"extraction contract vocabulary move, 2026-09-02",src/catalog/simple_pdf_extraction/csv_wide_contract.py:211,An evidence class a REFERENCE-tier document may carry beyond the core pair.,reference_evidence_class
+definition,allowed,"extraction contract vocabulary move, 2026-09-02",src/catalog/simple_pdf_extraction/csv_wide_contract.py:211,An evidence class a REFERENCE-tier document may carry beyond the core pair.,reference_evidence_class
+redacted,allowed,"extraction contract vocabulary move, 2026-09-02",src/catalog/simple_pdf_extraction/csv_wide_contract.py:211,An evidence class a REFERENCE-tier document may carry beyond the core pair.,reference_evidence_class
+unknown,allowed,"extraction contract vocabulary move, 2026-09-02",src/catalog/simple_pdf_extraction/csv_wide_contract.py:211,An evidence class a REFERENCE-tier document may carry beyond the core pair.,reference_evidence_class
+subject_type,allowed,"extraction contract vocabulary move, 2026-09-02",src/catalog/simple_pdf_extraction/csv_wide_contract.py:318,A business column a metric family may fill.,common_metric_fields
+subject_name,allowed,"extraction contract vocabulary move, 2026-09-02",src/catalog/simple_pdf_extraction/csv_wide_contract.py:318,A business column a metric family may fill.,common_metric_fields
+asset_class,allowed,"extraction contract vocabulary move, 2026-09-02",src/catalog/simple_pdf_extraction/csv_wide_contract.py:318,A business column a metric family may fill.,common_metric_fields
+strategy,allowed,"extraction contract vocabulary move, 2026-09-02",src/catalog/simple_pdf_extraction/csv_wide_contract.py:318,A business column a metric family may fill.,common_metric_fields
+geography,allowed,"extraction contract vocabulary move, 2026-09-02",src/catalog/simple_pdf_extraction/csv_wide_contract.py:318,A business column a metric family may fill.,common_metric_fields
+vintage_year,allowed,"extraction contract vocabulary move, 2026-09-02",src/catalog/simple_pdf_extraction/csv_wide_contract.py:318,A business column a metric family may fill.,common_metric_fields
+period_start,allowed,"extraction contract vocabulary move, 2026-09-02",src/catalog/simple_pdf_extraction/csv_wide_contract.py:318,A business column a metric family may fill.,common_metric_fields
+period_end,allowed,"extraction contract vocabulary move, 2026-09-02",src/catalog/simple_pdf_extraction/csv_wide_contract.py:318,A business column a metric family may fill.,common_metric_fields
+as_of_date,allowed,"extraction contract vocabulary move, 2026-09-02",src/catalog/simple_pdf_extraction/csv_wide_contract.py:318,A business column a metric family may fill.,common_metric_fields
+horizon,allowed,"extraction contract vocabulary move, 2026-09-02",src/catalog/simple_pdf_extraction/csv_wide_contract.py:318,A business column a metric family may fill.,common_metric_fields
+currency_scale,allowed,"extraction contract vocabulary move, 2026-09-02",src/catalog/simple_pdf_extraction/csv_wide_contract.py:318,A business column a metric family may fill.,common_metric_fields
+metric_category,allowed,"extraction contract vocabulary move, 2026-09-02",src/catalog/simple_pdf_extraction/csv_wide_contract.py:318,A business column a metric family may fill.,common_metric_fields
+metric_name,allowed,"extraction contract vocabulary move, 2026-09-02",src/catalog/simple_pdf_extraction/csv_wide_contract.py:318,A business column a metric family may fill.,common_metric_fields
+metric_value_raw,allowed,"extraction contract vocabulary move, 2026-09-02",src/catalog/simple_pdf_extraction/csv_wide_contract.py:318,A business column a metric family may fill.,common_metric_fields
+unit,allowed,"extraction contract vocabulary move, 2026-09-02",src/catalog/simple_pdf_extraction/csv_wide_contract.py:318,A business column a metric family may fill.,common_metric_fields
+sector,allowed,"extraction contract vocabulary move, 2026-09-02",src/catalog/simple_pdf_extraction/csv_wide_contract.py:318,A business column a metric family may fill.,common_metric_fields
+basis_raw,allowed,"extraction contract vocabulary move, 2026-09-02",src/catalog/simple_pdf_extraction/csv_wide_contract.py:318,A business column a metric family may fill.,common_metric_fields
+condition_raw,allowed,"extraction contract vocabulary move, 2026-09-02",src/catalog/simple_pdf_extraction/csv_wide_contract.py:318,A business column a metric family may fill.,common_metric_fields
+definition_keys,allowed,"extraction contract vocabulary move, 2026-09-02",src/catalog/simple_pdf_extraction/csv_wide_contract.py:318,A business column a metric family may fill.,common_metric_fields
+method,allowed,"extraction contract vocabulary move, 2026-09-02",src/catalog/simple_pdf_extraction/csv_wide_contract.py:318,A business column a metric family may fill.,common_metric_fields
+fee_basis,allowed,"extraction contract vocabulary move, 2026-09-02",src/catalog/simple_pdf_extraction/csv_wide_contract.py:318,A business column a metric family may fill.,common_metric_fields
+value_scope,allowed,"extraction contract vocabulary move, 2026-09-02",src/catalog/simple_pdf_extraction/csv_wide_contract.py:318,A business column a metric family may fill.,common_metric_fields
+subject_type,allowed,"extraction contract vocabulary move, 2026-09-02",src/catalog/simple_pdf_extraction/csv_wide_contract.py:319,A business column a term family may fill.,common_term_fields
+subject_name,allowed,"extraction contract vocabulary move, 2026-09-02",src/catalog/simple_pdf_extraction/csv_wide_contract.py:319,A business column a term family may fill.,common_term_fields
+manager_name,allowed,"extraction contract vocabulary move, 2026-09-02",src/catalog/simple_pdf_extraction/csv_wide_contract.py:319,A business column a term family may fill.,common_term_fields
+investor_name,allowed,"extraction contract vocabulary move, 2026-09-02",src/catalog/simple_pdf_extraction/csv_wide_contract.py:319,A business column a term family may fill.,common_term_fields
+portfolio_name,allowed,"extraction contract vocabulary move, 2026-09-02",src/catalog/simple_pdf_extraction/csv_wide_contract.py:319,A business column a term family may fill.,common_term_fields
+period_start,allowed,"extraction contract vocabulary move, 2026-09-02",src/catalog/simple_pdf_extraction/csv_wide_contract.py:319,A business column a term family may fill.,common_term_fields
+period_end,allowed,"extraction contract vocabulary move, 2026-09-02",src/catalog/simple_pdf_extraction/csv_wide_contract.py:319,A business column a term family may fill.,common_term_fields
+as_of_date,allowed,"extraction contract vocabulary move, 2026-09-02",src/catalog/simple_pdf_extraction/csv_wide_contract.py:319,A business column a term family may fill.,common_term_fields
+currency_scale,allowed,"extraction contract vocabulary move, 2026-09-02",src/catalog/simple_pdf_extraction/csv_wide_contract.py:319,A business column a term family may fill.,common_term_fields
+term_category,allowed,"extraction contract vocabulary move, 2026-09-02",src/catalog/simple_pdf_extraction/csv_wide_contract.py:319,A business column a term family may fill.,common_term_fields
+text_raw,allowed,"extraction contract vocabulary move, 2026-09-02",src/catalog/simple_pdf_extraction/csv_wide_contract.py:319,A business column a term family may fill.,common_term_fields
+basis_raw,allowed,"extraction contract vocabulary move, 2026-09-02",src/catalog/simple_pdf_extraction/csv_wide_contract.py:319,A business column a term family may fill.,common_term_fields
+condition_raw,allowed,"extraction contract vocabulary move, 2026-09-02",src/catalog/simple_pdf_extraction/csv_wide_contract.py:319,A business column a term family may fill.,common_term_fields
+definition_keys,allowed,"extraction contract vocabulary move, 2026-09-02",src/catalog/simple_pdf_extraction/csv_wide_contract.py:319,A business column a term family may fill.,common_term_fields
+subject_type,allowed,"extraction contract vocabulary move, 2026-09-02",src/catalog/simple_pdf_extraction/csv_wide_contract.py:320,A business column the definition_context family may fill.,definition_fields
+subject_name,allowed,"extraction contract vocabulary move, 2026-09-02",src/catalog/simple_pdf_extraction/csv_wide_contract.py:320,A business column the definition_context family may fill.,definition_fields
+as_of_date,allowed,"extraction contract vocabulary move, 2026-09-02",src/catalog/simple_pdf_extraction/csv_wide_contract.py:320,A business column the definition_context family may fill.,definition_fields
+definition_keys,allowed,"extraction contract vocabulary move, 2026-09-02",src/catalog/simple_pdf_extraction/csv_wide_contract.py:320,A business column the definition_context family may fill.,definition_fields
+text_raw,allowed,"extraction contract vocabulary move, 2026-09-02",src/catalog/simple_pdf_extraction/csv_wide_contract.py:320,A business column the definition_context family may fill.,definition_fields
+condition_raw,allowed,"extraction contract vocabulary move, 2026-09-02",src/catalog/simple_pdf_extraction/csv_wide_contract.py:320,A business column the definition_context family may fill.,definition_fields
+subject_type,allowed,"extraction contract vocabulary move, 2026-09-02",src/catalog/simple_pdf_extraction/csv_wide_contract.py:321,A business column the document_context family may fill.,context_fields
+subject_name,allowed,"extraction contract vocabulary move, 2026-09-02",src/catalog/simple_pdf_extraction/csv_wide_contract.py:321,A business column the document_context family may fill.,context_fields
+asset_class,allowed,"extraction contract vocabulary move, 2026-09-02",src/catalog/simple_pdf_extraction/csv_wide_contract.py:321,A business column the document_context family may fill.,context_fields
+strategy,allowed,"extraction contract vocabulary move, 2026-09-02",src/catalog/simple_pdf_extraction/csv_wide_contract.py:321,A business column the document_context family may fill.,context_fields
+geography,allowed,"extraction contract vocabulary move, 2026-09-02",src/catalog/simple_pdf_extraction/csv_wide_contract.py:321,A business column the document_context family may fill.,context_fields
+manager_name,allowed,"extraction contract vocabulary move, 2026-09-02",src/catalog/simple_pdf_extraction/csv_wide_contract.py:321,A business column the document_context family may fill.,context_fields
+investor_name,allowed,"extraction contract vocabulary move, 2026-09-02",src/catalog/simple_pdf_extraction/csv_wide_contract.py:321,A business column the document_context family may fill.,context_fields
+portfolio_name,allowed,"extraction contract vocabulary move, 2026-09-02",src/catalog/simple_pdf_extraction/csv_wide_contract.py:321,A business column the document_context family may fill.,context_fields
+vintage_year,allowed,"extraction contract vocabulary move, 2026-09-02",src/catalog/simple_pdf_extraction/csv_wide_contract.py:321,A business column the document_context family may fill.,context_fields
+period_start,allowed,"extraction contract vocabulary move, 2026-09-02",src/catalog/simple_pdf_extraction/csv_wide_contract.py:321,A business column the document_context family may fill.,context_fields
+period_end,allowed,"extraction contract vocabulary move, 2026-09-02",src/catalog/simple_pdf_extraction/csv_wide_contract.py:321,A business column the document_context family may fill.,context_fields
+as_of_date,allowed,"extraction contract vocabulary move, 2026-09-02",src/catalog/simple_pdf_extraction/csv_wide_contract.py:321,A business column the document_context family may fill.,context_fields
+currency_scale,allowed,"extraction contract vocabulary move, 2026-09-02",src/catalog/simple_pdf_extraction/csv_wide_contract.py:321,A business column the document_context family may fill.,context_fields
+text_raw,allowed,"extraction contract vocabulary move, 2026-09-02",src/catalog/simple_pdf_extraction/csv_wide_contract.py:321,A business column the document_context family may fill.,context_fields

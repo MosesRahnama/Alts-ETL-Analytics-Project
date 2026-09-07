@@ -1,0 +1,51 @@
+input_value,output_value,decided_by,evidence,note,context,rank
+dpi,ratio,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:75,"A multiple stands outside a currency, so it is tested first and a printed multiple wins over the category.",ratio,1
+moic,ratio,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:75,"A multiple stands outside a currency, so it is tested first and a printed multiple wins over the category.",ratio,1
+ownership_percentage,ratio,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:75,"A multiple stands outside a currency, so it is tested first and a printed multiple wins over the category.",ratio,1
+pme,ratio,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:75,"A multiple stands outside a currency, so it is tested first and a printed multiple wins over the category.",ratio,1
+portfolio_weight,ratio,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:75,"A multiple stands outside a currency, so it is tested first and a printed multiple wins over the category.",ratio,1
+rvpi,ratio,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:75,"A multiple stands outside a currency, so it is tested first and a printed multiple wins over the category.",ratio,1
+sharpe_ratio,ratio,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:75,"A multiple stands outside a currency, so it is tested first and a printed multiple wins over the category.",ratio,1
+tvpi,ratio,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:75,"A multiple stands outside a currency, so it is tested first and a printed multiple wins over the category.",ratio,1
+alpha,rate,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:76,"A rate is a percentage of something, held as a decimal downstream.",rate,2
+cost_bps,rate,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:76,"A rate is a percentage of something, held as a decimal downstream.",rate,2
+direct_alpha,rate,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:76,"A rate is a percentage of something, held as a decimal downstream.",rate,2
+interest_rate,rate,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:76,"A rate is a percentage of something, held as a decimal downstream.",rate,2
+irr,rate,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:76,"A rate is a percentage of something, held as a decimal downstream.",rate,2
+return,rate,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:76,"A rate is a percentage of something, held as a decimal downstream.",rate,2
+tracking_error,rate,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:76,"A rate is a percentage of something, held as a decimal downstream.",rate,2
+yield,rate,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:76,"A rate is a percentage of something, held as a decimal downstream.",rate,2
+contribution,inception_to_date,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:62,"Accumulates from the fund's first day, so two dates cannot be added.",inception_to_date,3
+distribution,inception_to_date,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:62,"Accumulates from the fund's first day, so two dates cannot be added.",inception_to_date,3
+paid_in_capital,inception_to_date,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:62,"Accumulates from the fund's first day, so two dates cannot be added.",inception_to_date,3
+recallable_distribution,inception_to_date,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:62,"Accumulates from the fund's first day, so two dates cannot be added.",inception_to_date,3
+capital_call,period_flow,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:70,Belongs to the period it was charged or earned in.,period_flow,4
+carried_interest,period_flow,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:70,Belongs to the period it was charged or earned in.,period_flow,4
+expense,period_flow,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:70,Belongs to the period it was charged or earned in.,period_flow,4
+fee,period_flow,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:70,Belongs to the period it was charged or earned in.,period_flow,4
+income,period_flow,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:70,Belongs to the period it was charged or earned in.,period_flow,4
+interest,period_flow,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:70,Belongs to the period it was charged or earned in.,period_flow,4
+management_fee,period_flow,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:70,Belongs to the period it was charged or earned in.,period_flow,4
+preferred_return,period_flow,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:70,Belongs to the period it was charged or earned in.,period_flow,4
+realized_gain_loss,period_flow,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:70,Belongs to the period it was charged or earned in.,period_flow,4
+return_of_capital,period_flow,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:70,Belongs to the period it was charged or earned in.,period_flow,4
+unrealized_gain_loss,period_flow,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:70,Belongs to the period it was charged or earned in.,period_flow,4
+aum,point_in_time,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:65,A standing balance read on one date.,point_in_time,5
+beginning_capital,point_in_time,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:65,A standing balance read on one date.,point_in_time,5
+ending_capital,point_in_time,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:65,A standing balance read on one date.,point_in_time,5
+enterprise_value,point_in_time,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:65,A standing balance read on one date.,point_in_time,5
+fair_value,point_in_time,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:65,A standing balance read on one date.,point_in_time,5
+market_value,point_in_time,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:65,A standing balance read on one date.,point_in_time,5
+nav,point_in_time,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:65,A standing balance read on one date.,point_in_time,5
+nav_component,point_in_time,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:65,A standing balance read on one date.,point_in_time,5
+nav_per_share,point_in_time,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:65,A standing balance read on one date.,point_in_time,5
+unfunded_commitment,point_in_time,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:65,A standing balance read on one date.,point_in_time,5
+commitment,static,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:61,A fund constant that carries no date.,static,6
+fund_size,static,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:61,A fund constant that carries no date.,static,6
+fund_term,static,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:61,A fund constant that carries no date.,static,6
+governing_law,static,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:61,A fund constant that carries no date.,static,6
+vintage_year,static,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:61,A fund constant that carries no date.,static,6
+multiple,ratio,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:174,A printed multiple is a ratio whatever category carries it.,value_kind,0
+percent,rate,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:174,Read after the category sets: a percent with no category of its own is a rate.,value_kind,7
+dated,point_in_time,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:174,An unmapped category carrying a date is a balance on that date.,date,8
+undated,static,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:174,An unmapped category with no date is a fund constant.,date,8

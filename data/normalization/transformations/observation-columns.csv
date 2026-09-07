@@ -1,0 +1,73 @@
+input_value,output_value,decided_by,evidence,note,since_contract
+1,observation_id,"pipeline literal, flatten",src/flatten/flatten_extracted.py:144 (migration-complete),,2026-08-22.2
+2,document_id,"pipeline literal, flatten",src/flatten/flatten_extracted.py:144 (migration-complete),,2026-08-22.2
+3,route,"pipeline literal, flatten",src/flatten/flatten_extracted.py:144 (migration-complete),,2026-08-22.2
+4,canonical_doc_type,"pipeline literal, flatten",src/flatten/flatten_extracted.py:144 (migration-complete),,2026-08-22.2
+5,product_tier,"pipeline literal, flatten",src/flatten/flatten_extracted.py:144 (migration-complete),,2026-08-22.2
+6,page_id,"pipeline literal, flatten",src/flatten/flatten_extracted.py:144 (migration-complete),,2026-08-22.2
+7,source_page,"pipeline literal, flatten",src/flatten/flatten_extracted.py:144 (migration-complete),,2026-08-22.2
+8,source_structure_type,"pipeline literal, flatten",src/flatten/flatten_extracted.py:144 (migration-complete),,2026-08-22.2
+9,source_section,"pipeline literal, flatten",src/flatten/flatten_extracted.py:144 (migration-complete),,2026-08-22.2
+10,source_table,"pipeline literal, flatten",src/flatten/flatten_extracted.py:144 (migration-complete),,2026-08-22.2
+11,source_row_label,"pipeline literal, flatten",src/flatten/flatten_extracted.py:144 (migration-complete),,2026-08-22.2
+12,source_column_label,"pipeline literal, flatten",src/flatten/flatten_extracted.py:144 (migration-complete),,2026-08-22.2
+13,source_occurrence,"pipeline literal, flatten",src/flatten/flatten_extracted.py:144 (migration-complete),,2026-08-22.2
+14,record_family,"pipeline literal, flatten",src/flatten/flatten_extracted.py:144 (migration-complete),,2026-08-22.2
+15,metric_id,"pipeline literal, flatten",src/flatten/flatten_extracted.py:144 (migration-complete),,2026-08-22.2
+16,metric_category,"pipeline literal, flatten",src/flatten/flatten_extracted.py:144 (migration-complete),,2026-08-22.2
+17,metric_name,"pipeline literal, flatten",src/flatten/flatten_extracted.py:144 (migration-complete),,2026-08-22.2
+18,subject_type,"pipeline literal, flatten",src/flatten/flatten_extracted.py:144 (migration-complete),,2026-08-22.2
+19,subject_alias_id,"pipeline literal, flatten",src/flatten/flatten_extracted.py:144 (migration-complete),,2026-08-22.2
+20,subject_entity_id,"pipeline literal, flatten",src/flatten/flatten_extracted.py:144 (migration-complete),,2026-08-22.2
+21,subject_name,"pipeline literal, flatten",src/flatten/flatten_extracted.py:144 (migration-complete),,2026-08-22.2
+22,subject_standardized_name,"pipeline literal, flatten",src/flatten/flatten_extracted.py:144 (migration-complete),,2026-08-22.2
+23,subject_manager_name,"pipeline literal, flatten",src/flatten/flatten_extracted.py:144 (migration-complete),,2026-08-22.2
+24,manager_alias_id,"pipeline literal, flatten",src/flatten/flatten_extracted.py:144 (migration-complete),,2026-08-22.2
+25,manager_entity_id,"pipeline literal, flatten",src/flatten/flatten_extracted.py:144 (migration-complete),,2026-08-22.2
+26,investor_alias_id,"pipeline literal, flatten",src/flatten/flatten_extracted.py:144 (migration-complete),,2026-08-22.2
+27,investor_entity_id,"pipeline literal, flatten",src/flatten/flatten_extracted.py:144 (migration-complete),,2026-08-22.2
+28,portfolio_name,"pipeline literal, flatten",src/flatten/flatten_extracted.py:144 (migration-complete),,2026-08-22.2
+29,asset_class,"pipeline literal, flatten",src/flatten/flatten_extracted.py:144 (migration-complete),,2026-08-22.2
+30,strategy,"pipeline literal, flatten",src/flatten/flatten_extracted.py:144 (migration-complete),,2026-08-22.2
+31,geography,"pipeline literal, flatten",src/flatten/flatten_extracted.py:144 (migration-complete),,2026-08-22.2
+32,vintage_year,"pipeline literal, flatten",src/flatten/flatten_extracted.py:144 (migration-complete),,2026-08-22.2
+33,horizon,"pipeline literal, flatten",src/flatten/flatten_extracted.py:144 (migration-complete),,2026-08-22.2
+34,date_precision,"pipeline literal, flatten",src/flatten/flatten_extracted.py:144 (migration-complete),,2026-08-22.2
+35,as_of_date_raw,"pipeline literal, flatten",src/flatten/flatten_extracted.py:144 (migration-complete),,2026-08-22.2
+36,as_of_date,"pipeline literal, flatten",src/flatten/flatten_extracted.py:144 (migration-complete),,2026-08-22.2
+37,period_start_raw,"pipeline literal, flatten",src/flatten/flatten_extracted.py:144 (migration-complete),,2026-08-22.2
+38,period_start,"pipeline literal, flatten",src/flatten/flatten_extracted.py:144 (migration-complete),,2026-08-22.2
+39,period_end_raw,"pipeline literal, flatten",src/flatten/flatten_extracted.py:144 (migration-complete),,2026-08-22.2
+40,period_end,"pipeline literal, flatten",src/flatten/flatten_extracted.py:144 (migration-complete),,2026-08-22.2
+41,value_kind,"pipeline literal, flatten",src/flatten/flatten_extracted.py:144 (migration-complete),,2026-08-22.2
+42,value_raw,"pipeline literal, flatten",src/flatten/flatten_extracted.py:144 (migration-complete),,2026-08-22.2
+43,value_numeric,"pipeline literal, flatten",src/flatten/flatten_extracted.py:144 (migration-complete),,2026-08-22.2
+44,value_text,"pipeline literal, flatten",src/flatten/flatten_extracted.py:144 (migration-complete),,2026-08-22.2
+45,value_sign,"pipeline literal, flatten",src/flatten/flatten_extracted.py:144 (migration-complete),,2026-08-22.2
+46,currency,"pipeline literal, flatten",src/flatten/flatten_extracted.py:144 (migration-complete),,2026-08-22.2
+47,unit,"pipeline literal, flatten",src/flatten/flatten_extracted.py:144 (migration-complete),,2026-08-22.2
+48,unit_scale,"pipeline literal, flatten",src/flatten/flatten_extracted.py:144 (migration-complete),,2026-08-22.2
+49,unit_scale_multiplier,"pipeline literal, flatten",src/flatten/flatten_extracted.py:144 (migration-complete),,2026-08-22.2
+50,currency_scale_raw,"pipeline literal, flatten",src/flatten/flatten_extracted.py:144 (migration-complete),,2026-08-22.2
+51,term_category,"pipeline literal, flatten",src/flatten/flatten_extracted.py:144 (migration-complete),,2026-08-22.2
+52,basis_raw,"pipeline literal, flatten",src/flatten/flatten_extracted.py:144 (migration-complete),,2026-08-22.2
+53,condition_raw,"pipeline literal, flatten",src/flatten/flatten_extracted.py:144 (migration-complete),,2026-08-22.2
+54,evidence_quote,"pipeline literal, flatten",src/flatten/flatten_extracted.py:144 (migration-complete),,2026-08-22.2
+55,evidence_class,"pipeline literal, flatten",src/flatten/flatten_extracted.py:144 (migration-complete),,2026-08-22.2
+56,adjudication_status,"pipeline literal, flatten",src/flatten/flatten_extracted.py:144 (migration-complete),,2026-08-22.2
+57,source_agents,"pipeline literal, flatten",src/flatten/flatten_extracted.py:144 (migration-complete),,2026-08-22.2
+58,extractor_model,"pipeline literal, flatten",src/flatten/flatten_extracted.py:144 (migration-complete),,2026-08-22.2
+59,contract_version,"pipeline literal, flatten",src/flatten/flatten_extracted.py:144 (migration-complete),,2026-08-22.2
+60,notes,"pipeline literal, flatten",src/flatten/flatten_extracted.py:144 (migration-complete),,2026-08-22.2
+61,definition_keys,"metric vocabulary review, 2026-09-01",record-columns.csv rows 43-46; metric-semantic-map design,blank until the definition backfill and the semantic map fill them,2026-09-01.1
+62,method,"metric vocabulary review, 2026-09-01",record-columns.csv rows 43-46; metric-semantic-map design,blank until the definition backfill and the semantic map fill them,2026-09-01.1
+63,fee_basis,"metric vocabulary review, 2026-09-01",record-columns.csv rows 43-46; metric-semantic-map design,blank until the definition backfill and the semantic map fill them,2026-09-01.1
+64,value_scope,"metric vocabulary review, 2026-09-01",record-columns.csv rows 43-46; metric-semantic-map design,blank until the definition backfill and the semantic map fill them,2026-09-01.1
+65,canonical_measure_id,"metric vocabulary review, 2026-09-01",record-columns.csv rows 43-46; metric-semantic-map design,blank until the definition backfill and the semantic map fill them,2026-09-01.1
+66,mapping_rule_id,"metric vocabulary review, 2026-09-01",record-columns.csv rows 43-46; metric-semantic-map design,blank until the definition backfill and the semantic map fill them,2026-09-01.1
+67,sector,"metric vocabulary review, 2026-09-01",record-columns.csv row 47,"The printed industry of the subject, where the page groups by industry.",2026-09-01.2
+68,canonical_asset_class,"metric vocabulary review, 2026-09-01",context-grouping-map.csv; FIELD-SEMANTICS-ASSET-CLASS-STRATEGY-VALUE-KIND.md,"Derived at flatten from the printed grouping so every downstream reader and the database carry it, not only the reviewer surface.",2026-09-01.2
+69,canonical_strategy,"metric vocabulary review, 2026-09-01",context-grouping-map.csv; FIELD-SEMANTICS-ASSET-CLASS-STRATEGY-VALUE-KIND.md,"Derived at flatten from the printed grouping so every downstream reader and the database carry it, not only the reviewer surface.",2026-09-01.2
+70,canonical_sub_strategy,"metric vocabulary review, 2026-09-01",context-grouping-map.csv; FIELD-SEMANTICS-ASSET-CLASS-STRATEGY-VALUE-KIND.md,"Derived at flatten from the printed grouping so every downstream reader and the database carry it, not only the reviewer surface.",2026-09-01.2
+71,canonical_sector,"metric vocabulary review, 2026-09-01",context-grouping-map.csv; FIELD-SEMANTICS-ASSET-CLASS-STRATEGY-VALUE-KIND.md,"Derived at flatten from the printed grouping so every downstream reader and the database carry it, not only the reviewer surface.",2026-09-01.2
+72,is_monetary,"metric vocabulary review, 2026-09-01",context-grouping-map.csv; FIELD-SEMANTICS-ASSET-CLASS-STRATEGY-VALUE-KIND.md,"Derived at flatten from the printed grouping so every downstream reader and the database carry it, not only the reviewer surface.",2026-09-01.2

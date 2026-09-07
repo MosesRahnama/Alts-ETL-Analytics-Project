@@ -1,0 +1,4 @@
+input_value,output_value,decided_by,evidence,note
+repeat_within_row,first_value_kept,"pipeline literal, wide pivot",src/flatten/pivot_wide.py:243,Choosing between two printed values is an adjudication and the pivot performs none.
+collision_note_prefix,second printed value ignored: ,"pipeline literal, wide pivot",src/flatten/pivot_wide.py:243,The published note text on the wide row.
+collision_entry_format,category@column,"pipeline literal, wide pivot",src/flatten/pivot_wide.py:243,

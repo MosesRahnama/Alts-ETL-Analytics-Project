@@ -1,0 +1,9 @@
+input_value,output_value,decided_by,evidence,note,context
+prefix,PMKT_,"pipeline literal, public-market curation",src/market_data/curate_public_markets.py:564,,file
+digest_length,16,"pipeline literal, public-market curation",src/market_data/curate_public_markets.py:564,"SHA-256 of the source path, first sixteen hex digits, upper case.",file
+benchmark_format,BMK_ETF_{ticker},"pipeline literal, public-market curation",src/market_data/curate_public_markets.py:564,,benchmark
+level_format,LVL_{ticker}_{date},"pipeline literal, public-market curation",src/market_data/curate_public_markets.py:564,The date drops its dashes.,level
+return_format,RET_{ticker}_{date},"pipeline literal, public-market curation",src/market_data/curate_public_markets.py:564,,return
+strategy_format,SMAP_{index:03d},"pipeline literal, public-market curation",src/market_data/curate_public_markets.py:564,,strategy
+run_prefix,PMRUN_,"pipeline literal, public-market curation",src/market_data/curate_public_markets.py:862,"The selection digest, first sixteen hex digits, upper case.",run
+run_digest_length,16,"pipeline literal, public-market curation",src/market_data/curate_public_markets.py:862,,run

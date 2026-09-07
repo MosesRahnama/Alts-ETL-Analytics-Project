@@ -1,0 +1,5 @@
+input_value,output_value,decided_by,evidence,note
+money_absolute,1.0,"pipeline literal, quality rules",src/quality/run_fund_checks.py:63,Absolute tolerance for monetary reconciliation checks.
+multiple_absolute,0.005,"pipeline literal, quality rules",src/quality/run_fund_checks.py:63,Absolute tolerance for reported multiples.
+rate_absolute,0.0005,"pipeline literal, quality rules",src/quality/run_fund_checks.py:63,Absolute tolerance for reported rates.
+xirr_absolute,0.005,"pipeline literal, quality rules",src/quality/run_fund_checks.py:63,Absolute tolerance for XIRR comparisons.

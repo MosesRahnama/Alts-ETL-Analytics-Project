@@ -1,0 +1,2 @@
+input_value,output_value,decided_by,evidence,note
+unknown_subject_type,scope,"pipeline literal, flatten",src/flatten/flatten_extracted.py:428,A subject type the map does not name is treated as a scope label.

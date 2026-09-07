@@ -1,0 +1,19 @@
+input_value,output_value,decided_by,evidence,note
+propagated_value,DERIVED,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:716,A value carried from the fund's own records.
+legal_name,DERIVED,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:716,
+sub_strategy,DERIVED,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:716,
+otherwise,IMPUTED,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:716,
+derived_formula,FUND_CONSTANT_PROPAGATION_V1,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:716,
+canonical_formula,CONTEXT_GROUPING_MAP_V1,"metric vocabulary review, 2026-09-01",src/pipeline/build_integrated_universe.py,Canonical asset class and strategy are deterministic outputs of context-grouping-map.csv.
+vintage_year_imputation_method,SEEDED_RANGE_DRAW_V1,"imputation label audit, 2026-09-01",src/pipeline/build_integrated_universe.py,"A blank vintage year takes a hash of the run seed and fund ID spread across the configured base year and span; no page states it and no median is computed."
+strategy_imputation_method,CONFIGURED_STRATEGY_FALLBACK_V1,"imputation label audit, 2026-09-01",src/pipeline/build_integrated_universe.py,"A blank strategy takes the configured fallback constant; the name keyword branch is retired and stays on name_hint."
+canonical_imputation_method,CONFIGURED_STRATEGY_FALLBACK_V1,"metric vocabulary review, 2026-09-01",src/pipeline/build_integrated_universe.py,A canonical class derived from the configured fallback cites no source page.
+carried_imputed_value,IMPUTED,"stage audit A5-02, 2026-09-02",audit/pipeline-audit/findings/a5-completion.csv A5-02,"A value copied onto a completed row from a fund_master cell this stage imputed is the same imputed value, so every lineage row that carries it reads IMPUTED and repeats the master cell's imputation method."
+canonical_change_type,DERIVED,"stage audit F11, 2026-09-02",src/load/promote_extracted_to_fund_level.py,"The change_type promotion writes in attribute-changes.csv for a canonical cell it reads off context-grouping-map.csv; the cell is a reading of a printed word, not a copy of one."
+canonical_rule_prefix,CONTEXT_GROUPING_MAP,"stage audit F11, 2026-09-02",src/load/promote_extracted_to_fund_level.py,"The rule_id prefix on that row; the rest of the id is the matrix row's context and its printed input_value."
+carried_canonical_value,DERIVED,"stage audit F11, 2026-09-02",src/pipeline/build_integrated_universe.py,"A canonical cell promotion filled and this stage carries unchanged is derived from a printed word, so its lineage row reads DERIVED and cites the attribute-changes row promotion wrote."
+precedence,EXTRACTED_THEN_DERIVED_THEN_IMPUTED,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:716,
+base_currency_imputation_method,SIZE_CURRENCY_OR_CONFIGURED_FALLBACK_V1,source-completion audit,src/pipeline/build_integrated_universe.py,An absent base currency uses the reported fund-size denomination or currency_fallback for the generated demonstration; it remains IMPUTED.
+fund_size_currency_imputation_method,CONFIGURED_CURRENCY_FALLBACK_V1,source-completion audit,src/pipeline/build_integrated_universe.py,An absent fund-size currency takes currency_fallback from integrated_completion.yml and remains IMPUTED.
+fund_status_imputation_method,CONFIGURED_FUND_STATUS_V1,source-completion audit,src/pipeline/build_integrated_universe.py,An absent status takes the fund_status row in integrated-master-defaults.csv.
+fund_size_imputation_method,SEEDED_SCALED_MEDIAN_V1,source-completion audit,src/pipeline/build_integrated_universe.py,An absent size uses the greater of the extracted median and configured fallback multiplied by the seeded scale from integrated-master-defaults.csv.

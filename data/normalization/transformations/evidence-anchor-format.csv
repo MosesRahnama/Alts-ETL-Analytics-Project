@@ -1,0 +1,7 @@
+input_value,output_value,decided_by,evidence,note,context,rank
+source_table,anchor_part,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:254,The anchor walks a promoted number back to the printed cell.,observation,1
+source_row_label,anchor_part,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:254,,observation,2
+source_column_label,anchor_part,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:254,Blank parts are omitted; the join is space-slash-space.,observation,3
+separator, / ,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:254,,observation,
+source_table,anchor_part,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:610,"A holding's anchor names the schedule alone, which is narrower than the observation anchor; recorded as printed.",holding,1
+separator, / ,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:610,,holding,

@@ -1,0 +1,5 @@
+input_value,output_value,decided_by,evidence,note,context
+timestamp_utc,date,"pipeline literal, public-market curation",src/market_data/curate_public_markets.py:608,,long_history
+close,level,"pipeline literal, public-market curation",src/market_data/curate_public_markets.py:608,,long_history
+Date,date,"pipeline literal, public-market curation",src/market_data/curate_public_markets.py:608,,wide_panel
+{ticker},level,"pipeline literal, public-market curation",src/market_data/curate_public_markets.py:608,The ticker's own column carries the level.,wide_panel

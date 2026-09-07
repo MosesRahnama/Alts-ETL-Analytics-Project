@@ -1,0 +1,8 @@
+input_value,output_value,decided_by,evidence,note
+management_fee,management_fee_rate,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:501,Seven printed term categories feed fund_terms columns.
+carried_interest,carry_rate,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:501,
+hurdle_rate,hurdle_rate,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:501,
+catch_up,catch_up_rate,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:501,
+fund_term,fund_term_years,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:501,
+term_extension,extension_years,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:501,
+maximum_offering,maximum_offering,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:501,

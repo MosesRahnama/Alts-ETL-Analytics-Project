@@ -1,0 +1,4 @@
+input_value,output_value,decided_by,evidence,note
+repeat_within_row,first_value_kept,"pipeline literal, flatten",src/flatten/flatten_extracted.py:716,Choosing between two printed values is an adjudication and the flatten performs none.
+collision_note_prefix,second printed value ignored: ,"pipeline literal, flatten",src/flatten/flatten_extracted.py:716,The published note on the holding row.
+collision_entry_format,column=source_column_label,"pipeline literal, flatten",src/flatten/flatten_extracted.py:716,

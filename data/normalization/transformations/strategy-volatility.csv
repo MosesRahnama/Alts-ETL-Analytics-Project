@@ -1,0 +1,10 @@
+input_value,output_value,decided_by,evidence,note
+buyout,0.18,"pipeline literal, synthetic fixture",src/generate/generate_synthetic_funds.py:176,
+fund_of_funds,0.14,"pipeline literal, synthetic fixture",src/generate/generate_synthetic_funds.py:176,
+growth,0.24,"pipeline literal, synthetic fixture",src/generate/generate_synthetic_funds.py:176,
+infrastructure,0.13,"pipeline literal, synthetic fixture",src/generate/generate_synthetic_funds.py:176,
+private_credit,0.1,"pipeline literal, synthetic fixture",src/generate/generate_synthetic_funds.py:176,
+real_estate,0.16,"pipeline literal, synthetic fixture",src/generate/generate_synthetic_funds.py:176,
+secondaries,0.15,"pipeline literal, synthetic fixture",src/generate/generate_synthetic_funds.py:176,
+venture,0.34,"pipeline literal, synthetic fixture",src/generate/generate_synthetic_funds.py:176,
+*,0.20,"pipeline literal, synthetic fixture",src/generate/generate_synthetic_funds.py:176,The tilt default for an unmapped strategy.

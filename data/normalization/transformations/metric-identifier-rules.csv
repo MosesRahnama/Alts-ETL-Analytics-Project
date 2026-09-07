@@ -1,0 +1,3 @@
+input_value,output_value,decided_by,evidence,note
+with_category,{family}.{category},"pipeline literal, flatten",src/flatten/flatten_extracted.py:524,
+without_category,{family},"pipeline literal, flatten",src/flatten/flatten_extracted.py:524,A family row with no category is its own metric.

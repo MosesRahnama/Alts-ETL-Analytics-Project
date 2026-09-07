@@ -1,0 +1,5 @@
+"route","agent_role","extractor_model","claimed_at","claimed_by"
+"06-statements-and-economics","A","gpt-5","2026-09-03T21:47:09Z",""
+"06-statements-and-economics","B","claude-sonnet-5","2026-09-03T21:44:51Z",""
+"06-statements-and-economics","J1","Codex","2026-09-05T20:16:21Z","source-review checker; exact model identifier not exposed by this session"
+"06-statements-and-economics","J2","Codex","2026-09-05T20:16:21Z","source-review checker; exact model identifier not exposed by this session"

@@ -1,0 +1,3 @@
+input_value,output_value,decided_by,evidence,note,context
+source_sha_1,published_ledger_hash,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:288,The document hash as the published observation ledger states it.,gate
+source_sha_2,final_file_first_row_hash,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:288,Else the hash carried on the adjudicated final file's first row.,gate

@@ -1,0 +1,7 @@
+input_value,output_value,decided_by,evidence,note
+REJECT,no_record,"pipeline literal, review builder",src/pipeline/build_extraction_review.py:274,
+CONFIRM,a_row,"pipeline literal, review builder",src/pipeline/build_extraction_review.py:274,
+ACCEPT_A,a_row,"pipeline literal, review builder",src/pipeline/build_extraction_review.py:274,
+ACCEPT_B,b_row,"pipeline literal, review builder",src/pipeline/build_extraction_review.py:274,
+MERGE,resolution_row,"pipeline literal, review builder",src/pipeline/build_extraction_review.py:274,
+ADD,resolution_row,"pipeline literal, review builder",src/pipeline/build_extraction_review.py:274,

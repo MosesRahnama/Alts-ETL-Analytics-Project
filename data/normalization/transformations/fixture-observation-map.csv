@@ -1,0 +1,11 @@
+input_value,output_value,decided_by,evidence,note,unit,measure_kind
+commitment,cap.commitment,"pipeline literal, synthetic fixture",src/generate/generate_synthetic_funds.py:1846,,currency,static
+paid_in_capital_itd,cap.contributions_itd,"pipeline literal, synthetic fixture",src/generate/generate_synthetic_funds.py:1846,,currency,inception_to_date
+distributions_itd,cap.distributions_itd,"pipeline literal, synthetic fixture",src/generate/generate_synthetic_funds.py:1846,,currency,inception_to_date
+nav,val.nav,"pipeline literal, synthetic fixture",src/generate/generate_synthetic_funds.py:1846,,currency,point_in_time
+unfunded_commitment,cap.unfunded_commitment,"pipeline literal, synthetic fixture",src/generate/generate_synthetic_funds.py:1846,,currency,point_in_time
+dpi,perf.dpi,"pipeline literal, synthetic fixture",src/generate/generate_synthetic_funds.py:1846,,multiple,ratio
+rvpi,perf.rvpi,"pipeline literal, synthetic fixture",src/generate/generate_synthetic_funds.py:1846,,multiple,ratio
+tvpi,perf.tvpi,"pipeline literal, synthetic fixture",src/generate/generate_synthetic_funds.py:1846,,multiple,ratio
+reported_irr,perf.irr,"pipeline literal, synthetic fixture",src/generate/generate_synthetic_funds.py:1846,,decimal,rate
+fund_size,attr.fund_size,"pipeline literal, synthetic fixture",src/generate/generate_synthetic_funds.py:1846,,currency,static

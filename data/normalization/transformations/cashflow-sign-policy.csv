@@ -1,0 +1,7 @@
+input_value,output_value,decided_by,evidence,note
+capital_call,negative,"pipeline literal, quality rules",src/quality/run_fund_checks.py:797|src/quality/run_fund_checks.py:798,Money leaving the investor.
+subscription,negative,"pipeline literal, quality rules",src/quality/run_fund_checks.py:797|src/quality/run_fund_checks.py:798,
+fee,negative,"pipeline literal, quality rules",src/quality/run_fund_checks.py:797|src/quality/run_fund_checks.py:798,
+distribution,positive,"pipeline literal, quality rules",src/quality/run_fund_checks.py:797|src/quality/run_fund_checks.py:798,Money returning to the investor.
+recallable_distribution,positive,"pipeline literal, quality rules",src/quality/run_fund_checks.py:797|src/quality/run_fund_checks.py:798,
+*,skipped,"pipeline literal, quality rules",src/quality/run_fund_checks.py:797|src/quality/run_fund_checks.py:798,A type named by no row is outside the sign convention.

@@ -1,0 +1,4 @@
+input_value,output_value,decided_by,evidence,note
+mean,ARITHMETIC_MEAN_V1,"pipeline literal, calibration",src/pipeline/build_calibration_candidates.py:152,
+sd,SAMPLE_STANDARD_DEVIATION_V1,"pipeline literal, calibration",src/pipeline/build_calibration_candidates.py:152,
+id_prefix,PARAM_CAL_SRC457_REAL_ESTATE_,"pipeline literal, calibration",src/pipeline/build_calibration_candidates.py:152,

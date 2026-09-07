@@ -1,0 +1,5 @@
+input_value,output_value,decided_by,evidence,note
+CAD,0.74,"pipeline literal, synthetic fixture",src/generate/generate_synthetic_funds.py:161|src/generate/generate_synthetic_funds.py:168,
+EUR,1.08,"pipeline literal, synthetic fixture",src/generate/generate_synthetic_funds.py:161|src/generate/generate_synthetic_funds.py:168,
+GBP,1.27,"pipeline literal, synthetic fixture",src/generate/generate_synthetic_funds.py:161|src/generate/generate_synthetic_funds.py:168,
+USD,1.0,"pipeline literal, synthetic fixture",src/generate/generate_synthetic_funds.py:161|src/generate/generate_synthetic_funds.py:168,

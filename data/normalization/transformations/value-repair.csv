@@ -1,0 +1,7 @@
+input_value,output_value,decided_by,evidence,note,context
+repair_condition,quote_proves_symbol,"pipeline literal, extraction workflow",src/catalog/simple_pdf_extraction/csv_workflow.py:631|src/catalog/simple_pdf_extraction/csv_workflow.py:1236,A percent or multiple symbol is restored only when the row's own cited quote prints it.,
+adjudication_status,ignored_in_repair,"pipeline literal, extraction workflow",src/catalog/simple_pdf_extraction/csv_workflow.py:1121,,ignored
+agent_role,ignored_in_repair,"pipeline literal, extraction workflow",src/catalog/simple_pdf_extraction/csv_workflow.py:1121,,ignored
+evidence_quote,ignored_in_repair,"pipeline literal, extraction workflow",src/catalog/simple_pdf_extraction/csv_workflow.py:1121,,ignored
+notes,ignored_in_repair,"pipeline literal, extraction workflow",src/catalog/simple_pdf_extraction/csv_workflow.py:1121,,ignored
+source_agents,ignored_in_repair,"pipeline literal, extraction workflow",src/catalog/simple_pdf_extraction/csv_workflow.py:1121,,ignored

@@ -1,0 +1,4 @@
+input_value,output_value,decided_by,evidence,note
+strategy_scope,ALL,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:478,
+adjudication_status,APPROVED_FOR_DEMO,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:478,
+active,TRUE,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:478,

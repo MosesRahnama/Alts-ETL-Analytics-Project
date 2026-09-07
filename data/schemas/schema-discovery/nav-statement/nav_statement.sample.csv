@@ -1,0 +1,7 @@
+sample_order,file_id,filename,page_count,issuer,selection_reason,replaced_candidate_if_any
+1,SRC247,NAV_Statement_SREIT_NAV_Supplement_May2024.pdf,4.0,"Starwood Real Estate Income Trust, Inc.",population < 10; all NAV_Statement documents included,
+2,SRC248,NAV_Statement_SREIT_NAV_Supplement_Jun2024.pdf,4.0,"Starwood Real Estate Income Trust, Inc.",population < 10; all NAV_Statement documents included,
+3,SRC249,NAV_Statement_SREIT_NAV_Supplement_Aug2024.pdf,4.0,"Starwood Real Estate Income Trust, Inc.",population < 10; all NAV_Statement documents included,
+4,SRC250,NAV_Statement_SREIT_NAV_Supplement_Sep2024.pdf,4.0,"Starwood Real Estate Income Trust, Inc.",population < 10; all NAV_Statement documents included,
+5,SRC251,NAV_Statement_SREIT_NAV_Supplement_Nov2024.pdf,4.0,"Starwood Real Estate Income Trust, Inc.",population < 10; all NAV_Statement documents included,
+6,SRC051,NAV_Statement_SREIT_NAV_Supplement_May2025.pdf,54.0,"Starwood Real Estate Income Trust, Inc. (SREIT)",population < 10; all NAV_Statement documents included,

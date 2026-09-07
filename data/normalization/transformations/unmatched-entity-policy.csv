@@ -1,0 +1,3 @@
+input_value,output_value,decided_by,evidence,note
+undecided_name,unresolved,"pipeline literal, flatten",src/flatten/flatten_extracted.py:405,A printed name with no decided matrix row publishes with an empty entity id and lands in unresolved_names.csv.
+scope_label_method,scope_label,"pipeline literal, flatten",src/flatten/flatten_extracted.py:405,A scope label is not an entity and is never sent to the matrix.

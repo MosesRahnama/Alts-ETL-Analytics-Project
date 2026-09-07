@@ -1,0 +1,2 @@
+input_value,output_value,decided_by,evidence,note
+panel_identity,one_lp_schedule,"pipeline literal, calibration",src/pipeline/build_calibration_candidates.py:73,DPI and RVPI panels must name the same funds; duplicates refuse.

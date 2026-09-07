@@ -1,0 +1,9 @@
+input_value,output_value,decided_by,evidence,note
+buyout,BM_SYNTH_PUBLIC_EQUITY,"pipeline literal, synthetic fixture",src/generate/generate_synthetic_funds.py:133|src/generate/generate_synthetic_funds.py:141,
+fund_of_funds,BM_SYNTH_PUBLIC_EQUITY,"pipeline literal, synthetic fixture",src/generate/generate_synthetic_funds.py:133|src/generate/generate_synthetic_funds.py:141,
+growth,BM_SYNTH_SMALL_CAP_EQUITY,"pipeline literal, synthetic fixture",src/generate/generate_synthetic_funds.py:133|src/generate/generate_synthetic_funds.py:141,
+infrastructure,BM_SYNTH_LISTED_INFRASTRUCTURE,"pipeline literal, synthetic fixture",src/generate/generate_synthetic_funds.py:133|src/generate/generate_synthetic_funds.py:141,
+private_credit,BM_SYNTH_HIGH_YIELD_CREDIT,"pipeline literal, synthetic fixture",src/generate/generate_synthetic_funds.py:133|src/generate/generate_synthetic_funds.py:141,
+real_estate,BM_SYNTH_LISTED_REAL_ESTATE,"pipeline literal, synthetic fixture",src/generate/generate_synthetic_funds.py:133|src/generate/generate_synthetic_funds.py:141,
+secondaries,BM_SYNTH_PUBLIC_EQUITY,"pipeline literal, synthetic fixture",src/generate/generate_synthetic_funds.py:133|src/generate/generate_synthetic_funds.py:141,
+venture,BM_SYNTH_SMALL_CAP_EQUITY,"pipeline literal, synthetic fixture",src/generate/generate_synthetic_funds.py:133|src/generate/generate_synthetic_funds.py:141,

@@ -1,0 +1,17 @@
+strategy_map_id,strategy,sub_strategy,benchmark_id,benchmark_role,selection_timing_rule,record_status,note
+SMAP_001,buyout,,BMK_ETF_VTI,PRIMARY,PRECOMMIT_BEFORE_FUND_RESULT_REVIEW,CANDIDATE,Broad listed-equity opportunity-cost proxy; carried from the retired BUYOUT/DIVERSIFIED row.
+SMAP_002,co_investment,,BMK_ETF_VTI,PRIMARY,PRECOMMIT_BEFORE_FUND_RESULT_REVIEW,CANDIDATE,A co-investment sits beside the buyout it accompanies and takes the same proxy.
+SMAP_003,fund_of_funds_primary,,BMK_ETF_VTI,PRIMARY,PRECOMMIT_BEFORE_FUND_RESULT_REVIEW,CANDIDATE,A primary fund-of-funds programme holds the diversified buyout population.
+SMAP_004,growth,,BMK_ETF_QQQ,PRIMARY,PRECOMMIT_BEFORE_FUND_RESULT_REVIEW,CANDIDATE,Listed growth-equity opportunity-cost proxy; carried from the retired GROWTH_EQUITY/DIVERSIFIED row.
+SMAP_005,secondaries,,BMK_ETF_VTI,PRIMARY,PRECOMMIT_BEFORE_FUND_RESULT_REVIEW,CANDIDATE,Broad listed-equity opportunity-cost proxy; carried from the retired SECONDARIES/DIVERSIFIED row.
+SMAP_006,special_situations,,BMK_ETF_VTI,PRIMARY,PRECOMMIT_BEFORE_FUND_RESULT_REVIEW,CANDIDATE,A special-situations fund buys private equity and takes the same listed proxy.
+SMAP_007,core,,BMK_ETF_VNQ,PRIMARY,PRECOMMIT_BEFORE_FUND_RESULT_REVIEW,CANDIDATE,Listed real-estate proxy; carried from the retired REAL_ESTATE/DIVERSIFIED row.
+SMAP_008,opportunistic,,BMK_ETF_VNQ,PRIMARY,PRECOMMIT_BEFORE_FUND_RESULT_REVIEW,CANDIDATE,Listed real-estate proxy; carried from the retired REAL_ESTATE/DIVERSIFIED row.
+SMAP_009,value_added,,BMK_ETF_VNQ,PRIMARY,PRECOMMIT_BEFORE_FUND_RESULT_REVIEW,CANDIDATE,Listed real-estate proxy; carried from the retired REAL_ESTATE/DIVERSIFIED row.
+SMAP_010,agriculture,,BMK_ETF_DBC,PRIMARY,PRECOMMIT_BEFORE_FUND_RESULT_REVIEW,CANDIDATE,Diversified commodity proxy; carried from the retired NATURAL_RESOURCES/DIVERSIFIED row.
+SMAP_011,energy,,BMK_ETF_XLE,PRIMARY,PRECOMMIT_BEFORE_FUND_RESULT_REVIEW,CANDIDATE,Listed energy-equity proxy; carried from the retired NATURAL_RESOURCES/ENERGY row.
+SMAP_012,timber,,BMK_ETF_DBC,PRIMARY,PRECOMMIT_BEFORE_FUND_RESULT_REVIEW,CANDIDATE,Diversified commodity proxy; carried from the retired NATURAL_RESOURCES/DIVERSIFIED row.
+SMAP_013,water,,BMK_ETF_DBC,PRIMARY,PRECOMMIT_BEFORE_FUND_RESULT_REVIEW,CANDIDATE,Diversified commodity proxy; carried from the retired NATURAL_RESOURCES/DIVERSIFIED row.
+SMAP_014,mezzanine,,BMK_ETF_AGG,PRIMARY,PRECOMMIT_BEFORE_FUND_RESULT_REVIEW,CANDIDATE,Diversified bond-market proxy; carried from the retired PRIVATE_CREDIT/DIVERSIFIED row.
+SMAP_015,absolute_return,,BMK_ETF_SPY,PRIMARY,PRECOMMIT_BEFORE_FUND_RESULT_REVIEW,CANDIDATE,A hedge-fund strategy states an equity opportunity cost and takes the broad-market proxy.
+SMAP_016,stable_value,,BMK_ETF_AGG,PRIMARY,PRECOMMIT_BEFORE_FUND_RESULT_REVIEW,CANDIDATE,A stable-value sleeve sits in fixed income and takes the diversified bond-market proxy.

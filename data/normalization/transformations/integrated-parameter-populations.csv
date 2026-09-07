@@ -1,0 +1,10 @@
+input_value,output_value,decided_by,evidence,note,context
+paid_in_ratio_bounds,paid>0 and commitment>0,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:441,,eligibility
+paid_in_ratio_cap,1.25,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:441,,eligibility
+ratio_bounds,0..10,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:441,dpi and rvpi outside this band are excluded.,eligibility
+fund_size_bound,>0,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:441,,eligibility
+fund_size_currency,configured_currency_only,source-boundary audit,src/pipeline/build_integrated_universe.py,Monetary calibration excludes amounts whose denomination is absent or differs from currency_fallback.,eligibility
+dpi_fallback,0.55,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:454,Used when no eligible extracted value exists.,fallback
+rvpi_fallback,0.75,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:454,,fallback
+paid_in_ratio_fallback,0.85,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:454,,fallback
+fund_size_fallback_source,config,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:454,,fallback

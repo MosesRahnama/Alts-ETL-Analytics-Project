@@ -1,0 +1,3 @@
+input_value,output_value,decided_by,evidence,note
+note_limit,2000,"pipeline literal, release tooling",src/pipeline/transformation_lineage.py:37,A longer note goes to the content-addressed archive and the ledger keeps the address.
+receipt_identity,stage_command_contract_inputs_outputs,"pipeline literal, release tooling",src/pipeline/transformation_lineage.py:212,"The receipt id digests the stage, command, contract version, and the input and output hashes."

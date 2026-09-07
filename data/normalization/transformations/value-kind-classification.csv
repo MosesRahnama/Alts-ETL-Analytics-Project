@@ -1,0 +1,5 @@
+input_value,output_value,decided_by,evidence,note
+percent_unit,%,"pipeline literal, flatten",src/flatten/flatten_extracted.py:354,The unit column or a trailing percent sign makes the kind percent.
+multiple_unit,x,"pipeline literal, flatten",src/flatten/flatten_extracted.py:354,The unit column or a trailing x makes the kind multiple.
+currency_symbol_kind,currency,"pipeline literal, flatten",src/flatten/flatten_extracted.py:354,A currency symbol in the text makes the kind currency.
+default_kind,number,"pipeline literal, flatten",src/flatten/flatten_extracted.py:354,

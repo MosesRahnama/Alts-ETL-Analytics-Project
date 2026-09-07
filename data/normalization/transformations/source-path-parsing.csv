@@ -1,0 +1,2 @@
+input_value,output_value,decided_by,evidence,note
+query_string,stripped,"pipeline literal, review builder",src/pipeline/build_extraction_review.py:321,A routing cell naming a file may carry a query string; the name is the path's last part.

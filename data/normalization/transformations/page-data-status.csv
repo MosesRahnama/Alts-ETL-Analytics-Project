@@ -1,0 +1,2 @@
+input_value,output_value,decided_by,evidence,note
+with_data,records_written_positive,"pipeline literal, flatten",src/flatten/flatten_extracted.py:757,A page counts as carrying data when records_written is neither blank nor zero.

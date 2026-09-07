@@ -1,0 +1,6 @@
+input_value,output_value,decided_by,evidence,note,context
+paid_in_capital_itd,positive_number_required,"pipeline literal, analytics",src/analytics/run_extracted_analytics.py:27,A period with no positive paid-in supports no multiple.,period_inputs
+distributions_itd,number_required,"pipeline literal, analytics",src/analytics/run_extracted_analytics.py:27,,period_inputs
+nav,number_required,"pipeline literal, analytics",src/analytics/run_extracted_analytics.py:27,"A period missing any of the three is left out, never filled with a zero.",period_inputs
+unstated_fee_basis,measurable_labelled,"promotion qualifier audit, 2026-09-02",audit/pipeline-audit/findings/a5-completion.csv A5-04,A rate whose page states no fee basis is still measurable; the result carries input_fee_basis unstated so the reader sees what was not stated.,fee_basis
+mixed_fee_basis_within_fund,refused_and_counted,"promotion qualifier audit, 2026-09-02",audit/pipeline-audit/findings/a5-completion.csv A5-04,One fund's series stating net on some periods and gross on others is not one series; the fund is left out and the refusal is counted.,fee_basis

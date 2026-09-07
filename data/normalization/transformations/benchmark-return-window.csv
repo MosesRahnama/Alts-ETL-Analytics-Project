@@ -1,0 +1,2 @@
+input_value,output_value,decided_by,evidence,note
+trailing_days,365,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:550,The trailing growth window before the target date.

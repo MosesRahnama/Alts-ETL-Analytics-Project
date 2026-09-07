@@ -1,0 +1,3 @@
+input_value,output_value,decided_by,evidence,note
+unparseable_row,dropped,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:552,
+zero_usable_rows,refused,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:552,

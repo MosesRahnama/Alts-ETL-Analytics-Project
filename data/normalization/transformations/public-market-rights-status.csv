@@ -1,0 +1,5 @@
+input_value,output_value,decided_by,evidence,note
+APPROVED,approved,"pipeline literal, promotion gate",src/load/validate_round02_promotion.py:58,Rights statuses that admit a market series into the fund model.
+CLEARED,approved,"pipeline literal, promotion gate",src/load/validate_round02_promotion.py:58,
+CANONICAL_USE_APPROVED,approved,"pipeline literal, promotion gate",src/load/validate_round02_promotion.py:58,
+APPROVED_FOR_CANONICAL,approved,"pipeline literal, promotion gate",src/load/validate_round02_promotion.py:58,

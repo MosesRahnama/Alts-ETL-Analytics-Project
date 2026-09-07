@@ -1,0 +1,9 @@
+input_value,output_value,decided_by,evidence,note
+1,fund_master,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:261,Every table whose rows may carry a fund id.
+2,document_fund_map,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:261,Every table whose rows may carry a fund id.
+3,fund_observations,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:261,Every table whose rows may carry a fund id.
+4,fund_cashflows,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:261,Every table whose rows may carry a fund id.
+5,fund_periods,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:261,Every table whose rows may carry a fund id.
+6,fund_terms,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:261,Every table whose rows may carry a fund id.
+7,fund_term_clauses,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:261,Every table whose rows may carry a fund id.
+8,fund_holdings,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:261,Every table whose rows may carry a fund id.

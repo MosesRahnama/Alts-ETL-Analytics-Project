@@ -1,0 +1,5 @@
+input_value,output_value,decided_by,evidence,note,context
+date_parse_errors,coerce,"pipeline literal, public-market curation",src/market_data/curate_public_markets.py:513,Profiling tolerates unparseable dates; they drop out of the min and max.,profile
+date_parse_utc,true,"pipeline literal, public-market curation",src/market_data/curate_public_markets.py:513,,profile
+date_parse_errors,raise,"pipeline literal, public-market curation",src/market_data/curate_public_markets.py:620,A benchmark date that fails to parse stops the build.,benchmark
+level_parse_errors,coerce,"pipeline literal, public-market curation",src/market_data/curate_public_markets.py:620,An unparseable level becomes missing and its row is dropped.,benchmark

@@ -1,0 +1,17 @@
+# Lint settings for `python -m ruff check src tests data-gathering/src`.
+#
+# The default rule set reported 47 findings, of which 21 were dead imports and
+# assignments and were removed. The remaining 26 are all E402, and every one of
+# them is deliberate: this codebase writes the paragraph that explains a
+# constant directly above it, and where that constant is a matrix name the
+# `from src.common import matrices` import sits beside the names it resolves
+# rather than at the top of the file. Moving those imports would separate each
+# explanation from the thing it explains across twenty modules.
+#
+# E402 is therefore recorded here as a decision rather than left as a standing
+# failure, because a lint command that always exits non-zero stops being read.
+
+line-length = 120
+
+[lint]
+ignore = ["E402"]

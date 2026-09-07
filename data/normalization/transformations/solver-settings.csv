@@ -1,0 +1,4 @@
+input_value,output_value,decided_by,evidence,note
+tolerance,1e-10,"pipeline literal, analytics",src/common/finance.py:83,
+max_iterations,250,"pipeline literal, analytics",src/common/finance.py:83,
+method,bracketed_newton_bisection,"pipeline literal, analytics",src/common/finance.py:83,A Newton step that leaves the bracket falls back to bisection.

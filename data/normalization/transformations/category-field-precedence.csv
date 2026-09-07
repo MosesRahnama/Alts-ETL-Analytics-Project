@@ -1,0 +1,5 @@
+input_value,output_value,decided_by,evidence,note,context
+1,metric_category,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:333,The extraction contract intends one category per row; where both are filled the metric wins.,fund_observations.category
+2,term_category,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:333,,fund_observations.category
+1,metric_category,"pipeline literal, wide pivot",src/flatten/pivot_wide.py:180,The pivot reads the same category precedence the promotion does.,pivot.category
+2,term_category,"pipeline literal, wide pivot",src/flatten/pivot_wide.py:180,,pivot.category

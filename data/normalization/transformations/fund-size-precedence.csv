@@ -1,0 +1,4 @@
+input_value,output_value,decided_by,evidence,note
+1,existing_master,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:694,
+2,latest_period,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:694,
+3,scaled_extracted_median,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:694,The extracted median (floored at the configured fallback) scaled by 0.6 plus 1.8 times the unit interval.

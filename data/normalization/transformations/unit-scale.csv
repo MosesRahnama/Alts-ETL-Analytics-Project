@@ -1,0 +1,5 @@
+input_value,output_value,decided_by,evidence,note
+multiplier_source,unit_scale_multiplier,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:203,The multiplier the flatten parsed from the printed scale heading.
+blank_multiplier,1,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:203,A blank multiplier means the table printed absolute amounts.
+applies_to,money_only,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:203,"A ratio, rate, or multiple carries no scale heading and passes through as printed."
+rounding_decimals,6,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:203,"Scaled money is rounded to six decimals, trailing zeros trimmed."

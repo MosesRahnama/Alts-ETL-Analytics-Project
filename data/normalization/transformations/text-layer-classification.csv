@@ -1,0 +1,5 @@
+input_value,output_value,decided_by,evidence,note
+native_token,native_text_pages:,"pipeline literal, extraction support",src/catalog/simple_pdf_extraction/build_page_grids.py:48,The page-aligned TXT header's own counters.
+ocr_token,ocr_pages:,"pipeline literal, extraction support",src/catalog/simple_pdf_extraction/build_page_grids.py:48,
+head_window,900,"pipeline literal, extraction support",src/catalog/simple_pdf_extraction/build_page_grids.py:48,Only the header region is read.
+missing_file,unknown,"pipeline literal, extraction support",src/catalog/simple_pdf_extraction/build_page_grids.py:48,

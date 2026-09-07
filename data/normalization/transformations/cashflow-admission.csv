@@ -1,0 +1,5 @@
+input_value,output_value,decided_by,evidence,note
+record_family,cash_flow_observation,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:459,Only the cash-flow family enters the table.
+requires_fund_attribution,true,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:459,
+requires_date,true,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:459,
+requires_numeric_value,true,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:459,

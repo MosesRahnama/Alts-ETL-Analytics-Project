@@ -1,0 +1,4 @@
+input_value,output_value,decided_by,evidence,note
+.csv,csv_check,"pipeline literal, release tooling",src/repository/release_audit.py:284,Every suffix routes to its checker.
+.duckdb,database_check,"pipeline literal, release tooling",src/repository/release_audit.py:284,
+*,generic_check,"pipeline literal, release tooling",src/repository/release_audit.py:284,

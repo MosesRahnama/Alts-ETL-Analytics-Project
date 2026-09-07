@@ -1,0 +1,4 @@
+input_value,output_value,decided_by,evidence,note
+strategy,real_estate,"pipeline literal, calibration",src/pipeline/build_calibration_candidates.py:159,
+unit,decimal,"pipeline literal, calibration",src/pipeline/build_calibration_candidates.py:159,
+provenance_type,DERIVED,"pipeline literal, calibration",src/pipeline/build_calibration_candidates.py:159,

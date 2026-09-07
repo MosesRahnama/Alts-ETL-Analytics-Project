@@ -1,0 +1,5 @@
+input_value,output_value,decided_by,evidence,note
+position_provenance,DERIVED,"pipeline literal, analytics",src/analytics/run_round04_analytics.py:533,"An optimizer position is derived, never printed."
+position_status,ACTIVE,"pipeline literal, analytics",src/analytics/run_round04_analytics.py:533,
+active_statuses,<blank>|ACTIVE,"pipeline literal, analytics",src/analytics/run_round04_analytics.py:1024,A row with a blank or ACTIVE record_status participates; anything else is retired.
+qualifier_backlog,refused_until_reviewed,source-review remediation,src/catalog/simple_pdf_extraction/csv_workflow.py,Publication refuses every missing required qualifier; historical A/B candidates remain unchanged and page-backed adjudication supplies the reviewed value.

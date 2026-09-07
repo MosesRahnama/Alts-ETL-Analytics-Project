@@ -1,0 +1,3 @@
+input_value,output_value,decided_by,evidence,note
+selection_key,benchmark_id,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:542,
+missing_candidate,refused,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:542,

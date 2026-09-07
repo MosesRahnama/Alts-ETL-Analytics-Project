@@ -1,0 +1,9 @@
+input_value,output_value,decided_by,evidence,note
+buyout,0.35,"pipeline literal, synthetic fixture",src/generate/generate_synthetic_funds.py:187,
+fund_of_funds,0.45,"pipeline literal, synthetic fixture",src/generate/generate_synthetic_funds.py:187,
+growth,0.3,"pipeline literal, synthetic fixture",src/generate/generate_synthetic_funds.py:187,
+infrastructure,0.38,"pipeline literal, synthetic fixture",src/generate/generate_synthetic_funds.py:187,
+private_credit,0.65,"pipeline literal, synthetic fixture",src/generate/generate_synthetic_funds.py:187,
+real_estate,0.32,"pipeline literal, synthetic fixture",src/generate/generate_synthetic_funds.py:187,
+secondaries,0.7,"pipeline literal, synthetic fixture",src/generate/generate_synthetic_funds.py:187,
+venture,0.2,"pipeline literal, synthetic fixture",src/generate/generate_synthetic_funds.py:187,

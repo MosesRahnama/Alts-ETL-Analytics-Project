@@ -1,0 +1,2 @@
+input_value,output_value,decided_by,evidence,note
+value_kind,most_common,"pipeline literal, flatten",src/flatten/flatten_extracted.py:842,The kind the family's cells print most often.

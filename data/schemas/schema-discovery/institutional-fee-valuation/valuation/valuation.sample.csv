@@ -1,0 +1,7 @@
+sample_order,file_id,filename,page_count,issuer,selection_reason,replaced_candidate_if_any
+1,SRC132,Valuation_JLLIPT_Institutional_Valuation_Methodology.pdf,3,JLL Income Property Trust,census: population <= target,
+2,SRC314,Valuation_Augmentum_Fintech_Portfolio_Valuation_Mar2026.pdf,3,Augmentum Fintech plc (independent valuation report),census: population <= target,
+3,SRC587,Valuation_AIMA_Guide_To_Sound_Practices_Valuation_2018_Summary.pdf,4,Alternative Investment Management Association (AIMA),census: population <= target,
+4,SRC556,Valuation_IPEV_Guidelines_December_2015.pdf,57,IPEV Board,census: population <= target,
+5,SRC555,Valuation_IPEV_Guidelines_December_2018.pdf,70,IPEV Board,census: population <= target,
+6,SRC074,Valuation_IPEV_Guidelines_December_2022.pdf,81,International Private Equity and Venture Capital Valuation Guidelines Board (IPEV),census: population <= target,

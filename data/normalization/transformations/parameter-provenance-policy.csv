@@ -1,0 +1,3 @@
+input_value,output_value,decided_by,evidence,note
+with_inputs,DERIVED,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:473,
+without_inputs,ASSUMED,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:473,

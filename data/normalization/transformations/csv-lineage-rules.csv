@@ -1,0 +1,2 @@
+input_value,output_value,decided_by,evidence,note
+unmatched_path,blank_origin,"pipeline literal, release tooling",src/repository/build_csv_lineage.py:171,A path outside every rule publishes with an empty origin and the workflow as its writer.

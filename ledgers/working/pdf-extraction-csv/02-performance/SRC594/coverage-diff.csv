@@ -1,0 +1,4 @@
+"source_page","a_page_status","b_page_status","a_layout_checked","b_layout_checked","a_expected_observation_count","b_expected_observation_count","a_source_structures","b_source_structures","a_relevant_record_families","b_relevant_record_families","difference_fields"
+"1","REFERENCE_ONLY","REFERENCE_ONLY","YES","YES","1","1","Statement of Investment Performance Statistics and Independent Auditor’s Report","Statement of Investment Performance Statistics and Independent Auditor’s Report","document_context","document_context","DETERMINISTIC_SAMPLE"
+"2","REFERENCE_ONLY","REFERENCE_ONLY","YES","NO","0","0","INDEPENDENT AUDITOR’S REPORT ON SUPPLEMENTAL SCHEDULE","INDEPENDENT AUDITOR’S REPORT ON SUPPLEMENTAL SCHEDULE","","","layout_checked"
+"5","ELIGIBLE_DATA_EXTRACTED","ELIGIBLE_DATA_EXTRACTED","YES","YES","8","10","FORMULA FOR MODIFIED DIETZ METHOD","FORMULA FOR MODIFIED DIETZ METHOD","definition_context","definition_context","expected_observation_count"

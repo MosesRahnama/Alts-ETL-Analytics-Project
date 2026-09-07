@@ -1,0 +1,5 @@
+input_value,output_value,decided_by,evidence,note
+demo_parameter_set_id,PUBLIC_PROXY_DEMONSTRATION_ONLY_V1,"pipeline literal, promotion gate",src/load/validate_round02_promotion.py:64,Rows carrying this parameter set follow the demonstration path and must disclose it everywhere.
+demo_promotion_status,CANDIDATE,"pipeline literal, promotion gate",src/load/validate_round02_promotion.py:64,
+demo_rights_status,DEMONSTRATION_ONLY,"pipeline literal, promotion gate",src/load/validate_round02_promotion.py:64,
+demo_use_status,DEMO_PROXY_ONLY,"pipeline literal, promotion gate",src/load/validate_round02_promotion.py:64,

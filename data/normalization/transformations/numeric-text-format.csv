@@ -1,0 +1,3 @@
+input_value,output_value,decided_by,evidence,note
+blank_value,<blank>,"pipeline literal, dispatch builder",src/catalog/simple_pdf_extraction/build_csv_pipeline.py:117,
+numeric_value,int_of_float,"pipeline literal, dispatch builder",src/catalog/simple_pdf_extraction/build_csv_pipeline.py:117,A count renders as a whole number however the source spelled it.

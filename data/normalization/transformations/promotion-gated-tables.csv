@@ -1,0 +1,10 @@
+input_value,output_value,decided_by,evidence,note,primary_key,duplicate_scope
+fund_observations,fund_observations.csv,"pipeline literal, promotion gate",src/load/validate_round02_promotion.py:27|src/load/validate_round02_promotion.py:49,,observation_id,unique
+manager_observations,manager_observations.csv,"pipeline literal, promotion gate",src/load/validate_round02_promotion.py:27|src/load/validate_round02_promotion.py:49,,manager_observation_id,unique
+fund_cashflows,fund_cashflows.csv,"pipeline literal, promotion gate",src/load/validate_round02_promotion.py:27|src/load/validate_round02_promotion.py:49,,cashflow_id,wide
+fund_periods,fund_periods.csv,"pipeline literal, promotion gate",src/load/validate_round02_promotion.py:27|src/load/validate_round02_promotion.py:49,,fund_period_id,wide
+fund_terms,fund_terms.csv,"pipeline literal, promotion gate",src/load/validate_round02_promotion.py:27|src/load/validate_round02_promotion.py:49,,fund_term_id,wide
+fund_term_clauses,fund_term_clauses.csv,"pipeline literal, promotion gate",src/load/validate_round02_promotion.py:27|src/load/validate_round02_promotion.py:49,,fund_term_clause_id,unique
+fund_holdings,fund_holdings.csv,"pipeline literal, promotion gate",src/load/validate_round02_promotion.py:27|src/load/validate_round02_promotion.py:49,,holding_id,wide
+benchmark_returns,benchmark_returns.csv,"pipeline literal, promotion gate",src/load/validate_round02_promotion.py:27|src/load/validate_round02_promotion.py:49,Real benchmark histories follow the public-market rights path instead of Round 02 lineage.,benchmark_return_id,unique
+fund_master,wide_only,"pipeline literal, promotion gate",src/load/validate_round02_promotion.py:27|src/load/validate_round02_promotion.py:49,Not a gated file; named here because several promotions may land on one master row.,,wide

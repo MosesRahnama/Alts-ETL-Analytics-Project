@@ -1,0 +1,42 @@
+input_value,output_value,decided_by,evidence,note
+coordinate_dedupe_bucket,2.0,"pipeline literal, extraction support",src/catalog/simple_pdf_extraction/page_grid.py:80,Words drawn twice within one coordinate bucket collapse to one printed token.
+line_tolerance,3.0,"pipeline literal, extraction support",src/catalog/simple_pdf_extraction/page_grid.py:119,Words within three vertical points form one printed line.
+cluster_tolerance,12.0,"pipeline literal, extraction support",src/catalog/simple_pdf_extraction/page_grid.py:135,Numeric starts within twelve horizontal points form one candidate column.
+value_assignment_tolerance,25.0,"pipeline literal, extraction support",src/catalog/simple_pdf_extraction/page_grid.py:227,A printed value joins its nearest column only within twenty-five coordinate points.
+label_band_offset,8.0,"pipeline literal, extraction support",src/catalog/simple_pdf_extraction/page_grid.py:528,The row-label band ends eight points before the first value centre.
+prose_stopword_min,2,"pipeline literal, extraction support",src/catalog/simple_pdf_extraction/page_grid.py:214,Two function words classify a candidate header line as prose.
+block_gap_ratio,2.5,"pipeline literal, extraction support",src/catalog/simple_pdf_extraction/page_grid.py:265,A vertical gap exceeding two and one-half row pitches starts a new table block.
+block_gap_addition,8.0,"pipeline literal, extraction support",src/catalog/simple_pdf_extraction/page_grid.py:265,A vertical gap also exceeds the row pitch by eight points before starting a new block.
+doubled_label_min_length,4,"pipeline literal, extraction support",src/catalog/simple_pdf_extraction/page_grid.py:236,At least four non-space characters are required before duplicate-draw repair.
+column_min_population,2,"pipeline literal, extraction support",src/catalog/simple_pdf_extraction/page_grid.py:154,A column with fewer members is a stray mark.
+value_band,right_of_dense_core_with_extension,"grid-quality review 2026-09-01",tests/test_page_grid.py:91|tests/test_page_grid.py:98,"The dense core locates the band; populated nearby leading columns and every column to the right stay, while a distant vintage embedded before a fund name stays in the row label."
+dense_core_floor,3,"pipeline literal, extraction support",src/catalog/simple_pdf_extraction/page_grid.py:173,The dense core requires at least three values.
+dense_core_ratio,0.4,"pipeline literal, extraction support",src/catalog/simple_pdf_extraction/page_grid.py:174,The dense core retains columns carrying at least forty percent of the page peak.
+wide_gap_ratio,2.2,"pipeline literal, extraction support",src/catalog/simple_pdf_extraction/page_grid.py:182,A gap wider than this multiple of the typical gap may separate label digits from values.
+max_left_junk_clusters,2,"grid-quality review 2026-09-01",src/catalog/simple_pdf_extraction/page_grid.py:191,Only one or two clusters before a wide gap may be discarded as label material.
+band_edge_ratio,2.0,"grid-quality review 2026-09-01",tests/test_page_grid.py:91,A legitimate sparse leading value column may sit up to two typical column gaps left of the dense core.
+band_extension_max_gap,65.0,"grid-quality review 2026-09-01",tests/test_page_grid.py:91,A sparse leading extension remains within sixty-five coordinate points of the dense core.
+band_extension_min_ratio,0.2,"grid-quality review 2026-09-01",tests/test_page_grid.py:91,A leading extension must carry at least twenty percent of the page peak and at least the dense-core floor.
+doubled_label,first_half_kept,"pipeline literal, extraction support",src/catalog/simple_pdf_extraction/page_grid.py:236,An overlapping draw interleaves the words; ignoring whitespace the sequence is a literal repeat.
+header_assignment,column_hint_then_overlap,"grid-quality review 2026-09-01",tests/test_page_grid.py:31|tests/test_page_grid.py:47,"A phrase first uses the nearest column hint; an unhinted phrase uses its strongest value-span overlap, which prevents one label from contaminating neighbouring columns."
+header_stack,two_lines,"grid-quality review 2026-09-01",src/catalog/simple_pdf_extraction/page_grid.py:425,Two qualifying printed header lines combine from top to bottom.
+header_stack_rows,2,"grid-quality review 2026-09-01",src/catalog/simple_pdf_extraction/page_grid.py:425,At most two consecutive header rows govern one table.
+header_phrase_gap,7.0,"grid-quality review 2026-09-01",src/catalog/simple_pdf_extraction/page_grid.py:299,Words within one column phrase may be separated by seven points.
+header_fragment_gap,0.5,"grid-quality review 2026-09-01",tests/test_page_grid.py:31,Adjacent single-character text-layer fragments rejoin without inserted spaces.
+header_annotation_gap,2.5,"grid-quality review 2026-09-01",tests/test_page_grid.py:31,A small number or footnote marker immediately after a phrase stays with that phrase.
+header_overlap_min,2.0,"grid-quality review 2026-09-01",src/catalog/simple_pdf_extraction/page_grid.py:353,An unhinted phrase needs two points of overlap with a value span.
+header_fallback_tolerance,25.0,"grid-quality review 2026-09-01",tests/test_page_grid.py:47,A phrase more than twenty-five points from a column centre remains unassigned.
+header_search_reach,120.0,"grid-quality review 2026-09-01",src/catalog/simple_pdf_extraction/page_grid.py:425,A table header search stops one hundred twenty points above its first row.
+header_first_gap,40.0,"grid-quality review 2026-09-01",tests/test_page_grid.py:61,A first header candidate must sit within forty vertical points of the table; this excludes a continuation page title.
+header_min_hits,2,"pipeline literal, extraction support",src/catalog/simple_pdf_extraction/page_grid.py:396,A header candidate must land in at least two distinct columns.
+header_min_names,2,"pipeline literal, extraction support",src/catalog/simple_pdf_extraction/page_grid.py:396,A text header candidate must name at least two columns.
+header_min_years,2,"grid-quality review 2026-09-01",src/catalog/simple_pdf_extraction/page_grid.py:396,A year-only statement header must name at least two columns.
+unit_suffix_gap,3.5,"grid-quality review 2026-09-01",tests/test_page_grid.py:24,A detached numeric unit joins only within three and one-half horizontal points on the same line.
+one_row_block,drop_prose_numeric_collision_or_headerlike,"grid-quality review 2026-09-01",tests/test_page_grid.py:73,"A one-row block is removed only when it is prose, a header, or contains two numeric tokens assigned to one cell."
+header_continuation,adjacent_previous_page_same_columns,"grid-quality review 2026-09-01",tests/test_page_grid.py:104,Only the physically adjacent prior page may supply continuation headers.
+header_continuation_tolerance,15.0,"grid-quality review 2026-09-01",tests/test_page_grid.py:104,Continuation columns must remain within fifteen coordinate points.
+header_continuation_page_gap,1,"grid-quality review 2026-09-01",tests/test_page_grid.py:104,The donor page must immediately precede the receiving page.
+leading_year_column,fold_period_labels_only,"grid-quality review 2026-09-01",tests/test_page_grid.py:79,A complete leading year column folds only when every printed row label is a period label or contains no alphabetic name.
+leading_year_min_count,3,"grid-quality review 2026-09-01",tests/test_page_grid.py:79,At least three populated years establish a year column.
+page_block_headers,inherit_within_page,"grid-quality review 2026-09-01",src/catalog/simple_pdf_extraction/page_grid.py:570,Later blocks on the same page inherit the last qualifying header.
+page_header_summary,most_named_row,"grid-quality review 2026-09-01",tests/test_page_grid.py:122,The page summary uses the row header set with the most named columns instead of whichever block appeared first.

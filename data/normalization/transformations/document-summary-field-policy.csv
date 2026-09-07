@@ -1,0 +1,2 @@
+input_value,output_value,decided_by,evidence,note
+source_sha256,last_non_blank,"pipeline literal, review builder",src/pipeline/build_extraction_review.py:401,The document's hash is carried by its final rows; the last non-blank value stands.

@@ -1,0 +1,6 @@
+input_value,output_value,decided_by,evidence,note
+text_source_1,value_text,"pipeline literal, wide pivot",src/flatten/pivot_wide.py:184,
+text_source_2,value_raw,"pipeline literal, wide pivot",src/flatten/pivot_wide.py:184,
+numeric_source,value_numeric,"pipeline literal, wide pivot",src/flatten/pivot_wide.py:184,
+unparsed_source_1,value_raw,"pipeline literal, wide pivot",src/flatten/pivot_wide.py:184,A numeric category whose number failed to parse keeps its printed text.
+unparsed_source_2,value_text,"pipeline literal, wide pivot",src/flatten/pivot_wide.py:184,

@@ -1,0 +1,12 @@
+input_value,output_value,decided_by,evidence,note
+1,timestamp_utc,"pipeline literal, public-market curation",src/market_data/curate_public_markets.py:347|src/market_data/curate_public_markets.py:519,
+2,Date,"pipeline literal, public-market curation",src/market_data/curate_public_markets.py:347|src/market_data/curate_public_markets.py:519,
+3,date,"pipeline literal, public-market curation",src/market_data/curate_public_markets.py:347|src/market_data/curate_public_markets.py:519,
+4,knowledge_date,"pipeline literal, public-market curation",src/market_data/curate_public_markets.py:347|src/market_data/curate_public_markets.py:519,
+5,release_timestamp_utc,"pipeline literal, public-market curation",src/market_data/curate_public_markets.py:347|src/market_data/curate_public_markets.py:519,
+6,reference_date,"pipeline literal, public-market curation",src/market_data/curate_public_markets.py:347|src/market_data/curate_public_markets.py:519,
+7,created,"pipeline literal, public-market curation",src/market_data/curate_public_markets.py:347|src/market_data/curate_public_markets.py:519,
+8,ts_event,"pipeline literal, public-market curation",src/market_data/curate_public_markets.py:347|src/market_data/curate_public_markets.py:519,
+9,auction_date,"pipeline literal, public-market curation",src/market_data/curate_public_markets.py:347|src/market_data/curate_public_markets.py:519,
+10,friday,"pipeline literal, public-market curation",src/market_data/curate_public_markets.py:347|src/market_data/curate_public_markets.py:519,
+11,window_start,"pipeline literal, public-market curation",src/market_data/curate_public_markets.py:347|src/market_data/curate_public_markets.py:519,

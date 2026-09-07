@@ -1,0 +1,7 @@
+input_value,output_value,decided_by,evidence,note,context
+license_note_equals,model_template,"pipeline literal, dispatch builder",src/catalog/simple_pdf_extraction/build_csv_pipeline.py:147,,rule
+filename_pattern,(?:^|_)(?:template|illustrative|model|sample)(?:_|\.),"pipeline literal, dispatch builder",src/catalog/simple_pdf_extraction/build_csv_pipeline.py:147,"Case-insensitive; whole-token matches only, because generic substring matching misroutes ordinary reports.",rule
+generic ppm structure example,note_marker,"pipeline literal, dispatch builder",src/catalog/simple_pdf_extraction/build_csv_pipeline.py:147,,note_marker
+outside the private-markets alt fund set,note_marker,"pipeline literal, dispatch builder",src/catalog/simple_pdf_extraction/build_csv_pipeline.py:147,,note_marker
+model agreement,note_marker,"pipeline literal, dispatch builder",src/catalog/simple_pdf_extraction/build_csv_pipeline.py:147,,note_marker
+illustrative financial statement,note_marker,"pipeline literal, dispatch builder",src/catalog/simple_pdf_extraction/build_csv_pipeline.py:147,,note_marker

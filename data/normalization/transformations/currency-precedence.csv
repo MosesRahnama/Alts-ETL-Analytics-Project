@@ -1,0 +1,4 @@
+input_value,output_value,decided_by,evidence,note
+1,specific_value,Codex,tests/test_pipeline_corrections.py,An ISO code or currency-specific symbol in the cell identifies its denomination.
+2,scale_heading,Codex,SRC102 physical page 10,The Canadian-dollar heading resolves a bare dollar symbol.
+3,value_symbol,Codex,tests/test_flatten_extracted.py,A bare symbol uses its documented fallback only without a named heading.

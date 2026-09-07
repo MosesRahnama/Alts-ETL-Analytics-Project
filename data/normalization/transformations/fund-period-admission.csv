@@ -1,0 +1,8 @@
+input_value,output_value,decided_by,evidence,note
+subject_prefix,fund,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:381,The subject must be a fund.
+requires_as_of_date,true,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:381,A period row states a position on one date.
+requires_period_column,true,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:381,"The category must feed a column at this grain, or the observation stays in fund_observations."
+requires_eligible_horizon,true,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:381,A windowed horizon stays an observation.
+requires_numeric_value,true,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:381,
+currency_field,currency,Codex,tests/test_pipeline_corrections.py,Accepted monetary observations retain their source denomination.
+currency_conflict,reject,Codex,tests/test_pipeline_corrections.py,One period cannot combine unconverted amounts in different currencies.

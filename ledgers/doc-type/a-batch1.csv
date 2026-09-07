@@ -1,0 +1,123 @@
+file_id,filename,doc_type,reason
+SRC001,PPM_Fundsmith_Equity_Fund.pdf,PPM,page 1 says Confidential Private Placement Memorandum
+SRC002,PPM_Worcester_Fund_LLC.pdf,PPM,page 1 says Confidential Private Placement Memorandum
+SRC003,LPA_ILPA_Model_Whole_of_Fund.pdf,LPA,page 1 says Model Limited Partnership Agreement
+SRC004,LPA_SCP_Private_Equity_Partners_II_Public_FOIA.pdf,LPA,page 1 says Limited Partnership Agreement
+SRC005,Subscription_ILPA_Model_Subscription_Agreement.pdf,Subscription,page 1 says Subscription Agreement
+SRC006,Subscription_Hedge_Fund_Template.pdf,Subscription,subscription instructions require signing Subscription Agreement and purchaser questionnaire
+SRC007,Side_Letter_MEABF_Sample.pdf,Side_Letter,page 1 says TEMPLATE SIDELETTER
+SRC008,Side_Letter_Fiducient_Private_Fund_Sample.pdf,Side_Letter,letter grants investor-specific terms alongside partnership documents
+SRC011,PCAP_Invest_Europe_Individual_Capital_Account_Statement.pdf,PCAP,page 1 says Individual Capital Account Statement
+SRC013,PPM_RockStep_Hometown_America_Fund_I.pdf,PPM,page 1 says Confidential Private Placement Memorandum
+SRC014,PPM_Blackcommerce_LLC_SEC_EDGAR.pdf,PPM,page 1 says Private Placement Memorandum
+SRC017,Quarterly_Report_Hamilton_Lane_PSERS_4Q17_Public_FOIA.pdf,Quarterly_Report,page 1 says PSERS Private Markets Fourth Quarter Report
+SRC024,Capital_Call_Morgan_Lewis_Deskbook_Sample_Notice.pdf,Cash_Flow_Notice,Capital Calls deskbook specifies information for capital call notices
+SRC026,Financials_KPMG_PE_Illustrative_2025.pdf,Financials,page 1 says Illustrative financial statements Private equity funds
+SRC028,Fee_Report_PSERS_Aon_Base_Management_Fees_FY2017.pdf,Fee_Report,page 1 says PSERS Base Management Fees External Management
+SRC029,Performance_PSERS_Direct_Alpha_Buyout_Funds_2017.pdf,Performance,page 1 Direct Alpha table uses PSERS actual cash flows
+SRC034,Financials_Versa_Capital_Fund_II_LP_PSERS_FOIA.pdf,Financials,page 1 says Combined Financial Statements
+SRC035,Performance_Oregon_Growth_Account_VC_Program_Q4_2021.pdf,Performance,page 1 Performance Analysis table reports TVPI and IRR
+SRC036,Performance_Ohio_Capital_Fund_Annual_Report_2022.pdf,Performance,annual report contents include portfolio highlights and historical multiples
+SRC037,Financials_Utah_Fund_of_Funds_LLC_FY2021.pdf,Financials,annual report includes Independent Auditors Report and financial statements
+SRC038,Performance_MassVentures_Annual_Report_FY2015.pdf,Institutional_Report,page 1 says MassVentures Fiscal 2015 Annual Report
+SRC039,Financials_Connecticut_Innovations_FY2021.pdf,Financials,page 1 says Independent Auditors Report Financial Statements
+SRC040,Financials_TEDCO_Maryland_Annual_Report_FY2021.pdf,Financials,page 2 says Annual Report and Financial Statements
+SRC041,Schedule_Inv_FS_KKR_Capital_Corp_ARS_FY2025.pdf,Financials,annual report Form 10-K includes Item 8 financial statements
+SRC042,Schedule_Inv_Blackstone_Secured_Lending_Fund_ARS_FY2025.pdf,Financials,Form 10-K annual report includes Item 8 financial statements
+SRC043,Schedule_Inv_Blackstone_Private_Credit_Fund_ARS_FY2025.pdf,Financials,annual report Form 10-K includes Item 8 financial statements
+SRC044,Schedule_Inv_Sixth_Street_Specialty_Lending_ARS_FY2025.pdf,Financials,Form 10-K includes Item 8 consolidated financial statements
+SRC045,Schedule_Inv_MidCap_Financial_Investment_Corp_ARS_FY2025.pdf,Financials,annual report includes Item 8 consolidated financial statements
+SRC046,Schedule_Inv_Apollo_Debt_Solutions_BDC_ARS_FY2025.pdf,Financials,annual report Form 10-K includes consolidated financial statements
+SRC047,Schedule_Inv_BlackRock_TCP_Capital_Corp_ARS_FY2025.pdf,Financials,Form 10-K includes Item 8 financial statements
+SRC048,Schedule_Inv_AB_Private_Credit_Investors_Corp_ARS_FY2025.pdf,Financials,Form 10-K includes Item 8 consolidated financial statements
+SRC049,Schedule_Inv_Franklin_BSP_Capital_Corp_ARS_FY2025.pdf,Financials,Form 10-K includes Item 8 consolidated financial statements
+SRC050,Schedule_Inv_Monroe_Capital_Corp_ARS_FY2023.pdf,Financials,Form 10-K includes Item 8 financial statements
+SRC051,NAV_Statement_SREIT_NAV_Supplement_May2025.pdf,NAV_Statement,supplement discloses May 31 NAV per share by class
+SRC052,NAV_Statement_BREIT_Prospectus_With_Supplements.pdf,PPM,page 1 says supplement to prospectus for current public offering
+SRC053,Performance_SREIT_Stockholder_Update_Apr2026.pdf,Performance,POOR FIT: Shareholder Update changes repurchases distributions and portfolio strategy
+SRC054,Performance_SREIT_Fact_Sheet_Aug2025.pdf,Performance,page 1 Fact Sheet presents SREIT Performance Summary
+SRC055,Quarterly_Report_JLLIPT_10Q_3Q2025.pdf,Quarterly_Report,page 1 says Form 10-Q Quarterly Report
+SRC056,Performance_JLLIPT_Quarterly_Update_3Q23.pdf,Performance,Q3 sales material presents net returns and NAV by share class
+SRC058,Quarterly_Report_Oregon_PERS_OPERF_Real_Estate_Q4_2024.pdf,Performance,portfolio table reports Total Value Multiple and IRR
+SRC059,Performance_LACERS_Real_Estate_Portfolio_Q4_2021.pdf,Quarterly_Report,page 1 says Performance Review Fourth Quarter 2021
+SRC060,Performance_Oregon_PERS_Alternatives_Portfolio_Q3_2022.pdf,Performance,portfolio table reports TWR IRR and Total Value Multiple
+SRC061,Reporting_NJ_Division_of_Investment_Reporting_Package_Apr2026.pdf,Institutional_Report,page 1 Investment Reporting Package period ending April 30 2026
+SRC063,Performance_CalPERS_Real_Assets_Partnership_Report_Jun2023.pdf,Performance,Portfolio and Partnership Report presents partnership performance summary
+SRC064,Performance_PSERS_Private_Markets_Combined_Portfolio_Report_Q3_2025.pdf,Performance,Combined Portfolio Report presents Net IRR TVPI and PME
+SRC065,Performance_MSBI_Private_Markets_Asset_Listing_Q4_2025.pdf,Schedule_Inv,page 1 says Private Markets Investments List of Commitments
+SRC066,Performance_HVPE_Annual_Report.pdf,Financials,Annual Report and Accounts contains financial statements and auditor report
+SRC067,Performance_Pantheon_International_Annual_Report.pdf,Financials,Annual Report and Accounts contents include Financial Statements
+SRC068,Performance_San_Jose_Federated_Private_Markets_Q2_2017.pdf,Institutional_Report,page 1 says Private Markets Program Interim Report
+SRC069,Performance_Landmark_Real_Estate_Fund_IX_Secondaries.pdf,Performance,POOR FIT: fund marketing deck presents strategy portfolio and track record
+SRC070,Performance_WSIB_Private_Equity_Portfolio_Overview.pdf,Performance,Private Equity Portfolio Overview explains IRRs and reported performance
+SRC071,Performance_CalPERS_PERF_Partnership_Report.pdf,Performance,Portfolio and Partnership Report presents market value and performance
+SRC074,Valuation_IPEV_Guidelines_December_2022.pdf,Valuation,page 1 says Private Equity and Venture Capital Valuation Guidelines
+SRC086,Financials_CohnReznick_Hedge_Fund_Illustrative_2025.pdf,Financials,page 1 says Hedge Fund 2025 Illustrative Financial Statements
+SRC087,Financials_CohnReznick_Private_Equity_Illustrative_2025.pdf,Financials,page 1 says Private Equity Fund Illustrative Financial Statements
+SRC088,Financials_PwC_Investment_Fund_Illustrative_2025.pdf,Financials,page 1 says Illustrative IFRS financial statements Investment funds
+SRC089,Financials_Withum_Venture_Capital_Fund_Illustrative.pdf,Financials,page 1 says Venture Capital Fund Financial Statements Reference Manual
+SRC090,Financials_EY_Good_Investment_Fund_Illustrative_2018.pdf,Financials,page 1 says Illustrative financial statements for year ended 2018
+SRC091,Financials_KPMG_Private_Equity_Illustrative_2022.pdf,Financials,page 1 says Illustrative financial statements Private equity funds
+SRC092,Financials_KPMG_Alternative_Investment_Fund_Illustrative_2015.pdf,Financials,page 1 says Alternative Investment Fund Illustrative Financial Statements
+SRC099,Quarterly_Report_PSERS_Real_Estate_2Q17_FOIA.pdf,Quarterly_Report,page 1 says Real Estate Second Quarter 2017
+SRC100,Performance_USS_Investment_Builder_Quarterly_Report.pdf,Quarterly_Report,page 1 says Quarterly Investment Report Q1 2026
+SRC101,PCAP_Heritage_Fund_I_LP_PSERS_FOIA.pdf,Quarterly_Report,page 1 says Quarterly Report period ending June 30 2009
+SRC102,PCAP_Jefferson_Partners_Fund_IV_PSERS_FOIA.pdf,Financials,page 1 says Financial Statements period ended December 2016
+SRC103,DDQ_AIMA_CTA_Chesapeake_Capital.pdf,DDQ,page 1 says Illustrative Questionnaire for Due Diligence
+SRC105,Financials_Tetragon_Financial_Group_Annual2025.pdf,Financials,annual report contents include Audited financial statements
+SRC106,Financials_Tetragon_Financial_Group_Annual2022.pdf,Financials,annual report contents include Audited financial statements
+SRC107,DDQ_AIMA_Bear_Stearns_HGSCS_FCIC.pdf,DDQ,page 1 says Illustrative Questionnaire for Due Diligence
+SRC108,NAV_Statement_ThirdPoint_Monthly_Aug2025.pdf,Performance,Monthly Update reports NAV performance and benchmark returns
+SRC109,Financials_PershingSquareHoldings_Annual2025.pdf,Financials,annual report contents identify Audited Financial Statements
+SRC110,Financials_BlueCrest_AllBlue_Fund_2013.pdf,Financials,Annual Report and Accounts contents include Financial Statements
+SRC111,Financials_ThirdPoint_Investors_Annual2022.pdf,Financials,page 1 says Annual Report and Audited Financial Statements
+SRC113,Financials_KPMG_HedgeFund_Illustrative_2025.pdf,Financials,page 1 says Illustrative financial statements Hedge funds
+SRC114,NAV_Statement_BHMacro_Monthly_Apr2024.pdf,Performance,Monthly Shareholder Report presents NAV performance attribution
+SRC120,Performance_Oregon_OPERF_Private_Equity_Portfolio_2025Q3.pdf,Performance,Private Equity Portfolio table reports IRR and Total Value Multiple
+SRC121,Performance_LACERA_Private_Equity_Holdings_2020Q3.pdf,Performance,Portfolio Investment Report gives DPI TVPI and Net IRR
+SRC122,Performance_Florida_Growth_Fund_OPPAGA_Review_2025.pdf,Institutional_Report,annual statutory review covers Florida Growth Fund Program investments
+SRC123,Performance_New_Mexico_SIC_Private_Equity_Program_2021.pdf,Institutional_Report,institutional presentation reviews New Mexico private equity investment program
+SRC124,Performance_SFERS_Private_Equity_Update_2025.pdf,Institutional_Report,board calendar sheet says Private Equity Annual Update
+SRC125,Performance_Texas_ERS_PRB_Annual_Report_2023.pdf,Institutional_Report,evaluation report reviews governance policy allocation and investment performance
+SRC126,Performance_NY_OSC_Pension_In_State_Investments.pdf,Institutional_Report,Status Report reviews pension in-state private equity investment activity
+SRC127,Quarterly_Report_ASKIA_PSERS_2017Q4_FOIA.pdf,Quarterly_Report,page 1 says Quarterly Update as of December 31 2017
+SRC129,Financials_EisnerAmper_Illustrative_2022.pdf,Financials,page 1 says Illustrative Financial Statement Alternative Investment Funds
+SRC130,Financials_Deloitte_AIFM_Illustrative_2024.pdf,Financials,page 1 says Annual report Illustrative financial statements 2024
+SRC132,Valuation_JLLIPT_Institutional_Valuation_Methodology.pdf,Valuation,page 1 says Our Institutional Valuation Methodology
+SRC134,Performance_PSERS_PEVCPD_Partnership_Data_20130331.pdf,Performance,page 1 labels table performance information with IRR and Multiple
+SRC135,Performance_PSERS_PEVCPD_Partnership_Data_20141231.pdf,Performance,page 1 labels table performance information with IRR and Multiple
+SRC136,Performance_PSERS_PEVCPD_Partnership_Data_20150930.pdf,Performance,page 1 labels table performance information with IRR
+SRC137,Performance_PSERS_Real_Estate_Partnership_Data_1Q2013.pdf,Performance,page 1 labels table performance information with IRR and Multiple
+SRC138,Performance_PSERS_PEVCSS_PEIP_Partnership_Data_4Q2016.pdf,Performance,page 1 labels table performance information with IRR and MOC
+SRC139,Performance_PSERS_Real_Estate_Partnership_Data_3Q2017.pdf,Performance,page 1 labels table performance information with IRR and Multiple
+SRC140,Performance_PSERS_PEVCPD_PEI_Partnership_Data_4Q2015.pdf,Performance,page 1 labels table performance information with IRR and Multiple
+SRC145,Fee_Report_PSERS_Fees_By_Manager_FY2013.pdf,Fee_Report,page 1 says Investment Managers Fees fiscal year ended 2013
+SRC146,Fee_Report_PSERS_Fees_By_Manager_FY2016.pdf,Fee_Report,page 1 says Investment Fees by Manager fiscal year 2016
+SRC147,Fee_Report_PSERS_Fee_Transparency_Response_Bullet2.pdf,Financials,page 1 says Financial Section Notes to Financial Statements
+SRC148,Performance_PSERS_Adjusted_Ending_Value_TVPI_DPI_RVPI_Jun2018.pdf,Performance,page 1 reports Adjusted Ending Value with TVPI DPI RVPI
+SRC149,Performance_PSERS_Benchmarking_Direct_Alpha_PME_Jun2018.pdf,Performance,page 1 says Performance Benchmarking with Direct Alpha and PME
+SRC151,Reporting_Glass_Lewis_Proxy_Season_Review_2017_PSERS.pdf,Stewardship_Proxy_Report,page 1 says Proxy Season Review and Preview
+SRC152,Financials_PSERS_Notes_To_Financial_Statements_Response002.pdf,Financials,page 1 says Financial Section Notes to Financial Statements
+SRC160,Quarterly_Report_PA_SERS_Investment_Performance_2Q2013.pdf,Quarterly_Report,page 1 says Quarterly Investment Performance Analysis
+SRC161,Quarterly_Report_PA_SERS_Investment_Performance_4Q2015.pdf,Quarterly_Report,page 1 says Quarterly Investment Performance Analysis
+SRC162,Quarterly_Report_PA_SERS_Investment_Performance_2Q2017.pdf,Quarterly_Report,page 1 says Quarterly Investment Performance Analysis
+SRC163,Financials_PA_SERS_Budget_Book_2017.pdf,Institutional_Report,page 1 identifies SERS 2017 Supplemental Budget Book
+SRC164,Fee_Report_CalSTRS_AB2833_Private_Equity_Fees_2025.pdf,Fee_Report,AB2833 report discloses management fees carried interest and expenses
+SRC165,Performance_LACERA_Total_Fund_Performance_3Q2022.pdf,Quarterly_Report,page 1 says Total Fund Performance Report for quarter ended
+SRC166,Performance_WSIB_Quarterly_Investment_Report_Jun2025.pdf,Quarterly_Report,page 1 says Investment Reports Quarterly Report June 30 2025
+SRC167,Performance_WSIB_Quarterly_Investment_Report_Dec2024.pdf,Quarterly_Report,page 1 says Investment Reports Quarterly Report December 31 2024
+SRC168,Performance_OPERF_Private_Equity_Portfolio_Q4_2023.pdf,Performance,Private Equity Portfolio table reports IRR and Total Value Multiple
+SRC169,Performance_OCERS_Private_Equity_Portfolio_Q2_2025.pdf,Performance,Private Equity Portfolio Report table gives Net IRR and TVPI
+SRC170,Performance_KCERA_Investment_Performance_Review_Q2_2023.pdf,Quarterly_Report,Investment Performance Review reports last-three-month portfolio results
+SRC171,Performance_SFERS_Private_Credit_Annual_Update_Jul2025.pdf,Institutional_Report,board calendar sheet says Annual Private Credit Update
+SRC172,Performance_NMSIC_Private_Equity_Investment_Program_Nov2021.pdf,Institutional_Report,institutional presentation explains New Mexico private equity investment program
+SRC173,Performance_NMSIC_Private_Equity_Investment_Program_Dec2020.pdf,Institutional_Report,institutional presentation explains New Mexico private equity investment program
+SRC174,Financials_Montana_Board_of_Investments_Annual_Report_FY2025.pdf,Institutional_Report,page 1 says Montana Board of Investments Annual Report 2025
+SRC175,Financials_Arizona_PSPRS_ACFR_FY2025.pdf,Financials,page 1 says Annual Comprehensive Financial Report
+SRC176,Performance_SDCERA_Quarterly_Investment_Report_Q1_2017.pdf,Quarterly_Report,page 1 says First Quarter 2017 Quarterly Investment Review
+SRC177,Performance_Sacramento_SCERS_Real_Estate_Performance_Q3_2025.pdf,Quarterly_Report,page 1 says Performance Measurement Report Third Quarter 2025
+SRC178,Performance_CCCERA_Quarterly_Performance_Measurement_Q1_2006.pdf,Quarterly_Report,page 1 says Quarterly Review and Performance Measurement Report
+SRC179,Performance_FCERA_Fresno_Investment_Performance_Review_Q4_2023.pdf,Quarterly_Report,Investment Performance Review presents quarter and YTD reconciliation
+SRC180,Reporting_Colorado_PERA_Investment_Committee_Materials_Nov2025.pdf,Institutional_Report,page 1 says Investment Committee Meeting Materials November 2025
+SRC181,Performance_Colorado_PERA_Alternatives_Asset_Class_Overview_Nov2025.pdf,Institutional_Report,Alternatives Asset Class Overview is Investment Committee educational material
+SRC182,Reporting_Alaska_ARMB_Monthly_Financial_Report_May2025.pdf,Institutional_Report,page 1 says Financial Report as of May 31 2025

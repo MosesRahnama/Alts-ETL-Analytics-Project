@@ -1,0 +1,13 @@
+input_value,output_value,decided_by,evidence,note,context
+1,vintage_year,"pipeline literal, extraction support",src/catalog/simple_pdf_extraction/fund_attributes.py:49,,field
+2,strategy,"pipeline literal, extraction support",src/catalog/simple_pdf_extraction/fund_attributes.py:49,,field
+3,asset_class,"pipeline literal, extraction support",src/catalog/simple_pdf_extraction/fund_attributes.py:49,,field
+4,geography,"pipeline literal, extraction support",src/catalog/simple_pdf_extraction/fund_attributes.py:49,,field
+vintage_year,stamped,"pipeline literal, extraction support",src/catalog/simple_pdf_extraction/fund_attributes.py:49,,stamp_field
+strategy,stamped,"pipeline literal, extraction support",src/catalog/simple_pdf_extraction/fund_attributes.py:49,,stamp_field
+decided,settled,"pipeline literal, extraction support",src/catalog/simple_pdf_extraction/fund_attributes.py:49|src/catalog/simple_pdf_extraction/fund_attributes.py:50|src/catalog/simple_pdf_extraction/fund_attributes.py:157|src/pipeline/reviewer_check.py:429,,settled_status
+unique,settled,"pipeline literal, extraction support",src/catalog/simple_pdf_extraction/fund_attributes.py:49|src/catalog/simple_pdf_extraction/fund_attributes.py:50|src/catalog/simple_pdf_extraction/fund_attributes.py:157|src/pipeline/reviewer_check.py:429,,settled_status
+unique_canonical,settled,"pipeline literal, extraction support",src/catalog/simple_pdf_extraction/fund_attributes.py:49|src/catalog/simple_pdf_extraction/fund_attributes.py:50|src/catalog/simple_pdf_extraction/fund_attributes.py:157|src/pipeline/reviewer_check.py:429,,settled_status
+fund_prefix,FUND_,"pipeline literal, extraction support",src/catalog/simple_pdf_extraction/fund_attributes.py:49,,
+no_values,none,"pipeline literal, extraction support",src/catalog/simple_pdf_extraction/fund_attributes.py:50|src/catalog/simple_pdf_extraction/fund_attributes.py:157,,classify
+single_value,unique,"pipeline literal, extraction support",src/catalog/simple_pdf_extraction/fund_attributes.py:50|src/catalog/simple_pdf_extraction/fund_attributes.py:157,,classify

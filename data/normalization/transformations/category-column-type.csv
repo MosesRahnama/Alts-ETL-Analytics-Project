@@ -1,0 +1,3 @@
+input_value,output_value,decided_by,evidence,note
+text_type,VARCHAR,"pipeline literal, wide pivot",src/flatten/pivot_wide.py:384,A text category holds the printed phrase.
+numeric_type,"DECIMAL(30, 6)","pipeline literal, wide pivot",src/flatten/pivot_wide.py:384,"A numeric category holds the number as printed, never rescaled."

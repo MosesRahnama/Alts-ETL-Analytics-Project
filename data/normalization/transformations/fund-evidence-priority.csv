@@ -1,0 +1,9 @@
+input_value,output_value,decided_by,evidence,note
+1,document_fund_map,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:296,The first table naming the fund supplies its evidence anchor.
+2,fund_observations,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:296,The first table naming the fund supplies its evidence anchor.
+3,fund_master,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:296,The first table naming the fund supplies its evidence anchor.
+4,fund_periods,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:296,The first table naming the fund supplies its evidence anchor.
+5,fund_holdings,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:296,The first table naming the fund supplies its evidence anchor.
+6,fund_cashflows,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:296,The first table naming the fund supplies its evidence anchor.
+7,fund_terms,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:296,The first table naming the fund supplies its evidence anchor.
+8,fund_term_clauses,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:296,The first table naming the fund supplies its evidence anchor.

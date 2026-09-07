@@ -1,0 +1,11 @@
+input_value,output_value,decided_by,evidence,note,context
+1,file_id,"pipeline literal, review builder",src/pipeline/build_extraction_review.py:220,,published
+2,source_page,"pipeline literal, review builder",src/pipeline/build_extraction_review.py:220,,published
+3,source_table,"pipeline literal, review builder",src/pipeline/build_extraction_review.py:220,,published
+4,source_row_label,"pipeline literal, review builder",src/pipeline/build_extraction_review.py:220,,published
+5,source_column_label,"pipeline literal, review builder",src/pipeline/build_extraction_review.py:220,,published
+6,source_occurrence,"pipeline literal, review builder",src/pipeline/build_extraction_review.py:220,,published
+7,record_family,"pipeline literal, review builder",src/pipeline/build_extraction_review.py:220,,published
+8,metric_category,"pipeline literal, review builder",src/pipeline/build_extraction_review.py:220,,published
+9,metric_name,"pipeline literal, review builder",src/pipeline/build_extraction_review.py:220,,published
+1,document_id,"pipeline literal, review builder",src/pipeline/build_extraction_review.py:220,The working side keys on document_id; the rest match the published key.,working

@@ -1,0 +1,4 @@
+input_value,output_value,decided_by,evidence,note
+physical_pairs,pairs_minus_one_sided,"pipeline literal, review builder",src/pipeline/build_extraction_review.py:474|src/pipeline/build_extraction_review.py:488,Pairs both lanes saw.
+value_agreements,physical_pairs_minus_value_conflicts,"pipeline literal, review builder",src/pipeline/build_extraction_review.py:474,
+agreement_rate_format,.6f,"pipeline literal, review builder",src/pipeline/build_extraction_review.py:488,Blank when no physical pair exists.

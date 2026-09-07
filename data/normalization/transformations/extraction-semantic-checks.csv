@@ -1,0 +1,34 @@
+input_value,output_value,decided_by,evidence,note,context
+number_boundary,"(?<!\d)(?<!\d[.,]){value}(?!\d|[.,]\d)",source review,src/catalog/simple_pdf_extraction/semantic_checks.py,An excerpt must contain the complete value rather than part of another number.,pattern
+year_column,^(?:19|20)\d{2}$,source review,src/catalog/simple_pdf_extraction/semantic_checks.py,A year column retains its own observation year.,pattern
+year_token,\b(?:19|20)\d{2}\b,source review,src/catalog/simple_pdf_extraction/semantic_checks.py,Years read from the recorded source date.,pattern
+relative_prior,\blast quarter\b,source review,SRC463 page 1,The prior-quarter label differs from the current statement date.,pattern
+whole_fund,^total fund\b,source review,SRC594 page 3,The whole-fund row differs from strategy rows under fund columns.,pattern
+capital_account,\bcapital account\b,source review,SRC463 pages 1-2,An investor account has its own owner.,pattern
+investee_label,\binvestee fund\b,source review,SRC463 page 1,A printed investee label distinguishes the fund from the account owner.,pattern
+investor_label,\binvestor\b,source review,SRC463 page 1,A printed investor label identifies the account owner.,pattern
+net,\bnet (?:irr|return|returns|of (?:investment management )?fees)\b,source review,SRC594 pages 3-4,The row or column states net fee treatment.,fee_header
+gross,\bgross (?:irr|return|returns|of (?:investment management )?fees)\b,source review,SRC192 page 3,The row or column states gross fee treatment.,fee_header
+time_weighted,\btime[- ]weighted\b|\btwr\b,source review,SRC457 pages 12-13,A stated return method differs from an internal rate of return.,method_header
+modified_dietz,\bmodified dietz\b,source review,SRC594 pages 4-5,A stated return method differs from an internal rate of return.,method_header
+money_weighted,\bmoney[- ]weighted\b,source review,SRC192 page 3,The stated return method is money weighted.,method_header
+return,check,source review,src/catalog/simple_pdf_extraction/semantic_checks.py,Return rows use fee and method checks.,return_category
+irr,check,source review,src/catalog/simple_pdf_extraction/semantic_checks.py,Internal-rate rows use fee and method checks.,return_category
+nav,check,source review,SRC463 page 1,The account balance retains its investor scope.,account_category
+beginning_capital,check,source review,SRC102 page 11,The account balance retains its investor scope.,account_category
+ending_capital,check,source review,SRC463 page 1,The account balance retains its investor scope.,account_category
+net_assets,check,source review,SRC463 page 1,The account balance retains its investor scope.,account_category
+fund_position,required,source review,SRC463 page 1,An identified investor account uses fund_position.,account_scope
+allocation_bucket,required,source review,SRC594 page 3,A component under a fund column uses allocation_bucket.,component_scope
+fund_total,required,source review,SRC594 page 3,A total-fund row under a fund column uses fund_total.,total_scope
+partial,accepted,source review,SRC375 footnote 2,A cited split of fee treatments takes precedence over a short net or gross heading.,fee_exception
+time_weighted,modified_dietz,source review,SRC457 definition 1,Modified Dietz is accepted under a time-weighted heading only when the cited definition states that method.,method_refinement
+reason_min_words,6,source review,src/catalog/simple_pdf_extraction/csv_workflow.py,A prefix without a source-specific exclusion is not a coverage explanation.,coverage
+UNREADABLE,hold,source review,src/catalog/simple_pdf_extraction/csv_workflow.py,Illegibility is an open review condition rather than completed CORE extraction.,incomplete_status
+DEFERRED_BY_SCOPE,hold,source review,src/catalog/simple_pdf_extraction/csv_workflow.py,A CORE page requires a settled extraction or source-backed exclusion.,incomplete_status
+valid_final,DONE,source review,src/catalog/simple_pdf_extraction/csv_workflow.py,Historical candidates remain closed only while their adjudicated final validates.,lane_state
+invalid_final,REVIEW_REQUIRED,source review,src/catalog/simple_pdf_extraction/csv_workflow.py,An invalid existing final requires reviewer repair rather than rewriting independent candidates.,lane_state
+definition_signal,glossary of terms|significant\s*accounting\s*policies|definitions relating to qualified purchaser|valuation of investments|certain of the performance results included herein,source review,SRC377 SRC102 SRC612 SRC607 SRC407 SRC457,Zero-observation pages with these printed definition headings require source review and definition records.,pattern
+statement_label,"^(?:total$|other$|distribution(?:s)?$|contributions$|beginning of year$|end of year$|cash,|cash paid for|capital contributions|capital -|partners' capital,|net assets|unrestricted net assets|deficit,|change in unrealized|net change|net increase|net investment income|net realized|realized (?:loss|gain)|loss before|stock and noncash|contributed services|investment income|investment management expenses|derivative liabilities|fair value presented|management fees|interest expense|legal fees|office and administrative|professional fees|other expenses|total (?:assets|liabilities|partners' capital|expenses|investment|investments|fixed income|exposed to credit risk))",source review,SRC034 pp3-10; SRC102 pp2-4; SRC152 pp2-5; SRC377 pp3-11,Accounting labels identify statement items and do not name institutions.,pattern
+named_partnership_fund,^(?!.*\band\b).*\bfund\b.*\bl[.]?p[.]?$,source review,SRC102 p10,A single printed fund partnership differs from a pension or reporting institution.,pattern
+other_printed_scope,required,source review,SRC034 p3; SRC377 p3,A statement item retains its printed name without an institution identity.,statement_label_scope

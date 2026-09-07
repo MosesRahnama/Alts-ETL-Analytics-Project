@@ -1,0 +1,2 @@
+input_value,output_value,decided_by,evidence,note
+lean_marker,round02/progress.csv,"pipeline literal, promotion gate",src/load/validate_round02_promotion.py:314,The marker under the working folder naming the accepted Round 02 batches; the promotion stage writes it and the gate refuses a working folder without it.

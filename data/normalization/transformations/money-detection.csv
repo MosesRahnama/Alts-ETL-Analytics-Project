@@ -1,0 +1,4 @@
+input_value,output_value,decided_by,evidence,note
+currency_field_populated,money,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:192,"The currency code is populated even when the dollar sign sat in the column heading, so it decides."
+value_kind_currency,money,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:192,A cell that itself printed a currency symbol.
+*,not_money,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:192,A cell carrying no currency signal is never treated as money.

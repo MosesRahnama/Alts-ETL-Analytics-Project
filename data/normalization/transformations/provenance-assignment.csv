@@ -1,0 +1,6 @@
+input_value,output_value,decided_by,evidence,note
+period_value,fund_periods,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:722,The lineage row names the table the value came from.
+attribute_value,fund_attributes_matrix,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:722,
+canonical_attribute_value,attribute_changes,"metric vocabulary review, 2026-09-01",src/pipeline/build_integrated_universe.py,The audit row identifies the printed observation supporting the settled fund attribute.
+manager_value,document_fund_map,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:722,
+carried_imputed_value,fund_master,"stage audit A5-02, 2026-09-02",audit/pipeline-audit/findings/a5-completion.csv A5-02,The lineage row names fund_master as the source because the imputed cell it repeats lives there.

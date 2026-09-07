@@ -1,0 +1,5 @@
+input_value,output_value,decided_by,evidence,note,context
+source_priority,YF_LONG_HISTORY,"pipeline literal, public-market curation",src/market_data/curate_public_markets.py:602,,long_history
+source_pattern,raw/equity/YF_{ticker}.parquet,"pipeline literal, public-market curation",src/market_data/curate_public_markets.py:602,,long_history
+source_priority,WIDE_PANEL_SUPPLEMENT,"pipeline literal, public-market curation",src/market_data/curate_public_markets.py:602,,wide_panel
+source_pattern,raw/wide_etf/wide_etf_adjclose.parquet,"pipeline literal, public-market curation",src/market_data/curate_public_markets.py:602,,wide_panel

@@ -1,0 +1,4 @@
+input_value,output_value,decided_by,evidence,note
+unrecognized_shape,unknown,"pipeline literal, flatten",src/flatten/flatten_extracted.py:286,The printed text stays the row's only claim; the ISO date is left empty.
+empty_text,<blank>,"pipeline literal, flatten",src/flatten/flatten_extracted.py:286,"No text, no precision."
+weekday_prefix,stripped,"pipeline literal, flatten",src/flatten/flatten_extracted.py:286,A weekday names the same day the rest of the string gives.

@@ -1,0 +1,10 @@
+input_value,output_value,decided_by,evidence,note
+1,document_id,"pipeline literal, wide pivot",src/flatten/pivot_wide.py:66,"Cells share a wide row when all nine keys match, before any split on column label."
+2,source_page,"pipeline literal, wide pivot",src/flatten/pivot_wide.py:66,
+3,source_table,"pipeline literal, wide pivot",src/flatten/pivot_wide.py:66,
+4,source_row_label,"pipeline literal, wide pivot",src/flatten/pivot_wide.py:66,
+5,source_occurrence,"pipeline literal, wide pivot",src/flatten/pivot_wide.py:66,
+6,horizon,"pipeline literal, wide pivot",src/flatten/pivot_wide.py:66,
+7,as_of_date,"pipeline literal, wide pivot",src/flatten/pivot_wide.py:66,"The parsed ISO date, so two printed spellings of one date share a row."
+8,period_start,"pipeline literal, wide pivot",src/flatten/pivot_wide.py:66,
+9,period_end,"pipeline literal, wide pivot",src/flatten/pivot_wide.py:66,

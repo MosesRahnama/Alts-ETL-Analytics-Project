@@ -1,0 +1,5 @@
+input_value,output_value,decided_by,evidence,note
+table_cells,12,"pipeline literal, extraction workflow",src/catalog/simple_pdf_extraction/csv_workflow.py:455,"At or above this many printed cells the page carries a table; the trigger for both a page declared empty and a page extracted below thin_ratio, which at three times this count fired on no page of the corpus."
+table_rows,4,"pipeline literal, extraction workflow",src/catalog/simple_pdf_extraction/csv_workflow.py:455,
+certain_cells,60,"pipeline literal, extraction workflow",src/catalog/simple_pdf_extraction/csv_workflow.py:455,Above this bound no honest narrative page has ever reached; declaring such a page empty is a hard failure.
+thin_ratio,0.25,"pipeline literal, extraction workflow",src/catalog/simple_pdf_extraction/csv_workflow.py:455,"Below this share of printed values on a dense page, the page was skimmed."

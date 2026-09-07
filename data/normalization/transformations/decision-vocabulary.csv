@@ -1,0 +1,6 @@
+input_value,output_value,decided_by,evidence,note,context
+PROMOTE,PROMOTED,"pipeline literal, promotion gate",src/load/validate_round02_promotion.py:182,The final decision and the promotion status must agree through this map.,
+CLOSE_NO_CANONICAL_ROW,CLOSED_NO_CANONICAL_ROW,"pipeline literal, promotion gate",src/load/validate_round02_promotion.py:182,,
+RETURN_FOR_READJUDICATION,RETURNED_FOR_READJUDICATION,"pipeline literal, promotion gate",src/load/validate_round02_promotion.py:182,,
+BLOCK,BLOCKED,"pipeline literal, promotion gate",src/load/validate_round02_promotion.py:182,,
+review_decisions,CONFIRM|ACCEPT_A|ACCEPT_B|MERGE|REJECT|ADD,"pipeline literal, review builder",src/pipeline/build_extraction_review.py:258,The review builder accepts exactly the workflow's decisions.,review

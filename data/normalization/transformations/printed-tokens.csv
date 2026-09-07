@@ -1,0 +1,27 @@
+input_value,output_value,decided_by,evidence,note,context
+n.m.,not_meaningful,"pipeline literal, extraction workflow",src/catalog/simple_pdf_extraction/csv_workflow.py:902,The page's own words for a cell no number fits.,not_meaningful
+n/m,not_meaningful,"pipeline literal, extraction workflow",src/catalog/simple_pdf_extraction/csv_workflow.py:902,The page's own words for a cell no number fits.,not_meaningful
+nm,not_meaningful,"pipeline literal, extraction workflow",src/catalog/simple_pdf_extraction/csv_workflow.py:902,The page's own words for a cell no number fits.,not_meaningful
+nmf,not_meaningful,"pipeline literal, extraction workflow",src/catalog/simple_pdf_extraction/csv_workflow.py:902,The page's own words for a cell no number fits.,not_meaningful
+$,currency_not_unit,"pipeline literal, extraction workflow",src/catalog/simple_pdf_extraction/csv_workflow.py:909,"A currency names the money, not what is measured.",currency
+aud,currency_not_unit,"pipeline literal, extraction workflow",src/catalog/simple_pdf_extraction/csv_workflow.py:909,"A currency names the money, not what is measured.",currency
+cad,currency_not_unit,"pipeline literal, extraction workflow",src/catalog/simple_pdf_extraction/csv_workflow.py:909,"A currency names the money, not what is measured.",currency
+chf,currency_not_unit,"pipeline literal, extraction workflow",src/catalog/simple_pdf_extraction/csv_workflow.py:909,"A currency names the money, not what is measured.",currency
+dollars,currency_not_unit,"pipeline literal, extraction workflow",src/catalog/simple_pdf_extraction/csv_workflow.py:909,"A currency names the money, not what is measured.",currency
+eur,currency_not_unit,"pipeline literal, extraction workflow",src/catalog/simple_pdf_extraction/csv_workflow.py:909,"A currency names the money, not what is measured.",currency
+gbp,currency_not_unit,"pipeline literal, extraction workflow",src/catalog/simple_pdf_extraction/csv_workflow.py:909,"A currency names the money, not what is measured.",currency
+jpy,currency_not_unit,"pipeline literal, extraction workflow",src/catalog/simple_pdf_extraction/csv_workflow.py:909,"A currency names the money, not what is measured.",currency
+us dollars,currency_not_unit,"pipeline literal, extraction workflow",src/catalog/simple_pdf_extraction/csv_workflow.py:909,"A currency names the money, not what is measured.",currency
+us$,currency_not_unit,"pipeline literal, extraction workflow",src/catalog/simple_pdf_extraction/csv_workflow.py:909,"A currency names the money, not what is measured.",currency
+usd,currency_not_unit,"pipeline literal, extraction workflow",src/catalog/simple_pdf_extraction/csv_workflow.py:909,"A currency names the money, not what is measured.",currency
+usd millions,currency_not_unit,"pipeline literal, extraction workflow",src/catalog/simple_pdf_extraction/csv_workflow.py:909,"A currency names the money, not what is measured.",currency
+usd thousands,currency_not_unit,"pipeline literal, extraction workflow",src/catalog/simple_pdf_extraction/csv_workflow.py:909,"A currency names the money, not what is measured.",currency
+£,currency_not_unit,"pipeline literal, extraction workflow",src/catalog/simple_pdf_extraction/csv_workflow.py:909,"A currency names the money, not what is measured.",currency
+¥,currency_not_unit,"pipeline literal, extraction workflow",src/catalog/simple_pdf_extraction/csv_workflow.py:909,"A currency names the money, not what is measured.",currency
+€,currency_not_unit,"pipeline literal, extraction workflow",src/catalog/simple_pdf_extraction/csv_workflow.py:909,"A currency names the money, not what is measured.",currency
+frequency,qualitative,"pipeline literal, extraction workflow",src/catalog/simple_pdf_extraction/csv_workflow.py:914,"A category whose printed value is a word, not a number.",qualitative
+independent_review,qualitative,"pipeline literal, extraction workflow",src/catalog/simple_pdf_extraction/csv_workflow.py:914,"A category whose printed value is a word, not a number.",qualitative
+method,qualitative,"pipeline literal, extraction workflow",src/catalog/simple_pdf_extraction/csv_workflow.py:914,"A category whose printed value is a word, not a number.",qualitative
+oversight,qualitative,"pipeline literal, extraction workflow",src/catalog/simple_pdf_extraction/csv_workflow.py:914,"A category whose printed value is a word, not a number.",qualitative
+valuation_assumption,qualitative,"pipeline literal, extraction workflow",src/catalog/simple_pdf_extraction/csv_workflow.py:914,"A category whose printed value is a word, not a number.",qualitative
+valuer,qualitative,"pipeline literal, extraction workflow",src/catalog/simple_pdf_extraction/csv_workflow.py:914,"A category whose printed value is a word, not a number.",qualitative

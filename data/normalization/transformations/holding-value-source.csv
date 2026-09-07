@@ -1,0 +1,3 @@
+input_value,output_value,decided_by,evidence,note
+default_source,value_numeric,"pipeline literal, flatten",src/flatten/flatten_extracted.py:711,
+maturity_date_raw,value_raw|value_text,"pipeline literal, flatten",src/flatten/flatten_extracted.py:711,The one text column keeps the printed text.

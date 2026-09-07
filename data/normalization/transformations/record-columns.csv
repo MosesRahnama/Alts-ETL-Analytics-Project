@@ -1,0 +1,48 @@
+input_value,output_value,decided_by,evidence,note,kind,since_contract
+1,contract_version,"pipeline literal, extraction contract",src/catalog/simple_pdf_extraction/csv_wide_contract.py:94,"One column of RECORD_COLUMNS, at its position.",provenance,2026-08-22.2
+2,file_id,"pipeline literal, extraction contract",src/catalog/simple_pdf_extraction/csv_wide_contract.py:94,"One column of RECORD_COLUMNS, at its position.",provenance,2026-08-22.2
+3,source_sha256,"pipeline literal, extraction contract",src/catalog/simple_pdf_extraction/csv_wide_contract.py:94,"One column of RECORD_COLUMNS, at its position.",provenance,2026-08-22.2
+4,canonical_doc_type,"pipeline literal, extraction contract",src/catalog/simple_pdf_extraction/csv_wide_contract.py:94,"One column of RECORD_COLUMNS, at its position.",provenance,2026-08-22.2
+5,route,"pipeline literal, extraction contract",src/catalog/simple_pdf_extraction/csv_wide_contract.py:94,"One column of RECORD_COLUMNS, at its position.",provenance,2026-08-22.2
+6,product_tier,"pipeline literal, extraction contract",src/catalog/simple_pdf_extraction/csv_wide_contract.py:94,"One column of RECORD_COLUMNS, at its position.",provenance,2026-08-22.2
+7,agent_role,"pipeline literal, extraction contract",src/catalog/simple_pdf_extraction/csv_wide_contract.py:94,"One column of RECORD_COLUMNS, at its position.",provenance,2026-08-22.2
+8,record_family,"pipeline literal, extraction contract",src/catalog/simple_pdf_extraction/csv_wide_contract.py:94,"One column of RECORD_COLUMNS, at its position.",provenance,2026-08-22.2
+9,source_page,"pipeline literal, extraction contract",src/catalog/simple_pdf_extraction/csv_wide_contract.py:94,"One column of RECORD_COLUMNS, at its position.",provenance,2026-08-22.2
+10,source_structure_type,"pipeline literal, extraction contract",src/catalog/simple_pdf_extraction/csv_wide_contract.py:94,"One column of RECORD_COLUMNS, at its position.",provenance,2026-08-22.2
+11,source_section,"pipeline literal, extraction contract",src/catalog/simple_pdf_extraction/csv_wide_contract.py:94,"One column of RECORD_COLUMNS, at its position.",provenance,2026-08-22.2
+12,source_table,"pipeline literal, extraction contract",src/catalog/simple_pdf_extraction/csv_wide_contract.py:94,"One column of RECORD_COLUMNS, at its position.",provenance,2026-08-22.2
+13,source_row_label,"pipeline literal, extraction contract",src/catalog/simple_pdf_extraction/csv_wide_contract.py:94,"One column of RECORD_COLUMNS, at its position.",provenance,2026-08-22.2
+14,source_column_label,"pipeline literal, extraction contract",src/catalog/simple_pdf_extraction/csv_wide_contract.py:94,"One column of RECORD_COLUMNS, at its position.",provenance,2026-08-22.2
+15,source_occurrence,"pipeline literal, extraction contract",src/catalog/simple_pdf_extraction/csv_wide_contract.py:94,"One column of RECORD_COLUMNS, at its position.",provenance,2026-08-22.2
+16,subject_type,"pipeline literal, extraction contract",src/catalog/simple_pdf_extraction/csv_wide_contract.py:94,"One column of RECORD_COLUMNS, at its position.",business,2026-08-22.2
+17,subject_name,"pipeline literal, extraction contract",src/catalog/simple_pdf_extraction/csv_wide_contract.py:94,"One column of RECORD_COLUMNS, at its position.",business,2026-08-22.2
+18,asset_class,"pipeline literal, extraction contract",src/catalog/simple_pdf_extraction/csv_wide_contract.py:94,"One column of RECORD_COLUMNS, at its position.",business,2026-08-22.2
+19,strategy,"pipeline literal, extraction contract",src/catalog/simple_pdf_extraction/csv_wide_contract.py:94,"One column of RECORD_COLUMNS, at its position.",business,2026-08-22.2
+20,geography,"pipeline literal, extraction contract",src/catalog/simple_pdf_extraction/csv_wide_contract.py:94,"One column of RECORD_COLUMNS, at its position.",business,2026-08-22.2
+21,manager_name,"pipeline literal, extraction contract",src/catalog/simple_pdf_extraction/csv_wide_contract.py:94,"One column of RECORD_COLUMNS, at its position.",business,2026-08-22.2
+22,investor_name,"pipeline literal, extraction contract",src/catalog/simple_pdf_extraction/csv_wide_contract.py:94,"One column of RECORD_COLUMNS, at its position.",business,2026-08-22.2
+23,portfolio_name,"pipeline literal, extraction contract",src/catalog/simple_pdf_extraction/csv_wide_contract.py:94,"One column of RECORD_COLUMNS, at its position.",business,2026-08-22.2
+24,vintage_year,"pipeline literal, extraction contract",src/catalog/simple_pdf_extraction/csv_wide_contract.py:94,"One column of RECORD_COLUMNS, at its position.",business,2026-08-22.2
+25,period_start,"pipeline literal, extraction contract",src/catalog/simple_pdf_extraction/csv_wide_contract.py:94,"One column of RECORD_COLUMNS, at its position.",business,2026-08-22.2
+26,period_end,"pipeline literal, extraction contract",src/catalog/simple_pdf_extraction/csv_wide_contract.py:94,"One column of RECORD_COLUMNS, at its position.",business,2026-08-22.2
+27,as_of_date,"pipeline literal, extraction contract",src/catalog/simple_pdf_extraction/csv_wide_contract.py:94,"One column of RECORD_COLUMNS, at its position.",business,2026-08-22.2
+28,horizon,"pipeline literal, extraction contract",src/catalog/simple_pdf_extraction/csv_wide_contract.py:94,"One column of RECORD_COLUMNS, at its position.",business,2026-08-22.2
+29,currency_scale,"pipeline literal, extraction contract",src/catalog/simple_pdf_extraction/csv_wide_contract.py:94,"One column of RECORD_COLUMNS, at its position.",business,2026-08-22.2
+30,metric_category,"pipeline literal, extraction contract",src/catalog/simple_pdf_extraction/csv_wide_contract.py:94,"One column of RECORD_COLUMNS, at its position.",business,2026-08-22.2
+31,metric_name,"pipeline literal, extraction contract",src/catalog/simple_pdf_extraction/csv_wide_contract.py:94,"One column of RECORD_COLUMNS, at its position.",business,2026-08-22.2
+32,metric_value_raw,"pipeline literal, extraction contract",src/catalog/simple_pdf_extraction/csv_wide_contract.py:94,"One column of RECORD_COLUMNS, at its position.",business,2026-08-22.2
+33,unit,"pipeline literal, extraction contract",src/catalog/simple_pdf_extraction/csv_wide_contract.py:94,"One column of RECORD_COLUMNS, at its position.",business,2026-08-22.2
+34,term_category,"pipeline literal, extraction contract",src/catalog/simple_pdf_extraction/csv_wide_contract.py:94,"One column of RECORD_COLUMNS, at its position.",business,2026-08-22.2
+35,text_raw,"pipeline literal, extraction contract",src/catalog/simple_pdf_extraction/csv_wide_contract.py:94,"One column of RECORD_COLUMNS, at its position.",business,2026-08-22.2
+36,basis_raw,"pipeline literal, extraction contract",src/catalog/simple_pdf_extraction/csv_wide_contract.py:94,"One column of RECORD_COLUMNS, at its position.",business,2026-08-22.2
+37,condition_raw,"pipeline literal, extraction contract",src/catalog/simple_pdf_extraction/csv_wide_contract.py:94,"One column of RECORD_COLUMNS, at its position.",business,2026-08-22.2
+38,evidence_quote,"pipeline literal, extraction contract",src/catalog/simple_pdf_extraction/csv_wide_contract.py:94,"One column of RECORD_COLUMNS, at its position.",provenance,2026-08-22.2
+39,evidence_class,"pipeline literal, extraction contract",src/catalog/simple_pdf_extraction/csv_wide_contract.py:94,"One column of RECORD_COLUMNS, at its position.",provenance,2026-08-22.2
+40,notes,"pipeline literal, extraction contract",src/catalog/simple_pdf_extraction/csv_wide_contract.py:94,"One column of RECORD_COLUMNS, at its position.",provenance,2026-08-22.2
+41,source_agents,"pipeline literal, extraction contract",src/catalog/simple_pdf_extraction/csv_wide_contract.py:94,"One column of RECORD_COLUMNS, at its position.",provenance,2026-08-22.2
+42,adjudication_status,"pipeline literal, extraction contract",src/catalog/simple_pdf_extraction/csv_wide_contract.py:94,"One column of RECORD_COLUMNS, at its position.",provenance,2026-08-22.2
+43,definition_keys,"metric vocabulary review, 2026-09-01",SRC063 p1 footnotes 1/*NM/**; SRC457 p2 footnotes 1-4; SRC192 footnotes 1/2/4,A definition_context row states the key it defines; a value row lists the printed markers it cites pipe-joined,business,2026-09-01.1
+44,method,"metric vocabulary review, 2026-09-01",SRC063 footnote 1 (time-weighted); SRC457 footnote 1 (Modified Dietz); SRC192 footnotes,Return computation method for qualified categories; values from dimension-values.csv,business,2026-09-01.1
+45,fee_basis,"metric vocabulary review, 2026-09-01",SRC063 footnote 1 (net of investment expenses); SRC375 footnote 2 (gross of UVIMCO fees net of manager fees),Fee treatment for qualified categories; values from dimension-values.csv,business,2026-09-01.1
+46,value_scope,"metric vocabulary review, 2026-09-01",dim_metric standard_measure/measure_scope from METRIC-STANDARD-MEASURES.csv,Grain of a printed value for scope-qualified categories; values from dimension-values.csv,business,2026-09-01.1
+47,sector,"metric vocabulary review, 2026-09-01",SRC034 prints six portfolio-company industries under the asset_class grouping; FIELD-SEMANTICS-ASSET-CLASS-STRATEGY-VALUE-KIND.md,The industry of the subject where the page groups by industry. An industry is not an asset class and had nowhere else to go.,business,2026-09-01.2

@@ -1,0 +1,5 @@
+﻿sample_order,file_id,filename,page_count,issuer,selection_reason
+1,SRC006,Subscription_Hedge_Fund_Template.pdf,18.0,RegComplianceWatch,census: population <=5
+2,SRC005,Subscription_ILPA_Model_Subscription_Agreement.pdf,25.0,ILPA,census: population <=5
+3,SRC607,Subscription_PA_SERS_Lubert_Adler_Real_Estate_Fund_VII_Redacted.pdf,43,Pennsylvania State Employees' Retirement System (released via PA General Assembly Act 5 data request),census: population <=5
+4,SRC608,Subscription_PA_SERS_Insight_Venture_Partners_VIII_Closing_Binder_Redacted.pdf,72,Pennsylvania State Employees' Retirement System (released via PA General Assembly Act 5 data request),census: population <=5

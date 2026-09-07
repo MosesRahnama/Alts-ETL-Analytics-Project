@@ -1,0 +1,16 @@
+input_value,output_value,decided_by,evidence,note,context
+canadian,CAD,"pipeline literal, flatten",src/flatten/flatten_extracted.py:98|src/flatten/flatten_extracted.py:105,,word
+australian,AUD,"pipeline literal, flatten",src/flatten/flatten_extracted.py:98|src/flatten/flatten_extracted.py:105,,word
+sterling,GBP,"pipeline literal, flatten",src/flatten/flatten_extracted.py:98|src/flatten/flatten_extracted.py:105,,word
+euro,EUR,"pipeline literal, flatten",src/flatten/flatten_extracted.py:98|src/flatten/flatten_extracted.py:105,,word
+dollar,USD,"pipeline literal, flatten",src/flatten/flatten_extracted.py:317,The fallback when no word or symbol names another currency.,word
+$,USD,"pipeline literal, flatten",src/flatten/flatten_extracted.py:98|src/flatten/flatten_extracted.py:105,,symbol
+€,EUR,"pipeline literal, flatten",src/flatten/flatten_extracted.py:98|src/flatten/flatten_extracted.py:105,,symbol
+£,GBP,"pipeline literal, flatten",src/flatten/flatten_extracted.py:98|src/flatten/flatten_extracted.py:105,,symbol
+¥,JPY,"pipeline literal, flatten",src/flatten/flatten_extracted.py:98|src/flatten/flatten_extracted.py:105,,symbol
+\bCAD\b|(?<!\w)C\$|\bcanadian\b,CAD,Codex,SRC102 physical page 10,Canadian currency stated by the source.,specific_pattern
+\bAUD\b|(?<!\w)A\$|\baustralian\b,AUD,Codex,tests/test_pipeline_corrections.py,Australian currency stated by the source.,specific_pattern
+\bUSD\b|(?<!\w)US\$,USD,Codex,tests/test_pipeline_corrections.py,A code or prefixed symbol distinguishes US dollars.,specific_pattern
+\bEUR\b|€|\beuros?\b,EUR,Codex,tests/test_pipeline_corrections.py,Euro denomination stated by the source.,specific_pattern
+\bGBP\b|£|\bsterling\b,GBP,Codex,tests/test_pipeline_corrections.py,Sterling denomination stated by the source.,specific_pattern
+\bJPY\b,JPY,Codex,tests/test_pipeline_corrections.py,The code distinguishes yen from a shared symbol.,specific_pattern

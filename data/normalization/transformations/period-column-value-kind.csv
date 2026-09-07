@@ -1,0 +1,20 @@
+input_value,output_value,decided_by,evidence,note
+beginning_nav,money,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:111,Holds an amount of money; the value is scaled by its printed unit before it is placed.
+commitment,money,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:111,Holds an amount of money; the value is scaled by its printed unit before it is placed.
+contributions_period,money,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:111,Holds an amount of money; the value is scaled by its printed unit before it is placed.
+distributions_itd,money,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:111,Holds an amount of money; the value is scaled by its printed unit before it is placed.
+ending_nav,money,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:111,Holds an amount of money; the value is scaled by its printed unit before it is placed.
+management_fee_period,money,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:111,Holds an amount of money; the value is scaled by its printed unit before it is placed.
+nav,money,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:111,Holds an amount of money; the value is scaled by its printed unit before it is placed.
+net_income_period,money,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:111,Holds an amount of money; the value is scaled by its printed unit before it is placed.
+paid_in_capital_itd,money,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:111,Holds an amount of money; the value is scaled by its printed unit before it is placed.
+realized_gain_period,money,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:111,Holds an amount of money; the value is scaled by its printed unit before it is placed.
+recallable_distributions_itd,money,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:111,Holds an amount of money; the value is scaled by its printed unit before it is placed.
+unfunded_commitment,money,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:111,Holds an amount of money; the value is scaled by its printed unit before it is placed.
+unrealized_gain_period,money,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:111,Holds an amount of money; the value is scaled by its printed unit before it is placed.
+dpi,ratio,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:117,Holds a bare multiple; a value carrying a currency is refused.
+rvpi,ratio,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:117,Holds a bare multiple; a value carrying a currency is refused.
+tvpi,ratio,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:117,Holds a bare multiple; a value carrying a currency is refused.
+reported_irr,rate,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:118|src/load/promote_extracted_to_fund_level.py:222,Holds a decimal rate; a printed percent is divided by 100.
+period_return,rate,"promotion qualifier audit, 2026-09-02",audit/pipeline-audit/findings/a4-promotion.csv A4-03,"Holds a decimal rate; a printed percent is divided by 100, the same reading reported_irr takes."
+*,as_printed,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:239,A column named by no kind takes the printed number as it stands.

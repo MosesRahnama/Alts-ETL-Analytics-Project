@@ -1,0 +1,8 @@
+input_value,output_value,decided_by,evidence,note,context
+1,metric_id,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:339,The extracted id when the page carried one.,fund_observations.metric_id
+2,<record_family_dot_category>,"pipeline literal, promotion module",src/load/promote_extracted_to_fund_level.py:339,Else the family and the category joined with a dot.,fund_observations.metric_id
+run_id_format,{optimization_run_id};quality_run={quality_run_id},"pipeline literal, analytics",src/analytics/run_round04_analytics.py:533,,analytics.run
+fund_only_when,no_position_parts,"pipeline literal, analytics",src/analytics/run_round04_analytics.py:871,"A position with no LP id, LP name, or share class is the fund itself.",analytics.entity
+id_separator,_,"pipeline literal, analytics",src/analytics/run_round04_analytics.py:1110,,analytics.stable_id
+id_sanitize,non_alphanumeric_to_underscore,"pipeline literal, analytics",src/analytics/run_round04_analytics.py:1110,,analytics.stable_id
+id_case,upper,"pipeline literal, analytics",src/analytics/run_round04_analytics.py:1110,,analytics.stable_id

@@ -1,0 +1,4 @@
+input_value,output_value,decided_by,evidence,note
+PORTFOLIO_SYNTH_EQUAL_WEIGHT,equal_weight,"pipeline literal, synthetic fixture",src/generate/generate_synthetic_funds.py:1933,Every fund weighs the same.
+PORTFOLIO_SYNTH_STRATEGY_TILT,strategy_tilt,"pipeline literal, synthetic fixture",src/generate/generate_synthetic_funds.py:1933,Weights are the inverse of strategy volatility.
+PORTFOLIO_SYNTH_LIQUIDITY_TILT,liquidity_tilt,"pipeline literal, synthetic fixture",src/generate/generate_synthetic_funds.py:1933,

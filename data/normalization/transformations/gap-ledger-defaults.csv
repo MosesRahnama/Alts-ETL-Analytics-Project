@@ -1,0 +1,4 @@
+input_value,output_value,decided_by,evidence,note
+original_value,<blank>,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:407,"Only blank cells are filled, so the original is always empty."
+status,RESOLVED,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:407,
+unfilled_status,OPEN,"metric vocabulary review, 2026-09-01","934 sub_strategy gaps were reported RESOLVED from name guesses",A gap no printed evidence closes stays open.

@@ -1,5 +1,7 @@
 # AI-Powered Alternative Investment ETL and Analytics
 
+The live dashboard contains 36 extracted documents and 8,613 evidence rows, using the files in [dashboard-data](dashboard-data/README.md). Repository code and its source tables retain their existing release.
+
 Public investment reports become reviewed evidence, normalized fund records, and reproducible analytics. The corpus contains 442 PDFs across 17 document types; 36 documents have completed extraction, with 8,613 evidence records and 693 covered pages. The [dashboard](dashboard.html) presents the release and explains its data, controls, and analytical results.
 
 ## Data populations

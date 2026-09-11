@@ -1,0 +1,13 @@
+person_id,case_id,manager_id,person_name,role,seniority,join_date,departure_date,ownership_pct,carry_participation,source_kind,evidence_id,synthetic_flag,generator_version
+PERSON_00176_01,CASE_001,MANAGER_SYNTH_00176,Synthetic Investment Professional 176-1,Managing Partner,senior,2016-03-04,,0.1850,true,SYNTHETIC_CASE,EV_TEAM_CASE_001_01,true,gp_v2_cases_2
+PERSON_00176_02,CASE_001,MANAGER_SYNTH_00176,Synthetic Investment Professional 176-2,Partner,senior,2018-05-07,,0.1500,true,SYNTHETIC_CASE,EV_TEAM_CASE_001_02,true,gp_v2_cases_2
+PERSON_00176_03,CASE_001,MANAGER_SYNTH_00176,Synthetic Investment Professional 176-3,Partner,senior,2020-07-10,,0.1150,true,SYNTHETIC_CASE,EV_TEAM_CASE_001_03,true,gp_v2_cases_2
+PERSON_00176_04,CASE_001,MANAGER_SYNTH_00176,Synthetic Investment Professional 176-4,Principal,mid_level,2022-09-13,,0.0800,true,SYNTHETIC_CASE,EV_TEAM_CASE_001_04,true,gp_v2_cases_2
+PERSON_00091_01,CASE_002,MANAGER_SYNTH_00091,Synthetic Investment Professional 091-1,Managing Partner,senior,2016-03-04,,0.1850,true,SYNTHETIC_CASE,EV_TEAM_CASE_002_01,true,gp_v2_cases_2
+PERSON_00091_02,CASE_002,MANAGER_SYNTH_00091,Synthetic Investment Professional 091-2,Partner,senior,2018-05-07,2025-03-31,0.1500,true,SYNTHETIC_CASE,EV_TEAM_CASE_002_02,true,gp_v2_cases_2
+PERSON_00091_03,CASE_002,MANAGER_SYNTH_00091,Synthetic Investment Professional 091-3,Partner,senior,2020-07-10,,0.1150,true,SYNTHETIC_CASE,EV_TEAM_CASE_002_03,true,gp_v2_cases_2
+PERSON_00091_04,CASE_002,MANAGER_SYNTH_00091,Synthetic Investment Professional 091-4,Principal,mid_level,2022-09-13,,0.0800,true,SYNTHETIC_CASE,EV_TEAM_CASE_002_04,true,gp_v2_cases_2
+PERSON_00164_01,CASE_003,MANAGER_SYNTH_00164,Synthetic Investment Professional 164-1,Managing Partner,senior,2015-03-04,,0.1850,true,SYNTHETIC_CASE,EV_TEAM_CASE_003_01,true,gp_v2_cases_2
+PERSON_00164_02,CASE_003,MANAGER_SYNTH_00164,Synthetic Investment Professional 164-2,Partner,senior,2017-05-07,,0.1500,true,SYNTHETIC_CASE,EV_TEAM_CASE_003_02,true,gp_v2_cases_2
+PERSON_00164_03,CASE_003,MANAGER_SYNTH_00164,Synthetic Investment Professional 164-3,Partner,senior,2019-07-10,,0.1150,true,SYNTHETIC_CASE,EV_TEAM_CASE_003_03,true,gp_v2_cases_2
+PERSON_00164_04,CASE_003,MANAGER_SYNTH_00164,Synthetic Investment Professional 164-4,Principal,mid_level,2021-09-13,,0.0800,true,SYNTHETIC_CASE,EV_TEAM_CASE_003_04,true,gp_v2_cases_2

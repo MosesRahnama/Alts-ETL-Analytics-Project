@@ -1,0 +1,9 @@
+{
+  "largest_sector_20": "Reduce the largest current sector exposure by 20 percent and reconcile the change to NAV.",
+  "nav_00/nav_10/nav_20/nav_30": "Reduce remaining NAV by the named percentage; distributions and paid-in stay fixed; baseline peer distributions stay fixed.",
+  "remove_best/remove_worst": "Remove one constituent fund and retain the original manager-series denominator and eligibility rules.",
+  "size_bands": "Comparison uses 3 fund-size groups within the reference currency and vintage groups; minimum 10 funds and 5 other managers; sub-strategy match True.",
+  "strict_20_10": "Use the V1 peer definition but require at least 20 peer funds and 10 other managers.",
+  "top3_20": "Reduce the three largest current company exposures by 20 percent and reconcile the change to NAV.",
+  "w50_50/w60_40/w70_30": "Reweight existing TVPI/DPI percentiles only."
+}

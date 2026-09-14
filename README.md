@@ -1,8 +1,8 @@
 # AI-Powered Alternative Investment ETL and Analytics
 
-**[Open the live dashboard](https://mosesrahnama.github.io/Alts-ETL-Analytics-Project/dashboard.html)** · [RAG reviewer page](https://mosesrahnama.github.io/Alts-ETL-Analytics-Project/rag.html) · [GP Scoring report](https://mosesrahnama.github.io/Alts-ETL-Analytics-Project/GP-Scoring/06-report/dashboard.html)
+## **[Open the live dashboard](https://mosesrahnama.github.io/Alts-ETL-Analytics-Project/dashboard.html)**
 
-Public investment reports become reviewed evidence, normalized fund records, and reproducible analytics. The corpus contains 452 PDFs across 19 document types; 36 documents have completed extraction, with 8,613 evidence records and 693 covered pages. The [dashboard](https://mosesrahnama.github.io/Alts-ETL-Analytics-Project/dashboard.html) presents the data, methods, quality controls, and analysis; the [RAG reviewer page](https://mosesrahnama.github.io/Alts-ETL-Analytics-Project/rag.html) explains source retrieval, field verification, evaluation, controls, and use cases.
+Public investment reports become reviewed evidence, normalized fund records, and reproducible analytics. The corpus contains 452 PDFs across 19 document types; 36 documents have completed extraction, with 8,613 evidence records and 693 covered pages. The dashboard presents the data, methods, quality controls, and analysis.
 
 ## Data populations
 
@@ -64,7 +64,6 @@ The [release audit table](docs/FINAL-RELEASE-AUDIT.csv) covers source collection
 | `python -m pytest -q` | Regression suite. |
 | `python -m src.repository.build_release_audit --verify-repository` | Records structure, release-audit, and regression results; the manifest and dashboard rebuild follow. |
 | `python -m src.dashboard.build_dashboard` | Rebuilds the dashboard from the published files. |
-| `python -m src.dashboard.build_rag_dashboard` | Rebuilds the RAG reviewer page from its checked-in evidence export. |
 | `open-dashboard.cmd` | Rebuilds and opens the local dashboard. |
 
 [PROCESS.md](PROCESS.md) contains the complete command sequence and documentation checks.
@@ -86,21 +85,15 @@ The [release audit table](docs/FINAL-RELEASE-AUDIT.csv) covers source collection
 | [GP-Scoring](GP-Scoring/README.md) | Separate V2 manager comparison, dated returns, case evidence and sensitivity report using fictional funds. |
 | [One-Day-Pricing](One-Day-Pricing/README.md) | Separate secondary-transaction pricing add-on. |
 | [Expansion](Expansion/README.md) | Expansion designs, mappings, and staged implementation records. |
-| [Reducto](Reducto/README.md) | Staged Reducto parsing plan, schemas, credit budget, and checks. |
-| [archive](archive/README.md) | Reference to the local recovery archive. |
-| [output](output/README.md) | Local dashboard inspection artifacts, excluded from data processing. |
-| [tmp](tmp/README.md) | Local scratch files, excluded from published outputs. |
 | [RAG](RAG/README.md) | Local evidence engine: page-cited keyword and vector search, field checks, context review, analytical reads, and dashboard controls. |
-| [Temporal](Temporal/README.md) | Local Temporal setup notes; no release stage reads this folder. |
-| [.github](.github/README.md) | Workflow that runs the offline RAG fixture tests. |
 
 | Root files | Role |
 |---|---|
 | `README.md`, `PROCESS.md` | Project summary and reproducible stage order. |
-| `dashboard.html`, `rag.html` | Current project dashboard and RAG reviewer page. |
+| `dashboard.html` | Current project dashboard. |
 | `open-dashboard.cmd`, `open-dashboard.ps1` | Local dashboard launchers. |
 | `requirements.txt`, `pytest.ini`, `ruff.toml` | Environment, test, and lint configuration. |
-| `.gitignore`, `.gitattributes`, `LICENSE` | Repository policy, large-file tracking, and licence. |
+| `.gitattributes`, `LICENSE` | Large-file tracking and licence. |
 
 The analytics path reads source-only tables for printed-data metrics and completed tables for generated cash-flow analyses.
 

@@ -3,12 +3,19 @@ from __future__ import annotations
 import re
 
 from src.dashboard.build_dashboard import evidence_review_section
+from src.dashboard.build_rag_dashboard import payload as rag_payload
 from src.dashboard.page import SCRIPT, render
 
 
-def test_evidence_section_contains_the_local_console() -> None:
+def test_rag_page_holds_the_local_console() -> None:
     section = evidence_review_section()
-    consoles = [block for block in section["blocks"] if block.get("kind") == "rag_console"]
+    assert not [block for block in section["blocks"] if block.get("kind") == "rag_console"]
+    consoles = [
+        block
+        for rag_section in rag_payload()["sections"]
+        for block in rag_section["blocks"]
+        if block.get("kind") == "rag_console"
+    ]
     assert len(consoles) == 1
     assert consoles[0]["source"] == "RAG/src/alts_rag/service.py"
 

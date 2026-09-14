@@ -995,10 +995,15 @@ function statusClass(value) {
 // are. The full value stays on the cell as its tooltip and in the row detail.
 const PLAIN_NUMBER = /^-?\d+(\.\d+)?$/;
 const REPO_PATH = /^(data|ledgers|instructions|docs|src|audit|config|sql|tests|GP-Scoring|RAG)\/[^\s]+\.[A-Za-z0-9]+$/;
+// The Git LFS paths named in .gitattributes. GitHub Pages serves their pointer
+// files, so the page on github.io links them to GitHub's LFS media host.
+const LFS_PATH = /\.(pdf|duckdb|parquet|png)$|^data\/documents\/txt\/[^\/]+\.txt$|^data\/synthetic\/(clean|defects)\/(quality_results|fund_observations)\.csv$|^data\/synthetic\/analytics\/(pme_results|fund_metrics)\.csv$|^data\/public_markets\/staging\/benchmark_(level|return)_candidates\.csv$/;
+const LFS_MEDIA = 'https://media.githubusercontent.com/media/MosesRahnama/Alts-ETL-Analytics-Project/main/';
 function downloadHref(path) {
   const value = String(path).trim();
   if (DATA.downloads) return DATA.downloads[value] || '';
-  return REPO_PATH.test(value) ? value : '';
+  if (!REPO_PATH.test(value)) return '';
+  return location.hostname.endsWith('github.io') && LFS_PATH.test(value) ? LFS_MEDIA + value : value;
 }
 
 function downloadLabel(path, label) {

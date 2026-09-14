@@ -1,6 +1,8 @@
 # AI-Powered Alternative Investment ETL and Analytics
 
-Public investment reports become reviewed evidence, normalized fund records, and reproducible analytics. The corpus contains 452 PDFs across 19 document types; 36 documents have completed extraction, with 8,613 evidence records and 693 covered pages. The [dashboard](dashboard.html) presents the data, methods, quality controls, and analysis; the [RAG reviewer page](rag.html) explains source retrieval, field verification, evaluation, controls, and use cases.
+**[Open the live dashboard](https://mosesrahnama.github.io/Alts-ETL-Analytics-Project/dashboard.html)** · [RAG reviewer page](https://mosesrahnama.github.io/Alts-ETL-Analytics-Project/rag.html) · [GP Scoring report](https://mosesrahnama.github.io/Alts-ETL-Analytics-Project/GP-Scoring/06-report/dashboard.html)
+
+Public investment reports become reviewed evidence, normalized fund records, and reproducible analytics. The corpus contains 452 PDFs across 19 document types; 36 documents have completed extraction, with 8,613 evidence records and 693 covered pages. The [dashboard](https://mosesrahnama.github.io/Alts-ETL-Analytics-Project/dashboard.html) presents the data, methods, quality controls, and analysis; the [RAG reviewer page](https://mosesrahnama.github.io/Alts-ETL-Analytics-Project/rag.html) explains source retrieval, field verification, evaluation, controls, and use cases.
 
 ## Data populations
 

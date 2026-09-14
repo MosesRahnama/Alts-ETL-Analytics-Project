@@ -1,0 +1,36 @@
+assumption_id,category,name,value,unit,description,origin_type
+ASM_406FE1C0FF926B6E3325,seller,ownership_min,0.01,,Demonstration policy setting,ASSUMPTION
+ASM_B0F50582D7A2913A5071,seller,ownership_max,0.035,,Demonstration policy setting,ASSUMPTION
+ASM_D920E83EE3B83D6F5C11,seller,base_ask_nav_fraction,0.9,,Demonstration policy setting,ASSUMPTION
+ASM_CFB700277D1C36E49E00,seller,ask_noise,0.045,,Demonstration policy setting,ASSUMPTION
+ASM_3D53012139CC4EE75B5E,seller,min_ask_nav_fraction,0.58,,Demonstration policy setting,ASSUMPTION
+ASM_3D085F962CEC60508D63,seller,max_ask_nav_fraction,1.08,,Demonstration policy setting,ASSUMPTION
+ASM_0688B4AC9C807B0ACB2F,seller,transaction_cost_nav_fraction,0.0025,,Demonstration policy setting,ASSUMPTION
+ASM_8CDBFC86FD74D6C302E5,interim,actual_call_unfunded_fraction,0.06,,Demonstration policy setting,ASSUMPTION
+ASM_6390784EFB74445B10CC,interim,actual_distribution_nav_fraction,0.025,,Demonstration policy setting,ASSUMPTION
+ASM_D38AF8E19BD22D6CCA72,interim,forecast_call_unfunded_fraction,0.025,,Demonstration policy setting,ASSUMPTION
+ASM_C1CFD4EA05F061745CC1,interim,forecast_distribution_nav_fraction,0.01,,Demonstration policy setting,ASSUMPTION
+ASM_214799F059F12D2D6CA6,interim,call_fee_fraction,0.05,,Demonstration policy setting,ASSUMPTION
+ASM_67A036B31A4B7A26FD1E,interim,recallable_case_index,2,,Demonstration policy setting,ASSUMPTION
+ASM_56954EC31525D4BEB411,interim,recallable_distribution_fraction,0.25,,Demonstration policy setting,ASSUMPTION
+ASM_C384E1FD706BFCE58AD3,buyer,hurdle_rate,0.15,,Demonstration policy setting,ASSUMPTION
+ASM_44FF0404562BCE67478A,buyer,max_total_closing_cash,50000000.0,,Demonstration policy setting,ASSUMPTION
+ASM_7F436D1C6214D0CEC56E,buyer,max_total_unfunded,35000000.0,,Demonstration policy setting,ASSUMPTION
+ASM_5A84215686FA41197C0C,forecast:base,opening_nav_multiplier,1.0,,Scenario assumption,ASSUMPTION
+ASM_1102D1349F4B7FAC185C,forecast:base,annual_growth,0.08,,Scenario assumption,ASSUMPTION
+ASM_0DD9E6A3D728CE483A9A,forecast:base,distribution_delay_quarters,0,,Scenario assumption,ASSUMPTION
+ASM_CFAE3076647441DBC62C,forecast:base,distribution_fraction_multiplier,1.0,,Scenario assumption,ASSUMPTION
+ASM_0BF3988BA9D9B7665B0A,forecast:downside,opening_nav_multiplier,0.8,,Scenario assumption,ASSUMPTION
+ASM_6E81980CD41028CE4674,forecast:downside,annual_growth,0.0,,Scenario assumption,ASSUMPTION
+ASM_623471F454C2751ACAAE,forecast:downside,distribution_delay_quarters,4,,Scenario assumption,ASSUMPTION
+ASM_659B0B3364E8DDFAF562,forecast:downside,distribution_fraction_multiplier,0.8,,Scenario assumption,ASSUMPTION
+ASM_7A40215277F157373DAB,forecast:upside,opening_nav_multiplier,1.1,,Scenario assumption,ASSUMPTION
+ASM_7B60DB67F143A1521706,forecast:upside,annual_growth,0.12,,Scenario assumption,ASSUMPTION
+ASM_E711C82FEE45D9726A6B,forecast:upside,distribution_delay_quarters,0,,Scenario assumption,ASSUMPTION
+ASM_DA9B894D3649760367CB,forecast:upside,distribution_fraction_multiplier,1.2,,Scenario assumption,ASSUMPTION
+ASM_09F9BE5179945F63F428,forecast,quarters,20,,Forecast engine setting,ASSUMPTION
+ASM_6B93163910023DF1D574,forecast,funding_quarters,8,,Forecast engine setting,ASSUMPTION
+ASM_1B1E838884FD65890837,forecast,distribution_start_quarter,9,,Forecast engine setting,ASSUMPTION
+ASM_009F57F72D44E6C48773,forecast,distribution_fraction,0.25,,Forecast engine setting,ASSUMPTION
+ASM_78FC04442C893D1C2436,forecast,call_fee_fraction,0.05,,Forecast engine setting,ASSUMPTION
+ASM_BEF3A469EC11E39696C6,forecast,draw_fraction,1.0,,Forecast engine setting,ASSUMPTION

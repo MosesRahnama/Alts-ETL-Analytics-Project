@@ -3,13 +3,13 @@
 from __future__ import annotations
 
 import re
-from collections import defaultdict
 from collections.abc import Mapping, Sequence
 
 from src.common import matrices
 from .csv_wide_contract import normalize_key_text
 
 POLICY = "extraction-semantic-checks"
+BASIS_POLICY = "basis-field-policy"
 
 
 def pattern(name: str) -> str:
@@ -40,6 +40,45 @@ def definition_targets(records: Sequence[Mapping[str, str]], row: Mapping[str, s
     return in_table or on_page or targets
 
 
+def scope_has_source_context(row: Mapping[str, str]) -> bool:
+    """A scope cites the printed table and labelled evidence, not a calculation basis."""
+    return bool(row.get("evidence_quote") and row.get("source_table")
+                and (row.get("source_row_label") or row.get("source_column_label")))
+
+
+def invalid_basis(row: Mapping[str, str], records: Sequence[Mapping[str, str]] = ()) -> bool:
+    """Reject identity and table labels used as a numerical measurement basis."""
+    basis = normalize_key_text(row.get("basis_raw", ""))
+    if not basis or not row.get("metric_value_raw"):
+        return False
+    retired = {normalize_key_text(r["input_value"]) for r in matrices.rows_in(BASIS_POLICY, "context_only")}
+    if basis in retired:
+        return True
+    if re.search(matrices.resolve(BASIS_POLICY, "measurement_phrase", context="pattern"), basis):
+        return False
+    labels = {normalize_key_text(r.get(field, "")) for r in [row, *records]
+              for field in ("subject_name", "manager_name", "investor_name", "portfolio_name")}
+    labels.update(normalize_key_text(row.get(field, "")) for field in
+                  ("source_table", "source_section", "source_column_label"))
+    return basis in labels
+
+
+def unbacked_qualifiers(row: Mapping[str, str]) -> list[str]:
+    """A method or fee claim without a cited definition needs matching printed words."""
+    if row.get("definition_keys", "").strip():
+        return []
+    text = normalize_key_text(" ".join(row.get(field, "") for field in
+        ("basis_raw", "source_row_label", "source_column_label", "metric_name")))
+    unsupported = []
+    for dimension in ("method", "fee_basis"):
+        value = row.get(dimension, "")
+        if value and value != "unstated":
+            expression = matrices.mapping(BASIS_POLICY, dimension).get(value)
+            if not expression or not re.search(expression, text):
+                unsupported.append(dimension)
+    return unsupported
+
+
 def record_errors(records: Sequence[Mapping[str, str]], page_text: Mapping[int, str],
                   *, whole_document: bool = True) -> list[tuple[Mapping[str, str], str, str]]:
     """Return contradictions; source review remains responsible for interpretation."""
@@ -58,6 +97,10 @@ def record_errors(records: Sequence[Mapping[str, str]], page_text: Mapping[int, 
 
     for row in records:
         category = row.get("metric_category", "")
+        if invalid_basis(row, [context]):
+            fail(row, "BASIS_CONTEXT_LABEL", "basis_raw names an entity or table context; retain it in source labels and leave the unstated calculation basis empty")
+        for dimension in unbacked_qualifiers(row):
+            fail(row, "QUALIFIER_BACKING", f"{dimension} requires supporting printed wording or a cited definition; an unrelated populated basis_raw is insufficient")
         if row.get("record_family") == "financial_statement_observation":
             name = row.get("subject_name", "")
             required = next(iter(matrices.mapping(POLICY, "statement_label_scope")))

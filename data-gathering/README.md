@@ -5,7 +5,7 @@ The source ledger, acquisition contract, and corpus recovery tools.
 | File | Role |
 |---|---|
 | `source_ledger.csv` | Authoritative source ID, URL, report type, page count, and acquisition metadata. |
-| `document-types.csv` | Controlled 17-value document-type list. |
+| `document-types.csv` | Controlled 20-value document-type list. |
 | `document-types.md` | Document-family counts and visible field summary. |
 | `AGENT-A1-CORPUS-GATHERING.md` | Guide for agent a1 corpus gathering. |
 

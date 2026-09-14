@@ -1,0 +1,8 @@
+{
+  "extractor_roles": ["extractor_a", "extractor_b"],
+  "reviewer_role": "reviewer",
+  "public_role": "public_demo",
+  "data_groups": ["extracted", "integrated"],
+  "restricted_file_ids": ["SRC132", "FIX007"],
+  "export_restricted_file_ids": ["SRC132", "FIX007"]
+}

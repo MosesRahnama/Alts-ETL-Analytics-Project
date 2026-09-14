@@ -1,4 +1,4 @@
-# Build the reviewer dashboard from this repository and open it.
+# Build both reviewer pages from this repository and open the dashboard.
 #
 #   Right-click this file and choose "Run with PowerShell", or double-click
 #   open-dashboard.cmd beside it. Nothing to install: the page is built by the
@@ -13,6 +13,7 @@
 $ErrorActionPreference = "Stop"
 $root = Split-Path -Parent $MyInvocation.MyCommand.Path
 $page = Join-Path $root "dashboard.html"
+$guide = Join-Path $root "dashboard-field-guide.html"
 
 function Find-Python {
     foreach ($candidate in @("python", "python3", "py")) {
@@ -33,6 +34,12 @@ if ($python) {
         Write-Host ""
         Write-Host "The build failed, so nothing was opened. The message above says why."
         Write-Host "The committed dashboard.html is the snapshot from the last successful build; open it by hand if that is what you want."
+        exit 1
+    }
+    & $python (Join-Path $root "src\dashboard\build_field_guide.py") --output $guide
+    if ($LASTEXITCODE -ne 0) {
+        Write-Host ""
+        Write-Host "The field-guide build failed, so nothing was opened. The message above says why."
         exit 1
     }
     Write-Host "Opening $page"

@@ -6,7 +6,7 @@ from unittest.mock import patch
 
 import pytest
 
-from src.flatten.flatten_extracted import parse_date, observation_currency, parse_scale
+from src.flatten.flatten_extracted import FlattenError, parse_date, observation_currency, parse_scale
 from src.load import promote_extracted_to_fund_level as promote
 from src.market_data import curate_public_markets as market
 from src.quality.run_fund_checks import _numeric_result
@@ -17,7 +17,9 @@ from src.common.finance import xirr
 def test_slash_dates_require_source_order_or_an_unambiguous_day():
     assert parse_date("03/07/2014", "SRC463") == ("2014-07-03", "day")
     assert parse_date("28/04/2014", "SRC463") == ("2014-04-28", "day")
-    assert parse_date("03/07/2014") == ("", "unknown")
+    with pytest.raises(FlattenError, match="source-date-order"):
+        parse_date("03/07/2014", "SRC_UNKNOWN")
+    assert parse_date("03/03/2014", "SRC_UNKNOWN") == ("2014-03-03", "day")
     assert parse_date("12/31/2020") == ("2020-12-31", "day")
     assert parse_date("31/02/2020", "SRC463") == ("", "unknown")
     assert parse_date("Last Quarter", "SRC463") == ("", "unknown")
@@ -195,9 +197,12 @@ def test_completion_does_not_relabel_foreign_amounts_as_target_currency():
     master = {"fund_id": "FUND_1", "vintage_year": "2015", "fund_size": "1000", "base_currency": "USD"}
     derived = {"paid_in_ratio_median": 0.6, "dpi_median": 0.5, "rvpi_median": 0.6}
     source = {"currency": "CAD", "commitment": "29323226", "paid_in_capital_itd": "20000000"}
-    foreign = integrated._target_period(cfg, master, [source], derived, 0.1)
+    with pytest.raises(IntegrationError, match="CONFLICTING_SOURCE_CURRENCIES"):
+        integrated._target_period(cfg, master, [source], derived, 0.1)
     absent = integrated._target_period(cfg, master, [], derived, 0.1)
-    assert foreign == absent
+    assert absent["currency"] == "USD"
+    with pytest.raises(IntegrationError, match="UNCONVERTED_FOREIGN_CURRENCY"):
+        integrated._target_period(cfg, dict(master, base_currency="CAD"), [source], derived, 0.1)
     matched = integrated._target_period(cfg, master, [dict(source, currency="USD")], derived, 0.1)
     assert matched["currency"] == "USD" and float(matched["commitment"]) == 29323226
 
@@ -213,3 +218,131 @@ def test_jefferson_commitment_keeps_canadian_denomination_in_published_data():
     with (root / "data/extracted/fund-level/fund_periods.csv").open(encoding="utf-8-sig", newline="") as handle:
         periods = [r for r in csv.DictReader(handle) if r["fund_id"] == observations[0]["subject_entity_id"]]
     assert periods and all(r["currency"] == "CAD" for r in periods)
+
+
+def test_publication_gate_covers_source_failures_and_checks_each_exception():
+    from src.quality.run_fund_checks import publication_failure_errors
+    period = {"fund_period_id": "P", "provenance_type": "EXTRACTED", "nav": "-1500000",
+              "source_document_id": "SRC", "input_observation_ids": "OBS", "currency": "USD",
+              "paid_in_capital_itd": "10000000", "distributions_itd": "0"}
+    observation = {"observation_id": "OBS", "document_id": "SRC", "source_page": "1",
+                   "value_raw": "($1.5)", "value_numeric": "-1.5", "unit_scale_multiplier": "1000000", "currency": "USD"}
+    result = {"record_id": "P", "record_table": "fund_periods", "rule_id": "R01", "status": "FAIL",
+              "source_document_id": "SRC", "actual_value": "-1500000"}
+    rule = {"input_value": "P", "output_value": "RETAIN_PRINTED_VALUE", "rule_id": "R01",
+            "source_document_id": "SRC", "source_page": "1", "field": "nav", "expected_value": "-1500000",
+            "observation_id": "OBS", "printed_value": "($1.5)", "evidence": "SRC p1", "note": "Printed negative balance",
+            "nonnegative_fields": "paid_in_capital_itd|distributions_itd"}
+    assert publication_failure_errors([result], [period], [observation], [])
+    assert not publication_failure_errors([result], [period], [observation], [rule])
+    for changed in (dict(period, nav="-1600000"), dict(period, provenance_type="SYNTHETIC"),
+                    dict(period, input_observation_ids="OTHER"), dict(period, currency="EUR"),
+                    dict(period, distributions_itd="-10")):
+        assert publication_failure_errors([result], [changed], [observation], [rule])
+    assert publication_failure_errors([dict(result, rule_id="R14")], [period], [observation], [rule])
+    assert publication_failure_errors([result], [period], [dict(observation, value_raw="1.5")], [rule])
+    assert publication_failure_errors([], [period], [observation], [rule])
+
+
+def test_basis_names_cannot_support_method_or_fee_claims():
+    from src.catalog.simple_pdf_extraction import semantic_checks as semantic
+    row = {"record_family": "fund_economics_observation", "metric_value_raw": "100",
+           "basis_raw": "Retirement Fund", "subject_name": "An Investment",
+           "source_table": "Portfolio", "source_row_label": "An Investment",
+           "evidence_quote": "An Investment 100"}
+    assert semantic.invalid_basis(row)
+    assert semantic.scope_has_source_context(row)
+    assert not semantic.invalid_basis(dict(row, basis_raw="Fair Value"))
+    assert not semantic.invalid_basis(dict(row, basis_raw="Market Value"))
+    assert not semantic.invalid_basis(dict(row, basis_raw=""))
+    assert semantic.invalid_basis(dict(row, basis_raw="Future Plan", subject_name="Future Plan"))
+    assert semantic.unbacked_qualifiers(dict(row, fee_basis="net")) == ["fee_basis"]
+    assert not semantic.unbacked_qualifiers(dict(row, basis_raw="Figures are net of fees.", fee_basis="net"))
+    assert semantic.unbacked_qualifiers(dict(row, basis_raw="Net assets", fee_basis="net"))
+
+
+def test_source_corrections_preserve_ordered_amendments_and_rerun_deterministically():
+    from pathlib import Path
+    from src.catalog.simple_pdf_extraction import source_review as review
+    original = dict(zip(review.FIELDS, ("R1", "route", "SRC", "P", "basis_raw", "", "Retirement Fund",
+                                       "1", "1", "Retirement Fund", "The printed plan heading")))
+    amendment = dict(original, rule_id="R2", old_value="Retirement Fund", new_value="",
+                     reason="Supersedes R1; this heading identifies the plan rather than a measurement basis")
+    def read(path):
+        if path == review.RULES:
+            return [original, amendment]
+        if path.name == "pair-index.csv":
+            return [{"pair_id": "P"}]
+        if path.name == "resolution.csv":
+            return [{"pair_id": "P", "decision": "MERGE", "reason": "Reviewed"}]
+        return []
+    with patch.object(review, "read", side_effect=read), patch.object(review.workflow, "file_folder", return_value=Path("x")):
+        results = []
+        for current in ("Retirement Fund", ""):
+            row = {"source_page": "1", "basis_raw": current, "metric_value_raw": "100"}
+            with patch.object(review, "selected_record", return_value=(row, "", "")):
+                results.append(review.plans()[0][3])
+        assert results[0] == results[1]
+        assert results[0][0]["basis_raw"] == ""
+        assert "Supersedes R1" in results[0][0]["reason"]
+        amendment["old_value"] = "unrelated"
+        with pytest.raises(ValueError, match="Broken source correction chain"):
+            review.plans()
+
+
+@pytest.mark.parametrize("field", ["basis_raw", "method", "fee_basis", "currency_scale", "evidence_quote"])
+def test_round_publication_refuses_stale_reviewed_fields(field):
+    from src.catalog.simple_pdf_extraction import csv_workflow as workflow
+    row = {key: "" for key in workflow.RECORD_COLUMNS}
+    row.update(metric_value_raw="100", source_page="1")
+    assert workflow._round_drift([dict(row, extractor_model="prior")], [dict(row)]) == ""
+    assert field in workflow._round_drift([row], [dict(row, **{field: "changed"})])
+
+
+def test_source_review_republishes_each_route_after_all_finals(monkeypatch, tmp_path):
+    from src.catalog.simple_pdf_extraction import source_review as review
+    prepared = [(route, file_id, tmp_path / route / file_id / "resolution.csv", [])
+                for route, file_id in (("route-b", "SRC1"), ("route-a", "SRC2"), ("route-b", "SRC3"))]
+    events, receipts = [], []
+    monkeypatch.setattr(review, "plans", lambda: prepared)
+    monkeypatch.setattr(review, "read", lambda path: [])
+    monkeypatch.setattr(review, "check", lambda: 0)
+    monkeypatch.setattr(review.workflow, "write_csv", lambda *args: None)
+    monkeypatch.setattr(review.workflow, "final_paths", lambda route, file_id:
+                        [tmp_path / route / file_id / "records-final.csv"])
+    monkeypatch.setattr(review.workflow, "worklist_for_scope", lambda route, scope:
+                        [{"file_id": file_id} for item, file_id, _, _ in prepared if item == route])
+    monkeypatch.setattr(review.workflow, "round_records", lambda route: tmp_path / route / "records.csv")
+    monkeypatch.setattr(review.workflow, "round_coverage", lambda route: tmp_path / route / "coverage.csv")
+    monkeypatch.setattr(review.workflow, "build_final_command",
+                        lambda route, file_id: events.append(("final", route, file_id)))
+    monkeypatch.setattr(review.workflow, "publish_round",
+                        lambda route, scope: events.append(("publish", route, scope)))
+    def run_stage(**kwargs):
+        receipts.append(kwargs)
+        return kwargs["action"]()
+    monkeypatch.setattr(review, "run_stage", run_stage)
+    assert review.apply() == 0
+    assert events == [("final", route, file_id) for route, file_id, _, _ in prepared] + [
+        ("publish", "route-a", "active"), ("publish", "route-b", "active")]
+    for route in ("route-a", "route-b"):
+        for name in ("records.csv", "coverage.csv"):
+            assert tmp_path / route / name in receipts[0]["outputs"]
+
+
+def test_corpus_publication_refuses_stale_page_coverage(monkeypatch, tmp_path):
+    from src.catalog.simple_pdf_extraction import csv_workflow as workflow
+    records = [{key: "" for key in workflow.RECORD_COLUMNS}]
+    page = {key: "" for key in workflow.COVERAGE_COLUMNS}
+    page["source_page"] = "1"
+    published_page = dict(page, source_page="2")
+    record_path = tmp_path / "records.csv"
+    record_path.touch()
+    monkeypatch.setattr(workflow, "ROUTES", ["route"])
+    monkeypatch.setattr(workflow, "collect_round", lambda *args: (records, [page], [], [], []))
+    monkeypatch.setattr(workflow, "round_records", lambda route: record_path)
+    monkeypatch.setattr(workflow, "round_coverage", lambda route: tmp_path / "coverage.csv")
+    monkeypatch.setattr(workflow, "read_strict_csv", lambda path, columns:
+                        records if path == record_path else [published_page])
+    with pytest.raises(workflow.ContractFailure, match="page coverage differs"):
+        workflow.publish_corpus("active")

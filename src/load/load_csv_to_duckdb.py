@@ -44,6 +44,12 @@ TABLE_FILES = {
     "fund_terms": "fund_terms.csv",
     "fund_term_clauses": "fund_term_clauses.csv",
     "fund_holdings": "fund_holdings.csv",
+    "investment_owner": "investment_owner.csv",
+    "investment_target": "investment_target.csv",
+    "investment_instrument": "investment_instrument.csv",
+    "fund_position": "fund_position.csv",
+    "lookthrough_edge": "lookthrough_edge.csv",
+    "holding_field_lineage": "holding_field_lineage.csv",
     "synthetic_parameters": "synthetic_parameters.csv",
     "quality_results": "quality_results.csv",
     "defect_injections": "defect_injections.csv",
@@ -200,12 +206,22 @@ def load(
                 connection.execute(f'DELETE FROM "{table}"')
             if rows:
                 columns = ", ".join(f'"{column}"' for column in headers)
-                escaped_path = path.resolve().as_posix().replace("'", "''")
-                connection.execute(
-                    f'''INSERT INTO "{table}" ({columns})
-                        SELECT {columns}
-                        FROM read_csv('{escaped_path}', header = true, all_varchar = true, nullstr = '{NULLSTR}')'''
-                )
+                if table == "investment_owner":
+                    # Parent owners precede child portfolios in the CSV. DuckDB
+                    # checks this self-referencing foreign key per inserted row.
+                    placeholders = ", ".join("?" for _ in headers)
+                    for values in rows:
+                        connection.execute(
+                            f'INSERT INTO "{table}" ({columns}) VALUES ({placeholders})',
+                            values,
+                        )
+                else:
+                    escaped_path = path.resolve().as_posix().replace("'", "''")
+                    connection.execute(
+                        f'''INSERT INTO "{table}" ({columns})
+                            SELECT {columns}
+                            FROM read_csv('{escaped_path}', header = true, all_varchar = true, nullstr = '{NULLSTR}')'''
+                    )
             counts[table] = len(rows)
         connection.commit()
     finally:

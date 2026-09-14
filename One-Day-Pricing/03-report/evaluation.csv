@@ -1,0 +1,3 @@
+split,count,baseline_mae,model_mae,baseline_nav_weighted_mae,model_nav_weighted_mae,model_bias,model_beats_baseline,status,origin_type
+temporal_test,254,0.0589217533,0.0229689977,0.0530470036,0.0247901250,-0.0113440913,TRUE,PASS,DERIVED
+manager_holdout_test,38,0.0377944431,0.0201165447,0.0378037036,0.0211684160,0.0027019010,TRUE,PASS,DERIVED

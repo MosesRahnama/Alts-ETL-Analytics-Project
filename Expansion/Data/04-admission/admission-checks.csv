@@ -1,0 +1,404 @@
+expansion_document_id,check_name,check_status,observed_value,expected_value,detail,checked_at
+EXPDOC-001,source_identity,PASS,https://www.lazard.com/media/mbcj4xsi/lazard-interim-2026-secondary-market-report.pdf,url,,2026-09-14T01:56:26Z
+EXPDOC-001,byte_integrity,PASS,db7a709a2686a65d34254ea8d8d19c97ef60916d5cf2e6d88ae2b7cb9c7a0e75,sha256,,2026-09-14T01:56:26Z
+EXPDOC-001,magic,PASS,TRUE,TRUE,pdf,2026-09-14T01:56:26Z
+EXPDOC-001,duplicate_sha,PASS,,unique,,2026-09-14T01:56:26Z
+EXPDOC-001,duplicate_filename,PASS,lazard-interim-2026-secondary-market-report.pdf,unique,,2026-09-14T01:56:26Z
+EXPDOC-001,duplicate_url,PASS,unique,unique,,2026-09-14T01:56:26Z
+EXPDOC-001,doc_type_enum,HOLD,Secondary_Pricing,document-types.csv or approved new family,,2026-09-14T01:56:26Z
+EXPDOC-001,subtype,PASS,Market_Report,taxonomy map,,2026-09-14T01:56:26Z
+EXPDOC-001,native_pdf,PASS,pdf,pdf,canonical merge accepts pdf only,2026-09-14T01:56:26Z
+EXPDOC-001,merge_size_gate,PASS,1482187,>20480,canonical _merge_rows.py rejects 20 KB or smaller,2026-09-14T01:56:26Z
+EXPDOC-001,pdf_probe,PASS,22,page_count,,2026-09-14T01:56:26Z
+EXPDOC-001,rights,PASS,PUBLIC,known,public URL with recorded license_note,2026-09-14T01:56:26Z
+EXPDOC-001,canonical_ready,HOLD,,pdf + existing doc_type + unique hash,this run does not merge into source_ledger.csv,2026-09-14T01:56:26Z
+EXPDOC-002,source_identity,PASS,https://www.lazard.com/media/gjzjxh1x/lazard-2025-secondary-market-report_vff.pdf,url,,2026-09-14T01:56:26Z
+EXPDOC-002,byte_integrity,PASS,bce0a9989ffbe69192a0d8421c10f0ca89b637e05a3321af1cdb48f02df42ad6,sha256,,2026-09-14T01:56:26Z
+EXPDOC-002,magic,PASS,TRUE,TRUE,pdf,2026-09-14T01:56:26Z
+EXPDOC-002,duplicate_sha,PASS,,unique,,2026-09-14T01:56:26Z
+EXPDOC-002,duplicate_filename,PASS,lazard-2025-secondary-market-report.pdf,unique,,2026-09-14T01:56:26Z
+EXPDOC-002,duplicate_url,PASS,unique,unique,,2026-09-14T01:56:26Z
+EXPDOC-002,doc_type_enum,HOLD,Secondary_Pricing,document-types.csv or approved new family,,2026-09-14T01:56:26Z
+EXPDOC-002,subtype,PASS,Market_Report,taxonomy map,,2026-09-14T01:56:26Z
+EXPDOC-002,native_pdf,PASS,pdf,pdf,canonical merge accepts pdf only,2026-09-14T01:56:26Z
+EXPDOC-002,merge_size_gate,PASS,1404968,>20480,canonical _merge_rows.py rejects 20 KB or smaller,2026-09-14T01:56:26Z
+EXPDOC-002,pdf_probe,PASS,23,page_count,,2026-09-14T01:56:26Z
+EXPDOC-002,rights,PASS,PUBLIC,known,public URL with recorded license_note,2026-09-14T01:56:26Z
+EXPDOC-002,canonical_ready,HOLD,,pdf + existing doc_type + unique hash,this run does not merge into source_ledger.csv,2026-09-14T01:56:26Z
+EXPDOC-003,source_identity,PASS,https://www.lazard.com/media/drch42gk/lazard-2024-secondary-market-report.pdf,url,,2026-09-14T01:56:26Z
+EXPDOC-003,byte_integrity,PASS,9efabdc0825450ec09aae2d502e2f3cff3d58ea344fa380f3975a968940a828a,sha256,,2026-09-14T01:56:26Z
+EXPDOC-003,magic,PASS,TRUE,TRUE,pdf,2026-09-14T01:56:26Z
+EXPDOC-003,duplicate_sha,PASS,,unique,,2026-09-14T01:56:26Z
+EXPDOC-003,duplicate_filename,PASS,lazard-2024-secondary-market-report.pdf,unique,,2026-09-14T01:56:26Z
+EXPDOC-003,duplicate_url,PASS,unique,unique,,2026-09-14T01:56:26Z
+EXPDOC-003,doc_type_enum,HOLD,Secondary_Pricing,document-types.csv or approved new family,,2026-09-14T01:56:26Z
+EXPDOC-003,subtype,PASS,Market_Report,taxonomy map,,2026-09-14T01:56:26Z
+EXPDOC-003,native_pdf,PASS,pdf,pdf,canonical merge accepts pdf only,2026-09-14T01:56:26Z
+EXPDOC-003,merge_size_gate,PASS,1310882,>20480,canonical _merge_rows.py rejects 20 KB or smaller,2026-09-14T01:56:26Z
+EXPDOC-003,pdf_probe,PASS,25,page_count,,2026-09-14T01:56:26Z
+EXPDOC-003,rights,PASS,PUBLIC,known,public URL with recorded license_note,2026-09-14T01:56:26Z
+EXPDOC-003,canonical_ready,HOLD,,pdf + existing doc_type + unique hash,this run does not merge into source_ledger.csv,2026-09-14T01:56:26Z
+EXPDOC-004,source_identity,PASS,https://www.lazard.com/media/oehdl3as/lazard-interim-2024-secondary-market-report.pdf,url,,2026-09-14T01:56:26Z
+EXPDOC-004,byte_integrity,PASS,ef4d3e2f406ec3bfaf4b3130bb6fcaa504e46c7ed824e4a99ecd273d286400fe,sha256,,2026-09-14T01:56:26Z
+EXPDOC-004,magic,PASS,TRUE,TRUE,pdf,2026-09-14T01:56:26Z
+EXPDOC-004,duplicate_sha,PASS,,unique,,2026-09-14T01:56:26Z
+EXPDOC-004,duplicate_filename,PASS,lazard-interim-2024-secondary-market-report.pdf,unique,,2026-09-14T01:56:26Z
+EXPDOC-004,duplicate_url,PASS,unique,unique,,2026-09-14T01:56:26Z
+EXPDOC-004,doc_type_enum,HOLD,Secondary_Pricing,document-types.csv or approved new family,,2026-09-14T01:56:26Z
+EXPDOC-004,subtype,PASS,Market_Report,taxonomy map,,2026-09-14T01:56:26Z
+EXPDOC-004,native_pdf,PASS,pdf,pdf,canonical merge accepts pdf only,2026-09-14T01:56:26Z
+EXPDOC-004,merge_size_gate,PASS,1475185,>20480,canonical _merge_rows.py rejects 20 KB or smaller,2026-09-14T01:56:26Z
+EXPDOC-004,pdf_probe,PASS,24,page_count,,2026-09-14T01:56:26Z
+EXPDOC-004,rights,PASS,PUBLIC,known,public URL with recorded license_note,2026-09-14T01:56:26Z
+EXPDOC-004,canonical_ready,HOLD,,pdf + existing doc_type + unique hash,this run does not merge into source_ledger.csv,2026-09-14T01:56:26Z
+EXPDOC-005,source_identity,PASS,https://www.evercore.com/wp-content/uploads/2026/02/Evercore-PCA-2025-Secondary-Market-Report.pdf,url,,2026-09-14T01:56:26Z
+EXPDOC-005,byte_integrity,PASS,3ff5d6b5b415bfafee938f4872fb01523c8a42bd6ae1e3aeb42be4691355b8ab,sha256,,2026-09-14T01:56:26Z
+EXPDOC-005,magic,PASS,TRUE,TRUE,pdf,2026-09-14T01:56:26Z
+EXPDOC-005,duplicate_sha,PASS,,unique,,2026-09-14T01:56:26Z
+EXPDOC-005,duplicate_filename,PASS,evercore-pca-2025-secondary-market-report.pdf,unique,,2026-09-14T01:56:26Z
+EXPDOC-005,duplicate_url,PASS,unique,unique,,2026-09-14T01:56:26Z
+EXPDOC-005,doc_type_enum,HOLD,Secondary_Pricing,document-types.csv or approved new family,,2026-09-14T01:56:26Z
+EXPDOC-005,subtype,PASS,Market_Report,taxonomy map,,2026-09-14T01:56:26Z
+EXPDOC-005,native_pdf,PASS,pdf,pdf,canonical merge accepts pdf only,2026-09-14T01:56:26Z
+EXPDOC-005,merge_size_gate,PASS,3790671,>20480,canonical _merge_rows.py rejects 20 KB or smaller,2026-09-14T01:56:26Z
+EXPDOC-005,pdf_probe,PASS,19,page_count,,2026-09-14T01:56:26Z
+EXPDOC-005,rights,PASS,PUBLIC,known,public URL with recorded license_note,2026-09-14T01:56:26Z
+EXPDOC-005,canonical_ready,HOLD,,pdf + existing doc_type + unique hash,this run does not merge into source_ledger.csv,2026-09-14T01:56:26Z
+EXPDOC-006,source_identity,PASS,https://www.jefferies.com/insights/leadership-spotlight/2025-global-secondary-market-review-another-record-breaking-year/,url,,2026-09-14T01:56:26Z
+EXPDOC-006,byte_integrity,PASS,d0a9f3dfcfe25b8c834b743f75769bae42f44dba46a5e261f6a13ddf6b4de831,sha256,,2026-09-14T01:56:26Z
+EXPDOC-006,magic,PASS,TRUE,TRUE,html,2026-09-14T01:56:26Z
+EXPDOC-006,duplicate_sha,PASS,,unique,,2026-09-14T01:56:26Z
+EXPDOC-006,duplicate_filename,PASS,jefferies-2025-global-secondary-market-review.html,unique,,2026-09-14T01:56:26Z
+EXPDOC-006,duplicate_url,PASS,unique,unique,,2026-09-14T01:56:26Z
+EXPDOC-006,doc_type_enum,HOLD,Secondary_Pricing,document-types.csv or approved new family,,2026-09-14T01:56:26Z
+EXPDOC-006,subtype,PASS,Market_Report,taxonomy map,,2026-09-14T01:56:26Z
+EXPDOC-006,native_pdf,HOLD,html,pdf,canonical merge accepts pdf only,2026-09-14T01:56:26Z
+EXPDOC-006,merge_size_gate,PASS,278914,>20480,canonical _merge_rows.py rejects 20 KB or smaller,2026-09-14T01:56:26Z
+EXPDOC-006,pdf_probe,NOT_APPLICABLE,,pdf,materialize_native_to_pdf.py does not exist yet,2026-09-14T01:56:26Z
+EXPDOC-006,rights,PASS,PUBLIC,known,public URL with recorded license_note,2026-09-14T01:56:26Z
+EXPDOC-006,canonical_ready,HOLD,,pdf + existing doc_type + unique hash,this run does not merge into source_ledger.csv,2026-09-14T01:56:26Z
+EXPDOC-007,source_identity,PASS,https://ilpa.org/wp-content/uploads/2023/05/Continuation-Funds-Considerations-for-Limited-Partners-and-General-Partners.pdf,url,,2026-09-14T01:56:26Z
+EXPDOC-007,byte_integrity,PASS,30323290c269464e5fa0530cd39017f16d3a0f0e13677d4ec94b1baad9392ca8,sha256,,2026-09-14T01:56:26Z
+EXPDOC-007,magic,PASS,TRUE,TRUE,pdf,2026-09-14T01:56:26Z
+EXPDOC-007,duplicate_sha,PASS,,unique,,2026-09-14T01:56:26Z
+EXPDOC-007,duplicate_filename,PASS,ilpa-continuation-funds-considerations.pdf,unique,,2026-09-14T01:56:26Z
+EXPDOC-007,duplicate_url,PASS,unique,unique,,2026-09-14T01:56:26Z
+EXPDOC-007,doc_type_enum,HOLD,Continuation_Fund,document-types.csv or approved new family,,2026-09-14T01:56:26Z
+EXPDOC-007,subtype,PASS,Continuation_Disclosure,taxonomy map,,2026-09-14T01:56:26Z
+EXPDOC-007,native_pdf,PASS,pdf,pdf,canonical merge accepts pdf only,2026-09-14T01:56:26Z
+EXPDOC-007,merge_size_gate,PASS,352709,>20480,canonical _merge_rows.py rejects 20 KB or smaller,2026-09-14T01:56:26Z
+EXPDOC-007,pdf_probe,PASS,14,page_count,,2026-09-14T01:56:26Z
+EXPDOC-007,rights,PASS,PUBLIC,known,public URL with recorded license_note,2026-09-14T01:56:26Z
+EXPDOC-007,canonical_ready,HOLD,,pdf + existing doc_type + unique hash,this run does not merge into source_ledger.csv,2026-09-14T01:56:26Z
+EXPDOC-008,source_identity,PASS,https://ilpa.org/wp-content/uploads/2026/04/ILPA-Continuation-Fund-Disclosure-Template_Coller-Response_Multi-Asset.pdf,url,,2026-09-14T01:56:26Z
+EXPDOC-008,byte_integrity,PASS,2c42e4abfa9a38c4933f0fbcc58d8826c4acd09a24b44eb6356343a6a2e8fadd,sha256,,2026-09-14T01:56:26Z
+EXPDOC-008,magic,PASS,TRUE,TRUE,pdf,2026-09-14T01:56:26Z
+EXPDOC-008,duplicate_sha,PASS,,unique,,2026-09-14T01:56:26Z
+EXPDOC-008,duplicate_filename,PASS,ilpa-continuation-disclosure-mock-multi-asset.pdf,unique,,2026-09-14T01:56:26Z
+EXPDOC-008,duplicate_url,PASS,unique,unique,,2026-09-14T01:56:26Z
+EXPDOC-008,doc_type_enum,HOLD,Continuation_Fund,document-types.csv or approved new family,,2026-09-14T01:56:26Z
+EXPDOC-008,subtype,PASS,Continuation_Disclosure,taxonomy map,,2026-09-14T01:56:26Z
+EXPDOC-008,native_pdf,PASS,pdf,pdf,canonical merge accepts pdf only,2026-09-14T01:56:26Z
+EXPDOC-008,merge_size_gate,PASS,247399,>20480,canonical _merge_rows.py rejects 20 KB or smaller,2026-09-14T01:56:26Z
+EXPDOC-008,pdf_probe,PASS,9,page_count,,2026-09-14T01:56:26Z
+EXPDOC-008,rights,PASS,PUBLIC,known,public URL with recorded license_note,2026-09-14T01:56:26Z
+EXPDOC-008,canonical_ready,HOLD,,pdf + existing doc_type + unique hash,this run does not merge into source_ledger.csv,2026-09-14T01:56:26Z
+EXPDOC-009,source_identity,PASS,https://ilpa.org/wp-content/uploads/2026/04/ILPA-Continuation-Fund-Disclosure-Template_Coller-Response_Single-Asset.pdf,url,,2026-09-14T01:56:26Z
+EXPDOC-009,byte_integrity,PASS,6a5e476483771b26a1204504cffcdb05071689b1346938e26ac1d6c859c5c0ec,sha256,,2026-09-14T01:56:26Z
+EXPDOC-009,magic,PASS,TRUE,TRUE,pdf,2026-09-14T01:56:26Z
+EXPDOC-009,duplicate_sha,PASS,,unique,,2026-09-14T01:56:26Z
+EXPDOC-009,duplicate_filename,PASS,ilpa-continuation-disclosure-mock-single-asset.pdf,unique,,2026-09-14T01:56:26Z
+EXPDOC-009,duplicate_url,PASS,unique,unique,,2026-09-14T01:56:26Z
+EXPDOC-009,doc_type_enum,HOLD,Continuation_Fund,document-types.csv or approved new family,,2026-09-14T01:56:26Z
+EXPDOC-009,subtype,PASS,Continuation_Disclosure,taxonomy map,,2026-09-14T01:56:26Z
+EXPDOC-009,native_pdf,PASS,pdf,pdf,canonical merge accepts pdf only,2026-09-14T01:56:26Z
+EXPDOC-009,merge_size_gate,PASS,244532,>20480,canonical _merge_rows.py rejects 20 KB or smaller,2026-09-14T01:56:26Z
+EXPDOC-009,pdf_probe,PASS,8,page_count,,2026-09-14T01:56:26Z
+EXPDOC-009,rights,PASS,PUBLIC,known,public URL with recorded license_note,2026-09-14T01:56:26Z
+EXPDOC-009,canonical_ready,HOLD,,pdf + existing doc_type + unique hash,this run does not merge into source_ledger.csv,2026-09-14T01:56:26Z
+EXPDOC-010,source_identity,PASS,https://ilpa.org/wp-content/uploads/2025/09/Capital-Call-Template-Definitions.pdf,url,,2026-09-14T01:56:26Z
+EXPDOC-010,byte_integrity,PASS,9da23fec7688ec73589000b9d1fc9dda325d4d28d89691ba10b90efb69c2fb3d,sha256,,2026-09-14T01:56:26Z
+EXPDOC-010,magic,PASS,TRUE,TRUE,pdf,2026-09-14T01:56:26Z
+EXPDOC-010,duplicate_sha,PASS,,unique,,2026-09-14T01:56:26Z
+EXPDOC-010,duplicate_filename,PASS,ilpa-capital-call-distribution-definitions.pdf,unique,,2026-09-14T01:56:26Z
+EXPDOC-010,duplicate_url,PASS,unique,unique,,2026-09-14T01:56:26Z
+EXPDOC-010,doc_type_enum,PASS,Cash_Flow_Notice,document-types.csv or approved new family,,2026-09-14T01:56:26Z
+EXPDOC-010,subtype,PASS,Capital_Call_Detail,taxonomy map,,2026-09-14T01:56:26Z
+EXPDOC-010,native_pdf,PASS,pdf,pdf,canonical merge accepts pdf only,2026-09-14T01:56:26Z
+EXPDOC-010,merge_size_gate,PASS,199120,>20480,canonical _merge_rows.py rejects 20 KB or smaller,2026-09-14T01:56:26Z
+EXPDOC-010,pdf_probe,PASS,7,page_count,,2026-09-14T01:56:26Z
+EXPDOC-010,rights,PASS,PUBLIC,known,public URL with recorded license_note,2026-09-14T01:56:26Z
+EXPDOC-010,canonical_ready,PASS,,pdf + existing doc_type + unique hash,this run does not merge into source_ledger.csv,2026-09-14T01:56:26Z
+EXPDOC-011,source_identity,PASS,https://ilpa.org/wp-content/uploads/2025/09/ILPA-Suggested-Guidance-2025-Final.pdf,url,,2026-09-14T01:56:26Z
+EXPDOC-011,byte_integrity,PASS,5fe91c5f7859aae5cc3164ea205ff722e13d165b37fb40781fe692c2558ec18a,sha256,,2026-09-14T01:56:26Z
+EXPDOC-011,magic,PASS,TRUE,TRUE,pdf,2026-09-14T01:56:26Z
+EXPDOC-011,duplicate_sha,PASS,,unique,,2026-09-14T01:56:26Z
+EXPDOC-011,duplicate_filename,PASS,ilpa-capital-call-distribution-guidance.pdf,unique,,2026-09-14T01:56:26Z
+EXPDOC-011,duplicate_url,PASS,unique,unique,,2026-09-14T01:56:26Z
+EXPDOC-011,doc_type_enum,PASS,Cash_Flow_Notice,document-types.csv or approved new family,,2026-09-14T01:56:26Z
+EXPDOC-011,subtype,PASS,Capital_Call_Detail,taxonomy map,,2026-09-14T01:56:26Z
+EXPDOC-011,native_pdf,PASS,pdf,pdf,canonical merge accepts pdf only,2026-09-14T01:56:26Z
+EXPDOC-011,merge_size_gate,PASS,866758,>20480,canonical _merge_rows.py rejects 20 KB or smaller,2026-09-14T01:56:26Z
+EXPDOC-011,pdf_probe,PASS,26,page_count,,2026-09-14T01:56:26Z
+EXPDOC-011,rights,PASS,PUBLIC,known,public URL with recorded license_note,2026-09-14T01:56:26Z
+EXPDOC-011,canonical_ready,PASS,,pdf + existing doc_type + unique hash,this run does not merge into source_ledger.csv,2026-09-14T01:56:26Z
+EXPDOC-012,source_identity,PASS,https://ilpa.org/wp-content/uploads/2026/07/ILPA-Portfolio-Company-Template_Comment-PeriodvF.xlsx,url,,2026-09-14T01:56:26Z
+EXPDOC-012,byte_integrity,PASS,3a686db8d423ce8314551acf6fb0347460e7a0f6e3d278be8e450bf6ca330ff3,sha256,,2026-09-14T01:56:26Z
+EXPDOC-012,magic,PASS,TRUE,TRUE,xlsx,2026-09-14T01:56:26Z
+EXPDOC-012,duplicate_sha,PASS,,unique,,2026-09-14T01:56:26Z
+EXPDOC-012,duplicate_filename,PASS,ilpa-portfolio-company-template-2026-draft.xlsx,unique,,2026-09-14T01:56:26Z
+EXPDOC-012,duplicate_url,PASS,unique,unique,,2026-09-14T01:56:26Z
+EXPDOC-012,doc_type_enum,HOLD,Portfolio_Company_Report,document-types.csv or approved new family,,2026-09-14T01:56:26Z
+EXPDOC-012,subtype,PASS,ILPA_PortCo_Template,taxonomy map,,2026-09-14T01:56:26Z
+EXPDOC-012,native_pdf,HOLD,xlsx,pdf,canonical merge accepts pdf only,2026-09-14T01:56:26Z
+EXPDOC-012,merge_size_gate,PASS,150870,>20480,canonical _merge_rows.py rejects 20 KB or smaller,2026-09-14T01:56:26Z
+EXPDOC-012,pdf_probe,NOT_APPLICABLE,,pdf,materialize_native_to_pdf.py does not exist yet,2026-09-14T01:56:26Z
+EXPDOC-012,rights,PASS,PUBLIC,known,public URL with recorded license_note,2026-09-14T01:56:26Z
+EXPDOC-012,canonical_ready,HOLD,,pdf + existing doc_type + unique hash,this run does not merge into source_ledger.csv,2026-09-14T01:56:26Z
+EXPDOC-013,source_identity,PASS,https://ilpa.org/wp-content/uploads/2025/09/ILPA-CCD-Template-Examples-1.xlsx,url,,2026-09-14T01:56:26Z
+EXPDOC-013,byte_integrity,PASS,8df11eea1455e3a3f69e86cc00c8177c50441a9a58386a21c8980d63bbd66f32,sha256,,2026-09-14T01:56:26Z
+EXPDOC-013,magic,PASS,TRUE,TRUE,xlsx,2026-09-14T01:56:26Z
+EXPDOC-013,duplicate_sha,PASS,,unique,,2026-09-14T01:56:26Z
+EXPDOC-013,duplicate_filename,PASS,ilpa-ccd-template-examples.xlsx,unique,,2026-09-14T01:56:26Z
+EXPDOC-013,duplicate_url,PASS,unique,unique,,2026-09-14T01:56:26Z
+EXPDOC-013,doc_type_enum,PASS,Cash_Flow_Notice,document-types.csv or approved new family,,2026-09-14T01:56:26Z
+EXPDOC-013,subtype,PASS,Capital_Call_Detail,taxonomy map,,2026-09-14T01:56:26Z
+EXPDOC-013,native_pdf,HOLD,xlsx,pdf,canonical merge accepts pdf only,2026-09-14T01:56:26Z
+EXPDOC-013,merge_size_gate,PASS,211829,>20480,canonical _merge_rows.py rejects 20 KB or smaller,2026-09-14T01:56:26Z
+EXPDOC-013,pdf_probe,NOT_APPLICABLE,,pdf,materialize_native_to_pdf.py does not exist yet,2026-09-14T01:56:26Z
+EXPDOC-013,rights,PASS,PUBLIC,known,public URL with recorded license_note,2026-09-14T01:56:26Z
+EXPDOC-013,canonical_ready,HOLD,,pdf + existing doc_type + unique hash,this run does not merge into source_ledger.csv,2026-09-14T01:56:26Z
+EXPDOC-014,source_identity,PASS,https://ilpa.org/wp-content/uploads/2026/01/ILPA-Continuation-Fund-Disclosure-Template.docx,url,,2026-09-14T01:56:26Z
+EXPDOC-014,byte_integrity,PASS,69f1e89329d634b9ea32b131b45a691f8e63da7b846d8593ce5673254252621d,sha256,,2026-09-14T01:56:26Z
+EXPDOC-014,magic,PASS,TRUE,TRUE,docx,2026-09-14T01:56:26Z
+EXPDOC-014,duplicate_sha,PASS,,unique,,2026-09-14T01:56:26Z
+EXPDOC-014,duplicate_filename,PASS,ilpa-continuation-fund-disclosure-template.docx,unique,,2026-09-14T01:56:26Z
+EXPDOC-014,duplicate_url,PASS,unique,unique,,2026-09-14T01:56:26Z
+EXPDOC-014,doc_type_enum,HOLD,Continuation_Fund,document-types.csv or approved new family,,2026-09-14T01:56:26Z
+EXPDOC-014,subtype,PASS,Continuation_Disclosure,taxonomy map,,2026-09-14T01:56:26Z
+EXPDOC-014,native_pdf,HOLD,docx,pdf,canonical merge accepts pdf only,2026-09-14T01:56:26Z
+EXPDOC-014,merge_size_gate,PASS,77501,>20480,canonical _merge_rows.py rejects 20 KB or smaller,2026-09-14T01:56:26Z
+EXPDOC-014,pdf_probe,NOT_APPLICABLE,,pdf,materialize_native_to_pdf.py does not exist yet,2026-09-14T01:56:26Z
+EXPDOC-014,rights,PASS,PUBLIC,known,public URL with recorded license_note,2026-09-14T01:56:26Z
+EXPDOC-014,canonical_ready,HOLD,,pdf + existing doc_type + unique hash,this run does not merge into source_ledger.csv,2026-09-14T01:56:26Z
+EXPDOC-015,source_identity,PASS,https://ilpa.org/wp-content/uploads/2025/09/ILPA-Capital-Call-Distribution-Template-v.-2.0.xlsx,url,,2026-09-14T01:56:26Z
+EXPDOC-015,byte_integrity,PASS,2900ed5cd6a4c1ad597b8501134da7bb00a378a87142626dde528d99550876a6,sha256,,2026-09-14T01:56:26Z
+EXPDOC-015,magic,PASS,TRUE,TRUE,xlsx,2026-09-14T01:56:26Z
+EXPDOC-015,duplicate_sha,PASS,,unique,,2026-09-14T01:56:26Z
+EXPDOC-015,duplicate_filename,PASS,ilpa-capital-call-distribution-template-v2.xlsx,unique,,2026-09-14T01:56:26Z
+EXPDOC-015,duplicate_url,PASS,unique,unique,,2026-09-14T01:56:26Z
+EXPDOC-015,doc_type_enum,PASS,Cash_Flow_Notice,document-types.csv or approved new family,,2026-09-14T01:56:26Z
+EXPDOC-015,subtype,PASS,Capital_Call_Detail,taxonomy map,,2026-09-14T01:56:26Z
+EXPDOC-015,native_pdf,HOLD,xlsx,pdf,canonical merge accepts pdf only,2026-09-14T01:56:26Z
+EXPDOC-015,merge_size_gate,PASS,70669,>20480,canonical _merge_rows.py rejects 20 KB or smaller,2026-09-14T01:56:26Z
+EXPDOC-015,pdf_probe,NOT_APPLICABLE,,pdf,materialize_native_to_pdf.py does not exist yet,2026-09-14T01:56:26Z
+EXPDOC-015,rights,PASS,PUBLIC,known,public URL with recorded license_note,2026-09-14T01:56:26Z
+EXPDOC-015,canonical_ready,HOLD,,pdf + existing doc_type + unique hash,this run does not merge into source_ledger.csv,2026-09-14T01:56:26Z
+EXPDOC-016,source_identity,PASS,https://www.sec.gov/Archives/edgar/data/2058263/000205826326000005/caps_202603xn-csr.htm,url,,2026-09-14T01:56:26Z
+EXPDOC-016,byte_integrity,PASS,f53c4a2309f2323889b22be47f21049149cb0b325d0d78182f7929bf5d99a646,sha256,,2026-09-14T01:56:26Z
+EXPDOC-016,magic,PASS,TRUE,TRUE,html,2026-09-14T01:56:26Z
+EXPDOC-016,duplicate_sha,PASS,,unique,,2026-09-14T01:56:26Z
+EXPDOC-016,duplicate_filename,PASS,carlyle-alpinvest-secondaries-ncsr-2026.html,unique,,2026-09-14T01:56:26Z
+EXPDOC-016,duplicate_url,PASS,unique,unique,,2026-09-14T01:56:26Z
+EXPDOC-016,doc_type_enum,PASS,Financials,document-types.csv or approved new family,,2026-09-14T01:56:26Z
+EXPDOC-016,subtype,PASS,N_CSR,taxonomy map,,2026-09-14T01:56:26Z
+EXPDOC-016,native_pdf,HOLD,html,pdf,canonical merge accepts pdf only,2026-09-14T01:56:26Z
+EXPDOC-016,merge_size_gate,PASS,1283485,>20480,canonical _merge_rows.py rejects 20 KB or smaller,2026-09-14T01:56:26Z
+EXPDOC-016,pdf_probe,NOT_APPLICABLE,,pdf,materialize_native_to_pdf.py does not exist yet,2026-09-14T01:56:26Z
+EXPDOC-016,rights,PASS,PUBLIC,known,public URL with recorded license_note,2026-09-14T01:56:26Z
+EXPDOC-016,canonical_ready,HOLD,,pdf + existing doc_type + unique hash,this run does not merge into source_ledger.csv,2026-09-14T01:56:26Z
+EXPDOC-017,source_identity,PASS,https://www.sec.gov/Archives/edgar/data/2058263/000104916926000693/CAPS_2025.12_N-PORT_PART_F.htm,url,,2026-09-14T01:56:26Z
+EXPDOC-017,byte_integrity,PASS,c4a66a28478c1861fff90eb921d1d92380e24d4382f2fa38c8b5be45cd99e2ba,sha256,,2026-09-14T01:56:26Z
+EXPDOC-017,magic,PASS,TRUE,TRUE,html,2026-09-14T01:56:26Z
+EXPDOC-017,duplicate_sha,PASS,,unique,,2026-09-14T01:56:26Z
+EXPDOC-017,duplicate_filename,PASS,carlyle-alpinvest-secondaries-nport-ex-2025-12.html,unique,,2026-09-14T01:56:26Z
+EXPDOC-017,duplicate_url,PASS,unique,unique,,2026-09-14T01:56:26Z
+EXPDOC-017,doc_type_enum,PASS,Schedule_Inv,document-types.csv or approved new family,,2026-09-14T01:56:26Z
+EXPDOC-017,subtype,PASS,NPORT_EX,taxonomy map,,2026-09-14T01:56:26Z
+EXPDOC-017,native_pdf,HOLD,html,pdf,canonical merge accepts pdf only,2026-09-14T01:56:26Z
+EXPDOC-017,merge_size_gate,PASS,131494,>20480,canonical _merge_rows.py rejects 20 KB or smaller,2026-09-14T01:56:26Z
+EXPDOC-017,pdf_probe,NOT_APPLICABLE,,pdf,materialize_native_to_pdf.py does not exist yet,2026-09-14T01:56:26Z
+EXPDOC-017,rights,PASS,PUBLIC,known,public URL with recorded license_note,2026-09-14T01:56:26Z
+EXPDOC-017,canonical_ready,HOLD,,pdf + existing doc_type + unique hash,this run does not merge into source_ledger.csv,2026-09-14T01:56:26Z
+EXPDOC-018,source_identity,PASS,https://www.sec.gov/Archives/edgar/data/2058263/000104916926000693/primary_doc.xml,url,,2026-09-14T01:56:26Z
+EXPDOC-018,byte_integrity,PASS,6b83584ac1dec615b478dd451fc1d7c40c93acec63646d591d9bed5c3376a751,sha256,,2026-09-14T01:56:26Z
+EXPDOC-018,magic,PASS,TRUE,TRUE,xml,2026-09-14T01:56:26Z
+EXPDOC-018,duplicate_sha,PASS,,unique,,2026-09-14T01:56:26Z
+EXPDOC-018,duplicate_filename,PASS,carlyle-alpinvest-secondaries-nport-p-2025-12.xml,unique,,2026-09-14T01:56:26Z
+EXPDOC-018,duplicate_url,PASS,unique,unique,,2026-09-14T01:56:26Z
+EXPDOC-018,doc_type_enum,PASS,Schedule_Inv,document-types.csv or approved new family,,2026-09-14T01:56:26Z
+EXPDOC-018,subtype,PASS,NPORT_P,taxonomy map,,2026-09-14T01:56:26Z
+EXPDOC-018,native_pdf,HOLD,xml,pdf,canonical merge accepts pdf only,2026-09-14T01:56:26Z
+EXPDOC-018,merge_size_gate,PASS,50939,>20480,canonical _merge_rows.py rejects 20 KB or smaller,2026-09-14T01:56:26Z
+EXPDOC-018,pdf_probe,NOT_APPLICABLE,,pdf,materialize_native_to_pdf.py does not exist yet,2026-09-14T01:56:26Z
+EXPDOC-018,rights,PASS,PUBLIC,known,public URL with recorded license_note,2026-09-14T01:56:26Z
+EXPDOC-018,canonical_ready,HOLD,,pdf + existing doc_type + unique hash,this run does not merge into source_ledger.csv,2026-09-14T01:56:26Z
+EXPDOC-019,source_identity,PASS,https://www.sec.gov/Archives/edgar/data/2058263/000139834426013055/fp0100147-1_486bposixbrl.htm,url,,2026-09-14T01:56:26Z
+EXPDOC-019,byte_integrity,PASS,bc6d35caa3e7a1793ad2d9cb38cb2209605a3f7f6a9f7d8b5870ccf91b93751e,sha256,,2026-09-14T01:56:26Z
+EXPDOC-019,magic,PASS,TRUE,TRUE,html,2026-09-14T01:56:26Z
+EXPDOC-019,duplicate_sha,PASS,,unique,,2026-09-14T01:56:26Z
+EXPDOC-019,duplicate_filename,PASS,carlyle-alpinvest-secondaries-prospectus-2026-07.html,unique,,2026-09-14T01:56:26Z
+EXPDOC-019,duplicate_url,PASS,unique,unique,,2026-09-14T01:56:26Z
+EXPDOC-019,doc_type_enum,PASS,PPM,document-types.csv or approved new family,,2026-09-14T01:56:26Z
+EXPDOC-019,subtype,PASS,N_2,taxonomy map,,2026-09-14T01:56:26Z
+EXPDOC-019,native_pdf,HOLD,html,pdf,canonical merge accepts pdf only,2026-09-14T01:56:26Z
+EXPDOC-019,merge_size_gate,PASS,1195863,>20480,canonical _merge_rows.py rejects 20 KB or smaller,2026-09-14T01:56:26Z
+EXPDOC-019,pdf_probe,NOT_APPLICABLE,,pdf,materialize_native_to_pdf.py does not exist yet,2026-09-14T01:56:26Z
+EXPDOC-019,rights,PASS,PUBLIC,known,public URL with recorded license_note,2026-09-14T01:56:26Z
+EXPDOC-019,canonical_ready,HOLD,,pdf + existing doc_type + unique hash,this run does not merge into source_ledger.csv,2026-09-14T01:56:26Z
+EXPDOC-020,source_identity,PASS,https://www.sec.gov/Archives/edgar/data/1969180/000110465926070882/tm266851d1_ncsr.htm,url,,2026-09-14T01:56:26Z
+EXPDOC-020,byte_integrity,PASS,c0348de2ff762b9a3c43bd791cb6e2bda7d5f1bf8687eec9c6821815fd8c938c,sha256,,2026-09-14T01:56:26Z
+EXPDOC-020,magic,PASS,TRUE,TRUE,html,2026-09-14T01:56:26Z
+EXPDOC-020,duplicate_sha,PASS,,unique,,2026-09-14T01:56:26Z
+EXPDOC-020,duplicate_filename,PASS,coller-secondaries-ncsr-2026.html,unique,,2026-09-14T01:56:26Z
+EXPDOC-020,duplicate_url,PASS,unique,unique,,2026-09-14T01:56:26Z
+EXPDOC-020,doc_type_enum,PASS,Financials,document-types.csv or approved new family,,2026-09-14T01:56:26Z
+EXPDOC-020,subtype,PASS,N_CSR,taxonomy map,,2026-09-14T01:56:26Z
+EXPDOC-020,native_pdf,HOLD,html,pdf,canonical merge accepts pdf only,2026-09-14T01:56:26Z
+EXPDOC-020,merge_size_gate,PASS,1322143,>20480,canonical _merge_rows.py rejects 20 KB or smaller,2026-09-14T01:56:26Z
+EXPDOC-020,pdf_probe,NOT_APPLICABLE,,pdf,materialize_native_to_pdf.py does not exist yet,2026-09-14T01:56:26Z
+EXPDOC-020,rights,PASS,PUBLIC,known,public URL with recorded license_note,2026-09-14T01:56:26Z
+EXPDOC-020,canonical_ready,HOLD,,pdf + existing doc_type + unique hash,this run does not merge into source_ledger.csv,2026-09-14T01:56:26Z
+EXPDOC-021,source_identity,PASS,https://www.sec.gov/Archives/edgar/data/1969180/000141036826020768/NPORT_CZVC_38764804_1225.htm,url,,2026-09-14T01:56:26Z
+EXPDOC-021,byte_integrity,PASS,c687cf6c45b036c288098600dd0d9008b77e0b0ff258fe8190b5b0222a12b5a8,sha256,,2026-09-14T01:56:26Z
+EXPDOC-021,magic,PASS,TRUE,TRUE,html,2026-09-14T01:56:26Z
+EXPDOC-021,duplicate_sha,PASS,,unique,,2026-09-14T01:56:26Z
+EXPDOC-021,duplicate_filename,PASS,coller-secondaries-nport-ex-2025-12.html,unique,,2026-09-14T01:56:26Z
+EXPDOC-021,duplicate_url,PASS,unique,unique,,2026-09-14T01:56:26Z
+EXPDOC-021,doc_type_enum,PASS,Schedule_Inv,document-types.csv or approved new family,,2026-09-14T01:56:26Z
+EXPDOC-021,subtype,PASS,NPORT_EX,taxonomy map,,2026-09-14T01:56:26Z
+EXPDOC-021,native_pdf,HOLD,html,pdf,canonical merge accepts pdf only,2026-09-14T01:56:26Z
+EXPDOC-021,merge_size_gate,PASS,391560,>20480,canonical _merge_rows.py rejects 20 KB or smaller,2026-09-14T01:56:26Z
+EXPDOC-021,pdf_probe,NOT_APPLICABLE,,pdf,materialize_native_to_pdf.py does not exist yet,2026-09-14T01:56:26Z
+EXPDOC-021,rights,PASS,PUBLIC,known,public URL with recorded license_note,2026-09-14T01:56:26Z
+EXPDOC-021,canonical_ready,HOLD,,pdf + existing doc_type + unique hash,this run does not merge into source_ledger.csv,2026-09-14T01:56:26Z
+EXPDOC-022,source_identity,PASS,https://www.sec.gov/Archives/edgar/data/1969180/000141036826020768/primary_doc.xml,url,,2026-09-14T01:56:26Z
+EXPDOC-022,byte_integrity,PASS,13bcadce79d829d179a2506669be7c0a3cf9ee50c3a4a4488cdc3e5f56afa7d9,sha256,,2026-09-14T01:56:26Z
+EXPDOC-022,magic,PASS,TRUE,TRUE,xml,2026-09-14T01:56:26Z
+EXPDOC-022,duplicate_sha,PASS,,unique,,2026-09-14T01:56:26Z
+EXPDOC-022,duplicate_filename,PASS,coller-secondaries-nport-p-2025-12.xml,unique,,2026-09-14T01:56:26Z
+EXPDOC-022,duplicate_url,PASS,unique,unique,,2026-09-14T01:56:26Z
+EXPDOC-022,doc_type_enum,PASS,Schedule_Inv,document-types.csv or approved new family,,2026-09-14T01:56:26Z
+EXPDOC-022,subtype,PASS,NPORT_P,taxonomy map,,2026-09-14T01:56:26Z
+EXPDOC-022,native_pdf,HOLD,xml,pdf,canonical merge accepts pdf only,2026-09-14T01:56:26Z
+EXPDOC-022,merge_size_gate,PASS,158960,>20480,canonical _merge_rows.py rejects 20 KB or smaller,2026-09-14T01:56:26Z
+EXPDOC-022,pdf_probe,NOT_APPLICABLE,,pdf,materialize_native_to_pdf.py does not exist yet,2026-09-14T01:56:26Z
+EXPDOC-022,rights,PASS,PUBLIC,known,public URL with recorded license_note,2026-09-14T01:56:26Z
+EXPDOC-022,canonical_ready,HOLD,,pdf + existing doc_type + unique hash,this run does not merge into source_ledger.csv,2026-09-14T01:56:26Z
+EXPDOC-023,source_identity,PASS,https://www.sec.gov/Archives/edgar/data/1969180/000121390026057349/ea0289481-01_sctoi.htm,url,,2026-09-14T01:56:26Z
+EXPDOC-023,byte_integrity,PASS,f63d2301d4bea1357e0f4c1b3b52378bb843e6f3bcc52e2a168f13c8032c5dab,sha256,,2026-09-14T01:56:26Z
+EXPDOC-023,magic,PASS,TRUE,TRUE,html,2026-09-14T01:56:26Z
+EXPDOC-023,duplicate_sha,PASS,,unique,,2026-09-14T01:56:26Z
+EXPDOC-023,duplicate_filename,PASS,coller-secondaries-sc-to-i-2026.html,unique,,2026-09-14T01:56:26Z
+EXPDOC-023,duplicate_url,PASS,unique,unique,,2026-09-14T01:56:26Z
+EXPDOC-023,doc_type_enum,PASS,Institutional_Report,document-types.csv or approved new family,,2026-09-14T01:56:26Z
+EXPDOC-023,subtype,PASS,Secondary_Sale_RFP,taxonomy map,,2026-09-14T01:56:26Z
+EXPDOC-023,native_pdf,HOLD,html,pdf,canonical merge accepts pdf only,2026-09-14T01:56:26Z
+EXPDOC-023,merge_size_gate,PASS,169209,>20480,canonical _merge_rows.py rejects 20 KB or smaller,2026-09-14T01:56:26Z
+EXPDOC-023,pdf_probe,NOT_APPLICABLE,,pdf,materialize_native_to_pdf.py does not exist yet,2026-09-14T01:56:26Z
+EXPDOC-023,rights,PASS,PUBLIC,known,public URL with recorded license_note,2026-09-14T01:56:26Z
+EXPDOC-023,canonical_ready,HOLD,,pdf + existing doc_type + unique hash,this run does not merge into source_ledger.csv,2026-09-14T01:56:26Z
+EXPDOC-024,source_identity,PASS,https://www.sec.gov/Archives/edgar/data/1876006/000110465926070470/tm2616630d1_ncsr.htm,url,,2026-09-14T01:56:26Z
+EXPDOC-024,byte_integrity,PASS,d475b60990691533b47b7cabb01753ec2b51d3fa318a39e0c0743ccce130f839,sha256,,2026-09-14T01:56:26Z
+EXPDOC-024,magic,PASS,TRUE,TRUE,html,2026-09-14T01:56:26Z
+EXPDOC-024,duplicate_sha,PASS,,unique,,2026-09-14T01:56:26Z
+EXPDOC-024,duplicate_filename,PASS,ares-private-markets-ncsr-2026.html,unique,,2026-09-14T01:56:26Z
+EXPDOC-024,duplicate_url,PASS,unique,unique,,2026-09-14T01:56:26Z
+EXPDOC-024,doc_type_enum,PASS,Financials,document-types.csv or approved new family,,2026-09-14T01:56:26Z
+EXPDOC-024,subtype,PASS,N_CSR,taxonomy map,,2026-09-14T01:56:26Z
+EXPDOC-024,native_pdf,HOLD,html,pdf,canonical merge accepts pdf only,2026-09-14T01:56:26Z
+EXPDOC-024,merge_size_gate,PASS,1519830,>20480,canonical _merge_rows.py rejects 20 KB or smaller,2026-09-14T01:56:26Z
+EXPDOC-024,pdf_probe,NOT_APPLICABLE,,pdf,materialize_native_to_pdf.py does not exist yet,2026-09-14T01:56:26Z
+EXPDOC-024,rights,PASS,PUBLIC,known,public URL with recorded license_note,2026-09-14T01:56:26Z
+EXPDOC-024,canonical_ready,HOLD,,pdf + existing doc_type + unique hash,this run does not merge into source_ledger.csv,2026-09-14T01:56:26Z
+EXPDOC-025,source_identity,PASS,https://www.sec.gov/Archives/edgar/data/1876006/000104916926000700/fp0097777_nportex.htm,url,,2026-09-14T01:56:26Z
+EXPDOC-025,byte_integrity,PASS,55feeaac338b7cd8d8411a25f5e1910751882097a94816c61f12202d95146d32,sha256,,2026-09-14T01:56:26Z
+EXPDOC-025,magic,PASS,TRUE,TRUE,html,2026-09-14T01:56:26Z
+EXPDOC-025,duplicate_sha,PASS,,unique,,2026-09-14T01:56:26Z
+EXPDOC-025,duplicate_filename,PASS,ares-private-markets-nport-ex-2025-12.html,unique,,2026-09-14T01:56:26Z
+EXPDOC-025,duplicate_url,PASS,unique,unique,,2026-09-14T01:56:26Z
+EXPDOC-025,doc_type_enum,PASS,Schedule_Inv,document-types.csv or approved new family,,2026-09-14T01:56:26Z
+EXPDOC-025,subtype,PASS,NPORT_EX,taxonomy map,,2026-09-14T01:56:26Z
+EXPDOC-025,native_pdf,HOLD,html,pdf,canonical merge accepts pdf only,2026-09-14T01:56:26Z
+EXPDOC-025,merge_size_gate,PASS,392825,>20480,canonical _merge_rows.py rejects 20 KB or smaller,2026-09-14T01:56:26Z
+EXPDOC-025,pdf_probe,NOT_APPLICABLE,,pdf,materialize_native_to_pdf.py does not exist yet,2026-09-14T01:56:26Z
+EXPDOC-025,rights,PASS,PUBLIC,known,public URL with recorded license_note,2026-09-14T01:56:26Z
+EXPDOC-025,canonical_ready,HOLD,,pdf + existing doc_type + unique hash,this run does not merge into source_ledger.csv,2026-09-14T01:56:26Z
+EXPDOC-026,source_identity,PASS,https://www.sec.gov/Archives/edgar/data/1876006/000104916926000700/primary_doc.xml,url,,2026-09-14T01:56:26Z
+EXPDOC-026,byte_integrity,PASS,2fcfebf6af589fc4f0ce48ff81ec9d546f7ecb7d081ffd031335632407ba2ae8,sha256,,2026-09-14T01:56:26Z
+EXPDOC-026,magic,PASS,TRUE,TRUE,xml,2026-09-14T01:56:26Z
+EXPDOC-026,duplicate_sha,PASS,,unique,,2026-09-14T01:56:26Z
+EXPDOC-026,duplicate_filename,PASS,ares-private-markets-nport-p-2025-12.xml,unique,,2026-09-14T01:56:26Z
+EXPDOC-026,duplicate_url,PASS,unique,unique,,2026-09-14T01:56:26Z
+EXPDOC-026,doc_type_enum,PASS,Schedule_Inv,document-types.csv or approved new family,,2026-09-14T01:56:26Z
+EXPDOC-026,subtype,PASS,NPORT_P,taxonomy map,,2026-09-14T01:56:26Z
+EXPDOC-026,native_pdf,HOLD,xml,pdf,canonical merge accepts pdf only,2026-09-14T01:56:26Z
+EXPDOC-026,merge_size_gate,PASS,397110,>20480,canonical _merge_rows.py rejects 20 KB or smaller,2026-09-14T01:56:26Z
+EXPDOC-026,pdf_probe,NOT_APPLICABLE,,pdf,materialize_native_to_pdf.py does not exist yet,2026-09-14T01:56:26Z
+EXPDOC-026,rights,PASS,PUBLIC,known,public URL with recorded license_note,2026-09-14T01:56:26Z
+EXPDOC-026,canonical_ready,HOLD,,pdf + existing doc_type + unique hash,this run does not merge into source_ledger.csv,2026-09-14T01:56:26Z
+EXPDOC-027,source_identity,PASS,https://www.sec.gov/Archives/edgar/data/1876006/000110465926022851/tm267622d1_sctoi.htm,url,,2026-09-14T01:56:26Z
+EXPDOC-027,byte_integrity,PASS,d6b9f17aae6eb3179e0d3ac9f1574191970801669cf37456f0548e0066ec2f16,sha256,,2026-09-14T01:56:26Z
+EXPDOC-027,magic,PASS,TRUE,TRUE,html,2026-09-14T01:56:26Z
+EXPDOC-027,duplicate_sha,PASS,,unique,,2026-09-14T01:56:26Z
+EXPDOC-027,duplicate_filename,PASS,ares-private-markets-sc-to-i-2026.html,unique,,2026-09-14T01:56:26Z
+EXPDOC-027,duplicate_url,PASS,unique,unique,,2026-09-14T01:56:26Z
+EXPDOC-027,doc_type_enum,PASS,Institutional_Report,document-types.csv or approved new family,,2026-09-14T01:56:26Z
+EXPDOC-027,subtype,PASS,Secondary_Sale_RFP,taxonomy map,,2026-09-14T01:56:26Z
+EXPDOC-027,native_pdf,HOLD,html,pdf,canonical merge accepts pdf only,2026-09-14T01:56:26Z
+EXPDOC-027,merge_size_gate,PASS,94920,>20480,canonical _merge_rows.py rejects 20 KB or smaller,2026-09-14T01:56:26Z
+EXPDOC-027,pdf_probe,NOT_APPLICABLE,,pdf,materialize_native_to_pdf.py does not exist yet,2026-09-14T01:56:26Z
+EXPDOC-027,rights,PASS,PUBLIC,known,public URL with recorded license_note,2026-09-14T01:56:26Z
+EXPDOC-027,canonical_ready,HOLD,,pdf + existing doc_type + unique hash,this run does not merge into source_ledger.csv,2026-09-14T01:56:26Z
+EXPDOC-028,source_identity,PASS,https://www.sec.gov/Archives/edgar/data/1803491/000121390026066804/ea0291054-01_ncsr.htm,url,,2026-09-14T01:56:26Z
+EXPDOC-028,byte_integrity,PASS,f601ea04a192df1e8e74def1effbbe4ae4b33de0162ecda39172dbf7bd535eda,sha256,,2026-09-14T01:56:26Z
+EXPDOC-028,magic,PASS,TRUE,TRUE,html,2026-09-14T01:56:26Z
+EXPDOC-028,duplicate_sha,PASS,,unique,,2026-09-14T01:56:26Z
+EXPDOC-028,duplicate_filename,PASS,hamilton-lane-private-assets-ncsr-2026.html,unique,,2026-09-14T01:56:26Z
+EXPDOC-028,duplicate_url,PASS,unique,unique,,2026-09-14T01:56:26Z
+EXPDOC-028,doc_type_enum,PASS,Financials,document-types.csv or approved new family,,2026-09-14T01:56:26Z
+EXPDOC-028,subtype,PASS,N_CSR,taxonomy map,,2026-09-14T01:56:26Z
+EXPDOC-028,native_pdf,HOLD,html,pdf,canonical merge accepts pdf only,2026-09-14T01:56:26Z
+EXPDOC-028,merge_size_gate,PASS,7694523,>20480,canonical _merge_rows.py rejects 20 KB or smaller,2026-09-14T01:56:26Z
+EXPDOC-028,pdf_probe,NOT_APPLICABLE,,pdf,materialize_native_to_pdf.py does not exist yet,2026-09-14T01:56:26Z
+EXPDOC-028,rights,PASS,PUBLIC,known,public URL with recorded license_note,2026-09-14T01:56:26Z
+EXPDOC-028,canonical_ready,HOLD,,pdf + existing doc_type + unique hash,this run does not merge into source_ledger.csv,2026-09-14T01:56:26Z
+EXPDOC-029,source_identity,PASS,https://www.sec.gov/Archives/edgar/data/1803491/000119312526373881/hlpafsoi6302026.htm,url,,2026-09-14T01:56:26Z
+EXPDOC-029,byte_integrity,PASS,22d8c60c5391827f0e754c45fca1bd59696ad90631a235e913c986953fb09eb4,sha256,,2026-09-14T01:56:26Z
+EXPDOC-029,magic,PASS,TRUE,TRUE,html,2026-09-14T01:56:26Z
+EXPDOC-029,duplicate_sha,PASS,,unique,,2026-09-14T01:56:26Z
+EXPDOC-029,duplicate_filename,PASS,hamilton-lane-private-assets-nport-ex-2026-06.html,unique,,2026-09-14T01:56:26Z
+EXPDOC-029,duplicate_url,PASS,unique,unique,,2026-09-14T01:56:26Z
+EXPDOC-029,doc_type_enum,PASS,Schedule_Inv,document-types.csv or approved new family,,2026-09-14T01:56:26Z
+EXPDOC-029,subtype,PASS,NPORT_EX,taxonomy map,,2026-09-14T01:56:26Z
+EXPDOC-029,native_pdf,HOLD,html,pdf,canonical merge accepts pdf only,2026-09-14T01:56:26Z
+EXPDOC-029,merge_size_gate,PASS,515753,>20480,canonical _merge_rows.py rejects 20 KB or smaller,2026-09-14T01:56:26Z
+EXPDOC-029,pdf_probe,NOT_APPLICABLE,,pdf,materialize_native_to_pdf.py does not exist yet,2026-09-14T01:56:26Z
+EXPDOC-029,rights,PASS,PUBLIC,known,public URL with recorded license_note,2026-09-14T01:56:26Z
+EXPDOC-029,canonical_ready,HOLD,,pdf + existing doc_type + unique hash,this run does not merge into source_ledger.csv,2026-09-14T01:56:26Z
+EXPDOC-030,source_identity,PASS,https://www.sec.gov/Archives/edgar/data/1803491/000119312526373881/primary_doc.xml,url,,2026-09-14T01:56:26Z
+EXPDOC-030,byte_integrity,PASS,f4b97047dc1343cbecc957d3d6df373d1b65d4f475ca6c41a6ab93ea49329a25,sha256,,2026-09-14T01:56:26Z
+EXPDOC-030,magic,PASS,TRUE,TRUE,xml,2026-09-14T01:56:26Z
+EXPDOC-030,duplicate_sha,PASS,,unique,,2026-09-14T01:56:26Z
+EXPDOC-030,duplicate_filename,PASS,hamilton-lane-private-assets-nport-p-2026-06.xml,unique,,2026-09-14T01:56:26Z
+EXPDOC-030,duplicate_url,PASS,unique,unique,,2026-09-14T01:56:26Z
+EXPDOC-030,doc_type_enum,PASS,Schedule_Inv,document-types.csv or approved new family,,2026-09-14T01:56:26Z
+EXPDOC-030,subtype,PASS,NPORT_P,taxonomy map,,2026-09-14T01:56:26Z
+EXPDOC-030,native_pdf,HOLD,xml,pdf,canonical merge accepts pdf only,2026-09-14T01:56:26Z
+EXPDOC-030,merge_size_gate,PASS,338803,>20480,canonical _merge_rows.py rejects 20 KB or smaller,2026-09-14T01:56:26Z
+EXPDOC-030,pdf_probe,NOT_APPLICABLE,,pdf,materialize_native_to_pdf.py does not exist yet,2026-09-14T01:56:26Z
+EXPDOC-030,rights,PASS,PUBLIC,known,public URL with recorded license_note,2026-09-14T01:56:26Z
+EXPDOC-030,canonical_ready,HOLD,,pdf + existing doc_type + unique hash,this run does not merge into source_ledger.csv,2026-09-14T01:56:26Z
+EXPDOC-031,source_identity,PASS,https://www.sec.gov/Archives/edgar/data/1803491/000121390026013125/ea0274415-01_sctoi.htm,url,,2026-09-14T01:56:26Z
+EXPDOC-031,byte_integrity,PASS,b27280cb870bba1e55c851ea08f95f5fa65ae7f7359af55fda080b644cb657f6,sha256,,2026-09-14T01:56:26Z
+EXPDOC-031,magic,PASS,TRUE,TRUE,html,2026-09-14T01:56:26Z
+EXPDOC-031,duplicate_sha,PASS,,unique,,2026-09-14T01:56:26Z
+EXPDOC-031,duplicate_filename,PASS,hamilton-lane-private-assets-sc-to-i-2026.html,unique,,2026-09-14T01:56:26Z
+EXPDOC-031,duplicate_url,PASS,unique,unique,,2026-09-14T01:56:26Z
+EXPDOC-031,doc_type_enum,PASS,Institutional_Report,document-types.csv or approved new family,,2026-09-14T01:56:26Z
+EXPDOC-031,subtype,PASS,Secondary_Sale_RFP,taxonomy map,,2026-09-14T01:56:26Z
+EXPDOC-031,native_pdf,HOLD,html,pdf,canonical merge accepts pdf only,2026-09-14T01:56:26Z
+EXPDOC-031,merge_size_gate,PASS,83351,>20480,canonical _merge_rows.py rejects 20 KB or smaller,2026-09-14T01:56:26Z
+EXPDOC-031,pdf_probe,NOT_APPLICABLE,,pdf,materialize_native_to_pdf.py does not exist yet,2026-09-14T01:56:26Z
+EXPDOC-031,rights,PASS,PUBLIC,known,public URL with recorded license_note,2026-09-14T01:56:26Z
+EXPDOC-031,canonical_ready,HOLD,,pdf + existing doc_type + unique hash,this run does not merge into source_ledger.csv,2026-09-14T01:56:26Z

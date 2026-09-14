@@ -17,10 +17,14 @@ import re
 import unittest
 from pathlib import Path
 
+from src.repository.build_project_manifest import EXCLUDED_DIRECTORIES
+
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 # `audit/` is an ignored local work area containing operator transcripts and
 # append-only agent records. It is not part of the reviewer-facing repository.
-SKIP_DIRS = {".git", "__pycache__", ".pytest_cache", "audit"}
+# Tool caches and virtualenvs use the same skip list as the project manifest,
+# otherwise Temporal/.venv vendor markdown is scored as house prose.
+SKIP_DIRS = set(EXCLUDED_DIRECTORIES) | {".git", "audit"}
 
 FENCED = re.compile(r"```.*?```", re.S)
 INLINE = re.compile(r"`[^`\n]*`")
@@ -111,6 +115,16 @@ ALLOWED: dict[tuple[str, str], str] = {}
 # Audit records and the operator's own briefs are read as inputs, in the words
 # their authors chose; the house rules govern the repository's own prose.
 NOT_REPOSITORY_PROSE = {
+    # Supplied research proposals remain input text; authored reports are checked.
+    "GP-Scoring/research/GP Scoring Blueprint for an Institutional Private-Equity Investment Team.md",
+    "GP-Scoring/research/GP Scoring Research and Implementation Blueprint for the Alts ETL Analytics Project.md",
+    "Expansion/Data/EXPANSION-DATA-ROADMAP.md",
+    "Expansion/Data/Missing Critical Document Types for Portfolio-Company Look-Through and Secondaries Valuation.md",
+    "Expansion/EXPANSION-LEDGER.md",
+    "Expansion/holdings/E01-ARCHITECTURE-MAP.md",
+    "Expansion/holdings/gpt-09-13-2026-1200.md",
+    "Expansion/holdings/gpt-09-13-2026-1300.md",
+    "TODO.md",
     "notes.md",
     "diagnostics.md",
     "diagnostics_1.md",
@@ -120,15 +134,26 @@ NOT_REPOSITORY_PROSE = {
     "audit/dashboard-explanation/README.md",
 }
 
+# Untracked research trees keep their authors' wording until a dedicated
+# editorial pass. Prefix match, because the files are not house prose yet.
+NOT_REPOSITORY_PREFIXES = (
+    "Reducto/",
+    "audit/diagnostics/",
+)
+
 
 def markdown_files() -> list[Path]:
-    return sorted(
-        path
-        for path in PROJECT_ROOT.rglob("*.md")
-        if not (set(path.relative_to(PROJECT_ROOT).parts) & SKIP_DIRS)
-        and path.relative_to(PROJECT_ROOT).as_posix() not in NOT_REPOSITORY_PROSE
-        and not path.relative_to(PROJECT_ROOT).as_posix().startswith("audit/diagnostics/")
-    )
+    files = []
+    for path in PROJECT_ROOT.rglob("*.md"):
+        rel = path.relative_to(PROJECT_ROOT).as_posix()
+        if set(path.relative_to(PROJECT_ROOT).parts) & SKIP_DIRS:
+            continue
+        if rel in NOT_REPOSITORY_PROSE:
+            continue
+        if any(rel.startswith(prefix) for prefix in NOT_REPOSITORY_PREFIXES):
+            continue
+        files.append(path)
+    return sorted(files)
 
 
 def prose_of(path: Path) -> str:

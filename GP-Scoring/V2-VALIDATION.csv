@@ -1,0 +1,20 @@
+test,status,result,source
+Baseline regression suite,PASS,89 tests passed before the upgrade,python -B -m pytest GP-Scoring/tests -q -p no:cacheprovider
+Expanded regression suite,PASS,123 tests passed in 70.79 seconds; 34 added cases,python -B -m pytest GP-Scoring/tests -q -p no:cacheprovider
+Case-inclusive build,PASS,27 checks; 800 funds; 38 ranked manager-strategy groups; no model calls,GP-Scoring/06-report/checks.csv
+Core checks,PASS,19 core checks pass; eight additional checks cover the three cases,GP-Scoring/run_v2.py::_checks
+Saved V2 output,PASS,Read-only verification passes,python -B GP-Scoring/run_v2.py --check-only
+Numerical preservation,PASS,7200 fund cells and 1920 manager cells match HEAD including returns scores ranks and qualifying fund IDs,GP-Scoring/04-diagnostics/fund-diagnostics.csv; GP-Scoring/04-diagnostics/manager-diagnostics.csv
+Case preservation,PASS,All event economics dates costs proceeds and company marks match HEAD; only 11 ownership assumptions and generator labels differ,GP-Scoring/data/case-events.csv; GP-Scoring/data/case-valuations.csv
+Operating identity,PASS,11 of 11 marks reconcile; three current company scenarios reconcile to changed case results,GP-Scoring/v2_analysis.py::operating_downside
+Financial examples,PASS,Hand-calculated capital recovery and benchmark wealth; 75 company value falls to 47.9 through effects of -10 and -9 and -8.1,GP-Scoring/tests/test_gp_scoring_v2.py
+Refusal tests,PASS,Invalid currencies dates duplicates ownership values attribution totals report conflicts and non-finite results are refused,GP-Scoring/tests/test_gp_scoring_v2.py
+Repeat build,PASS,Two consecutive builds reproduce all 19 receipted output files before the final whitespace-only renderer cleanup,GP-Scoring/v2-archive/previous.zip; GP-Scoring/06-report/receipt.json
+V1 compatibility,PASS,V2 verifies retained V1 content; no protected baseline differences,GP-Scoring/v2_inputs.py::_v1_reference; GP-Scoring/v2_inputs.py::verify_baseline
+Original V1 verifier,KNOWN_LIMITATION,Eight unchanged V1 files differ only in LF versus CRLF from the original receipt; the strict legacy command reports FAIL,python -B GP-Scoring/run.py --check-only
+Browser,PASS,Seven views; 32 strategy/status combinations; three cases; 33 successful links; comparison selectors; mobile; expanded print; zero page errors,GP-Scoring/tests/browser_smoke.js
+Visual review,PASS,Desktop manager comparison and operating effects plus narrow mobile layout reviewed,GP-Scoring/06-report/dashboard.html
+Model execution,PASS,Zero live model calls; six offline previews; fake-provider tests only,GP-Scoring/06-report/model-previews.json
+Editorial,PASS,Ten current Markdown files and the generated dashboard have zero bans; first-use terms checked; recover and carry have financial meanings; let flags identify JavaScript declarations,GP-Scoring/V2-IMPLEMENTATION-REPORT.md; GP-Scoring/README.md; GP-Scoring/06-report/dashboard.html
+Scope,PASS,All changes stay under GP-Scoring; V1 parent data code and databases unchanged; no Git writes or deployment,GP-Scoring/v2-baseline.json
+Parent-wide tests,NOT_RUN,This evaluation runs only GP-specific checks; older parent results remain in the historical work ledger,GP-Scoring/V2-LIVE-LEDGER.csv

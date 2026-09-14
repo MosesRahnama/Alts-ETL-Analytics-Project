@@ -1,0 +1,1429 @@
+<?xml version="1.0" encoding="UTF-8"?><edgarSubmission xmlns="http://www.sec.gov/edgar/nport" xmlns:com="http://www.sec.gov/edgar/common" xmlns:ncom="http://www.sec.gov/edgar/nportcommon" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sec.gov/edgar/nport eis_NPORT_Filer.xsd">
+  <headerData>
+    <submissionType>NPORT-P</submissionType>
+    <isConfidential>false</isConfidential>
+    <filerInfo>
+
+      <filer>
+        <issuerCredentials>
+          <cik>0002058263</cik>
+          <ccc>XXXXXXXX</ccc>
+        </issuerCredentials>
+      </filer>
+
+
+
+    </filerInfo>
+  </headerData>
+  <formData>
+    <genInfo>
+      <regName>Carlyle AlpInvest Private Markets Secondaries Fund</regName>
+      <regFileNumber>811-24059</regFileNumber>
+      <regCik>0002058263</regCik>
+      <regLei>391200LRBA10W6EECT04</regLei>
+      <regStreet1>ONE VANDERBILT AVENUE SUITE 3400</regStreet1>
+      <regCity>NEW YORK</regCity>
+      <regStateConditional regCountry="US" regState="US-NY"/>
+      <regZipOrPostalCode>10017</regZipOrPostalCode>
+      <regPhone>6467354293</regPhone>
+      <seriesName>Carlyle AlpInvest Private Markets Secondaries Fund</seriesName>
+      <seriesLei>391200LRBA10W6EECT04</seriesLei>
+      <repPdEnd>2026-03-31</repPdEnd>
+      <repPdDate>2025-12-31</repPdDate>
+      <isFinalFiling>N</isFinalFiling>
+    </genInfo>
+    <fundInfo>
+      <totAssets>622193197.62</totAssets>
+      <totLiabs>55841031.43</totLiabs>
+      <netAssets>566352166.19</netAssets>
+      <assetsAttrMiscSec>0.00000000</assetsAttrMiscSec>
+      <assetsInvested>0.00000000</assetsInvested>
+      <amtPayOneYrBanksBorr>0.00000000</amtPayOneYrBanksBorr>
+      <amtPayOneYrCtrldComp>0.00000000</amtPayOneYrCtrldComp>
+      <amtPayOneYrOthAffil>0.00000000</amtPayOneYrOthAffil>
+      <amtPayOneYrOther>0.00000000</amtPayOneYrOther>
+      <amtPayAftOneYrBanksBorr>0.00000000</amtPayAftOneYrBanksBorr>
+      <amtPayAftOneYrCtrldComp>0.00000000</amtPayAftOneYrCtrldComp>
+      <amtPayAftOneYrOthAffil>0.00000000</amtPayAftOneYrOthAffil>
+      <amtPayAftOneYrOther>0.00000000</amtPayAftOneYrOther>
+      <delayDeliv>157669928.66000000</delayDeliv>
+      <standByCommit>0.00000000</standByCommit>
+      <liquidPref>0.00000000</liquidPref>
+      <cshNotRptdInCorD>6447229.38000000</cshNotRptdInCorD>
+      <isNonCashCollateral>N</isNonCashCollateral>
+      <returnInfo>
+        <monthlyTotReturns>
+          <monthlyTotReturn rtn1="N/A" rtn2="N/A" rtn3="4.64000000"/>
+          <monthlyTotReturn rtn1="N/A" rtn2="N/A" rtn3="4.64000000"/>
+        </monthlyTotReturns>
+        <othMon1 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+        <othMon2 netRealizedGain="-312.96000000" netUnrealizedAppr="-2963406.81000000"/>
+        <othMon3 netRealizedGain="15386.71000000" netUnrealizedAppr="29356155.32000000"/>
+      </returnInfo>
+      <mon1Flow redemption="0.00000000" reinvestment="0.00000000" sales="0.00000000"/>
+      <mon2Flow redemption="0.00000000" reinvestment="0.00000000" sales="509684334.67000000"/>
+      <mon3Flow redemption="0.00000000" reinvestment="0.00000000" sales="35697193.94000000"/>
+    </fundInfo>
+    <invstOrSecs>
+      <invstOrSec>
+        <name>N/A</name>
+        <lei>N/A</lei>
+        <title>Apheon Svt Long Term Value Fund SCSp</title>
+        <cusip>N/A</cusip>
+        <identifiers>
+          <ticker value="AI213655"/>
+        </identifiers>
+        <balance>N/A</balance>
+        <units>OU</units>
+        <descOthUnits>Other Units</descOthUnits>
+        <currencyConditional curCd="EUR" exchangeRt="0.85200000"/>
+        <valUSD>9238957.92000000</valUSD>
+        <pctVal>1.631309717088</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>PF</issuerCat>
+        <invCountry>BE</invCountry>
+        <isRestrictedSec>Y</isRestrictedSec>
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>N/A</name>
+        <lei>N/A</lei>
+        <title>Audax Private Equity Beacon CF</title>
+        <cusip>N/A</cusip>
+        <identifiers>
+          <ticker value="AI213297"/>
+        </identifiers>
+        <balance>N/A</balance>
+        <units>OU</units>
+        <descOthUnits>Other Units</descOthUnits>
+        <curCd>USD</curCd>
+        <valUSD>21305682.58000000</valUSD>
+        <pctVal>3.761914203194</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>PF</issuerCat>
+        <invCountry>US</invCountry>
+        <isRestrictedSec>Y</isRestrictedSec>
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>N/A</name>
+        <lei>N/A</lei>
+        <title>Sagard 3 FPCI</title>
+        <cusip>N/A</cusip>
+        <identifiers>
+          <ticker value="AI213713"/>
+        </identifiers>
+        <balance>N/A</balance>
+        <units>OU</units>
+        <descOthUnits>Other Units</descOthUnits>
+        <currencyConditional curCd="EUR" exchangeRt="0.85200000"/>
+        <valUSD>6485668.80000000</valUSD>
+        <pctVal>1.145165355971</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>PF</issuerCat>
+        <invCountry>FR</invCountry>
+        <isRestrictedSec>Y</isRestrictedSec>
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>N/A</name>
+        <lei>N/A</lei>
+        <title>Apheon Opseo Long Term Value Fund SCSp</title>
+        <cusip>N/A</cusip>
+        <identifiers>
+          <ticker value="AI213654"/>
+        </identifiers>
+        <balance>N/A</balance>
+        <units>OU</units>
+        <descOthUnits>Other Units</descOthUnits>
+        <currencyConditional curCd="EUR" exchangeRt="0.85200000"/>
+        <valUSD>11866684.58000000</valUSD>
+        <pctVal>2.095283692447</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>PF</issuerCat>
+        <invCountry>BE</invCountry>
+        <isRestrictedSec>Y</isRestrictedSec>
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>N/A</name>
+        <lei>N/A</lei>
+        <title>Churchill Secondary Partners II,L.P.</title>
+        <cusip>N/A</cusip>
+        <identifiers>
+          <ticker value="AI213198"/>
+        </identifiers>
+        <balance>N/A</balance>
+        <units>OU</units>
+        <descOthUnits>Other Units</descOthUnits>
+        <curCd>USD</curCd>
+        <valUSD>6463578.65000000</valUSD>
+        <pctVal>1.141264929466</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>PF</issuerCat>
+        <invCountry>US</invCountry>
+        <isRestrictedSec>Y</isRestrictedSec>
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>N/A</name>
+        <lei>N/A</lei>
+        <title>Madison Dearborn Capital Partners VIII</title>
+        <cusip>N/A</cusip>
+        <identifiers>
+          <ticker value="AI213475"/>
+        </identifiers>
+        <balance>N/A</balance>
+        <units>OU</units>
+        <descOthUnits>Other Units</descOthUnits>
+        <curCd>USD</curCd>
+        <valUSD>1757140.08000000</valUSD>
+        <pctVal>0.310255735723</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>PF</issuerCat>
+        <invCountry>US</invCountry>
+        <isRestrictedSec>Y</isRestrictedSec>
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>N/A</name>
+        <lei>N/A</lei>
+        <title>MONEY MARKET II</title>
+        <cusip>SF8888628</cusip>
+        <identifiers>
+          <ticker value="SF888862"/>
+        </identifiers>
+        <balance>290599184.68000000</balance>
+        <units>NS</units>
+        <curCd>USD</curCd>
+        <valUSD>290599184.68000000</valUSD>
+        <pctVal>51.31068653536</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>STIV</assetCat>
+        <issuerCat>RF</issuerCat>
+        <invCountry>US</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+        <fairValLevel>1</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>N/A</name>
+        <lei>N/A</lei>
+        <title>Backed 1 LP</title>
+        <cusip>N/A</cusip>
+        <identifiers>
+          <ticker value="AI213648"/>
+        </identifiers>
+        <balance>N/A</balance>
+        <units>OU</units>
+        <descOthUnits>Other Units</descOthUnits>
+        <currencyConditional curCd="EUR" exchangeRt="0.85200000"/>
+        <valUSD>4242918.88000000</valUSD>
+        <pctVal>0.749166178447</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>PF</issuerCat>
+        <invCountry>JE</invCountry>
+        <isRestrictedSec>Y</isRestrictedSec>
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>N/A</name>
+        <lei>N/A</lei>
+        <title>Apheon MidCap Buyout VI, SCSp</title>
+        <cusip>N/A</cusip>
+        <identifiers>
+          <ticker value="AI213690"/>
+        </identifiers>
+        <balance>N/A</balance>
+        <units>OU</units>
+        <descOthUnits>Other Units</descOthUnits>
+        <currencyConditional curCd="EUR" exchangeRt="0.85200000"/>
+        <valUSD>0.00000000</valUSD>
+        <pctVal>0.000000</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>PF</issuerCat>
+        <invCountry>BE</invCountry>
+        <isRestrictedSec>Y</isRestrictedSec>
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>N/A</name>
+        <lei>N/A</lei>
+        <title>Providence Strategic Growth Europe L.P.</title>
+        <cusip>N/A</cusip>
+        <identifiers>
+          <ticker value="AI213467"/>
+        </identifiers>
+        <balance>N/A</balance>
+        <units>OU</units>
+        <descOthUnits>Other Units</descOthUnits>
+        <currencyConditional curCd="EUR" exchangeRt="0.85200000"/>
+        <valUSD>2095628.10000000</valUSD>
+        <pctVal>0.370022086098</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>PF</issuerCat>
+        <invCountry>KY</invCountry>
+        <isRestrictedSec>Y</isRestrictedSec>
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>N/A</name>
+        <lei>N/A</lei>
+        <title>Providence Strategic Growth L.P.</title>
+        <cusip>N/A</cusip>
+        <identifiers>
+          <ticker value="AI213471"/>
+        </identifiers>
+        <balance>N/A</balance>
+        <units>OU</units>
+        <descOthUnits>Other Units</descOthUnits>
+        <curCd>USD</curCd>
+        <valUSD>180802.85000000</valUSD>
+        <pctVal>0.031924103198</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>PF</issuerCat>
+        <invCountry>US</invCountry>
+        <isRestrictedSec>Y</isRestrictedSec>
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>N/A</name>
+        <lei>N/A</lei>
+        <title>Hidden Harbor Capital Partners Continuation Fund L.P.</title>
+        <cusip>N/A</cusip>
+        <identifiers>
+          <ticker value="AI213097"/>
+        </identifiers>
+        <balance>N/A</balance>
+        <units>OU</units>
+        <descOthUnits>Other Units</descOthUnits>
+        <curCd>USD</curCd>
+        <valUSD>14002899.35000000</valUSD>
+        <pctVal>2.472472109394</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>PF</issuerCat>
+        <invCountry>US</invCountry>
+        <isRestrictedSec>Y</isRestrictedSec>
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>N/A</name>
+        <lei>N/A</lei>
+        <title>Warburg Pincus Capital Solutions Founders Fund, LP</title>
+        <cusip>N/A</cusip>
+        <identifiers>
+          <ticker value="AI213696"/>
+        </identifiers>
+        <balance>N/A</balance>
+        <units>OU</units>
+        <descOthUnits>Other Units</descOthUnits>
+        <curCd>USD</curCd>
+        <valUSD>952744.04000000</valUSD>
+        <pctVal>0.168224666007</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>PF</issuerCat>
+        <invCountry>US</invCountry>
+        <isRestrictedSec>Y</isRestrictedSec>
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>N/A</name>
+        <lei>N/A</lei>
+        <title>KKR Rainbow Co-lnvest (Asset) L.P.</title>
+        <cusip>N/A</cusip>
+        <identifiers>
+          <ticker value="AI213692"/>
+        </identifiers>
+        <balance>N/A</balance>
+        <units>OU</units>
+        <descOthUnits>Other Units</descOthUnits>
+        <curCd>USD</curCd>
+        <valUSD>5887670.75000000</valUSD>
+        <pctVal>1.039577687079</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>PF</issuerCat>
+        <invCountry>KY</invCountry>
+        <isRestrictedSec>Y</isRestrictedSec>
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>N/A</name>
+        <lei>N/A</lei>
+        <title>One Equity Partners IX-B SCSp.</title>
+        <cusip>N/A</cusip>
+        <identifiers>
+          <ticker value="AI213698"/>
+        </identifiers>
+        <balance>N/A</balance>
+        <units>OU</units>
+        <descOthUnits>Other Units</descOthUnits>
+        <curCd>USD</curCd>
+        <valUSD>2859693.57000000</valUSD>
+        <pctVal>0.504932044179</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>PF</issuerCat>
+        <invCountry>US</invCountry>
+        <isRestrictedSec>Y</isRestrictedSec>
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>N/A</name>
+        <lei>N/A</lei>
+        <title>Madison Dearborn Capital Partners IX</title>
+        <cusip>N/A</cusip>
+        <identifiers>
+          <ticker value="AI213562"/>
+        </identifiers>
+        <balance>N/A</balance>
+        <units>OU</units>
+        <descOthUnits>Other Units</descOthUnits>
+        <curCd>USD</curCd>
+        <valUSD>131148.00000000</valUSD>
+        <pctVal>0.023156616647</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>PF</issuerCat>
+        <invCountry>US</invCountry>
+        <isRestrictedSec>Y</isRestrictedSec>
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>N/A</name>
+        <lei>N/A</lei>
+        <title>PSG Europe II L.P.</title>
+        <cusip>N/A</cusip>
+        <identifiers>
+          <ticker value="AI213466"/>
+        </identifiers>
+        <balance>N/A</balance>
+        <units>OU</units>
+        <descOthUnits>Other Units</descOthUnits>
+        <currencyConditional curCd="EUR" exchangeRt="0.85200000"/>
+        <valUSD>1164502.31000000</valUSD>
+        <pctVal>0.205614523880</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>PF</issuerCat>
+        <invCountry>LU</invCountry>
+        <isRestrictedSec>Y</isRestrictedSec>
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>N/A</name>
+        <lei>N/A</lei>
+        <title>Sagard NewGen Pharma FPCI</title>
+        <cusip>N/A</cusip>
+        <identifiers>
+          <ticker value="AI213717"/>
+        </identifiers>
+        <balance>N/A</balance>
+        <units>OU</units>
+        <descOthUnits>Other Units</descOthUnits>
+        <currencyConditional curCd="EUR" exchangeRt="0.85200000"/>
+        <valUSD>747289.05000000</valUSD>
+        <pctVal>0.131947769358</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>PF</issuerCat>
+        <invCountry>FR</invCountry>
+        <isRestrictedSec>Y</isRestrictedSec>
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>N/A</name>
+        <lei>N/A</lei>
+        <title>Peak Rock Capital Fund IV-C NUS</title>
+        <cusip>N/A</cusip>
+        <identifiers>
+          <ticker value="AI213697"/>
+        </identifiers>
+        <balance>N/A</balance>
+        <units>OU</units>
+        <descOthUnits>Other Units</descOthUnits>
+        <curCd>USD</curCd>
+        <valUSD>304049.71000000</valUSD>
+        <pctVal>0.053685626744</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>PF</issuerCat>
+        <invCountry>US</invCountry>
+        <isRestrictedSec>Y</isRestrictedSec>
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>N/A</name>
+        <lei>N/A</lei>
+        <title>GA Continuity Fund II, L.P.</title>
+        <cusip>N/A</cusip>
+        <identifiers>
+          <ticker value="AI213052"/>
+        </identifiers>
+        <balance>N/A</balance>
+        <units>OU</units>
+        <descOthUnits>Other Units</descOthUnits>
+        <curCd>USD</curCd>
+        <valUSD>6240384.25000000</valUSD>
+        <pctVal>1.101855810313</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>PF</issuerCat>
+        <invCountry>US</invCountry>
+        <isRestrictedSec>Y</isRestrictedSec>
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>N/A</name>
+        <lei>N/A</lei>
+        <title>Providence Strategic Growth IV L.P.</title>
+        <cusip>N/A</cusip>
+        <identifiers>
+          <ticker value="AI213470"/>
+        </identifiers>
+        <balance>N/A</balance>
+        <units>OU</units>
+        <descOthUnits>Other Units</descOthUnits>
+        <curCd>USD</curCd>
+        <valUSD>2790298.32000000</valUSD>
+        <pctVal>0.492679023154</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>PF</issuerCat>
+        <invCountry>US</invCountry>
+        <isRestrictedSec>Y</isRestrictedSec>
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>N/A</name>
+        <lei>N/A</lei>
+        <title>Portage Capital Solutions Intenational Fund I LP</title>
+        <cusip>N/A</cusip>
+        <identifiers>
+          <ticker value="AI213694"/>
+        </identifiers>
+        <balance>N/A</balance>
+        <units>OU</units>
+        <descOthUnits>Other Units</descOthUnits>
+        <curCd>USD</curCd>
+        <valUSD>1985542.68000000</valUSD>
+        <pctVal>0.350584459375</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>PF</issuerCat>
+        <invCountry>CA</invCountry>
+        <isRestrictedSec>Y</isRestrictedSec>
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>N/A</name>
+        <lei>N/A</lei>
+        <title>The Resolute III Continuation Fund, L.P.</title>
+        <cusip>N/A</cusip>
+        <identifiers>
+          <ticker value="AI212817"/>
+        </identifiers>
+        <balance>N/A</balance>
+        <units>OU</units>
+        <descOthUnits>Other Units</descOthUnits>
+        <curCd>USD</curCd>
+        <valUSD>34426256.08000000</valUSD>
+        <pctVal>6.078595286673</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>PF</issuerCat>
+        <invCountry>US</invCountry>
+        <isRestrictedSec>Y</isRestrictedSec>
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>N/A</name>
+        <lei>N/A</lei>
+        <title>PSG LM Sequel L.P.</title>
+        <cusip>N/A</cusip>
+        <identifiers>
+          <ticker value="AI213563"/>
+        </identifiers>
+        <balance>N/A</balance>
+        <units>OU</units>
+        <descOthUnits>Other Units</descOthUnits>
+        <curCd>USD</curCd>
+        <valUSD>190982.00000000</valUSD>
+        <pctVal>0.033721421299</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>PF</issuerCat>
+        <invCountry>US</invCountry>
+        <isRestrictedSec>Y</isRestrictedSec>
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>N/A</name>
+        <lei>N/A</lei>
+        <title>ECI 12 Special Purpose LP</title>
+        <cusip>N/A</cusip>
+        <identifiers>
+          <ticker value="AI213478"/>
+        </identifiers>
+        <balance>N/A</balance>
+        <units>OU</units>
+        <descOthUnits>Other Units</descOthUnits>
+        <currencyConditional curCd="GBP" exchangeRt="0.74330000"/>
+        <valUSD>15422300.79000000</valUSD>
+        <pctVal>2.723093811709</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>PF</issuerCat>
+        <invCountry>GB</invCountry>
+        <isRestrictedSec>Y</isRestrictedSec>
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>N/A</name>
+        <lei>N/A</lei>
+        <title>LEP Red Rock Fund, L.P.</title>
+        <cusip>N/A</cusip>
+        <identifiers>
+          <ticker value="AI213543"/>
+        </identifiers>
+        <balance>N/A</balance>
+        <units>OU</units>
+        <descOthUnits>Other Units</descOthUnits>
+        <curCd>USD</curCd>
+        <valUSD>11990991.92000000</valUSD>
+        <pctVal>2.117232463445</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>PF</issuerCat>
+        <invCountry>US</invCountry>
+        <isRestrictedSec>Y</isRestrictedSec>
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>N/A</name>
+        <lei>N/A</lei>
+        <title>Hg Saturn 4 B L.P.</title>
+        <cusip>N/A</cusip>
+        <identifiers>
+          <ticker value="AI213651"/>
+        </identifiers>
+        <balance>N/A</balance>
+        <units>OU</units>
+        <descOthUnits>Other Units</descOthUnits>
+        <curCd>USD</curCd>
+        <valUSD>15522.90000000</valUSD>
+        <pctVal>0.002740856471</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>PF</issuerCat>
+        <invCountry>GB</invCountry>
+        <isRestrictedSec>Y</isRestrictedSec>
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>N/A</name>
+        <lei>N/A</lei>
+        <title>Sagard NewGen FPCI</title>
+        <cusip>N/A</cusip>
+        <identifiers>
+          <ticker value="AI213716"/>
+        </identifiers>
+        <balance>N/A</balance>
+        <units>OU</units>
+        <descOthUnits>Other Units</descOthUnits>
+        <currencyConditional curCd="EUR" exchangeRt="0.85200000"/>
+        <valUSD>2527955.29000000</valUSD>
+        <pctVal>0.446357485838</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>PF</issuerCat>
+        <invCountry>FR</invCountry>
+        <isRestrictedSec>Y</isRestrictedSec>
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>N/A</name>
+        <lei>N/A</lei>
+        <title>Providence Strategic Growth III L.P.</title>
+        <cusip>N/A</cusip>
+        <identifiers>
+          <ticker value="AI213468"/>
+        </identifiers>
+        <balance>N/A</balance>
+        <units>OU</units>
+        <descOthUnits>Other Units</descOthUnits>
+        <curCd>USD</curCd>
+        <valUSD>1840292.58000000</valUSD>
+        <pctVal>0.324937854900</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>PF</issuerCat>
+        <invCountry>US</invCountry>
+        <isRestrictedSec>Y</isRestrictedSec>
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>N/A</name>
+        <lei>N/A</lei>
+        <title>PrimeStone Capital Fund ICAV</title>
+        <cusip>N/A</cusip>
+        <identifiers>
+          <ticker value="AI213650"/>
+        </identifiers>
+        <balance>N/A</balance>
+        <units>OU</units>
+        <descOthUnits>Other Units</descOthUnits>
+        <currencyConditional curCd="EUR" exchangeRt="0.85200000"/>
+        <valUSD>688427.35000000</valUSD>
+        <pctVal>0.121554642340</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>PF</issuerCat>
+        <invCountry>JE</invCountry>
+        <isRestrictedSec>Y</isRestrictedSec>
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>N/A</name>
+        <lei>N/A</lei>
+        <title>Sagard Testing FPCI</title>
+        <cusip>N/A</cusip>
+        <identifiers>
+          <ticker value="AI213715"/>
+        </identifiers>
+        <balance>N/A</balance>
+        <units>OU</units>
+        <descOthUnits>Other Units</descOthUnits>
+        <currencyConditional curCd="EUR" exchangeRt="0.85200000"/>
+        <valUSD>4497517.46000000</valUSD>
+        <pctVal>0.794120289193</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>PF</issuerCat>
+        <invCountry>FR</invCountry>
+        <isRestrictedSec>Y</isRestrictedSec>
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>N/A</name>
+        <lei>N/A</lei>
+        <title>Sagard 4A FPCI and Sagard 4B FIPS (A Shares)</title>
+        <cusip>N/A</cusip>
+        <identifiers>
+          <ticker value="AI213714"/>
+        </identifiers>
+        <balance>N/A</balance>
+        <units>OU</units>
+        <descOthUnits>Other Units</descOthUnits>
+        <currencyConditional curCd="EUR" exchangeRt="0.85200000"/>
+        <valUSD>11427745.79000000</valUSD>
+        <pctVal>2.017780891856</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>PF</issuerCat>
+        <invCountry>FR</invCountry>
+        <isRestrictedSec>Y</isRestrictedSec>
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>N/A</name>
+        <lei>N/A</lei>
+        <title>PSG Fidelity Co-Invest L.P.</title>
+        <cusip>N/A</cusip>
+        <identifiers>
+          <ticker value="AI213465"/>
+        </identifiers>
+        <balance>N/A</balance>
+        <units>OU</units>
+        <descOthUnits>Other Units</descOthUnits>
+        <curCd>USD</curCd>
+        <valUSD>1139449.16000000</valUSD>
+        <pctVal>0.201190924661</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>PF</issuerCat>
+        <invCountry>US</invCountry>
+        <isRestrictedSec>Y</isRestrictedSec>
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>N/A</name>
+        <lei>N/A</lei>
+        <title>PSG LM Sequel L.P.</title>
+        <cusip>N/A</cusip>
+        <identifiers>
+          <ticker value="AI213564"/>
+        </identifiers>
+        <balance>N/A</balance>
+        <units>OU</units>
+        <descOthUnits>Other Units</descOthUnits>
+        <curCd>USD</curCd>
+        <valUSD>101078.00000000</valUSD>
+        <pctVal>0.017847199328</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>PF</issuerCat>
+        <invCountry>US</invCountry>
+        <isRestrictedSec>Y</isRestrictedSec>
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>N/A</name>
+        <lei>N/A</lei>
+        <title>Sagard II-A FPCI and Sagard II-B FPCI</title>
+        <cusip>N/A</cusip>
+        <identifiers>
+          <ticker value="AI213718"/>
+        </identifiers>
+        <balance>N/A</balance>
+        <units>OU</units>
+        <descOthUnits>Other Units</descOthUnits>
+        <currencyConditional curCd="EUR" exchangeRt="0.85200000"/>
+        <valUSD>309357.64000000</valUSD>
+        <pctVal>0.054622840428</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>PF</issuerCat>
+        <invCountry>FR</invCountry>
+        <isRestrictedSec>Y</isRestrictedSec>
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>N/A</name>
+        <lei>N/A</lei>
+        <title>Backed 2 LP</title>
+        <cusip>N/A</cusip>
+        <identifiers>
+          <ticker value="AI213649"/>
+        </identifiers>
+        <balance>N/A</balance>
+        <units>OU</units>
+        <descOthUnits>Other Units</descOthUnits>
+        <currencyConditional curCd="EUR" exchangeRt="0.85200000"/>
+        <valUSD>2013594.55000000</valUSD>
+        <pctVal>0.355537538338</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>PF</issuerCat>
+        <invCountry>JE</invCountry>
+        <isRestrictedSec>Y</isRestrictedSec>
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>N/A</name>
+        <lei>N/A</lei>
+        <title>PSG V L.P.</title>
+        <cusip>N/A</cusip>
+        <identifiers>
+          <ticker value="AI213473"/>
+        </identifiers>
+        <balance>N/A</balance>
+        <units>OU</units>
+        <descOthUnits>Other Units</descOthUnits>
+        <curCd>USD</curCd>
+        <valUSD>2778560.72000000</valUSD>
+        <pctVal>0.490606531743</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>PF</issuerCat>
+        <invCountry>US</invCountry>
+        <isRestrictedSec>Y</isRestrictedSec>
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>N/A</name>
+        <lei>N/A</lei>
+        <title>Apheon AlliA</title>
+        <cusip>N/A</cusip>
+        <identifiers>
+          <ticker value="AI213691"/>
+        </identifiers>
+        <balance>N/A</balance>
+        <units>OU</units>
+        <descOthUnits>Other Units</descOthUnits>
+        <currencyConditional curCd="EUR" exchangeRt="0.85200000"/>
+        <valUSD>0.00000000</valUSD>
+        <pctVal>0.000000</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>PF</issuerCat>
+        <invCountry>BE</invCountry>
+        <isRestrictedSec>Y</isRestrictedSec>
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>N/A</name>
+        <lei>N/A</lei>
+        <title>Alto Capital V</title>
+        <cusip>N/A</cusip>
+        <identifiers>
+          <ticker value="AI213647"/>
+        </identifiers>
+        <balance>N/A</balance>
+        <units>OU</units>
+        <descOthUnits>Other Units</descOthUnits>
+        <currencyConditional curCd="EUR" exchangeRt="0.85200000"/>
+        <valUSD>2375005.83000000</valUSD>
+        <pctVal>0.419351416271</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>PF</issuerCat>
+        <invCountry>IT</invCountry>
+        <isRestrictedSec>Y</isRestrictedSec>
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>N/A</name>
+        <lei>N/A</lei>
+        <title>C2 Capital Global Export-To-China Fund, L.P.</title>
+        <cusip>N/A</cusip>
+        <identifiers>
+          <ticker value="AI213693"/>
+        </identifiers>
+        <balance>N/A</balance>
+        <units>OU</units>
+        <descOthUnits>Other Units</descOthUnits>
+        <curCd>USD</curCd>
+        <valUSD>10456640.76000000</valUSD>
+        <pctVal>1.846314251845</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>PF</issuerCat>
+        <invCountry>KY</invCountry>
+        <isRestrictedSec>Y</isRestrictedSec>
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>N/A</name>
+        <lei>N/A</lei>
+        <title>Bain Capital Beacon Holdings, L.P.</title>
+        <cusip>N/A</cusip>
+        <identifiers>
+          <ticker value="AI213056"/>
+        </identifiers>
+        <balance>N/A</balance>
+        <units>OU</units>
+        <descOthUnits>Other Units</descOthUnits>
+        <curCd>USD</curCd>
+        <valUSD>29427068.10000000</valUSD>
+        <pctVal>5.195895744155</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>PF</issuerCat>
+        <invCountry>US</invCountry>
+        <isRestrictedSec>Y</isRestrictedSec>
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>N/A</name>
+        <lei>N/A</lei>
+        <title>Apheon MidCap Buyout IV, SCSp</title>
+        <cusip>N/A</cusip>
+        <identifiers>
+          <ticker value="AI213653"/>
+        </identifiers>
+        <balance>N/A</balance>
+        <units>OU</units>
+        <descOthUnits>Other Units</descOthUnits>
+        <currencyConditional curCd="EUR" exchangeRt="0.85200000"/>
+        <valUSD>18918978.62000000</valUSD>
+        <pctVal>3.340497264674</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>PF</issuerCat>
+        <invCountry>BE</invCountry>
+        <isRestrictedSec>Y</isRestrictedSec>
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>N/A</name>
+        <lei>N/A</lei>
+        <title>Epiris Fund III (B) L.P.</title>
+        <cusip>N/A</cusip>
+        <identifiers>
+          <ticker value="AI213699"/>
+        </identifiers>
+        <balance>N/A</balance>
+        <units>OU</units>
+        <descOthUnits>Other Units</descOthUnits>
+        <currencyConditional curCd="GBP" exchangeRt="0.74330000"/>
+        <valUSD>3796391.16000000</valUSD>
+        <pctVal>0.670323411233</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>PF</issuerCat>
+        <invCountry>JE</invCountry>
+        <isRestrictedSec>Y</isRestrictedSec>
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>N/A</name>
+        <lei>N/A</lei>
+        <title>Stone Point CV, L.P.</title>
+        <cusip>N/A</cusip>
+        <identifiers>
+          <ticker value="AI213232"/>
+        </identifiers>
+        <balance>N/A</balance>
+        <units>OU</units>
+        <descOthUnits>Other Units</descOthUnits>
+        <curCd>USD</curCd>
+        <valUSD>24182180.58000000</valUSD>
+        <pctVal>4.269813381783</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>PF</issuerCat>
+        <invCountry>US</invCountry>
+        <isRestrictedSec>Y</isRestrictedSec>
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>N/A</name>
+        <lei>N/A</lei>
+        <title>CF24XB SCSp</title>
+        <cusip>N/A</cusip>
+        <identifiers>
+          <ticker value="AI213060"/>
+        </identifiers>
+        <balance>N/A</balance>
+        <units>OU</units>
+        <descOthUnits>Other Units</descOthUnits>
+        <curCd>USD</curCd>
+        <valUSD>12263708.84000000</valUSD>
+        <pctVal>2.165385703828</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>PF</issuerCat>
+        <invCountry>US</invCountry>
+        <isRestrictedSec>Y</isRestrictedSec>
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>N/A</name>
+        <lei>N/A</lei>
+        <title>PSG VI L.P.</title>
+        <cusip>N/A</cusip>
+        <identifiers>
+          <ticker value="AI213472"/>
+        </identifiers>
+        <balance>N/A</balance>
+        <units>OU</units>
+        <descOthUnits>Other Units</descOthUnits>
+        <curCd>USD</curCd>
+        <valUSD>275462.66000000</valUSD>
+        <pctVal>0.048638051806</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>PF</issuerCat>
+        <invCountry>US</invCountry>
+        <isRestrictedSec>Y</isRestrictedSec>
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>N/A</name>
+        <lei>N/A</lei>
+        <title>KKR Sigma Co-lnvest II L.P.</title>
+        <cusip>N/A</cusip>
+        <identifiers>
+          <ticker value="AI213688"/>
+        </identifiers>
+        <balance>N/A</balance>
+        <units>OU</units>
+        <descOthUnits>Other Units</descOthUnits>
+        <currencyConditional curCd="EUR" exchangeRt="0.85200000"/>
+        <valUSD>13070559.58000000</valUSD>
+        <pctVal>2.307850196447</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>PF</issuerCat>
+        <invCountry>KY</invCountry>
+        <isRestrictedSec>Y</isRestrictedSec>
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>N/A</name>
+        <lei>N/A</lei>
+        <title>Bregal Unternehmerkapital IV-B SCSp</title>
+        <cusip>N/A</cusip>
+        <identifiers>
+          <ticker value="AI213652"/>
+        </identifiers>
+        <balance>N/A</balance>
+        <units>OU</units>
+        <descOthUnits>Other Units</descOthUnits>
+        <currencyConditional curCd="EUR" exchangeRt="0.85200000"/>
+        <valUSD>1375391.88000000</valUSD>
+        <pctVal>0.242850996625</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>PF</issuerCat>
+        <invCountry>LU</invCountry>
+        <isRestrictedSec>Y</isRestrictedSec>
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>N/A</name>
+        <lei>N/A</lei>
+        <title>Providence Strategic Growth II L.P.</title>
+        <cusip>N/A</cusip>
+        <identifiers>
+          <ticker value="AI213469"/>
+        </identifiers>
+        <balance>N/A</balance>
+        <units>OU</units>
+        <descOthUnits>Other Units</descOthUnits>
+        <curCd>USD</curCd>
+        <valUSD>894961.03000000</valUSD>
+        <pctVal>0.158022001755</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>PF</issuerCat>
+        <invCountry>US</invCountry>
+        <isRestrictedSec>Y</isRestrictedSec>
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>N/A</name>
+        <lei>N/A</lei>
+        <title>E.C.B. (Bastille) SCA</title>
+        <cusip>N/A</cusip>
+        <identifiers>
+          <ticker value="AI213687"/>
+        </identifiers>
+        <balance>N/A</balance>
+        <units>OU</units>
+        <descOthUnits>Other Units</descOthUnits>
+        <currencyConditional curCd="EUR" exchangeRt="0.85200000"/>
+        <valUSD>1173361.04000000</valUSD>
+        <pctVal>0.207178697292</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>PF</issuerCat>
+        <invCountry>BE</invCountry>
+        <isRestrictedSec>Y</isRestrictedSec>
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>N/A</name>
+        <lei>N/A</lei>
+        <title>KKR Azur Co-lnvest L.P.</title>
+        <cusip>N/A</cusip>
+        <identifiers>
+          <ticker value="AI213689"/>
+        </identifiers>
+        <balance>N/A</balance>
+        <units>OU</units>
+        <descOthUnits>Other Units</descOthUnits>
+        <currencyConditional curCd="EUR" exchangeRt="0.85200000"/>
+        <valUSD>4934428.90000000</valUSD>
+        <pctVal>0.871265123464</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>PF</issuerCat>
+        <invCountry>KY</invCountry>
+        <isRestrictedSec>Y</isRestrictedSec>
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>N/A</name>
+        <lei>N/A</lei>
+        <title>Elysium Acquisition LP</title>
+        <cusip>N/A</cusip>
+        <identifiers>
+          <ticker value="AI212912"/>
+        </identifiers>
+        <balance>N/A</balance>
+        <units>OU</units>
+        <descOthUnits>Other Units</descOthUnits>
+        <currencyConditional curCd="EUR" exchangeRt="0.85200000"/>
+        <valUSD>9906950.67000000</valUSD>
+        <pctVal>1.749256251043</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>PF</issuerCat>
+        <invCountry>GB</invCountry>
+        <isRestrictedSec>Y</isRestrictedSec>
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+    </invstOrSecs>
+    <signature>
+      <ncom:dateSigned>2026-01-30</ncom:dateSigned>
+      <ncom:nameOfApplicant>Carlyle AlpInvest Private Markets Secondaries Fund</ncom:nameOfApplicant>
+      <ncom:signature>Parker Hooper</ncom:signature>
+      <ncom:signerName>Parker Hooper</ncom:signerName>
+      <ncom:title>Treasurer and Principal Financial Officer</ncom:title>
+    </signature>
+  </formData>
+  <documents>XXXX</documents>
+</edgarSubmission>

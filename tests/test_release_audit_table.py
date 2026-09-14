@@ -58,9 +58,13 @@ def test_latest_failure_replaces_an_earlier_pass(tmp_path):
     path = tmp_path / "checks.csv"
     release_checks.run_check("check", "command", lambda: "passed", path=path)
     with pytest.raises(ValueError):
-        release_checks.run_check("check", "command", lambda: (_ for _ in ()).throw(ValueError("refused")), path=path)
+        release_checks.run_check(
+            "check", "command",
+            lambda: (_ for _ in ()).throw(ValueError("refused  \n  source detail \t")), path=path,
+        )
     results = release_checks.read_results(path)
     assert [row["status"] for row in results] == ["PASS", "FAIL"]
+    assert results[-1]["detail"] == "ValueError: refused\n  source detail"
     row = audit.report_rows(catalog=[{"stage_id": "check", "test": "command"}], results=results)[0]
     assert row["status"] == "FAIL"
     assert "refused" in row["result_detail"]

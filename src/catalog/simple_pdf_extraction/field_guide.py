@@ -77,6 +77,8 @@ DOC_TYPE_NOTES: dict[str, str] = {
     "PCAP": "Partners' capital account statement: an investor's beginning balance, contributions, distributions, allocations and ending balance.",
     "Foundations_Annual": "A foundation's annual return or report, including investment holdings and programme-related investments.",
     "Stewardship_Proxy_Report": "Stewardship and proxy voting reporting: engagement and voting activity and the policies behind them.",
+    "Secondary_Pricing": "Secondary-market reports: transaction volume, pricing versus NAV, and continuation-vehicle activity.",
+    "Continuation_Fund": "Continuation-vehicle papers: LP election, roll or sell, price to NAV, conflicts, fees, and carried interest.",
 }
 
 

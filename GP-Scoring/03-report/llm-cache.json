@@ -1,0 +1,45 @@
+{
+  "budget_usd": 0.2,
+  "model": "google/gemini-3.8-flash",
+  "provider": "openrouter",
+  "reserved_max_cost_usd": 0.0495,
+  "responses": {
+    "50fd8162d05a4bb046a70e12a78375ed5128ff613c7311be404f532e0dbecaac": {
+      "approximate_input_tokens": 834,
+      "manager_key": "MANAGER_SYNTH_00091|buyout",
+      "packet_hash": "2bd74a27ef60fd9fc82771c10e1f58d5198791bcf253b1635c4e7c4e6612cf5f",
+      "request_would_use": {
+        "max_tokens": 2000,
+        "model": "google/gemini-3.8-flash",
+        "provider": "openrouter",
+        "structured_output": true,
+        "tools": false
+      }
+    },
+    "7f13c259e9efeffc8a3c072a39f3bc3eab43fc4e3438ef4c0f4bc58df6aed56e": {
+      "approximate_input_tokens": 841,
+      "manager_key": "MANAGER_SYNTH_00176|buyout",
+      "packet_hash": "2ca6740274a4b072e2dbe7f8eb246b3aebb53c3a4ec14af3a329a700129dcc38",
+      "request_would_use": {
+        "max_tokens": 2000,
+        "model": "google/gemini-3.8-flash",
+        "provider": "openrouter",
+        "structured_output": true,
+        "tools": false
+      }
+    },
+    "fe5ad79a2cc60e4ba7acfd111de4e32d091a480a4e20bd2f8153655226f0471d": {
+      "approximate_input_tokens": 841,
+      "manager_key": "MANAGER_SYNTH_00117|buyout",
+      "packet_hash": "ad3602e19b23834e749d5433eb669c23bf2a98c3413d1d056123bb1981294d9d",
+      "request_would_use": {
+        "max_tokens": 2000,
+        "model": "google/gemini-3.8-flash",
+        "provider": "openrouter",
+        "structured_output": true,
+        "tools": false
+      }
+    }
+  },
+  "status": "dry_run"
+}

@@ -22,6 +22,7 @@ from urllib.request import urlopen
 from src.dashboard import build_dashboard
 from src.dashboard.glossary import column_note
 from src.dashboard.page import SCRIPT, STYLE, render
+from src.dashboard.release_explanations import RELEASE_EXPLANATIONS, explanations_for
 
 
 PROJECT_ROOT = build_dashboard.PROJECT_ROOT
@@ -105,9 +106,17 @@ class DashboardTests(unittest.TestCase):
         from src.dashboard.publish_dashboard import allowed_path
         completed = {"SRC034"}
         self.assertTrue(allowed_path("ledgers/working/pdf-extraction-csv/01-financials/SRC034/records-final.csv", completed))
-        for path in (".gitignore", "src/dashboard/page.py", "audit/project-notes.md", "data/../secret.csv", "C:/private.csv",
+        for path in ("dashboard-field-guide.html", "src/dashboard/field_guide_template.html",
+                     ".gitignore", "src/dashboard/page.py", "audit/project-notes.md", "data/../secret.csv", "C:/private.csv",
                      "ledgers/working/pdf-extraction-csv/07-institutional-mission/SRC373/records-a.csv"):
             self.assertFalse(allowed_path(path, completed), path)
+
+    def test_public_dashboard_does_not_link_or_package_the_local_guide(self) -> None:
+        from src.dashboard.publish_dashboard import source_files
+        files, _ = source_files(self.payload, PROJECT_ROOT)
+        self.assertNotIn("dashboard-field-guide.html", files)
+        links = [block.get("href", "") for section in self.payload["sections"] for block in section["blocks"]]
+        self.assertFalse(any("dashboard-field-guide.html" in value for value in links))
 
     def test_database_archive_contains_the_original_bytes(self) -> None:
         import zipfile
@@ -137,6 +146,108 @@ class DashboardTests(unittest.TestCase):
             self.assertTrue(section["title"])
             self.assertTrue(section["blurb"])
             self.assertTrue(section["blocks"])
+
+    def test_gp_scoring_embeds_the_report(self) -> None:
+        section = next(item for item in self.payload["sections"] if item["id"] == "gp-scoring")
+        self.assertTrue(section["featured"])
+        self.assertEqual(
+            [row["id"] for row in self.payload["sections"] if row.get("featured")],
+            ["gp-scoring"],
+        )
+        self.assertNotIn("rag-document-insights", [row["id"] for row in self.payload["sections"]])
+        report = next(block for block in section["blocks"] if block["kind"] == "report")
+        self.assertEqual(report["source"], build_dashboard.GP_REPORT)
+        self.assertTrue(report["embed"])
+        self.assertEqual(report["bundle"], list(build_dashboard.GP_REPORT_FILES))
+        for path in build_dashboard.GP_REPORT_FILES:
+            self.assertTrue((PROJECT_ROOT / path).is_file(), path)
+        ranked = [row for row in build_dashboard.read_dicts(build_dashboard.GP_MANAGERS) if row["v1_status"] == "RANKED_DEMO"]
+        table = next(block for block in section["blocks"] if block["kind"] == "table")
+        self.assertEqual(len(table["rows"]), len(ranked))
+        self.assertIn("report: renderReport", SCRIPT)
+        self.assertIn("iframe[data-src]", SCRIPT)
+        self.assertIn("fill-embed", SCRIPT)
+        self.assertIn("report-frame-fill", SCRIPT)
+        self.assertIn("link.classList.add('featured')", SCRIPT)
+        gp_html = (PROJECT_ROOT / build_dashboard.GP_REPORT).read_text(encoding="utf-8")
+        self.assertIn("RAG: Document Insights", gp_html)
+        self.assertNotIn("Print IC one-pager", gp_html)
+        self.assertNotIn("tab-scroller", gp_html)
+        self.assertNotIn("tab-research", gp_html)
+        self.assertIn("flex-wrap:wrap", gp_html)
+
+    def test_rag_engine_precedes_gp_scoring(self) -> None:
+        ids = [section["id"] for section in self.payload["sections"]]
+        self.assertEqual(ids[-3:], ["rag-engine", "gp-scoring", "next-update"])
+        section = self.payload["sections"][-3]
+        self.assertEqual(section["id"], "rag-engine")
+        self.assertFalse(section.get("featured"))
+        self.assertEqual(section["title"], "RAG engine")
+        kinds = [block["kind"] for block in section["blocks"]]
+        self.assertIn("figure", kinds)
+        self.assertNotIn("rag_console", kinds)
+        figure = next(block for block in section["blocks"] if block["kind"] == "figure")
+        self.assertIn("<svg", figure["svg"])
+        copy = json.dumps(section)
+        self.assertIn("BAAI/bge-small-en-v1.5", copy)
+        self.assertIn("384", copy)
+        self.assertNotIn("plain English", copy.lower())
+        self.assertNotIn("What the Engine", copy)
+        self.assertIn("renderFigure", SCRIPT)
+        evidence = next(item for item in self.payload["sections"] if item["id"] == "evidence-review")
+        self.assertNotIn("rag_console", [block["kind"] for block in evidence["blocks"]])
+
+    def test_next_update_is_section_sixteen(self) -> None:
+        ids = [section["id"] for section in self.payload["sections"]]
+        self.assertEqual(ids[-1], "next-update")
+        section = self.payload["sections"][-1]
+        self.assertEqual(section["title"], "Next update")
+        self.assertFalse(section.get("featured"))
+        headings = [block["text"] for block in section["blocks"] if block["kind"] == "heading"]
+        self.assertEqual(
+            headings,
+            [
+                "Cloud-based agentic automation using Temporal",
+                "Saturday pricing and secondaries due diligence",
+            ],
+        )
+        figures = [block for block in section["blocks"] if block["kind"] == "figure"]
+        self.assertEqual(len(figures), 2)
+        for figure in figures:
+            self.assertIn("<svg", figure["svg"])
+        copy = json.dumps(section)
+        self.assertIn("Temporal Cloud", copy)
+        self.assertIn("One-Day Pricing", copy)
+        self.assertIn("Holdings and transaction", copy)
+        self.assertNotIn("plain English", copy.lower())
+
+    def test_architecture_html_matches_the_builder(self) -> None:
+        from src.dashboard.rag_architecture import architecture_html
+
+        current = (PROJECT_ROOT / "RAG" / "architecture.html").read_text(encoding="utf-8")
+        self.assertEqual(current, architecture_html())
+
+    def test_gp_report_links_stay_inside_the_published_files(self) -> None:
+        import posixpath
+        text = (PROJECT_ROOT / build_dashboard.GP_REPORT).read_text(encoding="utf-8")
+        base = posixpath.dirname(build_dashboard.GP_REPORT)
+        targets = {value for value in re.findall(r'href="(\.\./[^"#]+)', text) if "'" not in value}
+        documents = re.findall(r"\['([a-z-]+)','[A-Z][a-z ]+'\]", text)
+        self.assertGreater(len(targets), 10)
+        self.assertEqual(len(documents), 6)
+        linked = {posixpath.normpath(posixpath.join(base, value)) for value in targets}
+        linked |= {f"GP-Scoring/data/documents/{name}.html" for name in documents}
+        self.assertEqual(linked - set(build_dashboard.GP_REPORT_FILES), set())
+
+    def test_publication_carries_the_gp_report_files_only(self) -> None:
+        from src.dashboard.publish_dashboard import allowed_path, source_files
+        for path in build_dashboard.GP_REPORT_FILES:
+            self.assertTrue(allowed_path(path, set()), path)
+        for path in ("GP-Scoring/run_v2.py", "GP-Scoring/v2-baseline.json", "GP-Scoring/06-report/receipt.json",
+                     "GP-Scoring/README.md", "GP-Scoring/02-scoring/decisions.csv", "GP-Scoring/../dashboard.html"):
+            self.assertFalse(allowed_path(path, set()), path)
+        files, _ = source_files(self.payload, PROJECT_ROOT)
+        self.assertLessEqual(set(build_dashboard.GP_REPORT_FILES), files)
 
     def test_overview_opens_with_the_github_repository_link(self) -> None:
         overview = self.payload["sections"][0]
@@ -227,7 +338,7 @@ class DashboardTests(unittest.TestCase):
         self.assertIn("observation", [row["word"] for row in self.payload["terms"]])
         self.assertIn("renderGuide", SCRIPT)
         self.assertIn("renderHelpOverlay", SCRIPT)
-        self.assertIn("twelve sections", self.payload["footer"])
+        self.assertIn("sixteen sections", self.payload["footer"])
 
     def test_primary_text_colours_meet_normal_text_contrast(self) -> None:
         colours = dict(re.findall(r"--([\w-]+):\s*(#[0-9a-fA-F]{6})", STYLE))
@@ -256,7 +367,7 @@ class DashboardTests(unittest.TestCase):
             self.assertGreaterEqual(
                 max(
                     contrast_ratio("#ffffff", background),
-                    contrast_ratio("#101030", background),
+                    contrast_ratio("#173344", background),
                 ),
                 4.5,
                 background,
@@ -422,6 +533,29 @@ class DashboardTests(unittest.TestCase):
                 self.assertLessEqual(len(entry["preview"]), entry["rows"], where)
                 for row in entry["preview"]:
                     self.assertEqual(len(row), len(entry["columns"]), where)
+                self.assertTrue(entry.get("about"), f"missing about for {where}")
+                self.assertTrue(entry.get("row_is"), f"missing row_is for {where}")
+                self.assertTrue(entry.get("it_holds"), f"missing it_holds for {where}")
+                self.assertTrue(entry.get("example"), f"missing example for {where}")
+                self.assertTrue(entry.get("why_separated"), f"missing why_separated for {where}")
+                self.assertEqual(len(entry.get("columns_meta", [])), len(entry["columns"]), f"columns_meta length mismatch for {where}")
+
+    def test_warehouse_index_carries_all_86_database_objects(self) -> None:
+        """Section 06 carries the complete searchable index of all 86 tables and views."""
+
+        section = next(item for item in self.payload["sections"] if item["id"] == "warehouse")
+        index_block = next((b for b in section["blocks"] if b.get("kind") == "warehouse_index"), None)
+        self.assertIsNotNone(index_block, "warehouse_index block missing in warehouse section")
+        self.assertEqual(len(index_block["databases"]), 3)
+        self.assertEqual(len(index_block["items"]), 86)
+        for item in index_block["items"]:
+            self.assertIn(item["db"], {"extracted", "alts", "alts_mock"})
+            self.assertIn(item["kind"], {"table", "view"})
+            self.assertTrue(item["name"])
+            self.assertTrue(item["row_is"])
+            self.assertTrue(item["it_holds"])
+            self.assertTrue(item["example"])
+            self.assertTrue(item["why_separated"])
 
     def test_a_preview_row_matches_the_database_row(self) -> None:
         """The grid shows the database, so one row is compared against it."""
@@ -456,6 +590,30 @@ class DashboardTests(unittest.TestCase):
                 (PROJECT_ROOT / source).exists(),
                 f"{section['id']} cites a missing path: {source}",
             )
+
+    def test_every_release_step_carries_its_explanation(self) -> None:
+        overview = next(section for section in self.payload["sections"] if section["id"] == "overview")
+        table = next(block for block in overview["blocks"] if block.get("source") == "docs/FINAL-RELEASE-AUDIT.csv")
+        columns = table["columns"] + table.get("hidden", [])
+        stage_ids = [row[columns.index("stage_id")] for row in table["rows"]]
+        self.assertEqual([entry["id"] for entry in table["explanations"]], stage_ids)
+        for entry in table["explanations"]:
+            self.assertTrue(entry["work"].strip(), entry["id"])
+        self.assertIn("function renderReleaseWork", SCRIPT)
+        self.assertIn("function buildReleaseDetail", SCRIPT)
+        self.assertIn("toggleStepStage", SCRIPT)
+        self.assertIn("fold: true", SCRIPT)
+
+    def test_release_explanations_refuse_a_changed_step_list(self) -> None:
+        ids = [entry["id"] for entry in RELEASE_EXPLANATIONS]
+        for changed in (ids[1:], ids + ["new-stage"], list(reversed(ids))):
+            with self.assertRaisesRegex(ValueError, "every current audit stage"):
+                explanations_for(changed)
+
+    def test_every_release_explanation_file_exists(self) -> None:
+        for entry in RELEASE_EXPLANATIONS:
+            for _, path in entry["files"]:
+                self.assertTrue((PROJECT_ROOT / path).exists(), f"{entry['id']} cites a missing path: {path}")
 
     def test_counts_come_from_the_published_files(self) -> None:
         observations = build_dashboard.row_count("data/extracted/tables/fact_observation.csv")
@@ -865,3 +1023,4 @@ class DashboardTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+

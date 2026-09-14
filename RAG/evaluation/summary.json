@@ -1,0 +1,113 @@
+{
+  "case_count": 35,
+  "semantic_case_count": 8,
+  "metrics": {
+    "all": {
+      "keyword": {
+        "cases": 35,
+        "run": 35,
+        "passed": 35,
+        "pass_rate": 1.0
+      },
+      "keyword_context": {
+        "cases": 35,
+        "run": 35,
+        "passed": 35,
+        "pass_rate": 1.0
+      },
+      "keyword_vector_context": {
+        "cases": 35,
+        "run": 35,
+        "passed": 35,
+        "pass_rate": 1.0
+      }
+    },
+    "exact": {
+      "keyword": {
+        "cases": 27,
+        "run": 27,
+        "passed": 27,
+        "pass_rate": 1.0
+      },
+      "keyword_context": {
+        "cases": 27,
+        "run": 27,
+        "passed": 27,
+        "pass_rate": 1.0
+      },
+      "keyword_vector_context": {
+        "cases": 27,
+        "run": 27,
+        "passed": 27,
+        "pass_rate": 1.0
+      }
+    },
+    "semantic": {
+      "keyword": {
+        "cases": 8,
+        "run": 8,
+        "passed": 8,
+        "pass_rate": 1.0
+      },
+      "keyword_context": {
+        "cases": 8,
+        "run": 8,
+        "passed": 8,
+        "pass_rate": 1.0
+      },
+      "keyword_vector_context": {
+        "cases": 8,
+        "run": 8,
+        "passed": 8,
+        "pass_rate": 1.0
+      }
+    },
+    "semantic_held_out": {
+      "keyword": {
+        "cases": 6,
+        "run": 6,
+        "passed": 6,
+        "pass_rate": 1.0
+      },
+      "keyword_context": {
+        "cases": 6,
+        "run": 6,
+        "passed": 6,
+        "pass_rate": 1.0
+      },
+      "keyword_vector_context": {
+        "cases": 6,
+        "run": 6,
+        "passed": 6,
+        "pass_rate": 1.0
+      }
+    },
+    "exact_held_out": {
+      "keyword": {
+        "cases": 12,
+        "run": 12,
+        "passed": 12,
+        "pass_rate": 1.0
+      },
+      "keyword_context": {
+        "cases": 12,
+        "run": 12,
+        "passed": 12,
+        "pass_rate": 1.0
+      },
+      "keyword_vector_context": {
+        "cases": 12,
+        "run": 12,
+        "passed": 12,
+        "pass_rate": 1.0
+      }
+    }
+  },
+  "activation": {
+    "hybrid_default_recommended": false,
+    "semantic_held_out_improved": false,
+    "exact_held_out_not_worse": true,
+    "safety_regression": false,
+    "rule": "Improve held-out semantic retrieval without reducing held-out exact or safety results."
+  }
+}

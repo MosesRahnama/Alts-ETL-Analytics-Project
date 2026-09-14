@@ -1,0 +1,1123 @@
+{
+  "permitted_document_ids": [
+    "SRC035",
+    "SRC373",
+    "SRC421",
+    "SRC594",
+    "SRC606"
+  ],
+  "evidence": [
+    {
+      "case_id": "DEV-373-1",
+      "block_id": "SRC373:p1:row:33:3e5a23a82c",
+      "file_id": "SRC373",
+      "physical_page": 1,
+      "original_text": "The David and Lucile Packard Foundation | Foundation ending: 1",
+      "block_kind": "table_row"
+    },
+    {
+      "case_id": "DEV-373-1",
+      "block_id": "SRC373:p1:note:10",
+      "file_id": "SRC373",
+      "physical_page": 1,
+      "original_text": "11 Other income (attach schedule) . . . . . . 827,989 62,928,124 0",
+      "block_kind": "note"
+    },
+    {
+      "case_id": "DEV-373-2",
+      "block_id": "SRC373:p133:paragraph:2",
+      "file_id": "SRC373",
+      "physical_page": 133,
+      "original_text": "The David and Lucile Packard Foundation 133 11/14/2024 1:04:47 AM\n- 94-2278431",
+      "block_kind": "paragraph"
+    },
+    {
+      "case_id": "DEV-373-2",
+      "block_id": "SRC373:p186:paragraph:3",
+      "file_id": "SRC373",
+      "physical_page": 186,
+      "original_text": "SANTIAGO, REGION METROPOLIT, 8370003\nThe David and Lucile Packard Foundation 186 11/14/2024 1:04:47 AM\n- 94-2278431",
+      "block_kind": "paragraph"
+    },
+    {
+      "case_id": "DEV-373-3",
+      "block_id": "SRC373:p11:row:4:6c5c71f01c",
+      "file_id": "SRC373",
+      "physical_page": 11,
+      "original_text": "Form 990-PF | (2023)",
+      "block_kind": "table_row"
+    },
+    {
+      "case_id": "DEV-373-3",
+      "block_id": "SRC373:p11:note:2",
+      "file_id": "SRC373",
+      "physical_page": 11,
+      "original_text": "3 Grants and Contributions Paid During the Year or Approved for Future Payment\nRecipient If recipient is an individual, Foundation\nshow any relationship to Purpose of grant or\nstatus of Amount\nany foundation manager contribution\nName and address (home or business) or substantial contributor recipient\na Paid during the year\n(SEE STATEMENT)\nTotal . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3a 367,013,209\nb Approved for future payment\n(SEE STATEMENT)\nTotal . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3b 141,865,793\nForm 990-PF (2023)\nThe David and Lucile Packard Foundation 11 11/14/2024 1:04:47 AM\n- 94-2278431",
+      "block_kind": "note"
+    },
+    {
+      "case_id": "HOLD-606-1",
+      "block_id": "SRC606:p1:paragraph:1",
+      "file_id": "SRC606",
+      "physical_page": 1,
+      "original_text": "Antares Private Credit Fund (ABDC)\n1Q 2026 Quarterly Update\nH I G H L I G H T S Fund & Performance Overview\nABDC delivered a strong quarter, supported by stable credit performance and\n11/05/2024 disciplined portfolio construction. Despite persistent macro & headline noise, we\nbelieve the key driver of investor outcomes in private credit remains evident in our\nInception Date\ncore fundamentals - specifically, disciplined underwriting, portfolio construction,\nandtheunderlyingcreditqualityoftheborrowerswefinance.\n~9.43% As of March 31, 2026, the portfolio remained highly diversified with a ~0.2%\naveragepositionsize,defensivelypositionedwith97.8%investedinfirstliensenior\nITD Annualized secured loans, an average loan-to-value of 36.0%, and minimal non-accruals\nTotal Net Return(1) (0.03%oftotalfa",
+      "block_kind": "paragraph"
+    },
+    {
+      "case_id": "HOLD-606-1",
+      "block_id": "SRC606:p6:footnote:2",
+      "file_id": "SRC606",
+      "physical_page": 6,
+      "original_text": "2. Distributionrateiscalculatedbyannualizingthenextmonth\u2019sdeclareddistribution bysharebythemostrecentmonth-endNAV.",
+      "block_kind": "footnote"
+    },
+    {
+      "case_id": "HOLD-606-2",
+      "block_id": "SRC606:p1:paragraph:1",
+      "file_id": "SRC606",
+      "physical_page": 1,
+      "original_text": "Antares Private Credit Fund (ABDC)\n1Q 2026 Quarterly Update\nH I G H L I G H T S Fund & Performance Overview\nABDC delivered a strong quarter, supported by stable credit performance and\n11/05/2024 disciplined portfolio construction. Despite persistent macro & headline noise, we\nbelieve the key driver of investor outcomes in private credit remains evident in our\nInception Date\ncore fundamentals - specifically, disciplined underwriting, portfolio construction,\nandtheunderlyingcreditqualityoftheborrowerswefinance.\n~9.43% As of March 31, 2026, the portfolio remained highly diversified with a ~0.2%\naveragepositionsize,defensivelypositionedwith97.8%investedinfirstliensenior\nITD Annualized secured loans, an average loan-to-value of 36.0%, and minimal non-accruals\nTotal Net Return(1) (0.03%oftotalfa",
+      "block_kind": "paragraph"
+    },
+    {
+      "case_id": "HOLD-606-2",
+      "block_id": "SRC606:p6:footnote:1",
+      "file_id": "SRC606",
+      "physical_page": 6,
+      "original_text": "1. AsofApril30,2026.",
+      "block_kind": "footnote"
+    },
+    {
+      "case_id": "HOLD-606-3",
+      "block_id": "SRC606:p2:row:6:5175c9e84d",
+      "file_id": "SRC606",
+      "physical_page": 2,
+      "original_text": "As of April 30, | Return Summary: 2026 | 1 Month: 1.23% | 3 Month: 0.73% | YTD: 1.11% | 9.43%",
+      "block_kind": "table_row"
+    },
+    {
+      "case_id": "HOLD-606-3",
+      "block_id": "SRC606:p2:paragraph:1",
+      "file_id": "SRC606",
+      "physical_page": 2,
+      "original_text": "26.0 20%\n25.0 15%\n24.0 10%\n23.0 5%\n22.0 0%\nITD\nTotal Net Return Summary 1 Month 3 Month YTD\n(Annualized)\nAs of April 30, 2026 1.23% 0.73% 1.11% 9.43%\nAs of March 31, 2026 0.38% -0.12% -0.12% 9.00%\nAs of February 28, 2026 -0.87% 0.36% -0.50% 9.25%\nAs of January 31, 2026 0.37% 2.01% 0.37% 10.62%\nDistribution Summary NAV Per Share Total Distribution Per Share(9) Annualized Distribution Rate(2)\nAs of April 30, 2026 $24.69 $0.19 9.00%\nAs of March 31, 2026 $24.57 $0.18 9.00%\nAs of February 28, 2026 $24.67 $0.19 9.25%\nAs of January 31, 2026 $25.07 $0.18 9.50%\nCurrent performance may be higher or lower than the performance quoted above. Past performance is not a reliable indicator of future performance and future results may\nvary materially. Returns shown are representative of total returns and ar",
+      "block_kind": "paragraph"
+    },
+    {
+      "case_id": "HOLD-594-1",
+      "block_id": "SRC594:p3:row:17:6653489fdc",
+      "file_id": "SRC594",
+      "physical_page": 3,
+      "original_text": "TOTAL FUND (Net of fees) UP | 10.0% | 10.0% | 11.3%",
+      "block_kind": "table_row"
+    },
+    {
+      "case_id": "HOLD-594-1",
+      "block_id": "SRC594:p3:note:2",
+      "file_id": "SRC594",
+      "physical_page": 3,
+      "original_text": "See notes to statement of investment performance statistics.\n2",
+      "block_kind": "note"
+    },
+    {
+      "case_id": "HOLD-594-2",
+      "block_id": "SRC594:p4:note:5",
+      "file_id": "SRC594",
+      "physical_page": 4,
+      "original_text": "2. BASIS OF PRESENTATION\nThe accompanying investment performance statistics have been computed net of investment management fees\nusing the Modified Dietz Method. The formula for the Modified Dietz Method is shown in Appendix I. Other\nformulas may produce different returns. Individual returns of various investment accounts in the Funds may\nvary based on factors such as the timing of cash flows. Past returns are no guarantee of future returns.\nInvestment assets which are held in the respective Funds that have readily determinable fair values are primarily\nvalued on the basis of market valuations provided by independent pricing services. The Funds\u2019 investments in\nprivate investment funds, hedge funds, investment grade fixed income, and public markets investment funds\nand certain other equity ",
+      "block_kind": "note"
+    },
+    {
+      "case_id": "HOLD-594-2",
+      "block_id": "SRC594:p4:note:2",
+      "file_id": "SRC594",
+      "physical_page": 4,
+      "original_text": "NOTES TO STATEMENT OF INVESTMENT PERFORMANCE STATISTICS",
+      "block_kind": "note"
+    },
+    {
+      "case_id": "HOLD-594-3",
+      "block_id": "SRC594:p3:paragraph:1",
+      "file_id": "SRC594",
+      "physical_page": 3,
+      "original_text": "PERMANENT UNIVERSITY FUND\nTHE UNIVERSITY OF TEXAS SYSTEM GENERAL ENDOWMENT FUND\nPERMANENT HEALTH FUND\nTHE UNIVERSITY OF TEXAS SYSTEM LONG TERM FUND\nTHE UNIVERSITY OF TEXAS SYSTEM INTERMEDIATE TERM FUND\nSTATEMENT OF INVESTMENT PERFORMANCE STATISTICS\nFOR THE YEAR ENDED AUGUST 31, 2025\nRate of Return\nPermanent General Intermediate Permanent Long\nUniversity Endowment Term Health Term\nStrategy Fund Fund Fund Fund Fund\nNET OF FEES\nGlobal Equity:\nPublic Equity UP 17.1% UG 17.1% UT 17.1% - -\nDirectional Hedge Funds UP 15.3% UG 15.4% UT 15.4% - -\nPrivate Equity UT 7.3% UT 7.3% - - -\nTotal Global Equity UP 12.4% UG 12.4% UT 15.9% - -\nStable Value:\nInvestment Grade Fixed Income UP - UG - UT 3.5% - -\nLong Treasuries UP -4.0% UG -4.0% UT -4.0% - -\nStable Value Hedge Funds UP 11.7% UG 11.5% UT 11.5% - -",
+      "block_kind": "paragraph"
+    },
+    {
+      "case_id": "HOLD-594-3",
+      "block_id": "SRC594:p3:note:2",
+      "file_id": "SRC594",
+      "physical_page": 3,
+      "original_text": "See notes to statement of investment performance statistics.\n2",
+      "block_kind": "note"
+    },
+    {
+      "case_id": "HOLD-421-1",
+      "block_id": "SRC421:p2:paragraph:4",
+      "file_id": "SRC421",
+      "physical_page": 2,
+      "original_text": "assessed by a financial intermediary on Class S2 Shares are not reflected in the fee table and examples. Financial intermediaries will not charge such fees\non Class I2 Shares. Your financial intermediary may impose additional charges when you purchase Shares of the Fund. Please consult your financial\nintermediary for additional information.\n(3) The table assumes that all shares are sold in the primary offering, with 1/2 of the gross offering proceeds from the sale of Class S2 shares and 1/2 from\nthe sale of Class I2 shares. The number of shares of each class sold and the relative proportions in which the classes of shares are sold are uncertain and\nmay differ significantly from this assumption.",
+      "block_kind": "paragraph"
+    },
+    {
+      "case_id": "HOLD-421-1",
+      "block_id": "SRC421:p2:paragraph:3",
+      "file_id": "SRC421",
+      "physical_page": 2,
+      "original_text": "Public Offering Price(1)(3) .............................................. Current NAV Current NAV Amount invested at NAV\nSales Load(2) ................................................................. None None None\nProceeds to the Fund .................................................... Current NAV Current NAV Amount invested at NAV\n(1) Apollo Global Securities, LLC (the \u201cDistributor\u201d) acts as principal underwriter for the Fund\u2019s Shares and serves in that capacity on a reasonable best\nefforts basis, subject to various conditions. The Distributor is not obligated to sell any specific number of shares. Class S2 Shares and Class I2 Shares are\nor will be continuously offered at a price per share equal to the NAV per share for such class. Each share class will initially be offered at the the",
+      "block_kind": "paragraph"
+    },
+    {
+      "case_id": "HOLD-421-2",
+      "block_id": "SRC421:p2:paragraph:3",
+      "file_id": "SRC421",
+      "physical_page": 2,
+      "original_text": "Public Offering Price(1)(3) .............................................. Current NAV Current NAV Amount invested at NAV\nSales Load(2) ................................................................. None None None\nProceeds to the Fund .................................................... Current NAV Current NAV Amount invested at NAV\n(1) Apollo Global Securities, LLC (the \u201cDistributor\u201d) acts as principal underwriter for the Fund\u2019s Shares and serves in that capacity on a reasonable best\nefforts basis, subject to various conditions. The Distributor is not obligated to sell any specific number of shares. Class S2 Shares and Class I2 Shares are\nor will be continuously offered at a price per share equal to the NAV per share for such class. Each share class will initially be offered at the the",
+      "block_kind": "paragraph"
+    },
+    {
+      "case_id": "HOLD-421-3",
+      "block_id": "SRC421:p2:paragraph:3",
+      "file_id": "SRC421",
+      "physical_page": 2,
+      "original_text": "Public Offering Price(1)(3) .............................................. Current NAV Current NAV Amount invested at NAV\nSales Load(2) ................................................................. None None None\nProceeds to the Fund .................................................... Current NAV Current NAV Amount invested at NAV\n(1) Apollo Global Securities, LLC (the \u201cDistributor\u201d) acts as principal underwriter for the Fund\u2019s Shares and serves in that capacity on a reasonable best\nefforts basis, subject to various conditions. The Distributor is not obligated to sell any specific number of shares. Class S2 Shares and Class I2 Shares are\nor will be continuously offered at a price per share equal to the NAV per share for such class. Each share class will initially be offered at the the",
+      "block_kind": "paragraph"
+    },
+    {
+      "case_id": "HOLD-035-1",
+      "block_id": "SRC035:p1:row:3:79accdb22c",
+      "file_id": "SRC035",
+      "physical_page": 1,
+      "original_text": "Endeavour Capital Fund III, L.P. | Vintage: 2000 | Committed: $7,000,000 | Contributed: $7,059,089 | Unfunded: $0 | Distributed: $18,995,752 | Remaining Value: $0 | TVPI (X): 2.69 | IRR (%): 29.66",
+      "block_kind": "table_row"
+    },
+    {
+      "case_id": "HOLD-035-1",
+      "block_id": "SRC035:p1:paragraph:1",
+      "file_id": "SRC035",
+      "physical_page": 1,
+      "original_text": "Oregon Growth Account Private Equity Program\nPerformance Analysis |As of December 31, 2021\nFund Performance: Sorted By Vintage And Strategy\nRemaining TVPI IRR\nBy Investment Vintage Strategy Committed Contributed Unfunded Distributed Value (X) (%)\nTamarack Mezzanine Partners, L.P. 1999 Mezzanine $1,369,921 $1,369,921 $0 $0 $0 0.00 NM\nTimberline Venture Partners, L.P. 1999 Venture Capital $5,000,000 $5,000,000 $0 $960,952 $0 0.19 -23.36\nEndeavour Capital Fund III, L.P. 2000 Buyout $7,000,000 $7,059,089 $0 $18,995,752 $0 2.69 29.66\nSmartForest Ventures I, L.P. 2000 Venture Capital $6,500,000 $6,500,000 $0 $0 $0 0.00 NM\nNorthwest Technology Ventures, L.P. 2002 Venture Capital $14,000,000 $13,997,557 $0 $3,599,655 $1,442,315 0.36 -13.06\nTimberline Annex Fund, L.P. 2003 Venture Capital $500,000 ",
+      "block_kind": "paragraph"
+    },
+    {
+      "case_id": "HOLD-035-2",
+      "block_id": "SRC035:p1:row:9:b1f30870fe",
+      "file_id": "SRC035",
+      "physical_page": 1,
+      "original_text": "Madrona Venture Fund III, L.P. | Vintage: 2005 | Committed: $5,000,000 | Contributed: $4,950,000 | Unfunded: $50,000 | Distributed: $34,267,275 | Remaining Value: $1,512,027 | TVPI (X): 7.23 | IRR (%): 23.59",
+      "block_kind": "table_row"
+    },
+    {
+      "case_id": "HOLD-035-2",
+      "block_id": "SRC035:p1:paragraph:1",
+      "file_id": "SRC035",
+      "physical_page": 1,
+      "original_text": "Oregon Growth Account Private Equity Program\nPerformance Analysis |As of December 31, 2021\nFund Performance: Sorted By Vintage And Strategy\nRemaining TVPI IRR\nBy Investment Vintage Strategy Committed Contributed Unfunded Distributed Value (X) (%)\nTamarack Mezzanine Partners, L.P. 1999 Mezzanine $1,369,921 $1,369,921 $0 $0 $0 0.00 NM\nTimberline Venture Partners, L.P. 1999 Venture Capital $5,000,000 $5,000,000 $0 $960,952 $0 0.19 -23.36\nEndeavour Capital Fund III, L.P. 2000 Buyout $7,000,000 $7,059,089 $0 $18,995,752 $0 2.69 29.66\nSmartForest Ventures I, L.P. 2000 Venture Capital $6,500,000 $6,500,000 $0 $0 $0 0.00 NM\nNorthwest Technology Ventures, L.P. 2002 Venture Capital $14,000,000 $13,997,557 $0 $3,599,655 $1,442,315 0.36 -13.06\nTimberline Annex Fund, L.P. 2003 Venture Capital $500,000 ",
+      "block_kind": "paragraph"
+    },
+    {
+      "case_id": "HOLD-035-3",
+      "block_id": "SRC035:p1:paragraph:1",
+      "file_id": "SRC035",
+      "physical_page": 1,
+      "original_text": "Oregon Growth Account Private Equity Program\nPerformance Analysis |As of December 31, 2021\nFund Performance: Sorted By Vintage And Strategy\nRemaining TVPI IRR\nBy Investment Vintage Strategy Committed Contributed Unfunded Distributed Value (X) (%)\nTamarack Mezzanine Partners, L.P. 1999 Mezzanine $1,369,921 $1,369,921 $0 $0 $0 0.00 NM\nTimberline Venture Partners, L.P. 1999 Venture Capital $5,000,000 $5,000,000 $0 $960,952 $0 0.19 -23.36\nEndeavour Capital Fund III, L.P. 2000 Buyout $7,000,000 $7,059,089 $0 $18,995,752 $0 2.69 29.66\nSmartForest Ventures I, L.P. 2000 Venture Capital $6,500,000 $6,500,000 $0 $0 $0 0.00 NM\nNorthwest Technology Ventures, L.P. 2002 Venture Capital $14,000,000 $13,997,557 $0 $3,599,655 $1,442,315 0.36 -13.06\nTimberline Annex Fund, L.P. 2003 Venture Capital $500,000 ",
+      "block_kind": "paragraph"
+    },
+    {
+      "case_id": "SEM-HOLD-035-1",
+      "block_id": "SRC035:p1:row:3:79accdb22c",
+      "file_id": "SRC035",
+      "physical_page": 1,
+      "original_text": "Endeavour Capital Fund III, L.P. | Vintage: 2000 | Committed: $7,000,000 | Contributed: $7,059,089 | Unfunded: $0 | Distributed: $18,995,752 | Remaining Value: $0 | TVPI (X): 2.69 | IRR (%): 29.66",
+      "block_kind": "table_row"
+    },
+    {
+      "case_id": "SEM-HOLD-421-1",
+      "block_id": "SRC421:p2:paragraph:3",
+      "file_id": "SRC421",
+      "physical_page": 2,
+      "original_text": "Public Offering Price(1)(3) .............................................. Current NAV Current NAV Amount invested at NAV\nSales Load(2) ................................................................. None None None\nProceeds to the Fund .................................................... Current NAV Current NAV Amount invested at NAV\n(1) Apollo Global Securities, LLC (the \u201cDistributor\u201d) acts as principal underwriter for the Fund\u2019s Shares and serves in that capacity on a reasonable best\nefforts basis, subject to various conditions. The Distributor is not obligated to sell any specific number of shares. Class S2 Shares and Class I2 Shares are\nor will be continuously offered at a price per share equal to the NAV per share for such class. Each share class will initially be offered at the the",
+      "block_kind": "paragraph"
+    },
+    {
+      "case_id": "SEM-HOLD-421-2",
+      "block_id": "SRC421:p2:paragraph:4",
+      "file_id": "SRC421",
+      "physical_page": 2,
+      "original_text": "assessed by a financial intermediary on Class S2 Shares are not reflected in the fee table and examples. Financial intermediaries will not charge such fees\non Class I2 Shares. Your financial intermediary may impose additional charges when you purchase Shares of the Fund. Please consult your financial\nintermediary for additional information.\n(3) The table assumes that all shares are sold in the primary offering, with 1/2 of the gross offering proceeds from the sale of Class S2 shares and 1/2 from\nthe sale of Class I2 shares. The number of shares of each class sold and the relative proportions in which the classes of shares are sold are uncertain and\nmay differ significantly from this assumption.",
+      "block_kind": "paragraph"
+    },
+    {
+      "case_id": "SEM-HOLD-421-2",
+      "block_id": "SRC421:p102:paragraph:1",
+      "file_id": "SRC421",
+      "physical_page": 102,
+      "original_text": "Class S2 Shares\nClass S Shares are sold at the prevailing NAV per Class S2 Share. If you buy Class S Shares through certain financial intermediaries,\nthey may charge you transaction or other fees, including upfront placement fees or brokerage commissions, in such amount as they\nmay determine, provided that the financial intermediary limit such fees to a 3.5% cap on NAV for Class S2 Shares. Class S2 Shares\nare subject to a Distribution and Servicing Fee at an annual rate of 0.85% of the net assets of the Fund attributable to Class S2 Shares.\nEligibility to receive a Distribution and Servicing Fee is conditioned on a broker providing the following ongoing services with\nrespect to the Class S2 Shares: assistance with recordkeeping, answering investor inquiries regarding us, including regardin",
+      "block_kind": "paragraph"
+    },
+    {
+      "case_id": "SEM-HOLD-594-1",
+      "block_id": "SRC594:p4:note:5",
+      "file_id": "SRC594",
+      "physical_page": 4,
+      "original_text": "2. BASIS OF PRESENTATION\nThe accompanying investment performance statistics have been computed net of investment management fees\nusing the Modified Dietz Method. The formula for the Modified Dietz Method is shown in Appendix I. Other\nformulas may produce different returns. Individual returns of various investment accounts in the Funds may\nvary based on factors such as the timing of cash flows. Past returns are no guarantee of future returns.\nInvestment assets which are held in the respective Funds that have readily determinable fair values are primarily\nvalued on the basis of market valuations provided by independent pricing services. The Funds\u2019 investments in\nprivate investment funds, hedge funds, investment grade fixed income, and public markets investment funds\nand certain other equity ",
+      "block_kind": "note"
+    },
+    {
+      "case_id": "SEM-HOLD-594-1",
+      "block_id": "SRC594:p4:note:2",
+      "file_id": "SRC594",
+      "physical_page": 4,
+      "original_text": "NOTES TO STATEMENT OF INVESTMENT PERFORMANCE STATISTICS",
+      "block_kind": "note"
+    },
+    {
+      "case_id": "SEM-HOLD-606-1",
+      "block_id": "SRC606:p1:paragraph:1",
+      "file_id": "SRC606",
+      "physical_page": 1,
+      "original_text": "Antares Private Credit Fund (ABDC)\n1Q 2026 Quarterly Update\nH I G H L I G H T S Fund & Performance Overview\nABDC delivered a strong quarter, supported by stable credit performance and\n11/05/2024 disciplined portfolio construction. Despite persistent macro & headline noise, we\nbelieve the key driver of investor outcomes in private credit remains evident in our\nInception Date\ncore fundamentals - specifically, disciplined underwriting, portfolio construction,\nandtheunderlyingcreditqualityoftheborrowerswefinance.\n~9.43% As of March 31, 2026, the portfolio remained highly diversified with a ~0.2%\naveragepositionsize,defensivelypositionedwith97.8%investedinfirstliensenior\nITD Annualized secured loans, an average loan-to-value of 36.0%, and minimal non-accruals\nTotal Net Return(1) (0.03%oftotalfa",
+      "block_kind": "paragraph"
+    },
+    {
+      "case_id": "SEM-HOLD-606-2",
+      "block_id": "SRC606:p1:paragraph:1",
+      "file_id": "SRC606",
+      "physical_page": 1,
+      "original_text": "Antares Private Credit Fund (ABDC)\n1Q 2026 Quarterly Update\nH I G H L I G H T S Fund & Performance Overview\nABDC delivered a strong quarter, supported by stable credit performance and\n11/05/2024 disciplined portfolio construction. Despite persistent macro & headline noise, we\nbelieve the key driver of investor outcomes in private credit remains evident in our\nInception Date\ncore fundamentals - specifically, disciplined underwriting, portfolio construction,\nandtheunderlyingcreditqualityoftheborrowerswefinance.\n~9.43% As of March 31, 2026, the portfolio remained highly diversified with a ~0.2%\naveragepositionsize,defensivelypositionedwith97.8%investedinfirstliensenior\nITD Annualized secured loans, an average loan-to-value of 36.0%, and minimal non-accruals\nTotal Net Return(1) (0.03%oftotalfa",
+      "block_kind": "paragraph"
+    }
+  ],
+  "examples": [
+    {
+      "case_id": "DEV-373-1",
+      "split": "dev",
+      "query": "THE DAVID AND LUCILE PACKARD FOUNDATION",
+      "file_ids": [
+        "SRC373"
+      ],
+      "expected_pages": "1",
+      "required_context": "",
+      "reference_label": "human_reference",
+      "reference_checked_by": "native PDF visual review"
+    },
+    {
+      "case_id": "DEV-373-2",
+      "split": "dev",
+      "query": "94-2278431",
+      "file_ids": [
+        "SRC373"
+      ],
+      "expected_pages": "",
+      "required_context": "",
+      "reference_label": "human_reference",
+      "reference_checked_by": "native PDF visual review"
+    },
+    {
+      "case_id": "DEV-373-3",
+      "split": "dev",
+      "query": "Form 990-PF 2023",
+      "file_ids": [
+        "SRC373"
+      ],
+      "expected_pages": "",
+      "required_context": "",
+      "reference_label": "human_reference",
+      "reference_checked_by": "native PDF visual review"
+    },
+    {
+      "case_id": "HOLD-606-1",
+      "split": "held-out",
+      "query": "9.00 percent annualized distribution rate",
+      "file_ids": [
+        "SRC606"
+      ],
+      "expected_pages": "1",
+      "required_context": "block:SRC606:p6:footnote:2",
+      "reference_label": "human_reference",
+      "reference_checked_by": "native PDF visual review"
+    },
+    {
+      "case_id": "HOLD-606-2",
+      "split": "held-out",
+      "query": "9.43 percent annualized total net return",
+      "file_ids": [
+        "SRC606"
+      ],
+      "expected_pages": "1",
+      "required_context": "block:SRC606:p6:footnote:1",
+      "reference_label": "human_reference",
+      "reference_checked_by": "native PDF visual review"
+    },
+    {
+      "case_id": "HOLD-606-3",
+      "split": "held-out",
+      "query": "As of April 30, 2026 9.43",
+      "file_ids": [
+        "SRC606"
+      ],
+      "expected_pages": "2",
+      "required_context": "",
+      "reference_label": "human_reference",
+      "reference_checked_by": "native PDF visual review"
+    },
+    {
+      "case_id": "HOLD-594-1",
+      "split": "held-out",
+      "query": "TOTAL FUND Net of fees 10.0",
+      "file_ids": [
+        "SRC594"
+      ],
+      "expected_pages": "3",
+      "required_context": "",
+      "reference_label": "human_reference",
+      "reference_checked_by": "native PDF visual review"
+    },
+    {
+      "case_id": "HOLD-594-2",
+      "split": "held-out",
+      "query": "Modified Dietz Method",
+      "file_ids": [
+        "SRC594"
+      ],
+      "expected_pages": "4",
+      "required_context": "note",
+      "reference_label": "human_reference",
+      "reference_checked_by": "native PDF visual review"
+    },
+    {
+      "case_id": "HOLD-594-3",
+      "split": "held-out",
+      "query": "NET OF FEES Global Equity",
+      "file_ids": [
+        "SRC594"
+      ],
+      "expected_pages": "3",
+      "required_context": "",
+      "reference_label": "human_reference",
+      "reference_checked_by": "native PDF visual review"
+    },
+    {
+      "case_id": "HOLD-421-1",
+      "split": "held-out",
+      "query": "Class S2 Shares Class I2 Shares",
+      "file_ids": [
+        "SRC421"
+      ],
+      "expected_pages": "2",
+      "required_context": "",
+      "reference_label": "human_reference",
+      "reference_checked_by": "native PDF visual review"
+    },
+    {
+      "case_id": "HOLD-421-2",
+      "split": "held-out",
+      "query": "minimum investment 25,000 Class S2 Class I2",
+      "file_ids": [
+        "SRC421"
+      ],
+      "expected_pages": "2",
+      "required_context": "",
+      "reference_label": "human_reference",
+      "reference_checked_by": "native PDF visual review"
+    },
+    {
+      "case_id": "HOLD-421-3",
+      "split": "held-out",
+      "query": "3.5 percent cap on NAV for Class S2",
+      "file_ids": [
+        "SRC421"
+      ],
+      "expected_pages": "2",
+      "required_context": "",
+      "reference_label": "human_reference",
+      "reference_checked_by": "native PDF visual review"
+    },
+    {
+      "case_id": "HOLD-035-1",
+      "split": "held-out",
+      "query": "Endeavour Capital Fund III TVPI 2.69 IRR 29.66",
+      "file_ids": [
+        "SRC035"
+      ],
+      "expected_pages": "1",
+      "required_context": "",
+      "reference_label": "human_reference",
+      "reference_checked_by": "native PDF visual review"
+    },
+    {
+      "case_id": "HOLD-035-2",
+      "split": "held-out",
+      "query": "Madrona Venture Fund III 7.23",
+      "file_ids": [
+        "SRC035"
+      ],
+      "expected_pages": "1",
+      "required_context": "",
+      "reference_label": "human_reference",
+      "reference_checked_by": "native PDF visual review"
+    },
+    {
+      "case_id": "HOLD-035-3",
+      "split": "held-out",
+      "query": "Oregon Growth Account as of December 31, 2021",
+      "file_ids": [
+        "SRC035"
+      ],
+      "expected_pages": "1",
+      "required_context": "",
+      "reference_label": "human_reference",
+      "reference_checked_by": "native PDF visual review"
+    },
+    {
+      "case_id": "SEM-HOLD-035-1",
+      "split": "held-out",
+      "query": "What multiple combined cash already returned with remaining holdings for Endeavour's third fund?",
+      "file_ids": [
+        "SRC035"
+      ],
+      "expected_pages": "1",
+      "required_context": "text:endeavour capital fund iii",
+      "reference_label": "human_reference",
+      "reference_checked_by": "native PDF visual review"
+    },
+    {
+      "case_id": "SEM-HOLD-421-1",
+      "split": "held-out",
+      "query": "How little can a new investor put into either offered share class?",
+      "file_ids": [
+        "SRC421"
+      ],
+      "expected_pages": "2",
+      "required_context": "text:stated minimum investment",
+      "reference_label": "human_reference",
+      "reference_checked_by": "native PDF visual review"
+    },
+    {
+      "case_id": "SEM-HOLD-421-2",
+      "split": "held-out",
+      "query": "What ceiling applies to intermediary charges for S2 shares?",
+      "file_ids": [
+        "SRC421"
+      ],
+      "expected_pages": "2",
+      "required_context": "text:3.5% cap on nav",
+      "reference_label": "human_reference",
+      "reference_checked_by": "native PDF visual review"
+    },
+    {
+      "case_id": "SEM-HOLD-594-1",
+      "split": "held-out",
+      "query": "Which return calculation accounts for when money enters or leaves the portfolio?",
+      "file_ids": [
+        "SRC594"
+      ],
+      "expected_pages": "4",
+      "required_context": "text:timing of cash flows",
+      "reference_label": "human_reference",
+      "reference_checked_by": "native PDF visual review"
+    },
+    {
+      "case_id": "SEM-HOLD-606-1",
+      "split": "held-out",
+      "query": "What yearly cash payout rate did the fund report most recently?",
+      "file_ids": [
+        "SRC606"
+      ],
+      "expected_pages": "1",
+      "required_context": "text:annualized distribution rate",
+      "reference_label": "human_reference",
+      "reference_checked_by": "native PDF visual review"
+    },
+    {
+      "case_id": "SEM-HOLD-606-2",
+      "split": "held-out",
+      "query": "What annual performance remained after investor charges since launch?",
+      "file_ids": [
+        "SRC606"
+      ],
+      "expected_pages": "1",
+      "required_context": "text:annualized total net return since",
+      "reference_label": "human_reference",
+      "reference_checked_by": "native PDF visual review"
+    }
+  ],
+  "limits": {
+    "model_requests": "disabled",
+    "loopback_probes": "disabled",
+    "vector_retrieval": "available locally",
+    "hybrid_default": false
+  },
+  "evaluation_summary": {
+    "case_count": 35,
+    "semantic_case_count": 8,
+    "metrics": {
+      "all": {
+        "keyword": {
+          "cases": 35,
+          "run": 35,
+          "passed": 35,
+          "pass_rate": 1.0
+        },
+        "keyword_context": {
+          "cases": 35,
+          "run": 35,
+          "passed": 35,
+          "pass_rate": 1.0
+        },
+        "keyword_vector_context": {
+          "cases": 35,
+          "run": 35,
+          "passed": 35,
+          "pass_rate": 1.0
+        }
+      },
+      "exact": {
+        "keyword": {
+          "cases": 27,
+          "run": 27,
+          "passed": 27,
+          "pass_rate": 1.0
+        },
+        "keyword_context": {
+          "cases": 27,
+          "run": 27,
+          "passed": 27,
+          "pass_rate": 1.0
+        },
+        "keyword_vector_context": {
+          "cases": 27,
+          "run": 27,
+          "passed": 27,
+          "pass_rate": 1.0
+        }
+      },
+      "semantic": {
+        "keyword": {
+          "cases": 8,
+          "run": 8,
+          "passed": 8,
+          "pass_rate": 1.0
+        },
+        "keyword_context": {
+          "cases": 8,
+          "run": 8,
+          "passed": 8,
+          "pass_rate": 1.0
+        },
+        "keyword_vector_context": {
+          "cases": 8,
+          "run": 8,
+          "passed": 8,
+          "pass_rate": 1.0
+        }
+      },
+      "semantic_held_out": {
+        "keyword": {
+          "cases": 6,
+          "run": 6,
+          "passed": 6,
+          "pass_rate": 1.0
+        },
+        "keyword_context": {
+          "cases": 6,
+          "run": 6,
+          "passed": 6,
+          "pass_rate": 1.0
+        },
+        "keyword_vector_context": {
+          "cases": 6,
+          "run": 6,
+          "passed": 6,
+          "pass_rate": 1.0
+        }
+      },
+      "exact_held_out": {
+        "keyword": {
+          "cases": 12,
+          "run": 12,
+          "passed": 12,
+          "pass_rate": 1.0
+        },
+        "keyword_context": {
+          "cases": 12,
+          "run": 12,
+          "passed": 12,
+          "pass_rate": 1.0
+        },
+        "keyword_vector_context": {
+          "cases": 12,
+          "run": 12,
+          "passed": 12,
+          "pass_rate": 1.0
+        }
+      }
+    },
+    "activation": {
+      "hybrid_default_recommended": false,
+      "semantic_held_out_improved": false,
+      "exact_held_out_not_worse": true,
+      "safety_regression": false,
+      "rule": "Improve held-out semantic retrieval without reducing held-out exact or safety results."
+    }
+  },
+  "index_summary": {
+    "catalogued_documents": 442,
+    "indexed_documents": 441,
+    "restricted_documents": 1,
+    "indexed_pages": 40788,
+    "block_count": 494838,
+    "vector_documents": 36,
+    "vector_blocks": 4399,
+    "embedding_model": "BAAI/bge-small-en-v1.5",
+    "embedding_revision": "52398278842ec682c6f32300af41344b1c0b0bb2"
+  },
+  "result_labels": {
+    "human_reference": "Source answer checked against the native PDF",
+    "offline_keyword": "Deterministic keyword retrieval",
+    "model": "GPT-5.6 Luna selected; provider contract unverified"
+  },
+  "measured": [
+    {
+      "case_id": "DEV-373-1",
+      "configuration": "keyword",
+      "execution_state": "OK",
+      "result": "pass",
+      "label": "offline_keyword"
+    },
+    {
+      "case_id": "DEV-373-1",
+      "configuration": "keyword_context",
+      "execution_state": "OK",
+      "result": "pass",
+      "label": "offline_keyword_context"
+    },
+    {
+      "case_id": "DEV-373-1",
+      "configuration": "keyword_vector_context",
+      "execution_state": "OK",
+      "result": "pass",
+      "label": "offline_local_hybrid"
+    },
+    {
+      "case_id": "DEV-373-2",
+      "configuration": "keyword",
+      "execution_state": "OK",
+      "result": "pass",
+      "label": "offline_keyword"
+    },
+    {
+      "case_id": "DEV-373-2",
+      "configuration": "keyword_context",
+      "execution_state": "OK",
+      "result": "pass",
+      "label": "offline_keyword_context"
+    },
+    {
+      "case_id": "DEV-373-2",
+      "configuration": "keyword_vector_context",
+      "execution_state": "OK",
+      "result": "pass",
+      "label": "offline_local_hybrid"
+    },
+    {
+      "case_id": "DEV-373-3",
+      "configuration": "keyword",
+      "execution_state": "OK",
+      "result": "pass",
+      "label": "offline_keyword"
+    },
+    {
+      "case_id": "DEV-373-3",
+      "configuration": "keyword_context",
+      "execution_state": "OK",
+      "result": "pass",
+      "label": "offline_keyword_context"
+    },
+    {
+      "case_id": "DEV-373-3",
+      "configuration": "keyword_vector_context",
+      "execution_state": "OK",
+      "result": "pass",
+      "label": "offline_local_hybrid"
+    },
+    {
+      "case_id": "HOLD-606-1",
+      "configuration": "keyword",
+      "execution_state": "OK",
+      "result": "pass",
+      "label": "offline_keyword"
+    },
+    {
+      "case_id": "HOLD-606-1",
+      "configuration": "keyword_context",
+      "execution_state": "OK",
+      "result": "pass",
+      "label": "offline_keyword_context"
+    },
+    {
+      "case_id": "HOLD-606-1",
+      "configuration": "keyword_vector_context",
+      "execution_state": "OK",
+      "result": "pass",
+      "label": "offline_local_hybrid"
+    },
+    {
+      "case_id": "HOLD-606-2",
+      "configuration": "keyword",
+      "execution_state": "OK",
+      "result": "pass",
+      "label": "offline_keyword"
+    },
+    {
+      "case_id": "HOLD-606-2",
+      "configuration": "keyword_context",
+      "execution_state": "OK",
+      "result": "pass",
+      "label": "offline_keyword_context"
+    },
+    {
+      "case_id": "HOLD-606-2",
+      "configuration": "keyword_vector_context",
+      "execution_state": "OK",
+      "result": "pass",
+      "label": "offline_local_hybrid"
+    },
+    {
+      "case_id": "HOLD-606-3",
+      "configuration": "keyword",
+      "execution_state": "OK",
+      "result": "pass",
+      "label": "offline_keyword"
+    },
+    {
+      "case_id": "HOLD-606-3",
+      "configuration": "keyword_context",
+      "execution_state": "OK",
+      "result": "pass",
+      "label": "offline_keyword_context"
+    },
+    {
+      "case_id": "HOLD-606-3",
+      "configuration": "keyword_vector_context",
+      "execution_state": "OK",
+      "result": "pass",
+      "label": "offline_local_hybrid"
+    },
+    {
+      "case_id": "HOLD-594-1",
+      "configuration": "keyword",
+      "execution_state": "OK",
+      "result": "pass",
+      "label": "offline_keyword"
+    },
+    {
+      "case_id": "HOLD-594-1",
+      "configuration": "keyword_context",
+      "execution_state": "OK",
+      "result": "pass",
+      "label": "offline_keyword_context"
+    },
+    {
+      "case_id": "HOLD-594-1",
+      "configuration": "keyword_vector_context",
+      "execution_state": "OK",
+      "result": "pass",
+      "label": "offline_local_hybrid"
+    },
+    {
+      "case_id": "HOLD-594-2",
+      "configuration": "keyword",
+      "execution_state": "OK",
+      "result": "pass",
+      "label": "offline_keyword"
+    },
+    {
+      "case_id": "HOLD-594-2",
+      "configuration": "keyword_context",
+      "execution_state": "OK",
+      "result": "pass",
+      "label": "offline_keyword_context"
+    },
+    {
+      "case_id": "HOLD-594-2",
+      "configuration": "keyword_vector_context",
+      "execution_state": "OK",
+      "result": "pass",
+      "label": "offline_local_hybrid"
+    },
+    {
+      "case_id": "HOLD-594-3",
+      "configuration": "keyword",
+      "execution_state": "OK",
+      "result": "pass",
+      "label": "offline_keyword"
+    },
+    {
+      "case_id": "HOLD-594-3",
+      "configuration": "keyword_context",
+      "execution_state": "OK",
+      "result": "pass",
+      "label": "offline_keyword_context"
+    },
+    {
+      "case_id": "HOLD-594-3",
+      "configuration": "keyword_vector_context",
+      "execution_state": "OK",
+      "result": "pass",
+      "label": "offline_local_hybrid"
+    },
+    {
+      "case_id": "HOLD-421-1",
+      "configuration": "keyword",
+      "execution_state": "OK",
+      "result": "pass",
+      "label": "offline_keyword"
+    },
+    {
+      "case_id": "HOLD-421-1",
+      "configuration": "keyword_context",
+      "execution_state": "OK",
+      "result": "pass",
+      "label": "offline_keyword_context"
+    },
+    {
+      "case_id": "HOLD-421-1",
+      "configuration": "keyword_vector_context",
+      "execution_state": "OK",
+      "result": "pass",
+      "label": "offline_local_hybrid"
+    },
+    {
+      "case_id": "HOLD-421-2",
+      "configuration": "keyword",
+      "execution_state": "OK",
+      "result": "pass",
+      "label": "offline_keyword"
+    },
+    {
+      "case_id": "HOLD-421-2",
+      "configuration": "keyword_context",
+      "execution_state": "OK",
+      "result": "pass",
+      "label": "offline_keyword_context"
+    },
+    {
+      "case_id": "HOLD-421-2",
+      "configuration": "keyword_vector_context",
+      "execution_state": "OK",
+      "result": "pass",
+      "label": "offline_local_hybrid"
+    },
+    {
+      "case_id": "HOLD-421-3",
+      "configuration": "keyword",
+      "execution_state": "OK",
+      "result": "pass",
+      "label": "offline_keyword"
+    },
+    {
+      "case_id": "HOLD-421-3",
+      "configuration": "keyword_context",
+      "execution_state": "OK",
+      "result": "pass",
+      "label": "offline_keyword_context"
+    },
+    {
+      "case_id": "HOLD-421-3",
+      "configuration": "keyword_vector_context",
+      "execution_state": "OK",
+      "result": "pass",
+      "label": "offline_local_hybrid"
+    },
+    {
+      "case_id": "HOLD-035-1",
+      "configuration": "keyword",
+      "execution_state": "OK",
+      "result": "pass",
+      "label": "offline_keyword"
+    },
+    {
+      "case_id": "HOLD-035-1",
+      "configuration": "keyword_context",
+      "execution_state": "OK",
+      "result": "pass",
+      "label": "offline_keyword_context"
+    },
+    {
+      "case_id": "HOLD-035-1",
+      "configuration": "keyword_vector_context",
+      "execution_state": "OK",
+      "result": "pass",
+      "label": "offline_local_hybrid"
+    },
+    {
+      "case_id": "HOLD-035-2",
+      "configuration": "keyword",
+      "execution_state": "OK",
+      "result": "pass",
+      "label": "offline_keyword"
+    },
+    {
+      "case_id": "HOLD-035-2",
+      "configuration": "keyword_context",
+      "execution_state": "OK",
+      "result": "pass",
+      "label": "offline_keyword_context"
+    },
+    {
+      "case_id": "HOLD-035-2",
+      "configuration": "keyword_vector_context",
+      "execution_state": "OK",
+      "result": "pass",
+      "label": "offline_local_hybrid"
+    },
+    {
+      "case_id": "HOLD-035-3",
+      "configuration": "keyword",
+      "execution_state": "OK",
+      "result": "pass",
+      "label": "offline_keyword"
+    },
+    {
+      "case_id": "HOLD-035-3",
+      "configuration": "keyword_context",
+      "execution_state": "OK",
+      "result": "pass",
+      "label": "offline_keyword_context"
+    },
+    {
+      "case_id": "HOLD-035-3",
+      "configuration": "keyword_vector_context",
+      "execution_state": "OK",
+      "result": "pass",
+      "label": "offline_local_hybrid"
+    },
+    {
+      "case_id": "SEM-HOLD-035-1",
+      "configuration": "keyword",
+      "execution_state": "OK",
+      "result": "pass",
+      "label": "offline_keyword"
+    },
+    {
+      "case_id": "SEM-HOLD-035-1",
+      "configuration": "keyword_context",
+      "execution_state": "OK",
+      "result": "pass",
+      "label": "offline_keyword_context"
+    },
+    {
+      "case_id": "SEM-HOLD-035-1",
+      "configuration": "keyword_vector_context",
+      "execution_state": "OK",
+      "result": "pass",
+      "label": "offline_local_hybrid"
+    },
+    {
+      "case_id": "SEM-HOLD-421-1",
+      "configuration": "keyword",
+      "execution_state": "OK",
+      "result": "pass",
+      "label": "offline_keyword"
+    },
+    {
+      "case_id": "SEM-HOLD-421-1",
+      "configuration": "keyword_context",
+      "execution_state": "OK",
+      "result": "pass",
+      "label": "offline_keyword_context"
+    },
+    {
+      "case_id": "SEM-HOLD-421-1",
+      "configuration": "keyword_vector_context",
+      "execution_state": "OK",
+      "result": "pass",
+      "label": "offline_local_hybrid"
+    },
+    {
+      "case_id": "SEM-HOLD-421-2",
+      "configuration": "keyword",
+      "execution_state": "OK",
+      "result": "pass",
+      "label": "offline_keyword"
+    },
+    {
+      "case_id": "SEM-HOLD-421-2",
+      "configuration": "keyword_context",
+      "execution_state": "OK",
+      "result": "pass",
+      "label": "offline_keyword_context"
+    },
+    {
+      "case_id": "SEM-HOLD-421-2",
+      "configuration": "keyword_vector_context",
+      "execution_state": "OK",
+      "result": "pass",
+      "label": "offline_local_hybrid"
+    },
+    {
+      "case_id": "SEM-HOLD-594-1",
+      "configuration": "keyword",
+      "execution_state": "OK",
+      "result": "pass",
+      "label": "offline_keyword"
+    },
+    {
+      "case_id": "SEM-HOLD-594-1",
+      "configuration": "keyword_context",
+      "execution_state": "OK",
+      "result": "pass",
+      "label": "offline_keyword_context"
+    },
+    {
+      "case_id": "SEM-HOLD-594-1",
+      "configuration": "keyword_vector_context",
+      "execution_state": "OK",
+      "result": "pass",
+      "label": "offline_local_hybrid"
+    },
+    {
+      "case_id": "SEM-HOLD-606-1",
+      "configuration": "keyword",
+      "execution_state": "OK",
+      "result": "pass",
+      "label": "offline_keyword"
+    },
+    {
+      "case_id": "SEM-HOLD-606-1",
+      "configuration": "keyword_context",
+      "execution_state": "OK",
+      "result": "pass",
+      "label": "offline_keyword_context"
+    },
+    {
+      "case_id": "SEM-HOLD-606-1",
+      "configuration": "keyword_vector_context",
+      "execution_state": "OK",
+      "result": "pass",
+      "label": "offline_local_hybrid"
+    },
+    {
+      "case_id": "SEM-HOLD-606-2",
+      "configuration": "keyword",
+      "execution_state": "OK",
+      "result": "pass",
+      "label": "offline_keyword"
+    },
+    {
+      "case_id": "SEM-HOLD-606-2",
+      "configuration": "keyword_context",
+      "execution_state": "OK",
+      "result": "pass",
+      "label": "offline_keyword_context"
+    },
+    {
+      "case_id": "SEM-HOLD-606-2",
+      "configuration": "keyword_vector_context",
+      "execution_state": "OK",
+      "result": "pass",
+      "label": "offline_local_hybrid"
+    }
+  ]
+}

@@ -41,7 +41,7 @@ COLUMNS = (
 # Rebuilt from this tree and rendered from this manifest; listed, never sized
 # or hashed, because recording their own bytes would make each rebuild change
 # the manifest that they embed.
-UNHASHED = frozenset({"dashboard.html"})
+UNHASHED = frozenset({"dashboard.html", "rag.html"})
 REJECT_ROLE = re.compile(
     r"\b(old|new|earlier|former|retired|working note|scratch|history|temporary)\b",
     re.I,
@@ -55,6 +55,12 @@ STALE_ROLE = re.compile(
     re.I,
 )
 ROLE_OVERRIDES = {
+    "src/dashboard/field_guide_template.html": (
+        "Maintained HTML shell for the reviewer field guide; the builder inserts the current dashboard payload."
+    ),
+    "RAG/architecture.html": (
+        "Static visual description of the RAG stores, evidence block types, query operations, and return envelope."
+    ),
     "data/extracted/tables/dim_metric.csv": (
         "Metric IDs observed in the published extraction, with value kind, row count, "
         "cross-document label, reported scope, and source note."
@@ -256,7 +262,11 @@ def generated_role(path: Path) -> str:
     if suffix in {".yaml", ".yml", ".toml", ".ini", ".cfg"}:
         return f"Configuration for {stem}."
     if suffix == ".pdf":
+        if "Expansion" in path.parts and "source-documents" in path.parts:
+            return "Expansion native PDF held outside the canonical PDF corpus."
         return "Source report registered in the source ledger."
+    if suffix in {".html", ".htm", ".xml", ".xlsx", ".docx"} and "Expansion" in path.parts and "source-documents" in path.parts:
+        return "Expansion native source file held outside the canonical PDF corpus."
     if suffix == ".txt":
         return "Page-aligned text or text evidence."
     if suffix == ".parquet":

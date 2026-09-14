@@ -1,0 +1,81 @@
+{
+  "version": "1.1.0",
+  "default_population": "fixture",
+  "default_as_of": "2026-06-30",
+  "initial_strategy": "buyout",
+  "min_maturity_years": 3,
+  "vintage_bucket_years": 5,
+  "peer_min_funds": 10,
+  "peer_min_managers": 5,
+  "weights": {
+    "tvpi": 0.6,
+    "dpi": 0.4
+  },
+  "manager_min_funds": 2,
+  "manager_min_coverage": 0.75,
+  "nav_haircut": 0.2,
+  "weight_scenarios": [
+    {"name": "balanced_50_50", "tvpi": 0.5, "dpi": 0.5},
+    {"name": "value_70_30", "tvpi": 0.7, "dpi": 0.3}
+  ],
+  "metric_tolerance": 0.00001,
+  "required_quality_rules": [
+    "R01_NONNEGATIVE_BALANCES",
+    "R02_TVPI_COMPONENTS",
+    "R03_DPI_RECOMPUTE",
+    "R04_RVPI_RECOMPUTE",
+    "R05_TVPI_RECOMPUTE",
+    "R06_COMMITMENT_RECONCILIATION",
+    "R07_NAV_ROLLFORWARD",
+    "R08_XIRR_RECOMPUTE",
+    "R09_VINTAGE_DATE",
+    "R10_FUND_SIZE_BOUND",
+    "R11_PROVENANCE_REQUIREMENTS",
+    "R12_SYNTHETIC_IDENTITY_SEPARATION",
+    "R13_DUPLICATE_CASHFLOW",
+    "R14_CURRENCY_CONSISTENCY",
+    "R15_CASHFLOW_SIGN_CONVENTION"
+  ],
+  "real_evidence_cards": 3,
+  "brief_manager_limit": 3,
+  "brief_input_token_cap": 12000,
+  "brief_output_tokens": 2000,
+  "llm": {
+    "default_provider": "openrouter",
+    "max_run_cost_usd": 0.20,
+    "providers": {
+      "openrouter": {
+        "api_key_env": "OPENROUTER_API_KEY",
+        "endpoint": "https://openrouter.ai/api/v1/chat/completions",
+        "default_model": "google/gemini-3.8-flash",
+        "routing": {
+          "zdr": true,
+          "data_collection": "deny",
+          "allow_fallbacks": false,
+          "require_parameters": true
+        },
+        "models": {
+          "google/gemini-3.8-flash": {
+            "input_usd_per_million": 0.75,
+            "output_usd_per_million": 3.75
+          }
+        }
+      },
+      "anthropic": {
+        "api_key_env": "ANTHROPIC_API_KEY",
+        "default_model": "claude-sonnet-5",
+        "effort": "low",
+        "models": {
+          "claude-sonnet-5": {
+            "input_usd_per_million": 2.0,
+            "output_usd_per_million": 10.0
+          },
+          "claude-haiku-4-5-20251001": {
+            "input_usd_per_million": 1.0,
+            "output_usd_per_million": 5.0
+          }
+        }
+      }
+    }
+  }
+}

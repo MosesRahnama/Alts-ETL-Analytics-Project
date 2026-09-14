@@ -1,0 +1,187 @@
+[
+  {
+    "actual_cost_usd": 0.0,
+    "evidence_ids": [
+      "SYNTH:FUND_SYNTH_000701:FP_FUND_SYNTH_000701_20260630",
+      "SYNTH:FUND_SYNTH_000702:FP_FUND_SYNTH_000702_20260630"
+    ],
+    "fallback_reason": "DRY_RUN_NO_NETWORK",
+    "manager_id": "MANAGER_SYNTH_00176",
+    "manager_key": "MANAGER_SYNTH_00176|buyout",
+    "manager_name": "Synthetic Alternatives Manager 0176",
+    "mode": "dry_run",
+    "model": "google/gemini-3.8-flash",
+    "packet_hash": "2ca6740274a4b072e2dbe7f8eb246b3aebb53c3a4ec14af3a329a700129dcc38",
+    "provider": "openrouter",
+    "questions": [
+      {
+        "evidence_ids": [],
+        "text": "What evidence supports the current NAV marks for the largest remaining positions?"
+      },
+      {
+        "evidence_ids": [],
+        "text": "Which realized exits drove the cash-return profile, and which outcomes were written off or impaired?"
+      },
+      {
+        "evidence_ids": [],
+        "text": "Have team ownership, strategy, or underwriting standards changed across the funds in this track record?"
+      }
+    ],
+    "review_status": "NO_MODEL_CALL",
+    "risks": [
+      {
+        "evidence_ids": [
+          "SYNTH:FUND_SYNTH_000701:FP_FUND_SYNTH_000701_20260630",
+          "SYNTH:FUND_SYNTH_000702:FP_FUND_SYNTH_000702_20260630"
+        ],
+        "text": "The stated NAV reduction materially lowers the manager score."
+      }
+    ],
+    "strategy": "buyout",
+    "strengths": [
+      {
+        "evidence_ids": [
+          "SYNTH:FUND_SYNTH_000701:FP_FUND_SYNTH_000701_20260630",
+          "SYNTH:FUND_SYNTH_000702:FP_FUND_SYNTH_000702_20260630"
+        ],
+        "text": "Total-value performance is above the supplied peer midpoint."
+      },
+      {
+        "evidence_ids": [
+          "SYNTH:FUND_SYNTH_000701:FP_FUND_SYNTH_000701_20260630",
+          "SYNTH:FUND_SYNTH_000702:FP_FUND_SYNTH_000702_20260630"
+        ],
+        "text": "Cash realization is above the supplied peer midpoint."
+      }
+    ],
+    "summary": "This fictional manager has a composite score of 83.6 and rank 1 within the supplied buyout sample, using 2 qualifying funds with 100% series coverage.",
+    "summary_evidence_ids": [
+      "SYNTH:FUND_SYNTH_000701:FP_FUND_SYNTH_000701_20260630",
+      "SYNTH:FUND_SYNTH_000702:FP_FUND_SYNTH_000702_20260630"
+    ],
+    "usage": {}
+  },
+  {
+    "actual_cost_usd": 0.0,
+    "evidence_ids": [
+      "SYNTH:FUND_SYNTH_000361:FP_FUND_SYNTH_000361_20260630",
+      "SYNTH:FUND_SYNTH_000362:FP_FUND_SYNTH_000362_20260630"
+    ],
+    "fallback_reason": "DRY_RUN_NO_NETWORK",
+    "manager_id": "MANAGER_SYNTH_00091",
+    "manager_key": "MANAGER_SYNTH_00091|buyout",
+    "manager_name": "Synthetic Alternatives Manager 0091",
+    "mode": "dry_run",
+    "model": "google/gemini-3.8-flash",
+    "packet_hash": "2bd74a27ef60fd9fc82771c10e1f58d5198791bcf253b1635c4e7c4e6612cf5f",
+    "provider": "openrouter",
+    "questions": [
+      {
+        "evidence_ids": [],
+        "text": "What evidence supports the current NAV marks for the largest remaining positions?"
+      },
+      {
+        "evidence_ids": [],
+        "text": "Which realized exits drove the cash-return profile, and which outcomes were written off or impaired?"
+      },
+      {
+        "evidence_ids": [],
+        "text": "Have team ownership, strategy, or underwriting standards changed across the funds in this track record?"
+      }
+    ],
+    "review_status": "NO_MODEL_CALL",
+    "risks": [],
+    "strategy": "buyout",
+    "strengths": [
+      {
+        "evidence_ids": [
+          "SYNTH:FUND_SYNTH_000361:FP_FUND_SYNTH_000361_20260630",
+          "SYNTH:FUND_SYNTH_000362:FP_FUND_SYNTH_000362_20260630"
+        ],
+        "text": "Total-value performance is above the supplied peer midpoint."
+      },
+      {
+        "evidence_ids": [
+          "SYNTH:FUND_SYNTH_000361:FP_FUND_SYNTH_000361_20260630",
+          "SYNTH:FUND_SYNTH_000362:FP_FUND_SYNTH_000362_20260630"
+        ],
+        "text": "Cash realization is above the supplied peer midpoint."
+      },
+      {
+        "evidence_ids": [
+          "SYNTH:FUND_SYNTH_000361:FP_FUND_SYNTH_000361_20260630",
+          "SYNTH:FUND_SYNTH_000362:FP_FUND_SYNTH_000362_20260630"
+        ],
+        "text": "The stated NAV reduction has a smaller effect on the manager score."
+      }
+    ],
+    "summary": "This fictional manager has a composite score of 83.1 and rank 2 within the supplied buyout sample, using 2 qualifying funds with 100% series coverage.",
+    "summary_evidence_ids": [
+      "SYNTH:FUND_SYNTH_000361:FP_FUND_SYNTH_000361_20260630",
+      "SYNTH:FUND_SYNTH_000362:FP_FUND_SYNTH_000362_20260630"
+    ],
+    "usage": {}
+  },
+  {
+    "actual_cost_usd": 0.0,
+    "evidence_ids": [
+      "SYNTH:FUND_SYNTH_000466:FP_FUND_SYNTH_000466_20260630",
+      "SYNTH:FUND_SYNTH_000468:FP_FUND_SYNTH_000468_20260630"
+    ],
+    "fallback_reason": "DRY_RUN_NO_NETWORK",
+    "manager_id": "MANAGER_SYNTH_00117",
+    "manager_key": "MANAGER_SYNTH_00117|buyout",
+    "manager_name": "Synthetic Alternatives Manager 0117",
+    "mode": "dry_run",
+    "model": "google/gemini-3.8-flash",
+    "packet_hash": "ad3602e19b23834e749d5433eb669c23bf2a98c3413d1d056123bb1981294d9d",
+    "provider": "openrouter",
+    "questions": [
+      {
+        "evidence_ids": [],
+        "text": "What evidence supports the current NAV marks for the largest remaining positions?"
+      },
+      {
+        "evidence_ids": [],
+        "text": "Which realized exits drove the cash-return profile, and which outcomes were written off or impaired?"
+      },
+      {
+        "evidence_ids": [],
+        "text": "Have team ownership, strategy, or underwriting standards changed across the funds in this track record?"
+      }
+    ],
+    "review_status": "NO_MODEL_CALL",
+    "risks": [
+      {
+        "evidence_ids": [
+          "SYNTH:FUND_SYNTH_000466:FP_FUND_SYNTH_000466_20260630",
+          "SYNTH:FUND_SYNTH_000468:FP_FUND_SYNTH_000468_20260630"
+        ],
+        "text": "The stated NAV reduction materially lowers the manager score."
+      }
+    ],
+    "strategy": "buyout",
+    "strengths": [
+      {
+        "evidence_ids": [
+          "SYNTH:FUND_SYNTH_000466:FP_FUND_SYNTH_000466_20260630",
+          "SYNTH:FUND_SYNTH_000468:FP_FUND_SYNTH_000468_20260630"
+        ],
+        "text": "Total-value performance is above the supplied peer midpoint."
+      },
+      {
+        "evidence_ids": [
+          "SYNTH:FUND_SYNTH_000466:FP_FUND_SYNTH_000466_20260630",
+          "SYNTH:FUND_SYNTH_000468:FP_FUND_SYNTH_000468_20260630"
+        ],
+        "text": "Cash realization is above the supplied peer midpoint."
+      }
+    ],
+    "summary": "This fictional manager has a composite score of 75.5 and rank 3 within the supplied buyout sample, using 2 qualifying funds with 100% series coverage.",
+    "summary_evidence_ids": [
+      "SYNTH:FUND_SYNTH_000466:FP_FUND_SYNTH_000466_20260630",
+      "SYNTH:FUND_SYNTH_000468:FP_FUND_SYNTH_000468_20260630"
+    ],
+    "usage": {}
+  }
+]

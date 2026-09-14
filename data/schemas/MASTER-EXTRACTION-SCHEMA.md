@@ -34,12 +34,14 @@ Field-list version: `2026-09-01.2`.
 | `Financials` | `01-financials` | `CORE` | `document_context`, `financial_statement_observation`, `fund_economics_observation`, `position_observation`, `fee_observation`, `financing_observation`, `definition_context` |
 | `Performance` | `02-performance` | `CORE` | `document_context`, `performance_observation`, `fund_economics_observation`, `cash_flow_observation`, `definition_context` |
 | `Institutional_Report` | `03-institutional-report` | `CORE` | `document_context`, `performance_observation`, `fund_economics_observation`, `position_observation`, `allocation_observation`, `definition_context` |
+| `Secondary_Pricing` | `03-institutional-report` | `CORE` | `document_context`, `performance_observation`, `fund_economics_observation`, `position_observation`, `allocation_observation`, `definition_context` |
 | `Quarterly_Report` | `04-quarterly-report` | `CORE` | `document_context`, `performance_observation`, `fund_economics_observation`, `allocation_observation`, `cash_flow_observation`, `position_observation`, `definition_context` |
 | `PPM` | `05-fund-legal-docs` | `CORE` | `document_context`, `legal_term`, `definition_context` |
 | `LPA` | `05-fund-legal-docs` | `CORE` | `document_context`, `legal_term`, `legal_clause`, `definition_context` |
 | `Subscription` | `05-fund-legal-docs` | `SECONDARY` | `document_context`, `subscription_reference`, `definition_context` |
 | `Side_Letter` | `05-fund-legal-docs` | `CORE` | `document_context`, `legal_term`, `legal_clause`, `definition_context` |
 | `DDQ` | `05-fund-legal-docs` | `CORE` | `document_context`, `ddq_quantitative_observation`, `definition_context` |
+| `Continuation_Fund` | `05-fund-legal-docs` | `CORE` | `document_context`, `legal_term`, `fund_economics_observation`, `definition_context` |
 | `Schedule_Inv` | `06-statements-and-economics` | `CORE` | `document_context`, `position_observation`, `definition_context` |
 | `Fee_Report` | `06-statements-and-economics` | `CORE` | `document_context`, `fee_observation`, `fund_economics_observation`, `definition_context` |
 | `Valuation` | `06-statements-and-economics` | `CORE` | `document_context`, `valuation_observation`, `definition_context` |

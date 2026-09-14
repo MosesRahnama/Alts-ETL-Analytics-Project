@@ -1,0 +1,36 @@
+case_id,split,case_kind,file_ids,query,claim_fields,expected_pages,required_context,expected_field_assessments,source_locations,reference_checked_by,source_version,publication_permission
+DEV-028-1,dev,lookup,SRC028,Private Equity 138 bps,,1,,,SRC028:p1,native PDF visual review,91068b29d6128f34c2cb9f612208cc934849cc65200842ad7c017de0b59d0eb5,foia
+DEV-028-2,dev,lookup,SRC028,Portable alpha manager fees misclassified as Absolute Return,,1,note,,SRC028:p1,native PDF visual review,91068b29d6128f34c2cb9f612208cc934849cc65200842ad7c017de0b59d0eb5,foia
+DEV-028-3,dev,lookup,SRC028,infrastructure fee misclassified as real estate,,1,note,,SRC028:p1,native PDF visual review,91068b29d6128f34c2cb9f612208cc934849cc65200842ad7c017de0b59d0eb5,foia
+DEV-028-4,dev,quote_other_number,SRC028,Private Equity fees,value=18,1,,value=INSUFFICIENT_EVIDENCE,SRC028:p1,native PDF visual review,91068b29d6128f34c2cb9f612208cc934849cc65200842ad7c017de0b59d0eb5,foia
+DEV-034-1,dev,lookup,SRC034,"Total Investments fair value 425,000,000 March 31, 2018",,3,,,SRC034:p3,native PDF visual review,c6ea06465f1920417d13440de26a3aefe9611278bbfc337b5e3d6f32647895a8,foia
+DEV-034-2,dev,lookup,SRC034,"cost 415,489,109",,3,,,SRC034:p3,native PDF visual review,c6ea06465f1920417d13440de26a3aefe9611278bbfc337b5e3d6f32647895a8,foia
+DEV-034-3,dev,lookup,SRC034,"Management fees 2,374,563",,5,,,SRC034:p5,native PDF visual review,c6ea06465f1920417d13440de26a3aefe9611278bbfc337b5e3d6f32647895a8,foia
+DEV-034-4,dev,constructed_claim,SRC034,"Cash 13,307,614","value=13,307,614;fee_basis=net",3,,value=SUPPORTED;fee_basis=INSUFFICIENT_EVIDENCE,SRC034:p3,native PDF visual review,c6ea06465f1920417d13440de26a3aefe9611278bbfc337b5e3d6f32647895a8,foia
+DEV-132-1,dev,lookup,SRC132,NAV per share is defined as the value of an investment fund assets less its liabilities,,1,,,SRC132:p1,native PDF visual review,21face6058046d49fc7005fb8a2e7b63f7bf95ffb0e72cf05abbb350733d2e6d,restricted
+DEV-132-2,dev,lookup,SRC132,INDEPENDENT APPRAISALS,,2,,,SRC132:p2,native PDF visual review,21face6058046d49fc7005fb8a2e7b63f7bf95ffb0e72cf05abbb350733d2e6d,restricted
+DEV-132-3,dev,lookup,SRC132,investment objectives and restrictions,,3,,,SRC132:p3,native PDF visual review,21face6058046d49fc7005fb8a2e7b63f7bf95ffb0e72cf05abbb350733d2e6d,restricted
+DEV-373-1,dev,lookup,SRC373,THE DAVID AND LUCILE PACKARD FOUNDATION,,1,,,SRC373:p1,native PDF visual review,8975f55541fe0b27e768395c4b453b9debbcca6e6e4eb30ce03f9a8adf817747,permitted
+DEV-373-2,dev,lookup,SRC373,94-2278431,,,,,SRC373:p1 and repeated form headers,native PDF visual review,8975f55541fe0b27e768395c4b453b9debbcca6e6e4eb30ce03f9a8adf817747,permitted
+DEV-373-3,dev,lookup,SRC373,Form 990-PF 2023,,,,,SRC373:p1 and repeated form headers,native PDF visual review,8975f55541fe0b27e768395c4b453b9debbcca6e6e4eb30ce03f9a8adf817747,permitted
+HOLD-606-1,held-out,lookup,SRC606,9.00 percent annualized distribution rate,,1,block:SRC606:p6:footnote:2,,SRC606:p1|SRC606:p6,native PDF visual review,e56a601bd6fc8250db7675fad2cc69f72aa70aa5ff4dd63cc0176ad602482f9f,permitted
+HOLD-606-2,held-out,lookup,SRC606,9.43 percent annualized total net return,,1,block:SRC606:p6:footnote:1,,SRC606:p1|SRC606:p6,native PDF visual review,e56a601bd6fc8250db7675fad2cc69f72aa70aa5ff4dd63cc0176ad602482f9f,permitted
+HOLD-606-3,held-out,lookup,SRC606,"As of April 30, 2026 9.43",,2,,,SRC606:p2,native PDF visual review,e56a601bd6fc8250db7675fad2cc69f72aa70aa5ff4dd63cc0176ad602482f9f,permitted
+HOLD-594-1,held-out,lookup,SRC594,TOTAL FUND Net of fees 10.0,,3,,,SRC594:p3,native PDF visual review,9b50469c18f58048eba427fe0b3e67dc76ecfd656d6f849979a37c5a1f72af73,permitted
+HOLD-594-2,held-out,lookup,SRC594,Modified Dietz Method,,4,note,,SRC594:p4,native PDF visual review,9b50469c18f58048eba427fe0b3e67dc76ecfd656d6f849979a37c5a1f72af73,permitted
+HOLD-594-3,held-out,lookup,SRC594,NET OF FEES Global Equity,,3,,,SRC594:p3,native PDF visual review,9b50469c18f58048eba427fe0b3e67dc76ecfd656d6f849979a37c5a1f72af73,permitted
+HOLD-421-1,held-out,lookup,SRC421,Class S2 Shares Class I2 Shares,,2,,,SRC421:p2,native PDF visual review,8fbaa442a5f926fb750aba15b64a328a8a737995b1492a65e539ab39b5cc165c,permitted
+HOLD-421-2,held-out,lookup,SRC421,"minimum investment 25,000 Class S2 Class I2",,2,,,SRC421:p2,native PDF visual review,8fbaa442a5f926fb750aba15b64a328a8a737995b1492a65e539ab39b5cc165c,permitted
+HOLD-421-3,held-out,lookup,SRC421,3.5 percent cap on NAV for Class S2,,2,,,SRC421:p2,native PDF visual review,8fbaa442a5f926fb750aba15b64a328a8a737995b1492a65e539ab39b5cc165c,permitted
+HOLD-035-1,held-out,lookup,SRC035,Endeavour Capital Fund III TVPI 2.69 IRR 29.66,,1,,,SRC035:p1,native PDF visual review,efccda783490f37c841b4335300e864503edab8861c88ea4aff51b0e1ff3a189,permitted
+HOLD-035-2,held-out,lookup,SRC035,Madrona Venture Fund III 7.23,,1,,,SRC035:p1,native PDF visual review,efccda783490f37c841b4335300e864503edab8861c88ea4aff51b0e1ff3a189,permitted
+HOLD-035-3,held-out,lookup,SRC035,"Oregon Growth Account as of December 31, 2021",,1,,,SRC035:p1,native PDF visual review,efccda783490f37c841b4335300e864503edab8861c88ea4aff51b0e1ff3a189,permitted
+DEV-ACC-1,dev,access_denied,SRC028,Private Equity 138,,,,,SRC028:p1,fixture access case,91068b29d6128f34c2cb9f612208cc934849cc65200842ad7c017de0b59d0eb5,foia
+SEM-DEV-028-1,dev,lookup,SRC028,Which management charge was placed in the wrong investment category?,,1,text:misclassified as absolute return,,SRC028:p1,native PDF visual review,91068b29d6128f34c2cb9f612208cc934849cc65200842ad7c017de0b59d0eb5,foia
+SEM-DEV-034-1,dev,lookup,SRC034,How much immediately available money did the combined partnerships hold at quarter end?,,3,"text:cash 13,307,614",,SRC034:p3,native PDF visual review,c6ea06465f1920417d13440de26a3aefe9611278bbfc337b5e3d6f32647895a8,foia
+SEM-HOLD-035-1,held-out,lookup,SRC035,What multiple combined cash already returned with remaining holdings for Endeavour's third fund?,,1,text:endeavour capital fund iii,,SRC035:p1,native PDF visual review,efccda783490f37c841b4335300e864503edab8861c88ea4aff51b0e1ff3a189,permitted
+SEM-HOLD-421-1,held-out,lookup,SRC421,How little can a new investor put into either offered share class?,,2,text:stated minimum investment,,SRC421:p2,native PDF visual review,8fbaa442a5f926fb750aba15b64a328a8a737995b1492a65e539ab39b5cc165c,permitted
+SEM-HOLD-421-2,held-out,lookup,SRC421,What ceiling applies to intermediary charges for S2 shares?,,2,text:3.5% cap on nav,,SRC421:p2,native PDF visual review,8fbaa442a5f926fb750aba15b64a328a8a737995b1492a65e539ab39b5cc165c,permitted
+SEM-HOLD-594-1,held-out,lookup,SRC594,Which return calculation accounts for when money enters or leaves the portfolio?,,4,text:timing of cash flows,,SRC594:p4,native PDF visual review,9b50469c18f58048eba427fe0b3e67dc76ecfd656d6f849979a37c5a1f72af73,permitted
+SEM-HOLD-606-1,held-out,lookup,SRC606,What yearly cash payout rate did the fund report most recently?,,1,text:annualized distribution rate,,SRC606:p1,native PDF visual review,e56a601bd6fc8250db7675fad2cc69f72aa70aa5ff4dd63cc0176ad602482f9f,permitted
+SEM-HOLD-606-2,held-out,lookup,SRC606,What annual performance remained after investor charges since launch?,,1,text:annualized total net return since,,SRC606:p1,native PDF visual review,e56a601bd6fc8250db7675fad2cc69f72aa70aa5ff4dd63cc0176ad602482f9f,permitted

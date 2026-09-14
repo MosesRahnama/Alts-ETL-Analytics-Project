@@ -85,7 +85,7 @@ Used by the legal families only, where the fact is printed wording, not a number
 
 - `term_category`: For provisions only: which term of the one term vocabulary the clause states, such as management_fee or key_person.
 - `text_raw`: For legal provisions and qualitative facts: the printed wording of the provision.
-- `basis_raw`: For legal provisions: the printed basis a rate or amount is calculated on, such as committed capital.
+- `basis_raw`: Printed measurement or calculation basis, such as Fair Value, net of fees, or committed capital; names and table titles stay in source labels.
 - `condition_raw`: For legal provisions: the printed condition or qualification attached to the term.
 
 ## Proof and lineage
@@ -141,6 +141,34 @@ Extracted in route `06-statements-and-economics`, default product tier `CORE`.
 - Grain: one populated allowed source value cell or one notice component the page states in words
 - Always filled: `metric_category`, `metric_name`, `metric_value_raw`, `subject_name`
 - `metric_category`: any metric name; usual here: capital_call, return_of_capital, preferred_return, expense, interest, net_cash_flow
+
+**`fund_economics_observation`**: A printed commitment, paid-in, distribution, NAV, unfunded, multiple, or capital-account value cell.
+
+- Grain: one populated allowed source value cell
+- Always filled: `metric_category`, `metric_name`, `metric_value_raw`, `subject_name`
+- `metric_category`: any metric name; usual here: commitment, paid_in_capital, paid_in_capital_multiple, contribution, distribution, nav, unfunded_commitment, recallable_distribution, tvpi, dpi, rvpi, moic, ownership_percentage, income, fee, carried_interest
+
+**`definition_context`**: One printed footnote, definition, methodology note, or legend entry, captured verbatim with the key it defines.
+
+- Grain: one printed footnote, definition, methodology note, or legend entry
+- Always filled: `definition_keys`, `text_raw`
+
+### Continuation_Fund
+
+Continuation-vehicle papers: LP election, roll or sell, price to NAV, conflicts, fees, and carried interest.
+
+Extracted in route `05-fund-legal-docs`, default product tier `CORE`.
+
+**`document_context`**: One source-backed document identity and reporting context row.
+
+- Grain: one row per document
+- Always filled: `subject_name`, `subject_type`
+
+**`legal_term`**: A whitelisted fund, economic, liquidity, governance, or investor-protection term.
+
+- Grain: one printed term or one numbered provision whose primary meaning matches the whitelist
+- Always filled: `term_category`, `text_raw`
+- `term_category`: any term name; usual here: management_fee, carried_interest, catch_up, waterfall, clawback, fee_offset, organizational_expense, recycling, fund_term, term_extension, commitment_period, investment_period
 
 **`fund_economics_observation`**: A printed commitment, paid-in, distribution, NAV, unfunded, multiple, or capital-account value cell.
 
@@ -525,6 +553,46 @@ Extracted in route `06-statements-and-economics`, default product tier `CORE`.
 - Grain: one populated allowed source value cell for one named position
 - Always filled: `metric_category`, `metric_name`, `metric_value_raw`, `subject_name`
 - `metric_category`: any metric name; usual here: quantity, cost, fair_value, market_value, notional, portfolio_weight, interest_rate, maturity_date
+
+**`definition_context`**: One printed footnote, definition, methodology note, or legend entry, captured verbatim with the key it defines.
+
+- Grain: one printed footnote, definition, methodology note, or legend entry
+- Always filled: `definition_keys`, `text_raw`
+
+### Secondary_Pricing
+
+Secondary-market reports: transaction volume, pricing versus NAV, and continuation-vehicle activity.
+
+Extracted in route `03-institutional-report`, default product tier `CORE`.
+
+**`document_context`**: One source-backed document identity and reporting context row.
+
+- Grain: one row per document
+- Always filled: `subject_name`, `subject_type`
+
+**`performance_observation`**: A printed return, multiple, risk, valuation, or benchmark value cell.
+
+- Grain: one populated allowed source value cell
+- Always filled: `metric_category`, `metric_name`, `metric_value_raw`, `subject_name`, `subject_type`
+- `metric_category`: any metric name; usual here: return, irr, alpha, pme, direct_alpha, sharpe_ratio, tracking_error, yield, aum
+
+**`fund_economics_observation`**: A printed commitment, paid-in, distribution, NAV, unfunded, multiple, or capital-account value cell.
+
+- Grain: one populated allowed source value cell
+- Always filled: `metric_category`, `metric_name`, `metric_value_raw`, `subject_name`
+- `metric_category`: any metric name; usual here: commitment, paid_in_capital, paid_in_capital_multiple, contribution, distribution, nav, unfunded_commitment, recallable_distribution, tvpi, dpi, rvpi, moic, ownership_percentage, income, fee, carried_interest
+
+**`position_observation`**: A printed holding or private-market position measure.
+
+- Grain: one populated allowed source value cell for one named position
+- Always filled: `metric_category`, `metric_name`, `metric_value_raw`, `subject_name`
+- `metric_category`: any metric name; usual here: quantity, cost, fair_value, market_value, notional, portfolio_weight, interest_rate, maturity_date
+
+**`allocation_observation`**: A printed portfolio allocation amount or percentage.
+
+- Grain: one populated allowed source value cell for one allocation bucket
+- Always filled: `metric_category`, `metric_name`, `metric_value_raw`, `subject_name`
+- `metric_category`: any metric name; usual here: actual_allocation, target_allocation
 
 **`definition_context`**: One printed footnote, definition, methodology note, or legend entry, captured verbatim with the key it defines.
 

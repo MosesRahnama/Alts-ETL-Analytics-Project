@@ -1,0 +1,9 @@
+file_id,filename,doc_type,tier,issuer,issuer_type,period_covered,source_url,retrieved_at,file_ext,file_size_bytes,page_count,has_text_layer,char_count_sample,n_tables_detected,max_table_cols,has_landscape_page,layout_features,sha256,is_redacted,expected_fields,license_note,notes,report_subtype,wave
+FIX001,FIX001_fee.txt,Fee_Report,A,Issuer,other,2024,,2026-01-01,txt,100,1,true,100,0,0,False,,,False,,,,,1
+FIX002,FIX002_other.txt,Fee_Report,A,Issuer,other,2024,,2026-01-01,txt,100,1,true,100,0,0,False,,,False,,,,,1
+FIX003,FIX003_missing.txt,Fee_Report,A,Issuer,other,2024,,2026-01-01,txt,100,1,false,100,0,0,False,,,False,,,,,1
+FIX004,FIX004_inject.txt,Fee_Report,A,Issuer,other,2024,,2026-01-01,txt,100,1,true,100,0,0,False,,,False,,,,,1
+FIX005,FIX005_number.txt,Performance,A,Issuer,other,2024,,2026-01-01,txt,100,1,true,100,0,0,False,,,False,,,,,1
+FIX006,FIX006_method.txt,Performance,A,Issuer,other,2024,,2026-01-01,txt,100,2,true,100,0,0,False,,,False,,,,,1
+FIX007,FIX007_restricted.txt,Valuation,A,Issuer,other,2024,,2026-01-01,txt,100,1,true,100,0,0,False,,,False,,,,,1
+FIX008,FIX008_stale.txt,Financials,A,Issuer,other,2024,,2026-01-01,txt,100,1,true,100,0,0,False,,,False,,,,,1

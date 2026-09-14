@@ -10,6 +10,6 @@
 | `defect-quality-results.csv` | Quality results on the damaged copies |
 | `detection-scorecard.csv` | Expected-rule detection by planted-error family |
 
-Completion reads the [source-only snapshot](../extracted/fund-level/README.md), retains its rows, and adds labelled data on the same fund IDs; investor flows never enter whole-fund calculations.
+Completion retains the [source-only snapshot](../extracted/fund-level/README.md) and adds labelled data on the same fund IDs. The [currency policy](../normalization/transformations/completion-currency-policy.csv) withholds generated monetary rows for unsupported denominations and records unfilled currency gaps; investor flows remain separate from whole-fund calculations.
 
 Next: [fund-model CSVs](../csv/README.md).

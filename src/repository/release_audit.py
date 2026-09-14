@@ -404,11 +404,11 @@ def source_pdf_findings(root: Path) -> list[Finding]:
                 f"{len(extra)} PDFs lack a source-ledger match",
             )
         )
-    if len(ledger) != 442:
+    if len(ledger) != 452:
         findings.append(
             Finding("ERROR", "SOURCE_LEDGER_COUNT", relative(ledger_path, root), f"rows={len(ledger)}")
         )
-    if len(pdfs) != 442:
+    if len(pdfs) != 452:
         findings.append(
             Finding("ERROR", "SOURCE_PDF_COUNT", relative(pdf_root, root), f"files={len(pdfs)}")
         )

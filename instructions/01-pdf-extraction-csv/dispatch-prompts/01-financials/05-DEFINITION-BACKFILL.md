@@ -24,7 +24,7 @@ The original extraction read the footnotes that define the numbers and discarded
 What this pass writes, and nothing else:
 
 1. **New `definition_context` rows**, one per printed footnote, definition, methodology note, or legend entry, per the Definitions section of this route's extractor prompt: `definition_keys` = the printed marker, `text_raw` = the full printed wording verbatim, `condition_raw` = what it governs when stated, `source_structure_type` = `FOOTNOTE` or what it physically is, `evidence_class` = `actual`, `evidence_quote` = a line of the note. `contract_version` on a new row is `2026-09-01.2`; `agent_role` is your lane.
-2. **The new columns on existing rows**: `definition_keys` (the printed markers attached to that row or its column, pipe-joined), and for a qualified category `method`, `fee_basis`, `value_scope`, from what the page states through a cited key or a `basis_raw` phrase, else `unstated`.
+2. **The new columns on existing rows**: `definition_keys` contains the printed markers attached to the row or column, pipe-joined. Qualified `method` and `fee_basis` cite a definition or supporting printed basis phrase. `value_scope` can cite the printed table and labels. Names and table titles stay out of `basis_raw`; dimensions the source does not state use `unstated`.
 
 The atomic unit is unchanged: one populated allowed value cell is one row. This pass adds definition rows beside the value rows and fills their new columns; it never merges, splits, or re-derives a value row.
 

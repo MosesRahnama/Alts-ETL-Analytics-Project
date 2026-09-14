@@ -1,0 +1,14 @@
+input_value,output_value,decided_by,evidence,note,context
+fund,ADMIT,Codex,data/extracted/tables/fact_holding.csv,A fund row describes one held fund.,subject_type
+investment,ADMIT,Codex,data/extracted/tables/fact_holding.csv,An investment row describes one security or direct investment.,subject_type
+program_related_investment,ADMIT,Codex,data/extracted/tables/fact_holding.csv,A program-related investment row describes one reported investment.,subject_type
+portfolio,NON_INVESTEE_AGGREGATE,Codex,data/extracted/tables/fact_holding.csv,A portfolio row is an aggregate and not one investee position.,subject_type
+asset_class,NON_INVESTEE_AGGREGATE,Codex,data/extracted/tables/fact_holding.csv,An asset-class row is an aggregate and not one investee position.,subject_type
+other_printed_scope,NON_INVESTEE_AGGREGATE,Codex,data/extracted/tables/fact_holding.csv,The printed row does not identify one investee position.,subject_type
+*,NON_INVESTEE_AGGREGATE,Codex,data/extracted/tables/fact_holding.csv,An unrecognized subject remains source evidence and is not published as a position.,subject_type
+<blank>,ADMIT,Codex,data/extracted/tables/fact_observation.csv,A blank scope does not override an admitted investee subject.,value_scope
+single_holding,ADMIT,Codex,data/extracted/tables/fact_observation.csv,The value describes one holding.,value_scope
+fund_position,ADMIT,Codex,data/extracted/tables/fact_observation.csv,The value describes one fund position.,value_scope
+portfolio_total,NON_POSITION_SUMMARY,Codex,data/extracted/tables/fact_observation.csv,A portfolio total remains evidence and is not an additional position.,value_scope
+statement_line,NON_POSITION_SUMMARY,Codex,SRC407 physical PDF page 11,A statement or hierarchy summary remains evidence and is not an additional position.,value_scope
+*,NON_POSITION_SUMMARY,Codex,data/extracted/tables/fact_observation.csv,An unrecognized value scope remains evidence until its position grain is reviewed.,value_scope

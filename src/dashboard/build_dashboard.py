@@ -21,6 +21,7 @@ from __future__ import annotations
 
 import argparse
 import csv
+import json
 import sys
 import webbrowser
 from collections import Counter
@@ -39,7 +40,17 @@ from src.catalog.simple_pdf_extraction import csv_wide_contract as contract
 from src.catalog.simple_pdf_extraction.field_guide import FIELD_DESCRIPTIONS, FIELD_GROUPS
 from src.dashboard.glossary import DATABASE_TABLE_NOTES, TABLE_NOTES, column_note
 from src.dashboard.page import render
+from src.dashboard.next_update import next_update_section
+from src.dashboard.rag_architecture import rag_engine_section, write_architecture_html
+from src.dashboard.release_explanations import explanations_for
 from src.dashboard.teaching import WORDS, page_help, primers_for
+from src.dashboard.warehouse_explanations import (
+    get_constraints_and_sql,
+    get_derivation,
+    load_lineage,
+    load_produced,
+    load_warehouse_explanations,
+)
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
@@ -53,9 +64,13 @@ SUBTITLE = (
 )
 FOOTER = (
     "Every figure was copied from the named files at build. The browser copies "
-    "those figures. The numbered list opens the twelve sections. Page guide in "
+    "those figures. The numbered list opens the sixteen sections. Page guide in "
     "the left column defines the words."
 )
+
+WAREHOUSE_EXPLANATIONS = load_warehouse_explanations()
+WAREHOUSE_LINEAGE = load_lineage()
+WAREHOUSE_PRODUCED = load_produced()
 
 # Rows kept per database table in the explorer. A whole warehouse would outgrow
 # what a browser holds in one page, so each table carries its first rows beside
@@ -347,6 +362,8 @@ def database_contents(rel: str, preview: int) -> list[dict]:
         return []
 
     connection = duckdb.connect(str(path), read_only=True)
+    db_stem = path.stem
+    constraints, views_sql = get_constraints_and_sql(path)
     try:
         listed = connection.execute(
             "select table_name, table_type from information_schema.tables order by table_name"
@@ -365,11 +382,80 @@ def database_contents(rel: str, preview: int) -> list[dict]:
             shown = [i for i, name in enumerate(columns) if name not in WITHHELD_COLUMNS]
             columns = [columns[i] for i in shown]
             types = [types[i] for i in shown]
+            exp = WAREHOUSE_EXPLANATIONS.get((db_stem, name), {})
+            raw_summary = exp.get("index_contents", "")
+            plain_title = exp.get("plain_title", "")
+            plain_contents = exp.get("plain_contents", "")
+            plain_sep = exp.get("plain_separation", "")
+            plain_example = exp.get("plain_example", "")
+
+            row_is = ""
+            it_holds = ""
+            example = plain_example
+            why_sep = plain_sep
+            if raw_summary:
+                for line in raw_summary.split("\n"):
+                    if line.startswith("Each row is:"):
+                        row_is = line[len("Each row is:"):].strip()
+                    elif line.startswith("It holds:"):
+                        it_holds = line[len("It holds:"):].strip()
+                    elif line.startswith("Example:"):
+                        example = line[len("Example:"):].strip()
+                    elif line.startswith("Why its own table:") or line.startswith("Why a view:"):
+                        colon_idx = line.find(":")
+                        why_sep = line[colon_idx + 1:].strip()
+            if not row_is:
+                row_is = plain_contents
+            if not it_holds and db_stem == "alts_mock":
+                alts_raw = WAREHOUSE_EXPLANATIONS.get(("alts", name), {}).get("index_contents", "")
+                for line in alts_raw.split("\n"):
+                    if line.startswith("It holds:"):
+                        it_holds = line[len("It holds:"):].strip()
+            if not it_holds:
+                it_holds = plain_contents
+            if not why_sep:
+                why_sep = plain_sep
+            if not example:
+                example = plain_example
+
+            explanation = {
+                "title": plain_title,
+                "contents": plain_contents,
+                "separation": plain_sep,
+                "example": plain_example,
+                "role": exp.get("role", ""),
+            } if exp else {}
+            derivation = get_derivation(
+                db_stem,
+                name,
+                exp.get("csv_source", ""),
+                WAREHOUSE_LINEAGE,
+                WAREHOUSE_PRODUCED,
+            )
             entries.append(
                 {
                     "name": name,
                     "kind": "view" if kind == "VIEW" else "table",
-                    "about": DATABASE_TABLE_NOTES.get(name, "") or wide_table_note(name),
+                    "about": plain_title or DATABASE_TABLE_NOTES.get(name, "") or wide_table_note(name),
+                    "summary": raw_summary,
+                    "plain_title": plain_title,
+                    "row_is": row_is,
+                    "it_holds": it_holds,
+                    "example": example,
+                    "why_separated": why_sep,
+                    "contents": raw_summary,
+                    "columns_meta": [
+                        {
+                            "name": col,
+                            "type": types[i] if i < len(types) else "",
+                            "note": definitions_for(columns, name)[i] if i < len(definitions_for(columns, name)) else "",
+                        }
+                        for i, col in enumerate(columns)
+                    ],
+                    "explanation": explanation,
+                    "derivation": derivation,
+                    "constraints": constraints.get(name, []),
+                    "sql": views_sql.get(name, ""),
                     "rows": int(rows),
                     "columns": columns,
                     "types": types,
@@ -663,8 +749,17 @@ def overview_section() -> dict:
     extracted_funds = row_count("data/extracted/fund-level/fund_master.csv")
     extracted_observations = row_count("data/extracted/fund-level/fund_observations.csv")
     extracted_cashflows = row_count("data/extracted/fund-level/fund_cashflows.csv")
-    extracted_holdings = row_count("data/extracted/fund-level/fund_holdings.csv")
+    extracted_holdings = row_count("data/extracted/fund-level/fund_position.csv")
     fixture_funds = row_count("data/synthetic/clean/fund_master.csv") if path_of("data/synthetic/clean/fund_master.csv").is_file() else 0
+    # The audit table carries one explanation per step. The page lists each
+    # step's work above the table and opens one under a selected row.
+    release_table = file_table(
+        "Source preparation, extraction, publication, and verification",
+        "docs/FINAL-RELEASE-AUDIT.csv",
+        columns=("order", "phase", "stage", "output", "check_description", "status"),
+        limit=None, page=50,
+    )
+    release_table["explanations"] = explanations_for([row["stage_id"] for row in audit])
     return {
         "id": "overview",
         "title": "Overview",
@@ -692,7 +787,7 @@ def overview_section() -> dict:
                 ("Extractor proposal row", f"One printed field as one LLM typed it, before checks. Agent A typed {thousands(a_proposals)} rows and Agent B {thousands(b_proposals)}. Each row has the printed label and value, the subject, the date, the unit, the physical page, the table row and column, the repeated occurrence, and the quote. A proposal can be wrong. The next group is the rows the checks keep."),
                 ("Published PDF evidence row", f"One printed field after review. The two typed rows were compared. A third machine picked the number on the page picture. Each of the {thousands(observations)} rows keeps the printed value, the cleaned value, the place on the page, links to both typed rows, the difference type, the decision, and the reason. Later tables use these rows."),
                 ("Extracted fund-model row", f"A kept PDF field after printed names map to stable IDs. Five spellings of one fund map to one record. The PDF-only tables hold {thousands(extracted_observations)} metric rows, {thousands(printed_periods)} fund periods, {thousands(extracted_cashflows)} dated cash flows, and {thousands(extracted_holdings)} holdings across {thousands(extracted_funds)} funds, every value printed on a cited page."),
-                ("Completed fund-period row", f"A fund-and-date row written so each named fund has dates and money for the measures. PDFs print few dated calls and payouts, so the fill step writes the empty cells and marks each one DERIVED, IMPUTED, or SYNTHETIC, and lists it in the fill record. The {thousands(completed_periods)} filled periods are marked. Printed rows keep the EXTRACTED mark."),
+                ("Completed fund-period row", f"A generated fund-and-date row supplies inputs for performance calculations. Each added cell is marked DERIVED, IMPUTED, or SYNTHETIC in the cell-origin table. The {thousands(completed_periods)} generated periods exclude funds with unsupported or conflicting currencies; those funds retain their source records and a recorded completion gap. Printed rows keep the EXTRACTED mark."),
                 ("Test-only fund", f"One of {thousands(fixture_funds)} made funds used to test the money rules. IDs begin FUND_SYNTH_. Those IDs stay in the test files. The checker fund tables and alts.duckdb use FUND_ IDs."),
             ]),
             kpi(
@@ -714,7 +809,7 @@ def overview_section() -> dict:
                 ("Source intake", "Reading-aid build",
                  "Each report gets text lined up to each page. A report is read after every physical page has a 300 DPI picture. Extraction requires those pictures. Document grids identify items in the tables with ease in the page image files."),
                 ("Reading", "Field selection",
-                 "Each printed value becomes one row with the same 47 columns: the field name, the owner, the date, the unit, the place on the page, the quote, and the review mark."),
+                 "Each printed value becomes one row of 47 columns: the field name, the owner, the date, the unit, the place on the page, the quote, and the review mark. That row is what a reader writes, and it is kept in data/extracted/pdf-wide-records.csv. The evidence tables on this page hold the same values reorganised for querying, so their column lists differ from those 47."),
                 ("Reading", "Independent reading",
                  "Two independent LLMs work the same pages. Each works on its own file. A shared answer is two readings of the same page."),
                 ("Reading", "Page evidence",
@@ -733,12 +828,7 @@ def overview_section() -> dict:
                  "The printed sums are checked first: balances, DPI, RVPI, TVPI, NAV roll-forwards, and IRR. Performance is then measured against a public index. A demo set is weighted. Printed-row results and filled-row results each have their own mark."),
             ]),
             heading("Release audit"),
-            file_table(
-                "Source preparation, extraction, publication, and verification",
-                "docs/FINAL-RELEASE-AUDIT.csv",
-                columns=("order", "phase", "stage", "output", "check_description", "status"),
-                limit=None, page=50,
-            ),
+            release_table,
             note(
                 "The PDF-only tables under data/extracted/fund-level/ contain printed values alone. "
                 "The completed tables under data/csv/ add labelled values on the same fund IDs, and "
@@ -1375,7 +1465,9 @@ def schema_section() -> dict:
         "title": "Data model and vocabulary",
         "blurb": (
             "Both LLMs fill the same 47 columns: who, when, the printed value, the cleaned value, "
-            "the unit, the place on the page, the quote, and the review mark. One list of measure "
+            "the unit, the place on the page, the quote, and the review mark. Those 47 are the "
+            "reader's own row, kept in data/extracted/pdf-wide-records.csv; the evidence tables "
+            "carry the same values under a wider column list built for querying. One list of measure "
             "names and one list of term names give a NAV from two reports the same name before "
             "the fund tables are built. A shared label such as return still follows the method "
             "printed on that report."
@@ -1432,6 +1524,123 @@ def schema_section() -> dict:
                 limit=None,
             ),
         ],
+    }
+
+
+def warehouse_index_block(groups: list[dict], databases: list[tuple]) -> dict:
+    db_items = []
+    for name, purpose, status, tables, views in databases:
+        db_stem = Path(name).stem
+        tables_count = len(tables) if status == "read" else 0
+        views_count = len(views) if status == "read" else 0
+        db_total_rows = 0
+        if groups:
+            for g in groups:
+                if g["name"] == name:
+                    db_total_rows = sum(t["rows"] for t in g["tables"])
+        summary_text = purpose
+        if db_stem == "extracted":
+            summary_text = "Accepted numbers and statements from reports, their pages and review decisions, plus tables that group related figures into source rows."
+        elif db_stem == "alts":
+            summary_text = "Fund identities, dated balances, payments, investments, checks and calculated results. EXTRACTED marks source-backed records; SYNTHETIC marks generated records added to the same fund identities."
+        elif db_stem == "alts_mock":
+            summary_text = "A separate set of made-up funds used to test the calculations and data structure. This file contains clean generated records and their calculated results. Deliberately damaged test copies remain in data/synthetic/defects/."
+
+        db_items.append({
+            "name": name,
+            "file": name,
+            "key": db_stem,
+            "purpose": summary_text,
+            "summary": summary_text,
+            "tables_count": tables_count,
+            "views_count": views_count,
+            "total_rows": db_total_rows,
+        })
+
+    items = []
+    if groups:
+        for group in groups:
+            db_file = group["name"]
+            db_key = Path(db_file).stem
+            for entry in group["tables"]:
+                items.append({
+                    "db": db_key,
+                    "db_key": db_key,
+                    "db_file": db_file,
+                    "kind": entry["kind"],
+                    "name": entry["name"],
+                    "rows": entry["rows"],
+                    "columns": len(entry["columns"]),
+                    "plain_title": entry.get("plain_title", ""),
+                    "row_is": entry.get("row_is", ""),
+                    "it_holds": entry.get("it_holds", ""),
+                    "example": entry.get("example", ""),
+                    "why_separated": entry.get("why_separated", ""),
+                    "contents": entry.get("contents") or entry.get("summary", ""),
+                    "summary": entry.get("summary", ""),
+                })
+    else:
+        for (db, obj_name), exp in sorted(WAREHOUSE_EXPLANATIONS.items()):
+            raw_summary = exp.get("index_contents", "")
+            row_is = ""
+            it_holds = ""
+            example = exp.get("plain_example", "")
+            why_sep = exp.get("plain_separation", "")
+            if raw_summary:
+                for line in raw_summary.split("\n"):
+                    if line.startswith("Each row is:"):
+                        row_is = line[len("Each row is:"):].strip()
+                    elif line.startswith("It holds:"):
+                        it_holds = line[len("It holds:"):].strip()
+                    elif line.startswith("Example:"):
+                        example = line[len("Example:"):].strip()
+                    elif line.startswith("Why its own table:") or line.startswith("Why a view:"):
+                        colon_idx = line.find(":")
+                        why_sep = line[colon_idx + 1:].strip()
+            if not row_is:
+                row_is = exp.get("plain_contents", "")
+            if not it_holds and db == "alts_mock":
+                alts_raw = WAREHOUSE_EXPLANATIONS.get(("alts", obj_name), {}).get("index_contents", "")
+                for line in alts_raw.split("\n"):
+                    if line.startswith("It holds:"):
+                        it_holds = line[len("It holds:"):].strip()
+            if not it_holds:
+                it_holds = exp.get("plain_contents", "")
+            items.append({
+                "db": db,
+                "db_key": db,
+                "db_file": f"{db}.duckdb",
+                "kind": exp.get("object_type", "table"),
+                "name": obj_name,
+                "rows": exp.get("rows", 0),
+                "columns": exp.get("columns", 0),
+                "plain_title": exp.get("plain_title", ""),
+                "row_is": row_is,
+                "it_holds": it_holds,
+                "example": example,
+                "why_separated": why_sep,
+                "contents": raw_summary,
+                "summary": raw_summary,
+            })
+
+    return {
+        "kind": "warehouse_index",
+        "title": "Everything, in one list",
+        "source": "audit/warehouse-purpose.csv",
+        "about": (
+            "Every table and view across the three databases, what one row records, its example, "
+            "and why it is its own table."
+        ),
+        "intro": (
+            "A fund pools money from investors to buy investments. The project keeps source figures, "
+            "dated fund records, calculated results and made-up test data in distinct tables because each describes "
+            "a different kind of record. A table stores records. A view saves a query, which reads existing records "
+            "and produces a display when opened. The databases are copies of comma-separated-value files (CSVs), "
+            "which store tables as text. Select any table name below to inspect its dedicated card, schema, and live records in the database browser."
+        ),
+        "databases": db_items,
+        "items": items,
+        "rows": items,
     }
 
 
@@ -1520,6 +1729,7 @@ def warehouse_section() -> dict:
             table("Database inventory", "data/warehouse/",
                   ["File", "Contents", "Tables", "Views", "View names"], database_rows, page=10,
                   about="Role, table count, and saved-query count for each DuckDB file. alts_mock.duckdb uses the same fund-table shapes and holds FUND_SYNTH_ test funds only."),
+            warehouse_index_block(groups, databases),
             *explorer_blocks,
             heading("Evidence database tables"),
             table("Table and row count", "data/extracted/tables/MANIFEST.csv",
@@ -1873,7 +2083,7 @@ def analytics_section() -> dict:
                   about="The values behind the plot above: the smallest, the quartiles, the median, and the largest, for every measure on the printed periods."),
             heading("Filled fund-date table"),
             boxes("Spread on the filled fund-date table", "data/extracted/review/reviewer-analytics-summary.csv",
-                  "The same measures on the completed periods, which add XIRR, KS-PME, and Direct Alpha because the completion gives every fund a dated cash-flow history. A rate reads as an annual percent, so a Direct Alpha below zero means the fund trailed the index by that much a year.",
+                  "The completed periods contain dated cash-flow histories for XIRR, KS-PME, and Direct Alpha. Funds with unsupported or conflicting source currencies remain outside this generated population. Rates are annual percentages; negative Direct Alpha indicates underperformance against the index.",
                   distribution_boxes([row for row in distributions if row["population"] == "INTEGRATED"])),
             table("Distribution summary for completed periods", "data/extracted/review/reviewer-analytics-summary.csv",
                   ["Metric", "Unit", "Rows", "Minimum", "25th", "Median", "75th", "Maximum"],
@@ -2073,7 +2283,8 @@ def failure_note(source_fail: int, declined: int, completed_fail: int) -> str:
         f"{thousands(completed_fail)} on the completed fund data. Each failed result lists its "
         "fund, source document, and rule. Rule R08 skips " + thousands(declined) + " IRR comparisons "
         "because the PDF-reported IRR and generated cash flows describe different investment histories. "
-        "Printed values retain their reported signs and currencies."
+        "Printed values retain their reported signs and currencies. Publication checks every failure; "
+        "a source-value exception requires the exact record, page, amount, and currency to match."
     )
 
 
@@ -2173,6 +2384,10 @@ def quality_section() -> dict:
                   ["Rule", "Fund", "Document", "Page", "actual_value", "Quote", "Reading"],
                   failure_rows("data/csv/quality_results.csv"), page=10,
                   about="Every failed result in the completed fund data, with its fund, source location, observed value, and recorded reason."),
+            file_table("Source-value exceptions", "data/normalization/transformations/quality-source-exceptions.csv",
+                       limit=None, page=10,
+                       columns=("input_value", "rule_id", "source_document_id", "source_page", "field", "printed_value", "expected_value", "evidence", "note"),
+                       about="Reviewed negative amounts remain unchanged and retain their FAIL records. These exact source references are the only exceptions to release refusal; another failing value requires separate review."),
             heading("Financial rule definitions"),
             keyvalue([(f"Tolerance: {name}", str(value)) for name, value in tolerances.items()]),
             table("Formula, tolerance, and outcome on both populations", "config/quality_rules.yml and quality_results.csv",
@@ -2265,7 +2480,7 @@ def generated_section() -> dict:
                 ("Recorded field origins", thousands(lineage_total), "One audit row per field value in the completed fund model, naming the fund row, column, value, origin label, and source or generation method"),
                 ("Blank fields filled", thousands(gap_filled), "Fields left blank after extraction that completion filled; each row records the original blank, new value, and resolution method"),
                 ("Blanks left open", thousands(gap_open), "Fields the corpus prints nothing to fill. They stay blank and are recorded as open rather than closed with a guess: sub_strategy is the field the reports mostly do not state"),
-                ("Added fund-period rows", thousands(periods.get("SYNTHETIC", 0)), "Performance periods added on named fund IDs so every fund has a row in the demo measures"),
+                ("Added fund-period rows", thousands(periods.get("SYNTHETIC", 0)), "Generated performance periods on currency-eligible source fund IDs; excluded denominations remain in the gap ledger"),
                 ("PDF-based fund-period rows", thousands(periods.get("EXTRACTED", 0)), "Performance periods built only from values printed in the PDFs and preserved in the source-only snapshot"),
                 ("Funds in the filled fund-date table", thousands(sum(masters.values())), "One named fund per row. Printed evidence and marked fill share the same FUND_ ID. The row's EXTRACTED label is about the fund's identity, which a page names; its attribute cells carry their own origin, and every one of these rows holds at least one filled attribute."),
                 ("Reproducibility seed", str(settings.get("seed", "")), "Fixed input that makes the same made values on a rerun. It is a seed, empty of page evidence."),
@@ -2318,7 +2533,7 @@ def generated_section() -> dict:
             table("Fund attribute counts", "data/integrated/cell-lineage.csv",
                   ["Field", "Extracted", "Derived", "Imputed", "Synthetic", "Fund values"],
                   attribute_rows, page=15,
-                  about="The counts behind the bars above. Fund size, currency, and status are present for every fund, which gives each analytical row a consistent set of fixed attributes."),
+                  about="Fund attributes by origin. Missing monetary attributes stay blank when a fund has unsupported or conflicting source currencies; generated completion does not assume a conversion."),
             donuts("Origin of all completed values", "data/integrated/cell-lineage.csv and gap-ledger.csv",
                    "Every fund-model field value, grouped by its origin label, and every blank the completion filled, grouped by how the "
                    "fill was decided. The first ring separates printed values from values added during completion.",
@@ -2363,7 +2578,7 @@ def manifest_table() -> dict:
     keep, trimmed = select(header, rows, tuple(visible) + tuple(extra))
     path_at = keep.index("path")
     for row in trimmed:
-        if row[path_at] == "dashboard.html":
+        if row[path_at] in {"dashboard.html", "dashboard-field-guide.html"}:
             for column in ("size_bytes", "sha256"):
                 if column in keep:
                     row[keep.index(column)] = "(dashboard output)"
@@ -2598,6 +2813,273 @@ def costs_section() -> dict:
     }
 
 
+def _public_demo() -> dict:
+    path = PROJECT_ROOT / "RAG" / "evaluation" / "public-demo.json"
+    if not path.is_file():
+        return {}
+    try:
+        payload = json.loads(path.read_text(encoding="utf-8"))
+    except json.JSONDecodeError:
+        return {}
+    return payload if isinstance(payload, dict) else {}
+
+
+def evidence_review_section() -> dict:
+    demo = _public_demo()
+    source = "RAG/evaluation/public-demo.json"
+    examples = demo.get("examples") or []
+    evidence = demo.get("evidence") or []
+    measured = [
+        row for row in (demo.get("measured") or [])
+        if row.get("result") != "unrun"
+    ]
+    limits = demo.get("limits") or {
+        "model_requests": "disabled",
+        "loopback_probes": "disabled",
+        "vector_retrieval": "disabled",
+    }
+    index_summary = demo.get("index_summary") or {}
+    evaluation_summary = demo.get("evaluation_summary") or {}
+    present = bool(demo)
+    example_rows = [
+        [
+            str(row.get("case_id") or ""),
+            str(row.get("split") or ""),
+            str(row.get("query") or ""),
+            "|".join(row.get("file_ids") or []) if isinstance(row.get("file_ids"), list) else str(row.get("file_ids") or ""),
+            str(row.get("expected_pages") or ""),
+            str(row.get("reference_label") or ""),
+        ]
+        for row in examples
+    ]
+    evidence_rows = [
+        [
+            str(row.get("file_id") or ""),
+            str(row.get("physical_page") or ""),
+            str(row.get("block_kind") or ""),
+            str(row.get("original_text") or "")[:400],
+        ]
+        for row in evidence
+        if row.get("file_id") not in {"SRC132", "FIX007"}
+    ]
+    measured_rows = [
+        [
+            str(row.get("case_id") or ""),
+            str(row.get("configuration") or ""),
+            str(row.get("execution_state") or ""),
+            str(row.get("result") or ""),
+            str(row.get("label") or ""),
+        ]
+        for row in measured
+    ]
+    status_note = (
+        "The static export is present. It contains saved questions, approved excerpts, and completed local retrieval measurements."
+        if present
+        else "The static export is absent. This section still renders. Model requests stay disabled. The browser does not probe loopback addresses."
+    )
+    return {
+        "id": "evidence-review",
+        "title": "Source evidence review",
+        "blurb": (
+            "Keyword and local vector search over report text, field-by-field evidence checks, "
+            "nearby definitions and footnotes, and source-linked analytical records. The public "
+            "page reads saved results; the local server provides the interactive controls."
+        ),
+        "blocks": [
+            *primers_for("evidence-review"),
+            link(
+                "rag.html#overview",
+                "RAG architecture, methods, evaluation, and evidence console",
+                "Dedicated system page:",
+            ),
+            link(
+                "#rag-engine",
+                "RAG engine",
+                "Engine map and embedding settings on this dashboard:",
+            ),
+            heading("Operating limits"),
+            keyvalue([
+                ("Catalogued reports", thousands(index_summary.get("catalogued_documents") or 0)),
+                ("Indexed pages", thousands(index_summary.get("indexed_pages") or 0)),
+                ("Searchable evidence blocks", thousands(index_summary.get("block_count") or 0)),
+                (
+                    "Local vectors",
+                    f"{thousands(index_summary.get('vector_blocks') or 0)} blocks across "
+                    f"{thousands(index_summary.get('vector_documents') or 0)} reviewed documents",
+                ),
+                ("Model requests", str(limits.get("model_requests") or "disabled")),
+                ("Vector retrieval", str(limits.get("vector_retrieval") or "disabled")),
+            ]),
+            note(status_note),
+            *(
+                [
+                    keyvalue([
+                        (
+                            "Evaluation cases",
+                            thousands(evaluation_summary.get("case_count") or 0),
+                        ),
+                        (
+                            "Meaning-based paraphrases",
+                            thousands(evaluation_summary.get("semantic_case_count") or 0),
+                        ),
+                        ("Published questions", thousands(len(examples))),
+                        (
+                            "Hybrid default",
+                            "Recommended by the held-out test"
+                            if (evaluation_summary.get("activation") or {}).get("hybrid_default_recommended")
+                            else "Keyword remains the measured default",
+                        ),
+                    ])
+                ]
+                if evaluation_summary
+                else []
+            ),
+            table(
+                "Saved source questions",
+                source,
+                ["case_id", "split", "query", "file_ids", "expected_pages", "reference_label"],
+                example_rows,
+                about=(
+                    "One authored question per row from the static evidence export. "
+                    "Human reference answers stay labeled separately from model results."
+                ),
+                key="evidence-review",
+            ),
+            table(
+                "Approved evidence excerpts",
+                source,
+                ["file_id", "physical_page", "block_kind", "original_text"],
+                evidence_rows,
+                about=(
+                    "Passages copied into the public export after a source-use check. "
+                    "Export-restricted reports are omitted."
+                ),
+                key="evidence-review",
+            ),
+            table(
+                "Measured retrieval results",
+                source,
+                ["case_id", "configuration", "execution_state", "result", "label"],
+                measured_rows,
+                about=(
+                    "Completed keyword, context, and local-vector outcomes. "
+                    "Unrun rows and historical model rows without verified authorization stay out. "
+                    "The public page makes zero live model requests."
+                ),
+                key="evidence-review",
+            ),
+        ],
+    }
+
+
+# GP Scoring is a separate report in GP-Scoring/. The section shows its headline
+# counts and ranked managers and embeds the report. The report links to these
+# files by relative path, so the live site carries them in the same folders.
+GP_REPORT = "GP-Scoring/06-report/dashboard.html"
+GP_REPORT_FILES = (
+    GP_REPORT,
+    "GP-Scoring/04-diagnostics/fund-diagnostics.csv",
+    "GP-Scoring/04-diagnostics/manager-diagnostics.csv",
+    "GP-Scoring/04-diagnostics/cohort-membership.csv",
+    "GP-Scoring/04-diagnostics/genealogy.csv",
+    "GP-Scoring/04-diagnostics/evidence-readiness.csv",
+    "GP-Scoring/04-diagnostics/evidence.json",
+    "GP-Scoring/05-scenarios/fund-scenarios.csv",
+    "GP-Scoring/05-scenarios/manager-scenarios.csv",
+    "GP-Scoring/05-scenarios/scenario-definitions.json",
+    "GP-Scoring/data/case-events.csv",
+    "GP-Scoring/data/case-valuations.csv",
+    "GP-Scoring/data/team-history.csv",
+    "GP-Scoring/data/deal-attribution.csv",
+    "GP-Scoring/data/diligence-facts.csv",
+    "GP-Scoring/data/document-registry.csv",
+    "GP-Scoring/data/documents/ddq.html",
+    "GP-Scoring/data/documents/lpa-terms.html",
+    "GP-Scoring/data/documents/track-record.html",
+    "GP-Scoring/data/documents/team-roster.html",
+    "GP-Scoring/data/documents/portfolio-investments.html",
+    "GP-Scoring/data/documents/valuation-memo.html",
+)
+GP_MANAGERS = "GP-Scoring/04-diagnostics/manager-diagnostics.csv"
+
+
+def gp_scoring_section() -> dict:
+    managers = read_dicts(GP_MANAGERS)
+    funds = read_dicts("GP-Scoring/04-diagnostics/fund-diagnostics.csv")
+    checks = read_dicts("GP-Scoring/06-report/checks.csv")
+    cases = {row["case_id"] for row in read_dicts("GP-Scoring/data/case-events.csv")}
+    ranked = sorted(
+        (row for row in managers if row["v1_status"] == "RANKED_DEMO"),
+        key=lambda row: (row["strategy"], as_int(row["historical_rank"]), row["manager_id"]),
+    )
+    returns = sum(1 for row in funds if row["current_status"] == "AVAILABLE" and row["xirr"])
+    strategies = {row["strategy"] for row in managers}
+    passed = sum(1 for row in checks if row["status"] == "PASS")
+    columns = [
+        "strategy", "manager_name", "historical_rank", "historical_score",
+        "eligible_score_funds", "supplied_funds", "avg_ks_pme", "avg_realized_share",
+    ]
+    rows = [
+        [
+            row["strategy"].replace("_", " "), row["manager_name"], row["historical_rank"],
+            f"{float(row['historical_score']):.1f}", row["eligible_score_funds"], row["supplied_funds"],
+            f"{float(row['avg_ks_pme']):.2f}x" if row["avg_ks_pme"] else "",
+            f"{100 * float(row['avg_realized_share']):.1f}%" if row["avg_realized_share"] else "",
+        ]
+        for row in ranked
+    ]
+    report = {
+        "kind": "report",
+        "title": "GP Scoring report",
+        "source": GP_REPORT,
+        "embed": True,
+        "about": (
+            "The full report. Choose a strategy, a status, and a manager, then read the scoring views. "
+            "RAG: Document Insights searches reviewed PDFs for a selected real manager or fund."
+        ),
+        "bundle": list(GP_REPORT_FILES),
+    }
+    return {
+        "id": "gp-scoring",
+        "title": "GP Scoring",
+        "featured": True,
+        "blurb": (
+            f"GP Scoring compares {len(managers)} fictional manager groups, each one manager's funds "
+            f"within one strategy, across {len(funds)} fictional funds. A fund score is 60% of its "
+            "total-value percentile plus 40% of its distributed-cash percentile among comparable "
+            "funds, and a manager score is the average of its scored funds. Three document-based "
+            "case examples add diligence facts, team records, and payment-timing tests. RAG: Document "
+            "Insights searches reviewed PDFs for a selected real manager or fund and assigns no score."
+        ),
+        "blocks": [
+            *primers_for("gp-scoring"),
+            kpi(
+                ("Manager groups", thousands(len(managers)), "one manager's funds in one strategy"),
+                ("Ranked groups", thousands(len(ranked)), "two or more scored funds and 75% of the group's funds"),
+                ("Funds", thousands(len(funds)), f"{thousands(returns)} with a current annualized return"),
+                ("Strategies", thousands(len(strategies)), "each manager is compared within its strategy"),
+                ("Case examples", thousands(len(cases)), "document-based diligence reviews"),
+                ("Report checks", f"{passed} of {len(checks)}", "pass in the saved report build"),
+            ),
+            report,
+            table(
+                "Ranked managers", GP_MANAGERS, columns, rows, len(ranked), page=40,
+                about=(
+                    f"The {len(ranked)} manager groups that meet the ranking rule, by strategy and rank. "
+                    f"The source file holds all {len(managers)} groups, including partial and "
+                    "insufficient histories."
+                ),
+                key="manager-diagnostics",
+            ),
+            note(
+                "GP scores apply only to fictional managers and funds. RAG: Document Insights uses "
+                "real manager and fund names from reviewed extractions, searches only their source "
+                "PDFs, and assigns no score to them."
+            ),
+        ],
+    }
+
+
 SECTION_BUILDERS = (
     overview_section,
     corpus_section,
@@ -2611,6 +3093,10 @@ SECTION_BUILDERS = (
     warehouse_section,
     reproduce_section,
     costs_section,
+    evidence_review_section,
+    rag_engine_section,
+    gp_scoring_section,
+    next_update_section,
 )
 
 
@@ -2635,6 +3121,8 @@ def build(output: Path = OUTPUT) -> tuple[Path, int, int]:
     document = payload()
     text = render(document)
     output.write_text(text, encoding="utf-8", newline="\n")
+    if output.resolve() == OUTPUT.resolve():
+        write_architecture_html()
     blocks = sum(len(section["blocks"]) for section in document["sections"])
     return output, len(document["sections"]), blocks
 

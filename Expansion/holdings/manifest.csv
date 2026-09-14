@@ -1,0 +1,12 @@
+﻿source,bytes,sha256,role,status
+README.md,790,c1a5e1f2e8ab18e6a5786f8e661bd4dc0a9298fd4ac61fc0650137bcabb7bba7,Holdings expansion index,current
+gpt-09-13-2026-1200.md,20230,c4e6a4243c0f9f58f329952a292fc8a0d71ffc00fbc44b9e817769073bad9fd6,"Deals, holdings, company financials, source order, deal classes and deal status rules",preserved
+gpt-09-13-2026-1300.md,121485,a5a91bb39883d275a43ad504d21e76663b6bd662fe398911c641d8dece78ada1,"Document study, normalized holdings design, migration map, field map and refusal rules",preserved
+normalized_holdings_ddl.sql,20727,9fd0d00c65a501f762ca33787c8057b8c8cb566f65d92a0efcdb2d2a88560cbe,Six-table owner-aware normalized holdings DDL reference matching the live fund-model schema,live_reference
+normalized_holdings_qa.sql,29270,d5f7cc00a4c8fb2e1cc2dbe8267725be477cb5f994a6131b551a3632591a42e1,Normalized holdings QA views used by stage 87,live_reference
+E01-ARCHITECTURE-MAP.md,3845,d78c68b69eac73b1cde852730c3bf7045daa87455194d0da6968cf54c646fe18,"Current E01 source, owner, database, stage, consumer and cutover map",current
+E01-SCHEMA-MAP.csv,1682418,962b7b877145c52e7e4284dfc5cf718230b68eda7428ad361be1801635b37f90,Field-level map including refreshed live alts and mock warehouse schemas,current
+E01-CONSTRAINT-MAP.csv,194374,9394daf8c62a7f60c8ace1dcc05700cc30f77a35fa1e1f519e0af2612416504f,"Live database constraints, fund quality rules and normalized QA rules",current
+E01-PIPELINE-MAP.csv,10935,622b808792ca4d3ebbdf0a2db626a5c686c2bae0f2bc97aa411330c473b1bfd9,Acquisition through release and consumer dependency map with live stages 85 and 87,current
+E01-TEST-MAP.csv,6931,9131680d99a358a5e9652e97f7db662e4c355c7a9406045c16c523654062265f,"Regression surfaces, implemented E01 guarantees and post-change product results",current
+E01-SOURCE-HOLDING-AUDIT.csv,291565,96d16b7414d78948fddab0f4777fd397e1c60a170a2c635dcb9c8f9af8f1ec66,All 487 source holdings with resolved owner/class result or explicit refusal,current

@@ -40,6 +40,7 @@ from collections import defaultdict
 from pathlib import Path
 
 from src.common import matrices
+from src.load import build_normalized_holdings as normalized_holdings
 from src.catalog.simple_pdf_extraction.fund_attributes import (
     STAMP_FIELDS,
     attribute_evidence_lookup,
@@ -1294,60 +1295,39 @@ def build_fund_term_clauses(observations: list[dict[str, str]]) -> list[dict[str
 def build_fund_holdings(
     holdings: list[dict[str, str]], observations: list[dict[str, str]]
 ) -> list[dict[str, str]]:
-    """A holding belongs to the fund that reported it. `fact_holding` names the
-    held company, so the reporting fund is read from the observations the
-    holding was built from, and a holding whose document names no fund is left
-    in the extraction layer."""
-    fund_of_observation = {
-        row["observation_id"]: row["subject_entity_id"]
-        for row in observations
-        if row.get("subject_entity_id", "").startswith(FUND_PREFIX)
-    }
-    fund_of_document: dict[str, set[str]] = defaultdict(set)
-    for row in observations:
-        if row.get("subject_entity_id", "").startswith(FUND_PREFIX):
-            fund_of_document[row["document_id"]].add(row["subject_entity_id"])
+    """Publish only holdings whose reviewed owner fits the legacy fund grain."""
+    owner_by_document = normalized_holdings.source_position_owners()
+    observation_by_id = {row["observation_id"]: row for row in observations}
 
     rows = []
     separator = matrices.resolve(LINEAGE_DELIMITERS, "observation_ids_separator")
-    attribution_order = _ordered_outputs(
-        HOLDING_ATTRIBUTION, "fund_holdings", "source_"
-    )
-    ambiguous_result = matrices.resolve(
-        HOLDING_ATTRIBUTION, "ambiguous_result", context="fund_holdings"
-    )
     for holding in holdings:
-        linked_funds = {
-            fund_of_observation[obs_id]
-            for obs_id in (holding.get("observation_ids", "") or "").split(separator)
-            if obs_id in fund_of_observation
-        }
-        document_funds = fund_of_document.get(holding["document_id"], set())
-        attribution_values = {
-            "linked_observation_funds": linked_funds,
-            "document_single_fund": document_funds if len(document_funds) == 1 else set(),
-        }
-        funds = next(
-            (
-                attribution_values[source]
-                for source in attribution_order
-                if attribution_values[source]
-            ),
-            set(),
-        )
-        if len(funds) != 1:
-            if ambiguous_result == "refused":
-                continue
-            raise matrices.MatrixError(
-                f"{HOLDING_ATTRIBUTION}: unsupported ambiguous_result {ambiguous_result!r}"
-            )
+        owner = owner_by_document.get(holding["document_id"])
+        if owner is None or not owner.get("owner_fund_id"):
+            continue
+        if normalized_holdings.holding_admission(
+            holding.get("subject_type", ""), "subject_type"
+        )[0] != "ADMIT":
+            continue
+        linked_observations = [
+            observation_by_id[observation_id]
+            for observation_id in (holding.get("observation_ids", "") or "").split(separator)
+            if observation_id in observation_by_id
+        ]
+        if any(
+            normalized_holdings.holding_admission(
+                row.get("value_scope", ""), "value_scope"
+            )[0] != "ADMIT"
+            for row in linked_observations
+        ):
+            continue
         dated = bool(holding.get("as_of_date"))
         holding_dates = matrices.mapping(HOLDING_DATES, context="holding")
         field_map = matrices.mapping(HOLDING_FIELDS)
         fair_sources = matrices.resolve(HOLDING_VALUE, "fair_value").split("|")
         rows.append({
             "holding_id": holding["holding_id"],
-            "fund_id": next(iter(funds)),
+            "fund_id": owner["owner_fund_id"],
             "portfolio_company_id": holding.get(field_map["portfolio_company_id"], ""),
             "portfolio_company_name": holding.get(field_map["portfolio_company_name"], ""),
             "date_role": holding_dates["dated_role"] if dated else holding_dates["undated_role"],

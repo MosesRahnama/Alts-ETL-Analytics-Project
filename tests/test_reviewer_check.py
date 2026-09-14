@@ -133,7 +133,7 @@ def test_a_stated_qualifier_citing_neither_definition_nor_basis_fails_the_same_c
 
     cited_by_basis = _by_name(
         reviewer_check.grouping_and_qualifier_checks(
-            [_published_row(definition_keys="", basis_raw="net of fees")], GROUPING_MATRIX
+            [_published_row(definition_keys="", basis_raw="time-weighted net of fees")], GROUPING_MATRIX
         )
     )["return rows without a stated method and fee basis"]
     assert cited_by_basis.passed

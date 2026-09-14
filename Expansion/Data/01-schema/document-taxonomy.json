@@ -1,0 +1,135 @@
+{
+  "version": "2026-09-expansion-pre-extraction",
+  "policy": {
+    "semantic_doc_type_not_regulatory_form": true,
+    "extractors_may_reclassify": false,
+    "new_types_default_scope": "UNSCHEDULED",
+    "reference_templates_scope": "REFERENCE"
+  },
+  "new_doc_types": {
+    "Portfolio_Company_Report": [
+      "ILPA_PortCo_Template",
+      "GP_PortCo_Report",
+      "Portfolio_Company_Metrics",
+      "Operating_Pack"
+    ],
+    "Lookthrough_Schedule": [
+      "FoF_Lookthrough",
+      "Underlying_Fund_Schedule",
+      "Nested_Fund_Schedule"
+    ],
+    "Secondary_Transaction": [
+      "Purchase_Sale_Agreement",
+      "Interest_Purchase_Agreement",
+      "Assignment_Assumption",
+      "Transfer_Notice",
+      "GP_Consent",
+      "Closing_Statement",
+      "Funds_Flow",
+      "Transaction_Confirmation",
+      "Escrow_Agreement"
+    ],
+    "Continuation_Fund": [
+      "Continuation_Disclosure",
+      "Election_Notice",
+      "Roll_Sell_Materials",
+      "Stapled_Commitment_Materials"
+    ],
+    "Secondary_Pricing": [
+      "Pricing_Memo",
+      "Underwriting_Memo",
+      "Bid_Book",
+      "Bid_Summary",
+      "Advisor_Tear_Sheet",
+      "Market_Report",
+      "Pricing_Observation"
+    ],
+    "Capital_Structure": [
+      "Cap_Table",
+      "Debt_Schedule",
+      "Credit_Agreement",
+      "Loan_Agreement",
+      "Intercreditor",
+      "Security_Agreement",
+      "UCC_Filing",
+      "Preferred_Equity",
+      "NAV_Facility",
+      "Subscription_Credit_Agreement"
+    ],
+    "Tax_Package": [
+      "Schedule_K1_1065",
+      "Schedule_K3",
+      "Tax_Capital_Statement"
+    ]
+  },
+  "existing_doc_type_subtypes": {
+    "Valuation": [
+      "Administrator_NAV_Bridge",
+      "Valuation_Committee_Package",
+      "Independent_Valuation_Report",
+      "Fairness_Opinion",
+      "Auditor_Valuation_Schedule"
+    ],
+    "Cash_Flow_Notice": [
+      "Capital_Call_Detail",
+      "Distribution_Detail"
+    ],
+    "LPA": [
+      "LPA_Amendment",
+      "Transfer_Provisions"
+    ],
+    "Side_Letter": [
+      "Transfer_Liquidity"
+    ],
+    "Institutional_Report": [
+      "Investment_Committee_Memo",
+      "Board_Packet",
+      "Consultant_Report",
+      "Pacing_Report",
+      "Secondary_Sale_RFP"
+    ],
+    "Schedule_Inv": [
+      "NPORT_P",
+      "NPORT_EX",
+      "BDC_Schedule_Inv"
+    ],
+    "Financials": [
+      "N_CSR",
+      "N_CSRS",
+      "BDC_10_K",
+      "BDC_10_Q"
+    ],
+    "PPM": [
+      "N_2",
+      "497"
+    ]
+  },
+  "metadata_only": {
+    "regulatory_forms": [
+      "NPORT-P",
+      "NPORT-EX",
+      "N-CSR",
+      "N-CSRS",
+      "N-2",
+      "497",
+      "N-CEN",
+      "N-23C3A",
+      "SC TO-I",
+      "SC TO-T",
+      "SC 13E-3",
+      "10-K",
+      "10-Q",
+      "8-K",
+      "S-1",
+      "S-4",
+      "Form D",
+      "Form ADV",
+      "13F-HR",
+      "13D",
+      "13G"
+    ],
+    "never_public_acquisition_target": [
+      "Form PF"
+    ]
+  }
+}

@@ -24,6 +24,8 @@ import yaml
 
 from src.catalog.simple_pdf_extraction.fund_attributes import SETTLED as SETTLED_ATTRIBUTE_STATUSES
 from src.common.finance import xirr
+from src.load import build_normalized_holdings as normalized_holdings
+from src.load.validate_normalized_holdings import validate as validate_normalized_holdings
 from src.quality.run_fund_checks import (
     _position_key as quality_position_key,
     load_tolerances,
@@ -53,6 +55,12 @@ EXTRACTED_FILES = (
     "fund_terms.csv",
     "fund_term_clauses.csv",
     "fund_holdings.csv",
+    "investment_owner.csv",
+    "investment_target.csv",
+    "investment_instrument.csv",
+    "fund_position.csv",
+    "lookthrough_edge.csv",
+    "holding_field_lineage.csv",
 )
 
 INTEGRATED_FUND_MODEL_FILES = (
@@ -62,6 +70,12 @@ INTEGRATED_FUND_MODEL_FILES = (
     "fund_terms.csv",
     "fund_term_clauses.csv",
     "fund_holdings.csv",
+    "investment_owner.csv",
+    "investment_target.csv",
+    "investment_instrument.csv",
+    "fund_position.csv",
+    "lookthrough_edge.csv",
+    "holding_field_lineage.csv",
     "benchmark_returns.csv",
     "synthetic_parameters.csv",
     "defect_injections.csv",
@@ -188,6 +202,7 @@ COMPLETION_PARAMETERS = "period-completion-parameters"
 CASHFLOW_SCHEDULE = "integrated-cashflow-schedule"
 TERMS_PARAMETERS = "terms-generation-parameters"
 DEFECTS = "defect-definitions"
+COMPLETION_CURRENCY = "completion-currency-policy"
 
 
 def _ranked_outputs(name: str, context: str = "") -> tuple[str, ...]:
@@ -919,6 +934,22 @@ def _benchmark_rows(
     return rows, policy_rows, recent_growth - 1.0
 
 
+def completion_currency_issue(
+    cfg: Mapping[str, object], master: Mapping[str, str],
+    source_rows: Sequence[Mapping[str, str]],
+) -> tuple[str, str]:
+    """Return the declared completion exclusion and the source denominations."""
+    currencies = {row.get("currency", "").upper() for row in source_rows if row.get("currency")}
+    currencies.update(master.get(field, "").upper() for field in
+                      ("base_currency", "fund_size_currency") if master.get(field))
+    if len(currencies) > 1:
+        return matrices.resolve(COMPLETION_CURRENCY, "currency_conflict"), "|".join(sorted(currencies))
+    supported = str(cfg[matrices.resolve(COMPLETION_CURRENCY, "supported_currency")])
+    if currencies and currencies != {supported}:
+        return matrices.resolve(COMPLETION_CURRENCY, "foreign_currency"), next(iter(currencies))
+    return "", ""
+
+
 def _complete_master(
     cfg: Mapping[str, object],
     fund_ids: Sequence[str],
@@ -994,6 +1025,8 @@ def _complete_master(
                 gaps.append(_gap_row(fund_id, "fund_master", fund_id, field, row[field], lin["provenance_type"], lin["lineage_id"]))
 
         period_rows = list(period_map.get(fund_id, ()))
+        currency_issue, _ = completion_currency_issue(cfg, row,
+            [*period_rows, *(r for r in tables["fund_cashflows"] if r.get("fund_id") == fund_id)])
         attr = attributes.get(fund_id, {})
         _require(MANAGER_SELECTION, "manager_source", "first_nonblank_document_fund_map")
         manager_name = next(
@@ -1077,7 +1110,7 @@ def _complete_master(
         size_source: Mapping[str, str] | None = None
         if not size_value:
             size_value, size_source = _first_value(period_rows, "fund_size")
-        if not size_value:
+        if not size_value and not currency_issue:
             scale = float(matrices.resolve(MASTER_DEFAULTS, "size_scale_base")) + float(
                 matrices.resolve(MASTER_DEFAULTS, "size_scale_span")
             ) * _unit_interval(seed, fund_id, "fund_size")
@@ -1107,6 +1140,11 @@ def _complete_master(
                 or mapped_strategy
             ),
         }
+        if currency_issue:
+            # Source monetary fields remain unchanged; no USD defaults are
+            # attached to a fund whose source denomination requires conversion.
+            for field in ("base_currency", "fund_size_currency", "fund_size"):
+                candidates.pop(field)
         _require(FILL_POLICY, "nonblank_cell", "retained")
         for field, value in candidates.items():
             if row.get(field, "") or not value:
@@ -1225,6 +1263,9 @@ def _target_period(
     derived: Mapping[str, float],
     benchmark_return: float,
 ) -> dict[str, str]:
+    issue, currencies = completion_currency_issue(cfg, master, source_rows)
+    if issue:
+        raise IntegrationError(f"{master['fund_id']}: {issue} ({currencies}); completion requires a supported currency")
     seed = int(cfg["seed"])
     fund_id = master["fund_id"]
     target = str(cfg["as_of_date"])
@@ -1801,7 +1842,16 @@ def _reconciliation_rows(
 
     master_ids = {row.get("fund_id", "") for row in master}
     add("GLOBAL", "FUND_MASTER", "", "IDENTITY_SPINE_COMPLETE", master_ids == set(fund_ids), len(master_ids), len(fund_ids))
-    add("GLOBAL", "TARGET_PERIODS", "", "ONE_TARGET_PERIOD_PER_FUND", len(target_periods) == len(fund_ids), len(target_periods), len(fund_ids))
+    source_periods = _latest_periods(baseline["fund_periods"])
+    source_cashflows = defaultdict(list)
+    for row in baseline["fund_cashflows"]:
+        source_cashflows[row.get("fund_id", "")].append(row)
+    eligible_ids = {row["fund_id"] for row in master
+                    if not completion_currency_issue(cfg, row, [*source_periods.get(row["fund_id"], ()),
+                                                               *source_cashflows.get(row["fund_id"], ())])[0]}
+    target_ids = {row["fund_id"] for row in target_periods}
+    add("GLOBAL", "TARGET_PERIODS", "", "ONE_TARGET_PERIOD_PER_ELIGIBLE_FUND",
+        target_ids == eligible_ids and len(target_periods) == len(eligible_ids), len(target_periods), len(eligible_ids))
     add(
         "GLOBAL",
         "REAL_IDENTITIES",
@@ -1822,8 +1872,8 @@ def _reconciliation_rows(
     add("GLOBAL", "FUND_HOLDINGS", "", "EXTRACTED_HOLDING_ROWS_PRESERVED", baseline_holding_ids <= final_holding_ids, len(baseline_holding_ids & final_holding_ids), len(baseline_holding_ids))
     completed_terms = [row for row in terms if row.get("synthetic_parameter_set_id") == str(cfg["parameter_set_id"])]
     completed_holdings = [row for row in holdings if row.get("synthetic_parameter_set_id") == str(cfg["parameter_set_id"])]
-    add("GLOBAL", "FUND_TERMS", "", "ONE_COMPLETED_TERM_PER_FUND", len(completed_terms) == len(fund_ids), len(completed_terms), len(fund_ids))
-    add("GLOBAL", "FUND_HOLDINGS", "", "THREE_COMPLETED_HOLDINGS_PER_FUND", len(completed_holdings) == len(fund_ids) * 3, len(completed_holdings), len(fund_ids) * 3)
+    add("GLOBAL", "FUND_TERMS", "", "ONE_COMPLETED_TERM_PER_ELIGIBLE_FUND", len(completed_terms) == len(eligible_ids), len(completed_terms), len(eligible_ids))
+    add("GLOBAL", "FUND_HOLDINGS", "", "THREE_COMPLETED_HOLDINGS_PER_ELIGIBLE_FUND", len(completed_holdings) == len(eligible_ids) * 3, len(completed_holdings), len(eligible_ids) * 3)
     add("GLOBAL", "CELL_LINEAGE", "", "AUGMENTATION_LINEAGE_PRESENT", bool(lineage), len(lineage), ">0")
 
     for period in target_periods:
@@ -1998,6 +2048,20 @@ def build() -> dict[str, int]:
         gaps,
     )
     master_by_id = {row["fund_id"]: row for row in masters}
+    source_flows = defaultdict(list)
+    for row in tables["fund_cashflows"]:
+        source_flows[row.get("fund_id", "")].append(row)
+    eligible_ids = []
+    for fund_id in fund_ids:
+        issue, currencies = completion_currency_issue(cfg, master_by_id[fund_id],
+            [*period_map.get(fund_id, ()), *source_flows.get(fund_id, ())])
+        if issue:
+            gap = _gap_row(fund_id, "fund_periods", stable_id("FPRINT", fund_id, cfg["as_of_date"]),
+                           "currency", "", issue, "", open_gap=True)
+            gap["original_value"] = currencies
+            gaps.append(gap)
+        else:
+            eligible_ids.append(fund_id)
     target_periods = [
         _target_period(
             cfg,
@@ -2006,7 +2070,7 @@ def build() -> dict[str, int]:
             derived,
             trailing_benchmark_return,
         )
-        for fund_id in fund_ids
+        for fund_id in eligible_ids
     ]
     generated_cashflows = [
         flow for period in target_periods for flow in _generated_cashflows(cfg, period)
@@ -2015,7 +2079,7 @@ def build() -> dict[str, int]:
     _populate_calculated_irr(target_periods, final_cashflows)
     _record_target_lineage(cfg, target_periods, generated_cashflows, lineage, gaps, period_map)
     generated_terms, generated_clauses, generated_holdings = _generated_terms_and_holdings(
-        cfg, masters, target_periods
+        cfg, [master_by_id[fund_id] for fund_id in eligible_ids], target_periods
     )
     _record_row_lineage(
         cfg,
@@ -2048,6 +2112,22 @@ def build() -> dict[str, int]:
     final_terms = [*tables["fund_terms"], *generated_terms]
     final_clauses = [*tables["fund_term_clauses"], *generated_clauses]
     final_holdings = [*tables["fund_holdings"], *generated_holdings]
+    generated_normalized = normalized_holdings.build_flat_rows(
+        generated_holdings, masters, origin_type="COMPLETION"
+    )
+    normalized_counts = normalized_holdings.merge_rows(
+        EXTRACTED_DIR, generated_normalized, CSV_DIR
+    )
+    for table, (_filename, _columns, key) in normalized_holdings.NORMALIZED_FILES.items():
+        _, source_rows = read_csv(EXTRACTED_DIR / normalized_holdings.NORMALIZED_FILES[table][0])
+        _, final_rows = read_csv(CSV_DIR / normalized_holdings.NORMALIZED_FILES[table][0])
+        source_ids = {row.get(key, "") for row in source_rows}
+        final_ids = {row.get(key, "") for row in final_rows}
+        missing = source_ids - final_ids
+        if missing:
+            raise IntegrationError(
+                f"normalized source rows were not preserved for {table}: {sorted(missing)[:20]}"
+            )
     reconciliation = _reconciliation_rows(
         cfg,
         fund_ids,
@@ -2074,6 +2154,7 @@ def build() -> dict[str, int]:
         raise IntegrationError("one or more integrated defects escaped detection")
 
     counts = {
+        **normalized_counts,
         "fund_master.csv": write_csv(CSV_DIR / "fund_master.csv", headers["fund_master"], masters),
         "fund_periods.csv": write_csv(CSV_DIR / "fund_periods.csv", headers["fund_periods"], final_periods),
         "fund_cashflows.csv": write_csv(CSV_DIR / "fund_cashflows.csv", headers["fund_cashflows"], final_cashflows),
@@ -2091,6 +2172,12 @@ def build() -> dict[str, int]:
         "defect-quality-results.csv": write_csv(INTEGRATED_DIR / "defect-quality-results.csv", read_csv(CSV_DIR / "quality_results.csv")[0], defect_quality),
         "detection-scorecard.csv": write_csv(INTEGRATED_DIR / "detection-scorecard.csv", SCORECARD_COLUMNS, scorecard),
     }
+    validate_normalized_holdings(
+        CSV_DIR,
+        fund_master_path=CSV_DIR / "fund_master.csv",
+        fact_holding_path=PROJECT_ROOT / "data" / "extracted" / "tables" / "fact_holding.csv",
+        refusal_path=PROJECT_ROOT / "data" / "extracted" / "audit" / "normalized-holdings-refusals.csv",
+    )
     return counts
 
 

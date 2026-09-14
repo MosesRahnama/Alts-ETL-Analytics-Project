@@ -1,0 +1,79 @@
+[
+  {
+    "api_key_env": "ANTHROPIC_API_KEY",
+    "input_characters": 1101,
+    "live_status": "NOT_RUN",
+    "max_output_tokens": 1200,
+    "model": "claude-sonnet-5",
+    "packet_hash": "d1fe9c72e081155ae522a361ee093608f7a5e43291ec5c1be5a324719820e55d",
+    "position_id": "POS_DA6311364A78F70A7FBD",
+    "provider": "anthropic",
+    "tools": false
+  },
+  {
+    "api_key_env": "ANTHROPIC_API_KEY",
+    "input_characters": 1106,
+    "live_status": "NOT_RUN",
+    "max_output_tokens": 1200,
+    "model": "claude-sonnet-5",
+    "packet_hash": "0fa413e70365093e3c44c8ccb0fd0a0ceeaff92aa9ec8b82057dc7ae6dd77a9a",
+    "position_id": "POS_6B0F7E65F1989530B1AD",
+    "provider": "anthropic",
+    "tools": false
+  },
+  {
+    "api_key_env": "ANTHROPIC_API_KEY",
+    "input_characters": 1105,
+    "live_status": "NOT_RUN",
+    "max_output_tokens": 1200,
+    "model": "claude-sonnet-5",
+    "packet_hash": "9db3d19706f7ab79cc889d9e1fa6c0657861b332b45b30b804282b960af66f17",
+    "position_id": "POS_725036467434A9CFE2C8",
+    "provider": "anthropic",
+    "tools": false
+  },
+  {
+    "api_key_env": "ANTHROPIC_API_KEY",
+    "input_characters": 1107,
+    "live_status": "NOT_RUN",
+    "max_output_tokens": 1200,
+    "model": "claude-sonnet-5",
+    "packet_hash": "5e9792bde529e122dfb049fc22d74facab4964d8af69b1502490e8d64c85caec",
+    "position_id": "POS_03BACFCF783B5AAEF3FA",
+    "provider": "anthropic",
+    "tools": false
+  },
+  {
+    "api_key_env": "ANTHROPIC_API_KEY",
+    "input_characters": 1096,
+    "live_status": "NOT_RUN",
+    "max_output_tokens": 1200,
+    "model": "claude-sonnet-5",
+    "packet_hash": "1f1078489d24c3935512a81ada7e2c4e5a531fb97b7595d3f6c41b4df9a89aa0",
+    "position_id": "POS_BC8C03B81492D1FB1E28",
+    "provider": "anthropic",
+    "tools": false
+  },
+  {
+    "api_key_env": "ANTHROPIC_API_KEY",
+    "input_characters": 1103,
+    "live_status": "NOT_RUN",
+    "max_output_tokens": 1200,
+    "model": "claude-sonnet-5",
+    "packet_hash": "1cd571133db9d75cc1aeb25c3472478e9cf172a3c2e028f96200e27aa82e2203",
+    "position_id": "POS_759DB0D2AC8193AC62DD",
+    "provider": "anthropic",
+    "tools": false
+  },
+  {
+    "api_key_env": "ANTHROPIC_API_KEY",
+    "input_characters": 1098,
+    "live_status": "NOT_RUN",
+    "max_output_tokens": 1200,
+    "model": "claude-sonnet-5",
+    "packet_hash": "e23dfe9450b4f93b2840d148aab3219a1d4e21a4a25cf6ccc838f8549c01a28b",
+    "position_id": "POS_3F7F05AC9AC73D2299D8",
+    "provider": "anthropic",
+    "tools": false
+  }
+]

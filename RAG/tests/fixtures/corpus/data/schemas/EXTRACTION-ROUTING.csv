@@ -1,0 +1,9 @@
+route_order,file_id,filename,page_count,canonical_doc_type,source_header_doc_type,route,product_tier,routing_status,routing_reason,issuer,source_sha256,txt_path,pdf_path,image_dir,grid_path
+1,FIX001,FIX001_fee.txt,1,Fee_Report,Fee_Report,01-financials,CORE,MATCH,fixture,Issuer,,data/documents/txt/FIX001_fee.txt,data/documents/pdf/FIX001_fee.txt,,
+2,FIX002,FIX002_other.txt,1,Fee_Report,Fee_Report,01-financials,CORE,MATCH,fixture,Issuer,,data/documents/txt/FIX002_other.txt,data/documents/pdf/FIX002_other.txt,,
+3,FIX003,FIX003_missing.txt,1,Fee_Report,Fee_Report,01-financials,CORE,MATCH,fixture,Issuer,,data/documents/txt/FIX003_missing.txt,data/documents/pdf/FIX003_missing.txt,,
+4,FIX004,FIX004_inject.txt,1,Fee_Report,Fee_Report,01-financials,CORE,MATCH,fixture,Issuer,,data/documents/txt/FIX004_inject.txt,data/documents/pdf/FIX004_inject.txt,,
+5,FIX005,FIX005_number.txt,1,Performance,Performance,01-financials,CORE,MATCH,fixture,Issuer,,data/documents/txt/FIX005_number.txt,data/documents/pdf/FIX005_number.txt,,
+6,FIX006,FIX006_method.txt,2,Performance,Performance,01-financials,CORE,MATCH,fixture,Issuer,,data/documents/txt/FIX006_method.txt,data/documents/pdf/FIX006_method.txt,,
+7,FIX007,FIX007_restricted.txt,1,Valuation,Valuation,01-financials,CORE,MATCH,fixture,Issuer,,data/documents/txt/FIX007_restricted.txt,data/documents/pdf/FIX007_restricted.txt,,
+8,FIX008,FIX008_stale.txt,1,Financials,Financials,01-financials,CORE,MATCH,fixture,Issuer,,data/documents/txt/FIX008_stale.txt,data/documents/pdf/FIX008_stale.txt,,

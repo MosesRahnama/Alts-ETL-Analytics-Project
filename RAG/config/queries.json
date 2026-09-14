@@ -1,0 +1,22 @@
+{
+  "fund_evidence": {
+    "description": "Reviewed observations for a named fund or subject, retaining investor and share-class labels.",
+    "data_groups": ["extracted"]
+  },
+  "observation_context": {
+    "description": "One observation with source location, qualifiers, and cited definitions.",
+    "data_groups": ["extracted"]
+  },
+  "result_origin": {
+    "description": "Join integrated cell lineage with provenance_type labels.",
+    "data_groups": ["integrated"]
+  },
+  "fund_metrics": {
+    "description": "Stored metric results and formula identifiers.",
+    "data_groups": ["extracted", "integrated"]
+  },
+  "document_coverage": {
+    "description": "Catalogue membership, extraction counts, and definition counts.",
+    "data_groups": ["extracted"]
+  }
+}

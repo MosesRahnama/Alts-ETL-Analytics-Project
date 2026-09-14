@@ -14,17 +14,17 @@
 |---|---:|
 | Active assignments | 36 |
 | Deferred assignments | 59 |
-| Reference/template | 8 |
-| Unscheduled full corpus | 339 |
+| Reference/template | 11 |
+| Unscheduled full corpus | 346 |
 
 | Route | Document types | Full corpus | Active | Sessions |
 |---|---|---:|---:|---:|
 | `01-financials` | Financials | 221 | 6 | 4 |
 | `02-performance` | Performance | 46 | 6 | 4 |
-| `03-institutional-report` | Institutional_Report | 71 | 6 | 4 |
+| `03-institutional-report` | Institutional_Report, Secondary_Pricing | 76 | 6 | 4 |
 | `04-quarterly-report` | Quarterly_Report | 36 | 4 | 4 |
-| `05-fund-legal-docs` | PPM, LPA, Subscription, Side_Letter, DDQ | 19 | 4 | 4 |
-| `06-statements-and-economics` | Schedule_Inv, Fee_Report, Valuation, NAV_Statement, Cash_Flow_Notice, PCAP | 40 | 6 | 4 |
+| `05-fund-legal-docs` | PPM, LPA, Subscription, Side_Letter, DDQ, Continuation_Fund | 22 | 4 | 4 |
+| `06-statements-and-economics` | Schedule_Inv, Fee_Report, Valuation, NAV_Statement, Cash_Flow_Notice, PCAP | 42 | 6 | 4 |
 | `07-institutional-mission` | Foundations_Annual, Stewardship_Proxy_Report | 9 | 4 | 4 |
 
 ## Rebuild and verify the contract

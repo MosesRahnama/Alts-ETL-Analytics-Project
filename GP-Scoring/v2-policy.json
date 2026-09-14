@@ -1,0 +1,89 @@
+{
+  "version": "2.2.0",
+  "population": "fixture",
+  "economic_as_of": "2026-06-30",
+  "information_cutoff": "2026-09-09",
+  "historical_score": {
+    "source": "V1",
+    "weights": {"tvpi": 0.6, "dpi": 0.4},
+    "manager_min_funds": 2,
+    "manager_min_coverage": 0.75,
+    "composite_manager_score_enabled": false
+  },
+  "cohorts": {
+    "vintage_bucket_years": 5,
+    "reference_min_funds": 10,
+    "reference_min_managers": 5,
+    "strict_min_funds": 20,
+    "strict_min_managers": 10,
+    "match_sub_strategy": true,
+    "size_band_count": 3
+  },
+  "investment_analysis": {
+    "undated_fixture_holding_availability": "matching_fund_report",
+    "reconciliation_relative_tolerance": 0.000001,
+    "reconciliation_absolute_tolerance": 0.00001,
+    "operating_downside": {
+      "revenue_change": -0.10,
+      "margin_change": -0.02,
+      "multiple_change": -1.0,
+      "order": ["revenue", "margin", "multiple"],
+      "fixed": ["net_debt", "ownership_pct", "fx_to_usd"],
+      "note": "Hypothetical operating changes applied to current fictional holdings; distributions and invested amounts stay fixed."
+    }
+  },
+  "returns": {
+    "age_years": [3, 5, 7, 10],
+    "age_max_lag_days": 100,
+    "trailing_years": [1, 3, 5, 10],
+    "material_distribution_paid_in_fraction": 0.01,
+    "benchmark_currency_strict": true,
+    "default_benchmark_id": "BM_SYNTH_PUBLIC_EQUITY"
+  },
+  "stress": {
+    "nav_haircuts": [0.0, 0.1, 0.2, 0.3],
+    "top3_haircut": 0.2,
+    "sector_haircut": 0.2,
+    "weight_scenarios": [
+      {"id": "w50_50", "tvpi": 0.5, "dpi": 0.5},
+      {"id": "w60_40", "tvpi": 0.6, "dpi": 0.4},
+      {"id": "w70_30", "tvpi": 0.7, "dpi": 0.3}
+    ]
+  },
+  "readiness": {
+    "fund": {
+      "track_record": ["tvpi", "dpi", "xirr", "ks_pme", "direct_alpha"],
+      "realization": ["realized_share", "nav_reliance", "distribution_recency_months"],
+      "portfolio": ["company_hhi", "top_company_share", "top3_company_share", "sector_hhi", "top_sector_share"],
+      "terms": ["management_fee_rate", "waterfall_type"]
+    },
+    "manager": {
+      "consistency": ["eligible_score_funds", "worst_fund_score", "fund_score_iqr", "score_above_50_rate"],
+      "team_strategy": ["team_continuity", "strategy_flag"],
+      "alignment_governance": ["gp_commitment_pct", "governance_flag"]
+    }
+  },
+  "cases": {
+    "enabled_by_default": false,
+    "max_managers": 3,
+    "seed": 20260909,
+    "generator_version": "gp_v2_cases_3",
+    "population": "case_simulation",
+    "fields": {
+      "current_strategy": {"families": ["ddq"], "unit": ""},
+      "valuation_policy": {"families": ["ddq"], "unit": ""},
+      "key_person_provision": {"families": ["lpa_terms"], "unit": ""},
+      "management_fee_rate": {"families": ["lpa_terms"], "unit": "decimal_rate"},
+      "carry_rate": {"families": ["lpa_terms"], "unit": "decimal_rate"},
+      "hurdle_rate": {"families": ["lpa_terms"], "unit": "decimal_rate"},
+      "gp_commitment_pct": {"families": ["ddq", "lpa_terms"], "unit": "decimal_rate"},
+      "governance_event": {"families": ["ddq"], "unit": ""},
+      "succession_plan": {"families": ["ddq"], "unit": ""},
+      "senior_departure": {"families": ["team_roster"], "unit": ""},
+      "subscription_facility_limit_pct": {"families": ["lpa_terms"], "unit": "decimal_rate"},
+      "subscription_facility_cost_rate": {"families": ["lpa_terms"], "unit": "decimal_rate"},
+      "subscription_facility_max_days": {"families": ["lpa_terms"], "unit": "days"},
+      "nav_facility_flag": {"families": ["lpa_terms"], "unit": ""}
+    }
+  }
+}

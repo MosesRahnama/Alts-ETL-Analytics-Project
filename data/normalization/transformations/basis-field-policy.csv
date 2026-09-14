@@ -1,0 +1,32 @@
+input_value,output_value,decided_by,evidence,note,context
+measurement_phrase,\bfair (?:market )?value\b|\bmarket value\b|\bat value\b|\bnet assets?\b|\bnav\b|\bcost\b|\bunrealized\b|\b(?:net|gross) (?:of|irr|twr|returns?)\b|\((?:net|gross)\)|\bweighted\b|\bdietz\b|\bcommitments?\b|\bcapital\b,source-context review,SRC152 p1; SRC407 p1; SRC060 p2; SRC375 p1; SRC384 pp2-4,Measurement or calculation terms can legitimately repeat their printed source phrase.,pattern
+Oregon Growth Account,CONTEXT_ONLY,source-context review,SRC035 p1,The heading identifies the investor account rather than a measurement basis.,context_only
+Retirement Fund,CONTEXT_ONLY,source-context review,SRC058 p1; SRC060 p1,The heading identifies the plan rather than a measurement basis.,context_only
+BILL & MELINDA GATES FOUNDATION TRUST,CONTEXT_ONLY,source-context review,SRC377 p3,The title names the reporting entity rather than a measurement basis.,context_only
+BSAM,CONTEXT_ONLY,source-context review,SRC107 p4,The acronym identifies an organization rather than a calculation method.,context_only
+FUND ASSETS,CONTEXT_ONLY,source-context review,SRC107 p11,The label names a balance rather than its measurement basis.,context_only
+Combined Schedule of Investments,CONTEXT_ONLY,source-context review,SRC034 p4,The schedule name remains source-table context.,context_only
+"Combined Statement of Assets, Liabilities, and Partners' Capital",CONTEXT_ONLY,source-context review,SRC034 p3,The statement name remains source-table context.,context_only
+Combined Statement of Changes in Partners' Capital,CONTEXT_ONLY,source-context review,SRC034 p6,The statement name remains source-table context.,context_only
+"Combining Statement of Assets, Liabilities, and Partners' Capital",CONTEXT_ONLY,source-context review,SRC034 p9,The statement name remains source-table context.,context_only
+Deficit,CONTEXT_ONLY,source-context review,SRC102 p3,The word names a balance rather than its calculation basis.,context_only
+Partners' capital account - current year,CONTEXT_ONLY,source-context review,SRC102 p11,The label names the account and period rather than the calculation basis.,context_only
+Glass Lewis clients,CONTEXT_ONLY,source-context review,SRC151 p3,The phrase identifies the observed population.,context_only
+500 members representing NZ$83 trillion,CONTEXT_ONLY,source-context review,SRC339 p27,The phrase identifies the observed population.,context_only
+530 investors representing $29 trillion,CONTEXT_ONLY,source-context review,SRC339 p19,The phrase identifies the observed population.,context_only
+assets under management,CONTEXT_ONLY,source-context review,SRC339 p28,The phrase names the reported measure.,context_only
+funds under management,CONTEXT_ONLY,source-context review,SRC339 p28,The phrase names the reported measure.,context_only
+impact investments,CONTEXT_ONLY,source-context review,SRC339 p25,The phrase names the investment category.,context_only
+US$732 billion in assets under engagement,CONTEXT_ONLY,source-context review,SRC339 p14,The phrase describes the observed population.,context_only
+Limited Partner: Northumberland County Council,CONTEXT_ONLY,source-context review,SRC462 p1,The label identifies the limited partner rather than a calculation basis.,context_only
+Summary of Portfolio Cash Flows,CONTEXT_ONLY,source-context review,SRC457 p12,The schedule title remains source-table context.,context_only
+Total Investments,CONTEXT_ONLY,source-context review,SRC407 p7,The label identifies a total rather than a measurement basis.,context_only
+time_weighted,\btime[- ]weighted\b|\btwr\b,source-context review,SRC457 p12,The printed method names time weighting.,method
+money_weighted,\b(?:money|dollar)[- ]weighted\b|\binternal rate\b|\birr\b,source-context review,SRC192 p3,The printed method names money weighting or an internal rate of return.,method
+modified_dietz,\bmodified dietz\b,source-context review,SRC594 p5,The printed method names Modified Dietz.,method
+annualized,\bannualiz|\bannualis|\bcompound,source-context review,extraction dimension-values.csv,The printed basis states annualization or compounding.,method
+simple_period,\bsimple\b|\bperiod return\b,source-context review,extraction dimension-values.csv,The printed method states a simple period return.,method
+actuarial,\bactuarial\b,source-context review,extraction dimension-values.csv,The printed method states an actuarial basis.,method
+net,\bnet (?:irr|return|returns|twr|of)\b|\(net\),source-context review,SRC060 p2; SRC171 p5,A net-asset label alone does not establish fee treatment.,fee_basis
+gross,\bgross (?:irr|return|returns|twr|of)\b|\(gross\),source-context review,SRC171 p5,The printed wording states gross fee treatment.,fee_basis
+partial,\b(?:net|gross|excluding|included|excludes)\b,source-context review,SRC375 footnote 2,Partial treatment requires explicit included or excluded fees.,fee_basis

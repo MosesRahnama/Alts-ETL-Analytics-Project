@@ -1,8 +1,6 @@
 # AI-Powered Alternative Investment ETL and Analytics
 
-The live dashboard contains 36 extracted documents and 8,613 evidence rows, using the files in [dashboard-data](dashboard-data/README.md). Repository code and its source tables retain their existing release.
-
-Public investment reports become reviewed evidence, normalized fund records, and reproducible analytics. The corpus contains 442 PDFs across 17 document types; 36 documents have completed extraction, with 8,613 evidence records and 693 covered pages. The [dashboard](dashboard.html) presents the release and explains its data, controls, and analytical results.
+Public investment reports become reviewed evidence, normalized fund records, and reproducible analytics. The corpus contains 452 PDFs across 19 document types; 36 documents have completed extraction, with 8,613 evidence records and 693 covered pages. The [dashboard](dashboard.html) presents the data, methods, quality controls, and analysis; the [RAG reviewer page](rag.html) explains source retrieval, field verification, evaluation, controls, and use cases.
 
 ## Data populations
 
@@ -24,10 +22,10 @@ Public investment reports become reviewed evidence, normalized fund records, and
 | Independent extraction | Two agents produce separate records and page-coverage files; adjudicators resolve disagreements, sample agreements, and review each populated table's scope and governing notes. |
 | Mechanical checks | Candidate and final checks reject incomplete page coverage, unsupported dates and accounting scopes, contradictory return headers, ambiguous definition references, and quotes containing only part of a number. |
 | Definitions and omissions | Accounting policies, legends, and return-method notes remain extracted records. Grid counts flag empty or sparsely captured tables; exclusions require source-specific reasons. These checks do not replace page review. |
-| Dates and accounting scope | Comparative dates retain their printed meaning; source-backed rules resolve slash-date order. Investor positions, whole funds, holdings, and statement lines remain distinct. |
+| Dates and accounting scope | Comparative dates retain their printed meaning; ambiguous slash dates block normalization until a source-backed date order is recorded. Investor positions, whole funds, holdings, and statement lines remain distinct. |
 | Entity names | Accounting labels such as Total assets remain statement items; they do not become institutions. A named fund partnership retains its fund identity. |
-| Currency | Named currency headings resolve ambiguous dollar symbols. Fund periods retain the denomination; mixed currencies and unconverted foreign inputs are excluded from combined amounts. |
-| Corrections | [Source-review decisions](data/normalization/source-review-corrections.csv) record old and new fields with page evidence. Original A/B candidates remain unchanged; source review produces corrected finals. |
+| Currency | Named currency headings resolve ambiguous dollar symbols. Source periods retain their currency. Funds with foreign or conflicting denominations receive no generated monetary completion without supported conversion; the gap ledger records each exclusion. |
+| Corrections | [Source-review decisions](data/normalization/source-review-corrections.csv) preserve original decisions and ordered amendments with page evidence. A/B candidates remain unchanged. Measurement bases exclude entity names and table titles. |
 | Publication | Current finals must match published records and pass the same completeness checks as candidates. Final construction checks records and coverage before replacing prior outputs. |
 
 The field contract contains 47 columns; publication appends the extractor-model field as column 48. Eighteen record families share the accepted metric and term vocabularies. [Extraction instructions](instructions/01-pdf-extraction-csv/README.md) describe the formats and closing checks; [review records](data/extracted/review/README.md) connect each accepted record to its candidate rows and decision.
@@ -42,7 +40,7 @@ CSV tables are the persisted stage outputs. DuckDB databases are query copies ch
 
 | Area | Method |
 |---|---|
-| Financial identities | Checks reconcile paid-in capital, distributions, net asset value, commitment, unfunded amounts, multiples, and balance rollforwards. Tolerances reflect printed precision. |
+| Financial identities | Checks reconcile paid-in capital, distributions, net asset value, commitment, unfunded amounts, multiples, and balance rollforwards. Every published-period failure blocks release unless its source value matches a reviewed exception; tolerances reflect printed precision. |
 | Dated cash flows | Capital calls have investor-economic signs; component columns and cumulative totals do not become duplicate transactions. Calculations separate funds, investors, classes, and currencies. |
 | Source-only metrics | Distribution and residual-value multiples are computed only for source periods with the required inputs and passing quality checks. |
 | Generated completion | Missing analytical inputs receive declared assumptions and field-level origin records; generated values are not presented as observed performance. |
@@ -50,7 +48,7 @@ CSV tables are the persisted stage outputs. DuckDB databases are query copies ch
 | Allocation | A bounded near-equal-weight demonstration, not an estimated risk-optimal portfolio. |
 | Error detection | Isolated copies contain planted defects; scorecards identify detected and missed errors without changing the analytical population. |
 
-The negative NAV and distribution printed in SRC060 remain source facts and quality exceptions. Benchmark rights remain restricted to the demonstration. [Quality methods](docs/SYNTHETIC-DATA-AND-QUALITY.md), [release results](docs/FINAL-RELEASE-AUDIT.md), and [current counts](docs/RELEASE-COUNTS.csv) state the measured results and limits.
+The negative NAV and distribution printed in SRC060 remain flagged and match [value-specific exceptions](data/normalization/transformations/quality-source-exceptions.csv). Benchmark rights remain demonstration-only. [Quality methods](docs/SYNTHETIC-DATA-AND-QUALITY.md), [release results](docs/FINAL-RELEASE-AUDIT.md), and [current counts](docs/RELEASE-COUNTS.csv) state the results and limits.
 
 The [release audit table](docs/FINAL-RELEASE-AUDIT.csv) covers source collection, document preparation, independent extraction, third-reader review, automated publication, and closing checks; each result cites an executed check and its time.
 
@@ -64,6 +62,7 @@ The [release audit table](docs/FINAL-RELEASE-AUDIT.csv) covers source collection
 | `python -m pytest -q` | Regression suite. |
 | `python -m src.repository.build_release_audit --verify-repository` | Records structure, release-audit, and regression results; the manifest and dashboard rebuild follow. |
 | `python -m src.dashboard.build_dashboard` | Rebuilds the dashboard from the published files. |
+| `python -m src.dashboard.build_rag_dashboard` | Rebuilds the RAG reviewer page from its checked-in evidence export. |
 | `open-dashboard.cmd` | Rebuilds and opens the local dashboard. |
 
 [PROCESS.md](PROCESS.md) contains the complete command sequence and documentation checks.
@@ -82,13 +81,24 @@ The [release audit table](docs/FINAL-RELEASE-AUDIT.csv) covers source collection
 | [config](config/README.md) | Schemas, tolerances, and generation settings. |
 | [docs](docs/README.md) | Methods, current results, file manifest, and CSV origin records. |
 | [costs](costs/README.md) | Extraction-cost measurements and estimates. |
+| [GP-Scoring](GP-Scoring/README.md) | Separate V2 manager comparison, dated returns, case evidence and sensitivity report using fictional funds. |
+| [One-Day-Pricing](One-Day-Pricing/README.md) | Separate secondary-transaction pricing add-on. |
+| [Expansion](Expansion/README.md) | Expansion designs, mappings, and staged implementation records. |
+| [Reducto](Reducto/README.md) | Staged Reducto parsing plan, schemas, credit budget, and checks. |
+| [archive](archive/README.md) | Reference to the local recovery archive. |
+| [output](output/README.md) | Local dashboard inspection artifacts, excluded from data processing. |
+| [tmp](tmp/README.md) | Local scratch files, excluded from published outputs. |
+| [RAG](RAG/README.md) | Local evidence engine: page-cited keyword and vector search, field checks, context review, analytical reads, and dashboard controls. |
+| [Temporal](Temporal/README.md) | Local Temporal setup notes; no release stage reads this folder. |
+| [.github](.github/README.md) | Workflow that runs the offline RAG fixture tests. |
 
 | Root files | Role |
 |---|---|
 | `README.md`, `PROCESS.md` | Project summary and reproducible stage order. |
-| `dashboard.html` | Current reviewer dashboard. |
+| `dashboard.html`, `rag.html` | Current project dashboard and RAG reviewer page. |
 | `open-dashboard.cmd`, `open-dashboard.ps1` | Local dashboard launchers. |
 | `requirements.txt`, `pytest.ini`, `ruff.toml` | Environment, test, and lint configuration. |
 | `.gitignore`, `.gitattributes`, `LICENSE` | Repository policy, large-file tracking, and licence. |
 
 The analytics path reads source-only tables for printed-data metrics and completed tables for generated cash-flow analyses.
+

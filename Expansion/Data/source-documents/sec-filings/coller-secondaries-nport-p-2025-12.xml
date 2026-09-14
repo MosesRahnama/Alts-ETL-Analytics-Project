@@ -1,0 +1,4356 @@
+<?xml version="1.0" encoding="UTF-8"?><edgarSubmission xmlns="http://www.sec.gov/edgar/nport" xmlns:com="http://www.sec.gov/edgar/common" xmlns:ncom="http://www.sec.gov/edgar/nportcommon" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sec.gov/edgar/nport eis_NPORT_Filer.xsd">
+  <headerData>
+    <submissionType>NPORT-P</submissionType>
+    <isConfidential>false</isConfidential>
+    <filerInfo>
+
+      <filer>
+        <issuerCredentials>
+          <cik>0001969180</cik>
+          <ccc>XXXXXXXX</ccc>
+        </issuerCredentials>
+      </filer>
+
+
+
+
+    </filerInfo>
+  </headerData>
+  <formData>
+    <genInfo>
+      <regName>Coller Secondaries Private Equity Opportunities Fund</regName>
+      <regFileNumber>811-23879</regFileNumber>
+      <regCik>0001969180</regCik>
+      <regLei>2138009TEXEZ5JZ16N98</regLei>
+      <regStreet1>950 3RD AVE</regStreet1>
+      <regCity>NEW YORK</regCity>
+      <regStateConditional regCountry="US" regState="US-NY"/>
+      <regZipOrPostalCode>10022</regZipOrPostalCode>
+      <regPhone>212-644-8500</regPhone>
+      <seriesName>Coller Secondaries Private Equity Opportunities Fund</seriesName>
+      <seriesLei>2138009TEXEZ5JZ16N98</seriesLei>
+      <repPdEnd>2026-03-31</repPdEnd>
+      <repPdDate>2025-12-31</repPdDate>
+      <isFinalFiling>N</isFinalFiling>
+    </genInfo>
+    <fundInfo>
+      <totAssets>1222910077.19</totAssets>
+      <totLiabs>11160911.80</totLiabs>
+      <netAssets>1211749165.39</netAssets>
+      <assetsAttrMiscSec>0.00000000</assetsAttrMiscSec>
+      <assetsInvested>66159398.00000000</assetsInvested>
+      <amtPayOneYrBanksBorr>0.00000000</amtPayOneYrBanksBorr>
+      <amtPayOneYrCtrldComp>0.00000000</amtPayOneYrCtrldComp>
+      <amtPayOneYrOthAffil>0.00000000</amtPayOneYrOthAffil>
+      <amtPayOneYrOther>0.00000000</amtPayOneYrOther>
+      <amtPayAftOneYrBanksBorr>0.00000000</amtPayAftOneYrBanksBorr>
+      <amtPayAftOneYrCtrldComp>0.00000000</amtPayAftOneYrCtrldComp>
+      <amtPayAftOneYrOthAffil>0.00000000</amtPayAftOneYrOthAffil>
+      <amtPayAftOneYrOther>0.00000000</amtPayAftOneYrOther>
+      <delayDeliv>84216.89000000</delayDeliv>
+      <standByCommit>0.00000000</standByCommit>
+      <liquidPref>0.00000000</liquidPref>
+      <cshNotRptdInCorD>60747126.98000000</cshNotRptdInCorD>
+      <isNonCashCollateral>N</isNonCashCollateral>
+      <returnInfo>
+        <monthlyTotReturns>
+          <monthlyTotReturn rtn1="0.55000000" rtn2="0.56000000" rtn3="1.42000000"/>
+          <monthlyTotReturn rtn1="0.57000000" rtn2="0.58000000" rtn3="1.44000000"/>
+          <monthlyTotReturn rtn1="0.50000000" rtn2="0.51000000" rtn3="1.36000000"/>
+        </monthlyTotReturns>
+        <monthlyReturnCats>
+          <equityContracts>
+            <mon1 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+            <mon2 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+            <mon3 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+            <otherCategory>
+              <instrMon1 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+              <instrMon2 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+              <instrMon3 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+            </otherCategory>
+          </equityContracts>
+          <foreignExchgContracts>
+            <mon1 netRealizedGain="504096.69000000" netUnrealizedAppr="3821832.37000000"/>
+            <mon2 netRealizedGain="0.00000000" netUnrealizedAppr="-1142138.16000000"/>
+            <mon3 netRealizedGain="0.00000000" netUnrealizedAppr="-2970370.53000000"/>
+            <forwardCategory>
+              <instrMon1 netRealizedGain="504096.69000000" netUnrealizedAppr="3821832.37000000"/>
+              <instrMon2 netRealizedGain="0.00000000" netUnrealizedAppr="-1142138.16000000"/>
+              <instrMon3 netRealizedGain="0.00000000" netUnrealizedAppr="-2970370.53000000"/>
+            </forwardCategory>
+          </foreignExchgContracts>
+        </monthlyReturnCats>
+        <othMon1 netRealizedGain="374306.01000000" netUnrealizedAppr="2416991.10000000"/>
+        <othMon2 netRealizedGain="90134.53000000" netUnrealizedAppr="7089927.22000000"/>
+        <othMon3 netRealizedGain="669546.45000000" netUnrealizedAppr="19191697.46000000"/>
+      </returnInfo>
+      <mon1Flow redemption="364342.60000000" reinvestment="0.00000000" sales="62099350.00000000"/>
+      <mon2Flow redemption="0.00000000" reinvestment="0.00000000" sales="55525460.00000000"/>
+      <mon3Flow redemption="0.00000000" reinvestment="81762512.91000000" sales="73171169.00000000"/>
+
+
+
+    </fundInfo>
+    <invstOrSecs>
+      <invstOrSec>
+        <name>Caris Life Sciences Inc</name>
+        <lei>549300LX5LO78M5VPY43</lei>
+        <title>Caris Life Sciences Inc</title>
+        <cusip>142152107</cusip>
+        <identifiers>
+          <isin value="US1421521071"/>
+        </identifiers>
+        <balance>191.00000000</balance>
+        <units>NS</units>
+        <curCd>USD</curCd>
+        <valUSD>5153.00000000</valUSD>
+        <pctVal>0.000425253026</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>US</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>1</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>State Street Bank &amp; Trust Co.</name>
+        <lei>571474TGEMMWANRLN572</lei>
+        <title>PURCHASED USD / SOLD EUR</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Trade Identifier" value="25JKKBB60RM"/>
+        </identifiers>
+        <balance>1.00000000</balance>
+        <units>NC</units>
+        <currencyConditional curCd="EUR" exchangeRt="0.85091900"/>
+        <valUSD>-95407.65000000</valUSD>
+        <pctVal>-0.00787354782</pctVal>
+        <payoffProfile>N/A</payoffProfile>
+        <assetCat>DFE</assetCat>
+        <issuerConditional desc="derivative" issuerCat="OTHER"/>
+        <invCountry>US</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>2</fairValLevel>
+        <derivativeInfo>
+          <fwdDeriv derivCat="FWD">
+            <counterparties>
+              <counterpartyName>State Street Bank &amp; Trust Co.</counterpartyName>
+              <counterpartyLei>571474TGEMMWANRLN572</counterpartyLei>
+            </counterparties>
+            <amtCurSold>17493312.80000000</amtCurSold>
+            <curSold>EUR</curSold>
+            <amtCurPur>20460297.61000000</amtCurPur>
+            <curPur>USD</curPur>
+            <settlementDt>2026-01-16</settlementDt>
+            <unrealizedAppr>-95407.65000000</unrealizedAppr>
+          </fwdDeriv>
+        </derivativeInfo>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>Royal Bank of Canada</name>
+        <lei>ES7IP3U3RHIGC71XBU11</lei>
+        <title>PURCHASED USD / SOLD EUR</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Trade Identifier" value="25JKKBB8NGC"/>
+        </identifiers>
+        <balance>1.00000000</balance>
+        <units>NC</units>
+        <currencyConditional curCd="EUR" exchangeRt="0.85091900"/>
+        <valUSD>-824044.41000000</valUSD>
+        <pctVal>-0.06800453703</pctVal>
+        <payoffProfile>N/A</payoffProfile>
+        <assetCat>DFE</assetCat>
+        <issuerConditional desc="derivative" issuerCat="OTHER"/>
+        <invCountry>US</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>2</fairValLevel>
+        <derivativeInfo>
+          <fwdDeriv derivCat="FWD">
+            <counterparties>
+              <counterpartyName>Royal Bank of Canada</counterpartyName>
+              <counterpartyLei>ES7IP3U3RHIGC71XBU11</counterpartyLei>
+            </counterparties>
+            <amtCurSold>155063162.82000000</amtCurSold>
+            <curSold>EUR</curSold>
+            <amtCurPur>181384591.99000000</amtCurPur>
+            <curPur>USD</curPur>
+            <settlementDt>2026-01-16</settlementDt>
+            <unrealizedAppr>-824044.41000000</unrealizedAppr>
+          </fwdDeriv>
+        </derivativeInfo>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>Royal Bank of Canada</name>
+        <lei>ES7IP3U3RHIGC71XBU11</lei>
+        <title>PURCHASED USD / SOLD GBP</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Trade Identifier" value="25JKKBB8PZ1"/>
+        </identifiers>
+        <balance>1.00000000</balance>
+        <units>NC</units>
+        <currencyConditional curCd="GBP" exchangeRt="0.74186700"/>
+        <valUSD>-83765.42000000</valUSD>
+        <pctVal>-0.00691276894</pctVal>
+        <payoffProfile>N/A</payoffProfile>
+        <assetCat>DFE</assetCat>
+        <issuerConditional desc="derivative" issuerCat="OTHER"/>
+        <invCountry>US</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>2</fairValLevel>
+        <derivativeInfo>
+          <fwdDeriv derivCat="FWD">
+            <counterparties>
+              <counterpartyName>Royal Bank of Canada</counterpartyName>
+              <counterpartyLei>ES7IP3U3RHIGC71XBU11</counterpartyLei>
+            </counterparties>
+            <amtCurSold>12607869.34000000</amtCurSold>
+            <curSold>GBP</curSold>
+            <amtCurPur>16874266.42000000</amtCurPur>
+            <curPur>USD</curPur>
+            <settlementDt>2026-01-16</settlementDt>
+            <unrealizedAppr>-83765.42000000</unrealizedAppr>
+          </fwdDeriv>
+        </derivativeInfo>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>State Street Bank &amp; Trust Co.</name>
+        <lei>571474TGEMMWANRLN572</lei>
+        <title>PURCHASED USD / SOLD GBP</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Trade Identifier" value="25JKKBB9DV5"/>
+        </identifiers>
+        <balance>1.00000000</balance>
+        <units>NC</units>
+        <currencyConditional curCd="GBP" exchangeRt="0.74186700"/>
+        <valUSD>-59274.72000000</valUSD>
+        <pctVal>-0.00489166584</pctVal>
+        <payoffProfile>N/A</payoffProfile>
+        <assetCat>DFE</assetCat>
+        <issuerConditional desc="derivative" issuerCat="OTHER"/>
+        <invCountry>US</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>2</fairValLevel>
+        <derivativeInfo>
+          <fwdDeriv derivCat="FWD">
+            <counterparties>
+              <counterpartyName>State Street Bank &amp; Trust Co.</counterpartyName>
+              <counterpartyLei>571474TGEMMWANRLN572</counterpartyLei>
+            </counterparties>
+            <amtCurSold>8324399.10000000</amtCurSold>
+            <curSold>GBP</curSold>
+            <amtCurPur>11137337.59000000</amtCurPur>
+            <curPur>USD</curPur>
+            <settlementDt>2026-01-16</settlementDt>
+            <unrealizedAppr>-59274.72000000</unrealizedAppr>
+          </fwdDeriv>
+        </derivativeInfo>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>Royal Bank of Canada</name>
+        <lei>ES7IP3U3RHIGC71XBU11</lei>
+        <title>PURCHASED USD / SOLD EUR</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Trade Identifier" value="25JSKBCC15M"/>
+        </identifiers>
+        <balance>1.00000000</balance>
+        <units>NC</units>
+        <currencyConditional curCd="EUR" exchangeRt="0.85091900"/>
+        <valUSD>-65665.96000000</valUSD>
+        <pctVal>-0.00541910503</pctVal>
+        <payoffProfile>N/A</payoffProfile>
+        <assetCat>DFE</assetCat>
+        <issuerConditional desc="derivative" issuerCat="OTHER"/>
+        <invCountry>US</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>2</fairValLevel>
+        <derivativeInfo>
+          <fwdDeriv derivCat="FWD">
+            <counterparties>
+              <counterpartyName>Royal Bank of Canada</counterpartyName>
+              <counterpartyLei>ES7IP3U3RHIGC71XBU11</counterpartyLei>
+            </counterparties>
+            <amtCurSold>12301026.46000000</amtCurSold>
+            <curSold>EUR</curSold>
+            <amtCurPur>14388787.42000000</amtCurPur>
+            <curPur>USD</curPur>
+            <settlementDt>2026-01-16</settlementDt>
+            <unrealizedAppr>-65665.96000000</unrealizedAppr>
+          </fwdDeriv>
+        </derivativeInfo>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>Royal Bank of Canada</name>
+        <lei>ES7IP3U3RHIGC71XBU11</lei>
+        <title>PURCHASED USD / SOLD GBP</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Trade Identifier" value="25JUKBCBL7B"/>
+        </identifiers>
+        <balance>1.00000000</balance>
+        <units>NC</units>
+        <currencyConditional curCd="GBP" exchangeRt="0.74186700"/>
+        <valUSD>-209543.11000000</valUSD>
+        <pctVal>-0.01729261434</pctVal>
+        <payoffProfile>N/A</payoffProfile>
+        <assetCat>DFE</assetCat>
+        <issuerConditional desc="derivative" issuerCat="OTHER"/>
+        <invCountry>US</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>2</fairValLevel>
+        <derivativeInfo>
+          <fwdDeriv derivCat="FWD">
+            <counterparties>
+              <counterpartyName>Royal Bank of Canada</counterpartyName>
+              <counterpartyLei>ES7IP3U3RHIGC71XBU11</counterpartyLei>
+            </counterparties>
+            <amtCurSold>8012875.71000000</amtCurSold>
+            <curSold>GBP</curSold>
+            <amtCurPur>10568059.18000000</amtCurPur>
+            <curPur>USD</curPur>
+            <settlementDt>2026-01-16</settlementDt>
+            <unrealizedAppr>-209543.11000000</unrealizedAppr>
+          </fwdDeriv>
+        </derivativeInfo>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>Royal Bank of Canada</name>
+        <lei>ES7IP3U3RHIGC71XBU11</lei>
+        <title>PURCHASED USD / SOLD EUR</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Trade Identifier" value="25LFKBCCRJ8"/>
+        </identifiers>
+        <balance>1.00000000</balance>
+        <units>NC</units>
+        <currencyConditional curCd="EUR" exchangeRt="0.85091900"/>
+        <valUSD>-87528.95000000</valUSD>
+        <pctVal>-0.00722335550</pctVal>
+        <payoffProfile>N/A</payoffProfile>
+        <assetCat>DFE</assetCat>
+        <issuerConditional desc="derivative" issuerCat="OTHER"/>
+        <invCountry>US</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>2</fairValLevel>
+        <derivativeInfo>
+          <fwdDeriv derivCat="FWD">
+            <counterparties>
+              <counterpartyName>Royal Bank of Canada</counterpartyName>
+              <counterpartyLei>ES7IP3U3RHIGC71XBU11</counterpartyLei>
+            </counterparties>
+            <amtCurSold>10229229.08000000</amtCurSold>
+            <curSold>EUR</curSold>
+            <amtCurPur>11932436.64000000</amtCurPur>
+            <curPur>USD</curPur>
+            <settlementDt>2026-01-16</settlementDt>
+            <unrealizedAppr>-87528.95000000</unrealizedAppr>
+          </fwdDeriv>
+        </derivativeInfo>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>Royal Bank of Canada</name>
+        <lei>ES7IP3U3RHIGC71XBU11</lei>
+        <title>PURCHASED USD / SOLD EUR</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Trade Identifier" value="25LHKBB5NQ1"/>
+        </identifiers>
+        <balance>1.00000000</balance>
+        <units>NC</units>
+        <currencyConditional curCd="EUR" exchangeRt="0.85091900"/>
+        <valUSD>-173921.78000000</valUSD>
+        <pctVal>-0.01435295232</pctVal>
+        <payoffProfile>N/A</payoffProfile>
+        <assetCat>DFE</assetCat>
+        <issuerConditional desc="derivative" issuerCat="OTHER"/>
+        <invCountry>US</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>2</fairValLevel>
+        <derivativeInfo>
+          <fwdDeriv derivCat="FWD">
+            <counterparties>
+              <counterpartyName>Royal Bank of Canada</counterpartyName>
+              <counterpartyLei>ES7IP3U3RHIGC71XBU11</counterpartyLei>
+            </counterparties>
+            <amtCurSold>23605819.82000000</amtCurSold>
+            <curSold>EUR</curSold>
+            <amtCurPur>27564350.56000000</amtCurPur>
+            <curPur>USD</curPur>
+            <settlementDt>2026-01-16</settlementDt>
+            <unrealizedAppr>-173921.78000000</unrealizedAppr>
+          </fwdDeriv>
+        </derivativeInfo>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>Royal Bank of Canada</name>
+        <lei>ES7IP3U3RHIGC71XBU11</lei>
+        <title>PURCHASED USD / SOLD GBP</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Trade Identifier" value="25LHKBB5PLT"/>
+        </identifiers>
+        <balance>1.00000000</balance>
+        <units>NC</units>
+        <currencyConditional curCd="GBP" exchangeRt="0.74186700"/>
+        <valUSD>-57120.60000000</valUSD>
+        <pctVal>-0.00471389637</pctVal>
+        <payoffProfile>N/A</payoffProfile>
+        <assetCat>DFE</assetCat>
+        <issuerConditional desc="derivative" issuerCat="OTHER"/>
+        <invCountry>US</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>2</fairValLevel>
+        <derivativeInfo>
+          <fwdDeriv derivCat="FWD">
+            <counterparties>
+              <counterpartyName>Royal Bank of Canada</counterpartyName>
+              <counterpartyLei>ES7IP3U3RHIGC71XBU11</counterpartyLei>
+            </counterparties>
+            <amtCurSold>5292620.00000000</amtCurSold>
+            <curSold>GBP</curSold>
+            <amtCurPur>7061641.19000000</amtCurPur>
+            <curPur>USD</curPur>
+            <settlementDt>2026-01-16</settlementDt>
+            <unrealizedAppr>-57120.60000000</unrealizedAppr>
+          </fwdDeriv>
+        </derivativeInfo>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>State Street Bank &amp; Trust Co.</name>
+        <lei>571474TGEMMWANRLN572</lei>
+        <title>PURCHASED USD / SOLD EUR</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Trade Identifier" value="25LRKBBRGM1"/>
+        </identifiers>
+        <balance>1.00000000</balance>
+        <units>NC</units>
+        <currencyConditional curCd="EUR" exchangeRt="0.85091900"/>
+        <valUSD>89200.16000000</valUSD>
+        <pctVal>0.007361272658</pctVal>
+        <payoffProfile>N/A</payoffProfile>
+        <assetCat>DFE</assetCat>
+        <issuerConditional desc="derivative" issuerCat="OTHER"/>
+        <invCountry>US</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>2</fairValLevel>
+        <derivativeInfo>
+          <fwdDeriv derivCat="FWD">
+            <counterparties>
+              <counterpartyName>State Street Bank &amp; Trust Co.</counterpartyName>
+              <counterpartyLei>571474TGEMMWANRLN572</counterpartyLei>
+            </counterparties>
+            <amtCurSold>19487717.22000000</amtCurSold>
+            <curSold>EUR</curSold>
+            <amtCurPur>22988451.77000000</amtCurPur>
+            <curPur>USD</curPur>
+            <settlementDt>2026-01-16</settlementDt>
+            <unrealizedAppr>89200.16000000</unrealizedAppr>
+          </fwdDeriv>
+        </derivativeInfo>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>State Street Institutional US Government Money Market Fund</name>
+        <lei>549300BZ5TGIFZUZDZ37</lei>
+        <title>State Street Institutional US Government Money Market Fund</title>
+        <cusip>857492706</cusip>
+        <identifiers>
+          <isin value="US8574927062"/>
+        </identifiers>
+        <balance>24847968.18000000</balance>
+        <units>NS</units>
+        <curCd>USD</curCd>
+        <valUSD>24847968.18000000</valUSD>
+        <pctVal>2.050586778989</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>RF</issuerCat>
+        <invCountry>US</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>1</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>THOMA BRAVO FUND XIII A, L.P</name>
+        <lei>N/A</lei>
+        <title>THOMA BRAVO FUND XIII A, L.P</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="902CSEII5"/>
+        </identifiers>
+        <balance>7750.49000000</balance>
+        <units>NS</units>
+        <curCd>USD</curCd>
+        <valUSD>8885990.29000000</valUSD>
+        <pctVal>0.733319282884</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>US</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>SILVERFORT, INC.</name>
+        <lei>N/A</lei>
+        <title>SILVERFORT, INC.</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="902CSF000"/>
+        </identifiers>
+        <balance>159276.00000000</balance>
+        <units>NS</units>
+        <curCd>USD</curCd>
+        <valUSD>300000.01000000</valUSD>
+        <pctVal>0.024757599886</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>US</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>3</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>BAIN CAP FUND (LUX) XII,SCSP</name>
+        <lei>N/A</lei>
+        <title>BAIN CAP FUND (LUX) XII,SCSP</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="902CUZ904"/>
+        </identifiers>
+        <balance>1334.06000000</balance>
+        <units>NS</units>
+        <curCd>USD</curCd>
+        <valUSD>2544986.00000000</valUSD>
+        <pctVal>0.210025810018</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>LU</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>PERMIRA 45 CF SCSP</name>
+        <lei>N/A</lei>
+        <title>PERMIRA 45 CF SCSP</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="902EDW906"/>
+        </identifiers>
+        <balance>37227.25000000</balance>
+        <units>NS</units>
+        <curCd>USD</curCd>
+        <valUSD>42385245.00000000</valUSD>
+        <pctVal>3.497856339464</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>LU</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>APAX VIII B, L.P.</name>
+        <lei>N/A</lei>
+        <title>APAX VIII B, L.P.</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="948PZZ906"/>
+        </identifiers>
+        <balance>1032.49000000</balance>
+        <units>NS</units>
+        <curCd>USD</curCd>
+        <valUSD>306007.00000000</valUSD>
+        <pctVal>0.025253328720</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>GG</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>ASTORG NORMEC FUND LP</name>
+        <lei>N/A</lei>
+        <title>ASTORG NORMEC FUND LP</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="948ZXY909"/>
+        </identifiers>
+        <balance>274.05000000</balance>
+        <units>NS</units>
+        <currencyConditional curCd="EUR" exchangeRt="0.85091900"/>
+        <valUSD>439249.80000000</valUSD>
+        <pctVal>0.036249234787</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>LU</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>CARLYLE ASIA PARTNERS V, L.P.</name>
+        <lei>5493009TPAFXXO020U41</lei>
+        <title>CARLYLE ASIA PARTNERS V, L.P.</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="954BLT006"/>
+        </identifiers>
+        <balance>2953.07000000</balance>
+        <units>NS</units>
+        <curCd>USD</curCd>
+        <valUSD>3321042.00000000</valUSD>
+        <pctVal>0.274070087676</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>US</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>EQT IX NUMBER 2 EUR SCSP</name>
+        <lei>N/A</lei>
+        <title>EQT IX NUMBER 2 EUR SCSP</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="954BLT907"/>
+        </identifiers>
+        <balance>5450.50000000</balance>
+        <units>NS</units>
+        <currencyConditional curCd="EUR" exchangeRt="0.85091900"/>
+        <valUSD>8346715.14000000</valUSD>
+        <pctVal>0.688815423059</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>LU</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>CARLYLE PARTNERS VII, L.P.</name>
+        <lei>549300F8LRP7EYGJD520</lei>
+        <title>CARLYLE PARTNERS VII, L.P.</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="954BLTII8"/>
+        </identifiers>
+        <balance>2820.45000000</balance>
+        <units>NS</units>
+        <curCd>USD</curCd>
+        <valUSD>3415234.00000000</valUSD>
+        <pctVal>0.281843313578</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>US</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>NORDIC CAPITAL IX BETA, L.P.</name>
+        <lei>2138001ANY7W6B68B676</lei>
+        <title>NORDIC CAPITAL IX BETA, L.P.</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="954BLU003"/>
+        </identifiers>
+        <balance>4108.78000000</balance>
+        <units>NS</units>
+        <currencyConditional curCd="EUR" exchangeRt="0.85091900"/>
+        <valUSD>5667498.45000000</valUSD>
+        <pctVal>0.467712181025</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>LU</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>SIXTH CINVEN FUND NO. 4, L.P.</name>
+        <lei>213800RANQU6Y1CA6G07</lei>
+        <title>SIXTH CINVEN FUND NO. 4, L.P.</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="954BLW900"/>
+        </identifiers>
+        <balance>97.02000000</balance>
+        <units>NS</units>
+        <currencyConditional curCd="EUR" exchangeRt="0.85091900"/>
+        <valUSD>644044.80000000</valUSD>
+        <pctVal>0.053150009787</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>LU</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>CARLYLE EUROPE PARTNERS V SCSP</name>
+        <lei>549300F8L4GXUES6GL87</lei>
+        <title>CARLYLE EUROPE PARTNERS V SCSP</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="954BLWII1"/>
+        </identifiers>
+        <balance>4222.40000000</balance>
+        <units>NS</units>
+        <currencyConditional curCd="EUR" exchangeRt="0.85091900"/>
+        <valUSD>3579117.40000000</valUSD>
+        <pctVal>0.295367845279</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>LU</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>VISTA EQ PARTNER FUND VII A LP</name>
+        <lei>254900D18W0SRD803M83</lei>
+        <title>VISTA EQ PARTNER FUND VII A LP</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="954BLX007"/>
+        </identifiers>
+        <balance>4060.25000000</balance>
+        <units>NS</units>
+        <curCd>USD</curCd>
+        <valUSD>4017053.00000000</valUSD>
+        <pctVal>0.331508625277</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>US</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>ADVENT INTL GPE VII B L.P.</name>
+        <lei>549300NOHS4GXEX34N55</lei>
+        <title>ADVENT INTL GPE VII B L.P.</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="954BLX908"/>
+        </identifiers>
+        <balance>1082.47000000</balance>
+        <units>NS</units>
+        <curCd>USD</curCd>
+        <valUSD>1091983.00000000</valUSD>
+        <pctVal>0.090116257653</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>US</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>VISTA FOUNDATION FUND IV A LP</name>
+        <lei>N/A</lei>
+        <title>VISTA FOUNDATION FUND IV A LP</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="954BLXII9"/>
+        </identifiers>
+        <balance>1104.88000000</balance>
+        <units>NS</units>
+        <curCd>USD</curCd>
+        <valUSD>1227334.00000000</valUSD>
+        <pctVal>0.101286143622</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>US</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>AEA INVESTORS FUND V LP</name>
+        <lei>5493004XEFP641R6SG85</lei>
+        <title>AEA INVESTORS FUND V LP</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="954BLY005"/>
+        </identifiers>
+        <balance>834.93000000</balance>
+        <units>NS</units>
+        <curCd>USD</curCd>
+        <valUSD>735841.00000000</valUSD>
+        <pctVal>0.060725521503</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>US</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>AFFINITY ASIAPACIFICFUND IV LP</name>
+        <lei>N/A</lei>
+        <title>AFFINITY ASIAPACIFICFUND IV LP</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="954BLZ002"/>
+        </identifiers>
+        <balance>4508.91000000</balance>
+        <units>NS</units>
+        <curCd>USD</curCd>
+        <valUSD>4824588.00000000</valUSD>
+        <pctVal>0.398150717805</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>KY</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>APOLLO INVESTMENT FUND IX, LP</name>
+        <lei>549300MSP09WK2JRPO47</lei>
+        <title>APOLLO INVESTMENT FUND IX, LP</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="954BLZ903"/>
+        </identifiers>
+        <balance>13685.62000000</balance>
+        <units>NS</units>
+        <curCd>USD</curCd>
+        <valUSD>14908476.03000000</valUSD>
+        <pctVal>1.230326907235</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>US</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>APOLLO OVERSEASPARTNER VIII LP</name>
+        <lei>N/A</lei>
+        <title>APOLLO OVERSEASPARTNER VIII LP</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="954BMA006"/>
+        </identifiers>
+        <balance>2965.14000000</balance>
+        <units>NS</units>
+        <curCd>USD</curCd>
+        <valUSD>2583408.66000000</valUSD>
+        <pctVal>0.213196652722</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>US</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>ASTORG VI</name>
+        <lei>N/A</lei>
+        <title>ASTORG VI</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="954BMA907"/>
+        </identifiers>
+        <balance>1245.73000000</balance>
+        <units>NS</units>
+        <currencyConditional curCd="EUR" exchangeRt="0.85091900"/>
+        <valUSD>1869004.93000000</valUSD>
+        <pctVal>0.154240249003</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>FR</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>ARES CORPORATE OPP FUND IV LP</name>
+        <lei>N/A</lei>
+        <title>ARES CORPORATE OPP FUND IV LP</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="954BMAII8"/>
+        </identifiers>
+        <balance>1406.27000000</balance>
+        <units>NS</units>
+        <curCd>USD</curCd>
+        <valUSD>1107297.97000000</valUSD>
+        <pctVal>0.091380130610</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>US</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>ASTORG VII</name>
+        <lei>N/A</lei>
+        <title>ASTORG VII</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="954BMB004"/>
+        </identifiers>
+        <balance>2300.60000000</balance>
+        <units>NS</units>
+        <currencyConditional curCd="EUR" exchangeRt="0.85091900"/>
+        <valUSD>3180801.67000000</valUSD>
+        <pctVal>0.262496708134</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>FR</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>BPEA PRIVATEEQUITY FUND VI LP2</name>
+        <lei>N/A</lei>
+        <title>BPEA PRIVATEEQUITY FUND VI LP2</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="954BMB905"/>
+        </identifiers>
+        <balance>1292.98000000</balance>
+        <units>NS</units>
+        <curCd>USD</curCd>
+        <valUSD>1235555.53000000</valUSD>
+        <pctVal>0.101964628100</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>US</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>AXCEL V K.S</name>
+        <lei>N/A</lei>
+        <title>AXCEL V K.S</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="954BMBII6"/>
+        </identifiers>
+        <balance>240.56000000</balance>
+        <units>NS</units>
+        <currencyConditional curCd="EUR" exchangeRt="0.85091900"/>
+        <valUSD>1540753.00000000</valUSD>
+        <pctVal>0.127151150090</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>DK</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>CD+R VALUE BUILD PARTNERS I LP</name>
+        <lei>N/A</lei>
+        <title>CD+R VALUE BUILD PARTNERS I LP</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="954BMD000"/>
+        </identifiers>
+        <balance>1702.51000000</balance>
+        <units>NS</units>
+        <curCd>USD</curCd>
+        <valUSD>2373734.00000000</valUSD>
+        <pctVal>0.195893182169</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>US</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>CLAYTONDUBILIERRICE FUND IX LP</name>
+        <lei>N/A</lei>
+        <title>CLAYTONDUBILIERRICE FUND IX LP</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="954BMD901"/>
+        </identifiers>
+        <balance>4857.93000000</balance>
+        <units>NS</units>
+        <curCd>USD</curCd>
+        <valUSD>4369882.00000000</valUSD>
+        <pctVal>0.360625955008</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>US</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>CHARLESBANK EQUITYFUND VIII LP</name>
+        <lei>N/A</lei>
+        <title>CHARLESBANK EQUITYFUND VIII LP</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="954BMDII2"/>
+        </identifiers>
+        <balance>2670.45000000</balance>
+        <units>NS</units>
+        <curCd>USD</curCd>
+        <valUSD>2496476.00000000</valUSD>
+        <pctVal>0.206022506250</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>US</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>CLAYTONDUBILIERRICE FUND X LP</name>
+        <lei>N/A</lei>
+        <title>CLAYTONDUBILIERRICE FUND X LP</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="954BME008"/>
+        </identifiers>
+        <balance>4429.61000000</balance>
+        <units>NS</units>
+        <curCd>USD</curCd>
+        <valUSD>4585654.00000000</valUSD>
+        <pctVal>0.378432610557</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>US</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>EQUISTONE EUROPE FUND IV B LP</name>
+        <lei>N/A</lei>
+        <title>EQUISTONE EUROPE FUND IV B LP</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="954BME909"/>
+        </identifiers>
+        <balance>232.73000000</balance>
+        <units>NS</units>
+        <currencyConditional curCd="EUR" exchangeRt="0.85091900"/>
+        <valUSD>323354.01000000</valUSD>
+        <pctVal>0.026684896448</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>GB</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>CVC CAPITAL PARTNERS VI A LP</name>
+        <lei>N/A</lei>
+        <title>CVC CAPITAL PARTNERS VI A LP</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="954BMEII0"/>
+        </identifiers>
+        <balance>4629.65000000</balance>
+        <units>NS</units>
+        <currencyConditional curCd="EUR" exchangeRt="0.85091900"/>
+        <valUSD>6455895.18000000</valUSD>
+        <pctVal>0.532774881501</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>JE</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>GRYPHON PARTNERS V A, L.P.</name>
+        <lei>N/A</lei>
+        <title>GRYPHON PARTNERS V A, L.P.</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="954BMF005"/>
+        </identifiers>
+        <balance>4506.37000000</balance>
+        <units>NS</units>
+        <curCd>USD</curCd>
+        <valUSD>6039859.44000000</valUSD>
+        <pctVal>0.498441394680</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>US</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>HGCAPITAL 8 D L.P.</name>
+        <lei>N/A</lei>
+        <title>HGCAPITAL 8 D L.P.</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="954BMF906"/>
+        </identifiers>
+        <balance>3636.67000000</balance>
+        <units>NS</units>
+        <currencyConditional curCd="GBP" exchangeRt="0.74186700"/>
+        <valUSD>4371404.85000000</valUSD>
+        <pctVal>0.360751628707</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>GB</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>HARREN INVESTORS III, L.P.</name>
+        <lei>N/A</lei>
+        <title>HARREN INVESTORS III, L.P.</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="954BMFII7"/>
+        </identifiers>
+        <balance>3737.05000000</balance>
+        <units>NS</units>
+        <curCd>USD</curCd>
+        <valUSD>2863770.00000000</valUSD>
+        <pctVal>0.236333564882</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>US</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>HGCAPITAL MERCURY 2 D L.P.</name>
+        <lei>N/A</lei>
+        <title>HGCAPITAL MERCURY 2 D L.P.</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="954BMG003"/>
+        </identifiers>
+        <balance>2921.12000000</balance>
+        <units>NS</units>
+        <currencyConditional curCd="GBP" exchangeRt="0.74186700"/>
+        <valUSD>4252698.93000000</valUSD>
+        <pctVal>0.350955383462</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>GB</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>HONY CAPITAL FUND V, L.P.</name>
+        <lei>N/A</lei>
+        <title>HONY CAPITAL FUND V, L.P.</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="954BMGII5"/>
+        </identifiers>
+        <balance>1377.36000000</balance>
+        <units>NS</units>
+        <curCd>USD</curCd>
+        <valUSD>1426877.54000000</valUSD>
+        <pctVal>0.117753540151</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>US</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>NAUTIC PARTNERS VII A, L.P.</name>
+        <lei>N/A</lei>
+        <title>NAUTIC PARTNERS VII A, L.P.</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="954BMH001"/>
+        </identifiers>
+        <balance>1834.48000000</balance>
+        <units>NS</units>
+        <curCd>USD</curCd>
+        <valUSD>1425753.00000000</valUSD>
+        <pctVal>0.117660737116</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>US</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>NAVIS ASIA FUND VII, L.P.</name>
+        <lei>N/A</lei>
+        <title>NAVIS ASIA FUND VII, L.P.</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="954BMHII3"/>
+        </identifiers>
+        <balance>6939.65000000</balance>
+        <units>NS</units>
+        <curCd>USD</curCd>
+        <valUSD>6510945.00000000</valUSD>
+        <pctVal>0.537317886074</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>KY</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>NORDIC CAPITAL VIII ALPHA LP</name>
+        <lei>N/A</lei>
+        <title>NORDIC CAPITAL VIII ALPHA LP</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="954BMJ007"/>
+        </identifiers>
+        <balance>2192.97000000</balance>
+        <units>NS</units>
+        <currencyConditional curCd="EUR" exchangeRt="0.85091900"/>
+        <valUSD>3304532.84000000</valUSD>
+        <pctVal>0.272707663795</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>JE</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>PERMIRA V L.P.</name>
+        <lei>N/A</lei>
+        <title>PERMIRA V L.P.</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="954BMJ908"/>
+        </identifiers>
+        <balance>1618.70000000</balance>
+        <units>NS</units>
+        <currencyConditional curCd="EUR" exchangeRt="0.85091900"/>
+        <valUSD>359777.44000000</valUSD>
+        <pctVal>0.029690752036</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>GG</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>TRIDENT VI PARALLEL FUND, L.P.</name>
+        <lei>N/A</lei>
+        <title>TRIDENT VI PARALLEL FUND, L.P.</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="954BML903"/>
+        </identifiers>
+        <balance>2132.47000000</balance>
+        <units>NS</units>
+        <curCd>USD</curCd>
+        <valUSD>2842752.00000000</valUSD>
+        <pctVal>0.234599047492</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>US</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>VITRUVIAN INV PARTNERSHIP III</name>
+        <lei>N/A</lei>
+        <title>VITRUVIAN INV PARTNERSHIP III</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="954BMM000"/>
+        </identifiers>
+        <balance>8992.78000000</balance>
+        <units>NS</units>
+        <currencyConditional curCd="EUR" exchangeRt="0.85091900"/>
+        <valUSD>12169861.03000000</valUSD>
+        <pctVal>1.004321800055</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>GB</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>VICTORIA S AMERICAN PRTS II LP</name>
+        <lei>N/A</lei>
+        <title>VICTORIA S AMERICAN PRTS II LP</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="954BMS908"/>
+        </identifiers>
+        <balance>1531.33000000</balance>
+        <units>NS</units>
+        <curCd>USD</curCd>
+        <valUSD>200154.30000000</valUSD>
+        <pctVal>0.016517799699</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>US</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>KOHLBERG TE INVESTORS VIII LP</name>
+        <lei>N/A</lei>
+        <title>KOHLBERG TE INVESTORS VIII LP</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="954BMSII9"/>
+        </identifiers>
+        <balance>9747.14000000</balance>
+        <units>NS</units>
+        <curCd>USD</curCd>
+        <valUSD>9221031.00000000</valUSD>
+        <pctVal>0.760968628109</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>US</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>CB OFFSHOREEQUITY FUND IX LP</name>
+        <lei>N/A</lei>
+        <title>CB OFFSHOREEQUITY FUND IX LP</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="954BMT005"/>
+        </identifiers>
+        <balance>3422.41000000</balance>
+        <units>NS</units>
+        <curCd>USD</curCd>
+        <valUSD>3675685.00000000</valUSD>
+        <pctVal>0.303337118356</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>US</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>PAI EUROPE VI 1 SCSP</name>
+        <lei>N/A</lei>
+        <title>PAI EUROPE VI 1 SCSP</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="954CLL001"/>
+        </identifiers>
+        <balance>338.95000000</balance>
+        <units>NS</units>
+        <currencyConditional curCd="EUR" exchangeRt="0.85091900"/>
+        <valUSD>371906.30000000</valUSD>
+        <pctVal>0.030691690212</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>FR</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>PAI EUROPE VI 1 SCSPFPCI</name>
+        <lei>N/A</lei>
+        <title>PAI EUROPE VI 1 SCSPFPCI</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="954CLLII3"/>
+        </identifiers>
+        <balance>3278.58000000</balance>
+        <units>NS</units>
+        <currencyConditional curCd="EUR" exchangeRt="0.85091900"/>
+        <valUSD>3597347.60000000</valUSD>
+        <pctVal>0.296872298553</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>FR</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>CARLYLE PARTNERS VII, L.P. 3B</name>
+        <lei>549300F8LRP7EYGJD520</lei>
+        <title>CARLYLE PARTNERS VII, L.P. 3B</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="954CTYII7"/>
+        </identifiers>
+        <balance>581.16000000</balance>
+        <units>NS</units>
+        <curCd>USD</curCd>
+        <valUSD>617627.00000000</valUSD>
+        <pctVal>0.050969872118</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>US</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>A11 USD FEEDER L.P.</name>
+        <lei>N/A</lei>
+        <title>A11 USD FEEDER L.P.</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="954CVQ900"/>
+        </identifiers>
+        <balance>186.60000000</balance>
+        <units>NS</units>
+        <curCd>USD</curCd>
+        <valUSD>200050.00000000</valUSD>
+        <pctVal>0.016509192307</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>US</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>A10 USD FEEDER L.P.</name>
+        <lei>2138004NLR9OU4738Y85</lei>
+        <title>A10 USD FEEDER L.P.</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="954CVQII1"/>
+        </identifiers>
+        <balance>2645.69000000</balance>
+        <units>NS</units>
+        <curCd>USD</curCd>
+        <valUSD>3247046.82000000</valUSD>
+        <pctVal>0.267963611013</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>US</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>KKR AMERICAS FUND XII EEA LP</name>
+        <lei>549300A6UDZ4P3UGCO82</lei>
+        <title>KKR AMERICAS FUND XII EEA LP</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="954CVR908"/>
+        </identifiers>
+        <balance>5580.23000000</balance>
+        <units>NS</units>
+        <curCd>USD</curCd>
+        <valUSD>10648470.00000000</valUSD>
+        <pctVal>0.878768502932</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>US</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>TPG ASIA VII B L.P.</name>
+        <lei>N/A</lei>
+        <title>TPG ASIA VII B L.P.</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="954CVS906"/>
+        </identifiers>
+        <balance>1591.85000000</balance>
+        <units>NS</units>
+        <curCd>USD</curCd>
+        <valUSD>2152767.00000000</valUSD>
+        <pctVal>0.177657807530</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>US</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>KKR EUROPEAN FUND V EUR SCSP</name>
+        <lei>549300H8RFQ8KOAWCL42</lei>
+        <title>KKR EUROPEAN FUND V EUR SCSP</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="954CVSII7"/>
+        </identifiers>
+        <balance>4482.27000000</balance>
+        <units>NS</units>
+        <currencyConditional curCd="EUR" exchangeRt="0.85091900"/>
+        <valUSD>7147320.72000000</valUSD>
+        <pctVal>0.589835002502</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>GB</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>TPG HEALTHCARE PARTNERS, L.P.</name>
+        <lei>N/A</lei>
+        <title>TPG HEALTHCARE PARTNERS, L.P.</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="954CVT003"/>
+        </identifiers>
+        <balance>14659.29000000</balance>
+        <units>NS</units>
+        <curCd>USD</curCd>
+        <valUSD>18292437.83000000</valUSD>
+        <pctVal>1.509589472183</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>US</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>TPG PARTNERS VIII, L.P.</name>
+        <lei>549300D5KPNL1WZ1AU21</lei>
+        <title>TPG PARTNERS VIII, L.P.</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="954CVTII5"/>
+        </identifiers>
+        <balance>2350.85000000</balance>
+        <units>NS</units>
+        <curCd>USD</curCd>
+        <valUSD>2965852.90000000</valUSD>
+        <pctVal>0.244757989913</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>US</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>GASHERBRUM FUND II, L.P.</name>
+        <lei>N/A</lei>
+        <title>GASHERBRUM FUND II, L.P.</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="954MDQII9"/>
+        </identifiers>
+        <balance>10711.00000000</balance>
+        <units>NS</units>
+        <curCd>USD</curCd>
+        <valUSD>18222788.00000000</valUSD>
+        <pctVal>1.503841596964</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>US</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>CB OFFSHORE TECHNOLOGY FUND II</name>
+        <lei>N/A</lei>
+        <title>CB OFFSHORE TECHNOLOGY FUND II</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="954PNDII0"/>
+        </identifiers>
+        <balance>457.78000000</balance>
+        <units>NS</units>
+        <curCd>USD</curCd>
+        <valUSD>470803.00000000</valUSD>
+        <pctVal>0.038853173036</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>US</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>VIP V FEEDER S.C.SP.</name>
+        <lei>254900SHZW4FV8VB0I54</lei>
+        <title>VIP V FEEDER S.C.SP.</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="954PNEII8"/>
+        </identifiers>
+        <balance>1811.28000000</balance>
+        <units>NS</units>
+        <currencyConditional curCd="EUR" exchangeRt="0.85091900"/>
+        <valUSD>1960650.72000000</valUSD>
+        <pctVal>0.161803348085</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>LU</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>KKR NORTH AMERICA XIII SCSP</name>
+        <lei>N/A</lei>
+        <title>KKR NORTH AMERICA XIII SCSP</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="954QZY908"/>
+        </identifiers>
+        <balance>17541.73000000</balance>
+        <units>NS</units>
+        <curCd>USD</curCd>
+        <valUSD>18718743.25000000</valUSD>
+        <pctVal>1.544770467737</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>US</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>DEXTRA INVESTMENT VII LUXSCSP</name>
+        <lei>N/A</lei>
+        <title>DEXTRA INVESTMENT VII LUXSCSP</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="955BVJ907"/>
+        </identifiers>
+        <balance>13499.06000000</balance>
+        <units>NS</units>
+        <curCd>USD</curCd>
+        <valUSD>16559983.00000000</valUSD>
+        <pctVal>1.366618065271</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>LU</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>CB OFFSHORE CF I, L.P.</name>
+        <lei>N/A</lei>
+        <title>CB OFFSHORE CF I, L.P.</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="955HHR902"/>
+        </identifiers>
+        <balance>4000.65000000</balance>
+        <units>NS</units>
+        <curCd>USD</curCd>
+        <valUSD>12090897.00000000</valUSD>
+        <pctVal>0.997805267405</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>US</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>TPG IX CARDIFF CI II, L.P.</name>
+        <lei>N/A</lei>
+        <title>TPG IX CARDIFF CI II, L.P.</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="955HHT007"/>
+        </identifiers>
+        <balance>11188.14000000</balance>
+        <units>NS</units>
+        <curCd>USD</curCd>
+        <valUSD>13384510.00000000</valUSD>
+        <pctVal>1.104561107388</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>US</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>LINDSAY GOLDBERG ATTAIN L.P.</name>
+        <lei>N/A</lei>
+        <title>LINDSAY GOLDBERG ATTAIN L.P.</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="955HHUII6"/>
+        </identifiers>
+        <balance>8390.59000000</balance>
+        <units>NS</units>
+        <curCd>USD</curCd>
+        <valUSD>10727413.00000000</valUSD>
+        <pctVal>0.885283300075</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>US</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>ALTERI EXTENDED VALUE L.P.</name>
+        <lei>N/A</lei>
+        <title>ALTERI EXTENDED VALUE L.P.</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="955HHX008"/>
+        </identifiers>
+        <balance>13611.17000000</balance>
+        <units>NS</units>
+        <currencyConditional curCd="EUR" exchangeRt="0.85091900"/>
+        <valUSD>31945557.04000000</valUSD>
+        <pctVal>2.636317643323</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>JE</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>BAIN CAPITAL FUND X, L.P.</name>
+        <lei>TPRV1F264F5RGN7HK689</lei>
+        <title>BAIN CAPITAL FUND X, L.P.</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="955HKTII5"/>
+        </identifiers>
+        <balance>2622.55000000</balance>
+        <units>NS</units>
+        <curCd>USD</curCd>
+        <valUSD>2899175.00000000</valUSD>
+        <pctVal>0.239255374198</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>US</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>BLACKSTONE CAPITALPART VII LP</name>
+        <lei>N/A</lei>
+        <title>BLACKSTONE CAPITALPART VII LP</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="955HZD903"/>
+        </identifiers>
+        <balance>13746.02000000</balance>
+        <units>NS</units>
+        <curCd>USD</curCd>
+        <valUSD>17395979.59000000</valUSD>
+        <pctVal>1.435608959912</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>US</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>BLACKSTONE CAPITAL PART VI LP</name>
+        <lei>N/A</lei>
+        <title>BLACKSTONE CAPITAL PART VI LP</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="955HZDII4"/>
+        </identifiers>
+        <balance>496.47000000</balance>
+        <units>NS</units>
+        <curCd>USD</curCd>
+        <valUSD>914148.72000000</valUSD>
+        <pctVal>0.075440424974</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>US</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>CARLYLE PARTNERS VII 3BCOBALT</name>
+        <lei>549300F8LRP7EYGJD520</lei>
+        <title>CARLYLE PARTNERS VII 3BCOBALT</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="955JGY003"/>
+        </identifiers>
+        <balance>21576.84000000</balance>
+        <units>NS</units>
+        <curCd>USD</curCd>
+        <valUSD>25808591.00000000</valUSD>
+        <pctVal>2.129862494412</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>US</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>ADVENT GLOBAL TECH II A SCSP</name>
+        <lei>254900HYXXKC8SGP2J19</lei>
+        <title>ADVENT GLOBAL TECH II A SCSP</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="955LPKII0"/>
+        </identifiers>
+        <balance>7316.15000000</balance>
+        <units>NS</units>
+        <curCd>USD</curCd>
+        <valUSD>8545235.00000000</valUSD>
+        <pctVal>0.705198340058</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>US</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>ADVENT INTERNATIONAL GPE IX A</name>
+        <lei>222100IKWW14G1IVO482</lei>
+        <title>ADVENT INTERNATIONAL GPE IX A</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="955LPLII8"/>
+        </identifiers>
+        <balance>13181.60000000</balance>
+        <units>NS</units>
+        <currencyConditional curCd="EUR" exchangeRt="0.85091900"/>
+        <valUSD>15056769.21000000</valUSD>
+        <pctVal>1.242564850882</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>LU</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>CVC CAPITAL PARTNERS VII A LP</name>
+        <lei>213800LZY97F6Q2RKD65</lei>
+        <title>CVC CAPITAL PARTNERS VII A LP</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="955LPPII9"/>
+        </identifiers>
+        <balance>14200.65000000</balance>
+        <units>NS</units>
+        <currencyConditional curCd="EUR" exchangeRt="0.85091900"/>
+        <valUSD>21352499.69000000</valUSD>
+        <pctVal>1.762122087629</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>JE</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>SEVENTH CINVEN FUND NO1 LP</name>
+        <lei>N/A</lei>
+        <title>SEVENTH CINVEN FUND NO1 LP</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="955LPXII2"/>
+        </identifiers>
+        <balance>11729.77000000</balance>
+        <units>NS</units>
+        <currencyConditional curCd="EUR" exchangeRt="0.85091900"/>
+        <valUSD>14598236.74000000</valUSD>
+        <pctVal>1.204724307385</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>GG</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>SIXTH CINVEN FUND NO2 LP</name>
+        <lei>N/A</lei>
+        <title>SIXTH CINVEN FUND NO2 LP</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="955LPYII0"/>
+        </identifiers>
+        <balance>1402.48000000</balance>
+        <units>NS</units>
+        <currencyConditional curCd="EUR" exchangeRt="0.85091900"/>
+        <valUSD>3022859.16000000</valUSD>
+        <pctVal>0.249462450343</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>GG</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>BANNEKER CV, L.P.</name>
+        <lei>N/A</lei>
+        <title>BANNEKER CV, L.P.</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="955PFK000"/>
+        </identifiers>
+        <balance>9515.60000000</balance>
+        <units>NS</units>
+        <curCd>USD</curCd>
+        <valUSD>12314198.00000000</valUSD>
+        <pctVal>1.016233256165</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>US</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>HGGC HAWK FUND, L.P.</name>
+        <lei>N/A</lei>
+        <title>HGGC HAWK FUND, L.P.</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="955XAE903"/>
+        </identifiers>
+        <balance>9178.14000000</balance>
+        <units>NS</units>
+        <curCd>USD</curCd>
+        <valUSD>10504858.00000000</valUSD>
+        <pctVal>0.866916875211</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>US</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>ADVENT GLOBAL TECH A SCSP</name>
+        <lei>N/A</lei>
+        <title>ADVENT GLOBAL TECH A SCSP</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="955XMKII7"/>
+        </identifiers>
+        <balance>1972.92000000</balance>
+        <units>NS</units>
+        <curCd>USD</curCd>
+        <valUSD>2289043.00000000</valUSD>
+        <pctVal>0.188904029429</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>LU</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>ADVENT INTER GPE VII LP</name>
+        <lei>549300DSCB2VQZ4UOQ97</lei>
+        <title>ADVENT INTER GPE VII LP</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="955XMLII5"/>
+        </identifiers>
+        <balance>719.44000000</balance>
+        <units>NS</units>
+        <currencyConditional curCd="EUR" exchangeRt="0.85091900"/>
+        <valUSD>826453.52000000</valUSD>
+        <pctVal>0.068203349637</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>US</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>ADVENT INTER GPE X E SCSP</name>
+        <lei>2549002MIO50IKJNAO66</lei>
+        <title>ADVENT INTER GPE X E SCSP</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="955XMMII3"/>
+        </identifiers>
+        <balance>10516.96000000</balance>
+        <units>NS</units>
+        <currencyConditional curCd="EUR" exchangeRt="0.85091900"/>
+        <valUSD>13242372.07000000</valUSD>
+        <pctVal>1.092831127780</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>LU</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>GLOBAL INFRASTR PARTN V B F</name>
+        <lei>N/A</lei>
+        <title>GLOBAL INFRASTR PARTN V B F</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="955XMUII5"/>
+        </identifiers>
+        <balance>925.36000000</balance>
+        <units>NS</units>
+        <curCd>USD</curCd>
+        <valUSD>820095.71000000</valUSD>
+        <pctVal>0.067678669267</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>KY</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>AD INTER GPEVIII LP</name>
+        <lei>254900TXR721T20ESK75</lei>
+        <title>AD INTER GPEVIII LP</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="955YXLII1"/>
+        </identifiers>
+        <balance>8006.91000000</balance>
+        <units>NS</units>
+        <currencyConditional curCd="EUR" exchangeRt="0.85091900"/>
+        <valUSD>8669908.65000000</valUSD>
+        <pctVal>0.715487074192</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>US</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>TPG PARTNERS VI, L.P.</name>
+        <lei>5493001PROOC6XV33S73</lei>
+        <title>TPG PARTNERS VI, L.P.</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="955YXYII3"/>
+        </identifiers>
+        <balance>1424.66000000</balance>
+        <units>NS</units>
+        <curCd>USD</curCd>
+        <valUSD>3153870.00000000</valUSD>
+        <pctVal>0.260274163175</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>US</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>MOTION CONTIN II FPCI A1</name>
+        <lei>N/A</lei>
+        <title>MOTION CONTIN II FPCI A1</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="955ZNRII6"/>
+        </identifiers>
+        <balance>5306.70000000</balance>
+        <units>NS</units>
+        <currencyConditional curCd="EUR" exchangeRt="0.85091900"/>
+        <valUSD>8316268.41000000</valUSD>
+        <pctVal>0.686302796612</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>FR</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>MOTION CONTIN II FPCI A2</name>
+        <lei>N/A</lei>
+        <title>MOTION CONTIN II FPCI A2</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="955ZNSII4"/>
+        </identifiers>
+        <balance>2274.30000000</balance>
+        <units>NS</units>
+        <currencyConditional curCd="EUR" exchangeRt="0.85091900"/>
+        <valUSD>3564115.03000000</valUSD>
+        <pctVal>0.294129769740</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>FR</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>VISTA EQ PARTNER HUBBLE LP</name>
+        <lei>N/A</lei>
+        <title>VISTA EQ PARTNER HUBBLE LP</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="956CGC005"/>
+        </identifiers>
+        <balance>8947.67000000</balance>
+        <units>NS</units>
+        <curCd>USD</curCd>
+        <valUSD>14829596.00000000</valUSD>
+        <pctVal>1.223817306713</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>US</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>CF24XB SCSP</name>
+        <lei>2549006X6ITDBK0X3K84</lei>
+        <title>CF24XB SCSP</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="956JQQ008"/>
+        </identifiers>
+        <balance>20000.00000000</balance>
+        <units>NS</units>
+        <curCd>USD</curCd>
+        <valUSD>22446904.00000000</valUSD>
+        <pctVal>1.852438164690</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>US</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>SL SPV 4 A, L.P.</name>
+        <lei>N/A</lei>
+        <title>SL SPV 4 A, L.P.</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="956JQT002"/>
+        </identifiers>
+        <balance>12000.00000000</balance>
+        <units>NS</units>
+        <curCd>USD</curCd>
+        <valUSD>28392814.00000000</valUSD>
+        <pctVal>2.343126350812</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>US</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>GA CONTINUITY FUND II, L.P.</name>
+        <lei>N/A</lei>
+        <title>GA CONTINUITY FUND II, L.P.</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="956JQZ008"/>
+        </identifiers>
+        <balance>18163.58000000</balance>
+        <units>NS</units>
+        <curCd>USD</curCd>
+        <valUSD>24074998.00000000</valUSD>
+        <pctVal>1.986797159645</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>BM</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>BAIN CAPITAL BEACON HOLDINGS</name>
+        <lei>N/A</lei>
+        <title>BAIN CAPITAL BEACON HOLDINGS</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="956LED005"/>
+        </identifiers>
+        <balance>622.26000000</balance>
+        <units>NS</units>
+        <curCd>USD</curCd>
+        <valUSD>623540.00000000</valUSD>
+        <pctVal>0.051457844396</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>US</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>BAIN CAPITAL BEACON ROLL XII</name>
+        <lei>N/A</lei>
+        <title>BAIN CAPITAL BEACON ROLL XII</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="956NMT007"/>
+        </identifiers>
+        <balance>287.85000000</balance>
+        <units>NS</units>
+        <curCd>USD</curCd>
+        <valUSD>157756.00000000</valUSD>
+        <pctVal>0.013018865991</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>US</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>SLPE FEEDER, L.P.</name>
+        <lei>N/A</lei>
+        <title>SLPE FEEDER, L.P.</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="956UJJ007"/>
+        </identifiers>
+        <balance>13333.33000000</balance>
+        <units>NS</units>
+        <curCd>USD</curCd>
+        <valUSD>16983029.89000000</valUSD>
+        <pctVal>1.401530149561</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>US</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>EQT HEALTHCARE GROWTH 1 SCSP</name>
+        <lei>N/A</lei>
+        <title>EQT HEALTHCARE GROWTH 1 SCSP</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="956UJQ001"/>
+        </identifiers>
+        <balance>1037.22000000</balance>
+        <units>NS</units>
+        <currencyConditional curCd="EUR" exchangeRt="0.85091900"/>
+        <valUSD>1073832.15000000</valUSD>
+        <pctVal>0.088618352763</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>LU</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>NEW MOUNTAIN SRC CONTINUATION</name>
+        <lei>N/A</lei>
+        <title>NEW MOUNTAIN SRC CONTINUATION</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="956UJT005"/>
+        </identifiers>
+        <balance>12889.14000000</balance>
+        <units>NS</units>
+        <curCd>USD</curCd>
+        <valUSD>13933018.00000000</valUSD>
+        <pctVal>1.149826911208</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>US</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>SPRINGCOAST PARTNERS I A, L.P.</name>
+        <lei>N/A</lei>
+        <title>SPRINGCOAST PARTNERS I A, L.P.</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="956UJU002"/>
+        </identifiers>
+        <balance>3064.82000000</balance>
+        <units>NS</units>
+        <curCd>USD</curCd>
+        <valUSD>4549415.00000000</valUSD>
+        <pctVal>0.375441975116</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>US</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>APSE CAPITAL II LP</name>
+        <lei>N/A</lei>
+        <title>APSE CAPITAL II LP</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="958GPP906"/>
+        </identifiers>
+        <balance>14472.99000000</balance>
+        <units>NS</units>
+        <currencyConditional curCd="GBP" exchangeRt="0.74186700"/>
+        <valUSD>27875224.27000000</valUSD>
+        <pctVal>2.300412087432</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>GG</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>ELYSIUM ACQUISITION L.P.</name>
+        <lei>N/A</lei>
+        <title>ELYSIUM ACQUISITION L.P.</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="958XGF901"/>
+        </identifiers>
+        <balance>6616.02000000</balance>
+        <units>NS</units>
+        <currencyConditional curCd="EUR" exchangeRt="0.85091900"/>
+        <valUSD>9408690.23000000</valUSD>
+        <pctVal>0.776455268031</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>GG</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>INVEST TECH HWG CV LUX SCSP</name>
+        <lei>N/A</lei>
+        <title>INVEST TECH HWG CV LUX SCSP</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="990AABBN3"/>
+        </identifiers>
+        <balance>7192.77000000</balance>
+        <units>NS</units>
+        <currencyConditional curCd="EUR" exchangeRt="0.85091900"/>
+        <valUSD>8330849.09000000</valUSD>
+        <pctVal>0.687506072044</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>LU</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>BLUE OWL GP III LP</name>
+        <lei>N/A</lei>
+        <title>BLUE OWL GP III LP</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="990AATKY0"/>
+        </identifiers>
+        <balance>10107.72000000</balance>
+        <units>NS</units>
+        <curCd>USD</curCd>
+        <valUSD>9864089.11000000</valUSD>
+        <pctVal>0.814037210978</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>KY</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>AEA INVESTORS FUND VII LP</name>
+        <lei>549300YNB36HH6ICH049</lei>
+        <title>AEA INVESTORS FUND VII LP</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="990ABABF1"/>
+        </identifiers>
+        <balance>1261.78000000</balance>
+        <units>NS</units>
+        <curCd>USD</curCd>
+        <valUSD>1266973.00000000</valUSD>
+        <pctVal>0.104557365186</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>US</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>ALTOR FUND V (NO. 1) AB</name>
+        <lei>N/A</lei>
+        <title>ALTOR FUND V (NO. 1) AB</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="990ABABG9"/>
+        </identifiers>
+        <balance>5668.17000000</balance>
+        <units>NS</units>
+        <currencyConditional curCd="EUR" exchangeRt="0.85091900"/>
+        <valUSD>8631378.83000000</valUSD>
+        <pctVal>0.712307388074</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>FR</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>APOLLO OVERSEAS P.N. IX, L.P.</name>
+        <lei>N/A</lei>
+        <title>APOLLO OVERSEAS P.N. IX, L.P.</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="990ABABJ3"/>
+        </identifiers>
+        <balance>3285.85000000</balance>
+        <units>NS</units>
+        <curCd>USD</curCd>
+        <valUSD>3577742.80000000</valUSD>
+        <pctVal>0.295254405960</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>US</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>CLAYTON D+R F XI, LP</name>
+        <lei>N/A</lei>
+        <title>CLAYTON D+R F XI, LP</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="990ABABL8"/>
+        </identifiers>
+        <balance>637.19000000</balance>
+        <units>NS</units>
+        <curCd>USD</curCd>
+        <valUSD>718080.00000000</valUSD>
+        <pctVal>0.059259789113</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>KY</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>BAIN CAPITAL FUND XII, L.P.</name>
+        <lei>N/A</lei>
+        <title>BAIN CAPITAL FUND XII, L.P.</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="990ABABM6"/>
+        </identifiers>
+        <balance>3787.20000000</balance>
+        <units>NS</units>
+        <curCd>USD</curCd>
+        <valUSD>6029816.00000000</valUSD>
+        <pctVal>0.497612556478</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>US</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>CENTERB CPT P IV LP</name>
+        <lei>N/A</lei>
+        <title>CENTERB CPT P IV LP</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="990ABABN4"/>
+        </identifiers>
+        <balance>7618.10000000</balance>
+        <units>NS</units>
+        <curCd>USD</curCd>
+        <valUSD>8345233.00000000</valUSD>
+        <pctVal>0.688693108966</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>US</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>FSN CAPITAL V L.P.</name>
+        <lei>894500RUTNNGR1OW3572</lei>
+        <title>FSN CAPITAL V L.P.</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="990ABALW3"/>
+        </identifiers>
+        <balance>22604.09000000</balance>
+        <units>NS</units>
+        <currencyConditional curCd="SEK" exchangeRt="9.20650000"/>
+        <valUSD>2072217.89000000</valUSD>
+        <pctVal>0.171010465629</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>JE</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>GA CONTINUITY II (GT) FUND LP</name>
+        <lei>N/A</lei>
+        <title>GA CONTINUITY II (GT) FUND LP</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="990ABALZ6"/>
+        </identifiers>
+        <balance>44.37000000</balance>
+        <units>NS</units>
+        <curCd>USD</curCd>
+        <valUSD>56736.85000000</valUSD>
+        <pctVal>0.004682227281</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>BM</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>NORDIC CAPITAL X BETA, L.P.</name>
+        <lei>213800EUCT1IDDYACZ77</lei>
+        <title>NORDIC CAPITAL X BETA, L.P.</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="990ABAMA0"/>
+        </identifiers>
+        <balance>623.18000000</balance>
+        <units>NS</units>
+        <currencyConditional curCd="EUR" exchangeRt="0.85091900"/>
+        <valUSD>898784.80000000</valUSD>
+        <pctVal>0.074172512403</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>FR</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>ONE ROCK CAP PARTNERS III, LP</name>
+        <lei>984500C1F684908F9008</lei>
+        <title>ONE ROCK CAP PARTNERS III, LP</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="990ABAMC6"/>
+        </identifiers>
+        <balance>1172.58000000</balance>
+        <units>NS</units>
+        <curCd>USD</curCd>
+        <valUSD>1183509.00000000</valUSD>
+        <pctVal>0.097669471026</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>US</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>OAK HILL CAP PN. V OFFSHORE LP</name>
+        <lei>8945007BRB9WHUQ4CV66</lei>
+        <title>OAK HILL CAP PN. V OFFSHORE LP</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="990ABAMD4"/>
+        </identifiers>
+        <balance>718.03000000</balance>
+        <units>NS</units>
+        <curCd>USD</curCd>
+        <valUSD>836552.50000000</valUSD>
+        <pctVal>0.069036771296</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>US</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>GENERAL ATLANTIC PN. 2021, LP</name>
+        <lei>N/A</lei>
+        <title>GENERAL ATLANTIC PN. 2021, LP</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="990ABAME2"/>
+        </identifiers>
+        <balance>3345.13000000</balance>
+        <units>NS</units>
+        <curCd>USD</curCd>
+        <valUSD>4136384.00000000</valUSD>
+        <pctVal>0.341356455456</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>US</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>PROVIDENCE EQUITY PN. VIII LP</name>
+        <lei>5493002EJ6SMTIEJFE39</lei>
+        <title>PROVIDENCE EQUITY PN. VIII LP</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="990ABAMF9"/>
+        </identifiers>
+        <balance>8927.45000000</balance>
+        <units>NS</units>
+        <curCd>USD</curCd>
+        <valUSD>11307928.00000000</valUSD>
+        <pctVal>0.933190492139</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>US</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>WPEF VII FEEDER LP</name>
+        <lei>N/A</lei>
+        <title>WPEF VII FEEDER LP</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="990ABAMG7"/>
+        </identifiers>
+        <balance>4604.30000000</balance>
+        <units>NS</units>
+        <currencyConditional curCd="EUR" exchangeRt="0.85091900"/>
+        <valUSD>7516037.88000000</valUSD>
+        <pctVal>0.620263507883</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>GG</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>NEW MOUNTAIN SRC FUND, L.P.</name>
+        <lei>N/A</lei>
+        <title>NEW MOUNTAIN SRC FUND, L.P.</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="990ABAMH5"/>
+        </identifiers>
+        <balance>1928.62000000</balance>
+        <units>NS</units>
+        <curCd>USD</curCd>
+        <valUSD>1965196.00000000</valUSD>
+        <pctVal>0.162178448818</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>US</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>PSC IV, LP</name>
+        <lei>894500FMLTKITLPYSY03</lei>
+        <title>PSC IV, LP</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="990ABAMJ1"/>
+        </identifiers>
+        <balance>5414.52000000</balance>
+        <units>NS</units>
+        <currencyConditional curCd="GBP" exchangeRt="0.74186700"/>
+        <valUSD>8832071.91000000</valUSD>
+        <pctVal>0.728869650771</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>GG</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>VESTAR CAP P VII LP</name>
+        <lei>N/A</lei>
+        <title>VESTAR CAP P VII LP</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="990ABAMK8"/>
+        </identifiers>
+        <balance>3117.20000000</balance>
+        <units>NS</units>
+        <curCd>USD</curCd>
+        <valUSD>3274693.66000000</valUSD>
+        <pctVal>0.270245175613</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>US</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>PSG V L.P.</name>
+        <lei>254900CCO681UET94K19</lei>
+        <title>PSG V L.P.</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="990ABAML6"/>
+        </identifiers>
+        <balance>720.56000000</balance>
+        <units>NS</units>
+        <curCd>USD</curCd>
+        <valUSD>784008.90000000</valUSD>
+        <pctVal>0.064700593356</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>US</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>RIVERSIDE EUROPE FUND VI, SCSP</name>
+        <lei>N/A</lei>
+        <title>RIVERSIDE EUROPE FUND VI, SCSP</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="990ABAMM4"/>
+        </identifiers>
+        <balance>3154.58000000</balance>
+        <units>NS</units>
+        <currencyConditional curCd="EUR" exchangeRt="0.85091900"/>
+        <valUSD>5246487.37000000</valUSD>
+        <pctVal>0.432968102628</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>LU</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>TRIDENT IX, L.P.</name>
+        <lei>N/A</lei>
+        <title>TRIDENT IX, L.P.</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="990ABAMN2"/>
+        </identifiers>
+        <balance>707.45000000</balance>
+        <units>NS</units>
+        <curCd>USD</curCd>
+        <valUSD>822228.00000000</valUSD>
+        <pctVal>0.067854637204</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>US</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>SEARCHLIGHT CAPITAL III, L.P.</name>
+        <lei>549300XJX6XF6KK43E10</lei>
+        <title>SEARCHLIGHT CAPITAL III, L.P.</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="990ABAMQ5"/>
+        </identifiers>
+        <balance>9682.02000000</balance>
+        <units>NS</units>
+        <curCd>USD</curCd>
+        <valUSD>11751512.00000000</valUSD>
+        <pctVal>0.969797408213</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>KY</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>THOMA BRAVO F XIV LP</name>
+        <lei>N/A</lei>
+        <title>THOMA BRAVO F XIV LP</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="990ABAMR3"/>
+        </identifiers>
+        <balance>718.28000000</balance>
+        <units>NS</units>
+        <curCd>USD</curCd>
+        <valUSD>755456.90000000</valUSD>
+        <pctVal>0.062344330128</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>US</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>THOMA BRAVO F XIII</name>
+        <lei>N/A</lei>
+        <title>THOMA BRAVO F XIII</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="990ABAMS1"/>
+        </identifiers>
+        <balance>847.93000000</balance>
+        <units>NS</units>
+        <curCd>USD</curCd>
+        <valUSD>924611.30000000</valUSD>
+        <pctVal>0.076303852844</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>US</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>SILVER LAKE P VI LP</name>
+        <lei>N/A</lei>
+        <title>SILVER LAKE P VI LP</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="990ABAMT9"/>
+        </identifiers>
+        <balance>878.31000000</balance>
+        <units>NS</units>
+        <curCd>USD</curCd>
+        <valUSD>980547.00000000</valUSD>
+        <pctVal>0.080919964956</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>US</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>SILVER LAKE P V LP</name>
+        <lei>N/A</lei>
+        <title>SILVER LAKE P V LP</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="990ABAMU6"/>
+        </identifiers>
+        <balance>10085.50000000</balance>
+        <units>NS</units>
+        <curCd>USD</curCd>
+        <valUSD>11932087.85000000</valUSD>
+        <pctVal>0.984699489861</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>US</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>ARES CORPORATE OPP FUND VI LP</name>
+        <lei>N/A</lei>
+        <title>ARES CORPORATE OPP FUND VI LP</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="990ABBNK5"/>
+        </identifiers>
+        <balance>7133.75000000</balance>
+        <units>NS</units>
+        <curCd>USD</curCd>
+        <valUSD>8433112.38000000</valUSD>
+        <pctVal>0.695945383819</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>US</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>CVC CAPITAL PARTNERS VII A LP</name>
+        <lei>213800LZY97F6Q2RKD65</lei>
+        <title>CVC CAPITAL PARTNERS VII A LP</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="990ABBNR0"/>
+        </identifiers>
+        <balance>6171.46000000</balance>
+        <units>NS</units>
+        <currencyConditional curCd="EUR" exchangeRt="0.85091900"/>
+        <valUSD>8375491.78000000</valUSD>
+        <pctVal>0.691190224777</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>JE</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>NEW MOUNTAIN SRC CON TAURUS</name>
+        <lei>N/A</lei>
+        <title>NEW MOUNTAIN SRC CON TAURUS</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="990ABBNX7"/>
+        </identifiers>
+        <balance>280.20000000</balance>
+        <units>NS</units>
+        <curCd>USD</curCd>
+        <valUSD>299073.00000000</valUSD>
+        <pctVal>0.024681098080</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>US</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>SEVENTH CINVEN F NO1 LP TAURUS</name>
+        <lei>213800JBWYQ66BVDHG10</lei>
+        <title>SEVENTH CINVEN F NO1 LP TAURUS</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="990ABBPD9"/>
+        </identifiers>
+        <balance>700.97000000</balance>
+        <units>NS</units>
+        <currencyConditional curCd="EUR" exchangeRt="0.85091900"/>
+        <valUSD>1037138.67000000</valUSD>
+        <pctVal>0.085590211210</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>US</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>KINDERHOOK CAP WASTE CV, L.P</name>
+        <lei>N/A</lei>
+        <title>KINDERHOOK CAP WASTE CV, L.P</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="990ABERN9"/>
+        </identifiers>
+        <balance>1415.84000000</balance>
+        <units>NS</units>
+        <curCd>USD</curCd>
+        <valUSD>1392103.33000000</valUSD>
+        <pctVal>0.114883786988</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>US</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>CVC CAP PN LOCRON (A) SCSP</name>
+        <lei>N/A</lei>
+        <title>CVC CAP PN LOCRON (A) SCSP</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="990ABGUE0"/>
+        </identifiers>
+        <balance>15142.57000000</balance>
+        <units>NS</units>
+        <currencyConditional curCd="EUR" exchangeRt="0.85091900"/>
+        <valUSD>17722827.90000000</valUSD>
+        <pctVal>1.462582224622</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>LU</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>3I 2020 CO INV 4 SCSP</name>
+        <lei>N/A</lei>
+        <title>3I 2020 CO INV 4 SCSP</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="990ABGUF7"/>
+        </identifiers>
+        <balance>32411.96000000</balance>
+        <units>NS</units>
+        <currencyConditional curCd="EUR" exchangeRt="0.85091900"/>
+        <valUSD>39696595.95000000</valUSD>
+        <pctVal>3.275974688806</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>LU</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>STONE POINT CV, L.P.</name>
+        <lei>N/A</lei>
+        <title>STONE POINT CV, L.P.</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="990ABGUL4"/>
+        </identifiers>
+        <balance>5759.27000000</balance>
+        <units>NS</units>
+        <curCd>USD</curCd>
+        <valUSD>5759265.55000000</valUSD>
+        <pctVal>0.475285291254</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>KY</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>TDR CAPITAL TITAN L.P.</name>
+        <lei>N/A</lei>
+        <title>TDR CAPITAL TITAN L.P.</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="990ABJAF3"/>
+        </identifiers>
+        <balance>10016.10000000</balance>
+        <units>NS</units>
+        <currencyConditional curCd="GBP" exchangeRt="0.74186700"/>
+        <valUSD>13501199.86000000</valUSD>
+        <pctVal>1.114190976616</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>GB</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>TPG PARTNERS VIII, L.P.</name>
+        <lei>N/A</lei>
+        <title>TPG PARTNERS VIII, L.P.</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="990ABNPR2"/>
+        </identifiers>
+        <balance>71750.45000000</balance>
+        <units>NS</units>
+        <curCd>USD</curCd>
+        <valUSD>87409261.89000000</valUSD>
+        <pctVal>7.213478200487</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>US</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>SL OLY SPV FEEDER I A L.P</name>
+        <lei>N/A</lei>
+        <title>SL OLY SPV FEEDER I A L.P</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="990ABSCS3"/>
+        </identifiers>
+        <balance>1253.49000000</balance>
+        <units>NS</units>
+        <curCd>USD</curCd>
+        <valUSD>1242841.00000000</valUSD>
+        <pctVal>0.102565863917</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>US</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>MADISON DEA CAP PAR IX C</name>
+        <lei>N/A</lei>
+        <title>MADISON DEA CAP PAR IX C</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="990ABSCT1"/>
+        </identifiers>
+        <balance>725.91000000</balance>
+        <units>NS</units>
+        <curCd>USD</curCd>
+        <valUSD>679119.00000000</valUSD>
+        <pctVal>0.056044519723</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>US</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>IASO FUND, L.P.</name>
+        <lei>N/A</lei>
+        <title>IASO FUND, L.P.</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="990ABVYJ2"/>
+        </identifiers>
+        <balance>12086.91000000</balance>
+        <units>NS</units>
+        <curCd>USD</curCd>
+        <valUSD>12000000.00000000</valUSD>
+        <pctVal>0.990303962465</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>US</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>GTCR OAK FUND LP</name>
+        <lei>N/A</lei>
+        <title>GTCR OAK FUND LP</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="990ABXXE0"/>
+        </identifiers>
+        <balance>3172.96000000</balance>
+        <units>NS</units>
+        <curCd>USD</curCd>
+        <valUSD>3150000.00000000</valUSD>
+        <pctVal>0.259954790147</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>US</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>MONTAGU 2 (FEEDER) SCSP</name>
+        <lei>N/A</lei>
+        <title>MONTAGU 2 (FEEDER) SCSP</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="990ABYBX0"/>
+        </identifiers>
+        <balance>12786.54000000</balance>
+        <units>NS</units>
+        <currencyConditional curCd="EUR" exchangeRt="0.85091900"/>
+        <valUSD>15958804.40000000</valUSD>
+        <pctVal>1.317005602794</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>LU</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>ETHOS CAPITAL DIG INFRA LP</name>
+        <lei>N/A</lei>
+        <title>ETHOS CAPITAL DIG INFRA LP</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="990ABYPT4"/>
+        </identifiers>
+        <balance>17423.92000000</balance>
+        <units>NS</units>
+        <curCd>USD</curCd>
+        <valUSD>21624999.99000000</valUSD>
+        <pctVal>1.784610264867</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>US</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>WSOF IV FEEDER C.V</name>
+        <lei>N/A</lei>
+        <title>WSOF IV FEEDER C.V</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="990ACAGQ1"/>
+        </identifiers>
+        <balance>1179.99000000</balance>
+        <units>NS</units>
+        <currencyConditional curCd="EUR" exchangeRt="0.85091900"/>
+        <valUSD>1362969.79000000</valUSD>
+        <pctVal>0.112479531979</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>NL</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>CVC CAPITAL PARTNER VIII A LP</name>
+        <lei>N/A</lei>
+        <title>CVC CAPITAL PARTNER VIII A LP</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="990ACAPK4"/>
+        </identifiers>
+        <balance>10004.70000000</balance>
+        <units>NS</units>
+        <currencyConditional curCd="EUR" exchangeRt="0.85091900"/>
+        <valUSD>12713549.47000000</valUSD>
+        <pctVal>1.049189868095</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>JE</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>THOMA BRAVO FUND XIV A, L.P</name>
+        <lei>N/A</lei>
+        <title>THOMA BRAVO FUND XIV A, L.P</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="990ACAPQ1"/>
+        </identifiers>
+        <balance>14394.47000000</balance>
+        <units>NS</units>
+        <curCd>USD</curCd>
+        <valUSD>16161751.96000000</valUSD>
+        <pctVal>1.333753917197</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>US</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>EQT VIII (NO.1) SCSP</name>
+        <lei>N/A</lei>
+        <title>EQT VIII (NO.1) SCSP</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="990ACAPU2"/>
+        </identifiers>
+        <balance>6637.25000000</balance>
+        <units>NS</units>
+        <currencyConditional curCd="EUR" exchangeRt="0.85091900"/>
+        <valUSD>9594070.48000000</valUSD>
+        <pctVal>0.791753834376</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>LU</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>KPS SPECIAL SIT FUND V A LP</name>
+        <lei>254900H7MLRKGSGF9Q86</lei>
+        <title>KPS SPECIAL SIT FUND V A LP</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="990ACAPV0"/>
+        </identifiers>
+        <balance>3204.56000000</balance>
+        <units>NS</units>
+        <curCd>USD</curCd>
+        <valUSD>3918524.68000000</valUSD>
+        <pctVal>0.323377543135</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>CA</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>PAI EUROPE VII 1 SCSP</name>
+        <lei>N/A</lei>
+        <title>PAI EUROPE VII 1 SCSP</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="990ACAPW8"/>
+        </identifiers>
+        <balance>5083.04000000</balance>
+        <units>NS</units>
+        <currencyConditional curCd="EUR" exchangeRt="0.85091900"/>
+        <valUSD>7338954.71000000</valUSD>
+        <pctVal>0.605649660805</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>LU</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>THOMAS H LEE PAR FUND IX LP</name>
+        <lei>N/A</lei>
+        <title>THOMAS H LEE PAR FUND IX LP</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="990ACAZW7"/>
+        </identifiers>
+        <balance>10201.77000000</balance>
+        <units>NS</units>
+        <curCd>USD</curCd>
+        <valUSD>11348382.36000000</valUSD>
+        <pctVal>0.936529001556</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>US</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>NEW MOUNTAIN PARTNERS VI LP</name>
+        <lei>N/A</lei>
+        <title>NEW MOUNTAIN PARTNERS VI LP</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="990ACBYY2"/>
+        </identifiers>
+        <balance>4441.33000000</balance>
+        <units>NS</units>
+        <curCd>USD</curCd>
+        <valUSD>5127051.29000000</valUSD>
+        <pctVal>0.423111600687</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>US</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>NEW MOUNTAIN PARTNERS V LP</name>
+        <lei>N/A</lei>
+        <title>NEW MOUNTAIN PARTNERS V LP</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal Identifier" value="990ACBYZ9"/>
+        </identifiers>
+        <balance>4237.89000000</balance>
+        <units>NS</units>
+        <curCd>USD</curCd>
+        <valUSD>3224843.18000000</valUSD>
+        <pctVal>0.266131248290</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>US</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>N/A</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+    </invstOrSecs>
+    <explntrNotes>
+      <explntrNote note="Monthly returns presented in Item B.5(a) have been calculated without deducting any applicable sales loads or redemption fees." noteItem="B.5.a"/>
+    </explntrNotes>
+    <signature>
+      <ncom:dateSigned>2026-02-19</ncom:dateSigned>
+      <ncom:nameOfApplicant>Coller Secondaries Private Equity Opportunities Fund</ncom:nameOfApplicant>
+      <ncom:signature>Josh Schnurman</ncom:signature>
+      <ncom:signerName>Josh Schnurman</ncom:signerName>
+      <ncom:title>Fund Controller</ncom:title>
+    </signature>
+  </formData>
+  <documents>XXXX</documents>
+</edgarSubmission>

@@ -53,6 +53,7 @@ def run_check(
         detail = f"{type(exc).__name__}: {exc}"
         raise
     finally:
+        detail = "\n".join(line.rstrip() for line in detail.split("\n"))
         new = not path.exists()
         with path.open("a", encoding="utf-8", newline="") as handle:
             writer = csv.DictWriter(handle, fieldnames=COLUMNS, lineterminator="\n")

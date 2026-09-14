@@ -1,0 +1,90 @@
+[
+  {
+    "evidence_ids": [
+      "CASEFACT:FACT_CASE_001_001",
+      "CASEFACT:FACT_CASE_001_002",
+      "CASEFACT:FACT_CASE_001_003",
+      "CASEFACT:FACT_CASE_001_004",
+      "CASEFACT:FACT_CASE_001_005",
+      "CASEFACT:FACT_CASE_001_006",
+      "CASEFACT:FACT_CASE_001_008",
+      "CASEFACT:FACT_CASE_001_009",
+      "CASEFACT:FACT_CASE_001_010",
+      "MANAGER:MANAGER_SYNTH_00176:buyout:V2"
+    ],
+    "manager_id": "MANAGER_SYNTH_00176",
+    "manager_key": "MANAGER_SYNTH_00176|buyout",
+    "manager_name": "Synthetic Alternatives Manager 0176",
+    "mode": "template",
+    "model": "",
+    "provider": "",
+    "questions": [
+      "Accounting and fee basis of the supplied track record.",
+      "Current valuations of the largest remaining positions.",
+      "Senior-team roster, departures, attribution and manager commitment evidence."
+    ],
+    "review_status": "DETERMINISTIC_TEMPLATE",
+    "strategy": "buyout",
+    "summary": "Historical score 83.6, rank 1; average realized share 70%; NAV -20% score 78.3. Bounded case evidence reports senior-team continuity 100%, GP commitment 2.0%, and governance status REVIEW_REQUIRED."
+  },
+  {
+    "evidence_ids": [
+      "CASEFACT:FACT_CASE_002_001",
+      "CASEFACT:FACT_CASE_002_002",
+      "CASEFACT:FACT_CASE_002_003",
+      "CASEFACT:FACT_CASE_002_004",
+      "CASEFACT:FACT_CASE_002_005",
+      "CASEFACT:FACT_CASE_002_006",
+      "CASEFACT:FACT_CASE_002_007",
+      "CASEFACT:FACT_CASE_002_008",
+      "CASEFACT:FACT_CASE_002_009",
+      "CASEFACT:FACT_CASE_002_010",
+      "MANAGER:MANAGER_SYNTH_00091:buyout:V2"
+    ],
+    "manager_id": "MANAGER_SYNTH_00091",
+    "manager_key": "MANAGER_SYNTH_00091|buyout",
+    "manager_name": "Synthetic Alternatives Manager 0091",
+    "mode": "template",
+    "model": "",
+    "provider": "",
+    "questions": [
+      "Accounting and fee basis of the supplied track record.",
+      "Current valuations of the largest remaining positions.",
+      "Senior-team roster, departures, attribution and manager commitment evidence."
+    ],
+    "review_status": "DETERMINISTIC_TEMPLATE",
+    "strategy": "buyout",
+    "summary": "Historical score 83.1, rank 2; average realized share 72%; NAV -20% score 80.0. Bounded case evidence reports senior-team continuity 67%, GP commitment 3.0%, and governance status NO_FLAG_IN_CASE_MATERIAL."
+  },
+  {
+    "evidence_ids": [
+      "CASEFACT:FACT_CASE_003_001",
+      "CASEFACT:FACT_CASE_003_002",
+      "CASEFACT:FACT_CASE_003_003",
+      "CASEFACT:FACT_CASE_003_004",
+      "CASEFACT:FACT_CASE_003_005",
+      "CASEFACT:FACT_CASE_003_006",
+      "CASEFACT:FACT_CASE_003_007",
+      "CASEFACT:FACT_CASE_003_008",
+      "CASEFACT:FACT_CASE_003_009",
+      "CASEFACT:FACT_CASE_003_010",
+      "CASEFACT:FACT_CASE_003_011",
+      "CASEFACT:FACT_CASE_003_012",
+      "MANAGER:MANAGER_SYNTH_00164:secondaries:V2"
+    ],
+    "manager_id": "MANAGER_SYNTH_00164",
+    "manager_key": "MANAGER_SYNTH_00164|secondaries",
+    "manager_name": "Synthetic Alternatives Manager 0164",
+    "mode": "template",
+    "model": "",
+    "provider": "",
+    "questions": [
+      "Accounting and fee basis of the supplied track record.",
+      "Current valuations of the largest remaining positions.",
+      "Senior-team roster, departures, attribution and manager commitment evidence."
+    ],
+    "review_status": "DETERMINISTIC_TEMPLATE",
+    "strategy": "secondaries",
+    "summary": "Historical score 48.3, rank 2; average realized share 55%; NAV -20% score 36.0. Bounded case evidence reports senior-team continuity 100%, GP commitment 1.5%, and governance status NO_FLAG_IN_CASE_MATERIAL."
+  }
+]

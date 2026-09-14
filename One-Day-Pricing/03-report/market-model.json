@@ -1,0 +1,29 @@
+{
+  "categories": [
+    "middle_market"
+  ],
+  "coefficients": [
+    0.8601202389990432,
+    -0.0212806379746502,
+    0.01651758722590781,
+    0.00761550084798431,
+    -0.033518126622186964,
+    -0.012768692772959656,
+    -0.0008912923666316086,
+    0.0
+  ],
+  "feature_names": [
+    "age_years",
+    "tvpi",
+    "dpi",
+    "nav_reliance",
+    "unfunded_ratio",
+    "log_fund_size",
+    "sub_strategy=middle_market"
+  ],
+  "manager_holdout_count": 38,
+  "simulation_only": true,
+  "status": "PASS",
+  "temporal_test_count": 254,
+  "train_count": 209
+}

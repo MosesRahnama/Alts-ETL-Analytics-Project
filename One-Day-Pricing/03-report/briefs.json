@@ -1,0 +1,334 @@
+[
+  {
+    "evidence_ids": [
+      "FPRINT_39134BF37290A608363E"
+    ],
+    "fallback_reason": "PREVIEW_NO_NETWORK",
+    "mode": "preview",
+    "model": "claude-sonnet-5",
+    "packet_hash": "d1fe9c72e081155ae522a361ee093608f7a5e43291ec5c1be5a324719820e55d",
+    "position_id": "POS_DA6311364A78F70A7FBD",
+    "provider": "anthropic",
+    "questions": [
+      {
+        "evidence_ids": [],
+        "text": "Confirm the transfer-consent status and any excluded liabilities or side-letter restrictions."
+      },
+      {
+        "evidence_ids": [
+          "FPRINT_39134BF37290A608363E"
+        ],
+        "text": "Reconcile activity after the NAV reference date and confirm what will be included in the closing true-up."
+      },
+      {
+        "evidence_ids": [
+          "FPRINT_39134BF37290A608363E"
+        ],
+        "text": "Review the timing and amount of the remaining capital calls and the major drivers of future distributions."
+      }
+    ],
+    "review_status": "NO_MODEL_CALL",
+    "risks": [],
+    "strengths": [
+      {
+        "evidence_ids": [
+          "FPRINT_39134BF37290A608363E"
+        ],
+        "text": "The seller ask is at or below the calculated buyer ceiling in the base scenario."
+      }
+    ],
+    "summary": "The base scenario supports the hypothetical seller ask at the declared buyer return requirement, subject to the stated transfer and diligence limits.",
+    "summary_evidence_ids": [
+      "FPRINT_39134BF37290A608363E"
+    ]
+  },
+  {
+    "evidence_ids": [
+      "FPRINT_5608FF7B5BE02CE6EAC2"
+    ],
+    "fallback_reason": "PREVIEW_NO_NETWORK",
+    "mode": "preview",
+    "model": "claude-sonnet-5",
+    "packet_hash": "0fa413e70365093e3c44c8ccb0fd0a0ceeaff92aa9ec8b82057dc7ae6dd77a9a",
+    "position_id": "POS_6B0F7E65F1989530B1AD",
+    "provider": "anthropic",
+    "questions": [
+      {
+        "evidence_ids": [],
+        "text": "Confirm the transfer-consent status and any excluded liabilities or side-letter restrictions."
+      },
+      {
+        "evidence_ids": [
+          "FPRINT_5608FF7B5BE02CE6EAC2"
+        ],
+        "text": "Reconcile activity after the NAV reference date and confirm what will be included in the closing true-up."
+      },
+      {
+        "evidence_ids": [
+          "FPRINT_5608FF7B5BE02CE6EAC2"
+        ],
+        "text": "Review the timing and amount of the remaining capital calls and the major drivers of future distributions."
+      }
+    ],
+    "review_status": "NO_MODEL_CALL",
+    "risks": [
+      {
+        "evidence_ids": [
+          "FPRINT_5608FF7B5BE02CE6EAC2"
+        ],
+        "text": "The seller ask is above the calculated buyer ceiling in the base scenario."
+      }
+    ],
+    "strengths": [],
+    "summary": "The hypothetical seller ask exceeds the buyer's base-scenario return-based ceiling under the declared assumptions.",
+    "summary_evidence_ids": [
+      "FPRINT_5608FF7B5BE02CE6EAC2"
+    ]
+  },
+  {
+    "evidence_ids": [
+      "FPRINT_96C454A0D631EDFC788A"
+    ],
+    "fallback_reason": "PREVIEW_NO_NETWORK",
+    "mode": "preview",
+    "model": "claude-sonnet-5",
+    "packet_hash": "9db3d19706f7ab79cc889d9e1fa6c0657861b332b45b30b804282b960af66f17",
+    "position_id": "POS_725036467434A9CFE2C8",
+    "provider": "anthropic",
+    "questions": [
+      {
+        "evidence_ids": [],
+        "text": "Confirm the transfer-consent status and any excluded liabilities or side-letter restrictions."
+      },
+      {
+        "evidence_ids": [
+          "FPRINT_96C454A0D631EDFC788A"
+        ],
+        "text": "Reconcile activity after the NAV reference date and confirm what will be included in the closing true-up."
+      },
+      {
+        "evidence_ids": [
+          "FPRINT_96C454A0D631EDFC788A"
+        ],
+        "text": "Review the timing and amount of the remaining capital calls and the major drivers of future distributions."
+      }
+    ],
+    "review_status": "NO_MODEL_CALL",
+    "risks": [
+      {
+        "evidence_ids": [
+          "FPRINT_96C454A0D631EDFC788A"
+        ],
+        "text": "The seller ask is above the calculated buyer ceiling in the base scenario."
+      },
+      {
+        "evidence_ids": [
+          "FPRINT_96C454A0D631EDFC788A"
+        ],
+        "text": "Transfer consent is pending in this hypothetical case."
+      }
+    ],
+    "strengths": [],
+    "summary": "The numerical scenario is available, but a transfer or diligence condition requires review before the hypothetical ask could be treated as actionable.",
+    "summary_evidence_ids": [
+      "FPRINT_96C454A0D631EDFC788A"
+    ]
+  },
+  {
+    "evidence_ids": [
+      "FPRINT_D35D8007E962EEF10181"
+    ],
+    "fallback_reason": "PREVIEW_NO_NETWORK",
+    "mode": "preview",
+    "model": "claude-sonnet-5",
+    "packet_hash": "5e9792bde529e122dfb049fc22d74facab4964d8af69b1502490e8d64c85caec",
+    "position_id": "POS_03BACFCF783B5AAEF3FA",
+    "provider": "anthropic",
+    "questions": [
+      {
+        "evidence_ids": [],
+        "text": "Confirm the transfer-consent status and any excluded liabilities or side-letter restrictions."
+      },
+      {
+        "evidence_ids": [
+          "FPRINT_D35D8007E962EEF10181"
+        ],
+        "text": "Reconcile activity after the NAV reference date and confirm what will be included in the closing true-up."
+      },
+      {
+        "evidence_ids": [
+          "FPRINT_D35D8007E962EEF10181"
+        ],
+        "text": "Review the timing and amount of the remaining capital calls and the major drivers of future distributions."
+      }
+    ],
+    "review_status": "NO_MODEL_CALL",
+    "risks": [
+      {
+        "evidence_ids": [
+          "FPRINT_D35D8007E962EEF10181"
+        ],
+        "text": "The seller ask is above the calculated buyer ceiling in the base scenario."
+      },
+      {
+        "evidence_ids": [
+          "FPRINT_D35D8007E962EEF10181"
+        ],
+        "text": "Remaining funding is larger than the transferred reference NAV and should be reviewed as a material capital requirement."
+      }
+    ],
+    "strengths": [],
+    "summary": "The hypothetical seller ask exceeds the buyer's base-scenario return-based ceiling under the declared assumptions.",
+    "summary_evidence_ids": [
+      "FPRINT_D35D8007E962EEF10181"
+    ]
+  },
+  {
+    "evidence_ids": [
+      "FPRINT_06BA40EA5807C58319A7"
+    ],
+    "fallback_reason": "PREVIEW_NO_NETWORK",
+    "mode": "preview",
+    "model": "claude-sonnet-5",
+    "packet_hash": "1f1078489d24c3935512a81ada7e2c4e5a531fb97b7595d3f6c41b4df9a89aa0",
+    "position_id": "POS_BC8C03B81492D1FB1E28",
+    "provider": "anthropic",
+    "questions": [
+      {
+        "evidence_ids": [],
+        "text": "Confirm the transfer-consent status and any excluded liabilities or side-letter restrictions."
+      },
+      {
+        "evidence_ids": [
+          "FPRINT_06BA40EA5807C58319A7"
+        ],
+        "text": "Reconcile activity after the NAV reference date and confirm what will be included in the closing true-up."
+      },
+      {
+        "evidence_ids": [
+          "FPRINT_06BA40EA5807C58319A7"
+        ],
+        "text": "Review the timing and amount of the remaining capital calls and the major drivers of future distributions."
+      }
+    ],
+    "review_status": "NO_MODEL_CALL",
+    "risks": [
+      {
+        "evidence_ids": [
+          "FPRINT_06BA40EA5807C58319A7"
+        ],
+        "text": "Transfer consent is unknown in this hypothetical case."
+      }
+    ],
+    "strengths": [
+      {
+        "evidence_ids": [
+          "FPRINT_06BA40EA5807C58319A7"
+        ],
+        "text": "The seller ask is at or below the calculated buyer ceiling in the base scenario."
+      }
+    ],
+    "summary": "The numerical scenario is available, but a transfer or diligence condition requires review before the hypothetical ask could be treated as actionable.",
+    "summary_evidence_ids": [
+      "FPRINT_06BA40EA5807C58319A7"
+    ]
+  },
+  {
+    "evidence_ids": [
+      "FPRINT_C38D8769C44DA8D22870"
+    ],
+    "fallback_reason": "PREVIEW_NO_NETWORK",
+    "mode": "preview",
+    "model": "claude-sonnet-5",
+    "packet_hash": "1cd571133db9d75cc1aeb25c3472478e9cf172a3c2e028f96200e27aa82e2203",
+    "position_id": "POS_759DB0D2AC8193AC62DD",
+    "provider": "anthropic",
+    "questions": [
+      {
+        "evidence_ids": [],
+        "text": "Confirm the transfer-consent status and any excluded liabilities or side-letter restrictions."
+      },
+      {
+        "evidence_ids": [
+          "FPRINT_C38D8769C44DA8D22870"
+        ],
+        "text": "Reconcile activity after the NAV reference date and confirm what will be included in the closing true-up."
+      },
+      {
+        "evidence_ids": [
+          "FPRINT_C38D8769C44DA8D22870"
+        ],
+        "text": "Review the timing and amount of the remaining capital calls and the major drivers of future distributions."
+      }
+    ],
+    "review_status": "NO_MODEL_CALL",
+    "risks": [],
+    "strengths": [
+      {
+        "evidence_ids": [
+          "FPRINT_C38D8769C44DA8D22870"
+        ],
+        "text": "The seller ask is at or below the calculated buyer ceiling in the base scenario."
+      }
+    ],
+    "summary": "The base scenario supports the hypothetical seller ask at the declared buyer return requirement, subject to the stated transfer and diligence limits.",
+    "summary_evidence_ids": [
+      "FPRINT_C38D8769C44DA8D22870"
+    ]
+  },
+  {
+    "evidence_ids": [
+      "FPRINT_EE18A02AB4A7D7189767"
+    ],
+    "fallback_reason": "PREVIEW_NO_NETWORK",
+    "mode": "preview",
+    "model": "claude-sonnet-5",
+    "packet_hash": "e23dfe9450b4f93b2840d148aab3219a1d4e21a4a25cf6ccc838f8549c01a28b",
+    "position_id": "POS_3F7F05AC9AC73D2299D8",
+    "provider": "anthropic",
+    "questions": [
+      {
+        "evidence_ids": [],
+        "text": "Confirm the transfer-consent status and any excluded liabilities or side-letter restrictions."
+      },
+      {
+        "evidence_ids": [
+          "FPRINT_EE18A02AB4A7D7189767"
+        ],
+        "text": "Reconcile activity after the NAV reference date and confirm what will be included in the closing true-up."
+      },
+      {
+        "evidence_ids": [
+          "FPRINT_EE18A02AB4A7D7189767"
+        ],
+        "text": "Review the timing and amount of the remaining capital calls and the major drivers of future distributions."
+      }
+    ],
+    "review_status": "NO_MODEL_CALL",
+    "risks": [
+      {
+        "evidence_ids": [
+          "FPRINT_EE18A02AB4A7D7189767"
+        ],
+        "text": "The seller ask is above the calculated buyer ceiling in the base scenario."
+      },
+      {
+        "evidence_ids": [
+          "FPRINT_EE18A02AB4A7D7189767"
+        ],
+        "text": "Remaining funding is larger than the transferred reference NAV and should be reviewed as a material capital requirement."
+      },
+      {
+        "evidence_ids": [
+          "FPRINT_EE18A02AB4A7D7189767"
+        ],
+        "text": "Transfer consent is denied in this hypothetical case."
+      }
+    ],
+    "strengths": [],
+    "summary": "The position does not receive a usable indication under the current transfer or data conditions.",
+    "summary_evidence_ids": [
+      "FPRINT_EE18A02AB4A7D7189767"
+    ]
+  }
+]

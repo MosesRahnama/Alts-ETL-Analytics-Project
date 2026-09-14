@@ -27,7 +27,9 @@ from typing import Iterable, Mapping, Sequence
 
 from src.analytics.run_round04_analytics import run_round04
 from src.generate import generate_synthetic_funds as generator
+from src.load import build_normalized_holdings as normalized_holdings
 from src.load.load_csv_to_duckdb import load as load_duckdb
+from src.load.validate_normalized_holdings import validate as validate_normalized_holdings
 from src.quality.run_fund_checks import (
     load_tolerances,
     read_csv,
@@ -102,7 +104,21 @@ def _generate(
     if defect_rate is not None:
         argv += ["--defect-rate", str(defect_rate)]
     args = generator.build_parser().parse_args(argv)
-    return generator.run(args)
+    counts = generator.run(args)
+    normalized_counts = normalized_holdings.write_flat(
+        output_dir / "fund_holdings.csv",
+        output_dir / "fund_master.csv",
+        output_dir,
+        origin_type="SYNTHETIC_FIXTURE",
+    )
+    counts.update(normalized_counts)
+    validate_normalized_holdings(
+        output_dir,
+        fund_master_path=output_dir / "fund_master.csv",
+        fact_holding_path=None,
+        refusal_path=None,
+    )
+    return counts
 
 
 def _run_quality(directory: Path, run_id: str, checked_at: str, quality_config: Path) -> Counter:

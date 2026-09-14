@@ -1,0 +1,403 @@
+{
+  "git_head": "57f0b57e817e85d0b38a4c270ca47bb8c0700730",
+  "git_status_initial": [
+    "?? GP-Scoring/V2-EXECUTION.csv",
+    "?? GP-Scoring/V2-LIVE-LEDGER.csv",
+    "?? GP-Scoring/V2-ROADMAP.md",
+    "?? \"GP-Scoring/research/GP Scoring Blueprint for an Institutional Private-Equity Investment Team.md\"",
+    "?? \"GP-Scoring/research/GP Scoring Research and Implementation Blueprint for the Alts ETL Analytics Project.md\"",
+    "?? GP-Scoring/research/ILPA-Implementation-Timeline-Final.png",
+    "?? GP-Scoring/research/ILPA-Implementation-Timeline-Final.png.webp",
+    "?? GP-Scoring/v2_ledger.py"
+  ],
+  "protected_digest": "f44b6e9cfa15e51bd9a89a1e2d5ee7be4655251856a9a5fd82caeb1ff71b181f",
+  "protected_files": {
+    "GP-Scoring/01-inputs/README.md": {
+      "bytes": 244,
+      "sha256": "140e1f76742768b3dcf0cd16a35c50544a785695c6fed9e00465909ee9629473"
+    },
+    "GP-Scoring/01-inputs/evidence.json": {
+      "bytes": 261824,
+      "sha256": "e2142a140afc6b3e68bb562b7f2a721c0af2339a3fd4f1fe34029f58b236a341"
+    },
+    "GP-Scoring/01-inputs/manifest.json": {
+      "bytes": 20576,
+      "sha256": "c4b4d4a69ab56462690fb85bbe8fb3192ccb6de94771ffaa32c3c413e574f505"
+    },
+    "GP-Scoring/02-scoring/README.md": {
+      "bytes": 318,
+      "sha256": "7b2b5f789375a901c56d3d4958a65277e9795f47302a452fe420f911f4bbf4d6"
+    },
+    "GP-Scoring/02-scoring/decisions.csv": {
+      "bytes": 217953,
+      "sha256": "bf12ff3e843c300c7d379f61e720359fb84024d7d88806e4e63f956f236bb2dc"
+    },
+    "GP-Scoring/02-scoring/fund-features.csv": {
+      "bytes": 521129,
+      "sha256": "c6a04646b768c36bbfe9ca88c272d5d3ad7be27a627a9c35aa5f96e8606bb57e"
+    },
+    "GP-Scoring/02-scoring/gp-scorecards.csv": {
+      "bytes": 158125,
+      "sha256": "51d2ce694e48d37bd442070ad2fbd6686dd3266cf73f71ecc649232689a92692"
+    },
+    "GP-Scoring/03-report/README.md": {
+      "bytes": 472,
+      "sha256": "106f0be68472b44820a6f0206e35d4d1a38eae9cc75a4d687d43de554827833d"
+    },
+    "GP-Scoring/03-report/briefs.json": {
+      "bytes": 7137,
+      "sha256": "06ffc0e821c3474489b6b8b1a35ac8896063994341516b44329936eb37d3cc6b"
+    },
+    "GP-Scoring/03-report/checks.csv": {
+      "bytes": 563,
+      "sha256": "ca0697556d0c31faf8115cc30125d01b48592be92796332e145b274457ddd75d"
+    },
+    "GP-Scoring/03-report/dashboard.html": {
+      "bytes": 1222849,
+      "sha256": "e394d4ceb9823a2bd269240869428a8b4deee98d8b04b07fa4e6485d6251eea9"
+    },
+    "GP-Scoring/03-report/llm-cache.json": {
+      "bytes": 1597,
+      "sha256": "2d3cb2f0f8367214a36ff466a7d2d6c085b1cf543c5d5ff033dea7654089e345"
+    },
+    "GP-Scoring/03-report/receipt.json": {
+      "bytes": 2192,
+      "sha256": "2adf63d40170c361862110ba215aacd7d56874de60256d1bc0f3ea975914ce6f"
+    },
+    "GP-Scoring/brief-prompt.txt": {
+      "bytes": 1076,
+      "sha256": "68800852c4900f2b5df90b99a723b1bd7b8d6ab3e76277e8e73377813ce10807"
+    },
+    "GP-Scoring/briefing.py": {
+      "bytes": 22771,
+      "sha256": "67fb3184e771d21b5c0222c3d0f0f2595786fd6b320d110c4c7baba6635e018c"
+    },
+    "GP-Scoring/dashboard.py": {
+      "bytes": 18553,
+      "sha256": "bfc39f7937a87d510020fd44165aef0e84b2b7728b19be7b831aa4903183c24f"
+    },
+    "GP-Scoring/inputs.py": {
+      "bytes": 22669,
+      "sha256": "0deac47d25add9a3ec42ad0de9e9a5dfb1c7f44e1a613a9154d33ff72ca0a41f"
+    },
+    "GP-Scoring/policy.json": {
+      "bytes": 2215,
+      "sha256": "66dfbc5b376496f7641283db9c5717948b3d2c9975c22644ff2197b9a8a51a92"
+    },
+    "GP-Scoring/run.py": {
+      "bytes": 19670,
+      "sha256": "af27034ce17340ec6358b33978bd4a3d7661724f07e93cb9ca610a06cd701a69"
+    },
+    "GP-Scoring/scoring.py": {
+      "bytes": 17865,
+      "sha256": "21468203beac12473e23748c0f56c68a8bce5a7706d0c853b84f3760bc0f376d"
+    },
+    "config/quality_rules.yml": {
+      "bytes": 5885,
+      "sha256": "93900a56f09b3be03dee423ef3bb9ace475884d7f6dd84d44ebbd8a77eddeef6"
+    },
+    "dashboard.html": {
+      "bytes": 31047406,
+      "sha256": "00735ebeed37b6aaa4bcd313082851ee860c3060f48744b80b50d143a36628ac"
+    },
+    "data/extracted/fund-level/document_fund_map.csv": {
+      "bytes": 56185,
+      "sha256": "816aa9c5af050f80e07ff2c3bbd725f5fbf7f58bb1e0fff97297b6d10f29f171"
+    },
+    "data/extracted/fund-level/document_manager_map.csv": {
+      "bytes": 7902,
+      "sha256": "0089a62ef14beed99a8a9455df65bdaa4f19bfa648bb3239f729fe849c083c7d"
+    },
+    "data/extracted/fund-level/fund_cashflows.csv": {
+      "bytes": 10130,
+      "sha256": "cab303592f32c937d5823be69a7c9ede3628cc4121adc856b739996aff6411f5"
+    },
+    "data/extracted/fund-level/fund_holdings.csv": {
+      "bytes": 6788,
+      "sha256": "5bb96535304da2a98d121bb54d9e9bbbadecf0ef68d1a96f7556e33f3a941788"
+    },
+    "data/extracted/fund-level/fund_master.csv": {
+      "bytes": 228923,
+      "sha256": "6fb11b0b5a8aab08a01fb28bc136406af82d9820340de6d80329c2220bb0ea1e"
+    },
+    "data/extracted/fund-level/fund_metrics.csv": {
+      "bytes": 305654,
+      "sha256": "14484145ab22d407d3db4e126bee1348ac9212a79373fc860a49df9ead7f5460"
+    },
+    "data/extracted/fund-level/fund_observations.csv": {
+      "bytes": 1304093,
+      "sha256": "8f532fab2c88641755adc21d0999b908781dfb546c86a34194be036b7406d73d"
+    },
+    "data/extracted/fund-level/fund_periods.csv": {
+      "bytes": 191329,
+      "sha256": "3f55f03c6046ea500ba2a8fd19144d28f54661e5ec9dcbb33637bbc95553a4dc"
+    },
+    "data/extracted/fund-level/fund_term_clauses.csv": {
+      "bytes": 13614,
+      "sha256": "12f5a3a3c6620755bfd147d0d0946e36ddd5517d9b461b7daa5c390fa862f3b8"
+    },
+    "data/extracted/fund-level/fund_terms.csv": {
+      "bytes": 564,
+      "sha256": "537d3f4fa8bc68a2ac67afff835e1f27a53199c042ecb2e100c71d471c68eb7d"
+    },
+    "data/extracted/fund-level/manager_master.csv": {
+      "bytes": 11853,
+      "sha256": "441d5e1a1b549335bec4d99d06dddbd23f693258655eeeda4df01f270a522bd5"
+    },
+    "data/extracted/fund-level/manager_observations.csv": {
+      "bytes": 17703,
+      "sha256": "31e69ed72a157c9592cd3871ba7b4a42046669c6130608507d24570df3819015"
+    },
+    "data/extracted/fund-level/quality_results.csv": {
+      "bytes": 1813726,
+      "sha256": "e46ea964f50dda1070af6af5c70aeeeff7b533930a55b6c04893aa2b6d64ba44"
+    },
+    "data/extracted/tables/MANIFEST.csv": {
+      "bytes": 336,
+      "sha256": "fb79f7f99a96bb5641216c462b59371611d090f10f40f8e4bdfe4d7eb372261b"
+    },
+    "data/extracted/tables/dim_document.csv": {
+      "bytes": 14554,
+      "sha256": "b76ce7b1b156feecf5cde4d59220eebbc99d646f42bd11eb94a3664b6c04aa8c"
+    },
+    "data/extracted/tables/dim_entity.csv": {
+      "bytes": 294254,
+      "sha256": "bf005ebd2c8fe5a0f69c223d3b11362adcd9da8ee77b3c8fb47ad475932738a3"
+    },
+    "data/extracted/tables/dim_metric.csv": {
+      "bytes": 22120,
+      "sha256": "e6e38287bf49379a16a91befb21987a6b5834625e8c5dac2f42e002855ec9a4a"
+    },
+    "data/extracted/tables/dim_page.csv": {
+      "bytes": 321230,
+      "sha256": "a8e37b886490f7ec3e0a8b9a4e5347b40df4c3ca1d02d64ba32200fee57add3c"
+    },
+    "data/extracted/tables/entity_alias.csv": {
+      "bytes": 227444,
+      "sha256": "a83e77655232a1e566c07920e7dd3adb18a0bcf0e2050b98ea5e32bce432aa87"
+    },
+    "data/extracted/tables/fact_holding.csv": {
+      "bytes": 148024,
+      "sha256": "4c1419d359d85c3399f318463d4f0886e69d596fb4a00c8e3fd60db1dc114e63"
+    },
+    "data/extracted/tables/fact_observation.csv": {
+      "bytes": 6044437,
+      "sha256": "ea0837f766f13284139883d8c3c48d64fa0ed42c1c43680bdaf3c263ebc951b3"
+    },
+    "data/extracted/tables/observation_lineage.csv": {
+      "bytes": 7782367,
+      "sha256": "b29ecdc2d9e2df5d499766f6df788047ef2ed91dd3e2bc3329ac42c1c11da304"
+    },
+    "data/extracted/tables/unresolved_names.csv": {
+      "bytes": 66,
+      "sha256": "8832ae27b680788542b8317f7911ab1756a314c61c1fa307fa7e4fdbdc17045e"
+    },
+    "data/extracted/wide/MANIFEST.csv": {
+      "bytes": 1194,
+      "sha256": "2d1b8fe0a75e874a202701225738930d8e816cbdd6bf4a485ca0404dc5a27899"
+    },
+    "data/extracted/wide/bridge_pivot_observation.csv": {
+      "bytes": 673096,
+      "sha256": "38834460ec75f47e2fc38bf321bf9fc28e88f9738dc98a615609f939ba53f299"
+    },
+    "data/extracted/wide/wide_allocation_observation.csv": {
+      "bytes": 127001,
+      "sha256": "58d17a7a30b8390f3162688cc3898758b80993773b4a08aa58d53667d10e1d36"
+    },
+    "data/extracted/wide/wide_cash_flow_observation.csv": {
+      "bytes": 21045,
+      "sha256": "b9e623f3784fc50c59f4f726ad871f2411b7919c7950f32f9a339e0cf45450fa"
+    },
+    "data/extracted/wide/wide_ddq_quantitative_observation.csv": {
+      "bytes": 18672,
+      "sha256": "ccbc49c70afd296336247c8ebfbd25e737ccecff4a989777d3dc86a9a93b8688"
+    },
+    "data/extracted/wide/wide_definition_context.csv": {
+      "bytes": 251315,
+      "sha256": "26e3e9a2ef547150c3165e83607df17afdb05d86ce369515f94676f2708536e1"
+    },
+    "data/extracted/wide/wide_document_context.csv": {
+      "bytes": 11675,
+      "sha256": "d98a0d82cbbd96750952e353882b1d29f2974cefbd31b045c7a6fadd10372c5f"
+    },
+    "data/extracted/wide/wide_fee_observation.csv": {
+      "bytes": 32935,
+      "sha256": "16eab05724838b05d54f85618988a26f111286544b0f942d930b140ad178fb1f"
+    },
+    "data/extracted/wide/wide_financial_statement_observation.csv": {
+      "bytes": 319908,
+      "sha256": "e96f866dcd83c2d816d34b56060e4b46522885691945ca5bacc60b91a210d882"
+    },
+    "data/extracted/wide/wide_financing_observation.csv": {
+      "bytes": 1303,
+      "sha256": "2ddab584b741d89eef60286139ff37d22af0942cf4c3df816828c54c495d701c"
+    },
+    "data/extracted/wide/wide_fund_economics_observation.csv": {
+      "bytes": 729832,
+      "sha256": "a30f56f7db15e526ab6758ef2af2939983658315e7b7b70461ddb500acf138e3"
+    },
+    "data/extracted/wide/wide_legal_clause.csv": {
+      "bytes": 19655,
+      "sha256": "08c5ae053857e2ed9c008badcf9ec371c93f0cf65a9f92930be5876eb5f6fae5"
+    },
+    "data/extracted/wide/wide_legal_term.csv": {
+      "bytes": 13463,
+      "sha256": "7677fc65e531103ec384afbdc084d5f760bb08974d15738f6a0ad9138161932b"
+    },
+    "data/extracted/wide/wide_nav_observation.csv": {
+      "bytes": 38833,
+      "sha256": "d43df4181908fdca5be793d13ac8ca5faaadc701b1b00dddfa8064e7aec54005"
+    },
+    "data/extracted/wide/wide_performance_observation.csv": {
+      "bytes": 529477,
+      "sha256": "c8cd8461de68c4265bdd04053662b9626ae90193a6ffd140a46ff663702376dd"
+    },
+    "data/extracted/wide/wide_position_observation.csv": {
+      "bytes": 254253,
+      "sha256": "808732d152c80c03b86e74b05dbc3668ffb88d108e2278a157eaf3a3bd9c89fb"
+    },
+    "data/extracted/wide/wide_stewardship_observation.csv": {
+      "bytes": 62071,
+      "sha256": "d04b1f3f34fd714bba982c5c50905f66a28b8d7dfb9903dee07b9f07dead8bcb"
+    },
+    "data/extracted/wide/wide_stewardship_policy.csv": {
+      "bytes": 45836,
+      "sha256": "f83c1d598b15fb5908ac0d4962fd6b7585d54034c9b6d6c36941b331e41a7c75"
+    },
+    "data/extracted/wide/wide_subscription_reference.csv": {
+      "bytes": 8481,
+      "sha256": "6e440107600e516f5da5e90571ed1de8c7837e88cab45af6e21f51ecd3c6838e"
+    },
+    "data/extracted/wide/wide_valuation_observation.csv": {
+      "bytes": 14275,
+      "sha256": "b4fb08f828d4cf8d2593c64334e4de47149c2ca092f09682477805004873d361"
+    },
+    "data/normalization/transformations/strategy-benchmark.csv": {
+      "bytes": 1379,
+      "sha256": "522679bdbca991158cbc6353743ce0fc5e6daab6ab13cd7ccc66eda8bc4a3d38"
+    },
+    "data/synthetic/analytics/fund_metrics.csv": {
+      "bytes": 63740393,
+      "sha256": "0f8cef0d976ee18443873e914a7766f36a3af669964bd89fb94537fbe60a3b96"
+    },
+    "data/synthetic/analytics/pme_results.csv": {
+      "bytes": 82385080,
+      "sha256": "a54dd294e8a602ff7f107056014b8275ce3548bea3e2a742a7df9c3b7dfe10e7"
+    },
+    "data/synthetic/analytics/portfolio_allocations.csv": {
+      "bytes": 247918,
+      "sha256": "611d754f5d8a71520e782b4cf649cadf29207f683366097059cf36fdbae0a813"
+    },
+    "data/synthetic/clean/benchmark_returns.csv": {
+      "bytes": 77313,
+      "sha256": "8459c2010ad42f7c5f61e9d3ea66737b5a75fe5ce552fbc5ee7d00a6ee794d73"
+    },
+    "data/synthetic/clean/defect_injections.csv": {
+      "bytes": 136,
+      "sha256": "53dd74e7f4c81f6856fdff13b8aa8037a3b37a1b0ee59eb6c211b44d00bf7623"
+    },
+    "data/synthetic/clean/fund_cashflows.csv": {
+      "bytes": 5747109,
+      "sha256": "a9dcd02c760762b2955cb562d45460d55a4fe9e28126ae24649ebecf93042aed"
+    },
+    "data/synthetic/clean/fund_holdings.csv": {
+      "bytes": 29743955,
+      "sha256": "f163d5e9c5df402b7b4cb4721e93790f5c84e09de81402ec2c601ec9074caeb7"
+    },
+    "data/synthetic/clean/fund_master.csv": {
+      "bytes": 249041,
+      "sha256": "dfa0910fbe38526c61652ae1e83827bf98e8e3ba0800ba3406698ed05719276c"
+    },
+    "data/synthetic/clean/fund_observations.csv": {
+      "bytes": 84626887,
+      "sha256": "9b85a0cb8d0ebeebcbda02d7ec17c45a18bfc1b234e10827c2df1f832522f2ba"
+    },
+    "data/synthetic/clean/fund_periods.csv": {
+      "bytes": 13111907,
+      "sha256": "db153b9e036e17d06706870d5ce1996b00034bd5e5539d26e729c909527ea28b"
+    },
+    "data/synthetic/clean/fund_term_clauses.csv": {
+      "bytes": 1098512,
+      "sha256": "5449936a7f9bf79de81917ba541aa444953b905102f7f6ba680fbb18e2f3a687"
+    },
+    "data/synthetic/clean/fund_terms.csv": {
+      "bytes": 256754,
+      "sha256": "2575114e699823863b4cfbfa83ab10f9c80d784a145e3e1658d692b419ab63ca"
+    },
+    "data/synthetic/clean/manager_master.csv": {
+      "bytes": 39392,
+      "sha256": "88bae6a56b8c917da5281a4b3350c8158b394efed915ac6bfb0bebac7ac42193"
+    },
+    "data/synthetic/clean/manager_observations.csv": {
+      "bytes": 164009,
+      "sha256": "c83427a36697c3e2aa10b3ff360881a5de20c77393ae2c6303c60298f111ec62"
+    },
+    "data/synthetic/clean/portfolio_allocations.csv": {
+      "bytes": 649368,
+      "sha256": "9ed22b750286ebf3a54836e618f7bdfe755b4f5330969c8b4aaab74089ceb985"
+    },
+    "data/synthetic/clean/quality_results.csv": {
+      "bytes": 202973376,
+      "sha256": "06a18b1041f83d67f54fb7a497223495f65101d06aaa79d407eaa8ea3e459089"
+    },
+    "data/synthetic/clean/synthetic_parameters.csv": {
+      "bytes": 39380,
+      "sha256": "e7294daeb66c630617147b2f85478291954fa296f4a4c223c1995387d44e478f"
+    },
+    "data/warehouse/alts.duckdb": {
+      "bytes": 42479616,
+      "certification": "E01 owner-aware normalized holdings migration 2026-09-13; GP Scoring consumed CSV inputs unchanged",
+      "prior_fingerprints": [
+        {
+          "bytes": 26750976,
+          "reason": "pre-E01 owner-aware normalized holdings schema",
+          "sha256": "e5bcfce8c07a479c054f998f8fc8b7dcb5b7e228fa55ae6b8470d1c7e2e69d75"
+        }
+      ],
+      "sha256": "0b3de01bf476380f3633e401b30587c2e3a0edc6dac2ea574ed384cd7d47b992"
+    },
+    "data/warehouse/alts_mock.duckdb": {
+      "bytes": 213921792,
+      "certification": "E01 owner-aware normalized holdings migration 2026-09-13; GP Scoring consumed CSV inputs unchanged",
+      "prior_fingerprints": [
+        {
+          "bytes": 180367360,
+          "reason": "pre-E01 owner-aware normalized holdings schema",
+          "sha256": "6cf2e1b6128680fffb69be19acebd75faa136c4462f3713c2c36474005752657"
+        }
+      ],
+      "sha256": "1be2c505a78fe99f55204043da03af381096b847e34cf5948396602e062b87d4"
+    },
+    "data/warehouse/extracted.duckdb": {
+      "bytes": 52178944,
+      "certification": "E01 owner-aware normalized holdings migration 2026-09-13; GP Scoring consumed CSV inputs unchanged",
+      "prior_fingerprints": [
+        {
+          "bytes": 52703232,
+          "reason": "pre-E01 owner-aware normalized holdings schema",
+          "sha256": "f6826f97e6858c36ba0926ea0491950db592cf71f9b4f64068536d9c8d5246e4"
+        }
+      ],
+      "sha256": "bc3ccdb335714ff7f23e41f7e5fd50c2494755fbc84439f79766eb7c66c3554d"
+    },
+    "docs/PROJECT-MANIFEST.csv": {
+      "bytes": 853283,
+      "sha256": "1c7123ea0f39dfaa90118a4f67f5d931f077db88d2bc82dc4e2c9fc70a7e1f42"
+    },
+    "src/analytics/run_round04_analytics.py": {
+      "bytes": 57303,
+      "sha256": "ac0fc92bfd412edd65ea1e3ccfef43e6d4c05d2f23f2cffbe7635cc034ce9e5a"
+    },
+    "src/common/finance.py": {
+      "bytes": 6265,
+      "sha256": "ffdbf2a7615d43ce8f135861c4080b133c78cd04d470ca1210393992abbb108c"
+    },
+    "src/quality/run_fund_checks.py": {
+      "bytes": 48284,
+      "sha256": "ffeb2d05b67f8e660d9bb4bca5dc49939e8d5dfc49f517dbbf9afcb82eadf670"
+    }
+  },
+  "v1_data_build_id": "17d94e4de52ea0f0",
+  "v1_report_id": "b58ab55394d674ef",
+  "version": "1.0.0"
+}

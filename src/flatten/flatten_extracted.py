@@ -385,8 +385,15 @@ def parse_date(raw: str, file_id: str = "") -> tuple[str, str]:
             day, month = first, second
         elif second > 12 and first <= 12:
             month, day = first, second
+        elif first == second:
+            month, day = first, second
         else:
-            return "", "unknown"
+            if matrices.resolve(DATE_POLICY, "ambiguous_slash_date") != "refuse":
+                raise FlattenError("Unsupported ambiguous slash-date policy")
+            raise FlattenError(
+                f"{file_id or '<missing file_id>'}: ambiguous slash date {raw!r}; "
+                "record its source-backed order in source-date-order.csv before publication"
+            )
         parsed = _iso(year, month, day)
         return (parsed, "day") if parsed else ("", "unknown")
 
@@ -500,19 +507,32 @@ def parse_value(raw: str, unit: str) -> tuple[str, float | None, str, str]:
         return matrices.resolve(VALUE_PARSE, "empty_value"), None, "", ""
     currency = observation_currency(text, "")
     minus = matrices.resolve(VALUE_DEFAULTS, "unicode_minus")
-    negative = (
-        matrices.resolve(VALUE_DEFAULTS, "negative_parentheses") == "negative"
-        and bool(re.fullmatch(r"\(.*\)", text))
-    ) or (
-        matrices.resolve(VALUE_DEFAULTS, "negative_leading_minus") == "negative"
-        and text.lstrip().startswith(minus)
+    sign_text = text.replace("−", minus)
+    sign_searched = (
+        sign_text.replace(" ", "")
+        if matrices.resolve(NUMBER_RULES, "internal_spaces") == "removed"
+        else sign_text
     )
+    sign_match = NUMBER_RE.search(sign_searched)
     body = text.strip("()").replace("−", minus)
     searched = body.replace(" ", "") if matrices.resolve(NUMBER_RULES, "internal_spaces") == "removed" else body
     word_value = matrices.mapping("printed-number-words").get(body.casefold())
     match = NUMBER_RE.search(searched)
     if not match and word_value is None:
         return matrices.resolve(VALUE_PARSE, "unparsed_text"), None, "", currency
+    parenthesized_number = bool(
+        sign_match
+        and sign_searched[: sign_match.start()].rfind("(")
+        > sign_searched[: sign_match.start()].rfind(")")
+        and ")" in sign_searched[sign_match.end() :]
+    )
+    negative = (
+        matrices.resolve(VALUE_DEFAULTS, "negative_parentheses") == "negative"
+        and (parenthesized_number or (word_value is not None and bool(re.fullmatch(r"\(.*\)", text))))
+    ) or (
+        matrices.resolve(VALUE_DEFAULTS, "negative_leading_minus") == "negative"
+        and text.lstrip().startswith(minus)
+    )
     number_text = word_value if word_value is not None else match.group(0)
     if matrices.resolve(NUMBER_RULES, "thousands_separator") == "removed":
         number_text = number_text.replace(",", "")

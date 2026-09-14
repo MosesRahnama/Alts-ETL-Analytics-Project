@@ -36,8 +36,16 @@ from src.common.matrices import MatrixError
 from src.flatten import flatten_extracted, load_star, pivot_wide
 from src.flatten.flatten_extracted import FlattenError
 from src.flatten.load_star import LoadError
-from src.load import load_csv_to_duckdb, promote_extracted_to_fund_level, validate_round02_promotion
+from src.load import (
+    build_normalized_holdings,
+    load_csv_to_duckdb,
+    promote_extracted_to_fund_level,
+    validate_normalized_holdings,
+    validate_round02_promotion,
+)
+from src.load.build_normalized_holdings import NormalizedHoldingError
 from src.load.load_csv_to_duckdb import DatabaseParityError
+from src.load.validate_normalized_holdings import NormalizedHoldingValidationError
 from src.load.validate_round02_promotion import validate_fund_model_extracted_rows
 from src.pipeline import (
     build_extraction_review,
@@ -153,6 +161,7 @@ GOVERNED_OUTPUTS = (
     EXTRACTED_FUND_DIR / "quality_results.csv",
     EXTRACTED_FUND_DIR / "fund_metrics.csv",
     *build_integrated_universe.integrated_outputs(),
+    build_normalized_holdings.REFUSAL_PATH,
     AUDIT_DIR / "attribute-inherit.csv",
     AUDIT_DIR / "attribute-changes.csv",
     CSV_DIR / "quality_results.csv",
@@ -189,6 +198,8 @@ STAGE_ERRORS = (
     LineageError,
     LoadError,
     MatrixError,
+    NormalizedHoldingError,
+    NormalizedHoldingValidationError,
     ReviewBuildError,
 )
 
@@ -511,6 +522,7 @@ def promotion_inputs() -> list[Path]:
         TABLE_DIR / "fact_holding.csv",
         fund_attributes.MATRIX,
         module.NORMALIZATION_DIR / "entity-ids.csv",
+        build_normalized_holdings.OWNER_MAP,
         PROJECT_ROOT / module.STANDARD_MEASURES_PATH,
         master_input,
         *existing(
@@ -530,6 +542,35 @@ def promotion_outputs() -> list[Path]:
         AUDIT_DIR / "promotion-category-mismatches.csv",
         fund_attributes.ATTRIBUTE_CHANGES,
         *gate_outputs(),
+    ]
+
+
+def normalized_inputs() -> list[Path]:
+    return [
+        TABLE_DIR / "fact_holding.csv",
+        TABLE_DIR / "fact_observation.csv",
+        TABLE_DIR / "dim_entity.csv",
+        TABLE_DIR / "dim_document.csv",
+        TABLE_DIR / "observation_lineage.csv",
+        WIDE_DIR / "bridge_pivot_observation.csv",
+        build_normalized_holdings.OWNER_MAP,
+    ]
+
+
+def normalized_outputs() -> list[Path]:
+    return [
+        *(CSV_DIR / spec[0] for spec in build_normalized_holdings.NORMALIZED_FILES.values()),
+        build_normalized_holdings.REFUSAL_PATH,
+    ]
+
+
+def normalized_validation_inputs() -> list[Path]:
+    return [
+        *normalized_outputs(),
+        CSV_DIR / "fund_master.csv",
+        TABLE_DIR / "fact_holding.csv",
+        validate_normalized_holdings.DDL,
+        validate_normalized_holdings.QA,
     ]
 
 
@@ -911,6 +952,10 @@ def quality_action() -> int:
         ),
     )
     run_fund_checks.write_results(CSV_DIR / "quality_results.csv", results)
+    errors = run_fund_checks.publication_failure_errors(results, periods,
+        run_fund_checks.read_csv(TABLE_DIR / "fact_observation.csv"))
+    if errors:
+        raise IntegrationError("; ".join(errors))
     return len(results)
 
 
@@ -937,6 +982,10 @@ def extracted_quality_action() -> int:
         ),
     )
     run_fund_checks.write_results(EXTRACTED_FUND_DIR / "quality_results.csv", results)
+    errors = run_fund_checks.publication_failure_errors(results, periods,
+        run_fund_checks.read_csv(TABLE_DIR / "fact_observation.csv"))
+    if errors:
+        raise IntegrationError("; ".join(errors))
     return len(results)
 
 
@@ -1229,6 +1278,22 @@ def stages() -> tuple[Stage, ...]:
             promote_extracted_to_fund_level.promote,
         ),
         Stage(
+            85,
+            "normalized-holdings",
+            "python -m src.load.build_normalized_holdings",
+            normalized_inputs,
+            normalized_outputs,
+            build_normalized_holdings.write_source,
+        ),
+        Stage(
+            87,
+            "normalized-holdings-check",
+            "python -m src.load.validate_normalized_holdings",
+            normalized_validation_inputs,
+            tuple,
+            lambda: validate_normalized_holdings.validate(CSV_DIR),
+        ),
+        Stage(
             90,
             "promotion-gate",
             "python -m src.load.validate_round02_promotion",
@@ -1362,9 +1427,11 @@ REPOSITORY_GATE = (
     "python -m src.repository.build_csv_lineage; "
     "python -m src.repository.build_project_manifest; "
     "python -m src.dashboard.build_dashboard; "
+    "python -m src.dashboard.build_rag_dashboard; "
     "python -m src.repository.build_release_audit --verify-repository; "
     "python -m src.repository.build_project_manifest; "
-    "python -m src.dashboard.build_dashboard"
+    "python -m src.dashboard.build_dashboard; "
+    "python -m src.dashboard.build_rag_dashboard"
 )
 
 

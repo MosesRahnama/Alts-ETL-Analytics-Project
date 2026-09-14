@@ -1,0 +1,6 @@
+fastembed==0.8.0
+huggingface-hub==1.19.0
+numpy==2.4.6
+onnxruntime==1.27.0
+pytest==8.4.2
+tokenizers==0.23.1

@@ -101,6 +101,10 @@ Each conflict is typed so its nature is known before the page is opened:
 | `DDQ` | `CORE` | `document_context` | one row per document | none |
 | `DDQ` | `CORE` | `ddq_quantitative_observation` | one printed quantitative answer or table value | `staff_count`, `lockup`, `redemption_notice`, `position_limit`, `leverage`, `liquidity`, `minimum_investment`, `service_provider_count` |
 | `DDQ` | `CORE` | `definition_context` | one printed footnote, definition, methodology note, or legend entry | none |
+| `Continuation_Fund` | `CORE` | `document_context` | one row per document | none |
+| `Continuation_Fund` | `CORE` | `legal_term` | one printed term or one numbered provision whose primary meaning matches the whitelist | `management_fee`, `carried_interest`, `catch_up`, `waterfall`, `clawback`, `fee_offset`, `organizational_expense`, `recycling`, `fund_term`, `term_extension`, `commitment_period`, `investment_period` |
+| `Continuation_Fund` | `CORE` | `fund_economics_observation` | one populated allowed source value cell | `commitment`, `paid_in_capital`, `paid_in_capital_multiple`, `contribution`, `distribution`, `nav`, `unfunded_commitment`, `recallable_distribution`, `tvpi`, `dpi`, `rvpi`, `moic`, `ownership_percentage`, `income`, `fee`, `carried_interest` |
+| `Continuation_Fund` | `CORE` | `definition_context` | one printed footnote, definition, methodology note, or legend entry | none |
 
 Pick the family from the table shape and the name from the printed meaning. A family takes any name of its kind below; the usual family is guidance for a mixed table, never a rule.
 
@@ -111,7 +115,7 @@ Pick the family from the table shape and the name from the printed meaning. A fa
 | `paid_in_capital_multiple` | Paid-in capital as a multiple of commitment, printed in the multiples block beside TVPI, RVPI, and DPI. The value exceeds 1.00 where the fund recycles capital or contributes outside commitment. The contributed amount uses paid_in_capital. | x | `fund_economics_observation` |
 | `contribution` | One contribution or a period's contributions, as a flow. | currency | `fund_economics_observation` |
 | `distribution` | Capital distributed to date or in a period, including a printed component such as preferred return when the page lists it inside distributions. | currency | `fund_economics_observation` |
-| `nav` | Residual value of one fund, LP position, or share class at a date, printed as NAV, remaining value, reported value, or ending market value at that grain. **Qualified: fill `value_scope`** from what the page states (a footnote key cited in `definition_keys`, or a printed phrase copied into `basis_raw`); write `unstated` when the page states nothing. | currency | `fund_economics_observation` |
+| `nav` | Residual value of one fund, LP position, or share class at a date, printed as NAV, remaining value, reported value, or ending market value at that grain. **Qualified: fill `value_scope`** from what the page states (a footnote key cited in `definition_keys`, or a printed phrase copied into `basis_raw`; `value_scope` can cite the printed table and row labels); write `unstated` when the page states nothing. | currency | `fund_economics_observation` |
 | `unfunded_commitment` | Commitment not yet called (unfunded, remaining, uncalled). | currency | `fund_economics_observation` |
 | `recallable_distribution` | Distributed capital the fund may call again. | currency | `fund_economics_observation` |
 | `tvpi` | Total value to paid-in: (distributions + NAV) / paid-in. | x | `fund_economics_observation` |
@@ -122,24 +126,24 @@ Pick the family from the table shape and the name from the printed meaning. A fa
 | `income` | Investment, dividend, interest, or net income of a fund or capital account for a period, recorded as a currency amount; percent-based distribution and investment yields use yield. | currency | `fund_economics_observation` |
 | `fee` | A fee amount charged to a fund or account when the page states no finer kind (management fees, commissions, advisor fees). | currency | `fund_economics_observation` |
 | `carried_interest` | Carried interest accrued, realized, or unrealized, as an amount. | currency | `fund_economics_observation` |
-| `beginning_capital` | Opening balance of a capital account, partners' capital, or net assets for a period, at the entity or partner grain printed by the statement. **Qualified: fill `value_scope`** from what the page states (a footnote key cited in `definition_keys`, or a printed phrase copied into `basis_raw`); write `unstated` when the page states nothing. | currency | `financial_statement_observation` |
-| `ending_capital` | Closing balance of a capital account, partners' capital, or net assets for a period, at the entity or partner grain printed by the statement. A residual closing balance may also represent NAV. **Qualified: fill `value_scope`** from what the page states (a footnote key cited in `definition_keys`, or a printed phrase copied into `basis_raw`); write `unstated` when the page states nothing. | currency | `financial_statement_observation` |
-| `return` | The return printed for a period or horizon, as a percent, under the method, fee basis, and hedge treatment stated by the report. Methods include time-weighted, Modified Dietz, holding-period, annualized, and money-weighted. Every return row states its own method and fee_basis, read from the footnote or header it cites, or unstated. A figure labelled IRR uses irr. **Qualified: fill `method` and `fee_basis`** from what the page states (a footnote key cited in `definition_keys`, or a printed phrase copied into `basis_raw`); write `unstated` when the page states nothing. | % | `performance_observation` |
-| `irr` | Internal rate of return, net or gross, since inception or for a horizon, where the page labels it IRR. A money-weighted return printed under another label stays return, with its method recorded. **Qualified: fill `fee_basis`** from what the page states (a footnote key cited in `definition_keys`, or a printed phrase copied into `basis_raw`); write `unstated` when the page states nothing. | % | `performance_observation` |
+| `beginning_capital` | Opening balance of a capital account, partners' capital, or net assets for a period, at the entity or partner grain printed by the statement. **Qualified: fill `value_scope`** from what the page states (a footnote key cited in `definition_keys`, or a printed phrase copied into `basis_raw`; `value_scope` can cite the printed table and row labels); write `unstated` when the page states nothing. | currency | `financial_statement_observation` |
+| `ending_capital` | Closing balance of a capital account, partners' capital, or net assets for a period, at the entity or partner grain printed by the statement. A residual closing balance may also represent NAV. **Qualified: fill `value_scope`** from what the page states (a footnote key cited in `definition_keys`, or a printed phrase copied into `basis_raw`; `value_scope` can cite the printed table and row labels); write `unstated` when the page states nothing. | currency | `financial_statement_observation` |
+| `return` | The return printed for a period or horizon, as a percent, under the method, fee basis, and hedge treatment stated by the report. Methods include time-weighted, Modified Dietz, holding-period, annualized, and money-weighted. Every return row states its own method and fee_basis, read from the footnote or header it cites, or unstated. A figure labelled IRR uses irr. **Qualified: fill `method` and `fee_basis`** from what the page states (a footnote key cited in `definition_keys`, or a printed phrase copied into `basis_raw`; `value_scope` can cite the printed table and row labels); write `unstated` when the page states nothing. | % | `performance_observation` |
+| `irr` | Internal rate of return, net or gross, since inception or for a horizon, where the page labels it IRR. A money-weighted return printed under another label stays return, with its method recorded. **Qualified: fill `fee_basis`** from what the page states (a footnote key cited in `definition_keys`, or a printed phrase copied into `basis_raw`; `value_scope` can cite the printed table and row labels); write `unstated` when the page states nothing. | % | `performance_observation` |
 | `alpha` | Return minus the stated benchmark's return (value added, excess return). | % | `performance_observation` |
 | `pme` | Public market equivalent ratio (Kaplan-Schoar or as printed). | x | `performance_observation` |
 | `direct_alpha` | Direct alpha against a stated public index. | % | `performance_observation` |
 | `sharpe_ratio` | Sharpe ratio as printed. | ratio | `performance_observation` |
 | `tracking_error` | Tracking error against the stated benchmark. | % | `performance_observation` |
 | `yield` | A rate of income as a percent: distribution rate, income yield, or investment yield. Total-period performance uses return. | % | `performance_observation` |
-| `aum` | Assets under management or total assets at manager, plan, endowment, pool, fund, or asset-class scope. **Qualified: fill `value_scope`** from what the page states (a footnote key cited in `definition_keys`, or a printed phrase copied into `basis_raw`); write `unstated` when the page states nothing. | currency | `performance_observation` |
+| `aum` | Assets under management or total assets at manager, plan, endowment, pool, fund, or asset-class scope. **Qualified: fill `value_scope`** from what the page states (a footnote key cited in `definition_keys`, or a printed phrase copied into `basis_raw`; `value_scope` can cite the printed table and row labels); write `unstated` when the page states nothing. | currency | `performance_observation` |
 | `cash` | Cash and cash equivalents at a date or a period's opening or closing balance. | currency | `financial_statement_observation` |
 | `total_assets` | Total assets. | currency | `financial_statement_observation` |
 | `total_liabilities` | Total liabilities. | currency | `financial_statement_observation` |
 | `net_assets` | Net assets of the reporting entity as printed, restricted or unrestricted: total assets less total liabilities at statement grain. | currency | `financial_statement_observation` |
 | `partners_capital` | Partners' capital by partner class or in total, and its change from operations, at the entity grain of the statement. Position-level closing capital uses ending_capital. | currency | `financial_statement_observation` |
 | `net_investment_income` | Net investment income or loss for a period. | currency | `financial_statement_observation` |
-| `investment_fair_value` | Investments at fair value as a line of a financial statement or note, including the Level 1, 2, and 3 hierarchy lines. The amount precedes the entity's other assets and liabilities in the NAV build-up. **Qualified: fill `value_scope`** from what the page states (a footnote key cited in `definition_keys`, or a printed phrase copied into `basis_raw`); write `unstated` when the page states nothing. | currency | `financial_statement_observation` |
+| `investment_fair_value` | Investments at fair value as a line of a financial statement or note, including the Level 1, 2, and 3 hierarchy lines. The amount precedes the entity's other assets and liabilities in the NAV build-up. **Qualified: fill `value_scope`** from what the page states (a footnote key cited in `definition_keys`, or a printed phrase copied into `basis_raw`; `value_scope` can cite the printed table and row labels); write `unstated` when the page states nothing. | currency | `financial_statement_observation` |
 | `investment_cost` | Cost basis of investments on a statement. | currency | `financial_statement_observation` |
 | `fund_expense` | An expense line or an expense ratio of the fund (professional fees, organizational expenses, total expenses). | currency or % | `financial_statement_observation` |
 | `interest_expense` | Interest expense for a period. | currency | `financial_statement_observation` |
@@ -147,8 +151,8 @@ Pick the family from the table shape and the name from the printed meaning. A fa
 | `unrealized_gain_loss` | Change in unrealized gain or loss for a period. | currency | `financial_statement_observation` |
 | `quantity` | Shares, units, or par held. | count | `position_observation` |
 | `cost` | Cost of a holding. | currency | `position_observation` |
-| `fair_value` | Fair or market value of one named holding on a schedule of investments. Fund residual value uses nav; statement investment lines use investment_fair_value. **Qualified: fill `value_scope`** from what the page states (a footnote key cited in `definition_keys`, or a printed phrase copied into `basis_raw`); write `unstated` when the page states nothing. | currency | `position_observation` |
-| `market_value` | Market value under that printed heading for one holding or one allocation bucket. The same measure as fair_value at holding grain; at fund grain the residual value is nav. **Qualified: fill `value_scope`** from what the page states (a footnote key cited in `definition_keys`, or a printed phrase copied into `basis_raw`); write `unstated` when the page states nothing. | currency | `position_observation` |
+| `fair_value` | Fair or market value of one named holding on a schedule of investments. Fund residual value uses nav; statement investment lines use investment_fair_value. **Qualified: fill `value_scope`** from what the page states (a footnote key cited in `definition_keys`, or a printed phrase copied into `basis_raw`; `value_scope` can cite the printed table and row labels); write `unstated` when the page states nothing. | currency | `position_observation` |
+| `market_value` | Market value under that printed heading for one holding or one allocation bucket. The same measure as fair_value at holding grain; at fund grain the residual value is nav. **Qualified: fill `value_scope`** from what the page states (a footnote key cited in `definition_keys`, or a printed phrase copied into `basis_raw`; `value_scope` can cite the printed table and row labels); write `unstated` when the page states nothing. | currency | `position_observation` |
 | `notional` | Notional, par, purchase, or sale amount of a contract or security. | currency | `position_observation` |
 | `portfolio_weight` | A holding's share of the portfolio or of partners' capital. | % | `position_observation` |
 | `interest_rate` | Coupon or yield printed on a holding. | % | `position_observation` |
@@ -236,6 +240,8 @@ Pick the family from the table shape and the name from the printed meaning. A fa
 | Contributions for a single period or transaction row | `contribution` |
 | Capital Commitment, Commitment | `commitment` |
 | Distributions, Total Distributed, Capital Distributed | `distribution` |
+| Ending Market Value, Market Value, Net Asset Value, NAV, Remaining Value, Reported Value | `nav` in a `fund_economics_observation` table |
+| Fair Value, Estimated Fair Value | `nav` in `fund_economics_observation` |
 | Cost, Cost Basis | `cost` |
 | Net IRR, IRR, Since-Inception IRR | `irr` |
 | TVPI, Total Value to Paid-In, Investment Multiple | `tvpi` |
@@ -385,6 +391,10 @@ Three coverage disagreements recur on every document and have fixed answers:
 | `DDQ` | `CORE` | `document_context` | one row per document | none |
 | `DDQ` | `CORE` | `ddq_quantitative_observation` | one printed quantitative answer or table value | `staff_count`, `lockup`, `redemption_notice`, `position_limit`, `leverage`, `liquidity`, `minimum_investment`, `service_provider_count` |
 | `DDQ` | `CORE` | `definition_context` | one printed footnote, definition, methodology note, or legend entry | none |
+| `Continuation_Fund` | `CORE` | `document_context` | one row per document | none |
+| `Continuation_Fund` | `CORE` | `legal_term` | one printed term or one numbered provision whose primary meaning matches the whitelist | `management_fee`, `carried_interest`, `catch_up`, `waterfall`, `clawback`, `fee_offset`, `organizational_expense`, `recycling`, `fund_term`, `term_extension`, `commitment_period`, `investment_period` |
+| `Continuation_Fund` | `CORE` | `fund_economics_observation` | one populated allowed source value cell | `commitment`, `paid_in_capital`, `paid_in_capital_multiple`, `contribution`, `distribution`, `nav`, `unfunded_commitment`, `recallable_distribution`, `tvpi`, `dpi`, `rvpi`, `moic`, `ownership_percentage`, `income`, `fee`, `carried_interest` |
+| `Continuation_Fund` | `CORE` | `definition_context` | one printed footnote, definition, methodology note, or legend entry | none |
 
 ### Excluded scope
 
@@ -393,6 +403,7 @@ Three coverage disagreements recur on every document and have fixed answers:
 - **Subscription:** Qualification questionnaires; representations; personal identifiers; bank/wire data; signatures.
 - **Side_Letter:** Clauses outside the term whitelist and generic document transcription.
 - **DDQ:** Exhaustive question-and-answer transcription; personal names; broker lists; narrative answers without a selected quantitative fact.
+- **Continuation_Fund:** Blank, dash, N/A, calculated, inferred, template, and out-of-scope facts.
 
 ## Build and validate the final files
 

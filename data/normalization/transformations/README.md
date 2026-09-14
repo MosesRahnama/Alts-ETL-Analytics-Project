@@ -18,6 +18,7 @@ Rule-family decision matrices for 420 inventoried data-decision sites. Rows name
 | `attribute-origin-vocabulary.csv` | Decision rows for one rule family: each row names the input, output, context where needed, decision owner, and former code location. |
 | `attribute-spelling-rules.csv` | Decision rows for one rule family: each row names the input, output, context where needed, decision owner, and former code location. |
 | `attribute-status-policy.csv` | Decision rows for one rule family: each row names the input, output, context where needed, decision owner, and former code location. |
+| `basis-field-policy.csv` | Decision rows for one rule family: each row names the input, output, context where needed, decision owner, and former code location. |
 | `benchmark-field-fallbacks.csv` | Decision rows for one rule family: each row names the input, output, context where needed, decision owner, and former code location. |
 | `benchmark-index-construction.csv` | Decision rows for one rule family: each row names the input, output, context where needed, decision owner, and former code location. |
 | `benchmark-join-policy.csv` | Decision rows for one rule family: each row names the input, output, context where needed, decision owner, and former code location. |
@@ -51,6 +52,7 @@ Rule-family decision matrices for 420 inventoried data-decision sites. Rows name
 | `closed-vocabularies.csv` | Decision rows for one rule family: each row names the input, output, context where needed, decision owner, and former code location. |
 | `collision-policy.csv` | Decision rows for one rule family: each row names the input, output, context where needed, decision owner, and former code location. |
 | `column-kind.csv` | Decision rows for one rule family: each row names the input, output, context where needed, decision owner, and former code location. |
+| `completion-currency-policy.csv` | Decision rows for one rule family: each row names the input, output, context where needed, decision owner, and former code location. |
 | `completion-target-fields.csv` | Decision rows for one rule family: each row names the input, output, context where needed, decision owner, and former code location. |
 | `conflict-severity.csv` | Decision rows for one rule family: each row names the input, output, context where needed, decision owner, and former code location. |
 | `context-alias-fallback.csv` | Decision rows for one rule family: each row names the input, output, context where needed, decision owner, and former code location. |
@@ -254,6 +256,7 @@ Rule-family decision matrices for 420 inventoried data-decision sites. Rows name
 | `quality-default-tolerances.csv` | Decision rows for one rule family: each row names the input, output, context where needed, decision owner, and former code location. |
 | `quality-rule-severity.csv` | Decision rows for one rule family: each row names the input, output, context where needed, decision owner, and former code location. |
 | `quality-skip-policy.csv` | Decision rows for one rule family: each row names the input, output, context where needed, decision owner, and former code location. |
+| `quality-source-exceptions.csv` | Decision rows for one rule family: each row names the input, output, context where needed, decision owner, and former code location. |
 | `rate-unit-conversion.csv` | Decision rows for one rule family: each row names the input, output, context where needed, decision owner, and former code location. |
 | `receipt-note-policy.csv` | Decision rows for one rule family: each row names the input, output, context where needed, decision owner, and former code location. |
 | `record-columns.csv` | Decision rows for one rule family: each row names the input, output, context where needed, decision owner, and former code location. |

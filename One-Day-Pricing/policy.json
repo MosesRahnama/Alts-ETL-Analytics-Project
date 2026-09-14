@@ -1,0 +1,132 @@
+{
+  "version": "1.0.0",
+  "seed": 20260909,
+  "integrated_demo": {
+    "reference_date": "2026-06-05",
+    "quote_date": "2026-08-31",
+    "closing_date": "2026-09-30",
+    "currency": "USD",
+    "strategy": "buyout",
+    "max_positions": 7
+  },
+  "fixture": {
+    "reference_date": "2026-06-30",
+    "quote_date": "2026-09-09",
+    "closing_date": "2026-10-09",
+    "currency": "USD",
+    "strategy": "buyout",
+    "max_positions": 100
+  },
+  "observed": {
+    "quote_date": "2026-09-09",
+    "max_positions": 12
+  },
+  "seller": {
+    "ownership_min": 0.01,
+    "ownership_max": 0.035,
+    "sale_fractions": [
+      1.0,
+      0.5,
+      0.75,
+      1.0,
+      0.6,
+      1.0,
+      0.8
+    ],
+    "base_ask_nav_fraction": 0.9,
+    "ask_noise": 0.045,
+    "min_ask_nav_fraction": 0.58,
+    "max_ask_nav_fraction": 1.08,
+    "transaction_cost_nav_fraction": 0.0025
+  },
+  "interim": {
+    "actual_call_unfunded_fraction": 0.06,
+    "actual_distribution_nav_fraction": 0.025,
+    "forecast_call_unfunded_fraction": 0.025,
+    "forecast_distribution_nav_fraction": 0.01,
+    "call_fee_fraction": 0.05,
+    "recallable_case_index": 2,
+    "recallable_distribution_fraction": 0.25
+  },
+  "forecast": {
+    "quarters": 20,
+    "funding_quarters": 8,
+    "distribution_start_quarter": 9,
+    "distribution_fraction": 0.25,
+    "call_fee_fraction": 0.05,
+    "draw_fraction": 1.0,
+    "scenarios": {
+      "base": {
+        "opening_nav_multiplier": 1.0,
+        "annual_growth": 0.08,
+        "distribution_delay_quarters": 0,
+        "distribution_fraction_multiplier": 1.0
+      },
+      "downside": {
+        "opening_nav_multiplier": 0.8,
+        "annual_growth": 0.0,
+        "distribution_delay_quarters": 4,
+        "distribution_fraction_multiplier": 0.8
+      },
+      "upside": {
+        "opening_nav_multiplier": 1.1,
+        "annual_growth": 0.12,
+        "distribution_delay_quarters": 0,
+        "distribution_fraction_multiplier": 1.2
+      }
+    }
+  },
+  "buyer": {
+    "hurdle_rate": 0.15,
+    "hurdle_sensitivities": [
+      0.1,
+      0.15,
+      0.2
+    ],
+    "max_total_closing_cash": 50000000.0,
+    "max_total_unfunded": 35000000.0
+  },
+  "quality": {
+    "required_parent_rules": [
+      "R01_NONNEGATIVE_BALANCES",
+      "R02_TVPI_COMPONENTS",
+      "R03_DPI_RECOMPUTE",
+      "R04_RVPI_RECOMPUTE",
+      "R05_TVPI_RECOMPUTE",
+      "R06_COMMITMENT_RECONCILIATION",
+      "R07_NAV_ROLLFORWARD",
+      "R08_XIRR_RECOMPUTE",
+      "R09_VINTAGE_DATE",
+      "R11_PROVENANCE_REQUIREMENTS",
+      "R12_SYNTHETIC_IDENTITY_SEPARATION",
+      "R14_CURRENCY_CONSISTENCY",
+      "R15_CASHFLOW_SIGN_CONVENTION"
+    ],
+    "money_tolerance": 1.0,
+    "ratio_tolerance": 1e-07,
+    "npv_abs_tolerance": 1e-05,
+    "npv_rel_tolerance": 1e-08
+  },
+  "market": {
+    "enabled": true,
+    "seed": 20260910,
+    "strategy": "buyout",
+    "train_cutoff": "2025-06-30",
+    "ridge_alpha": 2.0,
+    "manager_holdout_modulus": 5,
+    "minimum_train_rows": 80
+  },
+  "llm": {
+    "default": "off",
+    "max_input_chars": 35000,
+    "max_output_tokens": 1200,
+    "timeout_seconds": 45,
+    "openrouter_model": "google/gemini-3.8-flash",
+    "anthropic_model": "claude-sonnet-5",
+    "openrouter_api_key_env": "OPENROUTER_API_KEY",
+    "anthropic_api_key_env": "ANTHROPIC_API_KEY"
+  },
+  "publication": {
+    "archive_name": "previous.zip"
+  }
+}

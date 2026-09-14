@@ -221,7 +221,7 @@ SUBJECT_TYPES: Final = _vocabulary("subject_type")
 # private list; a metric family accepts any metric name and a term family any
 # term name. The preferred family is guidance for a mixed table, and the
 # validator does not enforce it. Names are the printed measures and terms of
-# the 442-document corpus.
+# the 452-document corpus.
 #
 # (category, definition, unit_hint, preferred_family)
 

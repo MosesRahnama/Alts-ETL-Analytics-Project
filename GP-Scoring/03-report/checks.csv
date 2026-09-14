@@ -1,0 +1,11 @@
+check_id,status,actual,expected,source,reason
+C01_WEIGHT_SUM,PASS,1.0,1.0,policy.json,
+C02_SCORE_RECONCILIATION,PASS,0,0,scoring.py,
+C03_FUND_SCORE_BOUNDS,PASS,0,0,fund-features.csv,
+C04_NAV_HAIRCUT_MONOTONIC,PASS,0,0,fund-features.csv,
+C05_SYNTHETIC_RANK_BOUNDARY,PASS,0,0,gp-scorecards.csv,
+C06_FUND_DISPOSITION_COVERAGE,PASS,800,800,decisions.csv,
+C07_ONE_FEATURE_ROW_PER_FUND,PASS,0,0,fund-features.csv,
+C08_INPUT_HASH_STABILITY,PASS,0,0,manifest.json,
+C09_RANKED_ROWS_COMPLETE,PASS,0,0,gp-scorecards.csv,
+C10_NONRANKED_ROWS_BLANK,PASS,0,0,gp-scorecards.csv,

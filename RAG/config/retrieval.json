@@ -1,0 +1,23 @@
+{
+  "candidate_limit": 40,
+  "result_limit": 10,
+  "rrf_k": 60,
+  "context_char_budget": 12000,
+  "keyword_enabled": true,
+  "vector_enabled": true,
+  "hybrid_default": false,
+  "embedding_model": "BAAI/bge-small-en-v1.5",
+  "embedding_revision": "52398278842ec682c6f32300af41344b1c0b0bb2",
+  "embedding_dimension": 384,
+  "embedding_block_kinds": ["paragraph", "note", "footnote", "table_row"],
+  "embedding_scope": "extracted_documents",
+  "embedding_batch_size": 64,
+  "keyword_weight": 1.0,
+  "vector_weight": 0.7,
+  "reasoning_model_name": "GPT-5.6 Luna",
+  "reasoning_model": "",
+  "reasoning_setting": "max",
+  "provider": "openrouter",
+  "identifier_status": "unverified",
+  "reasoning_request": {}
+}

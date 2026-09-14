@@ -12,4 +12,4 @@ Blind document-type classifications and their adjudicated result.
 | `b-batch2.csv` | Agent B document-type classifications for one source slice. |
 | `b-batch3.csv` | Agent B document-type classifications for one source slice. |
 | `b-batch4.csv` | Agent B document-type classifications for one source slice. |
-| `doc-type-audit.csv` | 442 documents with both agents' type and reason and the adjudicated final type. |
+| `doc-type-audit.csv` | 452 documents with both agents' type and reason and the adjudicated final type. |

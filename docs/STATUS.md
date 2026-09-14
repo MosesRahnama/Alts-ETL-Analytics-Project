@@ -2,7 +2,7 @@
 
 | Area | Current output | Control |
 |---|---|---|
-| Source catalog | 442 PDFs across 17 document types | Source ledger and retained documents |
+| Source catalog | 452 PDFs across 19 document types | Source ledger and retained documents |
 | Published extraction | 36 documents, 693 pages, 8,613 evidence records | Shared candidate/final completeness and source-context checks |
 | Latest additions | SRC421: 197 records across 135 pages; SRC373: 226 records across 188 pages | Both adjudications validated; all active assignments complete |
 | Source corrections | Reviewed field decisions with old value, new value, page, and quote | Original A/B candidates retained; correction drift refused |
@@ -10,6 +10,7 @@
 | Fund model | Source-only snapshot plus labelled completion on the same fund IDs | Source preservation, investor scope, currency, and cash-flow checks |
 | Quality | Source discrepancies retained; generated data checked separately | Two printed negatives remain visible in quality results |
 | Analytics | Source-only multiples; completed cash-flow metrics and market comparisons | Separate source classes and formula/input references |
-| Reviewer outputs | Flattened observations, periods, cell origins, and dashboard | Database parity and current assignment reconciliation |
+| Reviewer outputs | Flattened observations, periods, cell origins, [dashboard](../dashboard.html), and [RAG page](../rag.html) | Database parity, current assignment reconciliation, and checked-in RAG evaluation results |
+| [GP Scoring](../GP-Scoring/README.md) | Separate report for 800 fictional funds, 640 manager-strategy groups and three cases | V1 and parent numerical data retained; source, date, cash-flow and report checks |
 
 Counts: [RELEASE-COUNTS.csv](RELEASE-COUNTS.csv). Categories: [EXTRACTION-CATEGORY-COVERAGE.md](EXTRACTION-CATEGORY-COVERAGE.md). Process: [PROCESS.md](../PROCESS.md). Last completed publication: [FINAL-RELEASE-AUDIT.md](FINAL-RELEASE-AUDIT.md).

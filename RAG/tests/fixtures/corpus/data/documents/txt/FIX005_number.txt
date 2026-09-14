@@ -1,0 +1,2 @@
+===== FIX005 PAGE 1 of 1 | chars 64 | text native =====
+The printed peer median is 18.2 percent, not a shorter numeral.

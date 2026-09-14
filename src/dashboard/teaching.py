@@ -120,6 +120,20 @@ WORDS: list[dict[str, str]] = [
         "meaning": "Net asset value: what the remaining position is said to be worth.",
     },
     {
+        "word": "Temporal",
+        "meaning": (
+            "A workflow service. Each PDF run is a durable job with named steps and retries. "
+            "Temporal Cloud hosts that job off this laptop."
+        ),
+    },
+    {
+        "word": "secondary interest",
+        "meaning": (
+            "An existing limited-partner stake sold to another investor. The quote uses "
+            "reported NAV, settlement true-up, and a buyer return hurdle."
+        ),
+    },
+    {
         "word": "DPI",
         "meaning": (
             "Cash returned to the investor, per dollar paid in. 1.00x on DPI is "
@@ -200,6 +214,42 @@ WORDS: list[dict[str, str]] = [
         "meaning": (
             "FUND_ IDs are named funds from the reports (printed rows plus labelled fill). "
             "FUND_SYNTH_ IDs are the 800-fund test set. Those IDs stay in the test files."
+        ),
+    },
+    {
+        "word": "keyword retrieval",
+        "meaning": (
+            "A search that ranks report passages by matching words in the query. "
+            "It runs on a local index."
+        ),
+    },
+    {
+        "word": "field assessment",
+        "meaning": (
+            "A separate check for each claimed field, such as the printed number, "
+            "the date meaning, or the fee basis. One field can be supported while another "
+            "on the same row lacks evidence."
+        ),
+    },
+    {
+        "word": "evidence block",
+        "meaning": (
+            "One indexed paragraph, table row, note, footnote, or page of report text, "
+            "tied to its source file and physical PDF page."
+        ),
+    },
+    {
+        "word": "vector retrieval",
+        "meaning": (
+            "A local search that ranks passages by numeric embeddings rather than exact words. "
+            "This engine stores 384-number vectors from BAAI/bge-small-en-v1.5."
+        ),
+    },
+    {
+        "word": "embedding",
+        "meaning": (
+            "A numeric representation of a passage used for meaning-based search. "
+            "The approved local model writes 384 numbers per passage and does not call a network."
         ),
     },
 ]
@@ -404,7 +454,7 @@ def overview_primer() -> list[dict]:
             "This page and the files behind it",
             [
                 (
-                    "The numbered list on the left opens the twelve sections. Page guide in the "
+                    "The numbered list on the left opens the sixteen sections. Page guide in the "
                     "left column defines the words and the table controls. This file is a "
                     "snapshot of the published CSVs and database files. It recalculates nothing. "
                     "Every panel names the file it read."
@@ -548,7 +598,10 @@ def schema_primer() -> list[dict]:
                 (
                     "Both LLMs fill the same 47 columns: who, when, the printed value, the "
                     "cleaned value, the unit, the place on the page, the quote, and the review "
-                    "mark. A later field-list version stays apart from this one."
+                    "mark. Those 47 are the reader's own row, kept in "
+                    "data/extracted/pdf-wide-records.csv; the evidence tables reorganise the "
+                    "same values, so their column lists are wider. A later field-list version "
+                    "stays apart from this one."
                 ),
                 (
                     "metric_name is the page's own words (Total Value to Paid In). metric_category "
@@ -789,8 +842,129 @@ def costs_primer() -> list[dict]:
     ]
 
 
+def evidence_review_primer() -> list[dict]:
+    return [
+        guide(
+            "Source passages and field checks",
+            [
+                (
+                    "RAG/evaluation/public-demo.json contains saved questions, permitted excerpts, "
+                    "and completed offline retrieval results. An absent export produces a named "
+                    "empty state without changing the rest of the dashboard."
+                ),
+                (
+                    "Keyword retrieval ranks report text. Field assessment scores each claimed "
+                    "field on its own. A matching number beside a rounding note is insufficient "
+                    "evidence for a net or gross fee claim."
+                ),
+                (
+                    "The public page performs zero model requests and zero loopback probes. "
+                    "GPT-5.6 Luna through OpenRouter with Max reasoning is selected for later field "
+                    "assessment, but its provider settings and job approval remain unset."
+                ),
+            ],
+            [
+                ("Keyword retrieval", "Local word search over indexed report text."),
+                ("Field assessment", "SUPPORTED, CONTRADICTED, or INSUFFICIENT_EVIDENCE per field."),
+                ("Static export", "Approved questions and excerpts embedded in this HTML file."),
+            ],
+            lead="Saved cases connect retrieval results to the cited native PDF pages.",
+        ),
+        terms("keyword retrieval", "field assessment", "physical page", "observation", "LLM"),
+    ]
+
+
+def rag_engine_primer() -> list[dict]:
+    return [
+        guide(
+            "The retrieval engine",
+            [
+                (
+                    "This section describes the local retrieval engine: the index, the search path, "
+                    "and the embedding model. It does not run a query."
+                ),
+                (
+                    "Keyword search over report text is the default. Optional vectors come from a "
+                    "local ONNX copy of BAAI/bge-small-en-v1.5 with 384 numbers per passage. "
+                    "Provider language-model calls stay off."
+                ),
+                (
+                    "Interactive search of reviewed PDFs is GP Scoring, RAG: Document Insights."
+                ),
+            ],
+            [
+                ("Evidence block", "One indexed paragraph, table row, note, or footnote with its physical PDF page."),
+                ("Keyword retrieval", "Local word search over the SQLite FTS5 index."),
+                ("Embedding", "384-number local vector from BAAI/bge-small-en-v1.5."),
+            ],
+            lead="Read this section for the engine. Use GP Scoring to search documents.",
+        ),
+        terms("evidence block", "keyword retrieval", "vector retrieval", "embedding", "field assessment", "physical page"),
+    ]
+
+
+def gp_scoring_primer() -> list[dict]:
+    return [
+        guide(
+            "Reading GP Scoring",
+            [
+                (
+                    "GP Scoring ranks fund managers on their own track records. Each fund is compared "
+                    "with funds from other managers that share its strategy, currency, and five-year "
+                    "vintage group. Its score is 60% of its total-value percentile plus 40% of its "
+                    "distributed-cash percentile, so 50 is the middle of its peers."
+                ),
+                (
+                    "A manager is ranked within a strategy when at least two of its funds are scored "
+                    "and the scored funds make up 75% of the funds it supplied. Other groups keep their "
+                    "results under the labels partial history and insufficient data."
+                ),
+                (
+                    "The scoring records and case documents are fictional. RAG: Document Insights, "
+                    "inside this report, uses real manager and fund names to retrieve cited passages "
+                    "from reviewed PDFs."
+                ),
+            ],
+            [
+                ("TVPI", "Total value to paid-in: distributions plus remaining value, divided by the capital investors paid in."),
+                ("DPI", "Distributions to paid-in: cash returned, divided by the capital investors paid in."),
+                ("KS-PME", "Fund value compared with putting the same dated payments into a public benchmark; above 1 favors the fund."),
+            ],
+        ),
+    ]
+
+
+def next_update_primer() -> list[dict]:
+    return [
+        guide(
+            "Upcoming release items",
+            [
+                (
+                    "This section is a plan, not a live run. Temporal Cloud will host the "
+                    "extractor, adjudicator, publish, and RAG-index jobs that today sit on one machine. "
+                    "Those jobs run without an operator approve step."
+                ),
+                (
+                    "Saturday pricing brings the One-Day Pricing work into the product: an LP "
+                    "interest priced against reported NAV, a seller ask, and a buyer ceiling. "
+                    "Holdings and transaction extractions, and the databases those rows load into, "
+                    "are being enriched in the same increment."
+                ),
+            ],
+            [
+                ("Temporal", "A durable cloud workflow with named steps and retries. The agents run without an operator click."),
+                ("secondary interest", "An existing limited-partner stake sold to another investor."),
+                ("NAV gap", "Secondary price versus reported net asset value, kept as a market signal."),
+            ],
+            lead="Two additions for the next public release.",
+        ),
+        terms("Temporal", "secondary interest", "NAV"),
+    ]
+
+
 PRIMER_BUILDERS = {
     "overview": overview_primer,
+    "gp-scoring": gp_scoring_primer,
     "corpus": corpus_primer,
     "extraction": extraction_primer,
     "evidence": evidence_primer,
@@ -802,6 +976,9 @@ PRIMER_BUILDERS = {
     "warehouse": warehouse_primer,
     "reproduce": reproduce_primer,
     "costs": costs_primer,
+    "evidence-review": evidence_review_primer,
+    "rag-engine": rag_engine_primer,
+    "next-update": next_update_primer,
 }
 
 

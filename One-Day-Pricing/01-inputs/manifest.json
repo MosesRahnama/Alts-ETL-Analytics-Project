@@ -1,0 +1,178 @@
+{
+  "data_id": "a1d78604fe717ba1",
+  "gp_scoring_runtime_dependency": false,
+  "input_fingerprints": [
+    {
+      "bytes": 285794,
+      "path": "data/csv/fund_master.csv",
+      "sha256": "1192ea94791cf6212266bbe41957d43be2f999d97dfb7f69eb5b827796794ac2"
+    },
+    {
+      "bytes": 759902,
+      "path": "data/csv/fund_periods.csv",
+      "sha256": "436d5826b805dfba7fa7e514b51a2669c815ca13e2d0b5a79774cc420c3c4296"
+    },
+    {
+      "bytes": 11853,
+      "path": "data/csv/manager_master.csv",
+      "sha256": "441d5e1a1b549335bec4d99d06dddbd23f693258655eeeda4df01f270a522bd5"
+    },
+    {
+      "bytes": 10652210,
+      "path": "data/csv/quality_results.csv",
+      "sha256": "52d985c5b13748d30b29b1d2bbaaaee200a384e98ae7bbc01ce9a3ff5831ccf7"
+    },
+    {
+      "bytes": 33089705,
+      "path": "data/integrated/cell-lineage.csv",
+      "sha256": "701302774fcea64952adb6e8d679ab0508e23b5c3c022d0b6e0b6821175b14a5"
+    },
+    {
+      "bytes": 5035217,
+      "path": "data/integrated/gap-ledger.csv",
+      "sha256": "cf2fd62ffb820b92d57926fae5250889198b57acc279284b7e03fa1f45d81729"
+    },
+    {
+      "bytes": 249041,
+      "path": "data/synthetic/clean/fund_master.csv",
+      "sha256": "dfa0910fbe38526c61652ae1e83827bf98e8e3ba0800ba3406698ed05719276c"
+    },
+    {
+      "bytes": 13111907,
+      "path": "data/synthetic/clean/fund_periods.csv",
+      "sha256": "db153b9e036e17d06706870d5ce1996b00034bd5e5539d26e729c909527ea28b"
+    }
+  ],
+  "llm": {
+    "live_authorized": false,
+    "mode": "preview",
+    "model_override": "",
+    "provider": "anthropic"
+  },
+  "local_code_fingerprints": [
+    {
+      "bytes": 12424,
+      "path": "One-Day-Pricing/briefing.py",
+      "sha256": "d146aa4566fb68c1b213cbb926d224cab37e743639f8bc44dc02b6b15339251e"
+    },
+    {
+      "bytes": 4658,
+      "path": "One-Day-Pricing/finance.py",
+      "sha256": "0b5ade0b4f44b99f07eeab8d412923721c6e8c06a6c82a5133f384a5248f3d0c"
+    },
+    {
+      "bytes": 13551,
+      "path": "One-Day-Pricing/inputs.py",
+      "sha256": "4776ffe4f22896b013f30cfa707e7245e92b60811932d84b58a39f0881b5e21f"
+    },
+    {
+      "bytes": 1007,
+      "path": "One-Day-Pricing/ledger.py",
+      "sha256": "4fbf4ace17b9514c7f747a5d911b5ce81c39a062ca967f458ce4151e5af59a99"
+    },
+    {
+      "bytes": 10363,
+      "path": "One-Day-Pricing/market.py",
+      "sha256": "88e7f637d9d7a92add20e6d85bf3ff3dadeef14b294562191a110f366fbc8b4b"
+    },
+    {
+      "bytes": 51,
+      "path": "One-Day-Pricing/open-dashboard.cmd",
+      "sha256": "6b80ac5315675ab57f51c4461a91fb32dfe05cf1d818d6aacff6d96626f54560"
+    },
+    {
+      "bytes": 151,
+      "path": "One-Day-Pricing/open-dashboard.ps1",
+      "sha256": "7ae51632aed75f0b34ee858bb7bf91a73ba2b951f87af4078380ba1047c99f36"
+    },
+    {
+      "bytes": 3343,
+      "path": "One-Day-Pricing/policy.json",
+      "sha256": "de6686bee692c5b84ad6ae2815fa1d32f8364bb96cfa7115bb691e78ca315053"
+    },
+    {
+      "bytes": 18745,
+      "path": "One-Day-Pricing/pricing.py",
+      "sha256": "c83a13fe45d61fe94ed801468b0394ca7534527aca92440a83ac47e9159d7a23"
+    },
+    {
+      "bytes": 7593,
+      "path": "One-Day-Pricing/qc.py",
+      "sha256": "8a32b96d7fa0e64a3232bef82d83107b989da8a23860763979956a893e1e8a24"
+    },
+    {
+      "bytes": 13822,
+      "path": "One-Day-Pricing/report.py",
+      "sha256": "3586d606494f1185ada5679eb0f515a38624738679c0f40e63314892c1d7113b"
+    },
+    {
+      "bytes": 22332,
+      "path": "One-Day-Pricing/run.py",
+      "sha256": "087a3e96e24808f74252e37b8a2d1ec8986e6acbdf88c6b87706a6374fb1a085"
+    },
+    {
+      "bytes": 13543,
+      "path": "One-Day-Pricing/simulate.py",
+      "sha256": "5f6c9d55ae4a196f0fe94edcad4493e577a39c1fc3a8dd7231ccd27588cb7425"
+    },
+    {
+      "bytes": 5738,
+      "path": "One-Day-Pricing/utils.py",
+      "sha256": "ca801f49c92fa9727eb246d1ebcd705fb167ce77ea02bfa37cc36a5f39dff123"
+    }
+  ],
+  "market": {
+    "enabled": true,
+    "metadata": {
+      "categories": [
+        "middle_market"
+      ],
+      "coefficients": [
+        0.8601202389990432,
+        -0.0212806379746502,
+        0.01651758722590781,
+        0.00761550084798431,
+        -0.033518126622186964,
+        -0.012768692772959656,
+        -0.0008912923666316086,
+        0.0
+      ],
+      "feature_names": [
+        "age_years",
+        "tvpi",
+        "dpi",
+        "nav_reliance",
+        "unfunded_ratio",
+        "log_fund_size",
+        "sub_strategy=middle_market"
+      ],
+      "manager_holdout_count": 38,
+      "simulation_only": true,
+      "status": "PASS",
+      "temporal_test_count": 254,
+      "train_count": 209
+    },
+    "simulation_only": true
+  },
+  "parent_root": "C:\\Users\\Moses\\Alts-ETL-Analytics-Project",
+  "parent_state": {
+    "branch": "main",
+    "commit": "f59983ed5af93a6a8a01d6fba2c5f1c206431e52",
+    "dirty": true
+  },
+  "policy_hash": "de6686bee692c5b84ad6ae2815fa1d32f8364bb96cfa7115bb691e78ca315053",
+  "policy_version": "1.0.0",
+  "population": "integrated_demo",
+  "selection": {
+    "candidate_count": 7,
+    "priced_position_count": 7,
+    "quality_state": {
+      "checked_at": "1970-01-01T00:00:00Z",
+      "rows": 112,
+      "run_id": "INTEGRATED_QC_V1",
+      "status": "COMPLETE"
+    },
+    "selected_count": 7
+  },
+  "status": "BOUND"
+}

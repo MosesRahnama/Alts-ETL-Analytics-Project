@@ -1,5 +1,5 @@
-schema_version: "1.4.0"
-updated: "2026-08-26"
+schema_version: "1.5.0"
+updated: "2026-09-13"
 
 purpose: >-
   Define the fund and manager database that joins document evidence, identity,
@@ -321,6 +321,48 @@ tables:
     primary_key: holding_id
     required: [holding_id, fund_id, provenance_type, record_status]
     columns: [holding_id, fund_id, portfolio_company_id, portfolio_company_name, instrument_id, instrument_name, date_role, date_raw, date_precision, as_of_date, report_date, period_start_date, period_end_date, effective_date, security_type, sector, geography, currency, cost, fair_value, principal_amount, interest_rate, spread_bps, maturity_date, ownership_percent, provenance_type, source_document_id, source_page, source_anchor, synthetic_parameter_set_id, record_status, canonical_sector]
+
+  investment_owner:
+    csv: data/csv/investment_owner.csv
+    grain: one economic or reporting owner used by normalized positions
+    primary_key: owner_id
+    required: [owner_id, owner_kind, owner_role, canonical_name, identity_status, identity_confidence, provenance_type, record_status]
+    columns: [owner_id, owner_kind, owner_role, canonical_name, source_entity_id, owner_fund_id, parent_owner_id, identity_status, identity_confidence, identity_confidence_basis, identity_confidence_reason, decision_id, provenance_type, source_document_id, source_page, source_anchor, synthetic_parameter_set_id, record_status, created_at]
+
+  investment_target:
+    csv: data/csv/investment_target.csv
+    grain: one economic investee identity
+    primary_key: target_id
+    required: [target_id, target_kind, identity_status, identity_confidence, provenance_type, record_status]
+    columns: [target_id, target_kind, canonical_name, printed_name_primary, legal_name, company_entity_id, investee_fund_id, parent_target_id, sector, canonical_sector, sub_sector, country, identity_status, identity_confidence, identity_confidence_basis, identity_confidence_reason, provenance_type, synthetic_parameter_set_id, record_status, created_at]
+
+  investment_instrument:
+    csv: data/csv/investment_instrument.csv
+    grain: one security, fund interest, debt claim, or other instrument issued by one target
+    primary_key: instrument_id
+    required: [instrument_id, target_id, instrument_kind, instrument_status, classification_confidence, provenance_type, record_status]
+    columns: [instrument_id, target_id, instrument_kind, security_title_raw, security_type_raw, currency, seniority, secured_status, stated_rate, rate_type, rate_basis_raw, spread_bps, maturity_date_raw, maturity_date, identifier_type, identifier_value, instrument_status, classification_confidence, classification_confidence_basis, classification_confidence_reason, provenance_type, synthetic_parameter_set_id, record_status]
+
+  fund_position:
+    csv: data/csv/fund_position.csv
+    grain: one owner, instrument, and measurement-date position
+    primary_key: position_id
+    required: [position_id, owner_id, instrument_id, position_class, accounting_scope, classification_confidence, provenance_type, origin_type, record_status]
+    columns: [position_id, source_holding_id, owner_id, owner_fund_id, instrument_id, position_class, accounting_scope, date_role, date_raw, date_precision, as_of_date, report_date, period_start_date, period_end_date, effective_date, quantity_raw, quantity, quantity_unit, currency, cost, fair_value, market_value, reported_value, realized_proceeds, commitment, unfunded_commitment, principal_amount, notional_amount, fund_ownership_fraction, portfolio_weight_fraction, initial_investment_date, exit_date, classification_confidence, classification_confidence_basis, classification_confidence_reason, provenance_type, origin_type, source_document_id, source_page, source_anchor, synthetic_parameter_set_id, record_status]
+
+  lookthrough_edge:
+    csv: data/csv/lookthrough_edge.csv
+    grain: one source-supported relationship from a position to an underlying fund, target, or position
+    primary_key: lookthrough_id
+    required: [lookthrough_id, root_fund_id, parent_position_id, as_of_date, depth, relationship_type, weight_basis, coverage_status, relationship_confidence, provenance_type, record_status]
+    columns: [lookthrough_id, root_fund_id, parent_position_id, underlying_fund_id, child_position_id, child_target_id, as_of_date, depth, relationship_type, weight_raw, weight_fraction, weight_basis, effective_exposure_value, effective_exposure_fraction, coverage_status, coverage_fraction, relationship_confidence, relationship_confidence_basis, relationship_confidence_reason, provenance_type, formula_id, synthetic_parameter_set_id, record_status]
+
+  holding_field_lineage:
+    csv: data/csv/holding_field_lineage.csv
+    grain: one normalized field value and its exact evidence or derivation
+    primary_key: lineage_id
+    required: [lineage_id, record_type, record_id, field_name, provenance_type, origin_type, confidence_level]
+    columns: [lineage_id, record_type, record_id, field_name, value_raw, normalized_value, provenance_type, origin_type, source_holding_id, source_observation_id, source_document_id, source_sha256, source_page, source_table, source_row_label, source_column_label, source_occurrence, evidence_quote, definition_keys, pair_id, pair_status, adjudication_status, source_agents, source_review_decision_id, formula_id, parent_lineage_ids, matrix_rule_id, confidence_level, confidence_basis, effective_date, available_at, synthetic_parameter_set_id, notes]
 
   synthetic_parameters:
     csv: data/csv/synthetic_parameters.csv

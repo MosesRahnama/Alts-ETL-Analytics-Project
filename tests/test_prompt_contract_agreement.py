@@ -46,6 +46,7 @@ PROSE_NAMES = frozenset({
     "column_index", "column_x", "requires_review", "pair_status",
     "no_eligible_reason", "dispatch_scope", "routing_status",
     "source_header_doc_type", "holding_position", "allocation_bucket",
+    "search_sources", "get_evidence",
 })
 # Provenance and lineage columns: present on every row regardless of family.
 UNIVERSAL = frozenset({

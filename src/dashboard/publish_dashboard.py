@@ -15,7 +15,7 @@ import urllib.request
 import zipfile
 from pathlib import Path, PurePosixPath
 
-from src.dashboard import build_dashboard
+from src.dashboard import build_dashboard, build_rag_dashboard
 from src.dashboard.page import render
 
 
@@ -38,13 +38,21 @@ def api(endpoint: str, body: dict | None = None) -> dict:
         command += ["--input", "-"]
         if endpoint.startswith("git/refs/"):
             command += ["--method", "PATCH"]
-    result = subprocess.run(
-        command, input=json.dumps(body) if body is not None else None,
-        text=True, encoding="utf-8", capture_output=True, check=False,
-    )
-    if result.returncode:
-        raise RuntimeError(f"GitHub {endpoint}: {result.stderr.strip()}")
-    return json.loads(result.stdout)
+    # A large upload meets an occasional gateway timeout, and one of those used
+    # to end the run with the files uploaded but unattached. Only the transient
+    # server codes are retried; a refusal still fails on the first answer.
+    for attempt in range(4):
+        result = subprocess.run(
+            command, input=json.dumps(body) if body is not None else None,
+            text=True, encoding="utf-8", capture_output=True, check=False,
+        )
+        if not result.returncode:
+            return json.loads(result.stdout)
+        error = result.stderr.strip()
+        if attempt == 3 or not any(f"HTTP {code}" in error for code in (429, 500, 502, 503, 504)):
+            raise RuntimeError(f"GitHub {endpoint}: {error}")
+        time.sleep(5 * (attempt + 1))
+    raise RuntimeError(f"GitHub {endpoint}: retries exhausted")
 
 
 def blob_id(content: bytes) -> str:
@@ -55,7 +63,11 @@ def allowed_path(value: str, completed: set[str]) -> bool:
     path = PurePosixPath(value)
     if path.is_absolute() or any(part.startswith(".") for part in path.parts) or "\\" in value:
         return False
-    if value == "dashboard.html":
+    if value in {"dashboard.html", "rag.html", "RAG/architecture.html"}:
+        return True
+    if value == "RAG/evaluation/public-demo.json":
+        return True
+    if value in build_dashboard.GP_REPORT_FILES:
         return True
     if value.startswith("ledgers/working/pdf-extraction-csv/"):
         return len(path.parts) == 6 and path.parts[-2] in completed and path.name in NATIVE_FILES
@@ -70,7 +82,7 @@ def source_files(document: dict, root: Path) -> tuple[set[str], set[str]]:
     with (root / "data/extracted/review/document-summary.csv").open(encoding="utf-8-sig", newline="") as handle:
         summary = list(csv.DictReader(handle))
     completed = {row["file_id"] for row in summary}
-    files = {"dashboard.html"}
+    files = {"dashboard.html", "rag.html", "RAG/evaluation/public-demo.json", "RAG/architecture.html"}
     for folder in DATA_FOLDERS:
         files.update(path.relative_to(root).as_posix() for path in (root / folder).glob("*.csv"))
     for section in document["sections"]:
@@ -78,6 +90,12 @@ def source_files(document: dict, root: Path) -> tuple[set[str], set[str]]:
             source = block.get("source", "")
             if source and allowed_path(source, completed) and (root / source).is_file():
                 files.add(source)
+            # An embedded report links to its own files by relative path, so
+            # every file it names is published beside it or none of it is.
+            for value in block.get("bundle", ()):
+                if not (root / value).is_file():
+                    raise ValueError(f"Report file missing: {value}")
+                files.add(value)
             if section["id"] == "evidence" and block.get("source") == "data/extracted/tables/fact_observation.csv":
                 for row in block.get("rows", []):
                     files.update(value for value in row if isinstance(value, str) and allowed_path(value, completed) and (root / value).is_file())
@@ -111,6 +129,13 @@ def prepare(root: Path, output: Path) -> dict:
     document = json.loads(match.group(1))
     if document != build_dashboard.payload():
         raise ValueError("Dashboard differs from current published inputs; rebuild and test first")
+    rag_text = (root / "rag.html").read_text(encoding="utf-8")
+    rag_match = PAYLOAD.search(rag_text)
+    if rag_match is None:
+        raise ValueError("RAG page data are missing")
+    rag_document = json.loads(rag_match.group(1))
+    if rag_document != build_rag_dashboard.payload():
+        raise ValueError("RAG page differs from current published inputs; rebuild and test first")
     base = api(f"git/ref/heads/{BRANCH}")["object"]["sha"]
     tree = api(f"git/trees/{base}?recursive=1")
     if tree.get("truncated"):
@@ -119,7 +144,7 @@ def prepare(root: Path, output: Path) -> dict:
     files, completed = source_files(document, root)
     records = []
     downloads = {}
-    for source in sorted(files - {"dashboard.html"}):
+    for source in sorted(files - {"dashboard.html", "rag.html"}):
         content = (root / source).read_bytes()
         destination = ASSET_PREFIX + source
         kind = "file"
@@ -149,13 +174,18 @@ def prepare(root: Path, output: Path) -> dict:
                 raise ValueError(f"File exceeds the publication size limit: {destination}")
         downloads[source] = destination
         records.append(dict(source=source, destination=destination, bytes=len(content), kind=kind))
-    document["downloads"] = downloads
+    def rewrite_sources(page_document: dict) -> None:
+        page_document["downloads"] = downloads
+        for section in page_document["sections"]:
+            for block in section["blocks"]:
+                source = block.get("source", "")
+                if source in downloads and downloads[source].startswith(ASSET_PREFIX):
+                    block["source"] = downloads[source]
+                    downloads[block["source"]] = block["source"]
+
+    rewrite_sources(document)
+    rewrite_sources(rag_document)
     for section in document["sections"]:
-        for block in section["blocks"]:
-            source = block.get("source", "")
-            if source in downloads and downloads[source].startswith(ASSET_PREFIX):
-                block["source"] = downloads[source]
-                downloads[block["source"]] = block["source"]
         if section["id"] == "warehouse":
             section["blocks"].insert(0, {"kind": "note", "text": "Database and text downloads use ZIP archives containing the original file. Table search covers the displayed preview; source downloads contain every row."})
         if section["id"] == "reproduce":
@@ -163,6 +193,9 @@ def prepare(root: Path, output: Path) -> dict:
     rendered = render(document).encode("utf-8")
     (output / "dashboard.html").write_bytes(rendered)
     records.append(dict(source="dashboard.html", destination="dashboard.html", bytes=len(rendered), kind="dashboard"))
+    rag_rendered = render(rag_document).encode("utf-8")
+    (output / "rag.html").write_bytes(rag_rendered)
+    records.append(dict(source="rag.html", destination="rag.html", bytes=len(rag_rendered), kind="dashboard"))
     asset_paths = {PurePosixPath(row["destination"]) for row in records if row["destination"].startswith(ASSET_PREFIX)}
     directories = {parent for path in asset_paths for parent in path.parents if str(parent).startswith(ASSET_PREFIX.rstrip("/"))}
     for directory in sorted(directories):
@@ -178,11 +211,19 @@ def prepare(root: Path, output: Path) -> dict:
         (output / destination).write_bytes(content)
         records.append(dict(source=destination, destination=destination, bytes=len(content), kind="guide"))
     readme = base64.b64decode(api(f"git/blobs/{remote['README.md']}")["content"]).decode("utf-8")
-    evidence_rows = next(len(block["rows"]) for section in document["sections"] if section["id"] == "evidence" for block in section["blocks"] if block.get("source", "").endswith("/fact_observation.csv"))
+    # The evidence section draws several charts from the same file, and they
+    # carry its path without carrying its rows. Only the table block states the
+    # row count, so it is selected by kind rather than by being found first.
+    evidence_rows = next(
+        block["rows_total"] if "rows_total" in block else len(block["rows"])
+        for section in document["sections"] if section["id"] == "evidence"
+        for block in section["blocks"]
+        if block.get("kind") == "table" and block.get("source", "").endswith("/fact_observation.csv")
+    )
     notice = f"The live dashboard contains {len(completed)} extracted documents and {evidence_rows:,} evidence rows, using the files in [dashboard-data](dashboard-data/README.md). Repository code and its source tables retain their existing release."
     lines = [line for line in readme.splitlines() if not line.startswith("The live dashboard ")]
-    lines = [f"[`dashboard.html`](dashboard.html) contains {len(completed)} extracted documents, {evidence_rows:,} evidence rows, database previews, quality results, performance measures, benchmark comparisons, portfolio allocations, and recorded data-completion methods. Its downloads use the separate [dashboard-data](dashboard-data/README.md) snapshot." if line.startswith("[`dashboard.html`](dashboard.html)") else line for line in lines]
-    readme = lines[0] + "\n\n" + notice + "\n" + "\n".join(lines[1:]) + "\n"
+    lines = [f"[`dashboard.html`](dashboard.html) contains {len(completed)} extracted documents, {evidence_rows:,} evidence rows, database previews, quality results, performance measures, benchmark comparisons, portfolio allocations, recorded data-completion methods, and the GP Scoring manager report. Its downloads use the separate [dashboard-data](dashboard-data/README.md) snapshot." if line.startswith("[`dashboard.html`](dashboard.html)") else line for line in lines]
+    readme = lines[0] + "\n\n" + notice + " The [RAG system page](rag.html) explains source retrieval, field checks, evaluation, and local review controls.\n" + "\n".join(lines[1:]) + "\n"
     (output / "README.md").write_text(readme, encoding="utf-8", newline="")
     records.append(dict(source="README.md", destination="README.md", bytes=len(readme.encode("utf-8")), kind="public_readme"))
     with (output / "files.csv").open("w", encoding="utf-8", newline="") as handle:
@@ -195,8 +236,12 @@ def prepare(root: Path, output: Path) -> dict:
     return state
 
 
-def publish(output: Path) -> str:
-    """Commit only prepared files, retaining the public branch's own parent."""
+def publish(output: Path, amend: bool = False) -> str:
+    """Commit only prepared files, retaining the public branch's own parent.
+
+    With ``amend`` the published commit is replaced rather than extended, which
+    keeps the public history one commit long across repeated site refreshes.
+    """
 
     state = json.loads((output / "state.json").read_text(encoding="utf-8"))
     if state["repository"] != REPOSITORY or state["branch"] != BRANCH:
@@ -239,7 +284,17 @@ def publish(output: Path) -> str:
     if api(f"git/ref/heads/{BRANCH}")["object"]["sha"] != state["base"]:
         raise ValueError("Public branch changed during upload; files remain unattached")
     tree = api("git/trees", dict(base_tree=state["base_tree"], tree=changes))
-    commit = api("git/commits", dict(message="Update dashboard and supporting reviewer data", tree=tree["sha"], parents=[state["base"]]))
+    if amend:
+        # Replace the published commit instead of stacking another one on it, so
+        # refreshing the site leaves the public history the length it already was.
+        # The commit keeps its predecessor's parents and message; only the tree moves.
+        head = api(f"git/commits/{state['base']}")
+        parents = [parent["sha"] for parent in head.get("parents", [])]
+        message = head["message"]
+    else:
+        parents = [state["base"]]
+        message = "Update dashboard and supporting reviewer data"
+    commit = api("git/commits", dict(message=message, tree=tree["sha"], parents=parents))
     committed_tree = api(f"git/trees/{tree['sha']}?recursive=1")
     if committed_tree.get("truncated"):
         raise ValueError("Published file comparison is incomplete")
@@ -248,12 +303,13 @@ def publish(output: Path) -> str:
     actual = {path for path in set(actual_tree) | set(state["remote"]) if actual_tree.get(path) != state["remote"].get(path)}
     if actual != expected or any(Path(name).name == ".gitignore" for name in actual):
         raise ValueError("Public commit file set differs from prepared uploads")
-    if any(path not in {"dashboard.html", "README.md"} and not path.startswith(ASSET_PREFIX) for path in actual):
+    if any(path not in {"dashboard.html", "rag.html", "README.md"} and not path.startswith(ASSET_PREFIX) for path in actual):
         raise ValueError("Public code or source tables would change")
-    api(f"git/refs/heads/{BRANCH}", dict(sha=commit["sha"], force=False))
-    state.update(commit=commit["sha"], changed=sorted(expected))
+    api(f"git/refs/heads/{BRANCH}", dict(sha=commit["sha"], force=amend))
+    state.update(commit=commit["sha"], changed=sorted(expected), amended=amend)
     (output / "state.json").write_text(json.dumps(state, indent=2), encoding="utf-8")
-    print(f"PUBLISHED: {commit['sha']}; {len(changes)} files; public parent {state['base']}", flush=True)
+    shape = "amended" if amend else f"parent {state['base']}"
+    print(f"PUBLISHED: {commit['sha']}; {len(changes)} files; {shape}", flush=True)
     return commit["sha"]
 
 
@@ -261,9 +317,10 @@ def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--output", type=Path, default=OUTPUT)
     parser.add_argument("--publish", action="store_true", help="Publish the previously prepared files")
+    parser.add_argument("--amend", action="store_true", help="Replace the published commit instead of adding one")
     args = parser.parse_args()
     if args.publish:
-        publish(args.output)
+        publish(args.output, amend=args.amend)
     else:
         prepare(build_dashboard.PROJECT_ROOT, args.output)
     return 0

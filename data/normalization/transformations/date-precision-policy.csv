@@ -2,3 +2,4 @@ input_value,output_value,decided_by,evidence,note
 unrecognized_shape,unknown,"pipeline literal, flatten",src/flatten/flatten_extracted.py:286,The printed text stays the row's only claim; the ISO date is left empty.
 empty_text,<blank>,"pipeline literal, flatten",src/flatten/flatten_extracted.py:286,"No text, no precision."
 weekday_prefix,stripped,"pipeline literal, flatten",src/flatten/flatten_extracted.py:286,A weekday names the same day the rest of the string gives.
+ambiguous_slash_date,refuse,pipeline defect review,audit/pipeline-audit/OPEN-DEFECTS.csv D5,A numeric day and month that can be reversed require a source-date-order decision before publication.

@@ -19,7 +19,7 @@ Printed names, accepted standardized identities, stable entity IDs, manager-rese
 | `attribute-conflicts.csv` | Funds whose remaining printed labels still disagree after hyphen and `Investments`-suffix collapse. Header-only is the passing result of `fund_attributes conflicts --strict` | `conflicts` |
 | `name-near-duplicates.csv` | Similar spellings presented for review without automatic merging | `check` |
 | `standard-conflicts.csv` | Cases where one normalization key points to more than one standard. Header-only, and that is the passing result of `conflicts --strict` | `conflicts` |
-| `source-review-corrections.csv` | Page-backed field corrections with expected old values; source_review applies them to resolution records and checks drift | `python -m src.catalog.simple_pdf_extraction.source_review --apply` |
+| `source-review-corrections.csv` | Page-backed field decisions and ordered amendments; each amendment's old value must match the preceding decision, and reruns preserve the full history | `python -m src.catalog.simple_pdf_extraction.source_review --apply` |
 | `worksheets/` | Human normalization, two-agent manager research, third-reader decisions, and attribute-conflict rows | `export`, `manager-export`, and `fund_attributes export` |
 | `transformations/` | CSV decision matrices: each row names the input, output, context, decision owner, and evidence; `src/common/matrices.py` reads them and stage 20 checks them | 420 data-decision sites cite one or more rows; four non-data sites are recorded in [`migration-dispositions.csv`](../../ledgers/pipeline/migration-dispositions.csv) |
 

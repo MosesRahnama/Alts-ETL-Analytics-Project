@@ -691,7 +691,7 @@ def build_periods() -> int:
     _, pme = read_csv(CSV_DIR / "pme_results.csv")
     _, terms = read_csv(CSV_DIR / "fund_terms.csv")
     _, term_clauses = read_csv(CSV_DIR / "fund_term_clauses.csv")
-    _, holdings = read_csv(CSV_DIR / "fund_holdings.csv")
+    _, holdings = read_csv(CSV_DIR / "fund_position.csv")
     _, allocations = read_csv(CSV_DIR / "portfolio_allocations.csv")
     _, change_rows = read_csv(AUDIT_DIR / "attribute-changes.csv")
     _, observation_rows = read_csv(TABLE_DIR / "fact_observation.csv")
@@ -724,7 +724,7 @@ def build_periods() -> int:
     )
     for row in holdings:
         if row.get("record_status") in {"", "ACTIVE"} and row.get("as_of_date"):
-            holdings_by_fund_date[row.get("fund_id", "")][row["as_of_date"]].append(row)
+            holdings_by_fund_date[row.get("owner_fund_id", "")][row["as_of_date"]].append(row)
     allocation_by_key: dict[tuple[str, str], dict[str, str]] = {}
     for row in allocations:
         key = (row.get("fund_id", ""), row.get("as_of_date", ""))
@@ -873,7 +873,7 @@ def build_periods() -> int:
                 ),
                 "holding_count": str(len(period_holdings)),
                 "holding_fair_value_total": f"{fair_value_total:.6f}" if period_holdings else "",
-                "holding_ids": join_ids(row.get("holding_id", "") for row in period_holdings),
+                "holding_ids": join_ids(row.get("position_id", "") for row in period_holdings),
                 "holding_as_of_date": holding_as_of_date,
                 "holding_provenance_type": join_ids(
                     row.get("provenance_type", "") for row in period_holdings

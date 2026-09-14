@@ -6,7 +6,12 @@ Coordinate-derived table-cell grids for all routed source documents.
 |---|---|
 | `MANIFEST.csv` | One row per document the grid builder read, naming its text layer and what the grid recovered, including why a file produced no rows. |
 | `Capital_Call_ABC_Fund_LP_TrustAlta_Sample_Notice.csv` | Physical-page word coordinates used to recover table rows and columns. Header-only: MANIFEST.csv records why, either a scan with no text layer or a native-text document printing no numeric table. |
+| `Capital_Call_ILPA_Suggested_Guidance_2025.csv` | Physical-page word coordinates used to recover table rows and columns. |
+| `Capital_Call_ILPA_Template_Definitions.csv` | Physical-page word coordinates used to recover table rows and columns. Header-only: MANIFEST.csv records why, either a scan with no text layer or a native-text document printing no numeric table. |
 | `Capital_Call_Morgan_Lewis_Deskbook_Sample_Notice.csv` | Physical-page word coordinates used to recover table rows and columns. Header-only: MANIFEST.csv records why, either a scan with no text layer or a native-text document printing no numeric table. |
+| `Continuation_Fund_ILPA_Considerations_2023.csv` | Physical-page word coordinates used to recover table rows and columns. |
+| `Continuation_Fund_ILPA_Disclosure_Mock_Multi_Asset.csv` | Physical-page word coordinates used to recover table rows and columns. Header-only: MANIFEST.csv records why, either a scan with no text layer or a native-text document printing no numeric table. |
+| `Continuation_Fund_ILPA_Disclosure_Mock_Single_Asset.csv` | Physical-page word coordinates used to recover table rows and columns. Header-only: MANIFEST.csv records why, either a scan with no text layer or a native-text document printing no numeric table. |
 | `DDQ_AIMA_Bear_Stearns_HGSCS_FCIC.csv` | Physical-page word coordinates used to recover table rows and columns. |
 | `DDQ_AIMA_CTA_Chesapeake_Capital.csv` | Physical-page word coordinates used to recover table rows and columns. |
 | `DDQ_Hamilton_Lane_Global_Private_Assets_Fund_May2025.csv` | Physical-page word coordinates used to recover table rows and columns. |
@@ -435,6 +440,11 @@ Coordinate-derived table-cell grids for all routed source documents.
 | `Schedule_Inv_Wisconsin_SWIB_Schedule_Of_Investments_CY2024.csv` | Physical-page word coordinates used to recover table rows and columns. |
 | `Schedule_Inv_WTI_Fund_X_Venture_Debt_ARS_FY2025.csv` | Physical-page word coordinates used to recover table rows and columns. |
 | `Schedule_Inv_WTI_Fund_XI_Venture_Debt_ARS_FY2025.csv` | Physical-page word coordinates used to recover table rows and columns. |
+| `Secondary_Pricing_Evercore_PCA_2025.csv` | Physical-page word coordinates used to recover table rows and columns. |
+| `Secondary_Pricing_Lazard_2024.csv` | Physical-page word coordinates used to recover table rows and columns. |
+| `Secondary_Pricing_Lazard_2025.csv` | Physical-page word coordinates used to recover table rows and columns. |
+| `Secondary_Pricing_Lazard_Interim_2024.csv` | Physical-page word coordinates used to recover table rows and columns. |
+| `Secondary_Pricing_Lazard_Interim_2026.csv` | Physical-page word coordinates used to recover table rows and columns. |
 | `Side_Letter_Fiducient_Private_Fund_Sample.csv` | Physical-page word coordinates used to recover table rows and columns. Header-only: MANIFEST.csv records why, either a scan with no text layer or a native-text document printing no numeric table. |
 | `Side_Letter_MEABF_Sample.csv` | Physical-page word coordinates used to recover table rows and columns. Header-only: MANIFEST.csv records why, either a scan with no text layer or a native-text document printing no numeric table. |
 | `Subscription_Hedge_Fund_Template.csv` | Physical-page word coordinates used to recover table rows and columns. |

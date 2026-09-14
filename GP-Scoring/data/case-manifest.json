@@ -1,0 +1,84 @@
+{
+  "cases": [
+    {
+      "avg_nav_reliance": "0.3031360316554794",
+      "case_id": "CASE_001",
+      "fund_id": "FUND_SYNTH_000701",
+      "historical_rank": "1",
+      "historical_score": "83.6332029552",
+      "manager_id": "MANAGER_SYNTH_00176",
+      "manager_name": "Synthetic Alternatives Manager 0176",
+      "profile_id": "GP_COMMITMENT_CONTRADICTION",
+      "purpose": "A high-ranked buyout manager with a deliberate DDQ/LPA contradiction and an LPAC review event.",
+      "strategy": "buyout",
+      "sub_strategy": "middle_market"
+    },
+    {
+      "avg_nav_reliance": "0.2834223915860037",
+      "case_id": "CASE_002",
+      "fund_id": "FUND_SYNTH_000361",
+      "historical_rank": "2",
+      "historical_score": "83.1034482758",
+      "manager_id": "MANAGER_SYNTH_00091",
+      "manager_name": "Synthetic Alternatives Manager 0091",
+      "profile_id": "TEAM_ATTRIBUTION_BREAK",
+      "purpose": "A high-ranked buyout manager with a senior departure after valid historical deal work.",
+      "strategy": "buyout",
+      "sub_strategy": "middle_market"
+    },
+    {
+      "avg_nav_reliance": "0.4542334583258853",
+      "case_id": "CASE_003",
+      "fund_id": "FUND_SYNTH_000654",
+      "historical_rank": "2",
+      "historical_score": "48.3157894737",
+      "manager_id": "MANAGER_SYNTH_00164",
+      "manager_name": "Synthetic Alternatives Manager 0164",
+      "profile_id": "SECONDARIES_FINANCING",
+      "purpose": "A secondaries manager with explicit fund-financing terms, incomplete succession evidence, and a higher NAV-reliance profile.",
+      "strategy": "secondaries",
+      "sub_strategy": "lp_led"
+    }
+  ],
+  "generator_version": "gp_v2_cases_3",
+  "input_hashes": {
+    "GP-Scoring/04-diagnostics/fund-diagnostics.csv": "5c67af16aca02cb4760917c88bc63f8cc7cbb3ba7757c6ed63cccb7c7390379b",
+    "GP-Scoring/04-diagnostics/manager-diagnostics.csv": "5fbcc685025b51492aafa98d244793eaff4ce289ecb1b65d7f93db98d4352272",
+    "data/synthetic/clean/fund_holdings.csv": "f163d5e9c5df402b7b4cb4721e93790f5c84e09de81402ec2c601ec9074caeb7",
+    "data/synthetic/clean/fund_master.csv": "dfa0910fbe38526c61652ae1e83827bf98e8e3ba0800ba3406698ed05719276c",
+    "data/synthetic/clean/fund_terms.csv": "2575114e699823863b4cfbfa83ab10f9c80d784a145e3e1658d692b419ab63ca"
+  },
+  "limitations": [
+    "Case economics are independent synthetic scenarios and do not reconstruct the parent fixture's historical deal economics.",
+    "Selected company IDs are reused only as stable fictional identities; case investment dates, costs, proceeds and marks are new declared assumptions.",
+    "Case documents are generated HTML and never claim to be PDFs or real manager diligence materials.",
+    "No case value enters the fixture leaderboard or V1 historical score."
+  ],
+  "output_hashes": {
+    "data/case-events.csv": "6ecaa6e1af79665ad49298d1a10fe77dac67c9b8bc1c390645a68ea3ce57f720",
+    "data/case-valuations.csv": "25ff5c5f724c15c66dd44f39de7220b60bdd3406781b6593af1ff1bb49b48982",
+    "data/deal-attribution.csv": "c5d718ad482ec6e727131ed825686138c9a8ca52214ef385643b11ade485bb5b",
+    "data/diligence-facts.csv": "a42fd135e95df35800384b0603d42ced5c19836fd5c198d268b5754230f1e2bc",
+    "data/document-registry.csv": "98975100798b9e30b780ddc15c56265263554613cd2562437d7e48f33c66c737",
+    "data/documents/ddq.html": "9eb14778af18ee37f8c100ca1719825383847951d8baecace69ae861c715d3f6",
+    "data/documents/lpa-terms.html": "58c4a8727832f243b3854b369bf33b8db4171dc8f7f1b7bf1fea50bd7e345e03",
+    "data/documents/portfolio-investments.html": "8a7dd4dd4bde31972d07ae5d5e65d5eb99f51082ff3529df126393df949030a4",
+    "data/documents/team-roster.html": "222872c1b21a7fdc8202455375c4cd690e74c329579ec98f3ceb964252e1d05e",
+    "data/documents/track-record.html": "4fe56c898f1819de1a52a1c3be0282c769510da27a0c4b750ff342e774db84c9",
+    "data/documents/valuation-memo.html": "990a3d6f6a83e9a2381a357b16d52f26bc6fee8b6c9a45fc9b4d2482f27bcaa3",
+    "data/expected-facts.json": "0128c87446e480fd29d62a52481a12e91ffdb2b1bec7213589373ea4047bdd18",
+    "data/team-history.csv": "f9b09d5bf267a853f92e892a8176ba4f1ecf0930f9bf63eab77b12221d120843"
+  },
+  "population": "case_simulation",
+  "row_counts": {
+    "case_events": 36,
+    "case_valuations": 11,
+    "deal_attribution": 11,
+    "diligence_facts": 32,
+    "document_registry": 18,
+    "team_history": 12
+  },
+  "seed": 20260909,
+  "selection_policy": "top two ranked buyout managers plus the ranked secondaries manager with highest average NAV reliance",
+  "status": "PASS"
+}

@@ -11,12 +11,20 @@ from pathlib import Path
 
 from src.analytics import run_extracted_analytics
 from src.catalog.simple_pdf_extraction import csv_wide_contract as contract
-from src.catalog.simple_pdf_extraction import csv_workflow, name_normalization
+from src.catalog.simple_pdf_extraction import name_normalization
+from src.catalog.simple_pdf_extraction import semantic_checks
 from src.catalog.simple_pdf_extraction.build_csv_pipeline import DISPATCH_SCOPES
 from src.common import matrices
+from src.quality import run_fund_checks
+from src.pipeline import build_integrated_universe as integrated
 from src.flatten import flatten_extracted, load_star, pivot_wide
+from src.load import build_normalized_holdings
 from src.load.load_csv_to_duckdb import database_parity, database_file_parity
 from src.load import promote_extracted_to_fund_level as promotion
+from src.load.validate_normalized_holdings import (
+    NormalizedHoldingValidationError,
+    validate as validate_normalized_holdings,
+)
 from src.load.validate_round02_promotion import validate_fund_model_extracted_rows, GATED_TABLES
 from src.pipeline.transformation_lineage import missing_current_receipts, receipt_errors
 
@@ -221,7 +229,8 @@ def _return_qualifiers_stated(row: dict[str, str]) -> bool:
         return False
     if method == "unstated" and fee_basis == "unstated":
         return True
-    return bool(row.get("definition_keys", "").strip() or row.get("basis_raw", "").strip())
+    return (bool(row.get("definition_keys", "").strip() or row.get("basis_raw", "").strip())
+            and not semantic_checks.unbacked_qualifiers(row))
 
 
 def grouping_and_qualifier_checks(
@@ -355,12 +364,12 @@ def run_checks(root: Path = PROJECT_ROOT) -> tuple[list[Check], list[str]]:
             _check(
                 "source physical pages",
                 sum(int(float(row["page_count"])) for row in source),
-                40_788,
+                40_965,
             ),
             _check(
                 "local PDF files",
                 len(local_pdfs),
-                442,
+                452,
             ),
             _check("source PDF paths match ledger", set(local_pdfs) == expected_pdf_paths, True),
         ]
@@ -376,20 +385,20 @@ def run_checks(root: Path = PROJECT_ROOT) -> tuple[list[Check], list[str]]:
     scope_field = "dispatch_scope" if "dispatch_scope" in dispatch_scope[0] else "scope"
     checks.extend(
         [
-            _check("document-type audit rows", len(classification), 442),
-            _check("document-type audit IDs unique", len(classification_ids), 442),
+            _check("document-type audit rows", len(classification), 452),
+            _check("document-type audit IDs unique", len(classification_ids), 452),
             _check("document-type audit covers source ledger", classification_ids, source_ids),
-            _check("routing rows", len(routing), 442),
-            _check("routing IDs unique", len(routing_ids), 442),
+            _check("routing rows", len(routing), 452),
+            _check("routing IDs unique", len(routing_ids), 452),
             _check("routing covers source ledger", routing_ids, source_ids),
-            _check("dispatch-scope rows", len(dispatch_scope), 442),
-            _check("dispatch-scope IDs unique", len(scope_ids), 442),
+            _check("dispatch-scope rows", len(dispatch_scope), 452),
+            _check("dispatch-scope IDs unique", len(scope_ids), 452),
             _check("dispatch scope covers source ledger", scope_ids, source_ids),
             *dispatch_assignment_checks(root, dispatch_scope, source_ids),
             _check(
                 "local TXT files",
                 len(list((root / "data" / "documents" / "txt").glob("*.txt"))),
-                442,
+                452,
             ),
         ]
     )
@@ -522,7 +531,14 @@ def run_checks(root: Path = PROJECT_ROOT) -> tuple[list[Check], list[str]]:
 
     source_counts = {name: len(_rows(root / "data/extracted/fund-level" / f"{name}.csv"))
                      for name in fund_model}
-    universe_size = len({r["fund_id"] for r in fund_model["fund_master"]})
+    completion_cfg = integrated.config(root / "config" / "integrated_completion.yml")
+    source_periods = _rows(root / "data/extracted/fund-level/fund_periods.csv")
+    source_flows = _rows(root / "data/extracted/fund-level/fund_cashflows.csv")
+    exclusions = {row["fund_id"]: integrated.completion_currency_issue(completion_cfg, row,
+        [r for r in [*source_periods, *source_flows] if r.get("fund_id") == row["fund_id"]])
+        for row in fund_model["fund_master"]}
+    exclusions = {key: issue for key, issue in exclusions.items() if issue[0]}
+    universe_size = len({r["fund_id"] for r in fund_model["fund_master"]} - exclusions.keys())
     flows_per_fund = sum(len(matrices.resolve("integrated-cashflow-schedule", key).split("|"))
                          for key in ("call_fractions", "distribution_fractions"))
     holdings_per_fund = len(matrices.resolve("terms-generation-parameters", "fair_value_split", context="holdings").split("|"))
@@ -850,12 +866,19 @@ def run_checks(root: Path = PROJECT_ROOT) -> tuple[list[Check], list[str]]:
         [
             _check("integrated identity spine", integrated_ids, extracted_ids),
             _check("extracted master identity spine", extracted_master_ids, extracted_ids),
-            _check("one completed period per extracted fund", len(target_periods), len(extracted_ids)),
-            _check("completed period fund IDs", {row.get("fund_id") for row in target_periods}, extracted_ids),
+            _check("one completed period per currency-eligible fund", len(target_periods), len(extracted_ids - exclusions.keys())),
+            _check("completed period fund IDs", {row.get("fund_id") for row in target_periods}, extracted_ids - exclusions.keys()),
+            _check("currency exclusions recorded as unfilled gaps",
+                {(r["fund_id"], r["resolution_type"], r["original_value"]) for r in gaps
+                 if r.get("target_table") == "fund_periods" and r.get("field_name") == "currency"
+                 and r.get("status") == "OPEN" and not r.get("resolution_value")},
+                {(fund, issue, currency) for fund, (issue, currency) in exclusions.items()}),
             _check("standalone synthetic IDs in integrated master", sum(value.startswith("FUND_SYNTH_") for value in integrated_ids), 0),
             _check("extracted period IDs preserved", extracted_period_ids <= integrated_period_ids, True),
             _check("extracted cash-flow IDs preserved", extracted_cashflow_ids <= integrated_cashflow_ids, True),
             _check("completed-period quality failures", sum(row.get("status") == "FAIL" for row in target_quality), 0),
+            _check("unreviewed published-quality failures",
+                run_fund_checks.publication_failure_errors(integrated_quality, integrated_periods, facts), []),
             # A gap is RESOLVED when something filled it and OPEN when the corpus
             # prints nothing that can. What must never happen is a gap claiming a
             # resolution it does not carry, or carrying a value while calling
@@ -1141,6 +1164,48 @@ def run_checks(root: Path = PROJECT_ROOT) -> tuple[list[Check], list[str]]:
         ]
     )
 
+    normalized_error = ""
+    normalized_counts: dict[str, int] = {}
+    try:
+        normalized_counts = validate_normalized_holdings(
+            root / "data" / "csv",
+            fund_master_path=root / "data" / "csv" / "fund_master.csv",
+            fact_holding_path=root / "data" / "extracted" / "tables" / "fact_holding.csv",
+            refusal_path=root / "data" / "extracted" / "audit" / "normalized-holdings-refusals.csv",
+            ddl_path=root / "Expansion" / "holdings" / "normalized_holdings_ddl.sql",
+            qa_path=root / "Expansion" / "holdings" / "normalized_holdings_qa.sql",
+        )
+    except (NormalizedHoldingValidationError, OSError, ValueError) as exc:
+        normalized_error = str(exc)
+    fact_holding_count = len(_rows(root / "data" / "extracted" / "tables" / "fact_holding.csv"))
+    refusal_rows = _rows(root / "data" / "extracted" / "audit" / "normalized-holdings-refusals.csv")
+    checks.extend(
+        [
+            _check("normalized holdings validation", normalized_error, ""),
+            _check(
+                "normalized source holding coverage",
+                normalized_counts.get("mapped_source_positions", 0) + normalized_counts.get("refusals", 0),
+                fact_holding_count,
+            ),
+            _check("normalized holdings QA errors", normalized_counts.get("qa_errors", 0), 0),
+            _check(
+                "normalized holding refusal reasons",
+                {row.get("refusal_code", "") for row in refusal_rows},
+                {"NON_INVESTEE_AGGREGATE", "NON_POSITION_SUMMARY"},
+            ),
+        ]
+    )
+    for table, (filename, _columns, key) in build_normalized_holdings.NORMALIZED_FILES.items():
+        source_rows = _rows(root / "data" / "extracted" / "fund-level" / filename)
+        integrated_rows = _rows(root / "data" / "csv" / filename)
+        checks.append(
+            _check(
+                f"normalized source {table} IDs preserved",
+                {row.get(key, "") for row in source_rows} <= {row.get(key, "") for row in integrated_rows},
+                True,
+            )
+        )
+
     extracted_files = {
         table: (root / "data" / "extracted" / "tables" / f"{table}.csv")
         for table in load_star.TABLE_ORDER
@@ -1182,6 +1247,9 @@ def run_checks(root: Path = PROJECT_ROOT) -> tuple[list[Check], list[str]]:
         root / "data" / "integrated" / "gap-ledger.csv",
         root / "data" / "integrated" / "cell-lineage.csv",
         root / "data" / "integrated" / "reconciliation-results.csv",
+        *(root / "data" / "csv" / spec[0] for spec in build_normalized_holdings.NORMALIZED_FILES.values()),
+        *(root / "data" / "extracted" / "fund-level" / spec[0] for spec in build_normalized_holdings.NORMALIZED_FILES.values()),
+        root / "data" / "extracted" / "audit" / "normalized-holdings-refusals.csv",
         root / "data" / "extracted" / "audit" / "attribute-inherit.csv",
         root / "data" / "extracted" / "audit" / "attribute-changes.csv",
         root / "data" / "extracted" / "review" / "reviewer-observations.csv",

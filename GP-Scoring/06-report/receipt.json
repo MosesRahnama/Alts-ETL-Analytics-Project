@@ -1,0 +1,43 @@
+{
+  "checks": {
+    "failed": 0,
+    "passed": 27
+  },
+  "created_at": "2026-09-14T01:42:35.014719+00:00",
+  "include_cases": true,
+  "limitations": [
+    "Historical ranks are the unchanged V1 synthetic-manager performance screen.",
+    "Named real-source evidence receives no numerical GP rank.",
+    "Original fixture holding cost does not support realized-loss conclusions.",
+    "Synthetic public benchmarks are USD; non-USD strategy PME is unavailable without a supported conversion or matched benchmark.",
+    "Evidence readiness measures field support and is not investment quality."
+  ],
+  "model_calls": "NOT_RUN",
+  "output_hashes": {
+    "04-diagnostics/README.md": "dd29d80abc25736cb905bce1abea56b2a080805fc4b5e992acaf515268baa806",
+    "04-diagnostics/cohort-membership.csv": "86c8cfc4f4593bfa749f7f147a6891dcb8806ad0dfefbb9575568b53a033ce1d",
+    "04-diagnostics/coverage.csv": "921ab5a410c4d81472157f6dd5b9d5702f3cb2f13ebd15a296819f5fd40744e7",
+    "04-diagnostics/decisions.csv": "4de21c054b222493c34fde828155e828657765c899d3c63e76414c807af831ad",
+    "04-diagnostics/evidence-readiness.csv": "9b66cca76eb3d34c8e0216a9e7989cdc3f6603f414abfa4b5ce5209595106c7c",
+    "04-diagnostics/evidence.json": "9557f9dbd0fc2808527d4b817dda9ec1a1ed1eee763bef03e6f25768f9028042",
+    "04-diagnostics/fund-diagnostics.csv": "5c67af16aca02cb4760917c88bc63f8cc7cbb3ba7757c6ed63cccb7c7390379b",
+    "04-diagnostics/genealogy.csv": "25059b3a42d7ea376239013481012f21daf39fdc55a6574c0ffda41b49fcede1",
+    "04-diagnostics/manager-diagnostics.csv": "5fbcc685025b51492aafa98d244793eaff4ce289ecb1b65d7f93db98d4352272",
+    "04-diagnostics/manifest.json": "42d2d3c267fc495c573d2f11df9a841217ff63304f276cc42333beb27f8eee94",
+    "05-scenarios/README.md": "9299477df0f8c5099ad528c8d4f656266f6f3d6aaf1aa71e94ed4cb0126e36f4",
+    "05-scenarios/fund-scenarios.csv": "cb24a174da1008d51488081e3472a11a76d62bde91e77665970d7ecadefa38a4",
+    "05-scenarios/manager-scenarios.csv": "c7f0ec7c7343f4c00d5cd3312b281e000b8304e327cd6e6b3593b2414f6daee8",
+    "05-scenarios/scenario-definitions.json": "072cba73ccb08606767df64bf4854ecf1613de342babda5cb0583a874b0752a4",
+    "06-report/README.md": "2e6544060ef20a566f840b9d55a3d9fe96baa0e06d1a6acfff4b5ae4e5059a97",
+    "06-report/briefs.json": "83d7f948cbc8f700fe8e45ace82abb6f580e22387c593d64db2eca579f2d3277",
+    "06-report/checks.csv": "c709804fdd083d91442f617d3cae80a5e951a76ade21764008a1d61d7a9c53b2",
+    "06-report/dashboard.html": "3421a318a91f26bd941cb4c5a25d874802c659fe97b92f5f1ab6e9ac14e98f26",
+    "06-report/model-previews.json": "53e85a9b0e1fb6019748c29c25d334ac4bf57161dc0754f0dfdd12aeda1fdc22"
+  },
+  "policy_version": "2.2.0",
+  "status": "PASS",
+  "v1_data_build_id": "17d94e4de52ea0f0",
+  "v1_report_id": "b58ab55394d674ef",
+  "v2_data_id": "9579de96c79be54a",
+  "v2_report_id": "1b0037882b8c1024"
+}

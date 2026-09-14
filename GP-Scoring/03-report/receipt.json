@@ -1,0 +1,45 @@
+{
+  "as_of_date": "2026-06-30",
+  "build_id": "17d94e4de52ea0f0",
+  "checks": {
+    "failed": 0,
+    "passed": 10
+  },
+  "created_at": "2026-09-09T18:22:56.784545+00:00",
+  "limitations": [
+    "Numerical rankings use fictional synthetic managers only.",
+    "The score summarizes historical supplied records and is not a forecast.",
+    "The NAV haircut is a sensitivity assumption and is not an LP-interest price.",
+    "Named real-source records remain evidence-only until complete comparable GP histories are supported."
+  ],
+  "llm": {
+    "cache_status": "dry_run",
+    "dry_run": true,
+    "model_override": "",
+    "provider": "openrouter",
+    "resolved_model": "google/gemini-3.8-flash"
+  },
+  "output_hashes": {
+    "01-inputs/README.md": "140e1f76742768b3dcf0cd16a35c50544a785695c6fed9e00465909ee9629473",
+    "01-inputs/evidence.json": "e2142a140afc6b3e68bb562b7f2a721c0af2339a3fd4f1fe34029f58b236a341",
+    "01-inputs/manifest.json": "c4b4d4a69ab56462690fb85bbe8fb3192ccb6de94771ffaa32c3c413e574f505",
+    "02-scoring/README.md": "7b2b5f789375a901c56d3d4958a65277e9795f47302a452fe420f911f4bbf4d6",
+    "02-scoring/decisions.csv": "bf12ff3e843c300c7d379f61e720359fb84024d7d88806e4e63f956f236bb2dc",
+    "02-scoring/fund-features.csv": "c6a04646b768c36bbfe9ca88c272d5d3ad7be27a627a9c35aa5f96e8606bb57e",
+    "02-scoring/gp-scorecards.csv": "51d2ce694e48d37bd442070ad2fbd6686dd3266cf73f71ecc649232689a92692",
+    "03-report/README.md": "106f0be68472b44820a6f0206e35d4d1a38eae9cc75a4d687d43de554827833d",
+    "03-report/briefs.json": "06ffc0e821c3474489b6b8b1a35ac8896063994341516b44329936eb37d3cc6b",
+    "03-report/checks.csv": "ca0697556d0c31faf8115cc30125d01b48592be92796332e145b274457ddd75d",
+    "03-report/dashboard.html": "e394d4ceb9823a2bd269240869428a8b4deee98d8b04b07fa4e6485d6251eea9",
+    "03-report/llm-cache.json": "2d3cb2f0f8367214a36ff466a7d2d6c085b1cf543c5d5ff033dea7654089e345"
+  },
+  "policy_version": "1.1.0",
+  "population": "fixture",
+  "quality_run": {
+    "checked_at": "2026-06-30T00:00:00Z",
+    "run_id": "SYNTH_CLEAN_QC",
+    "status": "COMPLETE"
+  },
+  "report_id": "b58ab55394d674ef",
+  "status": "PASS"
+}

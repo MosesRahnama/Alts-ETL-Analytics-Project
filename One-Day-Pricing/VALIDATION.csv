@@ -1,0 +1,26 @@
+check_id,area,status,actual,expected,source
+V01,integrated build,PASS,build 02ac7efa1eb2c894; 7 positions; 21 prices; 392 future flows; 15/15 checks; 1.404605s,15 checks; 0 failures,One-Day-Pricing/03-report/receipt.json
+V02,integrated check-only,PASS,receipt and all consumed input/code/output hashes verified,0 verification errors,python One-Day-Pricing/run.py --parent . --check-only
+V03,focused pricing tests,PASS,27 passed in 5.37s,27/27 pass,python -m pytest One-Day-Pricing/tests/test_pricing.py -q -p no:cacheprovider
+V04,Python lint,PASS,Ruff reported All checks passed,0 Ruff findings,python -m ruff check One-Day-Pricing/*.py One-Day-Pricing/tests/test_pricing.py
+V05,Python compilation,PASS,compileall completed successfully,0 syntax/compile errors,python -m compileall -q One-Day-Pricing
+V06,fixture scale,PASS,build 8d23e8a763918d25; 100 positions; 300 prices; 15/15 checks; 4.393156s,100 positions under proposed 60s computation target,One-Day-Pricing fixture execution
+V07,observed evidence mode,PASS,build 1f84bc856ea4026d; 7 source records; 0 prices; 3 PASS + 1 optional market SKIP; 0.721689s,source evidence receives no synthetic price,One-Day-Pricing observed execution
+V08,OpenRouter preview,PASS,100-position fixture preview generated request metadata and deterministic briefs; no network call,no network/model call,One-Day-Pricing fixture execution + focused test
+V09,Anthropic preview,PASS,7-position integrated preview generated request metadata and deterministic briefs; no network call,no network/model call,One-Day-Pricing integrated execution + focused test
+V10,live model path,NOT_RUN,OpenRouter and Anthropic live adapters implemented behind explicit authorization and environment keys,no live call required for core release,One-Day-Pricing/briefing.py
+V11,failed-build preservation,PASS,forced QC failure left previous success receipt unchanged and removed candidate bundle,active success bundle survives failed candidate,test_failed_build_does_not_replace_active_receipt
+V12,GP runtime independence,PASS,AST test found no GP-Scoring imports; manifest records gp_scoring_runtime_dependency=false,0 runtime GP imports/inputs,test_runtime_modules_have_no_gp_scoring_import + 01-inputs/manifest.json
+V13,synthetic market experiment,PASS,558 fictional trades; 209 train; 254 temporal test; 38 manager holdout; ridge MAE 2.2969%/2.0117% vs median 5.8922%/3.7794%,model beats declared median baseline on both synthetic holdouts,03-report/evaluation.csv + market-model.json
+V14,browser transaction view,PASS,"Transaction, Positions, Scenarios & Funding, Evidence & QC, and Synthetic Market Test rendered and interacted",all inspected views functional,Playwright local browser inspection
+V15,browser scenario update,PASS,base portfolio ceiling 78.9%; downside 36.4%; base IRR 12.2%; downside IRR -1.8%,selector changes embedded scenario outputs,Playwright local browser inspection
+V16,browser console,PASS,0 errors; 0 warnings,0 console errors/warnings,Playwright local browser inspection
+V17,parent core regression,PASS,135 passed in 121.76s,analytics/quality/integrated/database/public-markets/reviewer/receipt subset all pass,pytest targeted parent core suite
+V18,parent presentation governance,DEFERRED,"15 passed / 5 failed; failures: folder-guide currentness, CSV lineage, live structure, manifest coverage, repo-wide editorial policy",requires parent release-governance changes outside One-Day-Pricing,pytest project-structure/release-presentation/editorial subset
+V19,full parent suite attempt,INCOMPLETE,reached 68% with one failure visible before 240s process cap; no terminal pytest summary,not used as a pass/fail claim,python -m pytest -q -p no:cacheprovider
+V20,One-Day roadmap language,PASS,0 bans / 0 flags,0 language checker findings,check_language.py One-Day-Pricing/ROADMAP.md --profile technical
+V21,GP status consultation,PASS,latest inspected GP V2 status READY; 24/24 release checks; 33/33 focused tests; its code remains unconsumed,patterns copied locally only,GP-Scoring/V2-LIVE-LEDGER.csv E0083-E0084
+V22,browser network boundary,PASS,1 request: GET localhost dashboard.html; HTTP 200,no remote browser request,Playwright network inspection
+V23,One-Day repository editorial scan,PASS,0 findings across One-Day-Pricing Markdown files,0 One-Day editorial findings,parent tests/test_editorial_prose.py rules filtered to One-Day-Pricing
+V24,root documentation language,PASS,README 0 bans/0 flags; ROADMAP 0 bans/0 flags; IMPLEMENTATION-REPORT 0 bans/0 flags,0 bans/flags,commercials/editorials/check_language.py
+V25,file containment,PASS,"One-Day implementation code, generated CSV/JSON/HTML outputs, tests, launchers, ledgers and recovery archive are under One-Day-Pricing; no tracked parent file was edited by this implementation",new implementation artifacts confined to One-Day-Pricing,git status + One-Day-Pricing tree inspection

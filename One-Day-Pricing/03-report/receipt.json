@@ -1,0 +1,268 @@
+{
+  "boundaries": [
+    "Synthetic positions and comparable trades are demonstrations.",
+    "Buyer ceilings are return-based outputs, not observed market-clearing prices.",
+    "No runtime dependency on GP-Scoring.",
+    "No real-market predictive-accuracy claim.",
+    "No parent data were written by this command."
+  ],
+  "build_id": "02ac7efa1eb2c894",
+  "checks": {
+    "failed": 0,
+    "passed": 15,
+    "skipped": 0
+  },
+  "counts": {
+    "briefs": 7,
+    "checks": 15,
+    "forecast_steps": 420,
+    "future_cashflows": 392,
+    "interim_events": 28,
+    "market_test_predictions": 292,
+    "portfolio_results": 3,
+    "positions": 7,
+    "pricing_results": 21,
+    "selected_parent_records": 7,
+    "synthetic_trades": 558
+  },
+  "data_id": "a1d78604fe717ba1",
+  "elapsed_seconds": 1.404605,
+  "finished_at": "2026-09-10T03:06:04Z",
+  "input_fingerprints": [
+    {
+      "bytes": 285794,
+      "path": "data/csv/fund_master.csv",
+      "sha256": "1192ea94791cf6212266bbe41957d43be2f999d97dfb7f69eb5b827796794ac2"
+    },
+    {
+      "bytes": 759902,
+      "path": "data/csv/fund_periods.csv",
+      "sha256": "436d5826b805dfba7fa7e514b51a2669c815ca13e2d0b5a79774cc420c3c4296"
+    },
+    {
+      "bytes": 11853,
+      "path": "data/csv/manager_master.csv",
+      "sha256": "441d5e1a1b549335bec4d99d06dddbd23f693258655eeeda4df01f270a522bd5"
+    },
+    {
+      "bytes": 10652210,
+      "path": "data/csv/quality_results.csv",
+      "sha256": "52d985c5b13748d30b29b1d2bbaaaee200a384e98ae7bbc01ce9a3ff5831ccf7"
+    },
+    {
+      "bytes": 33089705,
+      "path": "data/integrated/cell-lineage.csv",
+      "sha256": "701302774fcea64952adb6e8d679ab0508e23b5c3c022d0b6e0b6821175b14a5"
+    },
+    {
+      "bytes": 5035217,
+      "path": "data/integrated/gap-ledger.csv",
+      "sha256": "cf2fd62ffb820b92d57926fae5250889198b57acc279284b7e03fa1f45d81729"
+    },
+    {
+      "bytes": 249041,
+      "path": "data/synthetic/clean/fund_master.csv",
+      "sha256": "dfa0910fbe38526c61652ae1e83827bf98e8e3ba0800ba3406698ed05719276c"
+    },
+    {
+      "bytes": 13111907,
+      "path": "data/synthetic/clean/fund_periods.csv",
+      "sha256": "db153b9e036e17d06706870d5ce1996b00034bd5e5539d26e729c909527ea28b"
+    }
+  ],
+  "local_code_fingerprints": [
+    {
+      "bytes": 12424,
+      "path": "One-Day-Pricing/briefing.py",
+      "sha256": "d146aa4566fb68c1b213cbb926d224cab37e743639f8bc44dc02b6b15339251e"
+    },
+    {
+      "bytes": 4658,
+      "path": "One-Day-Pricing/finance.py",
+      "sha256": "0b5ade0b4f44b99f07eeab8d412923721c6e8c06a6c82a5133f384a5248f3d0c"
+    },
+    {
+      "bytes": 13551,
+      "path": "One-Day-Pricing/inputs.py",
+      "sha256": "4776ffe4f22896b013f30cfa707e7245e92b60811932d84b58a39f0881b5e21f"
+    },
+    {
+      "bytes": 1007,
+      "path": "One-Day-Pricing/ledger.py",
+      "sha256": "4fbf4ace17b9514c7f747a5d911b5ce81c39a062ca967f458ce4151e5af59a99"
+    },
+    {
+      "bytes": 10363,
+      "path": "One-Day-Pricing/market.py",
+      "sha256": "88e7f637d9d7a92add20e6d85bf3ff3dadeef14b294562191a110f366fbc8b4b"
+    },
+    {
+      "bytes": 51,
+      "path": "One-Day-Pricing/open-dashboard.cmd",
+      "sha256": "6b80ac5315675ab57f51c4461a91fb32dfe05cf1d818d6aacff6d96626f54560"
+    },
+    {
+      "bytes": 151,
+      "path": "One-Day-Pricing/open-dashboard.ps1",
+      "sha256": "7ae51632aed75f0b34ee858bb7bf91a73ba2b951f87af4078380ba1047c99f36"
+    },
+    {
+      "bytes": 3343,
+      "path": "One-Day-Pricing/policy.json",
+      "sha256": "de6686bee692c5b84ad6ae2815fa1d32f8364bb96cfa7115bb691e78ca315053"
+    },
+    {
+      "bytes": 18745,
+      "path": "One-Day-Pricing/pricing.py",
+      "sha256": "c83a13fe45d61fe94ed801468b0394ca7534527aca92440a83ac47e9159d7a23"
+    },
+    {
+      "bytes": 7593,
+      "path": "One-Day-Pricing/qc.py",
+      "sha256": "8a32b96d7fa0e64a3232bef82d83107b989da8a23860763979956a893e1e8a24"
+    },
+    {
+      "bytes": 13822,
+      "path": "One-Day-Pricing/report.py",
+      "sha256": "3586d606494f1185ada5679eb0f515a38624738679c0f40e63314892c1d7113b"
+    },
+    {
+      "bytes": 22332,
+      "path": "One-Day-Pricing/run.py",
+      "sha256": "087a3e96e24808f74252e37b8a2d1ec8986e6acbdf88c6b87706a6374fb1a085"
+    },
+    {
+      "bytes": 13543,
+      "path": "One-Day-Pricing/simulate.py",
+      "sha256": "5f6c9d55ae4a196f0fe94edcad4493e577a39c1fc3a8dd7231ccd27588cb7425"
+    },
+    {
+      "bytes": 5738,
+      "path": "One-Day-Pricing/utils.py",
+      "sha256": "ca801f49c92fa9727eb246d1ebcd705fb167ce77ea02bfa37cc36a5f39dff123"
+    }
+  ],
+  "output_hashes": [
+    {
+      "bytes": 3558,
+      "path": "01-inputs/assumptions.csv",
+      "sha256": "de45c39a4c4f13ee1f501395e220c8e49b53900b7696a5971b4716a729c7cb1a"
+    },
+    {
+      "bytes": 87031,
+      "path": "01-inputs/evidence.json",
+      "sha256": "faa19319604b228b123597d0be47b0f86427f89f924ddbf50d3805980be2e7f6"
+    },
+    {
+      "bytes": 6631,
+      "path": "01-inputs/interim-events.csv",
+      "sha256": "b1cc69869e2bac42e8fb644b4d83290538d81d3e4d774d3b4c477cf8dc2647cb"
+    },
+    {
+      "bytes": 5236,
+      "path": "01-inputs/manifest.json",
+      "sha256": "37167bad3f7730eeb7a9920eab49e98baa4f6aeae23162a3bbf794a24c8a86d3"
+    },
+    {
+      "bytes": 4150,
+      "path": "01-inputs/positions.csv",
+      "sha256": "de1adc70733bb03843824b59f23171362d72b1ca4746c4350799e116fd39678a"
+    },
+    {
+      "bytes": 592,
+      "path": "01-inputs/README.md",
+      "sha256": "a3ddd4e952104cbc659839ea33b1a828c9721485d2ac2fcaef237ebcd8bfe1c8"
+    },
+    {
+      "bytes": 185058,
+      "path": "01-inputs/trades.csv",
+      "sha256": "a96885ccf2c04ed7fecebe2623f76b69ead22664ed7d26166f881916c12f146e"
+    },
+    {
+      "bytes": 60815,
+      "path": "02-pricing/cashflows.csv",
+      "sha256": "9a627f3d1c2e8695f691e9f6dea914634ec54edb54579b25afccd3c731da3236"
+    },
+    {
+      "bytes": 3247,
+      "path": "02-pricing/decisions.csv",
+      "sha256": "dd0cbef924451c18fb6a49c594ce9b51cdba70ea5f6793c735740deeb1fd115f"
+    },
+    {
+      "bytes": 47,
+      "path": "02-pricing/exceptions.csv",
+      "sha256": "da415dc42b92e5282a400955d8d3f09f0d0daf9bea2fc56994eec320be18c3ad"
+    },
+    {
+      "bytes": 75820,
+      "path": "02-pricing/forecast-steps.csv",
+      "sha256": "278544315107cf54c60b52625fc547722acddaafb4cc291de5779784542e9156"
+    },
+    {
+      "bytes": 55879,
+      "path": "02-pricing/market-comparison.csv",
+      "sha256": "93df39c8e84ac7fbe8beb0cbb7c4f2b934f8e8de9cf5200c3243af36a793a0e8"
+    },
+    {
+      "bytes": 1819,
+      "path": "02-pricing/portfolios.csv",
+      "sha256": "1487d28bf84890a5cb5798ad3986ffb95af28956e9eb033272fd179433e3cfd5"
+    },
+    {
+      "bytes": 12434,
+      "path": "02-pricing/positions.csv",
+      "sha256": "9d413dbf72f1c40c8b1edf1aa7270067e0983a4983669254790ecaa1be07b6a0"
+    },
+    {
+      "bytes": 722,
+      "path": "02-pricing/README.md",
+      "sha256": "fc76c944096c2b3c46a28143619f87283ad8de4ef20141d4508b1120586b0e3c"
+    },
+    {
+      "bytes": 6385,
+      "path": "02-pricing/sensitivities.csv",
+      "sha256": "99f8779c50de7130585662b320477ca0ec9013ab710d29531b6ef489261b610a"
+    },
+    {
+      "bytes": 11111,
+      "path": "03-report/briefs.json",
+      "sha256": "7811d3645275220b58ce68d61c9bbf99499bf8e704d5ca7b7c542da4b091f3ef"
+    },
+    {
+      "bytes": 1388,
+      "path": "03-report/checks.csv",
+      "sha256": "1b234563669a3fafe878f99296c06adc53e9ec2f3501d2105a52615614ada876"
+    },
+    {
+      "bytes": 84343,
+      "path": "03-report/dashboard.html",
+      "sha256": "7f18f420063446f63fe8951910e22c9bd3f62ba55ff33a759fd7a3f94ce035c8"
+    },
+    {
+      "bytes": 344,
+      "path": "03-report/evaluation.csv",
+      "sha256": "63632d9118194fc6c984d2dca0549e128406d3b1243a4be56e2a71672871923b"
+    },
+    {
+      "bytes": 552,
+      "path": "03-report/market-model.json",
+      "sha256": "95d5cbfbd764b3f2b699d64648bccacd54f9df51dadb03dad3ed8eb066ccedf3"
+    },
+    {
+      "bytes": 2481,
+      "path": "03-report/model-previews.json",
+      "sha256": "0d7298f5e1d2a0812ac48e9b14ca84cd6fade1573edc0ca37abd7c44a977585b"
+    },
+    {
+      "bytes": 591,
+      "path": "03-report/README.md",
+      "sha256": "8f95fa99cbf15fe9a7b8e1098769829cfca41269a3f88156bdc4e1154f3c4981"
+    }
+  ],
+  "parent_root": "C:\\Users\\Moses\\Alts-ETL-Analytics-Project",
+  "policy_version": "1.0.0",
+  "population": "integrated_demo",
+  "report_id": "7f18f420063446f6",
+  "started_at": "2026-09-10T03:06:03Z",
+  "status": "PASS"
+}

@@ -10,8 +10,10 @@ Tests over acquisition, extraction, identity, promotion, fill, quality, analytic
 | `test_csv_wide_contract.py` | The generated field list verifies, routing is complete and unique, dispatch scopes never overlap, every route has its prompts, and one vocabulary serves every family of its kind. |
 | `test_csv_wide_workflow.py` | Validator refusals (null values, bad quotes, shifted widths, drifted occurrences) and the matching-pair path to a final file. |
 | `test_dashboard.py` | The dashboard opens with no network, renders the same bytes from the same tree, has the counts in its source files, and cites a path a reader can open. |
+| `test_dashboard_field_guide.py` | The optional local field guide uses current release data and explains each step. |
 | `test_database_parity.py` | Full-content CSV-to-DuckDB comparison and header drift detection. |
 | `test_editorial_prose.py` | Reviewer-facing Markdown outside the ignored audit work area follows the house editorial rules. |
+| `test_expansion_admission.py` | Expansion PDFs enter the corpus; non-PDF natives stay in staging. |
 | `test_extraction_review.py` | Every published observation appears once in the origin table, and the agreement layers of document-summary.csv add up. |
 | `test_extraction_semantics.py` | Source-context and omission checks for original and incremental extraction. |
 | `test_flatten_extracted.py` | Printed numbers keep their magnitude, percents stay percents, parentheses mean negative, ambiguous dates stay unparsed, and nothing is dropped. |
@@ -22,6 +24,7 @@ Tests over acquisition, extraction, identity, promotion, fill, quality, analytic
 | `test_mock_universe_pipeline.py` | Stage order and checks of the mock build, including its refusal to write the fund-model database. |
 | `test_name_normalization_managers.py` | Family grouping, auto-settlement, merge integrity, negative-result propagation, coverage scope, and dispatch-prompt generation. |
 | `test_name_normalization_paths.py` | The identity commands, the WRITES registry, and the runbook output table name the same files. |
+| `test_normalized_holdings.py` | Python module that implements test normalized holdings. |
 | `test_page_grid.py` | Numeric units, table bands, printed headers, period labels, and adjacent-page inheritance retain their source layout. |
 | `test_pipeline_corrections.py` | Source-date, classification, cash-flow, and published arithmetic regressions. |
 | `test_pivot_wide.py` | Every observation maps to one wide row, every usual and observed vocabulary name of a family is a column, the wide DDL is the one the module renders, and the set loads under its foreign keys. |
@@ -32,6 +35,7 @@ Tests over acquisition, extraction, identity, promotion, fill, quality, analytic
 | `test_prompt_contract_agreement.py` | Every generated prompt names only real columns, the families its route permits, and vocabulary names of the kinds those families fill. |
 | `test_public_markets.py` | The copied source inventory matches disk, levels and returns reconcile, and the strategy map passes its check. |
 | `test_quality.py` | XIRR on dated flows, sign requirements, clean periods passing every applicable rule, and injected errors caught. |
+| `test_rag_dashboard.py` | The RAG reviewer page is static, current, complete, linked, and limited to its approved public evidence export. |
 | `test_release_audit_table.py` | The release table includes extraction and records only executed check results. |
 | `test_release_counts.py` | Reviewer-facing prose may not state a count the release contradicts. |
 | `test_release_presentation.py` | Every folder has a guide, the landing documents state the data boundary in timeless words, the review tables cover every fact, and the manifest covers every tracked file. |

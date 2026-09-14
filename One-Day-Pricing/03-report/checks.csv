@@ -1,0 +1,16 @@
+check_id,status,actual,expected,source,reason
+T1_INPUT_CONTRACT,PASS,0,0,simulate.validate_transaction_inputs,
+T2_SCENARIO_COVERAGE,PASS,21,21,pricing.price_positions,
+T3_POSITION_SCALING,PASS,0,0,simulate.generate_positions,
+T4_SETTLEMENT_GOLDEN,PASS,adjustment=-2.0;unfunded=17.0,-2;17,independent hand example,
+T5_T8_FORECAST_RECONCILIATION,PASS,0,0,pricing.forecast_position,
+T6_INFORMATION_CUTOFF,PASS,0,0,interim event dates,
+T7_XNPV_GOLDEN,PASS,100.0000000000,100,finance.xnpv,
+T7_COST_GOLDEN,PASS,99.0000000000,99,buyer ceiling identity,
+T7_T9_PRICE_IDENTITIES,PASS,0,0,pricing.price_positions,
+T7_HURDLE_MONOTONICITY,PASS,0,0,02-pricing/sensitivities.csv,
+T10_PORTFOLIO_RECONCILIATION,PASS,0,0,pricing.portfolio_results,
+T12_ORIGIN_AND_SOURCE,PASS,0,0,02-pricing/positions.csv,
+M01_MARKET_SPLITS,PASS,train=209;tests=292,nonempty separated train and test populations,market.evaluate,simulation only
+M02_MARKET_BASELINE,PASS,"{""manager_holdout_test"": ""TRUE"", ""temporal_test"": ""TRUE""}",ridge beats median on each declared synthetic holdout,03-report/evaluation.csv,failure does not imply core pricing failure; it blocks the P7 model claim
+T12_MODEL_NUMERIC_ISOLATION,PASS,8f587f77b328737ec04d7785e05d3d1656d126a440f29e4edfce2775cb62ef9b,8f587f77b328737ec04d7785e05d3d1656d126a440f29e4edfce2775cb62ef9b,briefing.generate_briefs,provider text cannot mutate numerical objects

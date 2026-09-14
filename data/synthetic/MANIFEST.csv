@@ -6,8 +6,14 @@ clean,clean,fund_holdings.csv,89503
 clean,clean,fund_master.csv,800
 clean,clean,fund_observations.csv,327970
 clean,clean,fund_periods.csv,32797
+clean,clean,fund_position.csv,89503
 clean,clean,fund_term_clauses.csv,3400
 clean,clean,fund_terms.csv,1084
+clean,clean,holding_field_lineage.csv,0
+clean,clean,investment_instrument.csv,4475
+clean,clean,investment_owner.csv,800
+clean,clean,investment_target.csv,4475
+clean,clean,lookthrough_edge.csv,0
 clean,clean,manager_master.csv,200
 clean,clean,manager_observations.csv,600
 clean,clean,portfolio_allocations.csv,2400

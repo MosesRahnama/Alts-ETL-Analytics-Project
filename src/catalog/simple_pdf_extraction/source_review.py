@@ -8,6 +8,8 @@ from collections import defaultdict
 from pathlib import Path
 
 from . import csv_workflow as workflow
+from . import semantic_checks
+from src.common import matrices
 from src.pipeline.build_extraction_review import selected_record
 from src.pipeline.transformation_lineage import run_stage
 
@@ -32,14 +34,16 @@ def read(path: Path) -> list[dict[str, str]]:
 def plans() -> list[tuple[str, str, Path, list[dict[str, str]]]]:
     """Validate every decision before writing any resolution file."""
     rules = read(RULES)
-    seen = set()
+    chains = defaultdict(list)
     rule_ids = set()
     grouped = defaultdict(list)
     for rule in rules:
         key = tuple(rule[key] for key in ("route", "file_id", "pair_id", "field"))
-        if key in seen:
-            raise ValueError(f"Duplicate source correction {key}")
-        seen.add(key)
+        if chains[key] and rule["old_value"] != chains[key][-1]["new_value"]:
+            raise ValueError(f"Broken source correction chain {key}")
+        if chains[key] and rule["source_page"] != chains[key][-1]["source_page"]:
+            raise ValueError(f"Source correction page drift {key}")
+        chains[key].append(rule)
         if rule["rule_id"] in rule_ids:
             raise ValueError(f"Duplicate source correction ID {rule['rule_id']}")
         rule_ids.add(rule["rule_id"])
@@ -62,6 +66,9 @@ def plans() -> list[tuple[str, str, Path, list[dict[str, str]]]]:
             (r for r in resolutions if r["decision"] == "ADD"), 1)}
         selected = {}
         for rule in decisions:
+            key = tuple(rule[key] for key in ("route", "file_id", "pair_id", "field"))
+            if rule is not chains[key][-1]:
+                continue
             pair_id = rule["pair_id"]
             if pair_id not in pairs and pair_id not in additions:
                 raise ValueError(f"Unknown pair {pair_id}: {rule['rule_id']}")
@@ -75,12 +82,13 @@ def plans() -> list[tuple[str, str, Path, list[dict[str, str]]]]:
                 selected[pair_id] = row
             row = selected[pair_id]
             field = rule["field"]
-            if row["source_page"] != rule["source_page"] or row.get(field, "") not in {
-                rule["old_value"], rule["new_value"]
-            }:
+            known_values = {r[value] for r in chains[key] for value in ("old_value", "new_value")}
+            if row["source_page"] != rule["source_page"] or row.get(field, "") not in known_values:
                 raise ValueError(f"Source correction drift: {rule['rule_id']}")
             row[field] = rule["new_value"]
         for pair_id, row in selected.items():
+            if semantic_checks.invalid_basis(row):
+                raise ValueError(f"Source correction places context in basis_raw: {file_id}/{pair_id}")
             resolution = additions.get(pair_id) if pair_id in additions else by_pair.get(pair_id)
             if resolution is None:
                 resolution = {key: "" for key in workflow.RESOLUTION_COLUMNS}
@@ -113,17 +121,28 @@ def check() -> int:
 
 def apply() -> int:
     prepared = plans()
-    inputs = [RULES]
+    inputs = [RULES, matrices.matrix_path(semantic_checks.BASIS_POLICY)]
     outputs = [CHANGES]
     for route, file_id, path, _ in prepared:
         inputs.extend([path.parent / "records-a.csv", path.parent / "records-b.csv",
                        path.parent / "pair-index.csv"])
         outputs.extend([path, *workflow.final_paths(route, file_id)])
+    routes = sorted({route for route, _, _, _ in prepared})
+    for route in routes:
+        inputs.append(workflow.WORKLIST_ROOT / "active" / f"{route}.csv")
+        for item in workflow.worklist_for_scope(route, "active"):
+            inputs.extend(workflow.final_paths(route, item["file_id"]))
+        inputs.extend([workflow.round_records(route), workflow.round_coverage(route),
+                       workflow.claim_path(route)])
+        outputs.extend([workflow.round_records(route), workflow.round_coverage(route)])
+    inputs.append(workflow.model_ledger())
 
     def action():
         for route, file_id, path, rows in prepared:
             workflow.write_csv(path, workflow.RESOLUTION_COLUMNS, rows)
             workflow.build_final_command(route, file_id)
+        for route in routes:
+            workflow.publish_round(route, "active")
         workflow.write_csv(CHANGES, FIELDS, read(RULES))
         return 0
 

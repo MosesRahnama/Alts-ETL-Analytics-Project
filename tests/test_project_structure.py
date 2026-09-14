@@ -47,12 +47,13 @@ def test_manifest_has_one_self_row_without_recursive_hash() -> None:
     assert len(self_rows) == 1
     assert self_rows[0]["entry_type"] == "file"
     assert self_rows[0]["sha256"] == ""
-    # The reviewer page renders the manifest, so it is listed unhashed;
-    # otherwise each rebuild would invalidate the manifest it embeds.
+    # The public dashboard embeds the manifest; the optional guide stays local.
     page_rows = [row for row in rows if row["path"] == "dashboard.html"]
     assert len(page_rows) == 1
     assert page_rows[0]["sha256"] == ""
     assert page_rows[0]["size_bytes"] == ""
+    assert not [row for row in rows if row["path"] in {
+        "dashboard-field-guide.html", "src/dashboard/field_guide_template.html"}]
 
 
 def test_live_project_structure() -> None:

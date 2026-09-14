@@ -621,7 +621,7 @@ def vocabulary_table(route: str) -> str:
             return (
                 f" **Qualified: fill `{joined}`** from what the page states (a footnote"
                 " key cited in `definition_keys`, or a printed phrase copied into"
-                " `basis_raw`); write `unstated` when the page states nothing."
+                " `basis_raw`; `value_scope` can cite the printed table and row labels); write `unstated` when the page states nothing."
             )
         lines += [
             "| `metric_category` | Means | Unit | Usual family |",
@@ -1014,7 +1014,8 @@ Each worklist row supplies four views of the same document:
 2. Use TXT to locate content and copy `evidence_quote`.
 3. **For any table, read `grid_path` for that page before assigning a value to a column.** It lists `source_page, source_row_label, column_index, source_column_label, value_raw`, so which column a number belongs to is already decided. Reading a wide table off linearised text and counting columns by eye is the single largest source of wrong values in this work.
 4. Open the corresponding PNG whenever layout, rows, columns, merged headers, chart labels, checkboxes, footnotes, indentation, wide page orientation, OCR, or redaction affects meaning. The PNG decides layout.
-5. Finish and save both CSVs for one file before opening the next file.
+5. Named RAG tools `search_sources` and `get_evidence` may locate a page or quote under an issued session. They leave page reading and candidate writing unchanged: finish the TXT, grid, and PNG reading for the assigned document, and write rows through the existing CSV workflow.
+6. Finish and save both CSVs for one file before opening the next file.
 
 ### Scope and limits of the grid
 
@@ -1070,7 +1071,7 @@ The footnotes, legends, and methodology notes that define the numbers are extrac
 
 On a value row, `definition_keys` lists the printed markers attached to that row or its column, pipe-joined. A key resolves to one meaning within its table and page, or to a unique document-wide definition. Conflicting meanings are refused. A marker dropped from a label (checklist rule 3) lands here.
 
-For a qualified category (marked **Qualified** in the vocabulary above), fill its named dimensions (`method`, `fee_basis`, `value_scope`) from a cited footnote or a phrase copied into `basis_raw`. A fund position held by an investor differs from the whole fund. A portfolio total differs from a holding and from a financial-statement line. Strategy components under fund columns use `value_scope=allocation_bucket`; only the total-fund row uses `fund_total`. Component strategy labels are not the fund's constant strategy. A report author's logo does not establish fund management. Write `unstated` only after checking the governing header and footnotes; never infer net fees from the word IRR. Publication rejects blank required dimensions, including historical rows.
+For a qualified category (marked **Qualified** above), `method` and `fee_basis` require a cited definition or supporting printed words. `basis_raw` contains the stated measurement basis, such as Fair Value or net of fees; entity names and table titles remain in source labels. A copied basis phrase may equal its source quote. `value_scope` can cite the printed table, row labels and evidence quote without filling `basis_raw`. A fund position differs from the whole fund; a portfolio total differs from a holding or statement line. Strategy components under fund columns use `value_scope=allocation_bucket`; only a total-fund row uses `fund_total`. Component labels are not constant fund attributes, and a report logo does not establish fund management. Write `unstated` after checking the governing headers and notes; IRR alone does not establish net fees. Blank required dimensions and unsupported method or fee claims block publication.
 
 ### Excluded scope
 
@@ -1216,7 +1217,7 @@ The limit is unchanged: infer nothing the page does not state somewhere. If no h
 
 | Column | Rule |
 |---|---|
-| `as_of_date` | The printed date governing this column or transaction, copied verbatim. A cover date governs only values reported for that date. A governing footnote can state a different measurement date or define a broad label such as Investments as loan commitments; copy that specific date and classify the defined measure. Comparative columns retain their own printed dates. `Last Quarter` remains literal when no specific date is printed; an undated fact stays undated. Ambiguous slash dates require a source-backed date-order decision during normalization. |
+| `as_of_date` | The printed date governing this column or transaction, copied verbatim. A cover date governs only values reported for that date. A governing footnote can state a different measurement date or define a broad label such as Investments as loan commitments; copy that date and classify the defined measure. Comparative columns retain their own dates. `Last Quarter` remains literal without a specific printed date; undated facts stay undated. An ambiguous slash date blocks normalization until `source-date-order.csv` records a source-supported day/month order. |
 | `source_column_label` | On any `TABLE` row, the printed header of the column the value sits in, copied verbatim. Never blank on a `TABLE` row: if the column has no printed header, write `UNLABELED_COLUMN_<n>` using its position from the left, counting the label column as 0. |
 | `metric_value_raw` | Never substitute a character to avoid a CSV problem. A thousands comma stays a comma: quote the field. Writing `8,312,575` as `8.312.575` or `8312575` changes the number and no later step can detect it. |
 
@@ -1608,7 +1609,7 @@ The original extraction read the footnotes that define the numbers and discarded
 What this pass writes, and nothing else:
 
 1. **New `definition_context` rows**, one per printed footnote, definition, methodology note, or legend entry, per the Definitions section of this route's extractor prompt: `definition_keys` = the printed marker, `text_raw` = the full printed wording verbatim, `condition_raw` = what it governs when stated, `source_structure_type` = `FOOTNOTE` or what it physically is, `evidence_class` = `actual`, `evidence_quote` = a line of the note. `contract_version` on a new row is `{CONTRACT_VERSION}`; `agent_role` is your lane.
-2. **The new columns on existing rows**: `definition_keys` (the printed markers attached to that row or its column, pipe-joined), and for a qualified category `method`, `fee_basis`, `value_scope`, from what the page states through a cited key or a `basis_raw` phrase, else `unstated`.
+2. **The new columns on existing rows**: `definition_keys` contains the printed markers attached to the row or column, pipe-joined. Qualified `method` and `fee_basis` cite a definition or supporting printed basis phrase. `value_scope` can cite the printed table and labels. Names and table titles stay out of `basis_raw`; dimensions the source does not state use `unstated`.
 
 The atomic unit is unchanged: one populated allowed value cell is one row. This pass adds definition rows beside the value rows and fills their new columns; it never merges, splits, or re-derives a value row.
 
@@ -1847,6 +1848,16 @@ def verify_generated() -> list[str]:
                     errors.append(f"{prompt}: contains retired EAV marker {banned!r}")
             if "one populated allowed value cell" not in text.casefold():
                 errors.append(f"{prompt}: missing atomic table-cell rule")
+            if "EXTRACTOR-" in prompt.name:
+                for required in (
+                    "`search_sources`",
+                    "`get_evidence`",
+                    "finish the TXT, grid, and PNG reading",
+                ):
+                    if required not in text:
+                        errors.append(
+                            f"{prompt}: missing RAG source-search boundary {required!r}"
+                        )
             if b"\r\n" in prompt.read_bytes():
                 errors.append(f"{prompt}: CRLF line endings")
     expected_headers = {

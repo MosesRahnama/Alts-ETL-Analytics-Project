@@ -61,14 +61,25 @@ class IntegratedUniverseTests(unittest.TestCase):
             for record_id, source in source_rows.items():
                 self.assertEqual(final_rows[record_id], source)
 
-    def test_completed_periods_reconcile_and_cover_every_fund(self) -> None:
+    def test_completed_periods_reconcile_and_exclusions_have_currency_gaps(self) -> None:
         master = rows(PROJECT_ROOT / "data" / "csv" / "fund_master.csv")
         periods = [
             row
             for row in rows(PROJECT_ROOT / "data" / "csv" / "fund_periods.csv")
             if row.get("synthetic_parameter_set_id") == "INTEGRATED_COMPLETION_V1"
         ]
-        self.assertEqual({row["fund_id"] for row in periods}, {row["fund_id"] for row in master})
+        excluded = {row["fund_id"] for row in rows(PROJECT_ROOT / "data/integrated/gap-ledger.csv")
+                    if row["field_name"] == "currency" and row["target_table"] == "fund_periods"
+                    and row["status"] == "OPEN" and not row["resolution_value"]}
+        source = rows(PROJECT_ROOT / "data/extracted/fund-level/fund_periods.csv")
+        source += rows(PROJECT_ROOT / "data/extracted/fund-level/fund_cashflows.csv")
+        foreign = {row["fund_id"] for row in source if row["currency"] and row["currency"] != "USD"}
+        completed = {row["fund_id"] for row in periods}
+        self.assertEqual(excluded, foreign)
+        self.assertFalse(completed & excluded)
+        self.assertEqual(completed | excluded, {row["fund_id"] for row in master})
+        flows = rows(PROJECT_ROOT / "data/csv/fund_cashflows.csv")
+        self.assertFalse(any(row["fund_id"] in excluded and row["provenance_type"] == "SYNTHETIC" for row in flows))
         for row in periods:
             paid = float(row["paid_in_capital_itd"])
             distributions = float(row["distributions_itd"])
@@ -110,7 +121,8 @@ class IntegratedUniverseTests(unittest.TestCase):
 
     def test_terms_and_holdings_complete_the_same_funds(self) -> None:
         data = PROJECT_ROOT / "data" / "csv"
-        master_ids = {row["fund_id"] for row in rows(data / "fund_master.csv")}
+        master_ids = {row["fund_id"] for row in rows(data / "fund_periods.csv")
+                      if row.get("synthetic_parameter_set_id") == "INTEGRATED_COMPLETION_V1"}
         terms = [
             row
             for row in rows(data / "fund_terms.csv")

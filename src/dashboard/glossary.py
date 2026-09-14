@@ -83,9 +83,15 @@ TABLE_NOTES: dict[str, str] = {
         "and fund life. All rows are SYNTHETIC. The published legal papers name the fund only as the Fund."
     ),
     "data/csv/fund_holdings.csv": (
-        "One holding per fund, asset, and date, with cost and fair value. Printed holdings come "
-        "from schedules of investments. Made holdings fill empty cells on the same fund IDs."
+        "A compatibility projection used by existing scoring code. Source authority remains the "
+        "owner-aware fund_position table, which keeps market value and fair value distinct."
     ),
+    "data/csv/investment_owner.csv": "One reviewed economic or reporting owner per row, separate from the asset being held.",
+    "data/csv/investment_target.csv": "One investee identity per row, keeping funds, companies, projects, assets, and unresolved targets distinct.",
+    "data/csv/investment_instrument.csv": "One security or interest per row, linked to the target that issued it and classified as fund interest, equity, debt, derivative, or other.",
+    "data/csv/fund_position.csv": "One owner-by-instrument position per measurement date, with source holding ID and distinct fair value, market value, ownership, and portfolio-weight fields.",
+    "data/csv/lookthrough_edge.csv": "One directly supported relationship from a parent position to an underlying fund, target, or position. Zero rows means no relationship was inferred.",
+    "data/csv/holding_field_lineage.csv": "One field-origin record per normalized owner, target, instrument, position, or look-through field.",
     "data/csv/fund_metrics.csv": (
         "One calculated measure per period: DPI, RVPI, TVPI, and XIRR. Each row names the "
         "formula that produced it and the record IDs it read, so the number can be recomputed."
@@ -139,6 +145,11 @@ TABLE_NOTES: dict[str, str] = {
     "data/integrated/benchmark-policy.csv": (
         "One row for the benchmark used by PME, including its date coverage, reuse-rights status, "
         "and whether it is approved for demonstration or production use."
+    ),
+    "RAG/evaluation/public-demo.json": (
+        "Saved source questions, permitted excerpts, and completed current retrieval outcomes "
+        "embedded in the dashboard. Unrun rows and model results without a verified current "
+        "provider settings stay out of the public table."
     ),
     # market
     "data/public_markets/audit/source_file_inventory.csv": (
@@ -209,6 +220,12 @@ DATABASE_TABLE_NOTES: dict[str, str] = {
     "fund_terms": TABLE_NOTES["data/csv/fund_terms.csv"],
     "fund_term_clauses": "One clause per term set: the printed or generated wording behind a term.",
     "fund_holdings": TABLE_NOTES["data/csv/fund_holdings.csv"],
+    "investment_owner": TABLE_NOTES["data/csv/investment_owner.csv"],
+    "investment_target": TABLE_NOTES["data/csv/investment_target.csv"],
+    "investment_instrument": TABLE_NOTES["data/csv/investment_instrument.csv"],
+    "fund_position": TABLE_NOTES["data/csv/fund_position.csv"],
+    "lookthrough_edge": TABLE_NOTES["data/csv/lookthrough_edge.csv"],
+    "holding_field_lineage": TABLE_NOTES["data/csv/holding_field_lineage.csv"],
     "fund_metrics": TABLE_NOTES["data/csv/fund_metrics.csv"],
     "pme_results": TABLE_NOTES["data/csv/pme_results.csv"],
     "portfolio_allocations": TABLE_NOTES["data/csv/portfolio_allocations.csv"],
@@ -233,6 +250,19 @@ DATABASE_TABLE_NOTES: dict[str, str] = {
 # ---------------------------------------------------------------- columns
 
 COLUMN_NOTES: dict[str, str] = {
+    "quality-source-exceptions.input_value": "The exact source fund-period record covered by this exception.",
+    "quality-source-exceptions.output_value": "The decision to retain a verified printed amount while keeping its failed rule result.",
+    "quality-source-exceptions.decided_by": "The review that authorized this source-value exception.",
+    "quality-source-exceptions.evidence": "The source document, physical page, and printed heading supporting the amount.",
+    "quality-source-exceptions.printed_value": "The amount exactly as printed, including the parentheses indicating its negative sign.",
+    "quality-source-exceptions.nonnegative_fields": "Other balances that must remain zero or positive; this exception covers only the named negative amount.",
+    # GP Scoring manager results
+    "manager-diagnostics.historical_rank": "Rank of the manager's score within its strategy; 1 is the highest, and tied scores share a rank.",
+    "manager-diagnostics.historical_score": "Average of the manager's scored fund scores in this strategy. A fund score is 60% of its total-value percentile plus 40% of its distributed-cash percentile among comparable funds.",
+    "manager-diagnostics.eligible_score_funds": "Funds of this manager and strategy that received a score.",
+    "manager-diagnostics.supplied_funds": "Funds of this manager and strategy in the supplied fund list.",
+    "manager-diagnostics.avg_ks_pme": "Average Kaplan-Schoar public market equivalent of the scored funds. Above 1 means the funds returned more than the strategy benchmark would have on the same dated cash flows.",
+    "manager-diagnostics.avg_realized_share": "Average share of each scored fund's total value already paid out to investors.",
     # identity and provenance, shared across the fund model
     "fund_id": "The fund's stable identifier. FUND_ prefixed IDs are real funds the extraction identified.",
     "fund_name": "The fund's own name as the corpus prints it, standardized across spellings.",
@@ -313,6 +343,20 @@ COLUMN_NOTES: dict[str, str] = {
     # cash flows
     "cashflow_id": "Identifier of one dated cash flow.",
     "file_id": "The corpus ID of the source document.",
+    "file_ids": "Source-ledger IDs in the question's permitted document set, separated by a pipe.",
+    "case_id": "Stable identifier of one authored RAG evaluation question.",
+    "split": "Development or held-out assignment for that question. All questions from one document stay in one split.",
+    "query": "The search text or claim subject used for the case.",
+    "expected_pages": "Physical page numbers the case requires, separated by a pipe.",
+    "reference_label": "Whether the answer is a human reference, a fixture, or an unrun model row.",
+    "physical_page": "Physical PDF page of the excerpt, counting from the start of the file.",
+    "block_kind": "Kind of indexed passage: page, paragraph, note, or table row.",
+    "original_text": "The indexed quotation as stored, truncated for the page grid.",
+    "configuration": "Retrieval or assessment setup measured for the case, such as keyword or keyword_context.",
+    "execution_state": "Program outcome for the request, such as OK, ACCESS_DENIED, or MODEL_DISABLED.",
+    "result": "pass, fail, or unrun for that configuration. unrun rows stay outside accuracy counts.",
+    "label": "Record class: offline_keyword, offline_keyword_context, human_reference, fixture, or model.",
+    "publication_permission": "Whether the case may appear in the public export: permitted, foia, or restricted.",
     "cashflow_event_id": "Groups the flows of one event, such as a call and its fee.",
     "cashflow_date": "The date the cash moved.",
     "due_date": "The date a call was due.",
@@ -478,7 +522,7 @@ COLUMN_NOTES: dict[str, str] = {
     "unit_scale": "The scale the page states: absolute, thousands, millions, billions.",
     "unit_scale_multiplier": "The factor that takes the printed value to base units.",
     "currency_scale_raw": "The printed currency and scale statement, verbatim.",
-    "basis_raw": "The basis a clause states, as printed.",
+    "basis_raw": "The printed measurement or calculation basis, such as fair value or net of fees; entity names and table titles remain source context.",
     "condition_raw": "The condition a clause states, as printed.",
     "evidence_quote": "The printed text the value was read from. The validator requires the value to appear in it.",
     "evidence_class": "actual: the page prints the value, and only actual rows become fund numbers. redacted: the page prints the label and blacks out the number. Other stored classes (illustrative, requirement, definition) stay out of fund numbers.",
@@ -1082,6 +1126,79 @@ COLUMN_NOTES: dict[str, str] = {
     "Index level": "The benchmark level on that date.",
     "Scaled": "The amount carried forward at the index.",
 }
+
+# Normalized holdings columns added by E01.
+COLUMN_NOTES.update({
+    "accounting_scope": "The reporting grain of the position, such as a whole fund, one investor, one plan, or one portfolio.",
+    "available_at": "When this field became available to the project for time-aware use.",
+    "child_position_id": "The underlying normalized position reached by a look-through relationship, when stated.",
+    "child_target_id": "The underlying investee reached by a look-through relationship, when stated.",
+    "classification_confidence": "Confidence level assigned to the target, instrument, or position classification.",
+    "classification_confidence_basis": "The evidence or rule used to assign the classification confidence.",
+    "classification_confidence_reason": "Short reason for the assigned classification confidence.",
+    "company_entity_id": "Resolved company identity from the extraction identity registry, where the target is a company.",
+    "confidence_basis": "The source evidence or rule supporting this field's confidence level.",
+    "confidence_level": "Confidence level for this field-origin record.",
+    "country": "Country associated with the investee when the source states it.",
+    "coverage_fraction": "Share of the underlying exposure covered by this look-through relationship, expressed from 0 to 1.",
+    "coverage_status": "Whether look-through coverage is full, partial, or unknown.",
+    "decision_id": "Identifier of the reviewed owner decision used for this normalized record.",
+    "depth": "Number of relationship levels from the root fund to this look-through edge.",
+    "exit_date": "Date the position was exited, when stated.",
+    "fund_ownership_fraction": "The fund's stated ownership share of the investee, expressed from 0 to 1. This is not portfolio weight.",
+    "identifier_type": "Type of external security identifier, when one is stated.",
+    "identifier_value": "External security identifier value paired with identifier_type.",
+    "identity_confidence": "Confidence level assigned to the resolved owner or target identity.",
+    "identity_confidence_basis": "The source evidence or rule used to assign identity confidence.",
+    "identity_confidence_reason": "Short reason for the assigned identity confidence.",
+    "identity_status": "Whether the owner or target identity is resolved, provisional, unresolved, or in conflict.",
+    "initial_investment_date": "Date the investment was first made, when stated.",
+    "instrument_kind": "Normalized kind of security or interest, such as fund interest, equity, loan, bond, or derivative.",
+    "instrument_status": "Whether the normalized instrument is active, matured, exited, or unknown.",
+    "investee_fund_id": "Resolved fund_master identifier when the investment target is a fund.",
+    "lookthrough_id": "Stable identifier of one source-supported look-through relationship.",
+    "matrix_rule_id": "Normalization decision-matrix rule that produced or changed this field, when applicable.",
+    "normalized_value": "Value stored after the stated normalization rule was applied.",
+    "origin_type": "How the normalized field or record was produced, such as direct source, source normalization, formula, completion, or fixture.",
+    "owner_fund_id": "fund_master identifier linked to the position owner when that owner is a fund.",
+    "owner_id": "Stable identifier of the economic or reporting owner of the position.",
+    "owner_kind": "Kind of owner, such as fund, investor, plan, portfolio, or other institution.",
+    "owner_role": "Role the owner plays in the source, such as reporting fund, reporting portfolio, plan owner, or legal owner.",
+    "parent_owner_id": "Owner above this owner in a reviewed reporting hierarchy, when one is stated.",
+    "parent_position_id": "Position from which a look-through relationship starts.",
+    "parent_target_id": "Target above this target in a reviewed target hierarchy, when one is stated.",
+    "position_class": "Normalized economic class of the position, such as direct company, fund interest, debt investment, or direct asset.",
+    "position_id": "Stable identifier of one owner-by-instrument position at its measurement grain.",
+    "printed_name_primary": "Primary investee name retained from the source before identity normalization.",
+    "quantity_raw": "Quantity exactly as printed before numeric normalization.",
+    "quantity_unit": "Unit attached to the normalized quantity, when stated.",
+    "rate_basis_raw": "Rate basis exactly as printed for a debt or other rate-bearing instrument.",
+    "rate_type": "Normalized rate type, such as fixed, floating, coupon, spread, other, or unknown.",
+    "realized_proceeds": "Cash proceeds already realized from the position, when stated.",
+    "record_type": "Normalized record kind whose field origin this lineage row describes: owner, target, instrument, position, or look-through.",
+    "relationship_confidence": "Confidence level assigned to a look-through relationship.",
+    "relationship_confidence_basis": "Evidence used to assign look-through relationship confidence.",
+    "relationship_confidence_reason": "Short reason for the look-through relationship confidence.",
+    "relationship_type": "Kind of direct look-through relationship supported by the source.",
+    "reported_value": "Source value retained under a generic reported-value heading when it is not fair value or market value.",
+    "root_fund_id": "Top-level fund from which the look-through path is measured.",
+    "secured_status": "Whether a debt instrument is secured, unsecured, or unknown.",
+    "security_title_raw": "Security or instrument title exactly as printed.",
+    "security_type_raw": "Security type exactly as printed before normalized instrument classification.",
+    "seniority": "Debt or security seniority where the source states it.",
+    "source_entity_id": "Existing extraction identity linked to this normalized owner when one is available.",
+    "source_holding_id": "Identifier of the reconstructed source holding from which this normalized position or field came.",
+    "source_observation_id": "Exact evidence-row identifier supporting this normalized field.",
+    "source_review_decision_id": "Source-review correction or decision identifier supporting this field, when applicable.",
+    "stated_rate": "Rate stated for the instrument after numeric normalization.",
+    "sub_sector": "More detailed sector classification when the source states it.",
+    "target_id": "Stable identifier of the economic investee named by an instrument.",
+    "target_kind": "Kind of investee, such as portfolio company, fund, project, real asset, other, or unresolved.",
+    "underlying_fund_id": "Immediate underlying fund named by a source-supported look-through relationship.",
+    "weight_basis": "Meaning of a look-through weight, such as reported ownership, NAV share, exposure, commitment share, or derived value share.",
+    "weight_fraction": "Normalized look-through weight expressed from 0 to 1.",
+    "weight_raw": "Look-through weight exactly as printed before normalization.",
+})
 
 
 def _vocabulary_definitions() -> dict[str, str]:

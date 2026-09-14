@@ -35,7 +35,7 @@ def test_document_type_contract_is_ledger_derived() -> None:
         encoding="utf-8-sig", newline=""
     ) as handle:
         expected = {row["doc_type"] for row in csv.DictReader(handle)}
-    assert len(expected) == 17
+    assert len(expected) == 20
     assert merge.valid_doc_types() == expected
 
 

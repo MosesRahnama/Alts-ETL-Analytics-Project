@@ -33,11 +33,18 @@ SKIP_NAMES = set(EXCLUDED_DIRECTORIES)
 FORBIDDEN_PARTS = {
     ".claude",
     ".codex",
-    ".github",
     "alts-sample-project",
     "edge-temp-src060",
     "project-audits",
     "tmp",
+}
+
+GITHUB_ALLOWLIST = {
+    ".github",
+    ".github/README.md",
+    ".github/workflows",
+    ".github/workflows/README.md",
+    ".github/workflows/alts-rag-offline.yml",
 }
 
 # The one sanctioned scratch folder. Banning the name everywhere left agents
@@ -155,6 +162,11 @@ def check_debris(errors: list[str]) -> None:
         if relative_parts and relative_parts[0] == SCRATCH_ROOT:
             continue
         parts = {part.casefold() for part in relative_parts}
+        rel = relative(path)
+        if rel == ".github" or rel.startswith(".github/"):
+            if rel not in GITHUB_ALLOWLIST:
+                errors.append(f"excluded debris present: {rel}")
+            continue
         if parts & FORBIDDEN_PARTS:
             errors.append(f"excluded debris present: {relative(path)}")
 
@@ -170,17 +182,17 @@ def check_source_contract(errors: list[str], verify_hashes: bool) -> None:
         rows = list(csv.DictReader(handle))
     with types_path.open(encoding="utf-8-sig", newline="") as handle:
         types = {row["doc_type"] for row in csv.DictReader(handle) if row.get("doc_type")}
-    if len(rows) != 442:
-        errors.append(f"source ledger has {len(rows)} rows, expected 442")
-    if len(types) != 17:
-        errors.append(f"document-type table has {len(types)} values, expected 17")
+    if len(rows) != 452:
+        errors.append(f"source ledger has {len(rows)} rows, expected 452")
+    if len(types) != 20:
+        errors.append(f"document-type table has {len(types)} values, expected 20")
     unknown = sorted({row["doc_type"] for row in rows} - types)
     if unknown:
         errors.append(f"source ledger uses unknown document types: {', '.join(unknown)}")
     local = {path.name: path for path in pdf_root.glob("*.pdf")}
     expected = {row["filename"]: row for row in rows}
     if local and set(local) != set(expected):
-        errors.append("local PDF cache does not match the 442 ledger filenames")
+        errors.append("local PDF cache does not match the 452 ledger filenames")
     if local and verify_hashes:
         for name, path in local.items():
             if sha256(path) != expected[name]["sha256"]:

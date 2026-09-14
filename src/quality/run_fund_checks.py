@@ -7,6 +7,7 @@ import csv
 import re
 from collections import defaultdict
 from datetime import date
+from decimal import Decimal, InvalidOperation
 from pathlib import Path
 from typing import Iterable, Mapping, Sequence
 
@@ -46,6 +47,59 @@ XIRR_EXCLUSIONS = "xirr-excluded-cashflow-types"
 PROVENANCE_RULES = "provenance-vocabulary"
 RESULT_ROUNDING = "rounding-policy"
 DEFAULT_TOLERANCE_POLICY = "quality-default-tolerances"
+SOURCE_EXCEPTIONS = "quality-source-exceptions"
+
+
+def publication_failure_errors(results, periods, observations, exceptions=None) -> list[str]:
+    """Reject every FAIL except an exact, source-supported exception."""
+    decisions = matrices.load(SOURCE_EXCEPTIONS) if exceptions is None else exceptions
+    by_period = {row["fund_period_id"]: row for row in periods}
+    by_observation = {row["observation_id"]: row for row in observations}
+    accepted = set()
+    errors = []
+    for rule in decisions:
+        key = (rule["input_value"], rule["rule_id"])
+        period = by_period.get(key[0], {})
+        source = by_observation.get(rule["observation_id"], {})
+        ids = {item.strip() for item in re.split(r"[;|]", period.get("input_observation_ids", ""))}
+        try:
+            same_amount = (Decimal(period.get(rule["field"], "")) == Decimal(rule["expected_value"])
+                           == Decimal(source.get("value_numeric", "")) * Decimal(source.get("unit_scale_multiplier", "")))
+            other_fields = rule.get("nonnegative_fields", "").split("|")
+            only_named_negative = all(Decimal(period.get(field, "")) >= 0 for field in other_fields)
+        except InvalidOperation:
+            same_amount = False
+            only_named_negative = False
+        valid = (
+            rule["output_value"] == "RETAIN_PRINTED_VALUE"
+            and period.get("provenance_type") == "EXTRACTED"
+            and not period.get("synthetic_parameter_set_id")
+            and period.get("source_document_id") == source.get("document_id") == rule["source_document_id"]
+            and source.get("source_page") == rule["source_page"]
+            and source.get("value_raw") == rule["printed_value"]
+            and source.get("currency") == period.get("currency") and bool(source.get("currency"))
+            and rule["observation_id"] in ids and same_amount and only_named_negative
+            and bool(rule.get("evidence")) and bool(rule.get("note"))
+        )
+        if not valid or key in accepted:
+            errors.append(f"Invalid source-quality exception: {key[0]} / {key[1]}")
+        else:
+            accepted.add(key)
+    failures = set()
+    for row in results:
+        if row.get("status") != "FAIL":
+            continue
+        key = (row.get("record_id"), row.get("rule_id"))
+        failures.add(key)
+        decision = next((r for r in decisions if (r["input_value"], r["rule_id"]) == key), {})
+        if (key not in accepted or row.get("record_table") != "fund_periods"
+                or row.get("source_document_id") != decision.get("source_document_id")
+                or row.get("synthetic_parameter_set_id")
+                or row.get("actual_value") != decision.get("expected_value")):
+            errors.append(f"Unreviewed quality failure: {key[0]} / {key[1]}")
+    for key in accepted - failures:
+        errors.append(f"Unused source-quality exception: {key[0]} / {key[1]}")
+    return errors
 
 
 def _rules_from(rule_set: str) -> tuple[tuple[str, str], ...]:

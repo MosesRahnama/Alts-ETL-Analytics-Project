@@ -97,6 +97,21 @@ SNAPSHOT_FILES = {
     "fund_holdings.csv",
     "fund_terms.csv",
     "fund_term_clauses.csv",
+    "investment_owner.csv",
+    "investment_target.csv",
+    "investment_instrument.csv",
+    "fund_position.csv",
+    "lookthrough_edge.csv",
+    "holding_field_lineage.csv",
+}
+
+NORMALIZED_FILES = {
+    "investment_owner.csv",
+    "investment_target.csv",
+    "investment_instrument.csv",
+    "fund_position.csv",
+    "lookthrough_edge.csv",
+    "holding_field_lineage.csv",
 }
 
 # Fund-model tables the promotion stage writes from the evidence tables.
@@ -302,6 +317,10 @@ def resolve(rel: str) -> tuple[str, str, str, str]:
         if name == "promotion-category-mismatches.csv":
             return FACTS, PROMOTE, "", ""
         return SOURCE_LEDGER, "", "source-lineage audit", ""
+    if rel == "data/extracted/audit/normalized-holdings-refusals.csv":
+        return "data/extracted/tables/fact_holding.csv", "src/load/build_normalized_holdings.py", "holdings normalization", ""
+    if rel == "data/normalization/holding-owner-map.csv":
+        return FACTS, "", "owner identity review", ""
     if rel == "audit/metric-vocabulary/misfiled-rows.csv":
         return FACTS, "", "metric-vocabulary audit", BRIEF_J.format(route="01-financials")
 
@@ -327,6 +346,8 @@ def resolve(rel: str) -> tuple[str, str, str, str]:
             return "data/csv/fund_periods.csv", "src/analytics/run_integrated_analytics.py", "", ""
         if name == "quality_results.csv":
             return "data/csv/fund_periods.csv", QUALITY, "", ""
+        if name in NORMALIZED_FILES:
+            return f"data/extracted/fund-level/{name}", INTEGRATE, "", ""
         if name in PROMOTED_FILES:
             return f"data/extracted/fund-level/{name}", INTEGRATE, "", ""
         return "", INTEGRATE, "", ""
@@ -340,6 +361,8 @@ def resolve(rel: str) -> tuple[str, str, str, str]:
             )
         if name == "quality_results.csv":
             return "data/extracted/fund-level/fund_periods.csv", QUALITY, "", ""
+        if name in NORMALIZED_FILES:
+            return FACTS, "src/load/build_normalized_holdings.py", "holdings normalization", ""
         if name in SNAPSHOT_FILES:
             return f"data/csv/{name}", INTEGRATE, "", ""
         return f"data/csv/{name}", PROMOTE, "", ""
@@ -389,6 +412,44 @@ def resolve(rel: str) -> tuple[str, str, str, str]:
             f"{SOURCE_LEDGER}|{ROUTING}|{SCOPE}|data/extracted/pdf-wide-coverage.csv",
             "src/repository/build_release_counts.py", "", "",
         )
+    if rel == "RAG/evaluation/cases.csv":
+        return "", "RAG/src/alts_rag/evaluate.py", "authored RAG evaluation cases", ""
+    if rel == "RAG/evaluation/results.csv":
+        return "RAG/evaluation/cases.csv", "RAG/src/alts_rag/evaluate.py", "", ""
+    if rel == "RAG/tests/fixtures/worklist.csv":
+        return "", "", "RAG fixture worklist", ""
+    if rel.startswith("RAG/tests/fixtures/corpus/") and rel.endswith(".csv"):
+        return "", "", "RAG fixture catalogue", ""
+    if rel == "Expansion/Data/Expansion-Data-Scrape-validated/validated-acquisition-targets.csv":
+        return "", "", "validated public expansion source queue", "Expansion/Data/EXPANSION-DATA-ROADMAP.md"
+    if rel == "Expansion/Data/02-discovery/acquisition-targets.csv":
+        return (
+            "Expansion/Data/Expansion-Data-Scrape-validated/validated-acquisition-targets.csv",
+            "Expansion/Data/Expansion-Data-Scrape-validated/acquire_and_admit.py",
+            "",
+            "Expansion/Data/EXPANSION-DATA-ROADMAP.md",
+        )
+    if rel == "Expansion/Data/03-acquisition/download-manifest.csv":
+        return (
+            "Expansion/Data/02-discovery/acquisition-targets.csv",
+            "Expansion/Data/Expansion-Data-Scrape-validated/acquire_and_admit.py",
+            "",
+            "Expansion/Data/EXPANSION-DATA-ROADMAP.md",
+        )
+    if rel.startswith("Expansion/Data/04-admission/") and rel.endswith(".csv"):
+        return (
+            "Expansion/Data/03-acquisition/download-manifest.csv",
+            "Expansion/Data/Expansion-Data-Scrape-validated/acquire_and_admit.py",
+            "",
+            "Expansion/Data/EXPANSION-DATA-ROADMAP.md",
+        )
+    if rel == "Expansion/Data/05-handoff/schema-discovery-worklist.csv":
+        return (
+            "Expansion/Data/04-admission/admission-ledger.csv",
+            "Expansion/Data/Expansion-Data-Scrape-validated/acquire_and_admit.py",
+            "",
+            "Expansion/Data/EXPANSION-DATA-ROADMAP.md",
+        )
     return "", "", "", ""
 
 
@@ -434,7 +495,7 @@ def main() -> None:
         print(f"current: {relative(OUTPUT)}")
         return
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
-    OUTPUT.write_text(text, encoding="utf-8")
+    OUTPUT.write_text(text, encoding="utf-8", newline="\n")
     rows = text.count("\n") - 1
     print(f"{relative(OUTPUT)}: {rows} rows")
 

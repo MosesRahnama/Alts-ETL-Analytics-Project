@@ -1056,6 +1056,7 @@ def validate_record_rows(
                 )
             elif stated != "unstated" and not (
                 row.get("definition_keys", "").strip() or row.get("basis_raw", "").strip()
+                or (dimension == "value_scope" and semantic_checks.scope_has_source_context(row))
             ):
                 errors.append(
                     f"{location}: {dimension} {stated!r} needs backing: cite the "
@@ -2995,10 +2996,15 @@ def publish_corpus(scope: str) -> tuple[int, int, list[dict[str, str]], list[str
         if stale:
             errors.append(f"{route}: {stale}; re-run `publish --route {route}`")
             continue
+        published_pages = read_strict_csv(round_coverage(route), ROUND_COVERAGE_COLUMNS)
+        if ([clean_row(row, COVERAGE_COLUMNS) for row in published_pages]
+                != [clean_row(row, COVERAGE_COLUMNS) for row in expected_coverage]):
+            errors.append(f"{route}: published page coverage differs from reviewed finals; re-run `publish --route {route}`")
+            continue
         records.extend(clean_row(row, ROUND_RECORD_COLUMNS) for row in published)
         coverage.extend(
             clean_row(row, ROUND_COVERAGE_COLUMNS)
-            for row in read_strict_csv(round_coverage(route), ROUND_COVERAGE_COLUMNS)
+            for row in published_pages
         )
     if errors:
         raise ContractFailure("Corpus publication blocked:\n- " + "\n- ".join(errors))
@@ -3037,6 +3043,10 @@ def _round_drift(published: Sequence[Mapping[str, str]],
     )
     if changed:
         return f"{changed} values differ from the documents"
+    changed_fields = {field for a, b in zip(published, expected)
+                      for field in RECORD_COLUMNS if a.get(field, "") != b.get(field, "")}
+    if changed_fields:
+        return "reviewed fields differ from the documents: " + ", ".join(sorted(changed_fields))
     return ""
 
 

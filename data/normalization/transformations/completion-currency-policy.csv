@@ -1,0 +1,5 @@
+input_value,output_value,decided_by,evidence,note
+supported_currency,currency_fallback,pipeline defect review,audit/pipeline-audit/OPEN-DEFECTS.csv D1,Completion uses the configured benchmark denomination; no FX series is supplied.
+foreign_currency,UNCONVERTED_FOREIGN_CURRENCY,pipeline defect review,SRC102 p10; SRC216 pp1-2,Retain source records and withhold generated monetary rows in unsupported currencies.
+currency_conflict,CONFLICTING_SOURCE_CURRENCIES,pipeline defect review,audit/pipeline-audit/OPEN-DEFECTS.csv D1,Conflicting source denominations require review before completion.
+unknown_currency,configured_fallback,pipeline defect review,config/integrated_completion.yml,Only a fund with no printed monetary denomination receives the explicit synthetic fallback.

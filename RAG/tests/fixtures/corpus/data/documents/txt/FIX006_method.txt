@@ -1,0 +1,6 @@
+===== FIX006 PAGE 1 of 2 | chars 52 | text native =====
+TOTAL FUND (Net of fees) 10.0 percent for the year.
+
+===== FIX006 PAGE 2 of 2 | chars 118 | text native =====
+Returns are calculated using the Modified Dietz Method. DIETZ (net).
+Note: See the methodology appendix on this page.

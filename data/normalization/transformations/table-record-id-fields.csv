@@ -1,4 +1,4 @@
-input_value,output_value,decided_by,evidence,note
+﻿input_value,output_value,decided_by,evidence,note
 fund_master,fund_id,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:282,
 document_fund_map,document_fund_map_id,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:282,
 fund_observations,observation_id,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:282,
@@ -7,3 +7,9 @@ fund_periods,fund_period_id,"pipeline literal, integrated universe",src/pipeline
 fund_terms,fund_term_id,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:282,
 fund_term_clauses,fund_term_clause_id,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:282,
 fund_holdings,holding_id,"pipeline literal, integrated universe",src/pipeline/build_integrated_universe.py:282,
+investment_owner,owner_id,"E01 owner-aware holdings repair, 2026-09-13",src/load/build_normalized_holdings.py,Stable record key for the normalized holdings table.
+investment_target,target_id,"E01 owner-aware holdings repair, 2026-09-13",src/load/build_normalized_holdings.py,Stable record key for the normalized holdings table.
+investment_instrument,instrument_id,"E01 owner-aware holdings repair, 2026-09-13",src/load/build_normalized_holdings.py,Stable record key for the normalized holdings table.
+fund_position,position_id,"E01 owner-aware holdings repair, 2026-09-13",src/load/build_normalized_holdings.py,Stable record key for the normalized holdings table.
+lookthrough_edge,lookthrough_id,"E01 owner-aware holdings repair, 2026-09-13",src/load/build_normalized_holdings.py,Stable record key for the normalized holdings table.
+holding_field_lineage,lineage_id,"E01 owner-aware holdings repair, 2026-09-13",src/load/build_normalized_holdings.py,Stable record key for the normalized holdings table.

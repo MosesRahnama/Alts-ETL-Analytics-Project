@@ -1,0 +1,104 @@
+entity_kind,raw_name,normalized_name,occurrences,documents,reason
+company,UMB Money Market II Special (3.4%),umb money market ii special 3 4,4,SRC623;SRC624,matrix has yet to settle this printed name
+company,MONEY MARKET II,money market ii,3,SRC625,matrix has yet to settle this printed name
+fund,Carlyle AlpInvest Private Markets Secondaries Fund,carlyle alpinvest private markets secondaries fund,21,SRC625,matrix has yet to settle this printed name
+fund,"PSG LM Sequel, L.P.",psg lm sequel,12,SRC623;SRC624,matrix has yet to settle this printed name
+fund,Alto Capital V,alto capital v,8,SRC623;SRC624;SRC625,matrix has yet to settle this printed name
+fund,"Apheon MidCap Buyout IV, SCSp",apheon midcap buyout iv scsp,8,SRC623;SRC624;SRC625,matrix has yet to settle this printed name
+fund,Apheon Opseo Long Term Value Fund SCSp,apheon opseo long term value fund scsp,8,SRC623;SRC624;SRC625,matrix has yet to settle this printed name
+fund,Apheon Svt Long Term Value Fund SCSp,apheon svt long term value fund scsp,8,SRC623;SRC624;SRC625,matrix has yet to settle this printed name
+fund,Audax Private Equity Beacon CF,audax private equity beacon cf,8,SRC623;SRC624;SRC625,matrix has yet to settle this printed name
+fund,"Bain Capital Beacon Holdings, L.P.",bain capital beacon holdings,8,SRC623;SRC624;SRC625,matrix has yet to settle this printed name
+fund,Bregal Unternehmerkapital IV-B SCSp,bregal unternehmerkapital iv b scsp,8,SRC623;SRC624;SRC625,matrix has yet to settle this printed name
+fund,"C2 Capital Global Export-To-China Fund, L.P.",c2 capital global export to china fund,8,SRC623;SRC624;SRC625,matrix has yet to settle this printed name
+fund,CF24XB SCSp,cf24xb scsp,8,SRC623;SRC624;SRC625,matrix has yet to settle this printed name
+fund,E.C.B. (Bastille) SCA,e c b bastille sca,8,SRC623;SRC624;SRC625,matrix has yet to settle this printed name
+fund,"GA Continuity Fund II, L.P.",ga continuity fund ii,8,SRC623;SRC624;SRC625,matrix has yet to settle this printed name
+fund,"LEP Red Rock Fund, L.P.",lep red rock fund,8,SRC623;SRC624;SRC625,matrix has yet to settle this printed name
+fund,Peak Rock Capital Fund IV-C NUS,peak rock capital fund iv c nus,8,SRC623;SRC624;SRC625,matrix has yet to settle this printed name
+fund,PrimeStone Capital Fund ICAV,primestone capital fund icav,8,SRC623;SRC624;SRC625,matrix has yet to settle this printed name
+fund,Sagard 3 FPCI,sagard 3 fpci,8,SRC623;SRC624;SRC625,matrix has yet to settle this printed name
+fund,Sagard 4A FPCI and Sagard 4B FIPS (A Shares),sagard 4a fpci and sagard 4b fips a shares,8,SRC623;SRC624;SRC625,matrix has yet to settle this printed name
+fund,Sagard II-A FPCI and Sagard II-B FPCI,sagard ii a fpci and sagard ii b fpci,8,SRC623;SRC624;SRC625,matrix has yet to settle this printed name
+fund,Sagard NewGen FPCI,sagard newgen fpci,8,SRC623;SRC624;SRC625,matrix has yet to settle this printed name
+fund,Sagard NewGen Pharma FPCI,sagard newgen pharma fpci,8,SRC623;SRC624;SRC625,matrix has yet to settle this printed name
+fund,Sagard Testing FPCI,sagard testing fpci,8,SRC623;SRC624;SRC625,matrix has yet to settle this printed name
+fund,"Stone Point CV, L.P.",stone point cv,8,SRC623;SRC624;SRC625,matrix has yet to settle this printed name
+fund,Apheon MidCap Buyout VI SCSp,apheon midcap buyout vi scsp,6,SRC623;SRC624,matrix has yet to settle this printed name
+fund,"Backed 1, L.P.",backed 1,6,SRC623;SRC624,matrix has yet to settle this printed name
+fund,"Backed 2, L.P.",backed 2,6,SRC623;SRC624,matrix has yet to settle this printed name
+fund,"Churchill Secondary Partners II, L.P.",churchill secondary partners ii,6,SRC623;SRC624,matrix has yet to settle this printed name
+fund,"ECI 12 Special Purpose, L.P.",eci 12 special purpose,6,SRC623;SRC624,matrix has yet to settle this printed name
+fund,"Elysium Acquisition, L.P.",elysium acquisition,6,SRC623;SRC624,matrix has yet to settle this printed name
+fund,"Epiris Fund III (B), L.P.",epiris fund iii b,6,SRC623;SRC624,matrix has yet to settle this printed name
+fund,"Hg Saturn 4 B, L.P.",hg saturn 4 b,6,SRC623;SRC624,matrix has yet to settle this printed name
+fund,"Hidden Harbor Capital Partners Continuation Fund, L.P.",hidden harbor capital partners continuation fund,6,SRC623;SRC624,matrix has yet to settle this printed name
+fund,"KKR Azur Co-lnvest, L.P.",kkr azur lnvest,6,SRC623;SRC624,matrix has yet to settle this printed name
+fund,"KKR Rainbow Co-lnvest (Asset), L.P.",kkr rainbow lnvest asset,6,SRC623;SRC624,matrix has yet to settle this printed name
+fund,"KKR Sigma Co-lnvest II, L.P.",kkr sigma lnvest ii,6,SRC623;SRC624,matrix has yet to settle this printed name
+fund,One Equity Partners IX-B SCSp,one equity partners ix b scsp,6,SRC623;SRC624,matrix has yet to settle this printed name
+fund,"PSG Europe II, L.P.",psg europe ii,6,SRC623;SRC624,matrix has yet to settle this printed name
+fund,"PSG Fidelity Co-Invest, L.P.",psg fidelity invest,6,SRC623;SRC624,matrix has yet to settle this printed name
+fund,"PSG V, L.P.",psg v,6,SRC623;SRC624,matrix has yet to settle this printed name
+fund,"PSG VI, L.P.",psg vi,6,SRC623;SRC624,matrix has yet to settle this printed name
+fund,"Providence Strategic Growth Europe, L.P.",providence strategic growth europe,6,SRC623;SRC624,matrix has yet to settle this printed name
+fund,"Providence Strategic Growth II, L.P.",providence strategic growth ii,6,SRC623;SRC624,matrix has yet to settle this printed name
+fund,"Providence Strategic Growth III, L.P.",providence strategic growth iii,6,SRC623;SRC624,matrix has yet to settle this printed name
+fund,"Providence Strategic Growth IV, L.P.",providence strategic growth iv,6,SRC623;SRC624,matrix has yet to settle this printed name
+fund,"Providence Strategic Growth, L.P.",providence strategic growth,6,SRC623;SRC624,matrix has yet to settle this printed name
+fund,"Warburg Pincus Capital Solutions Founders Fund, L.P.",warburg pincus capital solutions founders fund,6,SRC623;SRC624,matrix has yet to settle this printed name
+fund,Apheon AlliA,apheon allia,5,SRC624;SRC625,matrix has yet to settle this printed name
+fund,Madison Dearborn Capital Partners IX,madison dearborn capital partners ix,5,SRC624;SRC625,matrix has yet to settle this printed name
+fund,Madison Dearborn Capital Partners VIII,madison dearborn capital partners viii,5,SRC624;SRC625,matrix has yet to settle this printed name
+fund,PSG LM Sequel L.P.,psg lm sequel,4,SRC625,matrix has yet to settle this printed name
+fund,Apheon Special Opportunities Fund SCA,apheon special opportunities fund sca,3,SRC623,matrix has yet to settle this printed name
+fund,"Apollo Overseas Partners (Delaware 892) IX, L.P.",apollo overseas partners delaware 892 ix,3,SRC623,matrix has yet to settle this printed name
+fund,"Bain Capital Tremont Holdings, L.P.",bain capital tremont holdings,3,SRC623,matrix has yet to settle this printed name
+fund,CVC Capital Partners VIII (A) L.P.,cvc capital partners viii a,3,SRC623,matrix has yet to settle this printed name
+fund,"Churchill Secondary Partners III, L.P.",churchill secondary partners iii,3,SRC623,matrix has yet to settle this printed name
+fund,"Court Square Capital Partners IV-A, L.P.",court square capital partners iv a,3,SRC623,matrix has yet to settle this printed name
+fund,"Court Square Capital Partners V, L.P.",court square capital partners v,3,SRC623,matrix has yet to settle this printed name
+fund,"EAG Holdings, L.P.",eag holdings,3,SRC623,matrix has yet to settle this printed name
+fund,"Glow Mint Mit 2 Pty, Ltd.",glow mint mit 2 pty,3,SRC623,matrix has yet to settle this printed name
+fund,"Green Equity Investors Side VII, L.P.",green equity investors side vii,3,SRC623,matrix has yet to settle this printed name
+fund,"Green Equity Investors Side X, L.P.",green equity investors side x,3,SRC623,matrix has yet to settle this printed name
+fund,LM Simba CV Feeder,lm simba cv feeder,3,SRC623,matrix has yet to settle this printed name
+fund,"Madison Dearborn Capital Partners IX-C, L.P.",madison dearborn capital partners ix c,3,SRC623,matrix has yet to settle this printed name
+fund,"Madison Dearborn Capital Partners VIII-C, L.P.",madison dearborn capital partners viii c,3,SRC623,matrix has yet to settle this printed name
+fund,Merieux Participations 2 SAS,merieux participations 2 sas,3,SRC623,matrix has yet to settle this printed name
+fund,Merieux Participations SAS,merieux participations sas,3,SRC623,matrix has yet to settle this printed name
+fund,"OEP Jupiter, L.P.",oep jupiter,3,SRC623,matrix has yet to settle this printed name
+fund,"Portage Capital Solutions Intenational Fund I, L.P.",portage capital solutions intenational fund i,3,SRC624,matrix has yet to settle this printed name
+fund,"Portage Capital Solutions International Fund I, L.P.",portage capital solutions international fund i,3,SRC623,matrix has yet to settle this printed name
+fund,"Apheon MidCap Buyout VI, SCSp",apheon midcap buyout vi scsp,2,SRC625,matrix has yet to settle this printed name
+fund,Backed 1 LP,backed 1,2,SRC625,matrix has yet to settle this printed name
+fund,Backed 2 LP,backed 2,2,SRC625,matrix has yet to settle this printed name
+fund,"Churchill Secondary Partners II,L.P.",churchill secondary partners ii,2,SRC625,matrix has yet to settle this printed name
+fund,ECI 12 Special Purpose LP,eci 12 special purpose,2,SRC625,matrix has yet to settle this printed name
+fund,Elysium Acquisition LP,elysium acquisition,2,SRC625,matrix has yet to settle this printed name
+fund,Epiris Fund III (B) L.P.,epiris fund iii b,2,SRC625,matrix has yet to settle this printed name
+fund,Hg Saturn 4 B L.P.,hg saturn 4 b,2,SRC625,matrix has yet to settle this printed name
+fund,Hidden Harbor Capital Partners Continuation Fund L.P.,hidden harbor capital partners continuation fund,2,SRC625,matrix has yet to settle this printed name
+fund,KKR Azur Co-lnvest L.P.,kkr azur lnvest,2,SRC625,matrix has yet to settle this printed name
+fund,KKR Rainbow Co-lnvest (Asset) L.P.,kkr rainbow lnvest asset,2,SRC625,matrix has yet to settle this printed name
+fund,KKR Sigma Co-lnvest II L.P.,kkr sigma lnvest ii,2,SRC625,matrix has yet to settle this printed name
+fund,One Equity Partners IX-B SCSp.,one equity partners ix b scsp,2,SRC625,matrix has yet to settle this printed name
+fund,PSG Europe II L.P.,psg europe ii,2,SRC625,matrix has yet to settle this printed name
+fund,PSG Fidelity Co-Invest L.P.,psg fidelity invest,2,SRC625,matrix has yet to settle this printed name
+fund,PSG V L.P.,psg v,2,SRC625,matrix has yet to settle this printed name
+fund,PSG VI L.P.,psg vi,2,SRC625,matrix has yet to settle this printed name
+fund,Portage Capital Solutions Intenational Fund I LP,portage capital solutions intenational fund i,2,SRC625,matrix has yet to settle this printed name
+fund,Providence Strategic Growth Europe L.P.,providence strategic growth europe,2,SRC625,matrix has yet to settle this printed name
+fund,Providence Strategic Growth II L.P.,providence strategic growth ii,2,SRC625,matrix has yet to settle this printed name
+fund,Providence Strategic Growth III L.P.,providence strategic growth iii,2,SRC625,matrix has yet to settle this printed name
+fund,Providence Strategic Growth IV L.P.,providence strategic growth iv,2,SRC625,matrix has yet to settle this printed name
+fund,Providence Strategic Growth L.P.,providence strategic growth,2,SRC625,matrix has yet to settle this printed name
+fund,"Warburg Pincus Capital Solutions Founders Fund, LP",warburg pincus capital solutions founders fund,2,SRC625,matrix has yet to settle this printed name
+fund,Class I,class i,1,SRC623,matrix has yet to settle this printed name
+fund,Class U,class u,1,SRC623,matrix has yet to settle this printed name
+lp,AlpInvest Seed Fund II L.P,alpinvest seed fund ii,93,SRC623,matrix has yet to settle this printed name
+lp,"AlpInvest Seed Fund II, L.P",alpinvest seed fund ii,81,SRC624,matrix has yet to settle this printed name
+lp,AlpInvest CAPS Blocker LLC,alpinvest caps blocker,78,SRC623,matrix has yet to settle this printed name
+lp,"AlpInvest CAPS Blocker, LLC",alpinvest caps blocker,72,SRC624,matrix has yet to settle this printed name
+lp,"AlpInvest CAPS Holdings, LLC",alpinvest caps holdings,30,SRC623,matrix has yet to settle this printed name
+lp,Carlyle AlpInvest Private Markets Secondaries Fund,carlyle alpinvest private markets secondaries fund,4,SRC623;SRC624,matrix has yet to settle this printed name

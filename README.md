@@ -1,5 +1,7 @@
 # AI-Powered Alternative Investment ETL and Analytics
 
+The live dashboard contains 36 extracted documents and 9,128 evidence rows, using the files in [dashboard-data](dashboard-data/README.md). Repository code and its source tables retain their existing release.
+
 ## **[Open the live dashboard](https://mosesrahnama.github.io/Alts-ETL-Analytics-Project/dashboard.html)**
 
 Public investment reports become reviewed evidence, normalized fund records, and reproducible analytics. The corpus contains 452 PDFs across 19 document types; 36 documents have completed extraction, with 8,613 evidence records and 693 covered pages. The dashboard presents the data, methods, quality controls, and analysis.
